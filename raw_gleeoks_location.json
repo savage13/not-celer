@@ -1,0 +1,254 @@
+[
+  {
+    "objid": "21129",
+    "map_type": "MainField",
+    "Location": "Biron Snowshelf",
+    "Id": "G02",
+    "hash_id": "0xfcc9c08d9415f872",
+    "name": "Enemy_Drake_Ice",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -3743.29,
+      502.0,
+      -2991.56
+    ]
+  },
+  {
+    "objid": "29143",
+    "map_type": "MainField",
+    "Location": "Ancient Columns",
+    "Id": "G05",
+    "hash_id": "0x2526a2e721c46c88",
+    "name": "Enemy_Drake_Fire",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -3624.72,
+      365.43,
+      -420.24
+    ]
+  },
+  {
+    "objid": "32759",
+    "map_type": "MainField",
+    "Location": "Gerudo Highlands",
+    "Id": "G06",
+    "hash_id": "0x6659a6fac5a604df",
+    "name": "Enemy_Drake_Ice",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -4023.77,
+      813.94,
+      955.5
+    ]
+  },
+  {
+    "objid": "73512",
+    "map_type": "MainField",
+    "Location": "Spectacle Rock",
+    "Id": "G09",
+    "hash_id": "0xb5c14744b5c2f0f4",
+    "name": "Enemy_Drake_Fire",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -2114.5,
+      507.07,
+      2639.78
+    ]
+  },
+  {
+    "objid": "78116",
+    "map_type": "MainField",
+    "Location": "South Tabantha Snowfield",
+    "Id": "G01",
+    "hash_id": "0xeebc791dcad54787",
+    "name": "Enemy_Drake_Ice",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -1834.5,
+      354.0,
+      -3009.06
+    ]
+  },
+  {
+    "objid": "96467",
+    "map_type": "MainField",
+    "Location": "Coliseum Ruins",
+    "Id": "G07",
+    "hash_id": "0x31744f7816dd5de7",
+    "name": "Enemy_Drake_Electric",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -1150.15,
+      152.19,
+      1262.97
+    ]
+  },
+  {
+    "objid": "128309",
+    "map_type": "MainField",
+    "Location": "Bridge of Hylia",
+    "Id": "G08",
+    "hash_id": "0x2db15608b3e7a804",
+    "name": "Enemy_Drake_Fire",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -47.47,
+      145.0,
+      2491.1
+    ]
+  },
+  {
+    "objid": "204101",
+    "map_type": "MainField",
+    "Location": "Faron",
+    "Id": "G10",
+    "hash_id": "0xf481455f6b06d972",
+    "name": "Enemy_Drake_Electric",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      1059.0,
+      183.93,
+      3614.0
+    ]
+  },
+  {
+    "objid": "219241",
+    "map_type": "MainField",
+    "Location": "Eldin",
+    "Id": "G04",
+    "hash_id": "0x617c3fd2659c63fc",
+    "name": "Enemy_Drake_Fire",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      2238.5,
+      900.0,
+      -693.5
+    ]
+  },
+  {
+    "objid": "247867",
+    "map_type": "MainField",
+    "Location": "Akkala",
+    "Id": "G03",
+    "hash_id": "0xe0a91bfe4ab7bc32",
+    "name": "Enemy_Drake_Electric",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      3422.8,
+      442.7,
+      -1298.45
+    ]
+  },
+  {
+    "objid": "500990",
+    "map_type": "MainField",
+    "Location": "Hebra Sky",
+    "Id": "S01",
+    "hash_id": "0xf113be5d455d6956",
+    "name": "Enemy_Drake_Mix",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -4470.63,
+      1389.9,
+      -2275.43
+    ]
+  },
+  {
+    "objid": "501147",
+    "map_type": "MainField",
+    "Location": "Gerudo Sky",
+    "Id": "S02",
+    "hash_id": "0x2ea860e965c643f1",
+    "name": "Enemy_Drake_Mix",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -4447.82,
+      1556.13,
+      2627.47
+    ]
+  },
+  {
+    "objid": "501359",
+    "map_type": "MainField",
+    "Location": "Necluda Sky",
+    "Id": "S03",
+    "hash_id": "0xd064b8c5f77b77d9",
+    "name": "Enemy_Drake_Mix",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      4652.31,
+      1201.97,
+      3724.45
+    ]
+  },
+  {
+    "objid": "399970",
+    "map_type": "MinusField",
+    "Location": "Gleeok Den",
+    "Id": "D01",
+    "hash_id": "0xf337052fe9b2958d",
+    "name": "Enemy_Drake_Mix",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      333.52,
+      -463.91,
+      -3122.09
+    ]
+  }
+]

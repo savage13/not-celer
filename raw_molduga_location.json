@@ -1,0 +1,74 @@
+[
+  {
+    "objid": "11489",
+    "map_type": "MainField",
+    "Location": "Toruma Dunes",
+    "Id": "SG04",
+    "hash_id": "0x0a00113ed5e79610",
+    "name": "Enemy_Sandworm",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -4797.12,
+      133.21,
+      2800.42
+    ]
+  },
+  {
+    "objid": "11775",
+    "map_type": "MainField",
+    "Location": "Northern Gerudo Desert",
+    "Id": "SG01",
+    "hash_id": "0xdf8f967c7441e7fe",
+    "name": "Enemy_Sandworm",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -4029.0,
+      148.9,
+      2589.12
+    ]
+  },
+  {
+    "objid": "45798",
+    "map_type": "MainField",
+    "Location": "Central Gerudo Desert",
+    "Id": "SG02",
+    "hash_id": "0x0a00113e4927f094",
+    "name": "Enemy_Sandworm",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -3323.2,
+      121.37,
+      3315.89
+    ]
+  },
+  {
+    "objid": "76225",
+    "map_type": "MainField",
+    "Location": "Siwakama Shrine",
+    "Id": "SG03",
+    "hash_id": "0xd99cee361966b53a",
+    "name": "Enemy_Sandworm",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -2401.0,
+      128.08,
+      3268.04
+    ]
+  }
+]

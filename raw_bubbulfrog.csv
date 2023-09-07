@@ -1,0 +1,148 @@
+objid,map_type,map_name,hash_id,name,scale,equip,map_static,korok_id,korok_type,x,y,z
+44819,MainField,B-8,0x3deff0b2c6f35893,Enemy_CaveMaster_Senior,0,None,0,None,None,-3217.25,60.91,3120.65
+90547,MainField,D-5,0x321dc2e01aff8c82,Enemy_CaveMaster_000,0,None,0,None,None,-1347.54,92.22,242.83
+159933,MainField,F-7,0xc62e49bdd034722e,Enemy_CaveMaster_Middle,0,None,0,None,None,607.13,129.94,2930.16
+159940,MainField,F-7,0xb8a703d79052b5bc,Enemy_CaveMaster_Senior,0,None,0,None,None,861.57,105.19,2888.97
+165450,MainField,F-8,0x06dad54583da93de,Enemy_CaveMaster_Middle,0,None,0,None,None,471.7,127.61,3550.75
+165451,MainField,F-8,0x885e9854c01d1f50,Enemy_CaveMaster_Middle,0,None,0,None,None,576.89,121.7,3132.62
+178825,MainField,G-3,0x34518c9cecd51070,Enemy_CaveMaster_Middle,0,None,0,None,None,1766.89,424.19,-2062.45
+191325,MainField,G-6,0x2cf40b1ba20d4010,Enemy_CaveMaster_Middle,0,None,0,None,None,1873.52,294.53,1161.82
+196792,MainField,G-7,0x5ac2bd45c3f6e8a3,Enemy_CaveMaster_Senior,0,None,0,None,None,1132,192.51,2333.64
+201301,MainField,G-8,0x0e3190ebdc4c448e,Enemy_CaveMaster_Senior,0,None,0,None,None,1716.98,182.05,3708.3
+201690,MainField,G-8,0x632df3675d11e8a5,Enemy_CaveMaster_Senior,0,None,0,None,None,1574.79,126.33,2974.5
+216907,MainField,H-4,0xc608bb69be07fecb,Enemy_CaveMaster_000,0,None,0,None,None,2617.98,304.21,-558.33
+216913,MainField,H-4,0xfc1296e19576855c,Enemy_CaveMaster_Middle,0,None,0,None,None,2254.9,159.05,-102.2
+216915,MainField,H-4,0xbbde7a7a61d4fcaf,Enemy_CaveMaster_000,0,None,0,None,None,2815.69,301.53,-511.79
+216919,MainField,H-4,0xcc0e9a1b4171f855,Enemy_CaveMaster_000,0,None,0,None,None,2966.04,271.33,-419.57
+216924,MainField,H-4,0x84e2e5b45a1ba0cb,Enemy_CaveMaster_000,0,None,0,None,None,2651.58,199.01,-257.61
+222008,MainField,H-5,0x0ad9f3123d0c10e7,Enemy_CaveMaster_000,0,None,0,None,None,2926.48,206.42,71.18
+225487,MainField,H-6,0xee4636bcc57dd2a7,Enemy_CaveMaster_Middle,0,None,0,None,None,2540.87,97.14,1513.25
+226052,MainField,H-6,0x58f8f85f62f83a7c,Enemy_CaveMaster_Middle,0,None,0,None,None,2703.4,217.29,1459.61
+250382,MainField,I-4,0x100e8f73ebff5c75,Enemy_CaveMaster_000,0,None,0,None,None,3692.69,304.71,-641.05
+250398,MainField,I-4,0x072241f662d35cd4,Enemy_CaveMaster_000,0,None,0,None,None,3927.83,324.5,-388.28
+250715,MainField,I-4,0xb817aeb2581b040c,Enemy_CaveMaster_000,0,None,0,None,None,3044.68,337.7,-741.85
+251335,MainField,I-4,0x1233a2e566944158,Enemy_CaveMaster_000,0,None,0,None,None,3688.23,408.35,-517.16
+254980,MainField,I-5,0x0cacfa038648c55c,Enemy_CaveMaster_000,0,None,0,None,None,3041.42,228.91,215.41
+277726,MainField,J-5,0xa15f6b4b88baef04,Enemy_CaveMaster_Middle,0,None,0,None,None,4421.72,142.25,754.88
+280949,MainField,J-8,0xb1677475d92742cd,Enemy_CaveMaster_Senior,0,None,0,None,None,4604.66,111.09,3765.03
+516167,MainField,Sky__StartIslandMerge2 ,0x97bbbc2bc486219d,Enemy_CaveMaster_000,0,None,0,None,None,408.95,1507.24,1681.02
+516270,MainField,Sky__StartIslandMerge2 ,0x1c2a653e0d7517d5,Enemy_CaveMaster_000,0,None,0,None,None,246.8,1479.65,1612.31
+516783,MainField,Sky__StartIslandMerge2 ,0x58654bbba3c8d047,Enemy_CaveMaster_000,0,None,0,None,None,627.99,1571.33,1635.91
+517140,MainField,Sky__StartIslandMerge2 ,0x50b82b2016f7452d,Enemy_CaveMaster_000,0,None,0,None,None,739.14,1599.76,1445.08
+521724,MainField,Cave__Cave_Akkala_0000_GroupSet_000 ,0x4a2ef034a266c318,Enemy_CaveMaster_Middle,0,None,0,None,None,4195.69,334.19,-607.6
+521821,MainField,Cave__Cave_Akkala_0003_GroupSet_000 ,0x156516036b5f7fc7,Enemy_CaveMaster_Middle,0,None,0,None,None,4382.61,244.17,-774.24
+521912,MainField,Cave__Cave_Akkala_0005 ,0x6e50fe88e2738a3c,Enemy_CaveMaster_Senior,0,None,0,None,None,3936.56,224.86,-1584.05
+521966,MainField,Cave__Cave_Akkala_0007_GroupSet_000 ,0x155fed47fb6077bd,Enemy_CaveMaster_Senior,0,None,0,None,None,3695.28,178.77,-1525.86
+522018,MainField,Cave__Cave_Akkala_0010_GroupSet_000 ,0x9b41bd191c8bb899,Enemy_CaveMaster_Middle,0,None,0,None,None,3327,423.37,-1530.03
+522103,MainField,Cave__Cave_Akkala_0011_GroupSet_000 ,0xa9ff1552bc313753,Enemy_CaveMaster_Senior,0,None,0,None,None,3416.99,-18.37,-3382.12
+522409,MainField,Cave__Cave_Akkala_0014_GroupSet_000 ,0x511159c4323fab13,Enemy_CaveMaster_Middle,0,None,0,None,None,4650.08,102.05,-3589.66
+522619,MainField,Cave__Cave_Akkala_0017_GroupSet_000 ,0x5bbd526f3daa3081,Enemy_CaveMaster_Middle,0,None,0,None,None,3278.21,505.07,-1454.44
+522665,MainField,Cave__Cave_CentralHyrule_0008_GroupSet_000 ,0x7b7909c85ad79904,Enemy_CaveMaster_000,0,None,0,None,None,30.94,140.78,155.44
+522746,MainField,Cave__Cave_CentralHyrule_0009_GroupSet_000 ,0x1660d416b82cb91e,Enemy_CaveMaster_Senior,0,None,0,None,None,-783.92,129.53,1552.85
+523078,MainField,Cave__Cave_CentralHyrule_0018_GroupSet_000 ,0xb1cb80868f44056b,Enemy_CaveMaster_Middle,0,None,0,None,None,-217.33,64.63,-724.5
+523532,MainField,Cave__Cave_CentralHyrule_0020_GroupSet_000 ,0x23b66324b2fbcd2c,Enemy_CaveMaster_000,0,None,0,None,None,-1093.33,84.32,426.02
+523748,MainField,Cave__Cave_CentralHyrule_0021_GroupSet_000 ,0x159d350c47a80e2b,Enemy_CaveMaster_000,0,None,0,None,None,-129.3,120.94,1053.79
+523905,MainField,Cave__Cave_CentralHyrule_0022_GroupSet_000 ,0x7dde1613bbe08fce,Enemy_CaveMaster_000,0,None,0,None,None,-523.87,148.48,-195.99
+523978,MainField,Cave__Cave_CentralHyrule_0023_GroupSet_000 ,0x1b60a95b467464e5,Enemy_CaveMaster_Middle,0,None,0,None,None,-1127.31,146.6,1281.52
+524075,MainField,Cave__Cave_Eldin_0020_GroupSet_000 ,0xdefd953612e03084,Enemy_CaveMaster_Middle,0,None,0,None,None,2692.42,636.21,-2627.68
+524268,MainField,Cave__Cave_Eldin_0021_GroupSet_000 ,0x1b88a5b0512f7da7,Enemy_CaveMaster_Middle,0,None,0,None,None,2385.58,629.36,-2739.17
+524394,MainField,Cave__Cave_Eldin_0022_GroupSet_000 ,0x184db669cf152043,Enemy_CaveMaster_Middle,0,None,0,None,None,2496.71,573.22,-2960.78
+524540,MainField,Cave__Cave_Eldin_0023_GroupSet_000 ,0xe22736ed43f4a0b1,Enemy_CaveMaster_Middle,0,None,0,None,None,1758.44,344.07,-2923.39
+525328,MainField,Cave__Cave_Eldin_0025_GroupSet_000 ,0xa7ecb0ec036d9b51,Enemy_CaveMaster_Middle,0,None,0,None,None,1417.87,399.04,-2201.81
+525630,MainField,Cave__Cave_Eldin_0027_GroupSet_000 ,0x69a87dc5d38237da,Enemy_CaveMaster_Middle,0,None,0,None,None,2251.05,505.2,-2116.35
+525735,MainField,Cave__Cave_Eldin_0028_GroupSet_000 ,0xb25955eb61a16781,Enemy_CaveMaster_Middle,0,None,0,None,None,1615.49,373.87,-1793.34
+525862,MainField,Cave__Cave_Eldin_0029_GroupSet_000 ,0xb6e3676cf0a11119,Enemy_CaveMaster_Middle,0,None,0,None,None,1884.52,398.38,-1820.18
+525926,MainField,Cave__Cave_Eldin_0030_GroupSet_000 ,0xc3552ebff380383b,Enemy_CaveMaster_Middle,0,None,0,None,None,2247.34,527.05,-3084.58
+526002,MainField,Cave__Cave_Eldin_0031_GroupSet_000 ,0xb6e06b49e63866ae,Enemy_CaveMaster_Middle,0,None,0,None,None,2456.34,251.49,-1946.33
+526244,MainField,Cave__Cave_Eldin_0033_GroupSet_000 ,0xa70272e5417b4a61,Enemy_CaveMaster_Middle,0,None,0,None,None,1790.91,472.2,-2918.54
+526345,MainField,Cave__Cave_Eldin_0034_GroupSet_000 ,0xdd7742ab1e6ede08,Enemy_CaveMaster_Middle,0,None,0,None,None,1580.88,495.73,-2709.17
+526523,MainField,Cave__Cave_Eldin_0035_GroupSet_000 ,0xcf9929ffddbfc07a,Enemy_CaveMaster_Middle,0,None,0,None,None,2137.35,533.71,-2692.01
+526705,MainField,Cave__Cave_Eldin_0037_GroupSet_000 ,0xfb519d90f20dc4ee,Enemy_CaveMaster_Middle,0,None,0,None,None,2017.01,237.34,-1397.38
+526783,MainField,Cave__Cave_Eldin_0039_GroupSet_000 ,0xc4355d66a6690f54,Enemy_CaveMaster_Middle,0,None,0,None,None,2225.51,270.62,-1537.53
+526825,MainField,Cave__Cave_Eldin_GroupSet_000 ,0xd2ee79393cbbaad9,Enemy_CaveMaster_Middle,0,None,0,None,None,2540.22,258.72,-1356.36
+527343,MainField,Cave__Cave_Firone_0016_GroupSet_000 ,0x458c6cef1846e12b,Enemy_CaveMaster_000,0,None,0,None,None,-208.18,154.52,2999.91
+527762,MainField,Cave__Cave_Firone_0023_GroupSet_000 ,0x38bd19020ca751c7,Enemy_CaveMaster_000,0,None,0,None,None,154.55,33.18,2486.23
+527903,MainField,Cave__Cave_Firone_0024 ,0x31cc9701a074e3b0,Enemy_CaveMaster_Middle,0,None,0,None,None,620.74,167.97,2155.99
+527958,MainField,Cave__Cave_Firone_0029_GroupSet_000 ,0x050c414f2b5651ca,Enemy_CaveMaster_Middle,0,None,0,None,None,284.61,169.98,3786.18
+528058,MainField,Cave__Cave_FirstPlateau_0001_GroupSet_000 ,0x614231f0d886941b,Enemy_CaveMaster_Senior,0,None,0,None,None,-1125.22,250.54,2189.66
+528134,MainField,Cave__Cave_FirstPlateau_0007_GroupSet_000 ,0xa2b05f3b5f7adc95,Enemy_CaveMaster_Senior,0,None,0,None,None,-1111.08,241.99,1879.9
+528234,MainField,Cave__Cave_GerudoDesert_0007_GroupSet_000 ,0x7482ff34ebf0b87e,Enemy_CaveMaster_Senior,0,None,0,None,None,-3813.38,106.25,2544.51
+529094,MainField,Cave__Cave_GerudoDesert_0008_GroupSet_000 ,0x29a44d4b7fd0af2a,Enemy_CaveMaster_Senior,0,None,0,None,None,-3794.32,110.95,2745.45
+529928,MainField,Cave__Cave_GerudoDesert_0015_GroupSet_000 ,0xe3611f71daf6d5ba,Enemy_CaveMaster_Senior,0,None,0,None,None,-3335.04,71.65,2953.43
+530119,MainField,Cave__Cave_GerudoDesert_0022_GroupSet_000 ,0x8f2597bea617d6e3,Enemy_CaveMaster_Middle,0,None,0,None,None,-1889.47,153.29,1962.06
+530190,MainField,Cave__Cave_GerudoDesert_0030_GroupSet_000 ,0xddef122374bae30a,Enemy_CaveMaster_Middle,0,None,0,None,None,-1517.78,102.37,2228.49
+530219,MainField,Cave__Cave_GerudoDesert_0031_GroupSet_000 ,0xe4c4b48aba3e28a0,Enemy_CaveMaster_Senior,0,None,0,None,None,-2729.76,61.46,2876.6
+530364,MainField,Cave__Cave_GerudoDesert_0032_GroupSet_000 ,0x639b0aae3c2a3ab9,Enemy_CaveMaster_Senior,0,None,0,None,None,-3673.65,82.1,3267.18
+530489,MainField,Cave__Cave_GerudoDesert_0035_GroupSet_000 ,0xddaa275cff3c1b9d,Enemy_CaveMaster_Middle,0,None,0,None,None,-1784.23,130.31,2173.19
+530566,MainField,Cave__Cave_GerudoDesert_0036_GroupSet_000 ,0x0d8028a1c5d3e072,Enemy_CaveMaster_Middle,0,None,0,None,None,-1766.75,89.56,2410.19
+530622,MainField,Cave__Cave_GerudoDesert_0037_GroupSet_000 ,0xaae790dff13c1d4a,Enemy_CaveMaster_Middle,0,None,0,None,None,-2234.44,357.05,2433.9
+531702,MainField,Cave__Cave_GerudoDesert_0040_GroupSet_000 ,0x2eaec0e8f7736bc1,Enemy_CaveMaster_Senior,0,None,0,None,None,-3005.75,110.74,3802.24
+531811,MainField,Cave__Cave_GerudoDesert_0041_GroupSet_000 ,0x7c1f14d70520c5ac,Enemy_CaveMaster_Middle,0,None,0,None,None,-2198.09,225.9,1812.99
+531905,MainField,Cave__Cave_GerudoDesert_0044_GroupSet_000 ,0x6d4f284dfe6f6350,Enemy_CaveMaster_Senior,0,None,0,None,None,-2513.11,88.92,3723.81
+532733,MainField,Cave__Cave_GerudoDesert_0045_GroupSet_000 ,0x32d663740087df2b,Enemy_CaveMaster_Senior,0,None,0,None,None,-3257.65,116.02,2674.62
+532857,MainField,Cave__Cave_GerudoDesert_0046_GroupSet_000 ,0xc0f95a0f2b1217d9,Enemy_CaveMaster_Senior,0,None,0,None,None,-4988.65,74,3885.64
+533179,MainField,Cave__Cave_GerudoDesert_0049_GroupSet_001 ,0x8a2616dd9ff9a322,Enemy_CaveMaster_Senior,0,None,0,None,None,-4684.69,115.84,2061.68
+533658,MainField,Cave__Cave_GerudoDesert_0050_GroupSet_000 ,0x05a685a4a4306b65,Enemy_CaveMaster_Senior,0,None,0,None,None,-2473.49,245.92,1772.23
+533948,MainField,Cave__Cave_GerudoDesert_0051_GroupSet_000 ,0xae059d8746d758a6,Enemy_CaveMaster_Middle,0,None,0,None,None,-2624.14,222.54,2438.58
+534224,MainField,Cave__Cave_GerudoHighlands_0002_GroupSet_000 ,0xeb3296c003a30da4,Enemy_CaveMaster_Senior,0,None,0,None,None,-2558.27,284.82,1696
+534296,MainField,Cave__Cave_GerudoHighlands_0008_GroupSet_000 ,0xfc0c18ae5b379664,Enemy_CaveMaster_Senior,0,None,0,None,None,-4391.37,575.01,627.65
+534378,MainField,Cave__Cave_GerudoHighlands_0014 ,0x129a6e312ba13e44,Enemy_CaveMaster_Senior,0,None,0,None,None,-3929.31,525.92,1263.89
+534502,MainField,Cave__Cave_GerudoHighlands_0017_GroupSet_000 ,0xe8a252e7e3073d05,Enemy_CaveMaster_Senior,0,None,0,None,None,-3936.03,683.73,746.33
+534578,MainField,Cave__Cave_HateruEast_0000_GroupSet_000 ,0xecc4ee76c55ec302,Enemy_CaveMaster_Senior,0,None,0,None,None,3283.82,165.92,3226.71
+534882,MainField,Cave__Cave_HateruEast_0002_GroupSet_000 ,0x07b6222221fa43cf,Enemy_CaveMaster_Senior,0,None,0,None,None,1939.01,225.18,2703.57
+535596,MainField,Cave__Cave_HateruEast_0006_GroupSet_000 ,0x5462549c77949ebb,Enemy_CaveMaster_Senior,0,None,0,None,None,1693.06,282.77,2956.68
+535789,MainField,Cave__Cave_HateruEast_0007_GroupSet_000 ,0xc5ff4da5c9cbe283,Enemy_CaveMaster_Senior,0,None,0,None,None,1904.22,81.27,3033.68
+535974,MainField,Cave__Cave_HateruEast_0008_GroupSet_000 ,0x8bc80ac5501a53e2,Enemy_CaveMaster_Senior,0,None,0,None,None,2005.55,277.48,3037.53
+536806,MainField,Cave__Cave_HateruEast_0014_GroupSet_000 ,0xdd6da5a8ec813b90,Enemy_CaveMaster_Senior,0,None,0,None,None,1424.48,189.26,3472.36
+536820,MainField,Cave__Cave_HateruEast_0016_GroupSet_000 ,0x539de1395915eaf9,Enemy_CaveMaster_Senior,0,None,0,None,None,2439.83,184,3178.45
+536908,MainField,Cave__Cave_HateruWest_0002_GroupSet_000 ,0x146889d8bcc6ebb9,Enemy_CaveMaster_Middle,0,None,0,None,None,1543.45,127.16,844.94
+537173,MainField,Cave__Cave_HateruWest_0005_GroupSet_000 ,0x01f22fdd1ac86e1b,Enemy_CaveMaster_Middle,0,None,0,None,None,1985.21,264.36,904.76
+537262,MainField,Cave__Cave_HateruWest_0008_GroupSet_000 ,0x31eb915eb9b87e34,Enemy_CaveMaster_000,0,None,0,None,None,1330.29,245.92,1191.05
+537307,MainField,Cave__Cave_HateruWest_0011_GroupSet_000 ,0xef574dace04289a3,Enemy_CaveMaster_000,0,None,0,None,None,1189.21,289.33,1800.13
+537359,MainField,Cave__Cave_HateruWest_0012_GroupSet_000 ,0x8b881420387231b3,Enemy_CaveMaster_Middle,0,None,0,None,None,1154.48,348.87,1985.52
+537426,MainField,Cave__Cave_Hebra_0000_GroupSet_000 ,0xb214a36c335cf983,Enemy_CaveMaster_000,0,None,0,None,None,-4052.25,104.67,-2544.17
+537622,MainField,Cave__Cave_Hebra_0013 ,0xb442f2023e8b6895,Enemy_CaveMaster_Middle,0,None,0,None,None,-4437.9,342.31,-3718.4
+537741,MainField,Cave__Cave_Hebra_0015_GroupSet_000 ,0x4c7d8fe80da677fb,Enemy_CaveMaster_000,0,None,0,None,None,-3896.96,119.69,-2863.25
+537822,MainField,Cave__Cave_Hebra_0016_GroupSet_000 ,0xae002ffdbf50795c,Enemy_CaveMaster_000,0,None,0,None,None,-2964.09,502.45,-2506.61
+537884,MainField,Cave__Cave_Hebra_0019_GroupSet_000 ,0x0157e7f59ed6706a,Enemy_CaveMaster_Middle,0,None,0,None,None,-2489.12,413.95,-3209.21
+538075,MainField,Cave__Cave_Hebra_0021_GroupSet_000 ,0x9e6e0d4ee8807b92,Enemy_CaveMaster_Senior,0,None,0,None,None,-3874.69,373.54,-3631.23
+538324,MainField,Cave__Cave_Hebra_0022_GroupSet_000 ,0x05ec4f99e19c1280,Enemy_CaveMaster_000,0,None,0,None,None,-3005.35,642.61,-3203.61
+538503,MainField,Cave__Cave_Hebra_0023_GroupSet_000 ,0xef055e0e3b8e0af5,Enemy_CaveMaster_000,0,None,0,None,None,-3032.68,315.44,-1573.12
+538573,MainField,Cave__Cave_Hebra_0025_GroupSet_000 ,0x5a7aaa06f4e9c10c,Enemy_CaveMaster_000,0,None,0,None,None,-3447.03,345,-2473.52
+538627,MainField,Cave__Cave_Hebra_0026_GroupSet_000 ,0x4ea99762c0eafe65,Enemy_CaveMaster_000,0,None,0,None,None,-3211.47,475.13,-2577.99
+538728,MainField,Cave__Cave_Hebra_0030_GroupSet_000 ,0xd77738ea615e5c1e,Enemy_CaveMaster_000,0,None,0,None,None,-3286.89,518.04,-2647.46
+538994,MainField,Cave__Cave_Hebra_0035_GroupSet_000 ,0xcb63483daa6338f9,Enemy_CaveMaster_000,0,None,0,None,None,-2881.88,364.49,-1850.59
+539082,MainField,Cave__Cave_Hebra_0036_GroupSet_000 ,0xacb3135d3bce3194,Enemy_CaveMaster_000,0,None,0,None,None,-1438.06,323.4,-3016.63
+539151,MainField,Cave__Cave_Hebra_0037_GroupSet_000 ,0xbb2c259ad23f4780,Enemy_CaveMaster_000,0,None,0,None,None,-2334.06,288.92,-2258.57
+539249,MainField,Cave__Cave_Hebra_0038_GroupSet_000 ,0xd9cb9c64a5ccc2c0,Enemy_CaveMaster_000,0,None,0,None,None,-3594.21,348.12,-3088.13
+539335,MainField,Cave__Cave_Hebra_0039_GroupSet_000 ,0x7f088bcb3a457925,Enemy_CaveMaster_000,0,None,0,None,None,-4035.13,311.5,-2045.32
+539455,MainField,Cave__Cave_Hebra_0040 ,0x45956a5cc5866db6,Enemy_CaveMaster_000,0,None,0,None,None,-3961.56,311.32,-3222.05
+539611,MainField,Cave__Cave_HyruleForest_0001_GroupSet_000 ,0x2d1cf51b8cdcc098,Enemy_CaveMaster_000,0,None,0,None,None,737.74,160.32,-1402.87
+539709,MainField,Cave__Cave_HyruleForest_0006_GroupSet_000 ,0x1f71702a095bc012,Enemy_CaveMaster_Middle,0,None,0,None,None,1311.7,132.83,-1245.28
+539739,MainField,Cave__Cave_HyruleForest_0007_GroupSet_001 ,0x04fb29137792797f,Enemy_CaveMaster_000,0,None,0,None,None,-640.56,237.6,-2115.94
+539922,MainField,Cave__Cave_HyruleForest_0008_GroupSet_000 ,0xe73dca57734e79c3,Enemy_CaveMaster_Middle,0,None,0,None,None,336.83,175.37,-3537.09
+540168,MainField,Cave__Cave_HyruleRidge_0000_GroupSet_000 ,0x172ed460a0200fe2,Enemy_CaveMaster_000,0,None,0,None,None,-1230.65,197.84,-776.71
+540287,MainField,Cave__Cave_HyruleRidge_0002_GroupSet_000 ,0x03abb931e9b1aa2e,Enemy_CaveMaster_Senior,0,None,0,None,None,-2989.29,126.51,905.86
+540536,MainField,Cave__Cave_HyruleRidge_0003 ,0x18246b7d61b09e14,Enemy_CaveMaster_000,0,None,0,None,None,-1818.12,255.63,-1270.61
+540751,MainField,Cave__Cave_HyruleRidge_0005_GroupSet_000 ,0x660aa6a247d78655,Enemy_CaveMaster_000,0,None,0,None,None,-2167.83,234.06,580.3
+540920,MainField,Cave__Cave_HyruleRidge_0006_GroupSet_000 ,0x6d93e5630f546a65,Enemy_CaveMaster_000,0,None,0,None,None,-2277.61,208.67,-858.17
+540977,MainField,Cave__Cave_HyruleRidge_0007_GroupSet_000 ,0x6cfcecf99438ae66,Enemy_CaveMaster_000,0,None,0,None,None,-2170.85,60.28,-1534.54
+541132,MainField,Cave__Cave_HyruleRidge_0008_GroupSet_000 ,0xdd7bee885ecdd646,Enemy_CaveMaster_000,0,None,0,None,None,-2283.2,367.19,472.08
+541539,MainField,Cave__Cave_LanayruMountain_0006 ,0xef5aec2cc2af160f,Enemy_CaveMaster_Middle,0,None,0,None,None,4562.14,137.8,2306.81
+541693,MainField,Cave__Cave_LanayruMountain_0008_GroupSet_000 ,0x74ce078aec920a9d,Enemy_CaveMaster_Middle,0,None,0,None,None,2408.48,65.86,2336.82
+541936,MainField,Cave__Cave_LanayruMountain_0010_GroupSet_000 ,0xd7a7dd2925dc8546,Enemy_CaveMaster_Middle,0,None,0,None,None,3447.29,168.93,1210.86
+542705,MainField,Cave__Cave_LanayruMountain_0016_GroupSet_000 ,0xdc667d3492986314,Enemy_CaveMaster_Middle,0,None,0,None,None,4127.97,262.16,1894.01
+543091,MainField,Cave__Cave_LanayruMountain_0022_GroupSet_000 ,0x40faac044e21ecde,Enemy_CaveMaster_Middle,0,None,0,None,None,4264.23,102.44,2128.26
+543291,MainField,Cave__Cave_LanayruMountain_0024_GroupSet_000 ,0xc159d85ff81e95c0,Enemy_CaveMaster_Senior,0,None,0,None,None,3446.89,118.39,3189.47
+543451,MainField,Cave__Cave_LanayruMountain_0026_GroupSet_000 ,0xdbff2f278d4d84e9,Enemy_CaveMaster_Middle,0,None,0,None,None,2315.76,123.78,1642.18
+543555,MainField,Cave__Cave_LanayruMountain_GroupSet_000 ,0x1ea384237cc3eee4,Enemy_CaveMaster_Middle,0,None,0,None,None,3759.33,304.35,2084.74
+543644,MainField,Cave__Cave_Lanayru_0006_Group_Set_001 ,0x530d92647e6c8791,Enemy_CaveMaster_Middle,0,None,0,None,None,1279.39,150.42,-253.89
+544647,MainField,Cave__Cave_Lanayru_0035_GroupSet_000 ,0xd4f4c4181d407220,Enemy_CaveMaster_Middle,0,None,0,None,None,4214.34,84.27,311.49
+545156,MainField,Cave__Cave_Lanayru_0049_GroupSet_000 ,0x71bb8b935a627496,Enemy_CaveMaster_000,0,None,0,None,None,2847.35,459.06,-490.74
+545276,MainField,Cave__Cave_Lanayru_0052_GroupSet_000 ,0x09e5bb13bec6243d,Enemy_CaveMaster_Middle,0,None,0,None,None,551.2,139.76,-779.7
+545425,MainField,Cave__Cave_Lanayru_0053_GroupSet_000 ,0x28a1ee52d72d06ae,Enemy_CaveMaster_Middle,0,None,0,None,None,911.23,139.74,-56.22
+545825,MainField,Cave__Cave_Lanayru_0061 ,0x4caa26d3ccac26c9,Enemy_CaveMaster_000,0,None,0,None,None,3336.66,197.32,-539.94
+545985,MainField,Cave__Cave_Tabantha_0001_GroupSet_000 ,0x0b393196afa554a8,Enemy_CaveMaster_Middle,0,None,0,None,None,-3894.91,193.04,-1019.08
+546079,MainField,Cave__Cave_Tabantha_0002_GroupSet_000 ,0xf9afb298ca80e833,Enemy_CaveMaster_000,0,None,0,None,None,-3516.7,333.61,-418.13
+546179,MainField,Cave__Cave_Tabantha_0003_GroupSet_000 ,0x81eeb24216b54e96,Enemy_CaveMaster_000,0,None,0,None,None,-3484.12,-16.58,-726.99
+546625,MainField,Cave__Pln_Fld_Zora_AncientFacility__01_01 ,0x2a818c0b3e6b54d2,Enemy_CaveMaster_000,0,None,0,None,None,3599.01,140.61,-300.07

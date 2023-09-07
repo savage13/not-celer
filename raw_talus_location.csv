@@ -1,0 +1,88 @@
+objid,map_type,Location,Id,hash_id,name,scale,equip,map_static,korok_id,korok_type,x,y,z
+1196,MainField,Hebra Northwest,GH01,0xd749fc185ec6d994,Enemy_Golem_Ice,0,None,1,None,None,-4432.53,391.77,-3386.98
+3462,MainField,Hebra West,GH03,0x63741442866c367d,Enemy_Golem_Ice,0,None,1,None,None,-4499.82,217.95,-2450.39
+4538,MainField,Hebra Southwest,GH04,0xa2d02d120bda48f8,Enemy_Golem_Fort_A,0,None,1,None,None,-4393.3,217.01,-1935.44
+9322,MainField,Gerudo Highlands South,GG03,0xff4ac66752f905d8,Enemy_Golem_Fort_A_Wander,0,None,1,None,None,-3987.39,415.7,1703.11
+9435,MainField,Gerudo Highlands Central,GG01,0x5362d688057fdee4,Enemy_Golem_Ice,0,None,1,None,None,-4321.17,493.29,1203.48
+25412,MainField,Nero Hill,GR02,0x6b77e245cd34e745,Enemy_Golem_Junior,0,None,1,None,None,-3386.52,305.43,-1076.03
+25595,MainField,Kolami Bridge,GR01,0x79445515edd8fce0,Enemy_Golem_Fort_A,0,None,1,None,None,-3108.95,261.84,-1287.41
+29089,MainField,Tanagar Canyon,GR05,0x1c7c244509c54893,Enemy_Golem_Senior,0,None,1,None,None,-3491.19,0.2,-171.04
+29099,MainField,Piper Ridge,GR04,0x22fa11f872a60293,Enemy_Golem_Junior,0,None,1,None,None,-3297.78,295.02,-649.46
+48669,MainField,Hebra Northeast,GH02,0xfce90880b22692e1,Enemy_Golem_Ice_KeyCrystal,0,None,1,None,None,-2685.31,346.34,-3352.92
+65120,MainField,Tamio River,GC03,0x91196803c773911b,Enemy_Golem_Middle,0,None,1,None,None,-2859.64,117.11,521.29
+65124,MainField,SatoriMountain,GC04,0x4e4e6c7d9cae26a6,Enemy_Golem_Middle,0,None,1,None,None,-2220.96,372.98,584.75
+65130,MainField,Tamio River North,GR06,0x2a3accc147bccd6e,Enemy_Golem_Fort_A_Wander,0,None,1,None,None,-2549.97,233.92,111.19
+69208,MainField,Laparoh Mesa,GG02,0x2d79c00e2ff30915,Enemy_Golem_Ice,0,None,1,None,None,-2832.68,657.48,1326.5
+73516,MainField,Spectacle Rock,GG05,0xaf929368fea0a7ac,Enemy_Golem_Senior,0,None,1,None,None,-2306.2,463.01,2453.25
+85479,MainField,New Serenne Stable,GR03,0x74ec48d8ba87a935,Enemy_Golem_Fort_A,0,None,1,None,None,-1447.52,242.71,-1026.16
+92303,MainField,Gleeok Bridge,GC05,0xe875af7d3147dab4,Enemy_Golem_Fort_A,0,None,1,None,None,-1363.55,115.52,789.26
+96599,MainField,Great Plateau,GC07,0x2d602ffeb7e15f1d,Enemy_Golem_Fort_A,0,None,1,None,None,-1091.63,179.29,1659.36
+106123,MainField,Drenan Highlands,GT02,0xefedeffc84eafebd,Enemy_Golem_Senior,0,None,1,None,None,-394.11,253.1,-2955.79
+114078,MainField,Castle Town Prison,GC01,0x8e372f5fc7b6301e,Enemy_Golem_Fort_A,0,None,1,None,None,-769.93,152.43,-811.48
+119130,MainField,Windvane Meadow,GC06,0xc8344ccd6156d492,Enemy_Golem_Fort_A,0,None,1,None,None,-108.73,140.85,802.02
+134755,MainField,Deplian Badlands,GT01,0x4623f33dad0e444c,Enemy_Golem_Middle,0,None,1,None,None,703.36,200.14,-3692.48
+138839,MainField,Korok Forest,GT03,0xe0af4938ab75ee65,Enemy_Golem_Junior_KeyCrystal,0,None,1,None,None,97.53,281.23,-2370
+146945,MainField,Orsedd Bridge,GK02,0xbaf3305cb95b2dd0,Enemy_Golem_Fort_A_Wander,0,None,1,None,None,677.46,134.38,-505.96
+147052,MainField,Castle Town East,GC02,0x095e11fc2cbfa049,Enemy_Golem_Fort_A,0,None,1,None,None,202.12,133.28,-530.8
+157585,MainField,Batrea Lake,GF01,0x2322a8bebd0f7fe3,Enemy_Golem_Fort_A,0,None,1,None,None,769.78,129.7,1222.98
+158005,MainField,Hills of Baumer,GF02,0x8e303aa742bbb13d,Enemy_Golem_Fort_A,0,None,1,None,None,587.39,170.19,1934.18
+167557,MainField,Horse God Bridge,GF06,0x54bf1eb01da20d3f,Enemy_Golem_Senior,0,None,1,None,None,524.28,164.53,3710.4
+170094,MainField,Lake Darman,GE03,0x40773b763ffbef3f,Enemy_Golem_Fire,0,None,1,None,None,1943.57,527.24,-3194.21
+181456,MainField,Eldin Western Foothills ,GE07,0xe241e1adda0a241f,Enemy_Golem_Fire,0,None,1,None,None,1291,359.66,-1717
+194473,MainField,Sahasra Slope,GK04,0x8bbc0e002d24b183,Enemy_Golem_Fort_A_Wander,0,None,1,None,None,1256.26,214.63,1164.91
+204077,MainField,Guchini Plain,GF04,0xdd08e05aa506f3d0,Enemy_Golem_Senior,0,None,1,None,None,1018.71,128.54,3383.13
+204081,MainField,Lake Floria,GF05,0xf07235d51ce7dea0,Enemy_Golem_Senior,0,None,1,None,None,1825.59,132.59,3495.33
+207192,MainField,Gut Check Rock,GE02,0x5bd5ecba112d0b4f,Enemy_Golem_Middle,0,None,1,None,None,2710.32,345.03,-3303.08
+207216,MainField,Eldin's Flank,GE01,0xf69acea5647aa9dc,Enemy_Golem_Fire,0,None,1,None,None,2479.12,431.16,-3637.12
+210474,MainField,Goro Cove,GE05,0x5105fff8f991a876,Enemy_Golem_Fire,0,None,1,None,None,2014.5,564.31,-2397.5
+214061,MainField,Medingo Pool,GE06,0x6b92378d94f4ede4,Enemy_Golem_Fire,0,None,1,None,None,2215,420.91,-1780
+214419,MainField,Akkala Span,GA04,0x07613da693074980,Enemy_Golem_Fort_A,0,None,1,None,None,2973.52,390.09,-1488.47
+219090,MainField,Trilby Valley,GZ02,0xecefb79d9e415512,Enemy_Golem_Middle,0,None,1,None,None,2483.14,171.63,-908.03
+247652,MainField,East Sokkala Bridge,GZ01,0x3ef49f0bd3563b0f,Enemy_Golem_Fort_A,0,None,1,None,None,3951.37,348.58,-1188.88
+259956,MainField,Ovli Plain,GL02,0xe64dbd63e0d23353,Enemy_Golem_Middle,0,None,1,None,None,3028.71,112.74,1778.32
+264579,MainField,Loshlo Harbor,GL03,0x1865a6ec7c7861e6,Enemy_Golem_Middle,0,None,1,None,None,3195.44,171.59,2958.09
+268216,MainField,Gama Cove,GL04,0xcd0989174bf08844,Enemy_Golem_Fort_A,0,None,1,None,None,3276.87,132.97,3408.11
+272421,MainField,North Akkala Beach,GA01,0xa002f270c495bb3f,Enemy_Golem_Senior,0,None,1,None,None,4677.88,107.77,-2998.28
+272521,MainField,North Akkala Foothill,GA02,0x4eacdd6cc5cfa8b0,Enemy_Golem_Junior,0,None,1,None,None,4062.73,255.45,-2972.86
+272624,MainField,East Akkala Plains,GA03,0xd2afa346a5eff9e8,Enemy_Golem_Fort_A,0,None,1,None,None,4180.83,120.69,-2227.52
+276641,MainField,Ulria Grotto,GZ04,0x0a62ee59130b8f0d,Enemy_Golem_Middle,0,None,1,None,None,4190.79,456.06,-517.8
+279520,MainField,Mount Lanayru,GL01,0x6b23e454797233da,Enemy_Golem_Ice,0,None,1,None,None,4057.09,416.87,1056.14
+521722,MainField,Ulria Grotto South Cave,GZ03,0x2b3fe52a6caf1339,Enemy_Golem_Middle,0,None,0,None,None,4140.51,290.34,-543.27
+524226,MainField,Death Mountain East Tunnel,GE04,0x972b0010ac36c3e3,Enemy_Golem_Fire_KeyCrystal,0,None,1,None,None,2630.22,635.22,-2744.99
+534231,MainField,Taafei Hill Cave,GG04,0xabd0710e7c9d97f1,Enemy_Golem_Senior,0,None,0,None,None,-2599.58,282.85,1781.64
+537132,MainField,Byroad to Lanayru Wetlands,GK03,0x6091ab72cdf594eb,Enemy_Golem_Middle,0,None,1,None,None,1482.94,115.84,974.86
+545284,MainField,Crenel Hills Cave,GK01,0x0906aa3075dac0b6,Enemy_Golem_Middle,0,None,0,None,None,574.62,114.57,-766.05
+546646,MainField,Ancient Zora Waterworks,SZ05,0x20c5127954a93fef,Enemy_Golem_Middle,0,None,0,None,None,3627.83,2.09,-274.19
+548266,MainField,Deya Village Ruins South Well,SF03,0xd4052bb4d763530a,Enemy_Golem_Middle,0,None,1,None,None,340.1,61.32,1983.74
+283180,MinusField,Sherfin's Lavafalls,DH01,0x08873436a743aca3,Enemy_Golem_Senior,0,None,1,None,None,-4432.53,-627.79,-3386.98
+284674,MinusField,Sturnida Lavafalls,DH02,0xd60fd39368a2026e,Enemy_Golem_Senior,0,None,1,None,None,-4499.8,-457.98,-2450.41
+285474,MinusField,So-oaw Lightroot,DH04,0x0a32e1ff473cf93c,Enemy_Golem_Fort_A,0,None,1,None,None,-4393.3,-456.72,-1935.44
+288450,MinusField,Gerudo Canyon Mine,DG01,0xbbdd4a7c6dbb7b39,Enemy_Golem_Ice,0,None,1,None,None,-4722.67,-979.72,390.85
+291674,MinusField,Birida Lookout Chasm,DG02,0x7432b6793ae3c2cb,Enemy_Golem_Junior,0,None,1,None,None,-4010.21,-648.69,1696.2
+302547,MinusField,Corvash Canyon Mine,DH03,0x5421edbb6444df5c,Enemy_Golem_Ice,0,None,1,None,None,-3629.34,-486.57,-2196.21
+305544,MinusField,Koro-nui Lightroot,DR03,0x7cc43300dbf5f98f,Enemy_Golem_Senior,0,None,1,None,None,-3386.52,-543.17,-1076.03
+305552,MinusField,Kawumoro Lightroot,DR02,0xc67aacbbedf509c4,Enemy_Golem_Fort_A,0,None,1,None,None,-3108.02,-500.09,-1287.7
+320219,MinusField,Abandoned Kara Kara Mine,DG03,0xe7c4e6d2e9d1b674,Enemy_Golem_Junior,0,None,1,None,None,-3530.62,-379.35,2443.35
+331169,MinusField,Hyrule Ridge Chasm,DR01,0x1c76763e93f3b99e,Enemy_Golem_Senior,0,None,1,None,None,-2635.38,-304.84,-1491.78
+338136,MinusField,Blupee Burrow,DC02,0x2a25c9f78a0f9b4a,Enemy_Golem_Middle,0,None,1,None,None,-2221,-609.08,584.72
+338142,MinusField,Tamio River North Depths,DR04,0x1579a104138da427,Enemy_Golem_Fort_A_Wander,0,None,1,None,None,-2526.82,-471.38,107.41
+376855,MinusField,Drenan Highlands Chasm,DT02,0xb7ef625e5015d6f6,Enemy_Golem_Middle,0,None,1,None,None,-394.2,-492.04,-2955.85
+387974,MinusField,Hyrule Field Depths South,DC03,0x4d8931b696fc65dc,Enemy_Golem_Fort_A,0,None,1,None,None,-108.73,-382.21,802.02
+388062,MinusField,Hyrule Field Depths Southwest,DC04,0xd41f53a00c1c10df,Enemy_Golem_Junior,0,None,1,None,None,-460.26,-382.32,1004.68
+397259,MinusField,Pappetto Grove,DF01,0x4e9affef2c0e29f4,Enemy_Golem_Junior,0,None,1,None,None,-826.02,-432.65,3349.92
+400156,MinusField,Kayam Lightroot,DT01,0x935dae7e00dece65,Enemy_Golem_Middle,0,None,1,None,None,950.56,-449.85,-3673.3
+409189,MinusField,Applean Grove,DC01,0x25b5939a9e3c435d,Enemy_Golem_Junior,0,None,1,None,None,-3.67,-365.63,12.47
+409193,MinusField,Crenel Canyon Mine,DK01,0x4f3b9984c6189c54,Enemy_Golem_Senior,0,None,1,None,None,697.14,-377.19,-513.47
+424526,MinusField,Eldin Depths Northwest,DE02,0xc6c0249e7b3f3451,Enemy_Golem_Fire,0,None,1,None,None,1454.13,-733.13,-3174.56
+428491,MinusField,Rock Roast Lake Depths,DE04,0xe3e03f9067a715e9,Enemy_Golem_Fire,0,None,1,None,None,1672.48,-621.12,-1610.02
+437100,MinusField,Abandoned Kakariko Mine,DK02,0xc4df9ce9b313c7f7,Enemy_Golem_Senior,0,None,1,None,None,1483.02,-493.04,975.01
+444349,MinusField,Kohsustu Lightroot,DF02,0x6ea9541eac4066e2,Enemy_Golem_Middle,0,None,1,None,None,1056.38,-372.31,3417.4
+445223,MinusField,Eldin Depths North,DE01,0xb8a49b6d5aa80473,Enemy_Golem_Middle,0,None,1,None,None,2479.1,-666.05,-3637.16
+446699,MinusField,Eldin Depths East,DE03,0xc75e48410dc5cfbd,Enemy_Golem_Fire,0,None,1,None,None,2912.83,-856.98,-2555.56
+448133,MinusField,Ancient Underground Fortress,DA02,0x51e4d30075bc4407,Enemy_Golem_Fort_A_Wander,0,None,1,None,None,2985,-625.14,-1449
+457829,MinusField,Meda Mountain Chasm,DL03,0x84e046fe19498890,Enemy_Golem_Ice,0,None,1,None,None,2642.18,-422.83,1942.76
+482108,MinusField,Canyon of Awakening Mine,DL02,0x31ce610b1b72745a,Enemy_Golem_Middle,0,None,1,None,None,3028.87,-354.99,1778.51
+486867,MinusField,Dunsel Canyon Mine,DL04,0x0393ea18be1dcfbd,Enemy_Golem_Fort_A,0,None,1,None,None,3276.87,-374.99,3408.1
+489719,MinusField,Akkala Depths Northeast,DA01,0x153c7a1611df1b0b,Enemy_Golem_Middle,0,None,1,None,None,4677.84,-350.03,-2998.33
+493205,MinusField,Ploymus Canyon Mine,DZ01,0x9ece413ffbba89c7,Enemy_Golem_Middle,0,None,1,None,None,4190.79,-690.4,-517.8
+495942,MinusField,Lanayru Canyon Mine,DL01,0x5850ab403c827598,Enemy_Golem_Middle,0,None,1,None,None,4057.05,-652.92,1056.16

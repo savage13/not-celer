@@ -1,0 +1,15 @@
+objid,map_type,hash_id,name,scale,equip,map_static,korok_id,korok_type,x,y,z
+21129,MainField,0xfcc9c08d9415f872,Enemy_Drake_Ice,0,None,1,None,None,-3743.29,502,-2991.56
+29143,MainField,0x2526a2e721c46c88,Enemy_Drake_Fire,0,None,1,None,None,-3624.72,365.43,-420.24
+32759,MainField,0x6659a6fac5a604df,Enemy_Drake_Ice,0,None,1,None,None,-4023.77,813.94,955.5
+73512,MainField,0xb5c14744b5c2f0f4,Enemy_Drake_Fire,0,None,1,None,None,-2114.5,507.07,2639.78
+78116,MainField,0xeebc791dcad54787,Enemy_Drake_Ice,0,None,1,None,None,-1834.5,354,-3009.06
+96467,MainField,0x31744f7816dd5de7,Enemy_Drake_Electric,0,None,1,None,None,-1150.15,152.19,1262.97
+128309,MainField,0x2db15608b3e7a804,Enemy_Drake_Fire,0,None,1,None,None,-47.47,145,2491.1
+204101,MainField,0xf481455f6b06d972,Enemy_Drake_Electric,0,None,1,None,None,1059,183.93,3614
+219241,MainField,0x617c3fd2659c63fc,Enemy_Drake_Fire,0,None,1,None,None,2238.5,900,-693.5
+247867,MainField,0xe0a91bfe4ab7bc32,Enemy_Drake_Electric,0,None,1,None,None,3422.8,442.7,-1298.45
+500990,MainField,0xf113be5d455d6956,Enemy_Drake_Mix,0,None,1,None,None,-4470.63,1389.9,-2275.43
+501147,MainField,0x2ea860e965c643f1,Enemy_Drake_Mix,0,None,1,None,None,-4447.82,1556.13,2627.47
+501359,MainField,0xd064b8c5f77b77d9,Enemy_Drake_Mix,0,None,1,None,None,4652.31,1201.97,3724.45
+399970,MinusField,0xf337052fe9b2958d,Enemy_Drake_Mix,0,None,1,None,None,333.52,-463.91,-3122.09

@@ -1,0 +1,1568 @@
+[
+  {
+    "objid": "1196",
+    "map_type": "MainField",
+    "Location": "Hebra Northwest",
+    "Id": "GH01",
+    "hash_id": "0xd749fc185ec6d994",
+    "name": "Enemy_Golem_Ice",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -4432.53,
+      391.77,
+      -3386.98
+    ]
+  },
+  {
+    "objid": "3462",
+    "map_type": "MainField",
+    "Location": "Hebra West",
+    "Id": "GH03",
+    "hash_id": "0x63741442866c367d",
+    "name": "Enemy_Golem_Ice",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -4499.82,
+      217.95,
+      -2450.39
+    ]
+  },
+  {
+    "objid": "4538",
+    "map_type": "MainField",
+    "Location": "Hebra Southwest",
+    "Id": "GH04",
+    "hash_id": "0xa2d02d120bda48f8",
+    "name": "Enemy_Golem_Fort_A",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -4393.3,
+      217.01,
+      -1935.44
+    ]
+  },
+  {
+    "objid": "9322",
+    "map_type": "MainField",
+    "Location": "Gerudo Highlands South",
+    "Id": "GG03",
+    "hash_id": "0xff4ac66752f905d8",
+    "name": "Enemy_Golem_Fort_A_Wander",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -3987.39,
+      415.7,
+      1703.11
+    ]
+  },
+  {
+    "objid": "9435",
+    "map_type": "MainField",
+    "Location": "Gerudo Highlands Central",
+    "Id": "GG01",
+    "hash_id": "0x5362d688057fdee4",
+    "name": "Enemy_Golem_Ice",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -4321.17,
+      493.29,
+      1203.48
+    ]
+  },
+  {
+    "objid": "25412",
+    "map_type": "MainField",
+    "Location": "Nero Hill",
+    "Id": "GR02",
+    "hash_id": "0x6b77e245cd34e745",
+    "name": "Enemy_Golem_Junior",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -3386.52,
+      305.43,
+      -1076.03
+    ]
+  },
+  {
+    "objid": "25595",
+    "map_type": "MainField",
+    "Location": "Kolami Bridge",
+    "Id": "GR01",
+    "hash_id": "0x79445515edd8fce0",
+    "name": "Enemy_Golem_Fort_A",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -3108.95,
+      261.84,
+      -1287.41
+    ]
+  },
+  {
+    "objid": "29089",
+    "map_type": "MainField",
+    "Location": "Tanagar Canyon",
+    "Id": "GR05",
+    "hash_id": "0x1c7c244509c54893",
+    "name": "Enemy_Golem_Senior",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -3491.19,
+      0.2,
+      -171.04
+    ]
+  },
+  {
+    "objid": "29099",
+    "map_type": "MainField",
+    "Location": "Piper Ridge",
+    "Id": "GR04",
+    "hash_id": "0x22fa11f872a60293",
+    "name": "Enemy_Golem_Junior",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -3297.78,
+      295.02,
+      -649.46
+    ]
+  },
+  {
+    "objid": "48669",
+    "map_type": "MainField",
+    "Location": "Hebra Northeast",
+    "Id": "GH02",
+    "hash_id": "0xfce90880b22692e1",
+    "name": "Enemy_Golem_Ice_KeyCrystal",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -2685.31,
+      346.34,
+      -3352.92
+    ]
+  },
+  {
+    "objid": "65120",
+    "map_type": "MainField",
+    "Location": "Tamio River",
+    "Id": "GC03",
+    "hash_id": "0x91196803c773911b",
+    "name": "Enemy_Golem_Middle",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -2859.64,
+      117.11,
+      521.29
+    ]
+  },
+  {
+    "objid": "65124",
+    "map_type": "MainField",
+    "Location": "SatoriMountain",
+    "Id": "GC04",
+    "hash_id": "0x4e4e6c7d9cae26a6",
+    "name": "Enemy_Golem_Middle",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -2220.96,
+      372.98,
+      584.75
+    ]
+  },
+  {
+    "objid": "65130",
+    "map_type": "MainField",
+    "Location": "Tamio River North",
+    "Id": "GR06",
+    "hash_id": "0x2a3accc147bccd6e",
+    "name": "Enemy_Golem_Fort_A_Wander",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -2549.97,
+      233.92,
+      111.19
+    ]
+  },
+  {
+    "objid": "69208",
+    "map_type": "MainField",
+    "Location": "Laparoh Mesa",
+    "Id": "GG02",
+    "hash_id": "0x2d79c00e2ff30915",
+    "name": "Enemy_Golem_Ice",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -2832.68,
+      657.48,
+      1326.5
+    ]
+  },
+  {
+    "objid": "73516",
+    "map_type": "MainField",
+    "Location": "Spectacle Rock",
+    "Id": "GG05",
+    "hash_id": "0xaf929368fea0a7ac",
+    "name": "Enemy_Golem_Senior",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -2306.2,
+      463.01,
+      2453.25
+    ]
+  },
+  {
+    "objid": "85479",
+    "map_type": "MainField",
+    "Location": "New Serenne Stable",
+    "Id": "GR03",
+    "hash_id": "0x74ec48d8ba87a935",
+    "name": "Enemy_Golem_Fort_A",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -1447.52,
+      242.71,
+      -1026.16
+    ]
+  },
+  {
+    "objid": "92303",
+    "map_type": "MainField",
+    "Location": "Gleeok Bridge",
+    "Id": "GC05",
+    "hash_id": "0xe875af7d3147dab4",
+    "name": "Enemy_Golem_Fort_A",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -1363.55,
+      115.52,
+      789.26
+    ]
+  },
+  {
+    "objid": "96599",
+    "map_type": "MainField",
+    "Location": "Great Plateau",
+    "Id": "GC07",
+    "hash_id": "0x2d602ffeb7e15f1d",
+    "name": "Enemy_Golem_Fort_A",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -1091.63,
+      179.29,
+      1659.36
+    ]
+  },
+  {
+    "objid": "106123",
+    "map_type": "MainField",
+    "Location": "Drenan Highlands",
+    "Id": "GT02",
+    "hash_id": "0xefedeffc84eafebd",
+    "name": "Enemy_Golem_Senior",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -394.11,
+      253.1,
+      -2955.79
+    ]
+  },
+  {
+    "objid": "114078",
+    "map_type": "MainField",
+    "Location": "Castle Town Prison",
+    "Id": "GC01",
+    "hash_id": "0x8e372f5fc7b6301e",
+    "name": "Enemy_Golem_Fort_A",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -769.93,
+      152.43,
+      -811.48
+    ]
+  },
+  {
+    "objid": "119130",
+    "map_type": "MainField",
+    "Location": "Windvane Meadow",
+    "Id": "GC06",
+    "hash_id": "0xc8344ccd6156d492",
+    "name": "Enemy_Golem_Fort_A",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -108.73,
+      140.85,
+      802.02
+    ]
+  },
+  {
+    "objid": "134755",
+    "map_type": "MainField",
+    "Location": "Deplian Badlands",
+    "Id": "GT01",
+    "hash_id": "0x4623f33dad0e444c",
+    "name": "Enemy_Golem_Middle",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      703.36,
+      200.14,
+      -3692.48
+    ]
+  },
+  {
+    "objid": "138839",
+    "map_type": "MainField",
+    "Location": "Korok Forest",
+    "Id": "GT03",
+    "hash_id": "0xe0af4938ab75ee65",
+    "name": "Enemy_Golem_Junior_KeyCrystal",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      97.53,
+      281.23,
+      -2370.0
+    ]
+  },
+  {
+    "objid": "146945",
+    "map_type": "MainField",
+    "Location": "Orsedd Bridge",
+    "Id": "GK02",
+    "hash_id": "0xbaf3305cb95b2dd0",
+    "name": "Enemy_Golem_Fort_A_Wander",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      677.46,
+      134.38,
+      -505.96
+    ]
+  },
+  {
+    "objid": "147052",
+    "map_type": "MainField",
+    "Location": "Castle Town East",
+    "Id": "GC02",
+    "hash_id": "0x095e11fc2cbfa049",
+    "name": "Enemy_Golem_Fort_A",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      202.12,
+      133.28,
+      -530.8
+    ]
+  },
+  {
+    "objid": "157585",
+    "map_type": "MainField",
+    "Location": "Batrea Lake",
+    "Id": "GF01",
+    "hash_id": "0x2322a8bebd0f7fe3",
+    "name": "Enemy_Golem_Fort_A",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      769.78,
+      129.7,
+      1222.98
+    ]
+  },
+  {
+    "objid": "158005",
+    "map_type": "MainField",
+    "Location": "Hills of Baumer",
+    "Id": "GF02",
+    "hash_id": "0x8e303aa742bbb13d",
+    "name": "Enemy_Golem_Fort_A",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      587.39,
+      170.19,
+      1934.18
+    ]
+  },
+  {
+    "objid": "167557",
+    "map_type": "MainField",
+    "Location": "Horse God Bridge",
+    "Id": "GF06",
+    "hash_id": "0x54bf1eb01da20d3f",
+    "name": "Enemy_Golem_Senior",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      524.28,
+      164.53,
+      3710.4
+    ]
+  },
+  {
+    "objid": "170094",
+    "map_type": "MainField",
+    "Location": "Lake Darman",
+    "Id": "GE03",
+    "hash_id": "0x40773b763ffbef3f",
+    "name": "Enemy_Golem_Fire",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      1943.57,
+      527.24,
+      -3194.21
+    ]
+  },
+  {
+    "objid": "181456",
+    "map_type": "MainField",
+    "Location": "Eldin Western Foothills ",
+    "Id": "GE07",
+    "hash_id": "0xe241e1adda0a241f",
+    "name": "Enemy_Golem_Fire",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      1291.0,
+      359.66,
+      -1717.0
+    ]
+  },
+  {
+    "objid": "194473",
+    "map_type": "MainField",
+    "Location": "Sahasra Slope",
+    "Id": "GK04",
+    "hash_id": "0x8bbc0e002d24b183",
+    "name": "Enemy_Golem_Fort_A_Wander",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      1256.26,
+      214.63,
+      1164.91
+    ]
+  },
+  {
+    "objid": "204077",
+    "map_type": "MainField",
+    "Location": "Guchini Plain",
+    "Id": "GF04",
+    "hash_id": "0xdd08e05aa506f3d0",
+    "name": "Enemy_Golem_Senior",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      1018.71,
+      128.54,
+      3383.13
+    ]
+  },
+  {
+    "objid": "204081",
+    "map_type": "MainField",
+    "Location": "Lake Floria",
+    "Id": "GF05",
+    "hash_id": "0xf07235d51ce7dea0",
+    "name": "Enemy_Golem_Senior",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      1825.59,
+      132.59,
+      3495.33
+    ]
+  },
+  {
+    "objid": "207192",
+    "map_type": "MainField",
+    "Location": "Gut Check Rock",
+    "Id": "GE02",
+    "hash_id": "0x5bd5ecba112d0b4f",
+    "name": "Enemy_Golem_Middle",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      2710.32,
+      345.03,
+      -3303.08
+    ]
+  },
+  {
+    "objid": "207216",
+    "map_type": "MainField",
+    "Location": "Eldin's Flank",
+    "Id": "GE01",
+    "hash_id": "0xf69acea5647aa9dc",
+    "name": "Enemy_Golem_Fire",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      2479.12,
+      431.16,
+      -3637.12
+    ]
+  },
+  {
+    "objid": "210474",
+    "map_type": "MainField",
+    "Location": "Goro Cove",
+    "Id": "GE05",
+    "hash_id": "0x5105fff8f991a876",
+    "name": "Enemy_Golem_Fire",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      2014.5,
+      564.31,
+      -2397.5
+    ]
+  },
+  {
+    "objid": "214061",
+    "map_type": "MainField",
+    "Location": "Medingo Pool",
+    "Id": "GE06",
+    "hash_id": "0x6b92378d94f4ede4",
+    "name": "Enemy_Golem_Fire",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      2215.0,
+      420.91,
+      -1780.0
+    ]
+  },
+  {
+    "objid": "214419",
+    "map_type": "MainField",
+    "Location": "Akkala Span",
+    "Id": "GA04",
+    "hash_id": "0x07613da693074980",
+    "name": "Enemy_Golem_Fort_A",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      2973.52,
+      390.09,
+      -1488.47
+    ]
+  },
+  {
+    "objid": "219090",
+    "map_type": "MainField",
+    "Location": "Trilby Valley",
+    "Id": "GZ02",
+    "hash_id": "0xecefb79d9e415512",
+    "name": "Enemy_Golem_Middle",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      2483.14,
+      171.63,
+      -908.03
+    ]
+  },
+  {
+    "objid": "247652",
+    "map_type": "MainField",
+    "Location": "East Sokkala Bridge",
+    "Id": "GZ01",
+    "hash_id": "0x3ef49f0bd3563b0f",
+    "name": "Enemy_Golem_Fort_A",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      3951.37,
+      348.58,
+      -1188.88
+    ]
+  },
+  {
+    "objid": "259956",
+    "map_type": "MainField",
+    "Location": "Ovli Plain",
+    "Id": "GL02",
+    "hash_id": "0xe64dbd63e0d23353",
+    "name": "Enemy_Golem_Middle",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      3028.71,
+      112.74,
+      1778.32
+    ]
+  },
+  {
+    "objid": "264579",
+    "map_type": "MainField",
+    "Location": "Loshlo Harbor",
+    "Id": "GL03",
+    "hash_id": "0x1865a6ec7c7861e6",
+    "name": "Enemy_Golem_Middle",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      3195.44,
+      171.59,
+      2958.09
+    ]
+  },
+  {
+    "objid": "268216",
+    "map_type": "MainField",
+    "Location": "Gama Cove",
+    "Id": "GL04",
+    "hash_id": "0xcd0989174bf08844",
+    "name": "Enemy_Golem_Fort_A",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      3276.87,
+      132.97,
+      3408.11
+    ]
+  },
+  {
+    "objid": "272421",
+    "map_type": "MainField",
+    "Location": "North Akkala Beach",
+    "Id": "GA01",
+    "hash_id": "0xa002f270c495bb3f",
+    "name": "Enemy_Golem_Senior",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      4677.88,
+      107.77,
+      -2998.28
+    ]
+  },
+  {
+    "objid": "272521",
+    "map_type": "MainField",
+    "Location": "North Akkala Foothill",
+    "Id": "GA02",
+    "hash_id": "0x4eacdd6cc5cfa8b0",
+    "name": "Enemy_Golem_Junior",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      4062.73,
+      255.45,
+      -2972.86
+    ]
+  },
+  {
+    "objid": "272624",
+    "map_type": "MainField",
+    "Location": "East Akkala Plains",
+    "Id": "GA03",
+    "hash_id": "0xd2afa346a5eff9e8",
+    "name": "Enemy_Golem_Fort_A",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      4180.83,
+      120.69,
+      -2227.52
+    ]
+  },
+  {
+    "objid": "276641",
+    "map_type": "MainField",
+    "Location": "Ulria Grotto",
+    "Id": "GZ04",
+    "hash_id": "0x0a62ee59130b8f0d",
+    "name": "Enemy_Golem_Middle",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      4190.79,
+      456.06,
+      -517.8
+    ]
+  },
+  {
+    "objid": "279520",
+    "map_type": "MainField",
+    "Location": "Mount Lanayru",
+    "Id": "GL01",
+    "hash_id": "0x6b23e454797233da",
+    "name": "Enemy_Golem_Ice",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      4057.09,
+      416.87,
+      1056.14
+    ]
+  },
+  {
+    "objid": "521722",
+    "map_type": "MainField",
+    "Location": "Ulria Grotto South Cave",
+    "Id": "GZ03",
+    "hash_id": "0x2b3fe52a6caf1339",
+    "name": "Enemy_Golem_Middle",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "0",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      4140.51,
+      290.34,
+      -543.27
+    ]
+  },
+  {
+    "objid": "524226",
+    "map_type": "MainField",
+    "Location": "Death Mountain East Tunnel",
+    "Id": "GE04",
+    "hash_id": "0x972b0010ac36c3e3",
+    "name": "Enemy_Golem_Fire_KeyCrystal",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      2630.22,
+      635.22,
+      -2744.99
+    ]
+  },
+  {
+    "objid": "534231",
+    "map_type": "MainField",
+    "Location": "Taafei Hill Cave",
+    "Id": "GG04",
+    "hash_id": "0xabd0710e7c9d97f1",
+    "name": "Enemy_Golem_Senior",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "0",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -2599.58,
+      282.85,
+      1781.64
+    ]
+  },
+  {
+    "objid": "537132",
+    "map_type": "MainField",
+    "Location": "Byroad to Lanayru Wetlands",
+    "Id": "GK03",
+    "hash_id": "0x6091ab72cdf594eb",
+    "name": "Enemy_Golem_Middle",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      1482.94,
+      115.84,
+      974.86
+    ]
+  },
+  {
+    "objid": "545284",
+    "map_type": "MainField",
+    "Location": "Crenel Hills Cave",
+    "Id": "GK01",
+    "hash_id": "0x0906aa3075dac0b6",
+    "name": "Enemy_Golem_Middle",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "0",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      574.62,
+      114.57,
+      -766.05
+    ]
+  },
+  {
+    "objid": "546646",
+    "map_type": "MainField",
+    "Location": "Ancient Zora Waterworks",
+    "Id": "SZ05",
+    "hash_id": "0x20c5127954a93fef",
+    "name": "Enemy_Golem_Middle",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "0",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      3627.83,
+      2.09,
+      -274.19
+    ]
+  },
+  {
+    "objid": "548266",
+    "map_type": "MainField",
+    "Location": "Deya Village Ruins South Well",
+    "Id": "SF03",
+    "hash_id": "0xd4052bb4d763530a",
+    "name": "Enemy_Golem_Middle",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      340.1,
+      61.32,
+      1983.74
+    ]
+  },
+  {
+    "objid": "283180",
+    "map_type": "MinusField",
+    "Location": "Sherfin's Lavafalls",
+    "Id": "DH01",
+    "hash_id": "0x08873436a743aca3",
+    "name": "Enemy_Golem_Senior",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -4432.53,
+      -627.79,
+      -3386.98
+    ]
+  },
+  {
+    "objid": "284674",
+    "map_type": "MinusField",
+    "Location": "Sturnida Lavafalls",
+    "Id": "DH02",
+    "hash_id": "0xd60fd39368a2026e",
+    "name": "Enemy_Golem_Senior",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -4499.8,
+      -457.98,
+      -2450.41
+    ]
+  },
+  {
+    "objid": "285474",
+    "map_type": "MinusField",
+    "Location": "So-oaw Lightroot",
+    "Id": "DH04",
+    "hash_id": "0x0a32e1ff473cf93c",
+    "name": "Enemy_Golem_Fort_A",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -4393.3,
+      -456.72,
+      -1935.44
+    ]
+  },
+  {
+    "objid": "288450",
+    "map_type": "MinusField",
+    "Location": "Gerudo Canyon Mine",
+    "Id": "DG01",
+    "hash_id": "0xbbdd4a7c6dbb7b39",
+    "name": "Enemy_Golem_Ice",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -4722.67,
+      -979.72,
+      390.85
+    ]
+  },
+  {
+    "objid": "291674",
+    "map_type": "MinusField",
+    "Location": "Birida Lookout Chasm",
+    "Id": "DG02",
+    "hash_id": "0x7432b6793ae3c2cb",
+    "name": "Enemy_Golem_Junior",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -4010.21,
+      -648.69,
+      1696.2
+    ]
+  },
+  {
+    "objid": "302547",
+    "map_type": "MinusField",
+    "Location": "Corvash Canyon Mine",
+    "Id": "DH03",
+    "hash_id": "0x5421edbb6444df5c",
+    "name": "Enemy_Golem_Ice",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -3629.34,
+      -486.57,
+      -2196.21
+    ]
+  },
+  {
+    "objid": "305544",
+    "map_type": "MinusField",
+    "Location": "Koro-nui Lightroot",
+    "Id": "DR03",
+    "hash_id": "0x7cc43300dbf5f98f",
+    "name": "Enemy_Golem_Senior",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -3386.52,
+      -543.17,
+      -1076.03
+    ]
+  },
+  {
+    "objid": "305552",
+    "map_type": "MinusField",
+    "Location": "Kawumoro Lightroot",
+    "Id": "DR02",
+    "hash_id": "0xc67aacbbedf509c4",
+    "name": "Enemy_Golem_Fort_A",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -3108.02,
+      -500.09,
+      -1287.7
+    ]
+  },
+  {
+    "objid": "320219",
+    "map_type": "MinusField",
+    "Location": "Abandoned Kara Kara Mine",
+    "Id": "DG03",
+    "hash_id": "0xe7c4e6d2e9d1b674",
+    "name": "Enemy_Golem_Junior",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -3530.62,
+      -379.35,
+      2443.35
+    ]
+  },
+  {
+    "objid": "331169",
+    "map_type": "MinusField",
+    "Location": "Hyrule Ridge Chasm",
+    "Id": "DR01",
+    "hash_id": "0x1c76763e93f3b99e",
+    "name": "Enemy_Golem_Senior",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -2635.38,
+      -304.84,
+      -1491.78
+    ]
+  },
+  {
+    "objid": "338136",
+    "map_type": "MinusField",
+    "Location": "Blupee Burrow",
+    "Id": "DC02",
+    "hash_id": "0x2a25c9f78a0f9b4a",
+    "name": "Enemy_Golem_Middle",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -2221.0,
+      -609.08,
+      584.72
+    ]
+  },
+  {
+    "objid": "338142",
+    "map_type": "MinusField",
+    "Location": "Tamio River North Depths",
+    "Id": "DR04",
+    "hash_id": "0x1579a104138da427",
+    "name": "Enemy_Golem_Fort_A_Wander",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -2526.82,
+      -471.38,
+      107.41
+    ]
+  },
+  {
+    "objid": "376855",
+    "map_type": "MinusField",
+    "Location": "Drenan Highlands Chasm",
+    "Id": "DT02",
+    "hash_id": "0xb7ef625e5015d6f6",
+    "name": "Enemy_Golem_Middle",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -394.2,
+      -492.04,
+      -2955.85
+    ]
+  },
+  {
+    "objid": "387974",
+    "map_type": "MinusField",
+    "Location": "Hyrule Field Depths South",
+    "Id": "DC03",
+    "hash_id": "0x4d8931b696fc65dc",
+    "name": "Enemy_Golem_Fort_A",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -108.73,
+      -382.21,
+      802.02
+    ]
+  },
+  {
+    "objid": "388062",
+    "map_type": "MinusField",
+    "Location": "Hyrule Field Depths Southwest",
+    "Id": "DC04",
+    "hash_id": "0xd41f53a00c1c10df",
+    "name": "Enemy_Golem_Junior",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -460.26,
+      -382.32,
+      1004.68
+    ]
+  },
+  {
+    "objid": "397259",
+    "map_type": "MinusField",
+    "Location": "Pappetto Grove",
+    "Id": "DF01",
+    "hash_id": "0x4e9affef2c0e29f4",
+    "name": "Enemy_Golem_Junior",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -826.02,
+      -432.65,
+      3349.92
+    ]
+  },
+  {
+    "objid": "400156",
+    "map_type": "MinusField",
+    "Location": "Kayam Lightroot",
+    "Id": "DT01",
+    "hash_id": "0x935dae7e00dece65",
+    "name": "Enemy_Golem_Middle",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      950.56,
+      -449.85,
+      -3673.3
+    ]
+  },
+  {
+    "objid": "409189",
+    "map_type": "MinusField",
+    "Location": "Applean Grove",
+    "Id": "DC01",
+    "hash_id": "0x25b5939a9e3c435d",
+    "name": "Enemy_Golem_Junior",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      -3.67,
+      -365.63,
+      12.47
+    ]
+  },
+  {
+    "objid": "409193",
+    "map_type": "MinusField",
+    "Location": "Crenel Canyon Mine",
+    "Id": "DK01",
+    "hash_id": "0x4f3b9984c6189c54",
+    "name": "Enemy_Golem_Senior",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      697.14,
+      -377.19,
+      -513.47
+    ]
+  },
+  {
+    "objid": "424526",
+    "map_type": "MinusField",
+    "Location": "Eldin Depths Northwest",
+    "Id": "DE02",
+    "hash_id": "0xc6c0249e7b3f3451",
+    "name": "Enemy_Golem_Fire",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      1454.13,
+      -733.13,
+      -3174.56
+    ]
+  },
+  {
+    "objid": "428491",
+    "map_type": "MinusField",
+    "Location": "Rock Roast Lake Depths",
+    "Id": "DE04",
+    "hash_id": "0xe3e03f9067a715e9",
+    "name": "Enemy_Golem_Fire",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      1672.48,
+      -621.12,
+      -1610.02
+    ]
+  },
+  {
+    "objid": "437100",
+    "map_type": "MinusField",
+    "Location": "Abandoned Kakariko Mine",
+    "Id": "DK02",
+    "hash_id": "0xc4df9ce9b313c7f7",
+    "name": "Enemy_Golem_Senior",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      1483.02,
+      -493.04,
+      975.01
+    ]
+  },
+  {
+    "objid": "444349",
+    "map_type": "MinusField",
+    "Location": "Kohsustu Lightroot",
+    "Id": "DF02",
+    "hash_id": "0x6ea9541eac4066e2",
+    "name": "Enemy_Golem_Middle",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      1056.38,
+      -372.31,
+      3417.4
+    ]
+  },
+  {
+    "objid": "445223",
+    "map_type": "MinusField",
+    "Location": "Eldin Depths North",
+    "Id": "DE01",
+    "hash_id": "0xb8a49b6d5aa80473",
+    "name": "Enemy_Golem_Middle",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      2479.1,
+      -666.05,
+      -3637.16
+    ]
+  },
+  {
+    "objid": "446699",
+    "map_type": "MinusField",
+    "Location": "Eldin Depths East",
+    "Id": "DE03",
+    "hash_id": "0xc75e48410dc5cfbd",
+    "name": "Enemy_Golem_Fire",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      2912.83,
+      -856.98,
+      -2555.56
+    ]
+  },
+  {
+    "objid": "448133",
+    "map_type": "MinusField",
+    "Location": "Ancient Underground Fortress",
+    "Id": "DA02",
+    "hash_id": "0x51e4d30075bc4407",
+    "name": "Enemy_Golem_Fort_A_Wander",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      2985.0,
+      -625.14,
+      -1449.0
+    ]
+  },
+  {
+    "objid": "457829",
+    "map_type": "MinusField",
+    "Location": "Meda Mountain Chasm",
+    "Id": "DL03",
+    "hash_id": "0x84e046fe19498890",
+    "name": "Enemy_Golem_Ice",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      2642.18,
+      -422.83,
+      1942.76
+    ]
+  },
+  {
+    "objid": "482108",
+    "map_type": "MinusField",
+    "Location": "Canyon of Awakening Mine",
+    "Id": "DL02",
+    "hash_id": "0x31ce610b1b72745a",
+    "name": "Enemy_Golem_Middle",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      3028.87,
+      -354.99,
+      1778.51
+    ]
+  },
+  {
+    "objid": "486867",
+    "map_type": "MinusField",
+    "Location": "Dunsel Canyon Mine",
+    "Id": "DL04",
+    "hash_id": "0x0393ea18be1dcfbd",
+    "name": "Enemy_Golem_Fort_A",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      3276.87,
+      -374.99,
+      3408.1
+    ]
+  },
+  {
+    "objid": "489719",
+    "map_type": "MinusField",
+    "Location": "Akkala Depths Northeast",
+    "Id": "DA01",
+    "hash_id": "0x153c7a1611df1b0b",
+    "name": "Enemy_Golem_Middle",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      4677.84,
+      -350.03,
+      -2998.33
+    ]
+  },
+  {
+    "objid": "493205",
+    "map_type": "MinusField",
+    "Location": "Ploymus Canyon Mine",
+    "Id": "DZ01",
+    "hash_id": "0x9ece413ffbba89c7",
+    "name": "Enemy_Golem_Middle",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      4190.79,
+      -690.4,
+      -517.8
+    ]
+  },
+  {
+    "objid": "495942",
+    "map_type": "MinusField",
+    "Location": "Lanayru Canyon Mine",
+    "Id": "DL01",
+    "hash_id": "0x5850ab403c827598",
+    "name": "Enemy_Golem_Middle",
+    "scale": "0",
+    "equip": "None",
+    "map_static": "1",
+    "korok_id": "None",
+    "korok_type": "None",
+    "pos": [
+      4057.05,
+      -652.92,
+      1056.16
+    ]
+  }
+]

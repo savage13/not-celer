@@ -1,0 +1,74 @@
+---
+_config:
+  engine:
+    ignore:
+    - FuryRecharge
+    - GaleRecharge
+_project:
+  authors:
+    - 31PNMR
+  description: Hundo EX Glitchless
+  name: Hundo EX MGR IST DIC HPE WMC
+  url: ""
+  version: 1.0.0
+_route:
+  - Great Sky Island:
+    - _Shrine::In-isa:
+       line-color: lightyellow
+    - _Shrine::Ukouh
+    - _Shrine::Gutanbac
+    - _Warp::ROA
+    - _Shrine::Nachoyah:
+       notes: Hello Note
+       comment: Comment Here
+    - _Chest<Start>:
+       coord: [-326.07, 1227.75, -1503.60]
+    - _Chest<Thing>:
+       coord: [861, 2208, -1175] 
+    - _Material<Thing>:
+       coord: [361, 2208, -1175] 
+  - Paraglider:
+    - _Tower::LookoutLanding
+    - _Bubbulfrog::AkkalaCitadelRuinsCave
+    - _Cave::SageTemple00
+    - _Shrine::Ganos
+    - _Well::MountGustaf
+    - _Addison::A12
+    - _Item<Thing>
+    - _Npc<Fronk>
+    - _Enemy::Hinox::DC05
+    - _Warp::Shrine::Mayachin
+    - _Equipment::Bow<GEB>:
+       coord: [0, 0, 0]
+    - _Equipment::Shield<Pot Lid>:
+       coord: [300, 0, 0]
+    - _Equipment::Weapon<Hammer>:
+       coord: [600, 0, 0]
+    - _Warp::SOR
+    - _Korok::LL17
+    - _Korok::RP13
+    - _Korok::LL06
+    - Stuff
+    - More Stuff
+  - Depths Round:
+    - _Lightroot::Siakij:
+       line-color: "#ffffff80"
+    - _Lightroot::Kimimadena
+    - _Lightroot::Ni-iraram
+    - things
+    - stuff
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

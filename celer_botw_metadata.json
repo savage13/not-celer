@@ -1,0 +1,9951 @@
+{
+  "Korok": {
+    "A01": {
+      "Id": "A01",
+      "Type": "LiftRockTree",
+      "pos": [
+        3075.87,
+        318.83,
+        -3684.38
+      ]
+    },
+    "A02": {
+      "Id": "A02",
+      "Type": "RockCircle",
+      "pos": [
+        3326.96,
+        309.81,
+        -3589.2
+      ]
+    },
+    "A03": {
+      "Id": "A03",
+      "Type": "LiftRockBoulder",
+      "pos": [
+        3455.61,
+        314.14,
+        -3581.87
+      ]
+    },
+    "A04": {
+      "Id": "A04",
+      "Type": "FlowerCount",
+      "pos": [
+        3813.45,
+        255.99,
+        -3419.22
+      ]
+    },
+    "A05": {
+      "Id": "A05",
+      "Type": "Race",
+      "Comment": "",
+      "pos": [
+        3152.59,
+        170.16,
+        -3328.34
+      ]
+    },
+    "A06": {
+      "Id": "A06",
+      "Type": "LiftRockSlab",
+      "pos": [
+        3496.16,
+        255.92,
+        -3374.29
+      ]
+    },
+    "A07": {
+      "Id": "A07",
+      "Type": "BoulderGolf",
+      "pos": [
+        3779.7,
+        275.42,
+        -3361.51
+      ]
+    },
+    "A08": {
+      "Id": "A08",
+      "Type": "LiftRockRubble",
+      "pos": [
+        4422.96,
+        115.15,
+        -3340.21
+      ]
+    },
+    "A09": {
+      "Id": "A09",
+      "Type": "LiftRockSlab",
+      "pos": [
+        4815.5,
+        105.73,
+        -3300.24
+      ]
+    },
+    "A10": {
+      "Id": "A10",
+      "Type": "LiftRockSlab",
+      "pos": [
+        3178.98,
+        176.4,
+        -3073.66
+      ]
+    },
+    "A11": {
+      "Id": "A11",
+      "Type": "LiftRockTree",
+      "pos": [
+        3350.1,
+        175.02,
+        -3079.83
+      ]
+    },
+    "A12": {
+      "Id": "A12",
+      "Type": "Balloon",
+      "Comment": "Hanging under cliff",
+      "pos": [
+        3572.84,
+        205.91,
+        -3046.93
+      ]
+    },
+    "A13": {
+      "Id": "A13",
+      "Type": "LiftRockLeaves",
+      "pos": [
+        3995.79,
+        292.52,
+        -3147.58
+      ]
+    },
+    "A14": {
+      "Id": "A14",
+      "Type": "Race",
+      "pos": [
+        4344.05,
+        363.38,
+        -3178.36
+      ]
+    },
+    "A15": {
+      "Id": "A15",
+      "Type": "LiftRock",
+      "pos": [
+        4428.83,
+        352.26,
+        -3182.9
+      ]
+    },
+    "A16": {
+      "Id": "A16",
+      "Type": "Confetti",
+      "pos": [
+        4503.65,
+        379.21,
+        -3164.38
+      ]
+    },
+    "A17": {
+      "Id": "A17",
+      "Type": "FlowerCount",
+      "Comment": "Start top of guardian",
+      "pos": [
+        4817.19,
+        106.12,
+        -3094.21
+      ]
+    },
+    "A18": {
+      "Id": "A18",
+      "Type": "AcornLog",
+      "pos": [
+        3736.66,
+        147.37,
+        -2884.98
+      ]
+    },
+    "A19": {
+      "Id": "A19",
+      "Type": "FlowerCount",
+      "pos": [
+        4103.2,
+        232.56,
+        -2832.4
+      ]
+    },
+    "A20": {
+      "Id": "A20",
+      "Type": "BlockPuzzle",
+      "pos": [
+        3436.59,
+        155.19,
+        -2533.65
+      ]
+    },
+    "A21": {
+      "Id": "A21",
+      "Type": "LiftRock",
+      "Comment": "Side of spring",
+      "pos": [
+        3726.79,
+        127.29,
+        -2677.46
+      ]
+    },
+    "A22": {
+      "Id": "A22",
+      "Type": "LiftRockLeaves",
+      "pos": [
+        4008.6,
+        195.2,
+        -2736.3
+      ]
+    },
+    "A23": {
+      "Id": "A23",
+      "Type": "RockCircle",
+      "pos": [
+        4396.83,
+        224.35,
+        -2721.58
+      ]
+    },
+    "A24": {
+      "Id": "A24",
+      "Type": "BlockPuzzle",
+      "pos": [
+        4508.73,
+        106.4,
+        -2643.6
+      ]
+    },
+    "A25": {
+      "Id": "A25",
+      "Type": "Confetti",
+      "Comment": "Top of tree",
+      "pos": [
+        3372.04,
+        271.94,
+        -2315.19
+      ]
+    },
+    "A26": {
+      "Id": "A26",
+      "Type": "BlockPuzzle",
+      "pos": [
+        3732.84,
+        139.54,
+        -2423.21
+      ]
+    },
+    "A27": {
+      "Id": "A27",
+      "Type": "LightChase",
+      "pos": [
+        3877.54,
+        178.84,
+        -2371.86
+      ]
+    },
+    "A28": {
+      "Id": "A28",
+      "Type": "Race",
+      "pos": [
+        4181.04,
+        220.8,
+        -2540.4
+      ]
+    },
+    "A29": {
+      "Id": "A29",
+      "Type": "Balloon",
+      "pos": [
+        4338.09,
+        170.55,
+        -2438.51
+      ]
+    },
+    "A30": {
+      "Id": "A30",
+      "Type": "LightChase",
+      "pos": [
+        3244.91,
+        265.87,
+        -2000.3
+      ]
+    },
+    "A31": {
+      "Id": "A31",
+      "Type": "LiftRockLeaves",
+      "pos": [
+        3479.96,
+        280.77,
+        -2077.34
+      ]
+    },
+    "A32": {
+      "Id": "A32",
+      "Type": "MatchTree",
+      "pos": [
+        3662.78,
+        273.67,
+        -2067.31
+      ]
+    },
+    "A33": {
+      "Id": "A33",
+      "Type": "LiftRockLeaves",
+      "pos": [
+        4530.94,
+        106.98,
+        -2098.37
+      ]
+    },
+    "A34": {
+      "Id": "A34",
+      "Type": "RockCircle",
+      "pos": [
+        4098.31,
+        232.81,
+        -1756.46
+      ]
+    },
+    "A35": {
+      "Id": "A35",
+      "Type": "FlowerChase",
+      "pos": [
+        4634.4,
+        139.7,
+        -1840.94
+      ]
+    },
+    "A36": {
+      "Id": "A36",
+      "Type": "BlockPuzzle",
+      "pos": [
+        4691.7,
+        136.71,
+        -1777.33
+      ]
+    },
+    "A37": {
+      "Id": "A37",
+      "Type": "LiftRock",
+      "Comment": "Top of stone structure",
+      "pos": [
+        3709.39,
+        204.17,
+        -1683.44
+      ]
+    },
+    "A38": {
+      "Id": "A38",
+      "Type": "FlowerChase",
+      "Comment": "On bridge",
+      "pos": [
+        4095.78,
+        220,
+        -1627.46
+      ]
+    },
+    "A39": {
+      "Id": "A39",
+      "Type": "LiftRockDoor",
+      "pos": [
+        3297.69,
+        466.47,
+        -1583.79
+      ]
+    },
+    "A40": {
+      "Id": "A40",
+      "Type": "LiftRockLeaves",
+      "pos": [
+        3288.67,
+        511.29,
+        -1574.58
+      ]
+    },
+    "A41": {
+      "Id": "A41",
+      "Type": "LiftRockLeaves",
+      "pos": [
+        3237.79,
+        479.93,
+        -1527.74
+      ]
+    },
+    "A42": {
+      "Id": "A42",
+      "Type": "LiftRock",
+      "Comment": "Next to cannons",
+      "pos": [
+        3292.11,
+        530.9,
+        -1428.61
+      ]
+    },
+    "A43": {
+      "Id": "A43",
+      "Type": "LiftRockLeaves",
+      "pos": [
+        3296.23,
+        459.86,
+        -1421.08
+      ]
+    },
+    "A44": {
+      "Id": "A44",
+      "Type": "Race",
+      "pos": [
+        4356.77,
+        284.96,
+        -1528.09
+      ]
+    },
+    "A45": {
+      "Id": "A45",
+      "Type": "RockCircle",
+      "pos": [
+        3112.55,
+        426,
+        -1295.32
+      ]
+    },
+    "A46": {
+      "Id": "A46",
+      "Type": "LiftRockDoor",
+      "pos": [
+        3407.36,
+        442.76,
+        -1278.32
+      ]
+    },
+    "A47": {
+      "Id": "A47",
+      "Type": "OfferApple",
+      "pos": [
+        3882.54,
+        356.53,
+        -1340.01
+      ]
+    },
+    "A48": {
+      "Id": "A48",
+      "Type": "FlowerCount",
+      "pos": [
+        4104.55,
+        282.08,
+        -1350.66
+      ]
+    },
+    "A49": {
+      "Id": "A49",
+      "Type": "MatchTree",
+      "pos": [
+        4038.2,
+        329.62,
+        -1254.87
+      ]
+    },
+    "A50": {
+      "Id": "A50",
+      "Type": "LiftRockSlab",
+      "pos": [
+        3010.15,
+        346.43,
+        -1204.24
+      ]
+    },
+    "A51": {
+      "Id": "A51",
+      "Type": "Basketball",
+      "pos": [
+        3726.3,
+        331.25,
+        -1129.71
+      ]
+    },
+    "A52": {
+      "Id": "A52",
+      "Type": "LiftRock",
+      "Comment": "Below bridge",
+      "pos": [
+        3604.77,
+        334.48,
+        -1008.63
+      ]
+    },
+    "A53": {
+      "Id": "A53",
+      "Type": "MatchTree",
+      "pos": [
+        4239.35,
+        409.88,
+        -998.25
+      ]
+    },
+    "A54": {
+      "Id": "A54",
+      "Type": "Balloon",
+      "pos": [
+        3960.61,
+        378.52,
+        -858.58
+      ]
+    },
+    "A55": {
+      "Id": "A55",
+      "Type": "LiftRockBoulder",
+      "pos": [
+        4042.21,
+        351.56,
+        -661.96
+      ]
+    },
+    "A56": {
+      "Id": "A56",
+      "Type": "LightChase",
+      "pos": [
+        4332.91,
+        406.96,
+        -696.63
+      ]
+    },
+    "A57": {
+      "Id": "A57",
+      "Type": "Confetti",
+      "Comment": "Top of tree",
+      "pos": [
+        4144.26,
+        406.69,
+        -595.96
+      ]
+    },
+    "C01": {
+      "Id": "C01",
+      "Type": "LiftRock",
+      "pos": [
+        -753.67,
+        151.17,
+        -1086.79
+      ]
+    },
+    "C02": {
+      "Id": "C02",
+      "Type": "BlockPuzzle",
+      "pos": [
+        589.77,
+        121.48,
+        -1107.12
+      ]
+    },
+    "C03": {
+      "Id": "C03",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -670.08,
+        119.11,
+        -932.68
+      ]
+    },
+    "C04": {
+      "Id": "C04",
+      "Type": "LiftRock",
+      "Comment": "In fountain",
+      "pos": [
+        178.54,
+        134.04,
+        -940.02
+      ]
+    },
+    "C05": {
+      "Id": "C05",
+      "Type": "AcornTree",
+      "Comment": "In tree",
+      "pos": [
+        319.65,
+        137.19,
+        -962.06
+      ]
+    },
+    "C06": {
+      "Id": "C06",
+      "Type": "LilyPads",
+      "pos": [
+        506.9,
+        141.81,
+        -882.61
+      ]
+    },
+    "C07": {
+      "Id": "C07",
+      "Type": "AcornFlying",
+      "pos": [
+        -941.41,
+        133.35,
+        -817.63
+      ]
+    },
+    "C08": {
+      "Id": "C08",
+      "Type": "OfferShield",
+      "pos": [
+        -681.31,
+        122.38,
+        -860.62
+      ]
+    },
+    "C09": {
+      "Id": "C09",
+      "Type": "Confetti",
+      "Comment": "Top of tree",
+      "pos": [
+        696.3,
+        217.99,
+        -824.38
+      ]
+    },
+    "C10": {
+      "Id": "C10",
+      "Type": "Basketball",
+      "pos": [
+        292.18,
+        117.21,
+        -724.08
+      ]
+    },
+    "C11": {
+      "Id": "C11",
+      "Type": "LiftRock",
+      "Comment": "Inside hollow tree",
+      "pos": [
+        613.41,
+        183.51,
+        -743.37
+      ]
+    },
+    "C12": {
+      "Id": "C12",
+      "Type": "LiftRock",
+      "Comment": "In tree stump on peak",
+      "pos": [
+        840.4,
+        236.28,
+        -692.47
+      ]
+    },
+    "C13": {
+      "Id": "C13",
+      "Type": "Basketball",
+      "pos": [
+        1265.17,
+        116.4,
+        -707.25
+      ]
+    },
+    "C14": {
+      "Id": "C14",
+      "Type": "LiftRock",
+      "pos": [
+        -935.2,
+        167.84,
+        -641.24
+      ]
+    },
+    "C15": {
+      "Id": "C15",
+      "Type": "LilyPads",
+      "pos": [
+        -609.56,
+        119,
+        -682.3
+      ]
+    },
+    "C16": {
+      "Id": "C16",
+      "Type": "Acorn",
+      "Comment": "Under bridge",
+      "pos": [
+        -267.21,
+        139.86,
+        -610.18
+      ]
+    },
+    "C17": {
+      "Id": "C17",
+      "Type": "LiftRockLeaves",
+      "pos": [
+        85.54,
+        138.13,
+        -634.97
+      ]
+    },
+    "C18": {
+      "Id": "C18",
+      "Type": "LightChase",
+      "pos": [
+        396.08,
+        115.5,
+        -625.56
+      ]
+    },
+    "C19": {
+      "Id": "C19",
+      "Type": "Balloon",
+      "Comment": "Pinwheel on hollow tree",
+      "pos": [
+        686.03,
+        167.93,
+        -635.1
+      ]
+    },
+    "C20": {
+      "Id": "C20",
+      "Type": "LiftRockRubble",
+      "pos": [
+        -763.77,
+        156.04,
+        -606.27
+      ]
+    },
+    "C21": {
+      "Id": "C21",
+      "Type": "RockCircle",
+      "pos": [
+        -796.21,
+        187.66,
+        -558.85
+      ]
+    },
+    "C22": {
+      "Id": "C22",
+      "Type": "RockCircle",
+      "pos": [
+        -666.93,
+        128.6,
+        -543.81
+      ]
+    },
+    "C23": {
+      "Id": "C23",
+      "Type": "AcornHanging",
+      "Comment": "Below bridge",
+      "pos": [
+        504.45,
+        123.33,
+        -493.46
+      ]
+    },
+    "C24": {
+      "Id": "C24",
+      "Type": "LiftRock",
+      "Comment": "On small hill near bridge",
+      "pos": [
+        -1035.08,
+        150.22,
+        -446.22
+      ]
+    },
+    "C25": {
+      "Id": "C25",
+      "Type": "LiftRock",
+      "pos": [
+        -803.95,
+        138.07,
+        -403.12
+      ]
+    },
+    "C26": {
+      "Id": "C26",
+      "Type": "Balloon",
+      "Comment": "In tree",
+      "pos": [
+        -663.3,
+        146.77,
+        -432.6
+      ]
+    },
+    "C27": {
+      "Id": "C27",
+      "Type": "Race",
+      "pos": [
+        -253.82,
+        141.72,
+        -425.72
+      ]
+    },
+    "C28": {
+      "Id": "C28",
+      "Type": "LiftRockDoor",
+      "pos": [
+        86.23,
+        138.81,
+        -412.08
+      ]
+    },
+    "C29": {
+      "Id": "C29",
+      "Type": "Confetti",
+      "Comment": "Top of flagpole",
+      "pos": [
+        97.63,
+        181.01,
+        -429.8
+      ]
+    },
+    "C30": {
+      "Id": "C30",
+      "Type": "LiftRockRubble",
+      "Comment": "Next to broken house",
+      "pos": [
+        -886.65,
+        129.25,
+        -274.04
+      ]
+    },
+    "C31": {
+      "Id": "C31",
+      "Type": "LiftRock",
+      "Comment": "On wall",
+      "pos": [
+        -548.5,
+        140.88,
+        -229.52
+      ]
+    },
+    "C32": {
+      "Id": "C32",
+      "Type": "ShootEmblem",
+      "Comment": "Castle Town Gate",
+      "pos": [
+        -254.35,
+        146.84,
+        -264.41
+      ]
+    },
+    "C33": {
+      "Id": "C33",
+      "Type": "Balloon",
+      "Comment": "On outer wall",
+      "pos": [
+        -161.75,
+        147.43,
+        -262.04
+      ]
+    },
+    "C34": {
+      "Id": "C34",
+      "Type": "MatchTree",
+      "pos": [
+        623.24,
+        123.53,
+        -194.76
+      ]
+    },
+    "C35": {
+      "Id": "C35",
+      "Type": "LiftRock",
+      "Comment": "On pillar",
+      "pos": [
+        -239.38,
+        139.77,
+        -112.59
+      ]
+    },
+    "C36": {
+      "Id": "C36",
+      "Type": "LiftRock",
+      "pos": [
+        -1336.88,
+        122.55,
+        249.66
+      ]
+    },
+    "C37": {
+      "Id": "C37",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -1336.35,
+        117.12,
+        366.61
+      ]
+    },
+    "C38": {
+      "Id": "C38",
+      "Type": "FlowerChase",
+      "pos": [
+        -1155.96,
+        137.33,
+        245.12
+      ]
+    },
+    "C39": {
+      "Id": "C39",
+      "Type": "Confetti",
+      "Comment": "Top of flag pole",
+      "pos": [
+        -868.5,
+        187.17,
+        219.11
+      ]
+    },
+    "C40": {
+      "Id": "C40",
+      "Type": "LightChase",
+      "pos": [
+        -728.06,
+        154.69,
+        134.77
+      ]
+    },
+    "C41": {
+      "Id": "C41",
+      "Type": "AcornTree",
+      "pos": [
+        -710.25,
+        158.35,
+        99.93
+      ]
+    },
+    "C42": {
+      "Id": "C42",
+      "Type": "Balloon",
+      "pos": [
+        -516.95,
+        154.04,
+        97.79
+      ]
+    },
+    "C43": {
+      "Id": "C43",
+      "Type": "AcornFlying",
+      "pos": [
+        -427.28,
+        135.84,
+        150.92
+      ]
+    },
+    "C44": {
+      "Id": "C44",
+      "Type": "LiftRock",
+      "pos": [
+        25.66,
+        148.47,
+        147.48
+      ]
+    },
+    "C45": {
+      "Id": "C45",
+      "Type": "LiftRock",
+      "Comment": "On hill",
+      "pos": [
+        384.26,
+        154.17,
+        135.36
+      ]
+    },
+    "C46": {
+      "Id": "C46",
+      "Type": "LiftRock",
+      "Comment": "Under bridge",
+      "pos": [
+        806.57,
+        116.89,
+        24.09
+      ]
+    },
+    "C47": {
+      "Id": "C47",
+      "Type": "LilyPads",
+      "pos": [
+        -1127.28,
+        145.96,
+        414.31
+      ]
+    },
+    "C48": {
+      "Id": "C48",
+      "Type": "LiftRock",
+      "Comment": "Between 2 rocks",
+      "pos": [
+        -737.4,
+        125.85,
+        333.75
+      ]
+    },
+    "C49": {
+      "Id": "C49",
+      "Type": "AcornHanging",
+      "Comment": "Wagon next to tree",
+      "pos": [
+        -363.24,
+        131.73,
+        396.94
+      ]
+    },
+    "C50": {
+      "Id": "C50",
+      "Type": "FlowerCount",
+      "Comment": "Chaos Ranch",
+      "pos": [
+        142.93,
+        128.21,
+        296.02
+      ]
+    },
+    "C51": {
+      "Id": "C51",
+      "Type": "BoulderCircle",
+      "pos": [
+        627.03,
+        130.94,
+        182.3
+      ]
+    },
+    "C52": {
+      "Id": "C52",
+      "Type": "LiftRock",
+      "Comment": "In well",
+      "pos": [
+        -1313.94,
+        116.17,
+        622.86
+      ]
+    },
+    "C53": {
+      "Id": "C53",
+      "Type": "OfferApple",
+      "pos": [
+        -1020.38,
+        201.02,
+        559.81
+      ]
+    },
+    "C54": {
+      "Id": "C54",
+      "Type": "Confetti",
+      "Comment": "Top of flagpole",
+      "pos": [
+        -512.75,
+        170.26,
+        550.62
+      ]
+    },
+    "C55": {
+      "Id": "C55",
+      "Type": "LightChase",
+      "pos": [
+        -122.09,
+        128.79,
+        594
+      ]
+    },
+    "C56": {
+      "Id": "C56",
+      "Type": "OfferApple",
+      "pos": [
+        322.06,
+        127.5,
+        525
+      ]
+    },
+    "C57": {
+      "Id": "C57",
+      "Type": "AcornTree",
+      "pos": [
+        -1249.55,
+        125.52,
+        730.67
+      ]
+    },
+    "C58": {
+      "Id": "C58",
+      "Type": "TreeStump",
+      "pos": [
+        -1439.6,
+        125.5,
+        846.66
+      ]
+    },
+    "C59": {
+      "Id": "C59",
+      "Type": "Basketball",
+      "pos": [
+        -1512.68,
+        117.38,
+        908.66
+      ]
+    },
+    "C60": {
+      "Id": "C60",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -1106.93,
+        139.42,
+        905.26
+      ]
+    },
+    "C61": {
+      "Id": "C61",
+      "Type": "RockCircle",
+      "pos": [
+        -1009.46,
+        130.11,
+        932.03
+      ]
+    },
+    "C62": {
+      "Id": "C62",
+      "Type": "LightChase",
+      "pos": [
+        -749.92,
+        132.9,
+        892.21
+      ]
+    },
+    "C63": {
+      "Id": "C63",
+      "Type": "FlowerChase",
+      "pos": [
+        -644.58,
+        146.21,
+        876.11
+      ]
+    },
+    "C64": {
+      "Id": "C64",
+      "Type": "LightChase",
+      "pos": [
+        -133.7,
+        143.35,
+        945.03
+      ]
+    },
+    "C65": {
+      "Id": "C65",
+      "Type": "AcornTree",
+      "pos": [
+        225.38,
+        173.64,
+        872.04
+      ]
+    },
+    "C66": {
+      "Id": "C66",
+      "Type": "RockCircle",
+      "pos": [
+        -1356.69,
+        140.95,
+        1002.41
+      ]
+    },
+    "C67": {
+      "Id": "C67",
+      "Type": "LiftRock",
+      "Comment": "On ledge (hard to see)",
+      "pos": [
+        -1154.35,
+        132.86,
+        964.63
+      ]
+    },
+    "C68": {
+      "Id": "C68",
+      "Type": "AcornHanging",
+      "Comment": "On bridge",
+      "pos": [
+        -1134.46,
+        143.84,
+        1030.47
+      ]
+    },
+    "C69": {
+      "Id": "C69",
+      "Type": "AcornHanging",
+      "Comment": "From tree",
+      "pos": [
+        -599.94,
+        138.02,
+        1071.81
+      ]
+    },
+    "C70": {
+      "Id": "C70",
+      "Type": "RockCircle",
+      "pos": [
+        -106.45,
+        153.33,
+        1047.96
+      ]
+    },
+    "C71": {
+      "Id": "C71",
+      "Type": "LiftRockTree",
+      "pos": [
+        39.26,
+        140.77,
+        1034.49
+      ]
+    },
+    "C72": {
+      "Id": "C72",
+      "Type": "AcornFlying",
+      "pos": [
+        -1370.34,
+        174.22,
+        1165.82
+      ]
+    },
+    "C73": {
+      "Id": "C73",
+      "Type": "Race",
+      "pos": [
+        -1190.02,
+        174.95,
+        1116.74
+      ]
+    },
+    "C74": {
+      "Id": "C74",
+      "Type": "LiftRock",
+      "Comment": "Top of Coliseum",
+      "pos": [
+        -1149.91,
+        218.28,
+        1204.1
+      ]
+    },
+    "C75": {
+      "Id": "C75",
+      "Type": "LilyPads",
+      "pos": [
+        -425.27,
+        131,
+        1189.34
+      ]
+    },
+    "C76": {
+      "Id": "C76",
+      "Type": "LiftRockLeaves",
+      "pos": [
+        -466.41,
+        137.21,
+        1279.38
+      ]
+    },
+    "C77": {
+      "Id": "C77",
+      "Type": "Balloon",
+      "pos": [
+        295.58,
+        135.22,
+        1204.79
+      ]
+    },
+    "C78": {
+      "Id": "C78",
+      "Type": "LiftRock",
+      "pos": [
+        -1314.29,
+        139.19,
+        1257.33
+      ]
+    },
+    "C79": {
+      "Id": "C79",
+      "Type": "LiftRock",
+      "pos": [
+        -1224.68,
+        299.79,
+        1358.41
+      ]
+    },
+    "C80": {
+      "Id": "C80",
+      "Type": "AcornLog",
+      "pos": [
+        -1280.39,
+        284.68,
+        1384.89
+      ]
+    },
+    "C81": {
+      "Id": "C81",
+      "Type": "LightChase",
+      "Comment": "In ruins",
+      "pos": [
+        -1057.31,
+        167.53,
+        1327.52
+      ]
+    },
+    "C82": {
+      "Id": "C82",
+      "Type": "LightChase",
+      "pos": [
+        -770.02,
+        135.06,
+        1380.97
+      ]
+    },
+    "C83": {
+      "Id": "C83",
+      "Type": "Balloon",
+      "pos": [
+        -653.64,
+        159.13,
+        1390.28
+      ]
+    },
+    "C84": {
+      "Id": "C84",
+      "Type": "AcornFlying",
+      "pos": [
+        69.3,
+        121.17,
+        1438
+      ]
+    },
+    "C85": {
+      "Id": "C85",
+      "Type": "LiftRockTree",
+      "pos": [
+        -1666.66,
+        249.27,
+        1393.96
+      ]
+    },
+    "C86": {
+      "Id": "C86",
+      "Type": "LiftRock",
+      "pos": [
+        -1728.58,
+        144.39,
+        1478.86
+      ]
+    },
+    "C87": {
+      "Id": "C87",
+      "Type": "Basketball",
+      "pos": [
+        -1583.93,
+        68.69,
+        1579.69
+      ]
+    },
+    "C88": {
+      "Id": "C88",
+      "Type": "LilyPads",
+      "pos": [
+        -1746.91,
+        71,
+        1831.09
+      ]
+    },
+    "C89": {
+      "Id": "C89",
+      "Type": "Basketball",
+      "pos": [
+        -1491.53,
+        68.49,
+        1832.24
+      ]
+    },
+    "D01": {
+      "Id": "D01",
+      "Type": "LiftRock",
+      "Comment": "Island below",
+      "pos": [
+        954.4,
+        116.27,
+        942.46
+      ]
+    },
+    "D02": {
+      "Id": "D02",
+      "Type": "LilyPads",
+      "Comment": "Next to Impa's house",
+      "pos": [
+        1775.8,
+        219.04,
+        963.6
+      ]
+    },
+    "D03": {
+      "Id": "D03",
+      "Type": "OfferApple",
+      "pos": [
+        1807.03,
+        220.44,
+        992.2
+      ]
+    },
+    "D04": {
+      "Id": "D04",
+      "Type": "LiftRock",
+      "Comment": "Ledge",
+      "pos": [
+        1793.89,
+        258.89,
+        1052.82
+      ]
+    },
+    "D05": {
+      "Id": "D05",
+      "Type": "ShootEmblem",
+      "pos": [
+        1798.33,
+        230.96,
+        1078.17
+      ]
+    },
+    "D06": {
+      "Id": "D06",
+      "Type": "ShootEmblem",
+      "pos": [
+        1957.25,
+        248.06,
+        1062.05
+      ]
+    },
+    "D07": {
+      "Id": "D07",
+      "Type": "LiftRock",
+      "pos": [
+        2163.89,
+        460.62,
+        1034.73
+      ]
+    },
+    "D08": {
+      "Id": "D08",
+      "Type": "LiftRock",
+      "Comment": "On ledge",
+      "pos": [
+        1939.51,
+        269.11,
+        1110.93
+      ]
+    },
+    "D09": {
+      "Id": "D09",
+      "Type": "MatchTree",
+      "pos": [
+        1676.1,
+        324.63,
+        1157.93
+      ]
+    },
+    "D10": {
+      "Id": "D10",
+      "Type": "LiftRock",
+      "pos": [
+        1739.3,
+        413.37,
+        1186.67
+      ]
+    },
+    "D11": {
+      "Id": "D11",
+      "Type": "LiftRock",
+      "Comment": "Peak",
+      "pos": [
+        1933.25,
+        376.73,
+        1220.96
+      ]
+    },
+    "D12": {
+      "Id": "D12",
+      "Type": "BlockPuzzle",
+      "pos": [
+        2058.5,
+        244.81,
+        1208.55
+      ]
+    },
+    "D13": {
+      "Id": "D13",
+      "Type": "LiftRockTree",
+      "pos": [
+        516.1,
+        127.02,
+        1167.1
+      ]
+    },
+    "D14": {
+      "Id": "D14",
+      "Type": "AcornHanging",
+      "Comment": "From bridge",
+      "pos": [
+        337.14,
+        120.05,
+        1271.06
+      ]
+    },
+    "D15": {
+      "Id": "D15",
+      "Type": "TreeStump",
+      "Comment": "Edge of forest",
+      "pos": [
+        715.11,
+        166.34,
+        1327.02
+      ]
+    },
+    "D16": {
+      "Id": "D16",
+      "Type": "LiftRock",
+      "Comment": "Small island",
+      "pos": [
+        1040.55,
+        121.35,
+        1318.15
+      ]
+    },
+    "D17": {
+      "Id": "D17",
+      "Type": "LiftRockTree",
+      "pos": [
+        1293.44,
+        273.69,
+        1331.36
+      ]
+    },
+    "D18": {
+      "Id": "D18",
+      "Type": "LilyPads",
+      "pos": [
+        1553.54,
+        119,
+        1297.18
+      ]
+    },
+    "D19": {
+      "Id": "D19",
+      "Type": "Basketball",
+      "pos": [
+        1638.96,
+        116.47,
+        1376.28
+      ]
+    },
+    "D20": {
+      "Id": "D20",
+      "Type": "Basketball",
+      "pos": [
+        1750.43,
+        116.39,
+        1544.68
+      ]
+    },
+    "D21": {
+      "Id": "D21",
+      "Type": "Confetti",
+      "Comment": "Top of tree",
+      "pos": [
+        2207.28,
+        192.59,
+        1373.48
+      ]
+    },
+    "D22": {
+      "Id": "D22",
+      "Type": "LiftRockBoulder",
+      "pos": [
+        318.15,
+        115.38,
+        1397.9
+      ]
+    },
+    "D23": {
+      "Id": "D23",
+      "Type": "AcornFlying",
+      "pos": [
+        518.62,
+        131,
+        1475.52
+      ]
+    },
+    "D24": {
+      "Id": "D24",
+      "Type": "BoulderGolf",
+      "pos": [
+        668.64,
+        135.47,
+        1468.29
+      ]
+    },
+    "D25": {
+      "Id": "D25",
+      "Type": "JumpFence",
+      "pos": [
+        788.83,
+        145.87,
+        1471.35
+      ]
+    },
+    "D26": {
+      "Id": "D26",
+      "Type": "Confetti",
+      "Comment": "Top of flagpole",
+      "pos": [
+        87.01,
+        164.54,
+        1585.09
+      ]
+    },
+    "D27": {
+      "Id": "D27",
+      "Type": "LiftRock",
+      "Comment": "Under bridge",
+      "pos": [
+        232.2,
+        115.35,
+        1601.41
+      ]
+    },
+    "D28": {
+      "Id": "D28",
+      "Type": "Confetti",
+      "Comment": "Top of flagpole",
+      "pos": [
+        671.09,
+        180.86,
+        1638.37
+      ]
+    },
+    "D29": {
+      "Id": "D29",
+      "Type": "LiftRock",
+      "Comment": "On island",
+      "pos": [
+        850.5,
+        115.39,
+        1623.99
+      ]
+    },
+    "D30": {
+      "Id": "D30",
+      "Type": "OfferApple",
+      "pos": [
+        1376.52,
+        327.85,
+        1680.34
+      ]
+    },
+    "D31": {
+      "Id": "D31",
+      "Type": "BoulderGolf",
+      "pos": [
+        54.98,
+        146.9,
+        1758.55
+      ]
+    },
+    "D32": {
+      "Id": "D32",
+      "Type": "Basketball",
+      "pos": [
+        112.31,
+        116.67,
+        1709.78
+      ]
+    },
+    "D33": {
+      "Id": "D33",
+      "Type": "BlockPuzzle",
+      "pos": [
+        178.96,
+        116.68,
+        1719.98
+      ]
+    },
+    "D34": {
+      "Id": "D34",
+      "Type": "LiftRock",
+      "pos": [
+        225.3,
+        121.99,
+        1705.66
+      ]
+    },
+    "D35": {
+      "Id": "D35",
+      "Type": "Balloon",
+      "pos": [
+        312.68,
+        180.27,
+        1766.79
+      ]
+    },
+    "D36": {
+      "Id": "D36",
+      "Type": "FlowerChase",
+      "pos": [
+        516.76,
+        167.24,
+        1788.16
+      ]
+    },
+    "D37": {
+      "Id": "D37",
+      "Type": "BoulderGolf",
+      "pos": [
+        644.18,
+        116.81,
+        1763.26
+      ]
+    },
+    "D38": {
+      "Id": "D38",
+      "Type": "LiftRock",
+      "Comment": "In cave",
+      "pos": [
+        704.98,
+        116.75,
+        1796.56
+      ]
+    },
+    "D39": {
+      "Id": "D39",
+      "Type": "FlowerChase",
+      "Comment": "Across river",
+      "pos": [
+        1049.23,
+        115.87,
+        1783.27
+      ]
+    },
+    "D40": {
+      "Id": "D40",
+      "Type": "LiftRock",
+      "pos": [
+        1258.45,
+        492.11,
+        1851.12
+      ]
+    },
+    "D41": {
+      "Id": "D41",
+      "Type": "BoulderGolf",
+      "pos": [
+        1517.27,
+        400.24,
+        1850.08
+      ]
+    },
+    "D42": {
+      "Id": "D42",
+      "Type": "Confetti",
+      "Comment": "Top of stable",
+      "pos": [
+        1748.57,
+        140.69,
+        1921.65
+      ]
+    },
+    "D43": {
+      "Id": "D43",
+      "Type": "FlowerCount",
+      "Comment": "In cave",
+      "pos": [
+        -189.7,
+        121.28,
+        1835.39
+      ]
+    },
+    "D44": {
+      "Id": "D44",
+      "Type": "LiftRock",
+      "pos": [
+        5.32,
+        207.82,
+        1897.89
+      ]
+    },
+    "D45": {
+      "Id": "D45",
+      "Type": "Confetti",
+      "pos": [
+        160.04,
+        150.43,
+        1942.17
+      ]
+    },
+    "D46": {
+      "Id": "D46",
+      "Type": "MatchTree",
+      "pos": [
+        551.57,
+        182.9,
+        1903.5
+      ]
+    },
+    "D47": {
+      "Id": "D47",
+      "Type": "Balloon",
+      "pos": [
+        868.27,
+        142.61,
+        1902.03
+      ]
+    },
+    "D48": {
+      "Id": "D48",
+      "Type": "LiftRock",
+      "Comment": "Upper level",
+      "pos": [
+        1101.69,
+        224.28,
+        1889.53
+      ]
+    },
+    "D49": {
+      "Id": "D49",
+      "Type": "OfferApple",
+      "pos": [
+        1245.11,
+        541.34,
+        1942.17
+      ]
+    },
+    "D50": {
+      "Id": "D50",
+      "Type": "LiftRockSlab",
+      "pos": [
+        815.22,
+        202.72,
+        2089.43
+      ]
+    },
+    "D51": {
+      "Id": "D51",
+      "Type": "LiftRockTree",
+      "Comment": "Big tree",
+      "pos": [
+        1877.42,
+        132.53,
+        2051.32
+      ]
+    },
+    "D52": {
+      "Id": "D52",
+      "Type": "Balloon",
+      "pos": [
+        2054.82,
+        153.24,
+        2092.72
+      ]
+    },
+    "D53": {
+      "Id": "D53",
+      "Type": "LilyPads",
+      "pos": [
+        2484.82,
+        119,
+        2103.39
+      ]
+    },
+    "D54": {
+      "Id": "D54",
+      "Type": "Torch",
+      "pos": [
+        -115.48,
+        186.84,
+        2303.39
+      ]
+    },
+    "D55": {
+      "Id": "D55",
+      "Type": "LiftRock",
+      "Comment": "On ledge high",
+      "pos": [
+        1682.65,
+        201.46,
+        2327.61
+      ]
+    },
+    "D56": {
+      "Id": "D56",
+      "Type": "LiftRock",
+      "Comment": "In tree stump",
+      "pos": [
+        1886.18,
+        147.4,
+        2418.73
+      ]
+    },
+    "D57": {
+      "Id": "D57",
+      "Type": "LilyPads",
+      "pos": [
+        2303.51,
+        281.29,
+        2375.13
+      ]
+    },
+    "D58": {
+      "Id": "D58",
+      "Type": "AcornFlying",
+      "pos": [
+        2366.56,
+        221.7,
+        2303.49
+      ]
+    },
+    "D59": {
+      "Id": "D59",
+      "Type": "LiftRock",
+      "Comment": "Bottom of waterfall",
+      "pos": [
+        1936.54,
+        134.27,
+        2564.5
+      ]
+    },
+    "E01": {
+      "Id": "E01",
+      "Type": "LiftRockLeaves",
+      "pos": [
+        1615.1,
+        207.95,
+        -3661.03
+      ]
+    },
+    "E02": {
+      "Id": "E02",
+      "Type": "BlockPuzzle",
+      "pos": [
+        2087.11,
+        318.25,
+        -3573.55
+      ]
+    },
+    "E03": {
+      "Id": "E03",
+      "Type": "LiftRockRubble",
+      "pos": [
+        2233.99,
+        338.44,
+        -3673.52
+      ]
+    },
+    "E04": {
+      "Id": "E04",
+      "Type": "LiftRockRubble",
+      "pos": [
+        2551.06,
+        411.23,
+        -3592.67
+      ]
+    },
+    "E05": {
+      "Id": "E05",
+      "Type": "RockCircle",
+      "Comment": "Pillars around shrine",
+      "pos": [
+        2662.63,
+        479.33,
+        -3471.58
+      ]
+    },
+    "E06": {
+      "Id": "E06",
+      "Type": "LiftRockRubble",
+      "pos": [
+        2469.91,
+        514.72,
+        -3174.5
+      ]
+    },
+    "E07": {
+      "Id": "E07",
+      "Type": "LiftRock",
+      "Comment": "Top of island",
+      "pos": [
+        1549.11,
+        533.4,
+        -3108.54
+      ]
+    },
+    "E08": {
+      "Id": "E08",
+      "Type": "LiftRock",
+      "Comment": "Top of northern mine",
+      "pos": [
+        1632.01,
+        585.55,
+        -2939.5
+      ]
+    },
+    "E09": {
+      "Id": "E09",
+      "Type": "LiftRock",
+      "Comment": "On hanging rock high",
+      "pos": [
+        2195.5,
+        613.21,
+        -3007.84
+      ]
+    },
+    "E10": {
+      "Id": "E10",
+      "Type": "Balloon",
+      "pos": [
+        1885.78,
+        513.93,
+        -2749.1
+      ]
+    },
+    "E11": {
+      "Id": "E11",
+      "Type": "RockCircle",
+      "pos": [
+        2060.97,
+        580.31,
+        -2757.41
+      ]
+    },
+    "E12": {
+      "Id": "E12",
+      "Type": "BlockPuzzle",
+      "pos": [
+        3322.94,
+        379.46,
+        -2803.06
+      ]
+    },
+    "E13": {
+      "Id": "E13",
+      "Type": "LiftRock",
+      "pos": [
+        1658.13,
+        554.58,
+        -2564.87
+      ]
+    },
+    "E14": {
+      "Id": "E14",
+      "Type": "Race",
+      "pos": [
+        1725.34,
+        607.05,
+        -2553.93
+      ]
+    },
+    "E15": {
+      "Id": "E15",
+      "Type": "Confetti",
+      "Comment": "Inside Goron's mouth",
+      "pos": [
+        1593.87,
+        543.91,
+        -2475.24
+      ]
+    },
+    "E16": {
+      "Id": "E16",
+      "Type": "Confetti",
+      "Comment": "Top of skeleton",
+      "pos": [
+        1865.55,
+        533.93,
+        -2465.04
+      ]
+    },
+    "E17": {
+      "Id": "E17",
+      "Type": "Race",
+      "pos": [
+        1867.81,
+        511,
+        -2400.63
+      ]
+    },
+    "E18": {
+      "Id": "E18",
+      "Type": "RockCircle",
+      "pos": [
+        1647.23,
+        521.04,
+        -2244.46
+      ]
+    },
+    "E19": {
+      "Id": "E19",
+      "Type": "Balloon",
+      "Comment": "High up",
+      "pos": [
+        1537.85,
+        505.38,
+        -2091.5
+      ]
+    },
+    "E20": {
+      "Id": "E20",
+      "Type": "BoulderGolf",
+      "pos": [
+        2019.41,
+        557.72,
+        -2172.89
+      ]
+    },
+    "E21": {
+      "Id": "E21",
+      "Type": "BlockPuzzle",
+      "pos": [
+        2170.73,
+        547.03,
+        -2109.55
+      ]
+    },
+    "E22": {
+      "Id": "E22",
+      "Type": "LiftRock",
+      "Comment": "On stone above ring",
+      "pos": [
+        2355.87,
+        524.65,
+        -2067.37
+      ]
+    },
+    "E23": {
+      "Id": "E23",
+      "Type": "LiftRockRubble",
+      "pos": [
+        2663.89,
+        564.49,
+        -2066.87
+      ]
+    },
+    "E24": {
+      "Id": "E24",
+      "Type": "BoulderGolf",
+      "pos": [
+        1412.02,
+        408.74,
+        -1759.8
+      ]
+    },
+    "E25": {
+      "Id": "E25",
+      "Type": "Race",
+      "pos": [
+        1544.33,
+        394.2,
+        -1837.21
+      ]
+    },
+    "E26": {
+      "Id": "E26",
+      "Type": "BoulderGolf",
+      "pos": [
+        1687.55,
+        427.39,
+        -1717.08
+      ]
+    },
+    "E27": {
+      "Id": "E27",
+      "Type": "LiftRockRubble",
+      "pos": [
+        1950.85,
+        457.49,
+        -1832.65
+      ]
+    },
+    "E28": {
+      "Id": "E28",
+      "Type": "Balloon",
+      "pos": [
+        2273.79,
+        431.76,
+        -1823.22
+      ]
+    },
+    "E29": {
+      "Id": "E29",
+      "Type": "Basketball",
+      "pos": [
+        2424.33,
+        253.68,
+        -1738.5
+      ]
+    },
+    "E30": {
+      "Id": "E30",
+      "Type": "BlockPuzzle",
+      "pos": [
+        2703.71,
+        225.52,
+        -1749.27
+      ]
+    },
+    "E31": {
+      "Id": "E31",
+      "Type": "RockCircle",
+      "pos": [
+        1426.89,
+        465.03,
+        -1544.06
+      ]
+    },
+    "E32": {
+      "Id": "E32",
+      "Type": "LiftRockRubble",
+      "pos": [
+        2266.55,
+        347.37,
+        -1565.48
+      ]
+    },
+    "E33": {
+      "Id": "E33",
+      "Type": "Race",
+      "pos": [
+        2407.27,
+        328.66,
+        -1613.59
+      ]
+    },
+    "E34": {
+      "Id": "E34",
+      "Type": "RockCircle",
+      "pos": [
+        2751.06,
+        293.76,
+        -1675.9
+      ]
+    },
+    "E35": {
+      "Id": "E35",
+      "Type": "RockCircle",
+      "pos": [
+        1377.2,
+        322.4,
+        -1261.17
+      ]
+    },
+    "E36": {
+      "Id": "E36",
+      "Type": "LilyPads",
+      "pos": [
+        1940.14,
+        226.01,
+        -1217.73
+      ]
+    },
+    "E37": {
+      "Id": "E37",
+      "Type": "RockCircle",
+      "pos": [
+        2179.55,
+        226.34,
+        -1282.03
+      ]
+    },
+    "E38": {
+      "Id": "E38",
+      "Type": "BlockPuzzle",
+      "pos": [
+        2478.57,
+        313.41,
+        -1391.59
+      ]
+    },
+    "E39": {
+      "Id": "E39",
+      "Type": "Basketball",
+      "pos": [
+        2752.29,
+        233.72,
+        -1366.33
+      ]
+    },
+    "E40": {
+      "Id": "E40",
+      "Type": "LiftRockRubble",
+      "pos": [
+        2504.47,
+        312.2,
+        -1304.28
+      ]
+    },
+    "E41": {
+      "Id": "E41",
+      "Type": "Balloon",
+      "pos": [
+        2408.19,
+        262.34,
+        -1229.95
+      ]
+    },
+    "E42": {
+      "Id": "E42",
+      "Type": "LiftRock",
+      "pos": [
+        2441.13,
+        257.4,
+        -1241.72
+      ]
+    },
+    "E43": {
+      "Id": "E43",
+      "Type": "LiftRockRubble",
+      "pos": [
+        2315.02,
+        293.52,
+        -1133.25
+      ]
+    },
+    "E44": {
+      "Id": "E44",
+      "Type": "LiftRock",
+      "pos": [
+        2655.78,
+        261.74,
+        -971.17
+      ]
+    },
+    "E45": {
+      "Id": "E45",
+      "Type": "Race",
+      "pos": [
+        2275,
+        134.98,
+        -720.14
+      ]
+    },
+    "F01": {
+      "Id": "F01",
+      "Type": "AcornTree",
+      "pos": [
+        1381.9,
+        288.3,
+        2277.44
+      ]
+    },
+    "F02": {
+      "Id": "F02",
+      "Type": "Race",
+      "pos": [
+        1188.64,
+        323.43,
+        2476.7
+      ]
+    },
+    "F03": {
+      "Id": "F03",
+      "Type": "Balloon",
+      "pos": [
+        1305.28,
+        191.34,
+        2434.05
+      ]
+    },
+    "F04": {
+      "Id": "F04",
+      "Type": "RockCircle",
+      "pos": [
+        1323.72,
+        194.4,
+        2453.45
+      ]
+    },
+    "F05": {
+      "Id": "F05",
+      "Type": "Balloon",
+      "pos": [
+        1462.67,
+        336.79,
+        2370.84
+      ]
+    },
+    "F06": {
+      "Id": "F06",
+      "Type": "LiftRock",
+      "pos": [
+        2181.72,
+        414.98,
+        2534.69
+      ]
+    },
+    "F07": {
+      "Id": "F07",
+      "Type": "LightChase",
+      "pos": [
+        2403.83,
+        256.6,
+        2511.22
+      ]
+    },
+    "F08": {
+      "Id": "F08",
+      "Type": "LiftRockTree",
+      "pos": [
+        1966.62,
+        365.96,
+        2634.47
+      ]
+    },
+    "F09": {
+      "Id": "F09",
+      "Type": "Basketball",
+      "pos": [
+        2099.72,
+        363.66,
+        2625.57
+      ]
+    },
+    "F10": {
+      "Id": "F10",
+      "Type": "FlowerChase",
+      "Comment": "In cave",
+      "pos": [
+        1373,
+        220.29,
+        2749.04
+      ]
+    },
+    "F11": {
+      "Id": "F11",
+      "Type": "LiftRock",
+      "Comment": "Peak",
+      "pos": [
+        1936.52,
+        492.98,
+        2778.54
+      ]
+    },
+    "F12": {
+      "Id": "F12",
+      "Type": "FlowerChase",
+      "pos": [
+        2103.91,
+        422.5,
+        2726.09
+      ]
+    },
+    "F13": {
+      "Id": "F13",
+      "Type": "LiftRock",
+      "Comment": "Under tree",
+      "pos": [
+        2284.27,
+        287.53,
+        2659.97
+      ]
+    },
+    "F14": {
+      "Id": "F14",
+      "Type": "LilyPads",
+      "pos": [
+        2874.91,
+        299.73,
+        2683.36
+      ]
+    },
+    "F15": {
+      "Id": "F15",
+      "Type": "LightChase",
+      "pos": [
+        1325.56,
+        296.66,
+        3008.67
+      ]
+    },
+    "F16": {
+      "Id": "F16",
+      "Type": "Race",
+      "pos": [
+        1562.56,
+        298.62,
+        2898.31
+      ]
+    },
+    "F17": {
+      "Id": "F17",
+      "Type": "Well",
+      "Comment": "Ball and chain",
+      "pos": [
+        1773.84,
+        346.68,
+        2930.86
+      ]
+    },
+    "F18": {
+      "Id": "F18",
+      "Type": "LiftRockRubble",
+      "Comment": "In cave",
+      "pos": [
+        3084.93,
+        239.77,
+        2884.64
+      ]
+    },
+    "F19": {
+      "Id": "F19",
+      "Type": "Race",
+      "Comment": "Swim up",
+      "pos": [
+        1785.53,
+        344.36,
+        3011.07
+      ]
+    },
+    "F20": {
+      "Id": "F20",
+      "Type": "MatchTree",
+      "pos": [
+        1943.74,
+        348.58,
+        3009.42
+      ]
+    },
+    "F21": {
+      "Id": "F21",
+      "Type": "OfferApple",
+      "pos": [
+        2294.48,
+        287.5,
+        3028.17
+      ]
+    },
+    "F22": {
+      "Id": "F22",
+      "Type": "FlowerChase",
+      "pos": [
+        2951.34,
+        246.57,
+        3005.96
+      ]
+    },
+    "F23": {
+      "Id": "F23",
+      "Type": "FlowerChase",
+      "pos": [
+        1012.06,
+        127.12,
+        3258.18
+      ]
+    },
+    "F24": {
+      "Id": "F24",
+      "Type": "Balloon",
+      "pos": [
+        1055.11,
+        167.13,
+        3254.77
+      ]
+    },
+    "F25": {
+      "Id": "F25",
+      "Type": "OfferDurian",
+      "pos": [
+        1406.71,
+        255.48,
+        3198.75
+      ]
+    },
+    "F26": {
+      "Id": "F26",
+      "Type": "BlockPuzzle",
+      "Comment": "Middle of waterfall",
+      "pos": [
+        1660.15,
+        252.65,
+        3163.64
+      ]
+    },
+    "F27": {
+      "Id": "F27",
+      "Type": "LiftRock",
+      "Comment": "Ledge",
+      "pos": [
+        1799.42,
+        224.83,
+        3157.65
+      ]
+    },
+    "F28": {
+      "Id": "F28",
+      "Type": "FlowerChase",
+      "pos": [
+        1803.73,
+        202.6,
+        3221.99
+      ]
+    },
+    "F29": {
+      "Id": "F29",
+      "Type": "BlockPuzzle",
+      "Comment": "Cube in lake",
+      "pos": [
+        2032.28,
+        292.14,
+        3164.34
+      ]
+    },
+    "F30": {
+      "Id": "F30",
+      "Type": "MatchTree",
+      "pos": [
+        2171.21,
+        198.86,
+        3276.9
+      ]
+    },
+    "F31": {
+      "Id": "F31",
+      "Type": "LiftRockLeaves",
+      "pos": [
+        2636.23,
+        191.58,
+        3197.79
+      ]
+    },
+    "F32": {
+      "Id": "F32",
+      "Type": "LightChase",
+      "pos": [
+        3175.44,
+        309.28,
+        3204.02
+      ]
+    },
+    "F33": {
+      "Id": "F33",
+      "Type": "LiftRock",
+      "Comment": "On ledge",
+      "pos": [
+        3639.77,
+        326.91,
+        3258.22
+      ]
+    },
+    "F34": {
+      "Id": "F34",
+      "Type": "Balloon",
+      "pos": [
+        1492.11,
+        188.12,
+        3370.48
+      ]
+    },
+    "F35": {
+      "Id": "F35",
+      "Type": "LuminousStone",
+      "Comment": "Eye of statue",
+      "pos": [
+        1857.43,
+        176.84,
+        3351.67
+      ]
+    },
+    "F36": {
+      "Id": "F36",
+      "Type": "RockCircle",
+      "pos": [
+        2968.71,
+        122.93,
+        3380.18
+      ]
+    },
+    "F37": {
+      "Id": "F37",
+      "Type": "LilyPads",
+      "pos": [
+        3289.57,
+        175.8,
+        3338.79
+      ]
+    },
+    "F38": {
+      "Id": "F38",
+      "Type": "LiftRock",
+      "pos": [
+        1217.38,
+        135.04,
+        3524.1
+      ]
+    },
+    "F39": {
+      "Id": "F39",
+      "Type": "OfferDurian",
+      "pos": [
+        1378.09,
+        256.94,
+        3503.56
+      ]
+    },
+    "F40": {
+      "Id": "F40",
+      "Type": "LiftRock",
+      "Comment": "Middle of mud",
+      "pos": [
+        1449.47,
+        222.69,
+        3531.36
+      ]
+    },
+    "F41": {
+      "Id": "F41",
+      "Type": "Beard",
+      "pos": [
+        1552.48,
+        182.81,
+        3529.24
+      ]
+    },
+    "F42": {
+      "Id": "F42",
+      "Type": "Balloon",
+      "Comment": "Middle of bridge",
+      "pos": [
+        1733.16,
+        168.05,
+        3450.58
+      ]
+    },
+    "F43": {
+      "Id": "F43",
+      "Type": "RockCircle",
+      "pos": [
+        2139.98,
+        200.28,
+        3531.93
+      ]
+    },
+    "F44": {
+      "Id": "F44",
+      "Type": "Apple",
+      "pos": [
+        2836.96,
+        126.87,
+        3452.76
+      ]
+    },
+    "F45": {
+      "Id": "F45",
+      "Type": "FlowerChase",
+      "Comment": "Top of house",
+      "pos": [
+        2939.43,
+        122.43,
+        3427.08
+      ]
+    },
+    "F46": {
+      "Id": "F46",
+      "Type": "BlockPuzzle",
+      "pos": [
+        1840.68,
+        135.02,
+        3595.82
+      ]
+    },
+    "F47": {
+      "Id": "F47",
+      "Type": "LiftRock",
+      "Comment": "Peak",
+      "pos": [
+        2559.24,
+        344,
+        3602.71
+      ]
+    },
+    "F48": {
+      "Id": "F48",
+      "Type": "OfferBanana",
+      "pos": [
+        1757.8,
+        253.7,
+        3685.97
+      ]
+    },
+    "F49": {
+      "Id": "F49",
+      "Type": "RockCircle",
+      "pos": [
+        2856.58,
+        113.69,
+        3651.77
+      ]
+    },
+    "F50": {
+      "Id": "F50",
+      "Type": "FlowerChase",
+      "pos": [
+        3024.4,
+        107.61,
+        3654.22
+      ]
+    },
+    "F51": {
+      "Id": "F51",
+      "Type": "LilyPads",
+      "pos": [
+        3367.1,
+        109.9,
+        3653.53
+      ]
+    },
+    "F52": {
+      "Id": "F52",
+      "Type": "LiftRock",
+      "pos": [
+        3796.61,
+        106.29,
+        3618.89
+      ]
+    },
+    "F53": {
+      "Id": "F53",
+      "Type": "RockCircle",
+      "pos": [
+        1374.62,
+        107.24,
+        3751.46
+      ]
+    },
+    "F54": {
+      "Id": "F54",
+      "Type": "LiftRock",
+      "Comment": "Ledge beach level",
+      "pos": [
+        1513.74,
+        136.27,
+        3725.03
+      ]
+    },
+    "F55": {
+      "Id": "F55",
+      "Type": "LiftRock",
+      "Comment": "Upper ledge",
+      "pos": [
+        1821.03,
+        272.02,
+        3742.02
+      ]
+    },
+    "F56": {
+      "Id": "F56",
+      "Type": "Balloon",
+      "Comment": "Under cliff",
+      "pos": [
+        1625.49,
+        143.74,
+        3891.73
+      ]
+    },
+    "F57": {
+      "Id": "F57",
+      "Type": "RockCircle",
+      "pos": [
+        2508.15,
+        157.62,
+        3825.9
+      ]
+    },
+    "F58": {
+      "Id": "F58",
+      "Type": "LilyPads",
+      "Comment": "Close to beach rocks",
+      "pos": [
+        3170.41,
+        109.88,
+        3824.31
+      ]
+    },
+    "G01": {
+      "Id": "G01",
+      "Type": "BoulderGolf",
+      "pos": [
+        -4409.1,
+        618.92,
+        331.34
+      ]
+    },
+    "G02": {
+      "Id": "G02",
+      "Type": "Race",
+      "pos": [
+        -4183.67,
+        491.75,
+        291.06
+      ]
+    },
+    "G03": {
+      "Id": "G03",
+      "Type": "RockCircle",
+      "pos": [
+        -4066.78,
+        569.14,
+        437.84
+      ]
+    },
+    "G04": {
+      "Id": "G04",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -4355.33,
+        716.59,
+        709.87
+      ]
+    },
+    "G05": {
+      "Id": "G05",
+      "Type": "Race",
+      "pos": [
+        -4325.4,
+        768.44,
+        698.29
+      ]
+    },
+    "G06": {
+      "Id": "G06",
+      "Type": "LiftRock",
+      "Comment": "On wood platform",
+      "pos": [
+        -3673.78,
+        550.79,
+        698.3
+      ]
+    },
+    "G07": {
+      "Id": "G07",
+      "Type": "IceBlock",
+      "pos": [
+        -4690.48,
+        704.14,
+        842.36
+      ]
+    },
+    "G08": {
+      "Id": "G08",
+      "Type": "FlowerChase",
+      "pos": [
+        -4340.95,
+        767.38,
+        782.13
+      ]
+    },
+    "G09": {
+      "Id": "G09",
+      "Type": "RockCircle",
+      "pos": [
+        -3688.84,
+        740.47,
+        798.72
+      ]
+    },
+    "G10": {
+      "Id": "G10",
+      "Type": "RockCircle",
+      "pos": [
+        -3069.67,
+        452.02,
+        910.74
+      ]
+    },
+    "G11": {
+      "Id": "G11",
+      "Type": "Race",
+      "pos": [
+        -4210.02,
+        609.72,
+        1133.5
+      ]
+    },
+    "G12": {
+      "Id": "G12",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -3224.51,
+        570.76,
+        1022.45
+      ]
+    },
+    "G13": {
+      "Id": "G13",
+      "Type": "Confetti",
+      "Comment": "Top of tree",
+      "pos": [
+        -2867.81,
+        518.54,
+        1124.92
+      ]
+    },
+    "G14": {
+      "Id": "G14",
+      "Type": "Balloon",
+      "pos": [
+        -2454.27,
+        337.82,
+        1157.3
+      ]
+    },
+    "G15": {
+      "Id": "G15",
+      "Type": "LiftRock",
+      "pos": [
+        -4552.23,
+        623.39,
+        1353.15
+      ]
+    },
+    "G16": {
+      "Id": "G16",
+      "Type": "LightChase",
+      "pos": [
+        -4112.89,
+        560.66,
+        1377.53
+      ]
+    },
+    "G17": {
+      "Id": "G17",
+      "Type": "IceBlock",
+      "pos": [
+        -3065.6,
+        604.49,
+        1287.26
+      ]
+    },
+    "G18": {
+      "Id": "G18",
+      "Type": "IceBlock",
+      "pos": [
+        -2850,
+        678.32,
+        1229
+      ]
+    },
+    "G19": {
+      "Id": "G19",
+      "Type": "RockCircle",
+      "pos": [
+        -2521.76,
+        457.05,
+        1318.58
+      ]
+    },
+    "G20": {
+      "Id": "G20",
+      "Type": "RockCircle",
+      "pos": [
+        -4527.83,
+        571.97,
+        1423.32
+      ]
+    },
+    "G21": {
+      "Id": "G21",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -4180.76,
+        440.36,
+        1482.39
+      ]
+    },
+    "G22": {
+      "Id": "G22",
+      "Type": "RockCircle",
+      "pos": [
+        -3129.01,
+        614.01,
+        1467.15
+      ]
+    },
+    "G23": {
+      "Id": "G23",
+      "Type": "LiftRock",
+      "pos": [
+        -2646,
+        688.32,
+        1535.13
+      ]
+    },
+    "G24": {
+      "Id": "G24",
+      "Type": "RockCircle",
+      "pos": [
+        -2081.09,
+        353.63,
+        1477.02
+      ]
+    },
+    "G25": {
+      "Id": "G25",
+      "Type": "OfferBanana",
+      "pos": [
+        -4075.58,
+        298.89,
+        1595.13
+      ]
+    },
+    "G26": {
+      "Id": "G26",
+      "Type": "SnowballGolf",
+      "pos": [
+        -3715.85,
+        570.37,
+        1558.07
+      ]
+    },
+    "G27": {
+      "Id": "G27",
+      "Type": "RockCircle",
+      "Comment": "Platform on cliff",
+      "pos": [
+        -2817.46,
+        578.22,
+        1652.72
+      ]
+    },
+    "G28": {
+      "Id": "G28",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -2464.74,
+        417.71,
+        1713.47
+      ]
+    },
+    "G29": {
+      "Id": "G29",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -1799.6,
+        114.89,
+        1625.9
+      ]
+    },
+    "G30": {
+      "Id": "G30",
+      "Type": "RockCircle",
+      "pos": [
+        -4136.39,
+        401.44,
+        1717.95
+      ]
+    },
+    "G31": {
+      "Id": "G31",
+      "Type": "Balloon",
+      "pos": [
+        -3845.23,
+        412.26,
+        1897.05
+      ]
+    },
+    "G32": {
+      "Id": "G32",
+      "Type": "Race",
+      "pos": [
+        -2429.13,
+        203.48,
+        1921.33
+      ]
+    },
+    "G33": {
+      "Id": "G33",
+      "Type": "RockCircle",
+      "pos": [
+        -4170.68,
+        193.18,
+        1989.38
+      ]
+    },
+    "G34": {
+      "Id": "G34",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -3071.38,
+        197.78,
+        2044.73
+      ]
+    },
+    "G35": {
+      "Id": "G35",
+      "Type": "Race",
+      "pos": [
+        -2697.26,
+        270.84,
+        2105.06
+      ]
+    },
+    "G36": {
+      "Id": "G36",
+      "Type": "Well",
+      "pos": [
+        -1721.22,
+        143.19,
+        2237.78
+      ]
+    },
+    "H01": {
+      "Id": "H01",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -4397.6,
+        332.44,
+        -3773.91
+      ]
+    },
+    "H02": {
+      "Id": "H02",
+      "Type": "IceBlock",
+      "pos": [
+        -4029.33,
+        464.85,
+        -3760.17
+      ]
+    },
+    "H03": {
+      "Id": "H03",
+      "Type": "FlowerChase",
+      "pos": [
+        -3960.37,
+        350.67,
+        -3723.25
+      ]
+    },
+    "H04": {
+      "Id": "H04",
+      "Type": "RockCircle",
+      "pos": [
+        -3757.12,
+        375.46,
+        -3848.08
+      ]
+    },
+    "H05": {
+      "Id": "H05",
+      "Type": "Balloon",
+      "pos": [
+        -1970.93,
+        420.71,
+        -3792.56
+      ]
+    },
+    "H06": {
+      "Id": "H06",
+      "Type": "RockCircle",
+      "pos": [
+        -1375.17,
+        361.92,
+        -3640.94
+      ]
+    },
+    "H07": {
+      "Id": "H07",
+      "Type": "Race",
+      "pos": [
+        -4167.16,
+        516.82,
+        -3615.93
+      ]
+    },
+    "H08": {
+      "Id": "H08",
+      "Type": "Balloon",
+      "pos": [
+        -3999.21,
+        632.96,
+        -3620.06
+      ]
+    },
+    "H09": {
+      "Id": "H09",
+      "Type": "LiftRockLeaves",
+      "pos": [
+        -3496.12,
+        474.21,
+        -3580.67
+      ]
+    },
+    "H10": {
+      "Id": "H10",
+      "Type": "AcornLog",
+      "pos": [
+        -3610.64,
+        561.92,
+        -3491.99
+      ]
+    },
+    "H11": {
+      "Id": "H11",
+      "Type": "Confetti",
+      "Comment": "Top of bare tree",
+      "pos": [
+        -3414.79,
+        542.02,
+        -3509.61
+      ]
+    },
+    "H12": {
+      "Id": "H12",
+      "Type": "RockCircle",
+      "pos": [
+        -2842.69,
+        333.93,
+        -3493.48
+      ]
+    },
+    "H13": {
+      "Id": "H13",
+      "Type": "IceBlock",
+      "pos": [
+        -2290.1,
+        564.25,
+        -3407.59
+      ]
+    },
+    "H14": {
+      "Id": "H14",
+      "Type": "AcornLog",
+      "pos": [
+        -1535.29,
+        346.88,
+        -3475.81
+      ]
+    },
+    "H15": {
+      "Id": "H15",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -1095.98,
+        413.97,
+        -3399.87
+      ]
+    },
+    "H16": {
+      "Id": "H16",
+      "Type": "Balloon",
+      "pos": [
+        -872.89,
+        335.5,
+        -3316.1
+      ]
+    },
+    "H17": {
+      "Id": "H17",
+      "Type": "RockCircle",
+      "Comment": "Snowy platform",
+      "pos": [
+        -4155.93,
+        350.44,
+        -3404.12
+      ]
+    },
+    "H18": {
+      "Id": "H18",
+      "Type": "Confetti",
+      "Comment": "Forest with 5 trees",
+      "pos": [
+        -3843.15,
+        435.38,
+        -3348.18
+      ]
+    },
+    "H19": {
+      "Id": "H19",
+      "Type": "Balloon",
+      "pos": [
+        -3574.57,
+        494.23,
+        -3272.38
+      ]
+    },
+    "H20": {
+      "Id": "H20",
+      "Type": "Confetti",
+      "Comment": "Top of house",
+      "pos": [
+        -2946.5,
+        686.98,
+        -3146.69
+      ]
+    },
+    "H21": {
+      "Id": "H21",
+      "Type": "Confetti",
+      "Comment": "Top of tree",
+      "pos": [
+        -2602.17,
+        508.35,
+        -3238.93
+      ]
+    },
+    "H22": {
+      "Id": "H22",
+      "Type": "BoulderGolf",
+      "pos": [
+        -1110.79,
+        438.06,
+        -3043.85
+      ]
+    },
+    "H23": {
+      "Id": "H23",
+      "Type": "LiftRock",
+      "Comment": "Peak far",
+      "pos": [
+        -4424.15,
+        497.16,
+        -3215.94
+      ]
+    },
+    "H24": {
+      "Id": "H24",
+      "Type": "FlowerChase",
+      "Comment": "Below high forest",
+      "pos": [
+        -4230.89,
+        284.85,
+        -3134.81
+      ]
+    },
+    "H25": {
+      "Id": "H25",
+      "Type": "LiftRock",
+      "Comment": "In corner",
+      "pos": [
+        -3793.73,
+        353.06,
+        -3032.96
+      ]
+    },
+    "H26": {
+      "Id": "H26",
+      "Type": "LiftRock",
+      "pos": [
+        -3734.78,
+        446.58,
+        -2964.39
+      ]
+    },
+    "H27": {
+      "Id": "H27",
+      "Type": "Balloon",
+      "pos": [
+        -3350.52,
+        621.95,
+        -2994.89
+      ]
+    },
+    "H28": {
+      "Id": "H28",
+      "Type": "LiftRock",
+      "pos": [
+        -2783.55,
+        838.53,
+        -2895.52
+      ]
+    },
+    "H29": {
+      "Id": "H29",
+      "Type": "IceBlock",
+      "pos": [
+        -2487.65,
+        514.33,
+        -3021.6
+      ]
+    },
+    "H30": {
+      "Id": "H30",
+      "Type": "AcornFlying",
+      "pos": [
+        -2250.21,
+        446.8,
+        -3092.18
+      ]
+    },
+    "H31": {
+      "Id": "H31",
+      "Type": "IceBlock",
+      "pos": [
+        -2210.05,
+        498.64,
+        -2908.54
+      ]
+    },
+    "H32": {
+      "Id": "H32",
+      "Type": "LightChase",
+      "Comment": "On flat hill",
+      "pos": [
+        -4402.55,
+        415.03,
+        -2866.69
+      ]
+    },
+    "H33": {
+      "Id": "H33",
+      "Type": "IceBlock",
+      "pos": [
+        -3115.96,
+        496.35,
+        -2806.23
+      ]
+    },
+    "H34": {
+      "Id": "H34",
+      "Type": "IceBlock",
+      "pos": [
+        -3061.22,
+        535.21,
+        -2813.68
+      ]
+    },
+    "H35": {
+      "Id": "H35",
+      "Type": "LiftRock",
+      "pos": [
+        -2830.55,
+        669.61,
+        -2828.34
+      ]
+    },
+    "H36": {
+      "Id": "H36",
+      "Type": "RockCircle",
+      "pos": [
+        -2467.77,
+        620.8,
+        -2765.22
+      ]
+    },
+    "H37": {
+      "Id": "H37",
+      "Type": "LightChase",
+      "pos": [
+        -1781,
+        347.36,
+        -2745.01
+      ]
+    },
+    "H38": {
+      "Id": "H38",
+      "Type": "LiftRockRubble",
+      "pos": [
+        -1349.37,
+        241.7,
+        -2734.51
+      ]
+    },
+    "H39": {
+      "Id": "H39",
+      "Type": "FlowerChase",
+      "pos": [
+        -4192.8,
+        288.37,
+        -2678.94
+      ]
+    },
+    "H40": {
+      "Id": "H40",
+      "Type": "LiftRock",
+      "Comment": "Top of hill",
+      "pos": [
+        -4330.86,
+        441.88,
+        -2600.16
+      ]
+    },
+    "H41": {
+      "Id": "H41",
+      "Type": "RockCircle",
+      "pos": [
+        -4148.75,
+        216.39,
+        -2616.47
+      ]
+    },
+    "H42": {
+      "Id": "H42",
+      "Type": "LiftRockRubble",
+      "pos": [
+        -4071.81,
+        131.41,
+        -2545.94
+      ]
+    },
+    "H43": {
+      "Id": "H43",
+      "Type": "AcornLog",
+      "pos": [
+        -3277.42,
+        585.32,
+        -2618.86
+      ]
+    },
+    "H44": {
+      "Id": "H44",
+      "Type": "Balloon",
+      "Comment": "In cave",
+      "pos": [
+        -2984.89,
+        559.2,
+        -2693.52
+      ]
+    },
+    "H45": {
+      "Id": "H45",
+      "Type": "IceBlock",
+      "pos": [
+        -2736.11,
+        456.88,
+        -2582.83
+      ]
+    },
+    "H46": {
+      "Id": "H46",
+      "Type": "IceBlock",
+      "pos": [
+        -3041.11,
+        430.43,
+        -2520.18
+      ]
+    },
+    "H47": {
+      "Id": "H47",
+      "Type": "Balloon",
+      "Comment": "End of river",
+      "pos": [
+        -2900.08,
+        498.64,
+        -2508.78
+      ]
+    },
+    "H48": {
+      "Id": "H48",
+      "Type": "LiftRock",
+      "Comment": "On ledge",
+      "pos": [
+        -2936.53,
+        471.2,
+        -2412.46
+      ]
+    },
+    "H49": {
+      "Id": "H49",
+      "Type": "Race",
+      "pos": [
+        -2883.83,
+        521.33,
+        -2398.01
+      ]
+    },
+    "H50": {
+      "Id": "H50",
+      "Type": "Balloon",
+      "Comment": "Middle of river",
+      "pos": [
+        -2836.29,
+        501.87,
+        -2423.83
+      ]
+    },
+    "H51": {
+      "Id": "H51",
+      "Type": "LiftRock",
+      "Comment": "Ledge down the camp",
+      "pos": [
+        -2638.89,
+        410.03,
+        -2364.1
+      ]
+    },
+    "H52": {
+      "Id": "H52",
+      "Type": "AcornLog",
+      "pos": [
+        -2015.55,
+        347.55,
+        -2456
+      ]
+    },
+    "H53": {
+      "Id": "H53",
+      "Type": "LiftRock",
+      "Comment": "Sharp hill",
+      "pos": [
+        -4340.22,
+        301.85,
+        -2354.1
+      ]
+    },
+    "H54": {
+      "Id": "H54",
+      "Type": "LiftRock",
+      "pos": [
+        -3677.89,
+        426.24,
+        -2466.75
+      ]
+    },
+    "H55": {
+      "Id": "H55",
+      "Type": "Balloon",
+      "pos": [
+        -3331.94,
+        508.74,
+        -2297.16
+      ]
+    },
+    "H56": {
+      "Id": "H56",
+      "Type": "FlowerChase",
+      "Comment": "Across bridge",
+      "pos": [
+        -2751.33,
+        459.46,
+        -2258.77
+      ]
+    },
+    "H57": {
+      "Id": "H57",
+      "Type": "SnowballGolf",
+      "pos": [
+        -2297.36,
+        424.84,
+        -2293.14
+      ]
+    },
+    "H58": {
+      "Id": "H58",
+      "Type": "LiftRockLeaves",
+      "pos": [
+        -1764,
+        343.69,
+        -2350.7
+      ]
+    },
+    "H59": {
+      "Id": "H59",
+      "Type": "BoulderGolf",
+      "pos": [
+        -1414.64,
+        228.58,
+        -2398.59
+      ]
+    },
+    "H60": {
+      "Id": "H60",
+      "Type": "Balloon",
+      "pos": [
+        -4507.23,
+        226.34,
+        -2146.1
+      ]
+    },
+    "H61": {
+      "Id": "H61",
+      "Type": "LiftRock",
+      "Comment": "Peak",
+      "pos": [
+        -2382.54,
+        498.73,
+        -2132.67
+      ]
+    },
+    "H62": {
+      "Id": "H62",
+      "Type": "Balloon",
+      "pos": [
+        -1682.21,
+        353.47,
+        -2184.83
+      ]
+    },
+    "H63": {
+      "Id": "H63",
+      "Type": "LiftRock",
+      "Comment": "Ledge",
+      "pos": [
+        -1675.99,
+        96.53,
+        -2139.3
+      ]
+    },
+    "H64": {
+      "Id": "H64",
+      "Type": "LiftRock",
+      "Comment": "Behind shrine",
+      "pos": [
+        -2636.62,
+        444.7,
+        -2048.35
+      ]
+    },
+    "H65": {
+      "Id": "H65",
+      "Type": "Confetti",
+      "Comment": "Top of tree (island)",
+      "pos": [
+        -2791.12,
+        397.69,
+        -1945.59
+      ]
+    },
+    "H66": {
+      "Id": "H66",
+      "Type": "LilyPads",
+      "pos": [
+        -2972.81,
+        377.29,
+        -1878.1
+      ]
+    },
+    "H67": {
+      "Id": "H67",
+      "Type": "Well",
+      "pos": [
+        -2358.59,
+        385,
+        -1872.8
+      ]
+    },
+    "H68": {
+      "Id": "H68",
+      "Type": "LiftRock",
+      "pos": [
+        -2012.59,
+        127.18,
+        -1921.69
+      ]
+    },
+    "H69": {
+      "Id": "H69",
+      "Type": "AcornLog",
+      "pos": [
+        -2523.39,
+        364.82,
+        -1736.94
+      ]
+    },
+    "H70": {
+      "Id": "H70",
+      "Type": "FlowerChase",
+      "pos": [
+        -2338.22,
+        369.24,
+        -1726.7
+      ]
+    },
+    "H71": {
+      "Id": "H71",
+      "Type": "LiftRockRubble",
+      "pos": [
+        -2207.48,
+        253.3,
+        -1767.46
+      ]
+    },
+    "H72": {
+      "Id": "H72",
+      "Type": "Confetti",
+      "Comment": "Top of windmill",
+      "pos": [
+        -2836.95,
+        348.83,
+        -1594.78
+      ]
+    },
+    "H73": {
+      "Id": "H73",
+      "Type": "Race",
+      "pos": [
+        -2826.25,
+        193.14,
+        -1580.07
+      ]
+    },
+    "K01": {
+      "Id": "K01",
+      "Type": "LiftRock",
+      "pos": [
+        206.76,
+        233.04,
+        -3559
+      ]
+    },
+    "K02": {
+      "Id": "K02",
+      "Type": "BlockPuzzle",
+      "pos": [
+        603.39,
+        249.91,
+        -3633.77
+      ]
+    },
+    "K03": {
+      "Id": "K03",
+      "Type": "RockCircle",
+      "pos": [
+        1143.4,
+        209.96,
+        -3742.77
+      ]
+    },
+    "K04": {
+      "Id": "K04",
+      "Type": "Balloon",
+      "pos": [
+        863.91,
+        316.28,
+        -3358.52
+      ]
+    },
+    "K05": {
+      "Id": "K05",
+      "Type": "Balloon",
+      "pos": [
+        -486.71,
+        231.99,
+        -3142.91
+      ]
+    },
+    "K06": {
+      "Id": "K06",
+      "Type": "AcornLog",
+      "pos": [
+        -40.78,
+        306.5,
+        -2985.74
+      ]
+    },
+    "K07": {
+      "Id": "K07",
+      "Type": "Balloon",
+      "pos": [
+        237.43,
+        304.06,
+        -2943.38
+      ]
+    },
+    "K08": {
+      "Id": "K08",
+      "Type": "Balloon",
+      "pos": [
+        685.12,
+        431.88,
+        -2758.45
+      ]
+    },
+    "K09": {
+      "Id": "K09",
+      "Type": "LiftRock",
+      "Comment": "Behind statue",
+      "pos": [
+        -1045.91,
+        54.66,
+        -2707.63
+      ]
+    },
+    "K10": {
+      "Id": "K10",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -1047.62,
+        139.68,
+        -2620.56
+      ]
+    },
+    "K11": {
+      "Id": "K11",
+      "Type": "LiftRock",
+      "pos": [
+        -567.78,
+        489.6,
+        -2599.2
+      ]
+    },
+    "K12": {
+      "Id": "K12",
+      "Type": "LiftRockRubble",
+      "pos": [
+        -1258.63,
+        138.61,
+        -2360.09
+      ]
+    },
+    "K13": {
+      "Id": "K13",
+      "Type": "LiftRockRubble",
+      "pos": [
+        -1403.11,
+        101.02,
+        -2312.28
+      ]
+    },
+    "K14": {
+      "Id": "K14",
+      "Type": "LiftRockDoor",
+      "pos": [
+        -1410.55,
+        1.01,
+        -2224.8
+      ]
+    },
+    "K15": {
+      "Id": "K15",
+      "Type": "LiftRock",
+      "Comment": "On pillar",
+      "pos": [
+        -1586.48,
+        68.14,
+        -2133
+      ]
+    },
+    "K16": {
+      "Id": "K16",
+      "Type": "AcornLog",
+      "pos": [
+        -1019.51,
+        222.85,
+        -2077.29
+      ]
+    },
+    "K17": {
+      "Id": "K17",
+      "Type": "JumpFence",
+      "pos": [
+        -1309.76,
+        209.07,
+        -1941.56
+      ]
+    },
+    "K18": {
+      "Id": "K18",
+      "Type": "Confetti",
+      "Comment": "Top of broken hut",
+      "pos": [
+        -1062.99,
+        226.91,
+        -1934.1
+      ]
+    },
+    "K19": {
+      "Id": "K19",
+      "Type": "AcornLog",
+      "pos": [
+        -816.67,
+        224.46,
+        -1926.15
+      ]
+    },
+    "K20": {
+      "Id": "K20",
+      "Type": "LiftRock",
+      "Comment": "End of ledge",
+      "pos": [
+        -1884.49,
+        23.98,
+        -1813.18
+      ]
+    },
+    "K21": {
+      "Id": "K21",
+      "Type": "LiftRockRubble",
+      "pos": [
+        -1805.35,
+        31.56,
+        -1842.52
+      ]
+    },
+    "K22": {
+      "Id": "K22",
+      "Type": "LiftRockRubble",
+      "Comment": "In corner",
+      "pos": [
+        -2036.94,
+        48.7,
+        -1622.94
+      ]
+    },
+    "K23": {
+      "Id": "K23",
+      "Type": "AcornLog",
+      "pos": [
+        -1436.28,
+        231,
+        -1668.66
+      ]
+    },
+    "K24": {
+      "Id": "K24",
+      "Type": "LightChase",
+      "pos": [
+        -1227.23,
+        255.95,
+        -1578.17
+      ]
+    },
+    "K25": {
+      "Id": "K25",
+      "Type": "RockCircle",
+      "pos": [
+        -1094.13,
+        210.87,
+        -1731.89
+      ]
+    },
+    "K26": {
+      "Id": "K26",
+      "Type": "Balloon",
+      "Comment": "Pinwheel",
+      "pos": [
+        -911.8,
+        219.25,
+        -1612.79
+      ]
+    },
+    "K27": {
+      "Id": "K27",
+      "Type": "Balloon",
+      "pos": [
+        -427.4,
+        317.62,
+        -1734.04
+      ]
+    },
+    "K28": {
+      "Id": "K28",
+      "Type": "LiftRock",
+      "pos": [
+        -332.59,
+        299.39,
+        -1747.38
+      ]
+    },
+    "K29": {
+      "Id": "K29",
+      "Type": "AcornLog",
+      "pos": [
+        -703.68,
+        247.65,
+        -1443.78
+      ]
+    },
+    "K30": {
+      "Id": "K30",
+      "Type": "LiftRock",
+      "Comment": "Ledge",
+      "pos": [
+        -130.54,
+        168.77,
+        -1379.27
+      ]
+    },
+    "K31": {
+      "Id": "K31",
+      "Type": "LiftRock",
+      "Comment": "Top of scaffolding",
+      "pos": [
+        1008.13,
+        270.26,
+        -1564.01
+      ]
+    },
+    "K32": {
+      "Id": "K32",
+      "Type": "AcornTree",
+      "pos": [
+        868.01,
+        209.81,
+        -1362.16
+      ]
+    },
+    "K33": {
+      "Id": "K33",
+      "Type": "BlockPuzzle",
+      "pos": [
+        1197.52,
+        126.97,
+        -1152.62
+      ]
+    },
+    "K34": {
+      "Id": "K34",
+      "Type": "LilyPads",
+      "pos": [
+        1282.64,
+        129.64,
+        -1123.44
+      ]
+    },
+    "K35": {
+      "Id": "K35",
+      "Type": "BlockPuzzle",
+      "pos": [
+        1694.87,
+        141.95,
+        -862.08
+      ]
+    },
+    "L01": {
+      "Id": "L01",
+      "Type": "Well",
+      "pos": [
+        323.49,
+        118.23,
+        1927.42
+      ]
+    },
+    "L02": {
+      "Id": "L02",
+      "Type": "LiftRock",
+      "Comment": "In big tree stump",
+      "pos": [
+        354.38,
+        114.56,
+        1997.54
+      ]
+    },
+    "L03": {
+      "Id": "L03",
+      "Type": "BlockPuzzle",
+      "pos": [
+        34.27,
+        115.55,
+        2102.72
+      ]
+    },
+    "L04": {
+      "Id": "L04",
+      "Type": "TreeStump",
+      "pos": [
+        214.57,
+        170.07,
+        2070.05
+      ]
+    },
+    "L05": {
+      "Id": "L05",
+      "Type": "FlowerChase",
+      "pos": [
+        400.86,
+        142.06,
+        2150.86
+      ]
+    },
+    "L06": {
+      "Id": "L06",
+      "Type": "LightChase",
+      "pos": [
+        474.95,
+        115.26,
+        2149.12
+      ]
+    },
+    "L07": {
+      "Id": "L07",
+      "Type": "BoulderGolf",
+      "pos": [
+        908.28,
+        247.17,
+        2193.52
+      ]
+    },
+    "L08": {
+      "Id": "L08",
+      "Type": "Race",
+      "pos": [
+        -609.8,
+        95.24,
+        2390.65
+      ]
+    },
+    "L09": {
+      "Id": "L09",
+      "Type": "Basketball",
+      "pos": [
+        -68.02,
+        91.39,
+        2332.61
+      ]
+    },
+    "L10": {
+      "Id": "L10",
+      "Type": "LilyPads",
+      "pos": [
+        66.22,
+        94,
+        2310.64
+      ]
+    },
+    "L11": {
+      "Id": "L11",
+      "Type": "TreeStump",
+      "pos": [
+        284.29,
+        146.79,
+        2253.37
+      ]
+    },
+    "L12": {
+      "Id": "L12",
+      "Type": "BlockPuzzle",
+      "pos": [
+        625.16,
+        164.76,
+        2305.9
+      ]
+    },
+    "L13": {
+      "Id": "L13",
+      "Type": "LiftRockRubble",
+      "pos": [
+        755.69,
+        194.09,
+        2347.6
+      ]
+    },
+    "L14": {
+      "Id": "L14",
+      "Type": "LiftRockSlab",
+      "pos": [
+        -74.38,
+        90.54,
+        2412.87
+      ]
+    },
+    "L15": {
+      "Id": "L15",
+      "Type": "Balloon",
+      "Comment": "In pillar",
+      "pos": [
+        -66.24,
+        124,
+        2440.65
+      ]
+    },
+    "L16": {
+      "Id": "L16",
+      "Type": "BoulderGolf",
+      "pos": [
+        280.42,
+        97.65,
+        2405.01
+      ]
+    },
+    "L17": {
+      "Id": "L17",
+      "Type": "LightChase",
+      "pos": [
+        604.93,
+        177.15,
+        2408.78
+      ]
+    },
+    "L18": {
+      "Id": "L18",
+      "Type": "LightChase",
+      "pos": [
+        609.28,
+        177.23,
+        2409.82
+      ]
+    },
+    "L19": {
+      "Id": "L19",
+      "Type": "LiftRockTree",
+      "Comment": "Top of big tree",
+      "pos": [
+        889.61,
+        180.86,
+        2395.3
+      ]
+    },
+    "L20": {
+      "Id": "L20",
+      "Type": "BlockPuzzle",
+      "pos": [
+        833.75,
+        145.33,
+        2434.57
+      ]
+    },
+    "L21": {
+      "Id": "L21",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -1379.58,
+        215.09,
+        2742.73
+      ]
+    },
+    "L22": {
+      "Id": "L22",
+      "Type": "AcornHanging",
+      "Comment": "From tree",
+      "pos": [
+        -1214.31,
+        193.47,
+        2701.55
+      ]
+    },
+    "L23": {
+      "Id": "L23",
+      "Type": "Confetti",
+      "Comment": "Top of tree",
+      "pos": [
+        -1011.91,
+        330.57,
+        2638.46
+      ]
+    },
+    "L24": {
+      "Id": "L24",
+      "Type": "LiftRock",
+      "pos": [
+        -601.95,
+        90.3,
+        2656.11
+      ]
+    },
+    "L25": {
+      "Id": "L25",
+      "Type": "Confetti",
+      "Comment": "Top of tree",
+      "pos": [
+        -398.39,
+        103.86,
+        2559.23
+      ]
+    },
+    "L26": {
+      "Id": "L26",
+      "Type": "TreeBranch",
+      "pos": [
+        -54.77,
+        128.94,
+        2492.43
+      ]
+    },
+    "L27": {
+      "Id": "L27",
+      "Type": "Confetti",
+      "Comment": "Top of fountain",
+      "pos": [
+        -38.98,
+        152.95,
+        2513.64
+      ]
+    },
+    "L28": {
+      "Id": "L28",
+      "Type": "FlowerCount",
+      "Comment": "On peak",
+      "pos": [
+        515.78,
+        211.07,
+        2499
+      ]
+    },
+    "L29": {
+      "Id": "L29",
+      "Type": "LiftRock",
+      "Comment": "Peak",
+      "pos": [
+        679.19,
+        244.79,
+        2499.42
+      ]
+    },
+    "L30": {
+      "Id": "L30",
+      "Type": "FlowerChase",
+      "pos": [
+        -12.47,
+        119.77,
+        2586.32
+      ]
+    },
+    "L31": {
+      "Id": "L31",
+      "Type": "LiftRock",
+      "pos": [
+        -3.03,
+        90.67,
+        2614.66
+      ]
+    },
+    "L32": {
+      "Id": "L32",
+      "Type": "MetalBoxCircle",
+      "pos": [
+        200.87,
+        92.34,
+        2603.86
+      ]
+    },
+    "L33": {
+      "Id": "L33",
+      "Type": "Balloon",
+      "pos": [
+        370.41,
+        92.51,
+        2567.04
+      ]
+    },
+    "L34": {
+      "Id": "L34",
+      "Type": "BoulderCircle",
+      "pos": [
+        790.63,
+        159.6,
+        2565.13
+      ]
+    },
+    "L35": {
+      "Id": "L35",
+      "Type": "MatchTree",
+      "pos": [
+        584.43,
+        217.51,
+        2678.33
+      ]
+    },
+    "L36": {
+      "Id": "L36",
+      "Type": "Balloon",
+      "pos": [
+        -1066.79,
+        208.43,
+        2910.01
+      ]
+    },
+    "L37": {
+      "Id": "L37",
+      "Type": "AcornLog",
+      "pos": [
+        -925.24,
+        237.01,
+        2936.44
+      ]
+    },
+    "L38": {
+      "Id": "L38",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -468.64,
+        98.7,
+        2908.23
+      ]
+    },
+    "L39": {
+      "Id": "L39",
+      "Type": "LiftRock",
+      "pos": [
+        163.27,
+        90.2,
+        2783.29
+      ]
+    },
+    "L40": {
+      "Id": "L40",
+      "Type": "AcornTree",
+      "pos": [
+        340.62,
+        94.23,
+        2830.62
+      ]
+    },
+    "L41": {
+      "Id": "L41",
+      "Type": "LiftRockRubble",
+      "pos": [
+        -1256.74,
+        323.02,
+        3134.15
+      ]
+    },
+    "L42": {
+      "Id": "L42",
+      "Type": "BoulderGolf",
+      "pos": [
+        224.17,
+        135.2,
+        2868.4
+      ]
+    },
+    "L43": {
+      "Id": "L43",
+      "Type": "LightChase",
+      "pos": [
+        169.73,
+        118.72,
+        2903.41
+      ]
+    },
+    "L44": {
+      "Id": "L44",
+      "Type": "BoulderGolf",
+      "pos": [
+        418.2,
+        128.01,
+        2873.4
+      ]
+    },
+    "L45": {
+      "Id": "L45",
+      "Type": "LiftRock",
+      "pos": [
+        610.34,
+        206.4,
+        2869.85
+      ]
+    },
+    "L46": {
+      "Id": "L46",
+      "Type": "LiftRock",
+      "Comment": "Top of small waterfall",
+      "pos": [
+        1173.39,
+        192.66,
+        2849.98
+      ]
+    },
+    "L47": {
+      "Id": "L47",
+      "Type": "Race",
+      "pos": [
+        -387.59,
+        152.98,
+        3151.55
+      ]
+    },
+    "L48": {
+      "Id": "L48",
+      "Type": "LiftRock",
+      "pos": [
+        -150.92,
+        143.38,
+        3067.3
+      ]
+    },
+    "L49": {
+      "Id": "L49",
+      "Type": "RockCircle",
+      "pos": [
+        -95.25,
+        144.64,
+        3128.95
+      ]
+    },
+    "L50": {
+      "Id": "L50",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -26.89,
+        107.81,
+        3042.68
+      ]
+    },
+    "L51": {
+      "Id": "L51",
+      "Type": "BoulderGolf",
+      "pos": [
+        153.94,
+        143.86,
+        2981.71
+      ]
+    },
+    "L52": {
+      "Id": "L52",
+      "Type": "LiftRock",
+      "Comment": "On pillar",
+      "pos": [
+        406.11,
+        139.9,
+        3051.13
+      ]
+    },
+    "L53": {
+      "Id": "L53",
+      "Type": "TreeStump",
+      "pos": [
+        581.24,
+        123.03,
+        3007.6
+      ]
+    },
+    "L54": {
+      "Id": "L54",
+      "Type": "LilyPads",
+      "pos": [
+        704.03,
+        120,
+        2957.83
+      ]
+    },
+    "L55": {
+      "Id": "L55",
+      "Type": "FlowerChase",
+      "pos": [
+        695.52,
+        119.43,
+        3071.4
+      ]
+    },
+    "L56": {
+      "Id": "L56",
+      "Type": "BoulderCircle",
+      "pos": [
+        824.94,
+        120.73,
+        3005.3
+      ]
+    },
+    "L57": {
+      "Id": "L57",
+      "Type": "LightChase",
+      "pos": [
+        806.07,
+        124.54,
+        3112.85
+      ]
+    },
+    "L58": {
+      "Id": "L58",
+      "Type": "LightChase",
+      "pos": [
+        1196.09,
+        132.03,
+        3055.43
+      ]
+    },
+    "L59": {
+      "Id": "L59",
+      "Type": "LilyPads",
+      "pos": [
+        56.69,
+        109.89,
+        3150.02
+      ]
+    },
+    "L60": {
+      "Id": "L60",
+      "Type": "LiftRockRubble",
+      "pos": [
+        69.03,
+        127.14,
+        3221.87
+      ]
+    },
+    "L61": {
+      "Id": "L61",
+      "Type": "LiftRockSlab",
+      "pos": [
+        742.89,
+        134.01,
+        3243.07
+      ]
+    },
+    "L62": {
+      "Id": "L62",
+      "Type": "LiftRockRubble",
+      "pos": [
+        -923.5,
+        214.58,
+        3436.38
+      ]
+    },
+    "L63": {
+      "Id": "L63",
+      "Type": "OfferApple",
+      "pos": [
+        -420.75,
+        141.37,
+        3368.48
+      ]
+    },
+    "L64": {
+      "Id": "L64",
+      "Type": "FlowerChase",
+      "pos": [
+        -227.28,
+        176.72,
+        3342.73
+      ]
+    },
+    "L65": {
+      "Id": "L65",
+      "Type": "Race",
+      "Comment": "Ordinal",
+      "pos": [
+        271.71,
+        222.37,
+        3289.58
+      ]
+    },
+    "L66": {
+      "Id": "L66",
+      "Type": "Basketball",
+      "pos": [
+        699.92,
+        133.67,
+        3276.86
+      ]
+    },
+    "L67": {
+      "Id": "L67",
+      "Type": "Balloon",
+      "pos": [
+        -1176.85,
+        344.99,
+        3578.05
+      ]
+    },
+    "L68": {
+      "Id": "L68",
+      "Type": "LightChase",
+      "pos": [
+        -1125.95,
+        315.84,
+        3624.42
+      ]
+    },
+    "L69": {
+      "Id": "L69",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -878.72,
+        245.87,
+        3567.74
+      ]
+    },
+    "L70": {
+      "Id": "L70",
+      "Type": "AcornFlying",
+      "pos": [
+        216.32,
+        199.14,
+        3488.01
+      ]
+    },
+    "L71": {
+      "Id": "L71",
+      "Type": "RockCircle",
+      "pos": [
+        279.02,
+        184.63,
+        3503.79
+      ]
+    },
+    "L72": {
+      "Id": "L72",
+      "Type": "Race",
+      "pos": [
+        963.3,
+        173.48,
+        3371.1
+      ]
+    },
+    "L73": {
+      "Id": "L73",
+      "Type": "Balloon",
+      "Comment": "On peak",
+      "pos": [
+        266.1,
+        276.46,
+        3668.95
+      ]
+    },
+    "L74": {
+      "Id": "L74",
+      "Type": "BoulderGolf",
+      "pos": [
+        367.09,
+        176.93,
+        3642.11
+      ]
+    },
+    "L75": {
+      "Id": "L75",
+      "Type": "LilyPads",
+      "pos": [
+        645.72,
+        152.3,
+        3615.12
+      ]
+    },
+    "L76": {
+      "Id": "L76",
+      "Type": "BoulderGolf",
+      "pos": [
+        522.46,
+        166.3,
+        3680.95
+      ]
+    },
+    "L77": {
+      "Id": "L77",
+      "Type": "RockCircle",
+      "pos": [
+        639.39,
+        219.09,
+        3710.83
+      ]
+    },
+    "L78": {
+      "Id": "L78",
+      "Type": "LiftRock",
+      "Comment": "Peak",
+      "pos": [
+        891.16,
+        284.36,
+        3694.82
+      ]
+    },
+    "L79": {
+      "Id": "L79",
+      "Type": "RockCircle",
+      "pos": [
+        1074.54,
+        182.09,
+        3620.94
+      ]
+    },
+    "L80": {
+      "Id": "L80",
+      "Type": "Race",
+      "pos": [
+        -657.76,
+        187.62,
+        3851.83
+      ]
+    },
+    "L81": {
+      "Id": "L81",
+      "Type": "LiftRock",
+      "pos": [
+        -354.83,
+        182.59,
+        3898.78
+      ]
+    },
+    "L82": {
+      "Id": "L82",
+      "Type": "Confetti",
+      "Comment": "Top of palm tree",
+      "pos": [
+        -266.35,
+        125.15,
+        3888.15
+      ]
+    },
+    "L83": {
+      "Id": "L83",
+      "Type": "LiftRockRubble",
+      "pos": [
+        -248.98,
+        130.31,
+        3828.44
+      ]
+    },
+    "L84": {
+      "Id": "L84",
+      "Type": "LightChase",
+      "pos": [
+        -240.11,
+        106.07,
+        3882.5
+      ]
+    },
+    "L85": {
+      "Id": "L85",
+      "Type": "RockCircle",
+      "pos": [
+        -135.83,
+        105.97,
+        3802
+      ]
+    },
+    "L86": {
+      "Id": "L86",
+      "Type": "LiftRockBoulder",
+      "pos": [
+        13.95,
+        106.59,
+        3790.42
+      ]
+    },
+    "L87": {
+      "Id": "L87",
+      "Type": "LiftRock",
+      "Comment": "Top of rock",
+      "pos": [
+        97.36,
+        145.46,
+        3821.54
+      ]
+    },
+    "L88": {
+      "Id": "L88",
+      "Type": "LightChase",
+      "pos": [
+        265.62,
+        111.81,
+        3837
+      ]
+    },
+    "L89": {
+      "Id": "L89",
+      "Type": "LilyPads",
+      "pos": [
+        286.83,
+        109.9,
+        3899.42
+      ]
+    },
+    "L90": {
+      "Id": "L90",
+      "Type": "BlockPuzzle",
+      "pos": [
+        416.75,
+        106.41,
+        3848.92
+      ]
+    },
+    "L91": {
+      "Id": "L91",
+      "Type": "RockCircle",
+      "pos": [
+        517.56,
+        193.85,
+        3765.02
+      ]
+    },
+    "L92": {
+      "Id": "L92",
+      "Type": "BlockPuzzle",
+      "pos": [
+        909.62,
+        183.59,
+        3837.29
+      ]
+    },
+    "N01": {
+      "Id": "N01",
+      "Type": "LiftRockTree",
+      "pos": [
+        1980.92,
+        174.27,
+        451.91
+      ]
+    },
+    "N02": {
+      "Id": "N02",
+      "Type": "LiftRockTree",
+      "pos": [
+        2378.29,
+        231.61,
+        373.14
+      ]
+    },
+    "N03": {
+      "Id": "N03",
+      "Type": "LiftRockTree",
+      "pos": [
+        2635.69,
+        269.52,
+        370.99
+      ]
+    },
+    "N04": {
+      "Id": "N04",
+      "Type": "AcornFlying",
+      "pos": [
+        2473.88,
+        231.46,
+        461.69
+      ]
+    },
+    "N05": {
+      "Id": "N05",
+      "Type": "LightChase",
+      "Comment": "Small pond",
+      "pos": [
+        2684.85,
+        218.51,
+        562.78
+      ]
+    },
+    "N06": {
+      "Id": "N06",
+      "Type": "Confetti",
+      "Comment": "Top of tall tree",
+      "pos": [
+        2891.03,
+        234.15,
+        517.87
+      ]
+    },
+    "N07": {
+      "Id": "N07",
+      "Type": "MatchTree",
+      "pos": [
+        2132.42,
+        321.11,
+        678.84
+      ]
+    },
+    "N08": {
+      "Id": "N08",
+      "Type": "BlockPuzzle",
+      "pos": [
+        2149.35,
+        262.51,
+        790
+      ]
+    },
+    "N09": {
+      "Id": "N09",
+      "Type": "OfferApple",
+      "pos": [
+        2239.66,
+        337.97,
+        726.35
+      ]
+    },
+    "N10": {
+      "Id": "N10",
+      "Type": "FlowerChase",
+      "pos": [
+        2288.52,
+        250.79,
+        699.62
+      ]
+    },
+    "N11": {
+      "Id": "N11",
+      "Type": "BoulderGolf",
+      "pos": [
+        2409.54,
+        269.6,
+        849.31
+      ]
+    },
+    "N12": {
+      "Id": "N12",
+      "Type": "RockCircle",
+      "pos": [
+        3951.86,
+        106.31,
+        695.88
+      ]
+    },
+    "N13": {
+      "Id": "N13",
+      "Type": "BoulderCircle",
+      "pos": [
+        2728.91,
+        342.09,
+        904.32
+      ]
+    },
+    "N14": {
+      "Id": "N14",
+      "Type": "RockCircle",
+      "pos": [
+        3383.03,
+        118.78,
+        982.82
+      ]
+    },
+    "N15": {
+      "Id": "N15",
+      "Type": "LilyPads",
+      "pos": [
+        2636.16,
+        205.28,
+        1108.99
+      ]
+    },
+    "N16": {
+      "Id": "N16",
+      "Type": "LiftRock",
+      "pos": [
+        2705.43,
+        203.1,
+        1164.94
+      ]
+    },
+    "N17": {
+      "Id": "N17",
+      "Type": "Race",
+      "pos": [
+        3432.94,
+        342.95,
+        1150.31
+      ]
+    },
+    "N18": {
+      "Id": "N18",
+      "Type": "IceBlock",
+      "pos": [
+        3741.71,
+        542.51,
+        1156.12
+      ]
+    },
+    "N19": {
+      "Id": "N19",
+      "Type": "RockCircle",
+      "pos": [
+        4087.93,
+        423.3,
+        1142.37
+      ]
+    },
+    "N20": {
+      "Id": "N20",
+      "Type": "RockCircle",
+      "pos": [
+        2526.61,
+        334.82,
+        1257.57
+      ]
+    },
+    "N21": {
+      "Id": "N21",
+      "Type": "LiftRock",
+      "pos": [
+        2925.46,
+        478.75,
+        1401.57
+      ]
+    },
+    "N22": {
+      "Id": "N22",
+      "Type": "BlockPuzzle",
+      "pos": [
+        3277.77,
+        346.34,
+        1436
+      ]
+    },
+    "N23": {
+      "Id": "N23",
+      "Type": "LightChase",
+      "Comment": "In forest",
+      "pos": [
+        3537.01,
+        313.54,
+        1376.11
+      ]
+    },
+    "N24": {
+      "Id": "N24",
+      "Type": "IceBlock",
+      "pos": [
+        3797.93,
+        577.85,
+        1269.19
+      ]
+    },
+    "N25": {
+      "Id": "N25",
+      "Type": "BoulderGolf",
+      "pos": [
+        4438.9,
+        141.72,
+        1432.91
+      ]
+    },
+    "N26": {
+      "Id": "N26",
+      "Type": "BoulderGolf",
+      "pos": [
+        2276.03,
+        162.25,
+        1501.62
+      ]
+    },
+    "N27": {
+      "Id": "N27",
+      "Type": "LiftRockRubble",
+      "pos": [
+        2279.31,
+        182.42,
+        1608.34
+      ]
+    },
+    "N28": {
+      "Id": "N28",
+      "Type": "OfferApple",
+      "pos": [
+        2511.43,
+        120.03,
+        1571.52
+      ]
+    },
+    "N29": {
+      "Id": "N29",
+      "Type": "LilyPads",
+      "pos": [
+        3171.94,
+        293.84,
+        1490.93
+      ]
+    },
+    "N30": {
+      "Id": "N30",
+      "Type": "MatchTree",
+      "pos": [
+        3229.03,
+        302.83,
+        1545.24
+      ]
+    },
+    "N31": {
+      "Id": "N31",
+      "Type": "IceBlock",
+      "pos": [
+        3896.64,
+        416.66,
+        1556.54
+      ]
+    },
+    "N32": {
+      "Id": "N32",
+      "Type": "Race",
+      "pos": [
+        4282.68,
+        289.03,
+        1655.66
+      ]
+    },
+    "N33": {
+      "Id": "N33",
+      "Type": "LiftRockDoor",
+      "pos": [
+        2320.66,
+        119.27,
+        1726.36
+      ]
+    },
+    "N34": {
+      "Id": "N34",
+      "Type": "AcornFlying",
+      "pos": [
+        2330.77,
+        133.96,
+        1828.01
+      ]
+    },
+    "N35": {
+      "Id": "N35",
+      "Type": "BlockPuzzle",
+      "pos": [
+        2495.85,
+        205.5,
+        1804.2
+      ]
+    },
+    "N36": {
+      "Id": "N36",
+      "Type": "AcornTree",
+      "pos": [
+        2884.09,
+        160.92,
+        1765.02
+      ]
+    },
+    "N37": {
+      "Id": "N37",
+      "Type": "LilyPads",
+      "pos": [
+        3178.81,
+        177,
+        1607.3
+      ]
+    },
+    "N38": {
+      "Id": "N38",
+      "Type": "Balloon",
+      "pos": [
+        3166.32,
+        193.83,
+        1828.89
+      ]
+    },
+    "N39": {
+      "Id": "N39",
+      "Type": "Race",
+      "pos": [
+        3525.98,
+        454.04,
+        1710.62
+      ]
+    },
+    "N40": {
+      "Id": "N40",
+      "Type": "LiftRockSlab",
+      "pos": [
+        4615.14,
+        106.21,
+        1915.47
+      ]
+    },
+    "N41": {
+      "Id": "N41",
+      "Type": "LilyPads",
+      "pos": [
+        3029.03,
+        114.8,
+        2017.67
+      ]
+    },
+    "N42": {
+      "Id": "N42",
+      "Type": "LiftRockTree",
+      "Comment": "Next to blue flame",
+      "pos": [
+        3475.63,
+        278.69,
+        1916.26
+      ]
+    },
+    "N43": {
+      "Id": "N43",
+      "Type": "LiftRockTree",
+      "Comment": "Middle of lake",
+      "pos": [
+        3709.19,
+        301.45,
+        1943.08
+      ]
+    },
+    "N44": {
+      "Id": "N44",
+      "Type": "FlowerChase",
+      "pos": [
+        4274.36,
+        430.79,
+        1981.02
+      ]
+    },
+    "N45": {
+      "Id": "N45",
+      "Type": "Balloon",
+      "pos": [
+        2836.32,
+        126.63,
+        2120.5
+      ]
+    },
+    "N46": {
+      "Id": "N46",
+      "Type": "LiftRockDoor",
+      "pos": [
+        2863.86,
+        140.26,
+        2182.9
+      ]
+    },
+    "N47": {
+      "Id": "N47",
+      "Type": "Confetti",
+      "Comment": "Top of lab",
+      "pos": [
+        3783.72,
+        390.72,
+        2125.18
+      ]
+    },
+    "N48": {
+      "Id": "N48",
+      "Type": "LilyPads",
+      "pos": [
+        3901.08,
+        235.8,
+        2096.72
+      ]
+    },
+    "N49": {
+      "Id": "N49",
+      "Type": "AcornTree",
+      "pos": [
+        2714.13,
+        225.53,
+        2345.55
+      ]
+    },
+    "N50": {
+      "Id": "N50",
+      "Type": "MatchTree",
+      "pos": [
+        2811.31,
+        239.61,
+        2391.92
+      ]
+    },
+    "N51": {
+      "Id": "N51",
+      "Type": "LiftRock",
+      "Comment": "Side of lake",
+      "pos": [
+        2991.39,
+        118.1,
+        2272.14
+      ]
+    },
+    "N52": {
+      "Id": "N52",
+      "Type": "AcornTree",
+      "pos": [
+        3144.46,
+        163.4,
+        2229.85
+      ]
+    },
+    "N53": {
+      "Id": "N53",
+      "Type": "LiftRock",
+      "pos": [
+        3347.61,
+        209.94,
+        2249.25
+      ]
+    },
+    "N54": {
+      "Id": "N54",
+      "Type": "OfferPalmFruit",
+      "Comment": "In cave",
+      "pos": [
+        4211.83,
+        106.38,
+        2270.37
+      ]
+    },
+    "N55": {
+      "Id": "N55",
+      "Type": "Balloon",
+      "pos": [
+        4518.49,
+        219.77,
+        2316.51
+      ]
+    },
+    "N56": {
+      "Id": "N56",
+      "Type": "LilyPads",
+      "pos": [
+        4541.93,
+        109.8,
+        2405.63
+      ]
+    },
+    "N57": {
+      "Id": "N57",
+      "Type": "FlowerChase",
+      "pos": [
+        4662.71,
+        169.59,
+        2376.25
+      ]
+    },
+    "N58": {
+      "Id": "N58",
+      "Type": "BlockPuzzle",
+      "pos": [
+        3148.71,
+        277.19,
+        2402.78
+      ]
+    },
+    "N59": {
+      "Id": "N59",
+      "Type": "FlowerChase",
+      "pos": [
+        3420.94,
+        340.35,
+        2390.28
+      ]
+    },
+    "N60": {
+      "Id": "N60",
+      "Type": "Basketball",
+      "pos": [
+        3687.95,
+        107.32,
+        2413.49
+      ]
+    },
+    "N61": {
+      "Id": "N61",
+      "Type": "RockCircle",
+      "pos": [
+        3516.11,
+        160.2,
+        2628.38
+      ]
+    },
+    "N62": {
+      "Id": "N62",
+      "Type": "FlowerChase",
+      "Comment": "Starts on beach",
+      "pos": [
+        4110.97,
+        111.15,
+        2588.16
+      ]
+    },
+    "N63": {
+      "Id": "N63",
+      "Type": "RockCircle",
+      "pos": [
+        4536.52,
+        106.44,
+        2520.27
+      ]
+    },
+    "N64": {
+      "Id": "N64",
+      "Type": "MatchTree",
+      "pos": [
+        3229.81,
+        256.54,
+        2848.44
+      ]
+    },
+    "N65": {
+      "Id": "N65",
+      "Type": "RockCircle",
+      "pos": [
+        3441.93,
+        216.08,
+        3121.87
+      ]
+    },
+    "N66": {
+      "Id": "N66",
+      "Type": "Race",
+      "pos": [
+        4083.59,
+        109.36,
+        2973.26
+      ]
+    },
+    "P01": {
+      "Id": "P01",
+      "Type": "LiftRock",
+      "pos": [
+        -822.63,
+        171.23,
+        1546.92
+      ]
+    },
+    "P02": {
+      "Id": "P02",
+      "Type": "TreeStump",
+      "pos": [
+        -769.88,
+        175.22,
+        1574.22
+      ]
+    },
+    "P03": {
+      "Id": "P03",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -1334.8,
+        232.67,
+        1675.89
+      ]
+    },
+    "P04": {
+      "Id": "P04",
+      "Type": "FlowerChase",
+      "Comment": "Middle of log",
+      "pos": [
+        -965.48,
+        187.2,
+        1625.69
+      ]
+    },
+    "P05": {
+      "Id": "P05",
+      "Type": "LiftRockLeaves",
+      "pos": [
+        -853.23,
+        181.42,
+        1671.21
+      ]
+    },
+    "P06": {
+      "Id": "P06",
+      "Type": "LiftRock",
+      "Comment": "Top of hill",
+      "pos": [
+        -953.06,
+        201.55,
+        1721.48
+      ]
+    },
+    "P07": {
+      "Id": "P07",
+      "Type": "IceBlock",
+      "pos": [
+        -1503.42,
+        297.22,
+        1920.17
+      ]
+    },
+    "P08": {
+      "Id": "P08",
+      "Type": "Confetti",
+      "pos": [
+        -1382.26,
+        249.27,
+        1858.03
+      ]
+    },
+    "P09": {
+      "Id": "P09",
+      "Type": "Confetti",
+      "Comment": "Inside SoR",
+      "pos": [
+        -1132.6,
+        238.22,
+        1917.72
+      ]
+    },
+    "P10": {
+      "Id": "P10",
+      "Type": "LilyPads",
+      "pos": [
+        -887.32,
+        208.14,
+        1891.4
+      ]
+    },
+    "P11": {
+      "Id": "P11",
+      "Type": "Confetti",
+      "Comment": "Spire of Temple",
+      "pos": [
+        -809.22,
+        297.75,
+        1966.9
+      ]
+    },
+    "P12": {
+      "Id": "P12",
+      "Type": "LiftRockDoor",
+      "pos": [
+        -423.02,
+        169.4,
+        1993.36
+      ]
+    },
+    "P13": {
+      "Id": "P13",
+      "Type": "LiftRockDoor",
+      "pos": [
+        -423.35,
+        125.26,
+        2022.45
+      ]
+    },
+    "P14": {
+      "Id": "P14",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -1443.11,
+        284.25,
+        2105.63
+      ]
+    },
+    "P15": {
+      "Id": "P15",
+      "Type": "RockCircle",
+      "pos": [
+        -1363.46,
+        335.7,
+        2215.19
+      ]
+    },
+    "P16": {
+      "Id": "P16",
+      "Type": "LiftRockSlab",
+      "pos": [
+        -1204.35,
+        329.34,
+        2322.77
+      ]
+    },
+    "P17": {
+      "Id": "P17",
+      "Type": "LiftRock",
+      "pos": [
+        -1171.61,
+        342.5,
+        2317.22
+      ]
+    },
+    "P18": {
+      "Id": "P18",
+      "Type": "Confetti",
+      "Comment": "Top of hut",
+      "pos": [
+        -792.03,
+        201.39,
+        2257.22
+      ]
+    },
+    "R01": {
+      "Id": "R01",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -2210.59,
+        152.82,
+        -1621.4
+      ]
+    },
+    "R02": {
+      "Id": "R02",
+      "Type": "LiftRock",
+      "pos": [
+        -2217.82,
+        321.18,
+        -1565.02
+      ]
+    },
+    "R03": {
+      "Id": "R03",
+      "Type": "LiftRockRubble",
+      "pos": [
+        -2083.96,
+        293.08,
+        -1558.72
+      ]
+    },
+    "R04": {
+      "Id": "R04",
+      "Type": "RockCircle",
+      "Comment": "In canyon",
+      "pos": [
+        -2516.12,
+        61.96,
+        -1436.3
+      ]
+    },
+    "R05": {
+      "Id": "R05",
+      "Type": "AcornTree",
+      "pos": [
+        -2636.28,
+        300.54,
+        -1246.99
+      ]
+    },
+    "R06": {
+      "Id": "R06",
+      "Type": "Confetti",
+      "Comment": "Top of bare tree",
+      "pos": [
+        -2022.65,
+        390.93,
+        -1300.63
+      ]
+    },
+    "R07": {
+      "Id": "R07",
+      "Type": "LiftRockTree",
+      "pos": [
+        -1077.38,
+        238.53,
+        -1278.7
+      ]
+    },
+    "R08": {
+      "Id": "R08",
+      "Type": "LiftRockRubble",
+      "pos": [
+        -2383.52,
+        211.84,
+        -1150.63
+      ]
+    },
+    "R09": {
+      "Id": "R09",
+      "Type": "Race",
+      "Comment": "Run",
+      "pos": [
+        -1855.98,
+        395.49,
+        -1192.54
+      ]
+    },
+    "R10": {
+      "Id": "R10",
+      "Type": "FlowerChase",
+      "pos": [
+        -1230.51,
+        207.67,
+        -999.81
+      ]
+    },
+    "R11": {
+      "Id": "R11",
+      "Type": "Basketball",
+      "pos": [
+        -1017.85,
+        116.95,
+        -1066.07
+      ]
+    },
+    "R12": {
+      "Id": "R12",
+      "Type": "Confetti",
+      "Comment": "Top of flagpole",
+      "pos": [
+        -3109.25,
+        34.17,
+        -909.26
+      ]
+    },
+    "R13": {
+      "Id": "R13",
+      "Type": "LiftRock",
+      "Comment": "Top of waterfall",
+      "pos": [
+        -2669.55,
+        375.56,
+        -864.39
+      ]
+    },
+    "R14": {
+      "Id": "R14",
+      "Type": "LightChase",
+      "pos": [
+        -2316.8,
+        206.68,
+        -806.45
+      ]
+    },
+    "R15": {
+      "Id": "R15",
+      "Type": "RockCircle",
+      "Comment": "On top of tree",
+      "pos": [
+        -2060.66,
+        259.49,
+        -775.78
+      ]
+    },
+    "R16": {
+      "Id": "R16",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -1142.41,
+        182.62,
+        -761.94
+      ]
+    },
+    "R17": {
+      "Id": "R17",
+      "Type": "LiftRock",
+      "Comment": "Top of mountain",
+      "pos": [
+        -2698.41,
+        414.59,
+        -766.74
+      ]
+    },
+    "R18": {
+      "Id": "R18",
+      "Type": "Race",
+      "Comment": "Run",
+      "pos": [
+        -1964.67,
+        221.2,
+        -584.16
+      ]
+    },
+    "R19": {
+      "Id": "R19",
+      "Type": "BoulderGolf",
+      "pos": [
+        -1125.27,
+        157.91,
+        -675.43
+      ]
+    },
+    "R20": {
+      "Id": "R20",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -3207.78,
+        37.56,
+        -494.89
+      ]
+    },
+    "R21": {
+      "Id": "R21",
+      "Type": "LightChase",
+      "pos": [
+        -2715.9,
+        269.56,
+        -429.86
+      ]
+    },
+    "R22": {
+      "Id": "R22",
+      "Type": "Balloon",
+      "pos": [
+        -2434.11,
+        319.86,
+        -491.03
+      ]
+    },
+    "R23": {
+      "Id": "R23",
+      "Type": "FlowerChase",
+      "pos": [
+        -2030.12,
+        206.47,
+        -547.6
+      ]
+    },
+    "R24": {
+      "Id": "R24",
+      "Type": "LilyPads",
+      "pos": [
+        -2008.68,
+        210.31,
+        -514.15
+      ]
+    },
+    "R25": {
+      "Id": "R25",
+      "Type": "Race",
+      "pos": [
+        -1631.54,
+        210.43,
+        -515.19
+      ]
+    },
+    "R26": {
+      "Id": "R26",
+      "Type": "Race",
+      "pos": [
+        -1115.55,
+        151.98,
+        -528.58
+      ]
+    },
+    "R27": {
+      "Id": "R27",
+      "Type": "AcornHanging",
+      "Comment": "From bridge",
+      "pos": [
+        -1092.08,
+        129.02,
+        -497.51
+      ]
+    },
+    "R28": {
+      "Id": "R28",
+      "Type": "LiftRockSlab",
+      "pos": [
+        -3327.44,
+        3.92,
+        -336.92
+      ]
+    },
+    "R29": {
+      "Id": "R29",
+      "Type": "LiftRock",
+      "Comment": "In between rocks",
+      "pos": [
+        -3207.55,
+        5.91,
+        -333.98
+      ]
+    },
+    "R30": {
+      "Id": "R30",
+      "Type": "Race",
+      "pos": [
+        -2547.83,
+        299.94,
+        -306.3
+      ]
+    },
+    "R31": {
+      "Id": "R31",
+      "Type": "Balloon",
+      "pos": [
+        -2370.1,
+        307.04,
+        -345.3
+      ]
+    },
+    "R32": {
+      "Id": "R32",
+      "Type": "Balloon",
+      "pos": [
+        -4252.4,
+        171.93,
+        -84.01
+      ]
+    },
+    "R33": {
+      "Id": "R33",
+      "Type": "RockCircle",
+      "pos": [
+        -4026.7,
+        145.21,
+        -232.4
+      ]
+    },
+    "R34": {
+      "Id": "R34",
+      "Type": "AcornHanging",
+      "Comment": "Below tower",
+      "pos": [
+        -3861.73,
+        101.01,
+        -147.15
+      ]
+    },
+    "R35": {
+      "Id": "R35",
+      "Type": "Race",
+      "pos": [
+        -3828.83,
+        160.15,
+        -118.42
+      ]
+    },
+    "R36": {
+      "Id": "R36",
+      "Type": "LiftRock",
+      "Comment": "On ledge",
+      "pos": [
+        -3476.2,
+        154.93,
+        -69.05
+      ]
+    },
+    "R37": {
+      "Id": "R37",
+      "Type": "LiftRock",
+      "Comment": "Ledge",
+      "pos": [
+        -2312.6,
+        262.63,
+        24.01
+      ]
+    },
+    "R38": {
+      "Id": "R38",
+      "Type": "MatchTree",
+      "pos": [
+        -1877.9,
+        243.7,
+        -32.18
+      ]
+    },
+    "R39": {
+      "Id": "R39",
+      "Type": "LightChase",
+      "Comment": "Near 2 rocks",
+      "pos": [
+        -1691.98,
+        224.96,
+        -175.52
+      ]
+    },
+    "R40": {
+      "Id": "R40",
+      "Type": "LiftRockSlab",
+      "pos": [
+        -1590.03,
+        210.73,
+        -229.13
+      ]
+    },
+    "R41": {
+      "Id": "R41",
+      "Type": "FlowerCount",
+      "pos": [
+        -1650.75,
+        224.85,
+        -46.55
+      ]
+    },
+    "R42": {
+      "Id": "R42",
+      "Type": "LiftRock",
+      "Comment": "Riverbank",
+      "pos": [
+        -1372.53,
+        115.84,
+        -107.98
+      ]
+    },
+    "R43": {
+      "Id": "R43",
+      "Type": "Balloon",
+      "pos": [
+        -1258.4,
+        159.75,
+        -240.51
+      ]
+    },
+    "R44": {
+      "Id": "R44",
+      "Type": "Basketball",
+      "pos": [
+        -1142.67,
+        116.47,
+        -284.33
+      ]
+    },
+    "R45": {
+      "Id": "R45",
+      "Type": "FlowerChase",
+      "Comment": "Start at pillar",
+      "pos": [
+        -1148.19,
+        149.37,
+        -226.68
+      ]
+    },
+    "R46": {
+      "Id": "R46",
+      "Type": "FlowerCount",
+      "pos": [
+        -3464.51,
+        172.14,
+        172.49
+      ]
+    },
+    "R47": {
+      "Id": "R47",
+      "Type": "Balloon",
+      "pos": [
+        -1992.89,
+        291.31,
+        161.31
+      ]
+    },
+    "R48": {
+      "Id": "R48",
+      "Type": "AcornTree",
+      "pos": [
+        -1512.01,
+        177.03,
+        56.45
+      ]
+    },
+    "R49": {
+      "Id": "R49",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -1501.96,
+        118.02,
+        156.21
+      ]
+    },
+    "R50": {
+      "Id": "R50",
+      "Type": "Balloon",
+      "Comment": "In tree",
+      "pos": [
+        -3014.16,
+        174.95,
+        372.43
+      ]
+    },
+    "R51": {
+      "Id": "R51",
+      "Type": "RockCircle",
+      "pos": [
+        -2450.16,
+        317.93,
+        373.47
+      ]
+    },
+    "R52": {
+      "Id": "R52",
+      "Type": "LiftRockTree",
+      "pos": [
+        -2298.85,
+        462.71,
+        341.16
+      ]
+    },
+    "R53": {
+      "Id": "R53",
+      "Type": "LiftRockRubble",
+      "pos": [
+        -2041.04,
+        425.55,
+        296.35
+      ]
+    },
+    "R54": {
+      "Id": "R54",
+      "Type": "Confetti",
+      "Comment": "Top of tree",
+      "pos": [
+        -1984.86,
+        348.49,
+        362.94
+      ]
+    },
+    "R55": {
+      "Id": "R55",
+      "Type": "LiftRock",
+      "Comment": "In tree stump",
+      "pos": [
+        -1962.84,
+        314.61,
+        409.85
+      ]
+    },
+    "R56": {
+      "Id": "R56",
+      "Type": "AcornTree",
+      "pos": [
+        -1859.58,
+        272.62,
+        334.3
+      ]
+    },
+    "R57": {
+      "Id": "R57",
+      "Type": "AcornTree",
+      "pos": [
+        -1731.07,
+        216.96,
+        375.13
+      ]
+    },
+    "R58": {
+      "Id": "R58",
+      "Type": "LiftRockTree",
+      "pos": [
+        -1405.51,
+        162.6,
+        459.7
+      ]
+    },
+    "R59": {
+      "Id": "R59",
+      "Type": "LiftRock",
+      "Comment": "Small island",
+      "pos": [
+        -2918.6,
+        118.24,
+        479.73
+      ]
+    },
+    "R60": {
+      "Id": "R60",
+      "Type": "LiftRockLeaves",
+      "pos": [
+        -2290.55,
+        438.38,
+        468.23
+      ]
+    },
+    "R61": {
+      "Id": "R61",
+      "Type": "FlowerChase",
+      "pos": [
+        -2247.71,
+        446.01,
+        464.67
+      ]
+    },
+    "R62": {
+      "Id": "R62",
+      "Type": "Race",
+      "Comment": "Cardinal",
+      "pos": [
+        -2175.12,
+        407.09,
+        463.35
+      ]
+    },
+    "R63": {
+      "Id": "R63",
+      "Type": "LiftRockLeaves",
+      "pos": [
+        -2645.97,
+        300.16,
+        547.92
+      ]
+    },
+    "R64": {
+      "Id": "R64",
+      "Type": "LiftRockRubble",
+      "pos": [
+        -2483.31,
+        328.14,
+        504.73
+      ]
+    },
+    "R65": {
+      "Id": "R65",
+      "Type": "FlowerCount",
+      "pos": [
+        -2483.61,
+        307.72,
+        545.07
+      ]
+    },
+    "R66": {
+      "Id": "R66",
+      "Type": "TreeStump",
+      "pos": [
+        -2492.7,
+        310.45,
+        589.67
+      ]
+    },
+    "R67": {
+      "Id": "R67",
+      "Type": "Basketball",
+      "pos": [
+        -2542.83,
+        307.78,
+        639.85
+      ]
+    },
+    "R68": {
+      "Id": "R68",
+      "Type": "Balloon",
+      "pos": [
+        -1965.81,
+        255.74,
+        600.94
+      ]
+    },
+    "R69": {
+      "Id": "R69",
+      "Type": "AcornLog",
+      "pos": [
+        -2053.48,
+        258.46,
+        636.41
+      ]
+    },
+    "R70": {
+      "Id": "R70",
+      "Type": "LiftRockBoulder",
+      "pos": [
+        -2200.96,
+        358.41,
+        730.84
+      ]
+    },
+    "R71": {
+      "Id": "R71",
+      "Type": "LiftRock",
+      "pos": [
+        -2908.73,
+        116.66,
+        796.26
+      ]
+    },
+    "R72": {
+      "Id": "R72",
+      "Type": "LiftRockLeaves",
+      "pos": [
+        -2729.92,
+        219.93,
+        761.38
+      ]
+    },
+    "R73": {
+      "Id": "R73",
+      "Type": "BoulderGolf",
+      "pos": [
+        -2351.14,
+        263.4,
+        846.17
+      ]
+    },
+    "R74": {
+      "Id": "R74",
+      "Type": "LiftRock",
+      "pos": [
+        -1551.96,
+        167.38,
+        815.48
+      ]
+    },
+    "R75": {
+      "Id": "R75",
+      "Type": "AcornHanging",
+      "Comment": "Bomb from midair",
+      "pos": [
+        -2393.36,
+        233.04,
+        1047.34
+      ]
+    },
+    "R76": {
+      "Id": "R76",
+      "Type": "LiftRockTree",
+      "pos": [
+        -2340.7,
+        249.86,
+        1104.57
+      ]
+    },
+    "R77": {
+      "Id": "R77",
+      "Type": "AcornHanging",
+      "Comment": "From tree",
+      "pos": [
+        -2099.38,
+        205.46,
+        1104.72
+      ]
+    },
+    "R78": {
+      "Id": "R78",
+      "Type": "OfferApple",
+      "pos": [
+        -1969.74,
+        205.39,
+        1087.83
+      ]
+    },
+    "R79": {
+      "Id": "R79",
+      "Type": "OfferApple",
+      "pos": [
+        -1819.3,
+        248.49,
+        973.59
+      ]
+    },
+    "R80": {
+      "Id": "R80",
+      "Type": "LiftRock",
+      "pos": [
+        -1819.09,
+        206.17,
+        1532.64
+      ]
+    },
+    "T01": {
+      "Id": "T01",
+      "Type": "FlowerChase",
+      "pos": [
+        -4019.88,
+        130.8,
+        -2350.35
+      ]
+    },
+    "T02": {
+      "Id": "T02",
+      "Type": "Confetti",
+      "Comment": "Top of house",
+      "pos": [
+        -3792.61,
+        283.47,
+        -2320.19
+      ]
+    },
+    "T03": {
+      "Id": "T03",
+      "Type": "LilyPads",
+      "pos": [
+        -2989.56,
+        222.6,
+        -2164.98
+      ]
+    },
+    "T04": {
+      "Id": "T04",
+      "Type": "Well",
+      "pos": [
+        -3831.34,
+        248.41,
+        -2106.7
+      ]
+    },
+    "T05": {
+      "Id": "T05",
+      "Type": "LiftRock",
+      "pos": [
+        -3418.51,
+        286.38,
+        -2066.81
+      ]
+    },
+    "T06": {
+      "Id": "T06",
+      "Type": "Race",
+      "pos": [
+        -4396.83,
+        183.4,
+        -2049.88
+      ]
+    },
+    "T07": {
+      "Id": "T07",
+      "Type": "RockCircle",
+      "pos": [
+        -4330.52,
+        160.93,
+        -2052.85
+      ]
+    },
+    "T08": {
+      "Id": "T08",
+      "Type": "LiftRock",
+      "pos": [
+        -4482.92,
+        266.76,
+        -1970.87
+      ]
+    },
+    "T09": {
+      "Id": "T09",
+      "Type": "OfferPepper",
+      "pos": [
+        -4123.61,
+        303.52,
+        -1935.33
+      ]
+    },
+    "T10": {
+      "Id": "T10",
+      "Type": "OfferApple",
+      "pos": [
+        -3780.53,
+        368.6,
+        -1865.62
+      ]
+    },
+    "T11": {
+      "Id": "T11",
+      "Type": "LiftRockTree",
+      "Comment": "Big tree",
+      "pos": [
+        -3271.39,
+        244.43,
+        -1868.25
+      ]
+    },
+    "T12": {
+      "Id": "T12",
+      "Type": "LiftRockLeaves",
+      "pos": [
+        -4225.71,
+        216.79,
+        -1747.38
+      ]
+    },
+    "T13": {
+      "Id": "T13",
+      "Type": "RockCircle",
+      "pos": [
+        -4034.98,
+        273.22,
+        -1748.4
+      ]
+    },
+    "T14": {
+      "Id": "T14",
+      "Type": "Balloon",
+      "pos": [
+        -3627.38,
+        453.55,
+        -1804.82
+      ]
+    },
+    "T15": {
+      "Id": "T15",
+      "Type": "LiftRock",
+      "pos": [
+        -3562.24,
+        289.5,
+        -1761.34
+      ]
+    },
+    "T16": {
+      "Id": "T16",
+      "Type": "FlowerChase",
+      "pos": [
+        -4065.46,
+        316.05,
+        -1678.32
+      ]
+    },
+    "T17": {
+      "Id": "T17",
+      "Type": "Race",
+      "pos": [
+        -3696.66,
+        211.1,
+        -1684.1
+      ]
+    },
+    "T18": {
+      "Id": "T18",
+      "Type": "Confetti",
+      "Comment": "Top of tree",
+      "pos": [
+        -2910.18,
+        382.29,
+        -1639.03
+      ]
+    },
+    "T19": {
+      "Id": "T19",
+      "Type": "LilyPads",
+      "pos": [
+        -3151.57,
+        185.5,
+        -1563.28
+      ]
+    },
+    "T20": {
+      "Id": "T20",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -3444.36,
+        231.21,
+        -1328.68
+      ]
+    },
+    "T21": {
+      "Id": "T21",
+      "Type": "LiftRockRubble",
+      "pos": [
+        -3295.15,
+        250.09,
+        -1362.92
+      ]
+    },
+    "T22": {
+      "Id": "T22",
+      "Type": "LiftRockRubble",
+      "pos": [
+        -3125.19,
+        263,
+        -1366.5
+      ]
+    },
+    "T23": {
+      "Id": "T23",
+      "Type": "RockCircle",
+      "pos": [
+        -4011.17,
+        205.67,
+        -1167.08
+      ]
+    },
+    "T24": {
+      "Id": "T24",
+      "Type": "LiftRock",
+      "Comment": "Behind malice",
+      "pos": [
+        -3714.73,
+        302.72,
+        -1040.96
+      ]
+    },
+    "T25": {
+      "Id": "T25",
+      "Type": "LiftRock",
+      "Comment": "On ledge",
+      "pos": [
+        -3078.34,
+        207.99,
+        -1120.35
+      ]
+    },
+    "T26": {
+      "Id": "T26",
+      "Type": "TreeStump",
+      "pos": [
+        -3971.63,
+        213.63,
+        -920.51
+      ]
+    },
+    "T27": {
+      "Id": "T27",
+      "Type": "OfferApple",
+      "pos": [
+        -4058.83,
+        208.52,
+        -773.85
+      ]
+    },
+    "T28": {
+      "Id": "T28",
+      "Type": "BoulderGolf",
+      "pos": [
+        -3841.71,
+        218.41,
+        -803.98
+      ]
+    },
+    "T29": {
+      "Id": "T29",
+      "Type": "LiftRock",
+      "pos": [
+        -3803.93,
+        251.28,
+        -772.46
+      ]
+    },
+    "T30": {
+      "Id": "T30",
+      "Type": "Race",
+      "pos": [
+        -3661.36,
+        257.37,
+        -828.8
+      ]
+    },
+    "T31": {
+      "Id": "T31",
+      "Type": "OfferApple",
+      "pos": [
+        -3431.2,
+        278.01,
+        -707.84
+      ]
+    },
+    "T32": {
+      "Id": "T32",
+      "Type": "LiftRock",
+      "Comment": "On pillar",
+      "pos": [
+        -3966.31,
+        293.92,
+        -624.56
+      ]
+    },
+    "T33": {
+      "Id": "T33",
+      "Type": "Balloon",
+      "pos": [
+        -3441.07,
+        357.36,
+        -664.87
+      ]
+    },
+    "T34": {
+      "Id": "T34",
+      "Type": "Race",
+      "pos": [
+        -3212.85,
+        235,
+        -574.01
+      ]
+    },
+    "T35": {
+      "Id": "T35",
+      "Type": "LilyPads",
+      "pos": [
+        -3524.55,
+        373.78,
+        -449.69
+      ]
+    },
+    "T36": {
+      "Id": "T36",
+      "Type": "FlowerCount",
+      "pos": [
+        -4032.73,
+        239.31,
+        -350.42
+      ]
+    },
+    "T37": {
+      "Id": "T37",
+      "Type": "Race",
+      "pos": [
+        -3675.03,
+        390.49,
+        -393.32
+      ]
+    },
+    "W01": {
+      "Id": "W01",
+      "Type": "LiftRock",
+      "pos": [
+        -3847.19,
+        471.28,
+        1467.01
+      ]
+    },
+    "W02": {
+      "Id": "W02",
+      "Type": "OfferBanana",
+      "pos": [
+        -4001.07,
+        324.38,
+        1566.55
+      ]
+    },
+    "W03": {
+      "Id": "W03",
+      "Type": "OfferBanana",
+      "pos": [
+        -4314.1,
+        219.01,
+        1629.4
+      ]
+    },
+    "W04": {
+      "Id": "W04",
+      "Type": "OfferBanana",
+      "pos": [
+        -4220.02,
+        257.54,
+        1659.79
+      ]
+    },
+    "W05": {
+      "Id": "W05",
+      "Type": "OfferBanana",
+      "pos": [
+        -4266.57,
+        226.05,
+        1691.53
+      ]
+    },
+    "W06": {
+      "Id": "W06",
+      "Type": "FlowerChase",
+      "pos": [
+        -4353.38,
+        242.21,
+        1838.52
+      ]
+    },
+    "W07": {
+      "Id": "W07",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -2066.65,
+        228.32,
+        1850.09
+      ]
+    },
+    "W08": {
+      "Id": "W08",
+      "Type": "Confetti",
+      "Comment": "In crack",
+      "pos": [
+        -2417.31,
+        191.19,
+        1923.72
+      ]
+    },
+    "W09": {
+      "Id": "W09",
+      "Type": "Confetti",
+      "Comment": "Highest fin on skeleton",
+      "pos": [
+        -4685.21,
+        171.46,
+        1970.38
+      ]
+    },
+    "W10": {
+      "Id": "W10",
+      "Type": "Balloon",
+      "pos": [
+        -2550.17,
+        190,
+        2038.1
+      ]
+    },
+    "W11": {
+      "Id": "W11",
+      "Type": "LiftRockTree",
+      "pos": [
+        -2167.78,
+        336.44,
+        2082.04
+      ]
+    },
+    "W12": {
+      "Id": "W12",
+      "Type": "AcornHanging",
+      "pos": [
+        -2264.51,
+        356.98,
+        2163.37
+      ]
+    },
+    "W13": {
+      "Id": "W13",
+      "Type": "Confetti",
+      "Comment": "Highest fin on skeleton",
+      "pos": [
+        -4710.48,
+        209.71,
+        2171.83
+      ]
+    },
+    "W14": {
+      "Id": "W14",
+      "Type": "LiftRock",
+      "Comment": "End of bridge",
+      "pos": [
+        -2018.63,
+        188.73,
+        2186.64
+      ]
+    },
+    "W15": {
+      "Id": "W15",
+      "Type": "LiftRock",
+      "Comment": "On pillar",
+      "pos": [
+        -2815.31,
+        160.71,
+        2247.91
+      ]
+    },
+    "W16": {
+      "Id": "W16",
+      "Type": "BoulderGolf",
+      "pos": [
+        -2259.54,
+        357.45,
+        2224.75
+      ]
+    },
+    "W17": {
+      "Id": "W17",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -3353.03,
+        156.91,
+        2276.3
+      ]
+    },
+    "W18": {
+      "Id": "W18",
+      "Type": "Confetti",
+      "Comment": "Top of skeleton (pinwheel)",
+      "pos": [
+        -4607.9,
+        161.6,
+        2338.84
+      ]
+    },
+    "W19": {
+      "Id": "W19",
+      "Type": "LiftRock",
+      "pos": [
+        -2853.36,
+        210.49,
+        2320.15
+      ]
+    },
+    "W20": {
+      "Id": "W20",
+      "Type": "Confetti",
+      "Comment": "In tree",
+      "pos": [
+        -1658.58,
+        159.11,
+        2306.77
+      ]
+    },
+    "W21": {
+      "Id": "W21",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -1665.89,
+        143.88,
+        2338.16
+      ]
+    },
+    "W22": {
+      "Id": "W22",
+      "Type": "Balloon",
+      "pos": [
+        -1399.42,
+        220.2,
+        2378.2
+      ]
+    },
+    "W23": {
+      "Id": "W23",
+      "Type": "Race",
+      "pos": [
+        -2066.65,
+        288.81,
+        2397.04
+      ]
+    },
+    "W24": {
+      "Id": "W24",
+      "Type": "LiftRock",
+      "Comment": "On platform",
+      "pos": [
+        -2059.88,
+        306.77,
+        2420.09
+      ]
+    },
+    "W25": {
+      "Id": "W25",
+      "Type": "MatchCactus",
+      "pos": [
+        -4876.9,
+        153.29,
+        2469.67
+      ]
+    },
+    "W26": {
+      "Id": "W26",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -1809.82,
+        162.51,
+        2459.62
+      ]
+    },
+    "W27": {
+      "Id": "W27",
+      "Type": "Balloon",
+      "pos": [
+        -1615.96,
+        193.37,
+        2447.32
+      ]
+    },
+    "W28": {
+      "Id": "W28",
+      "Type": "Race",
+      "pos": [
+        -4373.89,
+        165.13,
+        2587.05
+      ]
+    },
+    "W29": {
+      "Id": "W29",
+      "Type": "Race",
+      "pos": [
+        -3751.84,
+        157.35,
+        2531.62
+      ]
+    },
+    "W30": {
+      "Id": "W30",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -2594.75,
+        284.72,
+        2539.86
+      ]
+    },
+    "W31": {
+      "Id": "W31",
+      "Type": "LiftRock",
+      "pos": [
+        -2358.78,
+        476.12,
+        2554.53
+      ]
+    },
+    "W32": {
+      "Id": "W32",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -2305.08,
+        486.25,
+        2561.36
+      ]
+    },
+    "W33": {
+      "Id": "W33",
+      "Type": "Balloon",
+      "Comment": "Under bridge",
+      "pos": [
+        -2207.69,
+        432.16,
+        2550.62
+      ]
+    },
+    "W34": {
+      "Id": "W34",
+      "Type": "RockCircle",
+      "pos": [
+        -1935.34,
+        452.79,
+        2673.5
+      ]
+    },
+    "W35": {
+      "Id": "W35",
+      "Type": "Balloon",
+      "Comment": "Between statue arms",
+      "pos": [
+        -2628.11,
+        168.49,
+        2751.2
+      ]
+    },
+    "W36": {
+      "Id": "W36",
+      "Type": "MatchCactus",
+      "pos": [
+        -4224.86,
+        154.65,
+        2738.07
+      ]
+    },
+    "W37": {
+      "Id": "W37",
+      "Type": "FlowerChase",
+      "Comment": "On skeleton",
+      "pos": [
+        -3107.27,
+        135.38,
+        2881.24
+      ]
+    },
+    "W38": {
+      "Id": "W38",
+      "Type": "LiftRock",
+      "Comment": "On pillar",
+      "pos": [
+        -2298.69,
+        352.56,
+        2850.02
+      ]
+    },
+    "W39": {
+      "Id": "W39",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -2019.69,
+        375.79,
+        2884.23
+      ]
+    },
+    "W40": {
+      "Id": "W40",
+      "Type": "LiftRock",
+      "Comment": "Top of statue",
+      "pos": [
+        -2685.72,
+        206.05,
+        2929.65
+      ]
+    },
+    "W41": {
+      "Id": "W41",
+      "Type": "LiftRock",
+      "Comment": "On overpass",
+      "pos": [
+        -1465.9,
+        418.66,
+        2952.55
+      ]
+    },
+    "W42": {
+      "Id": "W42",
+      "Type": "Confetti",
+      "pos": [
+        -3886.14,
+        229.43,
+        2965.82
+      ]
+    },
+    "W43": {
+      "Id": "W43",
+      "Type": "FlowerChase",
+      "pos": [
+        -3435.38,
+        145.89,
+        2980.16
+      ]
+    },
+    "W44": {
+      "Id": "W44",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -2918.65,
+        141.7,
+        3061.01
+      ]
+    },
+    "W45": {
+      "Id": "W45",
+      "Type": "RockCircle",
+      "pos": [
+        -1599.49,
+        307.14,
+        3099.93
+      ]
+    },
+    "W46": {
+      "Id": "W46",
+      "Type": "LiftRockRubble",
+      "Comment": "Corner",
+      "pos": [
+        -1538.74,
+        278.4,
+        3070.08
+      ]
+    },
+    "W47": {
+      "Id": "W47",
+      "Type": "FlowerChase",
+      "Comment": "Right side of skeleton",
+      "pos": [
+        -4195.74,
+        165.61,
+        3091.55
+      ]
+    },
+    "W48": {
+      "Id": "W48",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -2172.5,
+        185.72,
+        3200.39
+      ]
+    },
+    "W49": {
+      "Id": "W49",
+      "Type": "BlockPuzzle",
+      "pos": [
+        -1926.3,
+        264.63,
+        3241.99
+      ]
+    },
+    "W50": {
+      "Id": "W50",
+      "Type": "LiftRock",
+      "Comment": "Top of big pillar",
+      "pos": [
+        -1922.22,
+        332.97,
+        3279.69
+      ]
+    },
+    "W51": {
+      "Id": "W51",
+      "Type": "MatchCactus",
+      "pos": [
+        -4862.19,
+        129.35,
+        3260.96
+      ]
+    },
+    "W52": {
+      "Id": "W52",
+      "Type": "BlockPuzzle",
+      "Comment": "Inside skull",
+      "pos": [
+        -2636.19,
+        101.81,
+        3302.57
+      ]
+    },
+    "W53": {
+      "Id": "W53",
+      "Type": "LiftRock",
+      "Comment": "On pillar",
+      "pos": [
+        -1379.17,
+        592.9,
+        3328.08
+      ]
+    },
+    "W54": {
+      "Id": "W54",
+      "Type": "LiftRock",
+      "pos": [
+        -1526.97,
+        397.51,
+        3405.89
+      ]
+    },
+    "W55": {
+      "Id": "W55",
+      "Type": "LiftRock",
+      "Comment": "On a rock",
+      "pos": [
+        -4307.61,
+        132.16,
+        3459.74
+      ]
+    },
+    "W56": {
+      "Id": "W56",
+      "Type": "LiftRock",
+      "pos": [
+        -3799.64,
+        128.15,
+        3428.88
+      ]
+    },
+    "W57": {
+      "Id": "W57",
+      "Type": "Balloon",
+      "Comment": "On tree in oasis",
+      "pos": [
+        -3728.54,
+        166.48,
+        3610.08
+      ]
+    },
+    "W58": {
+      "Id": "W58",
+      "Type": "Race",
+      "pos": [
+        -1996.6,
+        301.55,
+        3619.66
+      ]
+    },
+    "W59": {
+      "Id": "W59",
+      "Type": "IceBlock",
+      "pos": [
+        -1611.51,
+        411.29,
+        3678.32
+      ]
+    },
+    "W60": {
+      "Id": "W60",
+      "Type": "IceBlock",
+      "pos": [
+        -1357.03,
+        479.65,
+        3671.94
+      ]
+    },
+    "W61": {
+      "Id": "W61",
+      "Type": "MatchCactus",
+      "pos": [
+        -4347.89,
+        142.88,
+        3713.18
+      ]
+    },
+    "W62": {
+      "Id": "W62",
+      "Type": "RockCircle",
+      "pos": [
+        -3031.62,
+        181,
+        3754.59
+      ]
+    },
+    "W63": {
+      "Id": "W63",
+      "Type": "Race",
+      "pos": [
+        -2448.41,
+        134.73,
+        3751.93
+      ]
+    },
+    "W64": {
+      "Id": "W64",
+      "Type": "RockCircle",
+      "pos": [
+        -1351.45,
+        448.56,
+        3770.79
+      ]
+    },
+    "W65": {
+      "Id": "W65",
+      "Type": "Confetti",
+      "Comment": "Top of skeleton",
+      "pos": [
+        -4859.17,
+        172.69,
+        3832.94
+      ]
+    },
+    "W66": {
+      "Id": "W66",
+      "Type": "LiftRock",
+      "pos": [
+        -4160.32,
+        133.13,
+        3826.2
+      ]
+    },
+    "W67": {
+      "Id": "W67",
+      "Type": "MatchCactus",
+      "pos": [
+        -3286.43,
+        169.88,
+        3787.15
+      ]
+    },
+    "W68": {
+      "Id": "W68",
+      "Type": "LiftRock",
+      "Comment": "On pillar",
+      "pos": [
+        -2547.42,
+        141.43,
+        3951.93
+      ]
+    },
+    "X01": {
+      "Id": "X01",
+      "Type": "LiftRock",
+      "Comment": "On ledge",
+      "pos": [
+        -308.77,
+        132.64,
+        -1166
+      ]
+    },
+    "X02": {
+      "Id": "X02",
+      "Type": "LilyPads",
+      "pos": [
+        -147.51,
+        188.97,
+        -1159.79
+      ]
+    },
+    "X03": {
+      "Id": "X03",
+      "Type": "LiftRockRubble",
+      "pos": [
+        -265.73,
+        250.36,
+        -1138.75
+      ]
+    },
+    "X04": {
+      "Id": "X04",
+      "Type": "Balloon",
+      "pos": [
+        -378.65,
+        163.6,
+        -1112.09
+      ]
+    },
+    "X05": {
+      "Id": "X05",
+      "Type": "Confetti",
+      "Comment": "Castle spire",
+      "pos": [
+        -250.14,
+        432.88,
+        -1061.67
+      ]
+    },
+    "X06": {
+      "Id": "X06",
+      "Type": "Balloon",
+      "pos": [
+        -251.84,
+        517.16,
+        -1061.77
+      ]
+    },
+    "X07": {
+      "Id": "X07",
+      "Type": "Confetti",
+      "Comment": "Spire of Zelda's Study",
+      "pos": [
+        -383.2,
+        347.46,
+        -993.62
+      ]
+    },
+    "X08": {
+      "Id": "X08",
+      "Type": "LiftRock",
+      "Comment": "On wooden platform",
+      "pos": [
+        -368.95,
+        151.43,
+        -993.44
+      ]
+    },
+    "X09": {
+      "Id": "X09",
+      "Type": "LiftRock",
+      "pos": [
+        -335.4,
+        256.56,
+        -1003.31
+      ]
+    },
+    "X10": {
+      "Id": "X10",
+      "Type": "Race",
+      "Comment": "Glide",
+      "pos": [
+        -254,
+        364.01,
+        -994.61
+      ]
+    },
+    "X11": {
+      "Id": "X11",
+      "Type": "IceBlock",
+      "pos": [
+        -100.92,
+        131.37,
+        -979.74
+      ]
+    },
+    "X12": {
+      "Id": "X12",
+      "Type": "LiftRock",
+      "pos": [
+        -68.06,
+        261.28,
+        -979.62
+      ]
+    },
+    "X13": {
+      "Id": "X13",
+      "Type": "OfferEgg",
+      "pos": [
+        -436.57,
+        117.51,
+        -932.82
+      ]
+    },
+    "X14": {
+      "Id": "X14",
+      "Type": "LiftRockRubble",
+      "pos": [
+        -270.26,
+        255.1,
+        -879.19
+      ]
+    },
+    "X15": {
+      "Id": "X15",
+      "Type": "AcornHanging",
+      "Comment": "Behind wall",
+      "pos": [
+        -168.36,
+        216.01,
+        -860.4
+      ]
+    },
+    "X16": {
+      "Id": "X16",
+      "Type": "Confetti",
+      "Comment": "Spire of Second Gatehouse",
+      "pos": [
+        -162.05,
+        310.19,
+        -878.05
+      ]
+    },
+    "X17": {
+      "Id": "X17",
+      "Type": "Confetti",
+      "Comment": "Spire of First Gatehouse",
+      "pos": [
+        -353.38,
+        286.36,
+        -829.6
+      ]
+    },
+    "X18": {
+      "Id": "X18",
+      "Type": "LiftRock",
+      "Comment": "On wall",
+      "pos": [
+        -394.02,
+        204.57,
+        -785.4
+      ]
+    },
+    "X19": {
+      "Id": "X19",
+      "Type": "AcornHanging",
+      "Comment": "Behind wall",
+      "pos": [
+        -324.38,
+        185.61,
+        -798.15
+      ]
+    },
+    "X20": {
+      "Id": "X20",
+      "Type": "LiftRockRubble",
+      "pos": [
+        -163.28,
+        156.12,
+        -784.67
+      ]
+    },
+    "X21": {
+      "Id": "X21",
+      "Type": "ShootEmblem",
+      "pos": [
+        -254,
+        210.54,
+        -739.54
+      ]
+    },
+    "X22": {
+      "Id": "X22",
+      "Type": "Balloon",
+      "pos": [
+        -247.16,
+        211.84,
+        -739.61
+      ]
+    },
+    "X23": {
+      "Id": "X23",
+      "Type": "Balloon",
+      "pos": [
+        -234.59,
+        233.97,
+        -743.93
+      ]
+    },
+    "X24": {
+      "Id": "X24",
+      "Type": "LiftRock",
+      "Comment": "On gate",
+      "pos": [
+        -253.85,
+        172.9,
+        -632.22
+      ]
+    },
+    "X25": {
+      "Id": "X25",
+      "Type": "FlowerChase",
+      "Comment": "Across bridge",
+      "pos": [
+        -230.68,
+        148.01,
+        -633.37
+      ]
+    },
+    "Z01": {
+      "Id": "Z01",
+      "Type": "FlowerChase",
+      "pos": [
+        4707.05,
+        292.62,
+        -1355.01
+      ]
+    },
+    "Z02": {
+      "Id": "Z02",
+      "Type": "Race",
+      "pos": [
+        1398.03,
+        125.98,
+        -856.34
+      ]
+    },
+    "Z03": {
+      "Id": "Z03",
+      "Type": "LightChase",
+      "pos": [
+        1404.95,
+        122.09,
+        -832.98
+      ]
+    },
+    "Z04": {
+      "Id": "Z04",
+      "Type": "LiftRock",
+      "pos": [
+        3208.67,
+        570.48,
+        -1011.22
+      ]
+    },
+    "Z05": {
+      "Id": "Z05",
+      "Type": "LightChase",
+      "pos": [
+        3565.88,
+        530.63,
+        -915.92
+      ]
+    },
+    "Z06": {
+      "Id": "Z06",
+      "Type": "LiftRock",
+      "Comment": "On wood platform",
+      "pos": [
+        4702.88,
+        297.25,
+        -1039.33
+      ]
+    },
+    "Z07": {
+      "Id": "Z07",
+      "Type": "LiftRock",
+      "Comment": "On pillar",
+      "pos": [
+        4698.9,
+        345.46,
+        -1003.02
+      ]
+    },
+    "Z08": {
+      "Id": "Z08",
+      "Type": "LiftRockRubble",
+      "pos": [
+        3893.5,
+        549.96,
+        -704.23
+      ]
+    },
+    "Z09": {
+      "Id": "Z09",
+      "Type": "LilyPads",
+      "pos": [
+        4616.44,
+        366.46,
+        -638.02
+      ]
+    },
+    "Z10": {
+      "Id": "Z10",
+      "Type": "LiftRockRubble",
+      "pos": [
+        4697.83,
+        335.7,
+        -547.03
+      ]
+    },
+    "Z11": {
+      "Id": "Z11",
+      "Type": "Balloon",
+      "Comment": "In tree",
+      "pos": [
+        1104.01,
+        210.75,
+        -444.23
+      ]
+    },
+    "Z12": {
+      "Id": "Z12",
+      "Type": "LilyPads",
+      "pos": [
+        1632.92,
+        119,
+        -545.19
+      ]
+    },
+    "Z13": {
+      "Id": "Z13",
+      "Type": "Race",
+      "pos": [
+        1832.72,
+        217.95,
+        -535.69
+      ]
+    },
+    "Z14": {
+      "Id": "Z14",
+      "Type": "Confetti",
+      "Comment": "Top of tree",
+      "pos": [
+        2427.76,
+        301.4,
+        -412.12
+      ]
+    },
+    "Z15": {
+      "Id": "Z15",
+      "Type": "BlockPuzzle",
+      "pos": [
+        2791.46,
+        451.49,
+        -500.93
+      ]
+    },
+    "Z16": {
+      "Id": "Z16",
+      "Type": "Confetti",
+      "pos": [
+        3323.91,
+        301.62,
+        -519.51
+      ]
+    },
+    "Z17": {
+      "Id": "Z17",
+      "Type": "Confetti",
+      "Comment": "Top of Zora's Domain",
+      "pos": [
+        3321.49,
+        414.09,
+        -514.25
+      ]
+    },
+    "Z18": {
+      "Id": "Z18",
+      "Type": "BlockPuzzle",
+      "pos": [
+        3520.64,
+        326.72,
+        -383.58
+      ]
+    },
+    "Z19": {
+      "Id": "Z19",
+      "Type": "BoulderGolf",
+      "Comment": "Metal boulder",
+      "pos": [
+        4071.79,
+        483.77,
+        -459.05
+      ]
+    },
+    "Z20": {
+      "Id": "Z20",
+      "Type": "FlowerChase",
+      "pos": [
+        4136.6,
+        521.71,
+        -408.56
+      ]
+    },
+    "Z21": {
+      "Id": "Z21",
+      "Type": "RockCircle",
+      "Comment": "Near water",
+      "pos": [
+        1088.53,
+        164.78,
+        -215.89
+      ]
+    },
+    "Z22": {
+      "Id": "Z22",
+      "Type": "LiftRock",
+      "Comment": "On hill",
+      "pos": [
+        2517.5,
+        182.5,
+        -212.48
+      ]
+    },
+    "Z23": {
+      "Id": "Z23",
+      "Type": "Well",
+      "pos": [
+        2746.14,
+        237.58,
+        -176.4
+      ]
+    },
+    "Z24": {
+      "Id": "Z24",
+      "Type": "FlowerChase",
+      "pos": [
+        3083.23,
+        363.92,
+        -167.68
+      ]
+    },
+    "Z25": {
+      "Id": "Z25",
+      "Type": "LiftRock",
+      "Comment": "On ledge",
+      "pos": [
+        3291.97,
+        295.38,
+        -261.12
+      ]
+    },
+    "Z26": {
+      "Id": "Z26",
+      "Type": "LiftRock",
+      "Comment": "Peak",
+      "pos": [
+        3527.28,
+        395.3,
+        -276.76
+      ]
+    },
+    "Z27": {
+      "Id": "Z27",
+      "Type": "BlockPuzzle",
+      "pos": [
+        4080.4,
+        421.47,
+        -216.78
+      ]
+    },
+    "Z28": {
+      "Id": "Z28",
+      "Type": "LiftRockRubble",
+      "pos": [
+        4232.73,
+        385.99,
+        -212.33
+      ]
+    },
+    "Z29": {
+      "Id": "Z29",
+      "Type": "RockCircle",
+      "pos": [
+        1185.5,
+        164.25,
+        -67.41
+      ]
+    },
+    "Z30": {
+      "Id": "Z30",
+      "Type": "RockCircle",
+      "pos": [
+        1387.27,
+        135.21,
+        -112.92
+      ]
+    },
+    "Z31": {
+      "Id": "Z31",
+      "Type": "Basketball",
+      "pos": [
+        2665.53,
+        205.78,
+        -1.29
+      ]
+    },
+    "Z32": {
+      "Id": "Z32",
+      "Type": "RockCircle",
+      "Comment": "Below bridge",
+      "pos": [
+        3122.88,
+        185.6,
+        -17.39
+      ]
+    },
+    "Z33": {
+      "Id": "Z33",
+      "Type": "LightChase",
+      "pos": [
+        3206.76,
+        312.25,
+        23.68
+      ]
+    },
+    "Z34": {
+      "Id": "Z34",
+      "Type": "LiftRock",
+      "Comment": "Peak",
+      "pos": [
+        3303.74,
+        393.35,
+        22.58
+      ]
+    },
+    "Z35": {
+      "Id": "Z35",
+      "Type": "LiftRockRubble",
+      "pos": [
+        4134.86,
+        294.93,
+        60.32
+      ]
+    },
+    "Z36": {
+      "Id": "Z36",
+      "Type": "LiftRockRubble",
+      "pos": [
+        4294.82,
+        171.3,
+        78.5
+      ]
+    },
+    "Z37": {
+      "Id": "Z37",
+      "Type": "LiftRock",
+      "Comment": "Middle of thorns",
+      "pos": [
+        883.07,
+        133.61,
+        274.79
+      ]
+    },
+    "Z38": {
+      "Id": "Z38",
+      "Type": "Well",
+      "pos": [
+        1434.73,
+        117.5,
+        135.4
+      ]
+    },
+    "Z39": {
+      "Id": "Z39",
+      "Type": "LightChase",
+      "pos": [
+        1593.18,
+        115.98,
+        114.16
+      ]
+    },
+    "Z40": {
+      "Id": "Z40",
+      "Type": "AcornHanging",
+      "Comment": "From tree",
+      "pos": [
+        1736.36,
+        129.04,
+        85.67
+      ]
+    },
+    "Z41": {
+      "Id": "Z41",
+      "Type": "RockCircle",
+      "pos": [
+        2085.78,
+        129.78,
+        181.66
+      ]
+    },
+    "Z42": {
+      "Id": "Z42",
+      "Type": "Balloon",
+      "pos": [
+        2769.94,
+        123.21,
+        348.84
+      ]
+    },
+    "Z43": {
+      "Id": "Z43",
+      "Type": "BlockPuzzle",
+      "pos": [
+        2927.66,
+        292.94,
+        332.8
+      ]
+    },
+    "Z44": {
+      "Id": "Z44",
+      "Type": "LightChase",
+      "pos": [
+        3140.85,
+        220.79,
+        324.96
+      ]
+    },
+    "Z45": {
+      "Id": "Z45",
+      "Type": "LightChase",
+      "pos": [
+        3854.31,
+        150.81,
+        352.25
+      ]
+    },
+    "Z46": {
+      "Id": "Z46",
+      "Type": "BlockPuzzle",
+      "pos": [
+        4144.43,
+        138.33,
+        195.96
+      ]
+    },
+    "Z47": {
+      "Id": "Z47",
+      "Type": "LiftRockBoulder",
+      "pos": [
+        1116.14,
+        119.93,
+        555.57
+      ]
+    },
+    "Z48": {
+      "Id": "Z48",
+      "Type": "LightChase",
+      "pos": [
+        1313.97,
+        115.9,
+        503.06
+      ]
+    },
+    "Z49": {
+      "Id": "Z49",
+      "Type": "MatchTree",
+      "pos": [
+        1446.49,
+        116.03,
+        558.36
+      ]
+    },
+    "Z50": {
+      "Id": "Z50",
+      "Type": "LightChase",
+      "pos": [
+        1685.6,
+        129.82,
+        661.12
+      ]
+    },
+    "Z51": {
+      "Id": "Z51",
+      "Type": "RockCircle",
+      "pos": [
+        3271.14,
+        105.92,
+        656.82
+      ]
+    },
+    "Z52": {
+      "Id": "Z52",
+      "Type": "LiftRockLeaves",
+      "pos": [
+        3431.14,
+        146.4,
+        523.74
+      ]
+    },
+    "Z53": {
+      "Id": "Z53",
+      "Type": "FlowerChase",
+      "Comment": "In cave",
+      "pos": [
+        3451.99,
+        143.56,
+        550.79
+      ]
+    },
+    "Z54": {
+      "Id": "Z54",
+      "Type": "LiftRockRubble",
+      "pos": [
+        3561.94,
+        106.24,
+        626.31
+      ]
+    },
+    "Z55": {
+      "Id": "Z55",
+      "Type": "LiftRock",
+      "pos": [
+        3721.26,
+        108.24,
+        617.62
+      ]
+    },
+    "Z56": {
+      "Id": "Z56",
+      "Type": "Basketball",
+      "Comment": "On stone",
+      "pos": [
+        4199.45,
+        107.14,
+        463.67
+      ]
+    },
+    "Z57": {
+      "Id": "Z57",
+      "Type": "LiftRockSlab",
+      "pos": [
+        4264.45,
+        126.76,
+        628.22
+      ]
+    },
+    "Z58": {
+      "Id": "Z58",
+      "Type": "Balloon",
+      "Comment": "In cave",
+      "pos": [
+        4452.65,
+        164.26,
+        483.97
+      ]
+    },
+    "Z59": {
+      "Id": "Z59",
+      "Type": "FlowerChase",
+      "Comment": "Start in forest",
+      "pos": [
+        4572.53,
+        134.99,
+        647.89
+      ]
+    },
+    "Z60": {
+      "Id": "Z60",
+      "Type": "OfferApple",
+      "Comment": "In cave",
+      "pos": [
+        1595.75,
+        117.39,
+        807.67
+      ]
+    },
+    "Z61": {
+      "Id": "Z61",
+      "Type": "FlowerChase",
+      "pos": [
+        4499.12,
+        123.24,
+        1015.01
+      ]
+    },
+    "Z62": {
+      "Id": "Z62",
+      "Type": "RockCircle",
+      "pos": [
+        4533.43,
+        111.22,
+        1022.98
+      ]
+    },
+    "": {
+      "Id": "",
+      "pos": [
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  "Memory": {
+    "LanayruRoad": {
+      "LocationDisplayName": "Lanayru Road",
+      "Title": "Return of Calamity Ganon",
+      "pos": [
+        3143.34,
+        263.09,
+        1148.49
+      ]
+    },
+    "SacredGrounds": {
+      "LocationDisplayName": "Sacred Grounds",
+      "Title": "Subdued Ceremony",
+      "pos": [
+        -254.14,
+        127.42,
+        -97.91
+      ]
+    },
+    "LakeKolomo": {
+      "LocationDisplayName": "Lake Kolomo",
+      "Title": "Resolve and Grief",
+      "pos": [
+        -681.08,
+        131.59,
+        1223.99
+      ]
+    },
+    "AncientColumns": {
+      "LocationDisplayName": "Ancient Columns",
+      "Title": "Zelda's Resentment",
+      "pos": [
+        -3501.04,
+        383.73,
+        -421.26
+      ]
+    },
+    "KaraKaraBazaar": {
+      "LocationDisplayName": "Kara Kara Bazaar",
+      "Title": "Blades of the Yiga",
+      "pos": [
+        -3193.41,
+        129.51,
+        2536.24
+      ]
+    },
+    "EldinCanyon": {
+      "LocationDisplayName": "Eldin Canyon",
+      "Title": "A Premonition",
+      "pos": [
+        1417.29,
+        466.78,
+        -1537.95
+      ]
+    },
+    "IrchPlain": {
+      "LocationDisplayName": "Irch Plain",
+      "Title": "Silent Princess",
+      "pos": [
+        -1091.22,
+        232.47,
+        -1301.68
+      ]
+    },
+    "WestNecluda": {
+      "LocationDisplayName": "West Necluda",
+      "Title": "Shelter from the Storm",
+      "pos": [
+        173.27,
+        150.5,
+        1935.49
+      ]
+    },
+    "HyruleCastle": {
+      "LocationDisplayName": "Hyrule Castle",
+      "Title": "Father and Daughter",
+      "pos": [
+        -364.47,
+        269.88,
+        -995.87
+      ]
+    },
+    "SpringofPower": {
+      "LocationDisplayName": "Spring of Power",
+      "Title": "Slumbering Power",
+      "pos": [
+        3744,
+        109.06,
+        -2655.89
+      ]
+    },
+    "SanidinPark": {
+      "LocationDisplayName": "Sanidin Park",
+      "Title": "To Mount Lanayru",
+      "pos": [
+        -1612.42,
+        246.33,
+        688.02
+      ]
+    },
+    "HyruleField": {
+      "LocationDisplayName": "Hyrule Field",
+      "Title": "Despair",
+      "pos": [
+        700.66,
+        115.96,
+        434.43
+      ]
+    },
+    "AshSwamp": {
+      "LocationDisplayName": "Ash Swamp",
+      "Title": "Zelda's Awakening",
+      "pos": [
+        1983.9,
+        124.12,
+        1912.69
+      ]
+    },
+    "": {
+      "LocationDisplayName": "",
+      "pos": [
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  "Shrine": {
+    "JaBaij": {
+      "DisplayName": "Ja Baij",
+      "Type": "Shrine",
+      "pos": [
+        -446.7,
+        180.02,
+        1990.18
+      ]
+    },
+    "OmanAu": {
+      "DisplayName": "Oman Au",
+      "Type": "Shrine",
+      "pos": [
+        -673.25,
+        173.09,
+        1513.01
+      ]
+    },
+    "OwaDaim": {
+      "DisplayName": "Owa Daim",
+      "Type": "Shrine",
+      "pos": [
+        -925.03,
+        274.17,
+        2321.23
+      ]
+    },
+    "KehNamut": {
+      "DisplayName": "Keh Namut",
+      "Type": "Shrine",
+      "pos": [
+        -1436.35,
+        337.58,
+        1990.99
+      ]
+    },
+    "AkhVaquot": {
+      "DisplayName": "Akh Va'quot",
+      "Type": "Shrine",
+      "pos": [
+        -3656.13,
+        321.74,
+        -1756.7
+      ]
+    },
+    "BareedaNaag": {
+      "DisplayName": "Bareeda Naag",
+      "Type": "Shrine",
+      "pos": [
+        -3609.19,
+        246.74,
+        -1515.4
+      ]
+    },
+    "BoshKala": {
+      "DisplayName": "Bosh Kala",
+      "Type": "Shrine",
+      "pos": [
+        87.02,
+        122.52,
+        1658.71
+      ]
+    },
+    "ChaasQeta": {
+      "DisplayName": "Chaas Qeta",
+      "Type": "TosSkip",
+      "pos": [
+        4012.19,
+        107.18,
+        2990.54
+      ]
+    },
+    "DaagChokah": {
+      "DisplayName": "Daag Chokah",
+      "Type": "Blessing",
+      "pos": [
+        -26.43,
+        280.34,
+        -2458.63
+      ]
+    },
+    "DagahKeek": {
+      "DisplayName": "Dagah Keek",
+      "Type": "Blessing",
+      "pos": [
+        3149.7,
+        280,
+        -416.8
+      ]
+    },
+    "DahHesho": {
+      "DisplayName": "Dah Hesho",
+      "Type": "TosMinor",
+      "pos": [
+        3899.52,
+        354.77,
+        -1302.81
+      ]
+    },
+    "DahKaso": {
+      "DisplayName": "Dah Kaso",
+      "Type": "TosMinor",
+      "pos": [
+        -1695.29,
+        68.84,
+        1700.12
+      ]
+    },
+    "DakaTuss": {
+      "DisplayName": "Daka Tuss",
+      "Type": "Shrine",
+      "pos": [
+        1601,
+        117.7,
+        462.2
+      ]
+    },
+    "DaqaKoh": {
+      "DisplayName": "Daqa Koh",
+      "Type": "Shrine",
+      "pos": [
+        2065.85,
+        598.01,
+        -2328.36
+      ]
+    },
+    "DaqoChisay": {
+      "DisplayName": "Daqo Chisay",
+      "Type": "Shrine",
+      "pos": [
+        -3817.03,
+        150.45,
+        2819.85
+      ]
+    },
+    "DakoTah": {
+      "DisplayName": "Dako Tah",
+      "Type": "Shrine",
+      "pos": [
+        -3317.78,
+        146.11,
+        2162.48
+      ]
+    },
+    "DilaMaag": {
+      "DisplayName": "Dila Maag",
+      "Type": "Blessing",
+      "pos": [
+        -1795,
+        164.18,
+        3465.39
+      ]
+    },
+    "DowNaeh": {
+      "DisplayName": "Dow Na'eh",
+      "Type": "Shrine",
+      "pos": [
+        2697.65,
+        220.94,
+        1333.48
+      ]
+    },
+    "DunbaTaag": {
+      "DisplayName": "Dunba Taag",
+      "Type": "Shrine",
+      "pos": [
+        -2832.47,
+        79.88,
+        -1578.04
+      ]
+    },
+    "EtsuKorima": {
+      "DisplayName": "Etsu Korima",
+      "Type": "DLC",
+      "pos": [
+        -1216.12,
+        340.5,
+        2109.9
+      ]
+    },
+    "GeeHarah": {
+      "DisplayName": "Gee Ha'rah",
+      "Type": "Shrine",
+      "pos": [
+        -2379.84,
+        278.11,
+        -2254.59
+      ]
+    },
+    "GomaAsaagh": {
+      "DisplayName": "Goma Asaagh",
+      "Type": "TosSkip",
+      "pos": [
+        -2792.31,
+        671.02,
+        -2882.31
+      ]
+    },
+    "GoraeTorr": {
+      "DisplayName": "Gorae Torr",
+      "Type": "Blessing",
+      "pos": [
+        2662,
+        470,
+        -3456.5
+      ]
+    },
+    "HaDahamar": {
+      "DisplayName": "Ha Dahamar",
+      "Type": "Shrine",
+      "pos": [
+        1662.36,
+        115.52,
+        1921.6
+      ]
+    },
+    "HawaKoth": {
+      "DisplayName": "Hawa Koth",
+      "Type": "Shrine",
+      "pos": [
+        -4847.04,
+        123.74,
+        3772.63
+      ]
+    },
+    "HiaMiu": {
+      "DisplayName": "Hia Miu",
+      "Type": "TosSkip",
+      "pos": [
+        -4446.8,
+        329.85,
+        -3803.04
+      ]
+    },
+    "HilaRao": {
+      "DisplayName": "Hila Rao",
+      "Type": "Shrine",
+      "pos": [
+        854.73,
+        116.93,
+        838.06
+      ]
+    },
+    "IshtoSoh": {
+      "DisplayName": "Ishto Soh",
+      "Type": "Shrine",
+      "pos": [
+        -984.79,
+        321.22,
+        3564.99
+      ]
+    },
+    "JeeNoh": {
+      "DisplayName": "Jee Noh",
+      "Type": "Shrine",
+      "pos": [
+        -1792.83,
+        112.85,
+        2423.39
+      ]
+    },
+    "JitanSami": {
+      "DisplayName": "Jitan Sa'mi",
+      "Type": "Blessing",
+      "pos": [
+        3882.12,
+        572.81,
+        1314.94
+      ]
+    },
+    "JolooNah": {
+      "DisplayName": "Joloo Nah",
+      "Type": "Shrine",
+      "pos": [
+        -2004.01,
+        231.65,
+        1674.26
+      ]
+    },
+    "KaamYatak": {
+      "DisplayName": "Kaam Ya'tak",
+      "Type": "Shrine",
+      "pos": [
+        -967.8,
+        127.67,
+        715.89
+      ]
+    },
+    "KahMael": {
+      "DisplayName": "Kah Mael",
+      "Type": "Shrine",
+      "pos": [
+        4709.2,
+        242.5,
+        -1310.29
+      ]
+    },
+    "KahOkeo": {
+      "DisplayName": "Kah Okeo",
+      "Type": "Shrine",
+      "pos": [
+        -4120.41,
+        184.29,
+        -414.37
+      ]
+    },
+    "KahYah": {
+      "DisplayName": "Kah Yah",
+      "Type": "Shrine",
+      "pos": [
+        3436.89,
+        120.68,
+        3316.28
+      ]
+    },
+    "KamUrog": {
+      "DisplayName": "Kam Urog",
+      "Type": "Shrine",
+      "pos": [
+        2501.03,
+        119.17,
+        1494.84
+      ]
+    },
+    "KamiaOmuna": {
+      "DisplayName": "Kamia Omuna",
+      "Type": "DLC",
+      "pos": [
+        2128.36,
+        509.92,
+        -3228.81
+      ]
+    },
+    "KaoMakagh": {
+      "DisplayName": "Ka'o Makagh",
+      "Type": "Shrine",
+      "pos": [
+        523.29,
+        178.91,
+        3526.27
+      ]
+    },
+    "KatahChuki": {
+      "DisplayName": "Katah Chuki",
+      "Type": "TosMinor",
+      "pos": [
+        -636.41,
+        128.87,
+        -345.11
+      ]
+    },
+    "KatosaAug": {
+      "DisplayName": "Katosa Aug",
+      "Type": "Shrine",
+      "pos": [
+        4295.79,
+        237.42,
+        -2730.34
+      ]
+    },
+    "KayNoh": {
+      "DisplayName": "Kay Noh",
+      "Type": "Shrine",
+      "pos": [
+        -2810.96,
+        172.01,
+        2300.08
+      ]
+    },
+    "KayaWan": {
+      "DisplayName": "Kaya Wan",
+      "Type": "Shrine",
+      "pos": [
+        824.21,
+        132.88,
+        187.79
+      ]
+    },
+    "KayraMah": {
+      "DisplayName": "Kayra Mah",
+      "Type": "Shrine",
+      "pos": [
+        2076.82,
+        520.77,
+        -2039.77
+      ]
+    },
+    "KeeDafunia": {
+      "DisplayName": "Kee Dafunia",
+      "Type": "DLC",
+      "pos": [
+        4935.17,
+        106.8,
+        -1002.4
+      ]
+    },
+    "KeehaYoog": {
+      "DisplayName": "Keeha Yoog",
+      "Type": "Blessing",
+      "pos": [
+        -3853.4,
+        640.3,
+        716.7
+      ]
+    },
+    "KeiveTala": {
+      "DisplayName": "Keive Tala",
+      "Type": "DLC",
+      "pos": [
+        -2339.53,
+        129.5,
+        3901.64
+      ]
+    },
+    "KemaKosassa": {
+      "DisplayName": "Kema Kosassa",
+      "Type": "TosSkip",
+      "pos": [
+        -4658.48,
+        619.49,
+        904.84
+      ]
+    },
+    "KemaZoos": {
+      "DisplayName": "Kema Zoos",
+      "Type": "Shrine",
+      "pos": [
+        -4673.53,
+        132.12,
+        1967.79
+      ]
+    },
+    "KenaiShakah": {
+      "DisplayName": "Ke'nai Shakah",
+      "Type": "TosSkip",
+      "pos": [
+        4194.49,
+        323.11,
+        -856.88
+      ]
+    },
+    "KeoRuug": {
+      "DisplayName": "Keo Ruug",
+      "Type": "Shrine",
+      "pos": [
+        470.7,
+        250.15,
+        -2168.79
+      ]
+    },
+    "KetohWawai": {
+      "DisplayName": "Ketoh Wawai",
+      "Type": "Blessing",
+      "pos": [
+        283.4,
+        285.3,
+        -3119.6
+      ]
+    },
+    "KiahToza": {
+      "DisplayName": "Kiah Toza",
+      "Type": "DLC",
+      "pos": [
+        -2155.49,
+        450.4,
+        -3188.48
+      ]
+    },
+    "KihiroMoh": {
+      "DisplayName": "Kihiro Moh",
+      "Type": "DLC",
+      "pos": [
+        -3391.23,
+        441.98,
+        1347.84
+      ]
+    },
+    "KorguChideh": {
+      "DisplayName": "Korgu Chideh",
+      "Type": "Blessing",
+      "pos": [
+        4737.48,
+        218,
+        3772.09
+      ]
+    },
+    "KorshOhu": {
+      "DisplayName": "Korsh O'hu",
+      "Type": "Blessing",
+      "pos": [
+        -2688.6,
+        105.01,
+        2811.2
+      ]
+    },
+    "KuhTakkar": {
+      "DisplayName": "Kuh Takkar",
+      "Type": "Shrine",
+      "pos": [
+        -3083,
+        571.55,
+        1221
+      ]
+    },
+    "KuhnSidajj": {
+      "DisplayName": "Kuhn Sidajj",
+      "Type": "Blessing",
+      "pos": [
+        17.73,
+        281.4,
+        -1944.4
+      ]
+    },
+    "LaknaRokee": {
+      "DisplayName": "Lakna Rokee",
+      "Type": "Blessing",
+      "pos": [
+        2040.49,
+        286.03,
+        972.22
+      ]
+    },
+    "LannoKooh": {
+      "DisplayName": "Lanno Kooh",
+      "Type": "Blessing",
+      "pos": [
+        -2636.37,
+        446.03,
+        -2060.36
+      ]
+    },
+    "MaagHalan": {
+      "DisplayName": "Maag Halan",
+      "Type": "Blessing",
+      "pos": [
+        837.06,
+        282.2,
+        -2419.72
+      ]
+    },
+    "MaagNorah": {
+      "DisplayName": "Maag No'rah",
+      "Type": "Blessing",
+      "pos": [
+        -1939.9,
+        249.88,
+        -1458.2
+      ]
+    },
+    "MahEliya": {
+      "DisplayName": "Mah Eliya",
+      "Type": "DLC",
+      "pos": [
+        3762.2,
+        547.78,
+        -646.45
+      ]
+    },
+    "MakaRah": {
+      "DisplayName": "Maka Rah",
+      "Type": "Shrine",
+      "pos": [
+        -4057.84,
+        94.89,
+        -2508.37
+      ]
+    },
+    "MezzaLo": {
+      "DisplayName": "Mezza Lo",
+      "Type": "Shrine",
+      "pos": [
+        2621.6,
+        249.39,
+        378.23
+      ]
+    },
+    "MijahRokee": {
+      "DisplayName": "Mijah Rokee",
+      "Type": "TosSkip",
+      "pos": [
+        -2743.27,
+        309.39,
+        226.44
+      ]
+    },
+    "MirroShaz": {
+      "DisplayName": "Mirro Shaz",
+      "Type": "Shrine",
+      "pos": [
+        1232,
+        127.55,
+        -1212.75
+      ]
+    },
+    "MisaeSuma": {
+      "DisplayName": "Misae Suma",
+      "Type": "Blessing",
+      "pos": [
+        -2970.3,
+        137.67,
+        3781.5
+      ]
+    },
+    "MoaKeet": {
+      "DisplayName": "Mo'a Keet",
+      "Type": "Shrine",
+      "pos": [
+        2723.5,
+        285.41,
+        -1166.08
+      ]
+    },
+    "MoggLatan": {
+      "DisplayName": "Mogg Latan",
+      "Type": "Shrine",
+      "pos": [
+        -2297.43,
+        439.57,
+        460.73
+      ]
+    },
+    "MonyaToma": {
+      "DisplayName": "Monya Toma",
+      "Type": "Shrine",
+      "pos": [
+        -1488.6,
+        275.22,
+        -1473.03
+      ]
+    },
+    "MozoShenno": {
+      "DisplayName": "Mozo Shenno",
+      "Type": "TosSkip",
+      "pos": [
+        -3627.71,
+        420.82,
+        -3038.22
+      ]
+    },
+    "MuwoJeem": {
+      "DisplayName": "Muwo Jeem",
+      "Type": "TosSkip",
+      "pos": [
+        3658.13,
+        350.34,
+        3308.26
+      ]
+    },
+    "MyahmAgana": {
+      "DisplayName": "Myahm Agana",
+      "Type": "Shrine",
+      "pos": [
+        3388.41,
+        242.59,
+        2215.84
+      ]
+    },
+    "NamikaOzz": {
+      "DisplayName": "Namika Ozz",
+      "Type": "TosSkip",
+      "pos": [
+        761.29,
+        188.72,
+        -821.3
+      ]
+    },
+    "NeezYohma": {
+      "DisplayName": "Ne'ez Yohma",
+      "Type": "Shrine",
+      "pos": [
+        3323.58,
+        239.28,
+        -518.83
+      ]
+    },
+    "NoeRajee": {
+      "DisplayName": "Noe Rajee",
+      "Type": "DLC",
+      "pos": [
+        -3820.27,
+        89.77,
+        -2311.2
+      ]
+    },
+    "NoyaNeha": {
+      "DisplayName": "Noya Neha",
+      "Type": "TosMinor",
+      "pos": [
+        -951.18,
+        134.36,
+        -623.76
+      ]
+    },
+    "PumaagNitae": {
+      "DisplayName": "Pumaag Nitae",
+      "Type": "TosMinor",
+      "pos": [
+        559.53,
+        118.04,
+        2990.19
+      ]
+    },
+    "QazaTokki": {
+      "DisplayName": "Qaza Tokki",
+      "Type": "Blessing",
+      "pos": [
+        -820.5,
+        341.3,
+        -3535
+      ]
+    },
+    "QuaRaym": {
+      "DisplayName": "Qua Raym",
+      "Type": "Shrine",
+      "pos": [
+        1820.74,
+        388.29,
+        -1517.04
+      ]
+    },
+    "QukahNata": {
+      "DisplayName": "Qukah Nata",
+      "Type": "Blessing",
+      "pos": [
+        2007,
+        301.5,
+        3285
+      ]
+    },
+    "RaqaZunzo": {
+      "DisplayName": "Raqa Zunzo",
+      "Type": "Blessing",
+      "pos": [
+        -3810.5,
+        159.3,
+        3127.2
+      ]
+    },
+    "ReeDahee": {
+      "DisplayName": "Ree Dahee",
+      "Type": "Shrine",
+      "pos": [
+        1271.93,
+        137.68,
+        1843.74
+      ]
+    },
+    "RinOyaa": {
+      "DisplayName": "Rin Oyaa",
+      "Type": "Shrine",
+      "pos": [
+        -1721.37,
+        335.74,
+        -2554.46
+      ]
+    },
+    "RinuHonika": {
+      "DisplayName": "Rinu Honika",
+      "Type": "DLC",
+      "pos": [
+        2241.35,
+        541.82,
+        -1995.7
+      ]
+    },
+    "RitaagZumo": {
+      "DisplayName": "Ritaag Zumo",
+      "Type": "Blessing",
+      "pos": [
+        4524.6,
+        107.77,
+        -2127.5
+      ]
+    },
+    "RohtaChigah": {
+      "DisplayName": "Rohta Chigah",
+      "Type": "DLC",
+      "pos": [
+        -517.17,
+        173.8,
+        1798.4
+      ]
+    },
+    "RokUwog": {
+      "DisplayName": "Rok Uwog",
+      "Type": "Shrine",
+      "pos": [
+        -2378.01,
+        485.91,
+        -3224.74
+      ]
+    },
+    "RonaKachta": {
+      "DisplayName": "Rona Kachta",
+      "Type": "Blessing",
+      "pos": [
+        -1088.16,
+        22.05,
+        -2661.51
+      ]
+    },
+    "RotaOoh": {
+      "DisplayName": "Rota Ooh",
+      "Type": "Shrine",
+      "pos": [
+        -1563.25,
+        186.73,
+        1310.07
+      ]
+    },
+    "RuccoMaag": {
+      "DisplayName": "Rucco Maag",
+      "Type": "Shrine",
+      "pos": [
+        3333.5,
+        119,
+        401.5
+      ]
+    },
+    "RuvoKorbah": {
+      "DisplayName": "Ruvo Korbah",
+      "Type": "DLC",
+      "pos": [
+        -834.56,
+        189.8,
+        2145.07
+      ]
+    },
+    "SaasKosah": {
+      "DisplayName": "Saas Ko'sah",
+      "Type": "TosSkip",
+      "pos": [
+        -147.4,
+        144.22,
+        -1159.35
+      ]
+    },
+    "SahDahaj": {
+      "DisplayName": "Sah Dahaj",
+      "Type": "Shrine",
+      "pos": [
+        2665.21,
+        247.91,
+        -1580.75
+      ]
+    },
+    "SasaKai": {
+      "DisplayName": "Sasa Kai",
+      "Type": "TosSkip",
+      "pos": [
+        -3559.8,
+        352.78,
+        1953
+      ]
+    },
+    "SatoKoda": {
+      "DisplayName": "Sato Koda",
+      "Type": "DLC",
+      "pos": [
+        3102.94,
+        542.91,
+        -833.22
+      ]
+    },
+    "ShaGehma": {
+      "DisplayName": "Sha Gehma",
+      "Type": "Shrine",
+      "pos": [
+        -1673.17,
+        346.57,
+        -3758.45
+      ]
+    },
+    "ShaWarvo": {
+      "DisplayName": "Sha Warvo",
+      "Type": "Shrine",
+      "pos": [
+        -3823.08,
+        265.12,
+        -2206.36
+      ]
+    },
+    "ShadaNaw": {
+      "DisplayName": "Shada Naw",
+      "Type": "Shrine",
+      "pos": [
+        -2998.62,
+        667.75,
+        -3221.58
+      ]
+    },
+    "ShaeKatha": {
+      "DisplayName": "Shae Katha",
+      "Type": "Blessing",
+      "pos": [
+        870.34,
+        122.99,
+        2328.54
+      ]
+    },
+    "ShaeLoya": {
+      "DisplayName": "Shae Loya",
+      "Type": "Shrine",
+      "pos": [
+        -2930.92,
+        306.45,
+        -432.05
+      ]
+    },
+    "ShaeMosah": {
+      "DisplayName": "Shae Mo'sah",
+      "Type": "Shrine",
+      "pos": [
+        1757.22,
+        535.32,
+        -2562.46
+      ]
+    },
+    "ShaiUtoh": {
+      "DisplayName": "Shai Utoh",
+      "Type": "Shrine",
+      "pos": [
+        1586.72,
+        166.99,
+        3614.93
+      ]
+    },
+    "ShaiYota": {
+      "DisplayName": "Shai Yota",
+      "Type": "Blessing",
+      "pos": [
+        4245.54,
+        110.92,
+        252.95
+      ]
+    },
+    "SharoLun": {
+      "DisplayName": "Sharo Lun",
+      "Type": "DLC",
+      "pos": [
+        2932.71,
+        630.51,
+        -2418.1
+      ]
+    },
+    "SheeVaneer": {
+      "DisplayName": "Shee Vaneer",
+      "Type": "Shrine",
+      "pos": [
+        1265.27,
+        525.87,
+        1938.7
+      ]
+    },
+    "SheeVenath": {
+      "DisplayName": "Shee Venath",
+      "Type": "Shrine",
+      "pos": [
+        1244.13,
+        443.37,
+        1850.3
+      ]
+    },
+    "SheemDagoze": {
+      "DisplayName": "Sheem Dagoze",
+      "Type": "Shrine",
+      "pos": [
+        -1893.3,
+        212.4,
+        91.5
+      ]
+    },
+    "ShehRata": {
+      "DisplayName": "Sheh Rata",
+      "Type": "Shrine",
+      "pos": [
+        1510.45,
+        128.41,
+        -376.96
+      ]
+    },
+    "ShiraGomar": {
+      "DisplayName": "Shira Gomar",
+      "Type": "DLC",
+      "pos": [
+        -2376.74,
+        264.97,
+        -1382.98
+      ]
+    },
+    "ShoDantu": {
+      "DisplayName": "Sho Dantu",
+      "Type": "Shrine",
+      "pos": [
+        -3911.26,
+        396,
+        1653.8
+      ]
+    },
+    "ShodaSah": {
+      "DisplayName": "Shoda Sah",
+      "Type": "Shrine",
+      "pos": [
+        1790.48,
+        189.8,
+        2991.89
+      ]
+    },
+    "ShoqaTatone": {
+      "DisplayName": "Shoqa Tatone",
+      "Type": "TosSkip",
+      "pos": [
+        94,
+        110.67,
+        3841
+      ]
+    },
+    "ShoraHah": {
+      "DisplayName": "Shora Hah",
+      "Type": "Shrine",
+      "pos": [
+        1535.38,
+        507.33,
+        -3118.03
+      ]
+    },
+    "SohKofi": {
+      "DisplayName": "Soh Kofi",
+      "Type": "TosMinor",
+      "pos": [
+        2238.42,
+        148.48,
+        -293.04
+      ]
+    },
+    "SumaSahma": {
+      "DisplayName": "Suma Sahma",
+      "Type": "Blessing",
+      "pos": [
+        -1418.2,
+        545.4,
+        3448.3
+      ]
+    },
+    "TahMuhl": {
+      "DisplayName": "Tah Muhl",
+      "Type": "Shrine",
+      "pos": [
+        2300.66,
+        213.35,
+        -941.32
+      ]
+    },
+    "TakamaShiri": {
+      "DisplayName": "Takama Shiri",
+      "Type": "DLC",
+      "pos": [
+        -4895.49,
+        141.98,
+        2155.5
+      ]
+    },
+    "TalohNaeg": {
+      "DisplayName": "Ta'loh Naeg",
+      "Type": "TosMinor",
+      "pos": [
+        1841.92,
+        260.1,
+        890.4
+      ]
+    },
+    "TahnoOah": {
+      "DisplayName": "Tahno O'ah",
+      "Type": "Blessing",
+      "pos": [
+        4181.78,
+        288.15,
+        1686.73
+      ]
+    },
+    "TawaJinn": {
+      "DisplayName": "Tawa Jinn",
+      "Type": "Blessing",
+      "pos": [
+        2637.53,
+        318.17,
+        2834.39
+      ]
+    },
+    "TenaKosah": {
+      "DisplayName": "Tena Ko'sah",
+      "Type": "TosSkip",
+      "pos": [
+        -3465.47,
+        384.49,
+        -447.97
+      ]
+    },
+    "ThoKayu": {
+      "DisplayName": "Tho Kayu",
+      "Type": "Blessing",
+      "pos": [
+        -4799.14,
+        135.13,
+        2800.18
+      ]
+    },
+    "ToQuomo": {
+      "DisplayName": "To Quomo",
+      "Type": "Blessing",
+      "pos": [
+        -4023.13,
+        288.09,
+        -3711.64
+      ]
+    },
+    "TohYahsa": {
+      "DisplayName": "Toh Yahsa",
+      "Type": "Shrine",
+      "pos": [
+        -2269.1,
+        216.58,
+        -900.1
+      ]
+    },
+    "TotoSah": {
+      "DisplayName": "Toto Sah",
+      "Type": "Shrine",
+      "pos": [
+        1845.65,
+        131.51,
+        2474.15
+      ]
+    },
+    "TuKaloh": {
+      "DisplayName": "Tu Ka'loh",
+      "Type": "Blessing",
+      "pos": [
+        4655,
+        237.4,
+        -3710
+      ]
+    },
+    "TutsuwaNima": {
+      "DisplayName": "Tutsuwa Nima",
+      "Type": "TosSkip",
+      "pos": [
+        3777.82,
+        108.89,
+        -2704.89
+      ]
+    },
+    "VooLota": {
+      "DisplayName": "Voo Lota",
+      "Type": "Shrine",
+      "pos": [
+        -4016.18,
+        275.2,
+        -1721.91
+      ]
+    },
+    "WahgoKatta": {
+      "DisplayName": "Wahgo Katta",
+      "Type": "Shrine",
+      "pos": [
+        344.91,
+        123.08,
+        1007.03
+      ]
+    },
+    "YaNaga": {
+      "DisplayName": "Ya Naga",
+      "Type": "Shrine",
+      "pos": [
+        -328.18,
+        68.02,
+        2600.29
+      ]
+    },
+    "YahRin": {
+      "DisplayName": "Yah Rin",
+      "Type": "Shrine",
+      "pos": [
+        2833.36,
+        152.75,
+        3310.97
+      ]
+    },
+    "YowakaIta": {
+      "DisplayName": "Yowaka Ita",
+      "Type": "DLC",
+      "pos": [
+        -941.14,
+        187.7,
+        1672.45
+      ]
+    },
+    "ZaltaWa": {
+      "DisplayName": "Zalta Wa",
+      "Type": "Shrine",
+      "pos": [
+        -1432.3,
+        138.32,
+        -594.19
+      ]
+    },
+    "ZeKasho": {
+      "DisplayName": "Ze Kasho",
+      "Type": "Shrine",
+      "pos": [
+        3027.31,
+        348.65,
+        -1667.85
+      ]
+    },
+    "ZunaKai": {
+      "DisplayName": "Zuna Kai",
+      "Type": "Blessing",
+      "pos": [
+        3324.46,
+        298.69,
+        -3420.44
+      ]
+    },
+    "": {
+      "DisplayName": "",
+      "pos": [
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  "Tower": {
+    "GreatPlateau": {
+      "DisplayName": "Great Plateau",
+      "pos": [
+        -560.03,
+        177.64,
+        1694.86
+      ]
+    },
+    "Central": {
+      "DisplayName": "Central",
+      "pos": [
+        -788.64,
+        197.64,
+        442.03
+      ]
+    },
+    "Lake": {
+      "DisplayName": "Lake",
+      "pos": [
+        -31.82,
+        280.48,
+        2961.6
+      ]
+    },
+    "DuelingPeaks": {
+      "DisplayName": "Dueling Peaks",
+      "pos": [
+        1016.78,
+        184.01,
+        1714.08
+      ]
+    },
+    "Faron": {
+      "DisplayName": "Faron",
+      "pos": [
+        1331.2,
+        269.93,
+        3273.72
+      ]
+    },
+    "Hateno": {
+      "DisplayName": "Hateno",
+      "pos": [
+        2735.5,
+        336.18,
+        2133.5
+      ]
+    },
+    "Lanayru": {
+      "DisplayName": "Lanayru",
+      "pos": [
+        2258,
+        310.92,
+        -109
+      ]
+    },
+    "Eldin": {
+      "DisplayName": "Eldin",
+      "pos": [
+        2174.15,
+        508.73,
+        -1556.78
+      ]
+    },
+    "Woodland": {
+      "DisplayName": "Woodland",
+      "pos": [
+        883.88,
+        350.22,
+        -1605.71
+      ]
+    },
+    "Akkala": {
+      "DisplayName": "Akkala",
+      "pos": [
+        3308,
+        593.78,
+        -1500.1
+      ]
+    },
+    "Tabantha": {
+      "DisplayName": "Tabantha",
+      "pos": [
+        -3613.75,
+        445.04,
+        -990.16
+      ]
+    },
+    "Gerudo": {
+      "DisplayName": "Gerudo",
+      "pos": [
+        -3666,
+        470.98,
+        1828.6
+      ]
+    },
+    "Wasteland": {
+      "DisplayName": "Wasteland",
+      "pos": [
+        -2306.84,
+        530.18,
+        2437.32
+      ]
+    },
+    "Hebra": {
+      "DisplayName": "Hebra",
+      "pos": [
+        -2173,
+        529.18,
+        -2034
+      ]
+    },
+    "Ridgeland": {
+      "DisplayName": "Ridgeland",
+      "pos": [
+        -1755.3,
+        328.58,
+        -774.3
+      ]
+    },
+    "": {
+      "DisplayName": "",
+      "pos": [
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  "SOR": {
+      "DisplayName": "SOR",
+      "pos": [
+      -1132.61,
+      1917.72
+    ]
+  },
+  "VahRuta": {
+    "pos": [
+      2970.18,
+      235.47
+    ]
+  },
+  "VahMedoh": {
+    "pos": [
+      -3614.1,
+      -1862.06
+    ]
+  },
+  "VahNaboris": {
+    "pos": [
+      -1132.61,
+      1917.72
+    ]
+  },
+  "VahRudania": {
+    "pos": [
+      2451.85,
+      -2559.08
+    ]
+  },
+  "TechLab": {
+    "Akkala": {
+      "pos": [
+        4522.01,
+        -3166.63
+      ]
+    },
+    "Hateno": {
+      "pos": [
+        3777.71,
+        2127.36
+      ]
+    }
+  },
+    "Cook": {},
+    "Chest": {
+        "Special": {}
+    },
+    "Equipment": {
+        "Bow": {},
+        "Shield": {},
+        "Weapon": {}
+    },
+    "Snap": {
+        "Quest": {
+            "Statue of the Eigth Heroine": {
+                "pos": [-4363.6875,468.4375]
+            }
+        }
+    },
+    "Shop":{},
+    "Npc": {
+        "SheikaFemale": {},
+        "SheikaMale": {},
+        "Rito": {},
+        "ZoraFemale": {},
+        "ZoraMale": {},
+        "Goron": {},
+        "Gerudo": {}
+    },
+    "Boss": {
+        "Talus": {
+            "Stone": {},
+            "Igneo": {},
+            "Rare": {},
+            "Frost": {},
+            "Luminous": {}
+        },
+        "Hinox": {
+            "Red": {},
+            "Black": {},
+            "Stal": {},
+            "Blue": {}
+        },
+        "Molduga": {}
+    },
+    "TravelMedallion": {},
+    "Discover": {},
+    "Material": {},
+    "Tod": {
+        "Night": {},
+        "Noon": {},
+        "Morning": {}
+    },
+    "_icons": {
+        "Korok": {
+            "iconUrl": "mapicon_korok.png",
+            "canvas": true,
+            "iconSize": [19, 20],
+            "iconAnchor": [9, 10]
+        },
+        "Shrine": {
+            "iconUrl": "mapicon_dungeon.svg",
+            "iconSize": [36, 36],
+            "iconAnchor": [18, 18]
+        },
+        "Tower": {
+            "iconUrl": "mapicon_tower.svg",
+            "iconSize": [40, 40],
+            "iconAnchor": [20, 20]
+        }
+
+    }
+}

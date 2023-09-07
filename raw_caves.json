@@ -1,0 +1,3601 @@
+[
+   {
+      "Location" : "Cave_Hebra_0013",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xe490b74546ac523c",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 1148,
+      "pos" : [
+         -4429.34,
+         328.84,
+         -3760.2
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Hebra_0021",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x1d38f6f16eed93d5",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 1191,
+      "pos" : [
+         -3814.61,
+         360.5,
+         -3595.48
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Hebra_0000",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x2e0db9cc1221f4d0",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 3455,
+      "pos" : [
+         -4041.16,
+         128.78,
+         -2671.44
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoHighlands_0008",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xb9fd8c7179d1d71f",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 6534,
+      "pos" : [
+         -4384.53,
+         579.3,
+         536.55
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0046",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xa46fc897b0805513",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 13864,
+      "pos" : [
+         -4814.32,
+         104.5,
+         3875.43
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Hebra_0022",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x8ed217b36b51cde8",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 16502,
+      "pos" : [
+         -2995.57,
+         645.47,
+         -3225.75
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Hebra_0041",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x2180b6a11b1d3b57",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 16636,
+      "pos" : [
+         -3555.2,
+         378.88,
+         -3088.22
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Hebra_0041",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xeab01ad14e126e16",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 16643,
+      "pos" : [
+         -3989.37,
+         243.83,
+         -3062.85
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Hebra_0026",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x43bb6ee070470784",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 18136,
+      "pos" : [
+         -3214.61,
+         451.03,
+         -2462.24
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Hebra_0015",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x034d473d20a536e9",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 20827,
+      "pos" : [
+         -3930.99,
+         87.47,
+         -2861.26
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Hebra_0030",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x847688ed713462fa",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 20889,
+      "pos" : [
+         -3398.43,
+         418.61,
+         -2499.36
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Hebra_0030",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xc27674c29fd47619",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 20893,
+      "pos" : [
+         -3227.5,
+         547.16,
+         -2535.28
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Hebra_0025",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xb197ce474efd91a6",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 21215,
+      "pos" : [
+         -3559.56,
+         332.72,
+         -2488.38
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Hebra_0039",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xd2e29ad4963a4812",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 21281,
+      "pos" : [
+         -3958.69,
+         306.08,
+         -2029.48
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Hebra_0023",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xea918b6f19df9c9f",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 25258,
+      "pos" : [
+         -3005.72,
+         304.84,
+         -1635.03
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Tabantha_0001",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xb939f1bed0357660",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 25381,
+      "pos" : [
+         -3931.1,
+         178.31,
+         -1090.97
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Tabantha_0001",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xb3a12087b92fddd8",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 25806,
+      "pos" : [
+         -3865.5,
+         178,
+         -1011.5
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Tabantha_0002",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x7c3f120a862ab2eb",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 29080,
+      "pos" : [
+         -3465.12,
+         359.57,
+         -449.46
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Tabantha_0003",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xc701afd22c8ec5ea",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 29082,
+      "pos" : [
+         -3308.47,
+         3.62,
+         -789.76
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoHighlands_0017",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x8d8f2611e021a14b",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 32774,
+      "pos" : [
+         -3881.65,
+         675.34,
+         726.78
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0008",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xad9c95a9ff4512b6",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 41736,
+      "pos" : [
+         -3827.19,
+         140.71,
+         2650.32
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0007",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xa0a6492c8ce80529",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 41745,
+      "pos" : [
+         -3763.27,
+         120.39,
+         2698.52
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0007",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xe7a168d210d29130",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 41749,
+      "pos" : [
+         -3763.27,
+         120.39,
+         2420.76
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0015",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xeab71302bfa92713",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 41751,
+      "pos" : [
+         -3238.82,
+         39.57,
+         2939.66
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0045",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x8a8fa79e2b7eb920",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 42305,
+      "pos" : [
+         -3354.94,
+         101.17,
+         2693.96
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0039",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x123b5e327d0b5036",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 45888,
+      "pos" : [
+         -3099.36,
+         53.95,
+         3063.78
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0032",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xd0a0b3e656839277",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 46282,
+      "pos" : [
+         -3679.05,
+         87.04,
+         3255.37
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Hebra_0019",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xe28e3a28aec5f97a",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 48501,
+      "pos" : [
+         -2414.12,
+         478.16,
+         -3136.46
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Hebra_0019",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x2c580377861188cc",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 48506,
+      "pos" : [
+         -2642.29,
+         354.5,
+         -3268.3
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Hebra_0016",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xa2df93a20964f13a",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 52548,
+      "pos" : [
+         -2900.16,
+         493.4,
+         -2510.26
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Hebra_0037",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x3d68326d011e203b",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 52703,
+      "pos" : [
+         -2395.84,
+         275,
+         -2276.63
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Hebra_0035",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x8f9b2a8d5b2f4349",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 56413,
+      "pos" : [
+         -2840.93,
+         328.48,
+         -1771.91
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HyruleRidge_0004",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x930a3bbbdd491160",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 56416,
+      "pos" : [
+         -2644.24,
+         247.63,
+         -1126.02
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HyruleRidge_0007",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x87004213a0eee151",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 56519,
+      "pos" : [
+         -2049.13,
+         48.87,
+         -1631.71
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HyruleRidge_0006",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x63645cb01e324862",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 60375,
+      "pos" : [
+         -2268.35,
+         191.65,
+         -899.23
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HyruleRidge_0002",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x66a540141f68bfea",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 65019,
+      "pos" : [
+         -2921.85,
+         113.07,
+         804.16
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HyruleRidge_0005",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xdf3da9fd44bfb112",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 65080,
+      "pos" : [
+         -2198.54,
+         222.8,
+         807.57
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HyruleRidge_0008",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x0de453af870b92d9",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 65372,
+      "pos" : [
+         -2151.01,
+         381.5,
+         360.52
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoHighlands_0002",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x44c78da831fb9213",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 69082,
+      "pos" : [
+         -2457.33,
+         281.79,
+         1798.55
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0041",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x93533429589f6124",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 69117,
+      "pos" : [
+         -2258.92,
+         161.95,
+         1759.33
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0041",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x9db5ea7b6aa89bdb",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 69121,
+      "pos" : [
+         -2173.73,
+         232.09,
+         1841.65
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0050",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x15529bfc2e2ab747",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 69222,
+      "pos" : [
+         -2433.91,
+         251.24,
+         1819.68
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0037",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x7e1ac207128f6218",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 73324,
+      "pos" : [
+         -2215.91,
+         352.71,
+         2395.27
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0031",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xa67d359d28541186",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 73332,
+      "pos" : [
+         -2696.02,
+         38.1,
+         2808.62
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0051",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xed7dd6fb17e73938",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 73711,
+      "pos" : [
+         -2676.71,
+         185.07,
+         2402.61
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0051",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x2379af814661e0e1",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 73714,
+      "pos" : [
+         -2611.28,
+         217.98,
+         2604.77
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0040",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x520dad32f894072b",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 75946,
+      "pos" : [
+         -2939.1,
+         68.4,
+         3857.83
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0043",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xb01db1f23f9ec48a",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 76012,
+      "pos" : [
+         -2491.19,
+         111.24,
+         3067.74
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0044",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x8695ba87e145369e",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 76245,
+      "pos" : [
+         -2564.69,
+         57.2,
+         3681.72
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0044",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x9817a37d7279f2f2",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 76247,
+      "pos" : [
+         -2451.86,
+         58.97,
+         3676.73
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0044",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x4bf3accde520fc4f",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 76249,
+      "pos" : [
+         -2570.56,
+         54.08,
+         3744.45
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0044",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x594b20c21a1e5f50",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 76251,
+      "pos" : [
+         -2480.56,
+         58.85,
+         3758.14
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0044",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x758a5dafa6b69440",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 76253,
+      "pos" : [
+         -2521.2,
+         58.38,
+         3724.84
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0044",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xb82f746fe782c4ce",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 76255,
+      "pos" : [
+         -2477.85,
+         58.39,
+         3709.82
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0044",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xe0f38f6f64b92550",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 76257,
+      "pos" : [
+         -2604.79,
+         55.76,
+         3709.32
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0044",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x23bec8b8ded2dc80",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 76259,
+      "pos" : [
+         -2535.54,
+         57.28,
+         3626.1
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0044",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x25f02444394a0f92",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 76261,
+      "pos" : [
+         -2518.92,
+         57.85,
+         3671.56
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0044",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x5220cd3ca7c40de9",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 76263,
+      "pos" : [
+         -2530.79,
+         58.68,
+         3769.12
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0044",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x2bd91a8d9b645ca2",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 76265,
+      "pos" : [
+         -2584.24,
+         57.52,
+         3638.21
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0044",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xad4c15e7b8bf4c1f",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 76267,
+      "pos" : [
+         -2480.76,
+         58.92,
+         3632.82
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Hebra_0036",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x04dff95e8600bd9b",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 78120,
+      "pos" : [
+         -1372.09,
+         303.22,
+         -2861.31
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HyruleRidge_0003",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x62a9566a167907c1",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 85209,
+      "pos" : [
+         -1734.93,
+         334.2,
+         -1165.7
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HyruleRidge_0000",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xbbb8f534d6b4ecca",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 86651,
+      "pos" : [
+         -1188.39,
+         177.85,
+         -644.51
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HyruleRidge_0000",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x6193e38dce029f75",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 88691,
+      "pos" : [
+         -1234.18,
+         182.97,
+         -770.22
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_CentralHyrule_0020",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xd49b56c6c6622c45",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 92175,
+      "pos" : [
+         -1111.5,
+         128.2,
+         432.06
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_CentralHyrule_0030",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xf8c38bf26ae495ae",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 92244,
+      "pos" : [
+         -1404.5,
+         101.56,
+         256.5
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_CentralHyrule_0023",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xee79623119e50b36",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 96413,
+      "pos" : [
+         -1167.15,
+         127.75,
+         1310.98
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0035",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x8d63dbc59b239c52",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 100422,
+      "pos" : [
+         -1726.96,
+         110.58,
+         2183.38
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0036",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xe05b62b5c98ef7f9",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 100426,
+      "pos" : [
+         -1744.35,
+         94.31,
+         2394.18
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0022",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x3a52de6ec6d2620e",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 100429,
+      "pos" : [
+         -1967,
+         135.51,
+         2059.61
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0022",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x91f779d7516b1e9b",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 100431,
+      "pos" : [
+         -1795.8,
+         136.65,
+         1961.14
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0030",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xa23d9b3582bc6ac0",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 100435,
+      "pos" : [
+         -1527.76,
+         84.9,
+         2222.54
+      ],
+      "scale" : 0
+   },
+   {
+       "Location":"Cave_FirstPlateau_0002",
+       "drop":null,
+       "equip":null,
+       "hash_id":"0x89f2b2ddfdd48294",
+       "korok_id":null,
+       "korok_type":null,
+       "objid":96582,
+       "map_static":1,
+       "map_name":"D-6",
+       "map_type":"MainField",
+       "name":"LocationArea",
+       "pos":[
+           -1061.88,247.67,1829.55
+       ],
+       "scale":0
+    },
+   {
+      "Location" : "Cave_FirstPlateau_0001",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xa94ce923b1eeda37",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 100440,
+      "pos" : [
+         -1092.38,
+         249.19,
+         2162.71
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HyruleForest_0007",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xf2c392c208b0e81f",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 105374,
+      "pos" : [
+         -643.5,
+         260,
+         -2040
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_CentralHyrule_0018",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xdfa59d72b2d31dbb",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 113609,
+      "pos" : [
+         -254.04,
+         113.5,
+         -129
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_CentralHyrule_0018",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xeefbbd2366a84862",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 113763,
+      "pos" : [
+         -253.97,
+         132.9,
+         -767.08
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_CentralHyrule_0018",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xdf6524ebd97fcaf4",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 113765,
+      "pos" : [
+         -325.67,
+         159.57,
+         -802.53
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_CentralHyrule_0022",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x7a290ee30727d0d8",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 113830,
+      "pos" : [
+         -512.36,
+         125.87,
+         -127.59
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_CentralHyrule_0009",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xb2c00da62a939e78",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 124986,
+      "pos" : [
+         -832.35,
+         132.49,
+         1488.38
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_CentralHyrule_0021",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x7ea010a93f2b3e3a",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 125120,
+      "pos" : [
+         -72.11,
+         122.94,
+         1045.97
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Firone_0016",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x1fcd076feaf74f5d",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 131200,
+      "pos" : [
+         -256.15,
+         86.97,
+         2940.2
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Firone_0016",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xf6f203cfbe8c2588",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 131203,
+      "pos" : [
+         -171.17,
+         92.3,
+         3067.07
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HyruleForest_0008",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xd12113235a5bb464",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 134748,
+      "pos" : [
+         307.13,
+         193,
+         -3579.35
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HyruleForest_0001",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x325436a30b60143d",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 142463,
+      "pos" : [
+         676.47,
+         150.67,
+         -1389.78
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Lanayru_0053",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xe130c628a8fae219",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 144026,
+      "pos" : [
+         845.92,
+         121.33,
+         -31.5
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Lanayru_0052",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x71a0d5031d937e5f",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 144679,
+      "pos" : [
+         493.73,
+         146,
+         -730.94
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_CentralHyrule_0008",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x631d27527a184a53",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 148968,
+      "pos" : [
+         37.3,
+         124.18,
+         198.86
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_CentralHyrule_0008",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xa33e39df3fd6de8d",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 151794,
+      "pos" : [
+         6.01,
+         136.07,
+         157.93
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Firone_0002",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x56c6c9c08c371667",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 159941,
+      "pos" : [
+         809.89,
+         116.22,
+         2971.71
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Firone_0020",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x65aa359b7786d2b3",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 161947,
+      "pos" : [
+         568.6,
+         118.23,
+         2981.88
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Firone_0023",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xd223c5916f506e0f",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 162123,
+      "pos" : [
+         125.75,
+         15.91,
+         2501.45
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Firone_0008",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xeaf8120f19e2d7a3",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 165452,
+      "pos" : [
+         671.8,
+         129.39,
+         3109.48
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Firone_0029",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x1fabbc9e750bd980",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 167551,
+      "pos" : [
+         283.98,
+         138.58,
+         3851.47
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Well_0043B",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xa17f34c13fdecb3e",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 167606,
+      "pos" : [
+         486.93,
+         113.21,
+         3831.14
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Eldin_0023",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xe2850a8092bb5f2e",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 170053,
+      "pos" : [
+         1554.56,
+         498.43,
+         -3102.51
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Eldin_0034",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xd8e9c4fa18b62bb6",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 172541,
+      "pos" : [
+         1713.88,
+         506.11,
+         -2718.59
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Eldin_0025",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x8cef0e14cf3306e1",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 174812,
+      "pos" : [
+         1423.08,
+         389.93,
+         -2102.73
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Eldin_0035",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x190031b5e77c2ac2",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 174907,
+      "pos" : [
+         1949.91,
+         531.46,
+         -2687.21
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Eldin_0033",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xb47705674d0585bb",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 174912,
+      "pos" : [
+         1764.65,
+         505.26,
+         -2837.4
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Eldin_0026",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xaeeb1fc0755b28f3",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 181370,
+      "pos" : [
+         1800.95,
+         425.92,
+         -1983.35
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Eldin_0028",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x687e4193562ff9f6",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 181373,
+      "pos" : [
+         1642.85,
+         384.54,
+         -1729.56
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Eldin_0029",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x077ecd21f135971c",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 181380,
+      "pos" : [
+         1853.96,
+         397.44,
+         -1719.95
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HyruleForest_0006",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xf8aea9a2de67a289",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 181788,
+      "pos" : [
+         1247.26,
+         131.05,
+         -1231.93
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Lanayru_0006",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x29927b01ee2b51dd",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 185407,
+      "pos" : [
+         1144.71,
+         163.02,
+         -247.46
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Lanayru_0006",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xfe62aa3238fa4a94",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 185412,
+      "pos" : [
+         1349.55,
+         134.32,
+         -296.5
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Lanayru_0050",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xaa9870379b2aa770",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 185441,
+      "pos" : [
+         1726.92,
+         100.19,
+         -162.05
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HateruWest_0005",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xc891347c5723d4ab",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 191270,
+      "pos" : [
+         1947.49,
+         262.98,
+         981.82
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HateruWest_0002",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x20fd159e7adec749",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 193923,
+      "pos" : [
+         1617,
+         112.46,
+         1260
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HateruWest_0002",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xa01a0b2a5e95ddff",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 193926,
+      "pos" : [
+         1587.75,
+         111.52,
+         812.19
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HateruWest_0006",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x3916d31e5cedcdcc",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 194007,
+      "pos" : [
+         1877.43,
+         304.04,
+         1160.38
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HateruWest_0008",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xaf62288a58f32ff8",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 194096,
+      "pos" : [
+         1373.02,
+         235.28,
+         1197.25
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HateruWest_0008",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xc24ffd5da7b750ed",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 194101,
+      "pos" : [
+         1328.36,
+         239.95,
+         1156.22
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HateruWest_0011",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x4d78e234f4da2678",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 194254,
+      "pos" : [
+         1194.46,
+         263.43,
+         1854.06
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HateruWest_0012",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x87312b037e4cd21c",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 194257,
+      "pos" : [
+         1183.37,
+         351,
+         1947.55
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HateruEast_0002",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xf268f2cdcedddb30",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 198337,
+      "pos" : [
+         1789.54,
+         185.87,
+         2985.64
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HateruEast_0002",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x5bc55fa792587b48",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 198340,
+      "pos" : [
+         1959.68,
+         176.62,
+         2611.65
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Firone_0009",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xb2da253a0cc05426",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 198481,
+      "pos" : [
+         1169.64,
+         282.57,
+         2443.85
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HateruEast_0014",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xa03c6d41cfa48ebe",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 201687,
+      "pos" : [
+         1446.72,
+         182.77,
+         3483.65
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HateruEast_0008",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xd7637fe16455bcff",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 203801,
+      "pos" : [
+         2009.62,
+         282.44,
+         3164.03
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HateruEast_0009",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x4f567bd713ca1a32",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 203807,
+      "pos" : [
+         1813.53,
+         224,
+         3738.02
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HateruEast_0006",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x6f5c714827d55e83",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 203813,
+      "pos" : [
+         1676.8,
+         269.84,
+         3038.77
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HateruEast_0007",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xe8234ed80d741ff3",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 203816,
+      "pos" : [
+         1896.4,
+         237.53,
+         3111.24
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Firone_0022",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xdc5434509d303107",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 204029,
+      "pos" : [
+         1203.09,
+         130.92,
+         3170.91
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HateruEast_0008",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x5e68dd7850331e20",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 204098,
+      "pos" : [
+         1958.78,
+         298.39,
+         3032.79
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Eldin_0030",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x2064d8977c760fb6",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 206518,
+      "pos" : [
+         2206.31,
+         510.94,
+         -3075.32
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Eldin_0022",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x6fdd81fb155bbd65",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 207142,
+      "pos" : [
+         2373.34,
+         550.84,
+         -3051.7
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Eldin_0020",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x27234d7a2c222a4d",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 210314,
+      "pos" : [
+         2767.81,
+         626.83,
+         -2778.18
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Eldin_0021",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x4c4e243ec02d4521",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 210320,
+      "pos" : [
+         2238.61,
+         626.02,
+         -2682.38
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Eldin_0027",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xa9dd1bd87883b537",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 210323,
+      "pos" : [
+         2016,
+         526.28,
+         -2038.98
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Eldin_0037",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x96689a2c1309545d",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 214108,
+      "pos" : [
+         1929.5,
+         227.27,
+         -1271.64
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Eldin_0038",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x5b50119887cdecfe",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 214110,
+      "pos" : [
+         2593.65,
+         256.45,
+         -1330.45
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Eldin_0039",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xc6daa0a83d143b3a",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 214112,
+      "pos" : [
+         2275.32,
+         262.5,
+         -1520.1
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Eldin_0031",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x8cabe4ec2c88134d",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 214114,
+      "pos" : [
+         2485.39,
+         263.38,
+         -1792.98
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Eldin_0037",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xa49ab4aedc7fea4e",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 214436,
+      "pos" : [
+         1931.95,
+         273.65,
+         -1304.57
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Lanayru_0024",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x600bf45a2c1b8b2c",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 216916,
+      "pos" : [
+         2215.35,
+         177.09,
+         -100.18
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Lanayru_0048",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x58d417112a7103b7",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 216985,
+      "pos" : [
+         2958.83,
+         308.04,
+         -253.89
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Lanayru_0032",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x54ad2731bf27d2dc",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 218979,
+      "pos" : [
+         2570.03,
+         269.54,
+         -517.99
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Lanayru_0032",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x99985f9ea9a00801",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 218984,
+      "pos" : [
+         2633.57,
+         294.2,
+         -526.16
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Lanayru_0024",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x23a6acbc1260f39b",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 218987,
+      "pos" : [
+         2253.84,
+         121.62,
+         -14.21
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Lanayru_0033",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x75addf86289efb06",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 218992,
+      "pos" : [
+         2700.3,
+         307.49,
+         -479.82
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Lanayru_0024",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x1e46a52b8dda327e",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 219001,
+      "pos" : [
+         2185.08,
+         142.89,
+         -142.08
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Lanayru_0024",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x88db26421291f047",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 219007,
+      "pos" : [
+         2260.73,
+         216.08,
+         -108.4
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Lanayru_0019",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x01ae68f2a329f857",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 219010,
+      "pos" : [
+         2674.99,
+         194.75,
+         -287.43
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Lanayru_0019",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xa35a873e8f77139b",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 219016,
+      "pos" : [
+         2679.64,
+         198.03,
+         -217.7
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Lanayru_0019",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x3a97d22e3a063a84",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 219019,
+      "pos" : [
+         2605.53,
+         181.5,
+         -227.1
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Lanayru_0049",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x6a80e92c24df9cf2",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 219024,
+      "pos" : [
+         2850.64,
+         429.96,
+         -477.98
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Lanayru_0048",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xf8a029605e33a56b",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 219057,
+      "pos" : [
+         2912.13,
+         263.13,
+         -170.14
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Lanayru_0033",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x1197b7ef945b5149",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 219062,
+      "pos" : [
+         2863.63,
+         332.75,
+         -346.33
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Lanayru_0014",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xb404adf464857419",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 223773,
+      "pos" : [
+         2909.62,
+         187.49,
+         65.93
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_LanayruMountain_0014",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x6bc0040b515efd35",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 227599,
+      "pos" : [
+         2492.99,
+         117.53,
+         1477.65
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_LanayruMountain_0002",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x45ce9b8e6377fb26",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 227740,
+      "pos" : [
+         2698.27,
+         216.72,
+         1314.64
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_LanayruMountain_0026",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x5f65fd2b06797030",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 227748,
+      "pos" : [
+         2243.43,
+         129,
+         1689.6
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_LanayruMountain_0008",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xa8abe41e867223cd",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 232444,
+      "pos" : [
+         2504.1,
+         111.95,
+         2106.52
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HateruEast_0016",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xf18b5a5682cad5a1",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 236542,
+      "pos" : [
+         2454,
+         170,
+         3193
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Akkala_0011",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x4b5f3fd449b62f20",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 240074,
+      "pos" : [
+         3321.5,
+         276.5,
+         -3424
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Akkala_0007",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xa1f7c5006f1ac96a",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 245346,
+      "pos" : [
+         3735.44,
+         186.32,
+         -1534.08
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Akkala_0007",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x2ffbb4a9103a98e0",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 245858,
+      "pos" : [
+         3678.72,
+         179.51,
+         -1538.25
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Akkala_0005",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xa5ca235cfe69c438",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 247466,
+      "pos" : [
+         3925.93,
+         212.56,
+         -1576.42
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Akkala_0010",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x8a2c12f53bf03ad8",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 247668,
+      "pos" : [
+         3243.72,
+         399.54,
+         -1456.82
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Akkala_0017",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x8cc1fd500126068e",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 247915,
+      "pos" : [
+         3292.5,
+         500.06,
+         -1492
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Lanayru_0055",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x750181c9a4bf15fb",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 252568,
+      "pos" : [
+         3809.58,
+         314.45,
+         -419.6
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Lanayru_0057",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x1a13fee757a9035d",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 252652,
+      "pos" : [
+         3660.9,
+         374.03,
+         -538.59
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Lanayru_0060",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x9be0435f695b7280",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 252765,
+      "pos" : [
+         3147.39,
+         282.53,
+         -667.61
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Lanayru_0063",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xd04598fb5664c8f6",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 252919,
+      "pos" : [
+         3271.55,
+         84.31,
+         -441.59
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Lanayru_0008",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x050e3315a1647c36",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 256383,
+      "pos" : [
+         3094.1,
+         184.58,
+         51.31
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_LanayruMountain_0010",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x635c19e53221a73e",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 259755,
+      "pos" : [
+         3073.54,
+         197.26,
+         1137.79
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_LanayruMountain_0010",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x6a66a768d6ddf210",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 259758,
+      "pos" : [
+         3476.45,
+         97.44,
+         968.39
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_LanayruMountain_0025",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x56b72623374412bc",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 262859,
+      "pos" : [
+         3757.45,
+         319.73,
+         2066.61
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_LanayruMountain_0016",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x1f1a4e8d2e082087",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 264485,
+      "pos" : [
+         3933.58,
+         232.94,
+         2069
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_LanayruMountain_0025",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xa1b585fb48a81ab6",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 264690,
+      "pos" : [
+         3748.88,
+         295.5,
+         2026.51
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HateruEast_0000",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x48cbb9f4b2a716a8",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 268085,
+      "pos" : [
+         3224.25,
+         164.95,
+         3017.77
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HateruEast_0000",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x54a07ba6f2f39c2d",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 268090,
+      "pos" : [
+         3291.35,
+         170.08,
+         3296.46
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_LanayruMountain_0024",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x33c169b0bc698086",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 268209,
+      "pos" : [
+         3650.4,
+         99.3,
+         3210.82
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Akkala_0014",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x7624411e00951e08",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 270200,
+      "pos" : [
+         4645.5,
+         111.99,
+         -3206.83
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Akkala_0014",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x1abc43b8fcf2aa0e",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 270208,
+      "pos" : [
+         4650.67,
+         54.5,
+         -3584.91
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Akkala_0003",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xd4d427d9cf723c73",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 276583,
+      "pos" : [
+         4272.99,
+         249.85,
+         -774.32
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Akkala_0003",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x7dab616c75a111e1",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 276586,
+      "pos" : [
+         4505,
+         201.94,
+         -705.16
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Akkala_0000",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x4833d8b3f4064f61",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 276589,
+      "pos" : [
+         4122.23,
+         293.18,
+         -662.29
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Lanayru_0035",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x9e6f8aa7e7e028c7",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 278361,
+      "pos" : [
+         4243.97,
+         89.11,
+         255.67
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Lanayru_0036",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xfc355bf35a1b8207",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 278363,
+      "pos" : [
+         4473.05,
+         137.05,
+         826.96
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_LanayruMountain_0016",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x04403fba005dfd83",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 279480,
+      "pos" : [
+         4225.54,
+         285.5,
+         1738.95
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_LanayruMountain_0022",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xcf359718b7cc1d9e",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 280290,
+      "pos" : [
+         4213.49,
+         105.66,
+         2262.58
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_LanayruMountain_0006",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x4312927202b3a393",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 280304,
+      "pos" : [
+         4585.33,
+         103.6,
+         2246.28
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_HateruEast_0013",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x72eea0817634ddc0",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 281522,
+      "pos" : [
+         4752.63,
+         99.21,
+         3781.51
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_CentralHyrule_0017",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xb31e03931a0909c2",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 520045,
+      "pos" : [
+         260.15,
+         1466.73,
+         1557.84
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_CentralHyrule_0017",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x2313be6fbca721a3",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 520048,
+      "pos" : [
+         170.52,
+         1482.81,
+         1633.77
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_CentralHyrule_0019",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x297bf94868aa63ed",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 520093,
+      "pos" : [
+         380.06,
+         1516.65,
+         1631.65
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_CentralHyrule_0019",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x7691edc9cacbd413",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 520188,
+      "pos" : [
+         489.66,
+         1473.25,
+         1625.62
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_CentralHyrule_0011",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x32c3b00dbdfc342f",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 520250,
+      "pos" : [
+         711.58,
+         1591.06,
+         1449.1
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_CentralHyrule_0011",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x55902752ae0f2aa1",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 520253,
+      "pos" : [
+         739.1,
+         1647.76,
+         1358.03
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_CentralHyrule_0013",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x89c623f1bbf1dbcb",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 520256,
+      "pos" : [
+         587.42,
+         1548.04,
+         1624.5
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_CentralHyrule_0013",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x0568363cfdaa350a",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 520259,
+      "pos" : [
+         632.28,
+         1588.92,
+         1638.81
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Firone_0024",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x79eec6b7bc5b4fba",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 527922,
+      "pos" : [
+         608.9,
+         156.33,
+         2210.08
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoDesert_0049",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xde06199673e892c4",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 533240,
+      "pos" : [
+         -4673.2,
+         114.7,
+         1986.14
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_GerudoHighlands_0014",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x3524e8f01e48750e",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 534472,
+      "pos" : [
+         -3982.83,
+         532.17,
+         1245.38
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Hebra_0040",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x049afbce0384c35a",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 539568,
+      "pos" : [
+         -3960.08,
+         342.49,
+         -3245.22
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "DeepHole_Rito",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xee78f62065cfd570",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 539601,
+      "pos" : [
+         -3571.25,
+         224.04,
+         -1803.08
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "Cave_Lanayru_0061",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xe9a65ec52e4ada39",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 545959,
+      "pos" : [
+         3240.99,
+         181.48,
+         -373.52
+      ],
+      "scale" : 0
+   },
+   {
+      "Location" : "DeepHole_HyruleCastle",
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xfbb4ad3cdd4d490a",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "LocationArea",
+      "objid" : 549915,
+      "pos" : [
+         -254,
+         -105,
+         -1012.17
+      ],
+      "scale" : 0
+   }
+]

@@ -1,0 +1,22 @@
+---
+_config:
+  engine:
+    ignore:
+    - FuryRecharge
+    - GaleRecharge
+_project:
+  authors:
+    - 31PNMR
+  description: Hundo EX Glitchless
+  name: Hundo EX MGR IST DIC HPE WMC
+  url: ""
+  version: 1.0.0
+_route:
+  - Great Sky Island:
+    - _Shrine::In-isa
+    - _Shrine::Ukouh
+    - _Shrine::Gutanbac
+    - _Shrine::Nachoyah
+  - Paraglider:
+    - _Tower::LookoutLanding
+    

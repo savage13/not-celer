@@ -1,0 +1,417 @@
+---
+_config:
+_project:
+  authors:
+    - 31JSON
+  description: Hundo Glitchless
+  name: Hundo Glitchless
+  url: ""
+  version: 1.0.0
+_route:
+  - Great Sky Island:
+    - _Warp::ROA
+    - _Chest<Archaic Legwear>:
+        coord: [361.13, 2334.30, -1631.99]
+    - _Item<Soldier Construct I>:
+        coord: [391.37, 1640.55, -1333.67]
+    - Find Princess Zelda - Steward Construct:
+        coord: [449.86, 1640.83, -1310.45]
+    - Soldier Construct I:
+        coord: [431.96, 1523.61, -1199.08]
+    - Soldier Construct I:
+        coord: [452.12, 1520.48, -1092.24]
+    - Soldier Construct I:
+        coord: [450.66, 1520.26, -1086.93]
+    - Soldier Construct I:
+        coord: [486.95, 1518.59, -1064.10]
+    - Soldier Construct I:
+        coord: [453.30, 1552.01, -897.25]
+    - The Closed Door - Rauru:
+        coord: [453.51, 1556.17, -849.75]
+    - _Equipment<Arrow>:
+        notes: 7 on the ground
+        coord: [381.36, 1530.36, -918.25]
+    - Soldier Construct I:
+        coord: [359.96, 1535.20, -923.68]
+    - _Equipment<Arrow>:
+        notes: 5 on the ground
+        coord: [341.53, 1531.77, -912.49]
+    - Soldier Construct I:
+        coord: [312.12, 1531.64, -930.73]
+    - _Shrine::Ukouh
+    - _Korok::GSI01
+    - Rauru:
+        coord: [169.09, 1521.40, -962.85]
+    - Maker Construct:
+        coord: [158.26, 1521.27, -979.68]
+    - _Weapon<Axe>:
+        coord: [164.50, 1522.92, -981.76]
+    - _Korok::GSI03
+    - Ranger Construct:
+        coord: [167.16, 1521.23, -1088.35]
+    - _Equipment<Arrow x10>:
+        coord: [169.35, 1521.42, -1089.30]
+    - Rauru:
+        coord: [158.57, 1532.65, -1157.24]
+    - Wooden Box for Arrows:
+        coord: [119.40, 1523.45, -1186.30]
+    - Culinary Construct:
+        coord: [115.97, 1522.44, -1173.80]
+    - Stambulb:
+        coord: [89.75, 1530.98, -1119.08]
+    - Stambulb:
+        coord: [91.51, 1522.88, -1155.62]
+    - Stambulb:
+        coord: [74.76, 1525.22, -1174.23]
+    - Stambulb:
+        coord: [148.29, 1527.38, -1239.62]
+    - Stambulb:
+        coord: [140.04, 1527.38, -1240.97]
+    - Soldier Construct I:
+        coord: [138.68, 1532.35, -1244.05]
+    - Soldier Construct I:
+        coord: [138.08, 1522.35, -1271.17]
+    - Soldier Construct I:
+        coord: [128.86, 1521.30, -1264.05]
+    - Soldier Construct I:
+        coord: [112.26, 1521.27, -1261.96]
+    - _Chest<Opal>:
+        coord: [121.20, 1522.36, -1272.49]
+    - Stambulb:
+        coord: [27.65, 1534.81, -1205.50]
+    - Stamella Shroom:
+        coord: [21.55, 1528.08, -1223.18]
+    - Stamella Shroom:
+        coord: [19.55, 1528.14, -1224.21]
+    - Stamella Shroom:
+        coord: [16.45, 1521.88, -1265.54]
+    - _Korok::GSI04
+    - Drop off Korok:
+        coord: [-90.85, 1511.66, -1241.28]
+    - Soldier Construct I:
+        coord: [19.72, 1495.37, -1307.63]
+    - _Shrine::In-isa
+    - _Chest<Arrow x5>:
+        coord: [24.30, 1513.76, -1527.69]
+    - _Korok::GSI11
+    - Stamella Shroom:
+        coord: [22.40, 1550.97, -1563.71]
+    - Stamella Shroom:
+        coord: [38.36, 1550.60, -1572.93]
+    - Soldier Construct I:
+        coord: [83.71, 1498.03, -1527.29]
+    - Soldier Construct I:
+        coord: [80.77, 1489.19, -1586.90]
+    - Soldier Construct I:
+        coord: [82.25, 1489.23, -1592.20]
+    - Stamella Shroom:
+        coord: [94.22, 1489.25, -1616.34]
+    - Stamella Shroom:
+        coord: [119.47, 1489.11, -1600.81]
+    - Stamella Shroom:
+        coord: [127.77, 1485.45, -1609.10]
+    - Soldier Construct I:
+        coord: [134.34, 1483.97, -1639.50]
+    - Soldier Construct I:
+        coord: [147.18, 1482.68, -1603.16]
+    - Soldier Construct I:
+        coord: [137.58, 1482.84, -1599.97]
+    - _Chest<Soldier Reaper>:
+        coord: [141.79, 1484.95, -1586.40]
+    - Stamella Shroom:
+        coord: [155.77, 1483.52, -1591.53]
+    - Stamella Shroom:
+        coord: [156.36, 1482.91, -1609.01]
+    - Stamella Shroom:
+        coord: [151.23, 1483.41, -1610.91]
+    - _Cave::Pondside01
+    - _Bubbulfrog::PondsideCave
+    - _Chest<Archaic Tunic>:
+        coord: [238.50, 1469.56, -1558.29]
+    - _Cave::Pondside00
+    - Stamella Shroom:
+        coord: [285.51, 1470.36, -1542.54]
+    - Rauru:
+        coord: [292.91, 1471.36, -1541.89]
+    - Wooden Box for Arrows:
+        coord: [286.21, 1471.59, -1533.07]
+    - Bird Egg x2:
+        coord: [258.73, 1478.84, -1534.34]
+    - _Korok::GSI13
+    - Captain Construct I:
+        coord: [278.35, 1453.82, -1699.25]
+    - Continue to GSI09:
+        movements:
+          - to: [269.13, 1473.50, -1665.53]
+          - to: [280.10, 1477.35, -1647.94]
+          - to: [295.6875, 1469.65, -1579.9375]
+    - Ranger Construct:
+        coord: [421.70, 1470.34, -1545.34]
+    - _Korok::GSI09
+    - Soldier Construct I:
+        coord: [465.74, 1514.77, -1597.34]
+    - Soldier Construct I:
+        coord: [453.81, 1513.81, -1613.17]
+    - Captain Construct I:
+        coord: [462.75, 1514.09, -1605.19]
+    - _Chest<Opal>:
+        coord: [472.06, 1516.06, -1605.33]
+    - _Cave::Mining00
+    - Mining Construct:
+        coord: [430.55, 1505.74, -1641.84]
+    - _Bubbulfrog::MiningCave
+    - Forge Construct:
+        coord: [470.89, 1476.56, -1687.07]
+    - Mining Construct:
+        coord: [475.10, 1476.83, -1646.29]
+    - _Cave::Mining01
+    - Ride the rail:
+        movements:
+          - to: [504.5, 1549.23, -1589.4375]
+          - to: [511.5625, 1549.23, -1563.4375]
+          - to: [445, 1549.23, -1532.375]
+          - to: [441.625, 1549.23, -1558.75]
+          - to: [448.4375, 1549.23, -1641.875]
+    - Rauru:
+        coord: [442.66, 1549.23, -1638.02]
+    - Device Dispenser:
+        coord: [435.44, 1547.82, -1686.19]
+    - _Korok::GSI17
+    - Drop off Korok:
+        coord: [445.40, 1551.59, -1786.62]
+    - _Chest<Zonaite>:
+        coord: [431.96, 1554.57, -1807.92]
+    - _Chest<Portable Pot>:
+        coord: [571.60, 1574.48, -1674.44]
+    - Spicy Pepper:
+        coord: [572.66, 1549.91, -1607.25]
+    - Spicy Pepper:
+        coord: [582.09, 1549.90, -1613.16]
+    - _Cave::Pit00
+    - Spicy Pepper:
+        coord: [596.21, 1551.31, -1620.85]
+    - _Bubbulfrog::PitCave
+    - _Cave::Pit01
+    - _Korok::GSI14
+    - Spicy Pepper:
+        coord: [625.10, 1591.55, -1624.59]
+    - _Korok::GSI12
+    - Rauru:
+        coord: [683.33, 1594.22, -1590.15]
+    - Soldier Construct I:
+        coord: [652.14, 1594.37, -1550.20]
+    - Soldier Construct I:
+        coord: [651.39, 1595.22, -1541.27]
+    - Wooden Box with Arrows:
+        coord: [648.49, 1594.95, -1550.28]
+    - Captain Construct I:
+        coord: [681.01, 1593.72, -1443.63]
+    - _Cave::Bottomless00
+    - _Bubbulfrog::BottomlessCave
+    - _Chest<Amber>:
+        coord: [758.59, 1597.68, -1377.07]
+    - _Chest<Flame Emitter>:
+        coord: [768.30, 1650.36, -1369.63]
+    - _Cave::Bottomless01
+    - _Shrine::Gutanbac
+    - Captain Construct I:
+        coord: [828.60, 1670.11, -1447.48]
+    - Captain Construct I:
+        coord: [816.21, 1670.10, -1455.54]
+    - _Chest<Opal>:
+        coord: [833.90, 1672.20, -1458.00]
+    - _Chest<Archaic Warm Greaves>:
+        coord: [768.12, 1693.40, -1338.25]
+    - _Korok::GSI06
+    - Device Dispenser:
+        coord: [769.09, 1684.46, -1259.54]
+    - _Chest<Wing x3>:
+        coord: [830.38, 1701.84, -1236.37]
+    - Rauru:
+        coord: [748.93, 1670.65, -1266.35]
+    - _Korok::GSI05
+    - Soldier Construct I:
+        coord: [568.48, 1522.15, -1169.92]
+    - _Chest<Wing x3>:
+        coord: [513.34, 1540.64, -1100.15]
+    - The Closed Door - Rauru:
+        coord: [453.51, 1556.17, -849.75]
+    - Find Princess Zelda - Rauru:
+        coord: [453.51, 1573.44, -763.25]
+    - _Warp::ROA
+    - _Shrine::Nachoyah
+    - _Chest<Wing x3>:
+        coord: [379.57, 2441.25, -1698.73]
+    - _Korok::GSI15
+    - _Chest<Large Zonaite>:
+        coord: [588.93, 1579.45, -912.35]
+    - Rauru:
+        coord: [538.02, 1583.77, -916.62]
+    - _Korok::GSI02
+    - Goddess Statue:
+        coord: [453.51, 1571.88, -770.42]
+    - Find Princess Zelda - Rauru:
+        coord: [453.51, 1573.44, -763.25]
+    - Send Decayed Master Sword to Zelda:
+        coord: [453.76, 1579.32, -636.17]
+    - To the Kingdom of Hyrule - Zelda's Voice:
+        coord: [444.82, 1578.02, -631.48]
+  - Paraglider:
+    - Sundelion:
+        line-color: rgb(38, 152, 77)
+        coord: [404.37, 168.55, -688.89]
+    - Sundelion:
+        coord: [469.02, 144.87, -773.63]
+    - Sundelion:
+        coord: [555.89, 127.77, -817.17]
+    - Stambulb:
+        coord: [621.96, 152.85, -682.53]
+    - _Korok::LL62
+    - _Well::BottomlessPond
+    - _Chest<Boomerang>:
+        coord: [682.97, 109.86, -808.69]
+    - Fire Fruit:
+        coord: [381.12, 126.06, -962.53]
+    - Sundelion:
+        coord: [340.41, 131.70, -948.87]
+    - _Shrine::Tajikats
+    - _Discover<Riverside Stable>:
+        coord: [339.1875, 114.90, -1095.375]
+    - Pony Point x2 - Registration:
+        notes: 2
+    - Pony Point - Sleep:
+        notes: 3
+    - _Shop<Beedle>:
+        coord: [304.88, 115.34, -1096.56]
+        notes: Buy Thunderwing Butterfly and Electric Darner
+    - _Item<Staminoka Bass>:
+        coord: [342.88, 114.41, -1121.50]
+    - _Item<Staminoka Bass>:
+        coord: [365.29, 114.41, -1138.02]
+    - _Well::RiversideStable
+    - _Item<Staminoka Bass>:
+        coord: [390.76, 114.41, -1091.11]
+    - Horwell Bridge:
+        movements:
+          - to: [680.25, 118.25, -978]
+    - Fire Fruit:
+        coord: [774.41, 118.25, -996.07]
+    - _Addison::A40
+    - Eagus Bridge:
+        coord: [967.5, 141.91, -943.25]
+    - Lizalfos:
+        coord: [1073.65, 146.51, -780.70]
+    - _Korok::SS32
+    - _Well::LanayruWetlands
+    - Lizalfos:
+        coord: [1338.56, 115.51, -441.28]
+    - _Korok::SS25
+    - Lizalfos:
+        coord: [1492.69, 115.09, -524.38]
+    - Blue Lizalfos:
+        coord: [1761.85, 114.70, -520.09]
+    - _Korok::SS24
+    - _Korok::SS23
+    - Fleet-Lotus Seeds:
+        movements:
+          - to: [1960.23, 115.89, -411.10]
+          - to: [1971.53, 115.89, -396.31]
+          - to: [1966.37, 115.89, -394.99]
+          - to: [1956.15, 115.89, -398.86]
+          - to: [1954.20, 115.89, -396.58]
+          - to: [1954.99, 115.89, -390.16]
+          - to: [1961.26, 115.89, -385.72]
+          - to: [1930.60, 115.89, -373.20]
+          - to: [1927.16, 115.89, -372.86]
+    - Splash Fruit:
+        coord: [1862.45, 119.08, -318.95]
+    - Fleet-Lotus Seeds:
+        movements:
+          - to: [1880.88, 115.89, -309.69]
+          - to: [1886.31, 115.89, -307.62]
+          - to: [1922.88, 115.89, -287.70]
+          - to: [1930.67, 115.89, -285.00]
+          - to: [1952.72, 115.89, -281.17]
+          - to: [1957.32, 115.89, -277.31]
+          - to: [1944.88, 115.89, -273.44]
+          - to: [1918.99, 115.89, -273.71]
+          - to: [1922.01, 115.89, -260.23]
+          - to: [1902.20, 115.89, -245.89]
+          - to: [1907.08, 115.89, -238.26]
+    - Lizalfos:
+        coord: [1858.68, 119.43, -214.38]
+    - Lizalfos:
+        coord: [1891.00, 120.93, -152.00]
+    - _Korok::SS18
+    - Fleet-Lotus Seeds:
+        movements:
+          - to: [1806.70, 115.89, -125.03]
+          - to: [1805.70, 115.89, -132.13]
+          - to: [1792.09, 115.89, -147.62]
+          - to: [1793.93, 115.89, -182.45]
+          - to: [1788.25, 115.89, -165.05]
+          - to: [1782.28, 115.89, -153.09]
+          - to: [1770.63, 115.89, -156.84]
+          - to: [1753.38, 115.89, -163.34]
+          - to: [1725.55, 115.88, -167.83]
+    - Lizalfos:
+        coord: [1697.19, 115.01, -142.59]
+    - Fleet-Lotus Seeds:
+        movements:
+          - to: [1698.95, 115.87, -136.74]
+          - to: [1678.36, 115.89, -134.58]
+          - to: [1677.88, 115.89, -129.79]
+          - to: [1721.82, 115.88, -69.27]
+          - to: [1733.99, 115.87, -42.77]
+          - to: [1689.69, 115.87, -45.03]
+          - to: [1684.73, 115.87, -44.97]
+    - Acticvate Jonsau Shrine:
+        coord: [1743.66, 144.45, 17.59]
+    - Fleet-Lotus Seeds:
+        movements:
+          - to: [1573.62, 115.87, 49.03]
+          - to: [1544.22, 115.87, 61.15]
+          - to: [1541.11, 115.87, 66.74]
+          - to: [1524.20, 115.87, 83.33]
+          - to: [1516.88, 115.87, 85.60]
+    - Lizalfos:
+        movements:
+          - to: [1430.62, 122.00, 35.96]
+          - to: [1422.38, 115.01, 38.47]
+    - _Korok::SS19
+    - _Korok::SS21
+    - _Korok::SS20
+    - Defeat ememy camp:
+        coord: [863.32, 131.48, -283.14]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

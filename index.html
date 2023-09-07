@@ -1,0 +1,1452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+    -->
+    <link rel="stylesheet" href="leaflet/leaflet.css" />
+    <script src="leaflet/leaflet.js"></script>
+    <link rel="stylesheet" href="leaflet/L.Control.MousePosition.css" />
+    <script src="leaflet/L.Control.MousePosition.js"></script>
+    <link rel="stylesheet" href="codemirror/addon/hint/show-hint.css">
+    <script src="codemirror/lib/codemirror.js"></script>
+    <link rel="stylesheet" href="codemirror/lib/codemirror.css">
+    <script src="codemirror/mode/yaml/yaml.js"></script>
+    <script src="codemirror/addon/hint/show-hint.js"></script>
+    <link rel="stylesheet" href="codemirror/theme/base16-dark.css">
+    <link rel="stylesheet" href="codemirror/theme/base16-light.css">
+    <!-- <script src="zmap.js" type="module"></script>-->
+    <!-- https://github.com/nodeca/js-yaml -->
+    <script src="js-yaml.js"></script>
+    <script src="leaflet-canvasicon.js" defer></script>
+    <script src="debounce.js"></script>
+    <title>Not Celer (TotK)</title>
+    <style>
+      body {
+          margin: 0;
+          padding: 0;
+      }
+      #map {
+          display: block;
+          height: 100%;
+          width: 100%;
+
+      }
+      #map0 {
+          position: relative;
+          width: 100%;
+          height: 100%;
+      }
+      .CodeMirror {
+          height: 100%;
+          width: 100%;
+      }
+      #wrap {
+          position: relative;
+          width: 100%;
+          display: flex;
+          height: 100%;
+          background: rgba(0,0,0,0.85);
+      }
+      #messages {
+          position: absolute;
+          display: none;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          font-family: sans-serif;
+          background: rgba(0,0,0,0.7);
+          color: white;
+          min-height: 7em;
+          padding: 1em;
+          overflow: scroll;
+      }
+      #messages div pre {
+          padding:0;
+          margin: 0;
+      }
+      #messages button {
+          cursor: pointer;
+          position: relative;
+          pointer-events: all;
+      }
+      .split {
+          display: flex;
+          flex-direction: row;
+          height: 100vh;
+          width: 100vw;
+      }
+      .gutter {
+          background-color: #eee;
+          background-repeat: no-repeat;
+          background-position: 50%;
+      }
+      .gutter.gutter-horizontal {
+          background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAAIklEQVQoU2M4c+bMfxAGAgYYmwGrIIiDjrELjpo5aiZeMwF+yNnOs5KSvgAAAABJRU5ErkJggg==');
+          cursor: col-resize;
+      }
+      #route0 {
+          position: relative;
+          padding-top: 0.5em;
+          padding-right: 0.0em;
+          padding-bottom: 0.2em;
+          background: black;
+      }
+      #route {
+          width: 100%;
+          height: 100%;
+          overflow: scroll;
+          background: black;
+      }
+      .segment {
+          width: 100%;
+      }
+      .segment_data {
+          display: table;
+          table-layout: fixed;
+          width: 100%;
+      }
+      .segment_title {
+          font-family: sans-serif;
+          background: black;
+          color: yellow;
+          font-size: 1.2em;
+          display: flex;
+          height: inherit;
+          flex-flow: row nowrap;
+      }
+      .segment_title_layer {
+          color: white;
+          font-size: 0.7em;
+          height: 100%;
+          vertical-align: bottom;
+          margin-left: auto;
+          margin-right: 1em;
+          margin-top: auto;
+          margin-bottom: auto;
+      }
+      .segment_line {
+          display: table-row;
+          background: black;
+          color: white;
+          font-family: sans-serif;
+          font-size: 0.9em;
+          width: 100%;
+      }
+      .segment_line > div {
+          padding: 0.2em;
+          border-bottom: 1px solid rgba(255,255,255,0.2);
+          border-left: 1px solid rgba(255,255,255,0.1);
+      }
+      .segment_line_number {
+          border: 0px solid gray;
+          display: table-cell;
+          width:3em;
+          vertical-align: top;
+      }
+      .segment_line_counter {
+          border: 0px solid gray;
+          display: table-cell;
+          width:3em;
+          vertical-align: top;
+      }
+      .segment_line_text {
+          border: 0px solid gray;
+          display: table-cell;
+          min-width: 10em;
+      }
+      .segment_line_text_text {
+          display: table-cell;
+      }
+      .segment_line_text_row {
+          display: flex;
+          flex-flow: row nowrap;
+      }
+      .segment_line_text_icon {
+          width: 50px;
+          min-width: 50px;
+          height: 24px;
+          text-align: center;
+      }
+      .segment_line_text_icon img {
+          width: 100%;
+          height: 100%;
+      }
+      .segment_line_text_column {
+          display: flex;
+          flex-flow: column nowrap;
+          width: 100%;
+      }
+      .segment_line_text_comment {
+          display: table-cell;
+          vertical-align: top;
+          font-size:0.9em;
+          color: #cccccc
+      }
+      .even {
+          color: black;
+          background: #CCCCFB;
+      }
+      .odd {
+          color: black;
+          background: #EEC652;
+      }
+      .segment_line_notes {
+          border: 0px solid gray;
+          display: table-cell;
+          max-width: 20%;
+          vertical-align: top;
+      }
+
+      #missing_stub {
+          cursor: pointer;
+          font-family: sans-serif;
+          font-size: 0.8em;
+          color: white;
+          padding: 0.5em;
+          text-align: right;
+          margin-right: 2em;
+          opacity: 1;
+      }
+      #missing_stub:hover {
+          color: lightblue;
+      }
+      #missing {
+          font-family: sans-serif;
+          position: absolute;
+          bottom: 0;
+          width: 98%;
+          left: 0;
+          display: flex;
+          flex-flow: column nowrap;
+          background: rgba(0,0,0,0.0);
+          color: white;
+          padding-left: 1em;
+          padding-right: 1em;
+          padding-top: 0.1em;
+          padding-bottom: 0.1em;
+
+      }
+      #missing_data {
+          overflow: scroll;
+          height: 0px;
+      }
+      #missing_down {
+          display:none;
+      }
+      #missing_up {
+          display:inline;
+      }
+      .missing_show_hide {
+          display: inline;
+          font-size: 0.8em;
+          cursor: pointer;
+          vertical-align:middle;
+          height: 100%;
+      }
+      .missing_show_hide:hover {
+          color: lightblue;
+      }
+      .missing_summary {
+          display: inline;
+          width: 100%;
+      }
+      .missing_summary_box {
+          display: inline-flex;
+          flex-flow: row nowrap;
+          width: 90%;
+          align-items: center;
+          justify-content: space-between;
+      }
+      summary {
+          width: 100%;
+      }
+      summary:hover {
+          background: rgba(30,30,30,0.8);
+      }
+      #theme {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+      }
+      #search0 {
+          position: absolute;
+          z-index: 40000;
+          bottom: 0;
+          left: 0;
+          background: rgba(0,0,0,0.4);
+          padding: 0.5em;
+          border: 0.5px solid rgba(255,255,255,0.3);
+          border-radius: 0.3em;
+          color: white;
+      }
+      #search0 input {
+          background: inherit;
+          color: inherit;
+          width: 15em;
+          border: 1px solid white;
+          padding: 0.3em;
+          border-radius: 0.3em;
+      }
+      .itiny {
+          font-style: italic;
+          font-size: 0.7em;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app" class="split">
+      <div id="wrap">
+        <textarea id="editor"></textarea>
+        <div id="messages"></div>
+        <div id="theme">
+          <select id="themes">
+            <option value="base16-dark">Dark</option>
+            <option value="base16-light">Light</option>
+          </select>
+        </div>
+      </div>
+      <div id="route0">
+        <div id="route"></div>
+        <div id="missing">
+          <div id="missing_stub">
+            <div id="missing_up">&#9650;</div>
+            <div id="missing_down">&#9660;</div>
+            Missing Items</div>
+          <div id="missing_data"></div>
+        </div>
+      </div>
+      <div id="map0">
+        <div id="map" game="totk"></div>
+        <div id="search0">
+          <input type="text" placeholder="Search objmap..." id="search">
+        </div>
+        <!-- <zelda-map id="map" game="totk"></zelda-map>-->
+      </div>
+    </div>
+    <script src="https://unpkg.com/split.js/dist/split.min.js"></script>
+    <script>
+      let sizes = localStorage.getItem('split-sizes')
+      if(sizes)
+          sizes = JSON.parse(sizes);
+      else
+          sizes = [20, 30, 50];
+      Split([ '#wrap', '#route0','#map0'], {
+          sizes: sizes,
+          minSize: [0, 0, 300],
+          onDragEnd: function (sizes) {
+              localStorage.setItem('split-sizes', JSON.stringify(sizes))
+          },
+      })
+      document.getElementById('missing_stub').addEventListener('click', (ev) => {
+          const md = document.getElementById('missing_data')
+          const h = md.offsetHeight;
+          const up = document.getElementById('missing_up');
+          const dn = document.getElementById('missing_down');
+          const ms = document.getElementById('missing');
+          if(h > 100) {
+              md.style.height = '0px';
+              style="display: inline;"
+              up.style.display = 'inline';
+              dn.style.display = 'none';
+              ms.style.background = 'rgba(0,0,0,0)';
+          } else {
+              md.style.height = '200px';
+              up.style.display = 'none';
+              dn.style.display = 'inline';
+              ms.style.background = 'rgba(0,0,0,0.8)';
+          }
+
+      });
+    </script>
+
+    <script type="text/javascript" defer>
+      const game = "totk";
+
+      const map_options = {
+          TILE_SIZE: 256,
+          MAP_SIZE: [24_000, 20_000],
+          DEFAULT_ZOOM: 5,
+          MIN_ZOOM: 1,
+          MAX_ZOOM: 12,
+      }
+      const crs = L.Util.extend({}, L.CRS.Simple);
+      // @ts-ignore
+      crs.transformation = new L.Transformation(
+          4 / map_options.TILE_SIZE,
+          map_options.MAP_SIZE[0] / map_options.TILE_SIZE,
+          4 / map_options.TILE_SIZE,
+          map_options.MAP_SIZE[1] / map_options.TILE_SIZE);
+
+      let map_el = {};
+
+      const map_ele = document.getElementById('map');
+          const map = new L.Map(map_ele, {
+              attributionControl: false,
+              zoom: map_options.DEFAULT_ZOOM,
+              minZoom: map_options.MIN_ZOOM,
+              maxZoom: map_options.MAX_ZOOM,
+              maxBoundsViscosity: 1.0,
+              crs,
+              preferCanvas: true,
+          })
+          //L.control.attribution({ prefix: false }).addTo(map);
+      map_el = {
+          map: map,
+          level: "Surface",
+      }
+
+      // from leaflet-rastercoords
+      const zoomLevel = Math.ceil(
+          Math.log(Math.max(map_options.MAP_SIZE[0], map_options.MAP_SIZE[1]) / map_options.TILE_SIZE) / Math.log(2)
+      );
+      var sW = map.unproject([0, map_options.MAP_SIZE[1]], zoomLevel);
+      var nE = map.unproject([map_options.MAP_SIZE[0], 0], zoomLevel);
+      map.setMaxBounds(L.latLngBounds(sW, nE));
+
+      map.setView([0, 0], 3);
+      const TOTK_MAP = "https://objmap-totk.zeldamods.org/game_files/map";
+      const BOTW_MAP = "https://objmap.zeldamods.org";
+      const AREAS = ["Sky", "Surface", "Depths"];
+
+      const baseMapLayers = {};
+
+      if (game == "totk") {
+          for (const area of AREAS) {
+              const zarea = (area == "Surface") ? "Ground" : area;
+              baseMapLayers[area] = L.tileLayer(`${TOTK_MAP}/${zarea}/maptex/{z}/{x}/{y}.webp`, {
+                  attribution: '<a href="https://objmap-totk.zeldamods.org/">Zeldamods Object Map</a>',
+                  maxNativeZoom: 7,
+              });
+          }
+          if (!(map_el.level in baseMapLayers))
+              map_el.level = "Surface";
+          baseMapLayers[map_el.level].addTo(map_el.map);
+          L.control.layers(baseMapLayers).addTo(map_el.map);
+      }
+
+      L.control.mousePosition({
+          lngFirst: true,
+          position: 'bottomright',
+          latFormatter: (x => (-x).toFixed(2)),
+          lngFormatter: (x => (x).toFixed(2)),
+      }).addTo(map_el.map);
+
+      let data = undefined;
+
+      const msg_el = document.getElementById('messages');
+
+      function warn(msg) {
+          msg_el.style.display = 'block';
+          msg_el.innerHTML += `<div>${msg}</div>`
+          console.log(msg);
+      }
+
+      function switch_segments(layer) {
+          //console.log(map_el.map);
+          Object.values(SEGMENTS).forEach(seg => {
+              if(seg.layer == layer) {
+                  //console.log(seg.group.getLayers());
+                  seg.group.invoke('addTo', map_el.map)
+              } else {
+                  seg.group.invoke('remove')
+              }
+          });
+      }
+
+      const completions = [
+      ]
+
+      let COMPS = L.layerGroup();
+
+      function meta_from_names(items) {
+          return items.map(x => meta_get(x))
+      }
+      function synonyms(cm, option) {
+          return new Promise(function(accept) {
+              setTimeout(function() {
+                  var cursor = cm.getCursor(), line = cm.getLine(cursor.line)
+                  var start = cursor.ch, end = cursor.ch
+                  while (start && /[A-Za-z0-9_:]/.test(line.charAt(start - 1))) --start
+                  while (end < line.length && /[A-Za-z0-9_:]/.test(line.charAt(end))) ++end
+                  const word = line.slice(start, end);
+                  const k = word.lastIndexOf("::");
+                  if(k == -1) {
+                      console.log('accept null early')
+                      return accept(null)
+                  }
+                  const prefix = word.slice(0,k+2);
+                  //console.log('autocomplete', word, prefix);
+                  const comp = completions;
+                  for (var i = 0; i < comp.length; i++) {
+                      if (comp[i].indexOf(prefix) != -1) {
+                          const items = comp[i].filter(w => w.startsWith(word));
+                          const data = {list: items,
+                                        from: CodeMirror.Pos(cursor.line, start),
+                                        to: CodeMirror.Pos(cursor.line, end)};
+                          const meta_items = items
+                                .map(x => (x[0] == '_') ? x.slice(1) : x)
+                                .map(x => [x, meta_get(x)])
+                                .filter(x => x[0] && x[1])
+                                .map(m => L.circleMarker(ll(m[1].pos), { color: '#ff2c00', radius: 7}).bindTooltip(m[0]));
+                          COMPS.clearLayers();
+                          meta_items.forEach(m => COMPS.addLayer(m));
+                          CodeMirror.on(data, 'shown', () => {
+                              COMPS.invoke('addTo', map_el.map);
+                          });
+                          CodeMirror.on(data, 'close', () => {
+                              COMPS.invoke('remove');
+                          });
+                          return accept(data);
+                      }
+                  }
+                  console.log('accept null')
+                  return accept(null)
+              }, 100)
+          })
+      }
+
+      let theme = localStorage.getItem('theme') || 'base16-dark';
+      localStorage.setItem('theme', theme);
+
+
+      const myCodeMirror = CodeMirror.fromTextArea(
+          document.getElementById('editor'), {
+              lineNumbers: true,
+              mode: 'yaml',
+              extraKeys: {"Tab": "autocomplete"},
+              hintOptions: {
+                  hint: synonyms,
+                  shown: function()  {
+                      console.log('show hints shown')
+                  },
+                  close: function()  {
+                      console.log('show hints closed')
+                  }
+              },
+              theme: theme,
+          });
+      console.log(myCodeMirror);
+
+      //myCodeMirror.hint.on('shown', () => {
+      //    console.log('show hints shown')
+      //});
+
+      document.getElementById('themes').addEventListener('change', (ev) => {
+          const theme = ev.target.value;
+          localStorage.setItem('theme', theme);
+          myCodeMirror.setOption("theme", theme);
+      });
+
+      function get_name(name) {
+          return NAMES[name] || name
+      }
+      const search_debounce = debounce(search, 250)
+      const OBJMAP_MARKERS = L.layerGroup();
+      const TOTK_URL = "https://radar-totk.zeldamods.org/objs/MainAndMinusField/?q=";
+      // =seeds&withMapNames=false&limit=2000
+      async function search(value) {
+          if(value.trim() == ""){
+              OBJMAP_MARKERS.invoke('remove')
+              OBJMAP_MARKERS.clearLayers();
+          }
+          const url = `${TOTK_URL}${value}&withMapNames=false&limit=2000`;
+          let objs;
+          try {
+              const res = await fetch(url);
+              objs = await res.json();
+          } catch(e) {
+              warn(e);
+              return;
+          }
+          OBJMAP_MARKERS.invoke('remove')
+          OBJMAP_MARKERS.clearLayers();
+          for(const obj of objs) {
+              const name = get_name(obj.name);
+              const m = L.circleMarker(
+                  [obj.pos[2],obj.pos[0]],
+                  {radius: 6, color: '#ff2222'})
+                    .bindTooltip(`<div>${name}</div><div class="itiny">Click marker to copy position</div>`)
+                    .addTo(map_el.map)
+                    .on('click', (ev) => {
+                        const pos = `[${obj.pos[0]}, ${obj.pos[1]}, ${-obj.pos[2]}]`;
+                        navigator.clipboard.writeText(pos);
+
+                    });
+              OBJMAP_MARKERS.addLayer(m);
+          }
+      }
+      document.getElementById('search').addEventListener('input', (ev) => {
+          search_debounce(ev.target.value)
+      });
+      function set_route(txt) {
+          localStorage.setItem("route.txt", txt)
+      }
+      function get_route() {
+          return localStorage.getItem("route.txt")
+      }
+
+      const route_debounce = debounce(route_update, 1000);
+      function route_update(txt) {
+          let tmp_data;
+          try {
+              tmp_data = jsyaml.load(txt); // Convert yaml to json
+              xclear();   // Clears map and route
+              data = tmp_data; // Save parsed data to global data variable, eeek!
+              set_route(txt); // Saves route text to localStorage
+              route(); // Draws map and route
+          } catch(e) {
+              msg_clear();
+              console.log(e);
+              warn('Parse Error')
+              e.message.split("\n").forEach(msg => warn(`<pre>${msg}</pre>`));
+          }
+      }
+
+      myCodeMirror.on('change', (instance, changeObj) => {
+          const txt = instance.getValue();
+          route_debounce(txt);
+      });
+
+      function save_metadata() {
+          const blob = new Blob([JSON.stringify(meta, null, 2)], { type: 'application/json' });
+          const a = document.createElement('a');
+          a.href = URL.createObjectURL(blob);
+          a.download = 'celer_botw_metadata.json',
+          a.click();
+      }
+
+      function ll(pt) {
+          const n = pt.length;
+          if(n == 3)
+              return [pt[n-1], pt[0]]
+          warn('Expected  3 points, got', n);
+          return []
+      }
+
+      // Read raw coordinates (not from data files)
+      //  - in format [E-W, U-D, N-S]
+      //  - objmap report North as positive
+      //  - in reality North is negative for the actual data
+      //    - data files reported from radar are already as North negative
+      //    - objmap flips the North-South values for display only
+      function read_xyz(v) {
+          if(v == undefined)
+              return undefined
+          return [v[0], v[1], -v[2]]
+      }
+
+      function get_map_icon(kind, n = undefined) {
+          if(n <= 0 || kind == undefined)
+              return undefined;
+          n = (n !== undefined) ? n : kind.length;
+          const key = kind.slice(0,n).map(v => v.name).join("::");
+          let icon = icons[key];
+          if(!icon)
+              return get_map_icon(kind, n - 1)
+          return icon
+      }
+
+      function marker(kind, pt, name, warp = false) {
+          let icon = get_map_icon(kind);
+          if(icon)
+              return L.marker(ll(pt), { icon: icon }).bindTooltip(name);
+          return L.circleMarker(ll(pt)).bindTooltip(name);
+      }
+
+      function parse_name_to_line(name) {
+          const name_orig = name;
+          if(name[0] != "_") {
+              return {txt: name};
+          }
+          name = name.slice(1)
+          let v = name.split('::');
+          let warp = false;
+          if(v[0] == "Warp") {
+              warp = true;
+              v = v.slice(1);
+          }
+          let m = meta;
+          let sub = undefined;
+          let ele = "";
+          let kind = []
+          for(const el of v) {
+              const k = el.indexOf("<");
+              ele = (k != -1) ? el.slice(0,k) : el;
+              if(m[ele])
+                  m = m[ele]
+              else {
+                  m = undefined;
+                  break
+              }
+              let val = el;
+              sub = undefined ;
+              if(k != -1) {
+                  sub = el.slice(k+1,-1);
+                  if(sub.match(/^[-+0-9., ]+$/)) {
+                      //pos = sub.split(",").map(x => parseFloat(x));
+                      sub = "";
+                  }
+                  val = el.slice(0,k);
+              }
+              kind.push({ name: val, sub })
+          }
+          if(!m) {
+              warn(`Error finding metadata for ${name_orig}`);
+              m = {}
+          }
+          if(sub) {
+              if(!sub.includes(",")) {
+                  return {txt: sub, kind, warp, key: ele}
+              }
+              v = sub.split(",",2).map(x => x.trim());
+              return {txt: v[0], comment: v[1], kind, warp, key: ele}
+          }
+          if(m.DisplayName)
+              return {txt: m.DisplayName, kind, warp, key: ele }
+          if(m.Id)
+              return {txt: m.Id, kind, warp, key: ele }
+          return {txt: name_orig, warp, key: ele, kind}
+      }
+
+      function parse_name(name, pos = undefined) {
+          const name_orig = name;
+          if(name[0] == '_') {
+              //return {markers: [], to: []};
+              name = name.slice(1);
+          } else {
+              return {to: [], markers: []}
+          }
+          //console.log(name, pos);
+          let v = name.split('::');
+          let warp = false;
+          if(v[0] == "Warp") {
+              warp = true;
+              v = v.slice(1);
+          }
+          let n = (v.length > 1) ? v.length - 1 : v.length;
+          let kind = [];
+          let m = meta;
+          let sub = undefined;
+          for(const el of v) {
+              const k = el.indexOf("<");
+              const ele = (k != -1) ? el.slice(0,k) : el;
+              if(m[ele])
+                  m = m[ele]
+              else {
+                  m = undefined;
+                  break
+              }
+              let val = el;
+              if(k != -1) {
+                  sub = el.slice(k+1,-1);
+                  if(sub.match(/^[-+0-9., ]+$/)) {
+                      pos = read_xyz( sub.split(",").map(x => parseFloat(x)) )
+                  }
+                  val = el.slice(0,k);
+              }
+              kind.push({name: val, sub })
+          }
+          if(!m) {
+              warn(`Error finding metadata for ${name_orig}`);
+              m = {}
+          }
+          if(!m.pos && !pos) {
+              //warn(`Metadata for ${name_orig} lacks a pos field or location not set`)
+              //console.log("Metadata for ", v, " lacks a pos field or location not set");
+              return {markers: [], to: []};
+          }
+          if(m.pos && !pos)
+              pos = m.pos;
+          const to = (warp) ? [[], pos]: [pos];
+          const markers = [ marker(kind, pos, v[v.length-1], warp)]
+
+          return {to, markers, icon: kind, keys: v[v.length-1] }
+      }
+
+      function parse_movements(moves) {
+          const marker_states = ['all', 'start', 'end']
+          let marker = 'end';
+          const to = [];
+          for(const v of moves) {
+              if(v.marker) {
+                  let value = v.marker.toLowerCase();
+                  if(marker_states.includes(value)) {
+                      marker = value
+                  } else
+                      warn(`Unknown movement marker value: ${v.marker} [${marker_states}]`)
+                  continue
+              }
+              if(v.to === undefined)
+                  continue
+              let pos = read_xyz(v.to);
+              if(v.warp === true && v.away == true) {
+              } else if(v.away == true && !v.warp) {
+              } else if(v.warp == true && !v.away) {
+                  to.push([])
+                  to.push(pos);
+              } else {
+                  to.push(pos)
+              }
+          }
+          return {to, marker }
+      }
+
+      function parse_object_header(obj, keys) {
+          let to = [];
+          let markers = [];
+          let pos = undefined;
+          let icon = undefined;
+          let has_movement = false;
+          if(!obj[keys])
+              return {to, markers}
+          if(obj[keys]['hide-icon-on-map'] || keys.startsWith('_Tod::')) {
+              return {to, markers}
+          }
+          if(obj[keys]['movements'])
+              has_movement = true;
+
+          // Find possible position
+          if(obj[keys]['coord'])
+              pos = read_xyz(obj[keys]['coord'])
+          else if(obj[keys].movements && obj[keys].movements.some(m => m.to)) {
+              const p = obj[keys].movements.find(m => m.to);
+              pos = read_xyz(p.to)
+          }
+          // Find Icon
+          if(obj[keys].icon && pos)
+              return { to: [pos], markers: [marker(obj[keys].icon,pos,keys, false)],
+                       icon: obj[keys].icon, keys
+                     }
+          //console.log("Parse name", keys, pos);
+          const ret = parse_name(keys, pos);
+          if(ret.to.length == 0)
+              warn(`No coord: or movement::to: found for ${JSON.stringify(obj)}`)
+          if(has_movement) {
+              ret.markers = [];
+              ret.to = [];
+          }
+          return ret;
+      }
+      function capitalize(str) {
+          if(!str)
+              return undefined;
+          return str.charAt(0).toUpperCase() + str.slice(1);
+      }
+      function parse_object(obj) {
+          let keys = Object.keys(obj);
+          if(keys.length != 1) {
+              console.log("Keys > 1");
+              return [];
+          }
+          const to = []
+          const markers = [];
+          let marker_icon = undefined;
+          let marker_keys = undefined;
+          keys = keys[0]
+          if(keys[0] == "_") {
+              const ret = parse_object_header(obj, keys);
+              to.push(...ret.to);
+              markers.push(...ret.markers);
+              //console.log(ret);
+              marker_icon = ret.icon;
+              marker_keys = ret.keys;
+          }
+          const vals = Object.values(obj)[0];
+          if(vals === undefined || vals === null)
+              return {to, markers}
+          let line_color = undefined;
+          let level_set = undefined;
+          for(const [key, val] of Object.entries(vals)) {
+              if(key == "movements") {
+                  const ret = parse_movements(val);
+                  to.push(... ret.to);
+                  const n = ret.to.length;
+                  if(ret.marker == 'start') {
+                      markers.push( marker(marker_icon, ret.to[0], marker_keys))
+                  } else if(ret.marker == 'end') {
+                      markers.push( marker(marker_icon, ret.to[n-1], marker_keys))
+                  } else if(ret.marker == 'all') {
+                      markers.push( ... ret.to.map(pt => marker(marker_icon, pt, marker_keys)))
+                  }
+              } else if (key == "comment") {
+              } else if (key == "line-color") {
+                  line_color = val;
+              } else if (key == "level") {
+                  const tmp = capitalize(val);
+                  if(AREAS.includes(tmp))
+                      level_set = val;
+                  else if(tmp == "Ground")
+                      level_set = "Surface"
+                  else
+                      warn(`Unknown level: ${val} [${AREAS}]`)
+              } else if (key == "hide-icon-on-map") {
+              } else if (key == "notes") {
+              } else if (key == "icon") {
+              } else if (key == "gale") {
+              } else if (key == "fury") {
+              } else if (key == "split-type") {
+              } else if (key == "time-override") {
+              } else if (key == "coord") {
+                  if(val.length != 3) {
+                      warn(`Expected [EW, UD, NS], got a length of ${val.length}`)
+                  } else {
+                      val[2] = -val[2];
+                  }
+                  to.push( val )
+              } else {
+                  console.log("unexpected object key", key);
+              }
+          }
+          //console.log(to);
+          return {to, markers, line_color, level: level_set}
+      }
+
+      let SEGMENTS = {};
+
+      function msg_clear() {
+          msg_el.innerHTML = "";
+          const but = document.createElement('button');
+          but.innerHTML = 'Dismiss';
+          but.id = "dismiss";
+          msg_el.appendChild(but);
+          msg_el.style.display = 'none';
+          but.addEventListener('click', msg_clear)
+          msg_el.addEventListener('click', (ev) => {
+              if(ev.target.id == "dismiss") {
+                  msg_clear();
+              }
+          });
+      }
+
+      let _counters = {
+          Korok: {},
+          Shrine: {},
+          Lightroot: {},
+          Addison: {},
+          Tower: {},
+          Bubbulfrog: {},
+          Cave: {},
+          Well: {},
+          'Enemy::Talus': {},
+          'Enemy::Gleeok': {},
+          'Enemy::Hinox': {},
+          'Enemy::Frox': {},
+          'Enemy::Molduga': {},
+          'Enemy::FluxConstruct': {},
+      };
+      function counter_reset() {
+          Object.keys(_counters).forEach(k => {_counters[k] = {};});
+      }
+      function sum(vals) {
+          return vals.reduce((partialSum, a) => partialSum + a, 0);
+      }
+
+      function counter_inc(key, name, warp) {
+          if(warp)
+              return undefined
+          if(!key)
+              return undefined;
+          key = key.slice(0,-1).map(k => k.name).join('::')
+          if(key in _counters) {
+              if(name in _counters[key])
+                  warn(`Duplicate of ${key} ${name}`)
+              _counters[key][name] = 1;
+              if(key == 'Korok') {
+                  const korok = meta[key][name];
+                  if(korok && korok.korok_type == "Korok Friends")
+                      _counters[key][name] += 1;
+              }
+
+              return sum( Object.values(_counters[key]) );
+          }
+          if(key !== undefined) {
+              //console.log('unknown counter', key, name);
+          }
+          return undefined;
+      }
+
+      function xclear() {
+          msg_clear();
+          route_el.innerHTML = "";
+          Object.values(SEGMENTS).forEach(v => v.group.invoke('remove'));
+          Object.values(SEGMENTS).forEach(g => g.group.clearLayers())
+          nsegments = 1;
+          SEGMENTS = {};
+          nlines = 1;
+          notes_class = "even";
+          counter_reset();
+      }
+
+      function mean(vals) {
+          if(vals.length == 0)
+              return undefined;
+          let sum = 0;
+          for(const v of vals) {
+              if(v === undefined)
+                  continue
+              sum += v;
+          }
+          sum = sum / vals.length;
+          return sum;
+      }
+
+      function route() {
+          let line_color = undefined;
+          let last_point = undefined;
+          for(const segment of data._route) {
+              let level_set = undefined;
+              for(const [name, parts] of Object.entries(segment)) {
+                  const pts = [];
+                  const markers = [];
+                  const lines = [];
+                  const elevation = [];
+                  for(const part of parts) {
+                      const kind = typeof part;
+                      if(kind == "string") {
+                          const ret = parse_name(part);
+                          elevation.push(... ret.to.map(x => x[1]))
+                          pts.push(... ret.to);
+                          markers.push(... ret.markers)
+                          line_color = (ret.line_color) ? ret.line_color : line_color;
+                          level_set = (ret.level) ? ret.level : level_set;
+                      } else if(kind == "object") {
+                          const ret = parse_object(part);
+                          elevation.push(... ret.to.map(x => x[1]))
+                          pts.push(... ret.to);
+                          markers.push(... ret.markers)
+                          line_color = (ret.line_color) ? ret.line_color : line_color;
+                          level_set = (ret.level) ? ret.level : level_set;
+                      } else {
+                          console.log("unexpected kind", kind);
+                      }
+                  }
+                  // Determine Layer from mean of Elevation (y-coord or pos[1])
+                  const mean_ele = mean(elevation);
+                  let layer = "Surface";
+                  if(mean_ele === undefined) {
+                  } else if(mean_ele < 0) {
+                      layer = "Depths";
+                  } else if(mean_ele > 1000) {
+                      layer = "Sky";
+                  }
+                  if(level_set !== undefined) {
+                      layer = level_set;
+                  }
+                  const seg = route_new_segment(name, layer);
+                  for(const part of parts) {
+                      const div = route_new_line(part);
+                      if(div)
+                          seg.appendChild(div)
+                  }
+
+                  let pl = undefined;
+                  if(last_point && last_point.length > 0 && pts.length > 0 && pts[0].length > 0) {
+                      let m = [
+                          [last_point[2], last_point[0]],
+                          [pts[0][2], pts[0][0]]
+                      ];
+                      pl = L.polyline(m, {color: line_color }).bindTooltip('segment connection', {sticky: true});
+                  }
+
+                  
+                  // Get Last actual point
+                  let n = pts.length;
+                  last_point = pts[n-1];
+
+                  let multi = [];
+                  let ll = [];
+                  for(const pt of pts) {
+                      if(pt.length == 3)
+                          ll.push([pt[2], pt[0]])
+                      else if(pt.length == 0) {
+                          multi.push(ll);
+                          ll = [];
+                      }
+                  }
+                  if(ll.length > 0) {
+                      multi.push(ll);
+                  }
+                  multi = multi.filter(m => m.length);
+                  if(line_color === undefined) {
+                      line_color = '#3388ff';
+                  }
+                  const tmp = multi.map(m =>
+                      L.polyline(m, { color: line_color } ).bindTooltip(name, { sticky: true })
+                  )
+                  if(pl)
+                      tmp.push(pl);
+                  SEGMENTS[name] = {
+                      layer,
+                      group: L.layerGroup(tmp),
+                  }
+                  markers.forEach(marker => { SEGMENTS[name].group.addLayer(marker); });
+                  if(SEGMENTS[name].layer == map_el.level) {
+                      SEGMENTS[name].group.invoke('addTo', map_el.map);
+                  }
+                  //MARKERS.push(...markers);
+              }
+          }
+          {
+              const missing = document.getElementById('missing_data');
+              missing.innerHTML = "";
+
+              for(const key of Object.keys(_counters).sort()) {
+                  const det = document.createElement('details');
+                  const sum = document.createElement('summary');
+                  const vals = key.split('::');
+                  let items = meta;
+                  for(const v of vals) {
+                      items = items[v];
+                  }
+                  const ul = document.createElement('ul');
+                  ul.style.marginTop = 0;
+                  ul.style.marginBottom = 0;
+                  ul.style.fontSize = '0.90em';
+                  det.appendChild(ul);
+                  for(const item of Object.keys(items).sort()) {
+                      if(item in _counters[key])
+                          continue
+                      const name = document.createElement('li')
+                      name.textContent = item;
+                      ul.appendChild(name);
+                  }
+                  const xsum = $div();
+                  sum.appendChild(xsum);
+                  xsum.classList.add('missing_summary_box');
+                  const txt = $div();
+                  txt.textContent = key;
+                  txt.classList.add('missing_summary');
+                  xsum.appendChild(txt);
+
+                  const show = $div();
+                  const id = key.replace("::", "_");
+                  show.textContent = "Show"
+                  show.classList.add('missing_show_hide');
+                  show.addEventListener('click', (ev) => {
+                      ev.stopPropagation();
+                      ev.preventDefault();
+                      if(ev.target.textContent == "Show") {
+                          show_type(key);
+                          ev.target.textContent = "Hide";
+                      } else {
+                          hide_type(key);
+                          ev.target.textContent = "Show";
+                      }
+                  });
+                  xsum.appendChild(show);
+
+                  det.appendChild(sum);
+                  missing.appendChild(det);
+              }
+          }
+      }
+
+      function meta_get(key) {
+          const vals = key.split("::");
+          let items = meta;
+          for(const v of vals) {
+              items = items[v];
+          }
+          return items;
+      }
+      const ALL_MARKERS = {};
+      function show_type(key) {
+          const items = meta_get(key);
+          if(!items)
+              return;
+          const group = Object.keys(items).map(key => {
+              const v = items[key];
+              let tooltip = (v.DisplayName != key) ? `${v.DisplayName} ${key}` : key;
+              return L.circleMarker(ll(v.pos), { radius: 6, color: '#ff2222'}).bindTooltip(tooltip)
+          })
+          ALL_MARKERS[key] = L.layerGroup(group);
+          ALL_MARKERS[key].invoke('addTo', map_el.map);
+      }
+      function hide_type(key) {
+          const group = ALL_MARKERS[key];
+          if(!group)
+              return
+          group.invoke('remove')
+      }
+
+
+      
+      async function load_json(filename) {
+          const res = await fetch(filename);
+          return await res.json();
+      }
+
+      let meta = {};
+      let icons = {};
+
+
+      const loadIcon = (name, opts) => new Promise( resolve => {
+          if(opts.canvas) {
+              opts.img = new Image();
+              opts.img.src = opts.iconUrl;
+              opts.drawIcon = function(canvas, type) {
+                  if(type == "icon") {
+                      const ctx = canvas.getContext('2d')
+                      ctx.drawImage(opts.img, 0, 0, opts.iconSize[0],opts.iconSize[1])
+                  }
+              }
+              opts.img.onload = function() {
+                  resolve( L.canvasIcon( opts ))
+              }
+          } else {
+              resolve(L.icon(opts))
+          }
+      });
+
+      function isObject(x) {
+          return(typeof x === 'object' && !Array.isArray(x) && x !== null);
+      }
+
+      let NAMES = {};
+      
+      async function main() {
+          let txt = get_route();
+          if(!txt) {
+              warn("Populating with basic initial route")
+              const res = await fetch('main.celer');
+              txt = await res.text();
+          }
+
+          meta = await load_json('celer_totk_metadata.json')
+          if(meta._icons) {
+              for(const [name, opts] of Object.entries(meta._icons)) {
+                  if(opts.iconUrl)
+                      icons[name] = await loadIcon(name, opts)
+                  for(const [name2, opts2] of Object.entries(meta._icons[name])) {
+                      if(isObject(opts2)) {
+                          //console.log("creating icon", name2, opts2);
+                          icons[`${name}::${name2}`] = await loadIcon(name2, opts2);
+                      }
+                  }
+              }
+          }
+          for(const word of Object.keys(meta)) {
+              if(word == "Enemy") {
+                  for(const sub of Object.keys(meta[word])) {
+                      completions.push([`_Enemy::${sub}::`, ... Object.keys(meta[word][sub]).sort().map(s => `_Enemy::${sub}::${s}`)]);
+                  }
+              }
+              const dc = (word == "Enemy") ? "::" : "";
+              completions.push([`_${word}::`, ... Object.keys(meta[word]).sort().map(s => `_${word}::${s}${dc}`)]);
+          }
+          NAMES = await load_json("names.json");
+          myCodeMirror.setValue(txt);
+          data = jsyaml.load(txt)
+          //route();
+          //Object.values(meta.Addison).forEach(v => L.circleMarker(ll(v.pos), { radius: 6, color: '#ff2222'}).bindTooltip(v.DisplayName).addTo(map_el.map))
+      }
+      main()
+      function $div() {
+          return document.createElement('div')
+      }
+
+      const route_el = document.getElementById('route');
+      let nsegments = 1;
+      let nlines = 1;
+      function route_new_segment(segment_name, layer) {
+          const segment = $div();
+          segment.classList.add('segment')
+          const title = $div();
+          title.classList.add('segment_title');
+          const data = $div();
+          data.classList.add('segment_data');
+          const txt = $div();
+          txt.textContent = `${nsegments}. ${segment_name}`;
+          title.appendChild(txt)
+          const box = document.createElement('input')
+          box.type = 'checkbox';
+          box.checked = true;
+          box.addEventListener('change', (ev) => {
+              if(ev.target.checked) {
+                  SEGMENTS[segment_name].group.invoke('addTo', map);
+              } else {
+                  SEGMENTS[segment_name].group.invoke('remove');
+              }
+          })
+          const layer_div = $div();
+          layer_div.classList.add('segment_title_layer');
+          layer_div.textContent = layer;
+          title.appendChild(box)
+          title.appendChild(layer_div);
+          segment.appendChild(title);
+          route_el.appendChild(segment);
+          segment.appendChild(data);
+          nsegments += 1;
+          return data;
+      }
+
+      let notes_class = "even";
+      function get_route_icon(kind, warp) {
+          if(!kind)
+              return undefined;
+          if(warp)
+              return meta._icons.Warp;
+          let icon = meta._icons;
+          for(const v of kind) {
+              if(!(v.name in icon))
+                  break
+              icon = icon[v.name];
+          }
+          return icon;
+      }
+      function set_route_icon(ret, div) {
+          let kind = get_route_icon(ret.kind, ret.warp);
+          if(kind) {
+              const img = new Image();
+              const size = kind.routeSize;
+              img.src = kind.iconUrl;
+              div.appendChild(img);
+              div.classList.add('segment_line_text_icon');
+              if(size) {
+                  img.style.width = `${size[0]}px`;
+                  img.style.minWidth = `${size[0]}px`;
+                  img.style.height = `${size[1]}px`
+              }
+          }
+      }
+      const template = function(templateString, templateVars){
+          var func = new Function(...Object.keys(templateVars),  "return `"+templateString +"`;")
+          return func(...Object.values(templateVars));
+      }
+
+      function displayString(ret) {
+          const icon = get_route_icon(ret.kind, ret.warp);
+          if(!icon || !icon.displayString)
+              return ret.txt
+          return template(icon.displayString, { txt: ret.txt, key: ret.key })
+      }
+      
+      function route_new_line(part) {
+          if(part == undefined || part == null)
+              return undefined;
+          const line = $div();
+          line.classList.add('segment_line')
+          const num = $div();
+          num.classList.add('segment_line_number');
+          num.textContent = `${nlines}`;
+          line.appendChild(num);
+          nlines += 1
+
+          const counter = $div();
+          counter.classList.add('segment_line_counter');
+          line.appendChild(counter);
+
+          const text_cell = $div();
+          text_cell.classList.add('segment_line_text');
+          line.appendChild(text_cell);
+
+          const text_cell_wrap = $div()
+          text_cell_wrap.classList.add('segment_line_text_row')
+          text_cell.appendChild(text_cell_wrap);
+          const icon = $div();
+          text_cell_wrap.appendChild(icon);
+          const text_cell_wrap_col = $div();
+          text_cell_wrap_col.classList.add('segment_line_text_column')
+          text_cell_wrap.appendChild(text_cell_wrap_col);
+          const text = $div();
+          text.classList.add('segment_line_text_text');
+          text_cell_wrap_col.appendChild(text);
+          const comment = $div();
+          comment.classList.add('segment_line_text_comment');
+          text_cell_wrap_col.appendChild(comment);
+
+          const notes = $div();
+          notes.classList.add('segment_line_notes');
+          line.appendChild(notes);
+          if(typeof part == "string") {
+              const ret = parse_name_to_line(part);
+              const count = counter_inc(ret.kind, ret.key, ret.warp);
+              if(count != undefined) {
+                  counter.textContent = `${count}`;
+                  counter.title = ret.kind;
+              }
+              set_route_icon(ret, icon)
+              text.textContent = displayString(ret)
+
+              if(ret.comment)
+                  comment.textContent = ret.comment;
+              return line;
+          }
+          const name = Object.keys(part)[0]
+          const vals = part[name];
+          if(!vals)
+              return undefined;
+          const ret = parse_name_to_line(name);
+          const count = counter_inc(ret.kind, ret.key, ret.warp);
+          if(count != undefined) {
+              counter.textContent = `${count}`;
+              counter.title = ret.kind;
+          }
+          set_route_icon(ret, icon)
+          text.textContent = ret.txt;
+          if(vals.notes) {
+              notes.textContent = vals.notes;
+              notes.classList.add(notes_class);
+              notes_class = (notes_class == "even") ? "odd" : "even";
+          }
+          if(ret.comment)
+              comment.textContent = ret.comment;
+          else if(vals.comment)
+              comment.textContent = vals.comment;
+
+          return line;
+      }
+
+      map_el.map.on('baselayerchange', (ev) => {
+          switch_segments(ev.name);
+          map_el.level = ev.name;
+      });
+
+
+      function find_top_element(kids) {
+          let k = 0;
+          for(const v of kids) {
+              let top = v.offsetTop - (route_el.scrollTop + route_el.offsetTop);
+              //console.log(k, v.offsetTop, route_el.scrollTop, route_el.offsetTop, top);
+              if(top >= 0) {
+                  return k;
+              }
+              k += 1;
+          }
+          return undefined;
+      }
+      /*
+      window.addEventListener('keydown', (ev) => {
+          if(ev.key == "ArrowDown") {
+              const kids = Array.from(route_el.children);
+              let k = find_top_element(kids);
+              if(k === undefined)
+                  return
+              k = (k > 0) ? k - 1 : k;
+              console.log('kids', k, kids[k]);
+              const gkids = Array.from(kids[k].children)
+              let i = find_top_element(gkids);
+              if(i === undefined)
+                  return
+              console.log('gkids', i, gkids[i]);
+              i = (i+1 < gkids.length)? i+1 : i;
+              gkids[i].scrollIntoView(true);
+              ev.stopPropagation()
+              ev.preventDefault()
+          }
+          if(ev.key == "ArrowUp") {
+          }
+      });
+      */
+      </script>
+  </body>
+</html>

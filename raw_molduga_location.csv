@@ -1,0 +1,5 @@
+objid,map_type,Location,Id,hash_id,name,scale,equip,map_static,korok_id,korok_type,x,y,z
+11489,MainField,Toruma Dunes,SG04,0x0a00113ed5e79610,Enemy_Sandworm,0,None,1,None,None,-4797.12,133.21,2800.42
+11775,MainField,Northern Gerudo Desert,SG01,0xdf8f967c7441e7fe,Enemy_Sandworm,0,None,1,None,None,-4029,148.9,2589.12
+45798,MainField,Central Gerudo Desert,SG02,0x0a00113e4927f094,Enemy_Sandworm,0,None,1,None,None,-3323.2,121.37,3315.89
+76225,MainField,Siwakama Shrine,SG03,0xd99cee361966b53a,Enemy_Sandworm,0,None,1,None,None,-2401,128.08,3268.04

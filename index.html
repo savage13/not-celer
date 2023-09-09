@@ -1408,7 +1408,7 @@
               counter.title = ret.kind;
           }
           set_route_icon(ret, icon)
-          text.textContent = ret.txt;
+          text.textContent = displayString(ret);
           if(vals.notes) {
               notes.textContent = vals.notes;
               notes.classList.add(notes_class);

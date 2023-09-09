@@ -31,7 +31,7 @@ for r in data:
         "pos": r['pos'], "Location": r["Location"],
         "DisplayName": name, "hash_id": r["hash_id"],
     }
-for file in ["raw_korok.json", "raw_korok2.json"]:
+for file in ["raw_korok.json"]:
     data = json.load(open(file, "r"))
     for r in data:
         name = r['korok_id']
@@ -39,6 +39,9 @@ for file in ["raw_korok.json", "raw_korok2.json"]:
             "pos": r['pos'], "korok_type": r['korok_type'],
             "DisplayName": name, "hash_id": r["hash_id"],
         }
+for k,v in json.load(open("raw_korok3.json", "r")).items():
+    koroks[k] = v
+
 data = json.load(open("raw_addison.json", "r"))
 k = 0
 for r in data:

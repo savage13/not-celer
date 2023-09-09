@@ -191,6 +191,13 @@ out = {
     "Material": {},
     "Item": {},
     "Npc": npcs,
+    "TechLab": {
+        "Hateno": {
+            "pos": [3777.71, 335.31, 2127.36],
+            "hash_id": "0x69e2b123da91ebdb",
+            "DisplayName": "Hateno Ancient Tech Lab",
+        }
+    },
     "_icons": {
         "Npc": {
             "iconUrl": "npc.png",
@@ -210,6 +217,7 @@ out = {
             "iconSize": [24,24],
             "iconAnchor": [12,12],
             "routeSize": [24,24],
+            "displayString": "${key}"
         },
         "Memory": {
             "iconUrl": "memory.png",
@@ -279,10 +287,10 @@ out = {
             "routeSize": [20,20],
             "displayString": "${txt} ${meta.korok_type}",
             "Start": {
-                "iconUrl": "mapicon_korok2.png",
-                "iconSize": [19,20],
-                "iconAnchor": [9, 10],
-                "routeSize": [20,20],
+                "iconUrl": "korok_backpack.png",
+                "iconSize": [28,28],
+                "iconAnchor": [14, 14],
+                "routeSize": [26,26],
             }
         },
         "Shrine": {
@@ -294,7 +302,8 @@ out = {
                 "iconUrl": "crystal.png",
                 "iconSize": [32, 32],
                 "iconAnchor": [18, 18],
-                "routeSize": [32,32],
+                "routeSize": [26,26],
+                "displayString": "Shrine Crystal",
             }
         },
         "Tower": {
@@ -385,7 +394,12 @@ out = {
             "iconAnchor": [16, 16],
             "routeSize": [32,32],
         },
-
+        "TechLab": {
+            "iconUrl": "mapicon_labo.svg",
+            "iconSize": [32, 32],
+            "iconAnchor": [16, 16],
+            "routeSize": [32,32],
+        }
     }
 }
 with open("celer_totk_metadata.json", "w") as f:

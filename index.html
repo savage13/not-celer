@@ -1322,9 +1322,13 @@
           if(warp)
               return meta._icons.Warp;
           let icon = meta._icons;
-          for(const v of kind) {
-              if(!(v.name in icon))
+          for(let i = 0; i < kind.length; i++) {
+              const v = kind[i];
+              if(!(v.name in icon)) {
+                  if(i+1 < kind.length && kind[i+1].name in icon)
+                      icon = icon[kind[i+1].name]
                   break
+              }
               icon = icon[v.name];
           }
           return icon;

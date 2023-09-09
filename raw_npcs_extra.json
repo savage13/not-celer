@@ -20,5 +20,11 @@
         "hash_id": "0x4dd53f6787d02fcd",
         "DisplayName": "Mattison's Notebook",
         "note": "TwnObj_UMiiVillage033Book"
+    },
+    "Garini_Lookout_Landing": {
+        "pos": [-208.90, 124.75, -80.60],
+        "hash_id": "0xedc18d827e8f03cd",
+        "DisplayName": "Garini",
+        "note": "AnchorAction1"
     }
 }

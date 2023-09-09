@@ -41483,6 +41483,27 @@
       "hash_id": "0x4dd53f6787d02fcd",
       "DisplayName": "Mattison's Notebook",
       "note": "TwnObj_UMiiVillage033Book"
+    },
+    "Garini_Lookout_Landing": {
+      "pos": [
+        -208.9,
+        124.75,
+        -80.6
+      ],
+      "hash_id": "0xedc18d827e8f03cd",
+      "DisplayName": "Garini",
+      "note": "AnchorAction1"
+    }
+  },
+  "TechLab": {
+    "Hateno": {
+      "pos": [
+        3777.71,
+        335.31,
+        2127.36
+      ],
+      "hash_id": "0x69e2b123da91ebdb",
+      "DisplayName": "Hateno Ancient Tech Lab"
     }
   },
   "_icons": {
@@ -41530,7 +41551,8 @@
       "routeSize": [
         24,
         24
-      ]
+      ],
+      "displayString": "${key}"
     },
     "Memory": {
       "iconUrl": "memory.png",
@@ -41690,18 +41712,18 @@
       ],
       "displayString": "${txt} ${meta.korok_type}",
       "Start": {
-        "iconUrl": "mapicon_korok2.png",
+        "iconUrl": "korok_backpack.png",
         "iconSize": [
-          19,
-          20
+          28,
+          28
         ],
         "iconAnchor": [
-          9,
-          10
+          14,
+          14
         ],
         "routeSize": [
-          20,
-          20
+          26,
+          26
         ]
       }
     },
@@ -41730,9 +41752,10 @@
           18
         ],
         "routeSize": [
-          32,
-          32
-        ]
+          26,
+          26
+        ],
+        "displayString": "Shrine Crystal"
       }
     },
     "Tower": {
@@ -41936,6 +41959,21 @@
     },
     "ROA": {
       "iconUrl": "special.png",
+      "iconSize": [
+        32,
+        32
+      ],
+      "iconAnchor": [
+        16,
+        16
+      ],
+      "routeSize": [
+        32,
+        32
+      ]
+    },
+    "TechLab": {
+      "iconUrl": "mapicon_labo.svg",
       "iconSize": [
         32,
         32

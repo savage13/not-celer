@@ -1,0 +1,531 @@
+[
+  {
+    "drop": null,
+    "equip": null,
+    "hash_id": "0x24e0ddcf4ef9cfc3",
+    "korok_id": null,
+    "korok_type": null,
+    "map_static": 1,
+    "map_type": "MainField",
+    "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceShort",
+    "objid": 48668,
+    "pos": [
+      -2685.3,
+      347.35,
+      -3354.53
+    ],
+    "scale": 0,
+    "DungeonNum": "Dungeon132"
+  },
+  {
+    "drop": null,
+    "equip": null,
+    "hash_id": "0xe2ce3ada2898c8ea",
+    "korok_id": null,
+    "korok_type": null,
+    "map_static": 1,
+    "map_type": "MainField",
+    "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceLong",
+    "objid": 100663,
+    "pos": [
+      -1900.12,
+      104.67,
+      2341.6
+    ],
+    "scale": 0,
+    "DungeonNum": "Dungeon079"
+  },
+  {
+    "drop": null,
+    "equip": null,
+    "hash_id": "0x5297ed9e384ac331",
+    "korok_id": null,
+    "korok_type": null,
+    "map_static": 1,
+    "map_type": "MainField",
+    "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceMiddle",
+    "objid": 131319,
+    "pos": [
+      -695.63,
+      279.25,
+      3393.81
+    ],
+    "scale": 0,
+    "DungeonNum": "Dungeon131"
+  },
+  {
+    "drop": null,
+    "equip": null,
+    "hash_id": "0xee17328de769487a",
+    "korok_id": null,
+    "korok_type": null,
+    "map_static": 1,
+    "map_type": "MainField",
+    "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceShort",
+    "objid": 138781,
+    "pos": [
+      562.7,
+      265.72,
+      -2164.75
+    ],
+    "scale": 0,
+    "DungeonNum": "Dungeon115"
+  },
+  {
+    "drop": null,
+    "equip": null,
+    "hash_id": "0x16d581548967731e",
+    "korok_id": null,
+    "korok_type": null,
+    "map_static": 1,
+    "map_type": "MainField",
+    "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceShort",
+    "objid": 138838,
+    "pos": [
+      97.27,
+      282.06,
+      -2370.01
+    ],
+    "scale": 0,
+    "DungeonNum": "Dungeon108"
+  },
+  {
+    "drop": null,
+    "equip": null,
+    "hash_id": "0xbd88bd15efcc10b7",
+    "korok_id": null,
+    "korok_type": null,
+    "map_static": 1,
+    "map_type": "MainField",
+    "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceLong",
+    "objid": 227873,
+    "pos": [
+      2678.52,
+      231.65,
+      1375.18
+    ],
+    "scale": 0,
+    "DungeonNum": "Dungeon112"
+  },
+  {
+    "drop": null,
+    "equip": null,
+    "hash_id": "0xec4eb7e38970a833",
+    "korok_id": null,
+    "korok_type": null,
+    "map_static": 1,
+    "map_type": "MainField",
+    "name": "FldObj_ZonauShrine_KeyCrystal",
+    "objid": 247739,
+    "pos": [
+      3920.64,
+      235.33,
+      -1597.58
+    ],
+    "scale": 0,
+    "DungeonNum": "Dungeon134"
+  },
+  {
+    "drop": null,
+    "equip": null,
+    "hash_id": "0xa2dc3ff2d55172b8",
+    "korok_id": null,
+    "korok_type": null,
+    "map_static": 1,
+    "map_type": "MainField",
+    "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceLong",
+    "objid": 247787,
+    "pos": [
+      3921.66,
+      235.21,
+      -1594.68
+    ],
+    "scale": 0,
+    "DungeonNum": "Dungeon134"
+  },
+  {
+    "drop": null,
+    "equip": null,
+    "hash_id": "0x7946a887946aab1d",
+    "korok_id": null,
+    "korok_type": null,
+    "map_static": 1,
+    "map_type": "MainField",
+    "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceMiddle",
+    "objid": 501741,
+    "pos": [
+      3831.55,
+      1271.71,
+      -1585.17
+    ],
+    "scale": 0,
+    "DungeonNum": "Dungeon110"
+  },
+  {
+    "drop": null,
+    "equip": null,
+    "hash_id": "0xa417f225358a7dea",
+    "korok_id": null,
+    "korok_type": null,
+    "map_static": 1,
+    "map_type": "MainField",
+    "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceLong",
+    "objid": 502165,
+    "pos": [
+      4521.57,
+      1526.69,
+      -2104.29
+    ],
+    "scale": 0,
+    "DungeonNum": "Dungeon099"
+  },
+  {
+    "drop": null,
+    "equip": null,
+    "hash_id": "0x33986103f9cc5254",
+    "korok_id": null,
+    "korok_type": null,
+    "map_static": 1,
+    "map_type": "MainField",
+    "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceMiddle",
+    "objid": 503012,
+    "pos": [
+      -1345.9,
+      1114.8,
+      1383.8
+    ],
+    "scale": 0,
+    "DungeonNum": "Dungeon145"
+  },
+  {
+    "drop": null,
+    "equip": null,
+    "hash_id": "0xbd5a5aa92a9a93c1",
+    "korok_id": null,
+    "korok_type": null,
+    "map_static": 1,
+    "map_type": "MainField",
+    "name": "FldObj_ZonauShrine_KeyCrystal_DropWhirlingWaves",
+    "objid": 504058,
+    "pos": [
+      122.64,
+      778.62,
+      2508.3
+    ],
+    "scale": 0,
+    "DungeonNum": "Dungeon092"
+  },
+  {
+    "drop": null,
+    "equip": null,
+    "hash_id": "0x22fecbf66908dcc5",
+    "korok_id": null,
+    "korok_type": null,
+    "map_static": 1,
+    "map_type": "MainField",
+    "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceLong",
+    "objid": 504572,
+    "pos": [
+      1700.01,
+      757.98,
+      1841.51
+    ],
+    "scale": 0,
+    "DungeonNum": "Dungeon150"
+  },
+  {
+    "drop": null,
+    "equip": null,
+    "hash_id": "0x82cec88f7cb5d1b6",
+    "korok_id": null,
+    "korok_type": null,
+    "map_static": 1,
+    "map_type": "MainField",
+    "name": "FldObj_ZonauShrine_KeyCrystal_Zonau_BlockMaster",
+    "objid": 505685,
+    "pos": [
+      3051.21,
+      1307.92,
+      2762.53
+    ],
+    "scale": 0,
+    "DungeonNum": "Dungeon093"
+  },
+  {
+    "drop": null,
+    "equip": null,
+    "hash_id": "0xb162dc9bcb3999a9",
+    "korok_id": null,
+    "korok_type": null,
+    "map_static": 1,
+    "map_type": "MainField",
+    "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceMiddle",
+    "objid": 506877,
+    "pos": [
+      -1723.41,
+      1050.94,
+      -3528.65
+    ],
+    "scale": 0,
+    "DungeonNum": "Dungeon151"
+  },
+  {
+    "drop": null,
+    "equip": null,
+    "hash_id": "0x6c0c94652d871a5e",
+    "korok_id": null,
+    "korok_type": null,
+    "map_static": 1,
+    "map_type": "MainField",
+    "name": "FldObj_ZonauShrine_KeyCrystal_Zonau_BlockMaster",
+    "objid": 507247,
+    "pos": [
+      436.16,
+      1768.3,
+      -2470.61
+    ],
+    "scale": 0,
+    "DungeonNum": "Dungeon149"
+  },
+  {
+    "drop": null,
+    "equip": null,
+    "hash_id": "0xed9545649571fac1",
+    "korok_id": null,
+    "korok_type": null,
+    "map_static": 1,
+    "map_type": "MainField",
+    "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceMiddle",
+    "objid": 508569,
+    "pos": [
+      1827.31,
+      1030.72,
+      1370.25
+    ],
+    "scale": 0,
+    "DungeonNum": "Dungeon127"
+  },
+  {
+    "drop": null,
+    "equip": null,
+    "hash_id": "0xf01d7a7a5ac148cb",
+    "korok_id": null,
+    "korok_type": null,
+    "map_static": 1,
+    "map_type": "MainField",
+    "name": "FldObj_ZonauShrine_KeyCrystal",
+    "objid": 509705,
+    "pos": [
+      4828.17,
+      2003.04,
+      786.13
+    ],
+    "scale": 0,
+    "DungeonNum": "Dungeon066"
+  },
+  {
+    "drop": null,
+    "equip": null,
+    "hash_id": "0x4771e2e05982f074",
+    "korok_id": null,
+    "korok_type": null,
+    "map_static": 1,
+    "map_type": "MainField",
+    "name": "FldObj_ZonauShrine_KeyCrystal_Zonau_BlockMaster",
+    "objid": 511782,
+    "pos": [
+      -3434.3,
+      1540.95,
+      -660.33
+    ],
+    "scale": 0,
+    "DungeonNum": "Dungeon117"
+  },
+  {
+    "drop": null,
+    "equip": null,
+    "hash_id": "0x3d98ad0277e96dec",
+    "korok_id": null,
+    "korok_type": null,
+    "map_static": 1,
+    "map_type": "MainField",
+    "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceShort",
+    "objid": 524225,
+    "pos": [
+      2628.81,
+      636.22,
+      -2745.73
+    ],
+    "scale": 0,
+    "DungeonNum": "Dungeon089"
+  },
+  {
+    "drop": null,
+    "equip": null,
+    "hash_id": "0xb2d535820b5260c2",
+    "korok_id": null,
+    "korok_type": null,
+    "map_static": 1,
+    "map_type": "MainField",
+    "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceMiddle",
+    "objid": 526184,
+    "pos": [
+      2492.98,
+      241.55,
+      -1855.12
+    ],
+    "scale": 0,
+    "DungeonNum": "Dungeon098"
+  },
+  {
+    "drop": null,
+    "equip": null,
+    "hash_id": "0x3175136757da2227",
+    "korok_id": null,
+    "korok_type": null,
+    "map_static": 1,
+    "map_type": "MainField",
+    "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceShort",
+    "objid": 527865,
+    "pos": [
+      116.31,
+      17.23,
+      2505.8
+    ],
+    "scale": 0,
+    "DungeonNum": "Dungeon092"
+  },
+  {
+    "drop": null,
+    "equip": null,
+    "hash_id": "0xdef056108a354fc5",
+    "korok_id": null,
+    "korok_type": null,
+    "map_static": 1,
+    "map_type": "MainField",
+    "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceShort",
+    "objid": 538453,
+    "pos": [
+      -2994.74,
+      605.3,
+      -3159.65
+    ],
+    "scale": 0,
+    "DungeonNum": "Dungeon111"
+  },
+  {
+    "drop": null,
+    "equip": null,
+    "hash_id": "0x387351493b54323d",
+    "korok_id": null,
+    "korok_type": null,
+    "map_static": 1,
+    "map_type": "MainField",
+    "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceShort",
+    "objid": 540905,
+    "pos": [
+      -2273.59,
+      212.23,
+      719.7
+    ],
+    "scale": 0,
+    "DungeonNum": "Dungeon100"
+  },
+  {
+    "drop": {
+      "type": "Table",
+      "value": [
+        "Default"
+      ]
+    },
+    "equip": [
+      "GiantGreave_Iron_L"
+    ],
+    "hash_id": "0xb55cec0424d8dc0a",
+    "korok_id": null,
+    "korok_type": null,
+    "map_static": 1,
+    "map_type": "MainField",
+    "name": "Enemy_Giant_Junior_KeyCrystal",
+    "objid": 540907,
+    "pos": [
+      -2274.74,
+      211.15,
+      723
+    ],
+    "scale": 0,
+    "DungeonNum": "Dungeon100"
+  },
+  {
+    "drop": null,
+    "equip": null,
+    "hash_id": "0xa1cd7f898229b33e",
+    "korok_id": null,
+    "korok_type": null,
+    "map_static": 1,
+    "map_type": "MainField",
+    "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceMiddle",
+    "objid": 541896,
+    "pos": [
+      2448.21,
+      78.25,
+      2191.4
+    ],
+    "scale": 0,
+    "DungeonNum": "Dungeon107"
+  },
+  {
+    "drop": null,
+    "equip": null,
+    "hash_id": "0x8647d7ba54f63a27",
+    "korok_id": null,
+    "korok_type": null,
+    "map_static": 1,
+    "map_type": "MainField",
+    "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceMiddle",
+    "objid": 541920,
+    "pos": [
+      2373.22,
+      66.91,
+      2285.88
+    ],
+    "scale": 0,
+    "DungeonNum": "Dungeon107"
+  },
+  {
+    "drop": null,
+    "equip": null,
+    "hash_id": "0x180712a79453b00b",
+    "korok_id": null,
+    "korok_type": null,
+    "map_static": 1,
+    "map_type": "MainField",
+    "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceMiddle",
+    "objid": 545117,
+    "pos": [
+      2923.39,
+      257.65,
+      -216.68
+    ],
+    "scale": 0,
+    "DungeonNum": "Dungeon101"
+  },
+  {
+    "drop": null,
+    "equip": null,
+    "hash_id": "0x341e05beed44a02f",
+    "korok_id": null,
+    "korok_type": null,
+    "map_static": 1,
+    "map_type": "MainField",
+    "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceShort",
+    "objid": 546058,
+    "pos": [
+      -3943.69,
+      179.25,
+      -1057.02
+    ],
+    "scale": 0,
+    "DungeonNum": "Dungeon103"
+  }
+]

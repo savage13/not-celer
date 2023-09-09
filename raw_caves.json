@@ -2482,7 +2482,22 @@
       ],
       "scale" : 0
    },
-   {
+    {
+        "Location": "Cave_Lanayru_0031",
+        "objid":544323,
+        "map_type":"MainField",
+        "map_name":"Cave__Cave_Lanayru_0031_GroupSet_000",
+        "hash_id":"0x520a9ab0feae84bc",
+        "name":"Cave_Lanayru_0031",
+        "scale":0,
+        "equip":null,
+        "map_static":1,
+        "korok_id":null,
+        "korok_type":null,
+        "drop":null,
+        "pos":[3692.88,278.28,-609.84]
+    },
+    {
       "Location" : "Cave_Lanayru_0032",
       "drop" : null,
       "equip" : null,

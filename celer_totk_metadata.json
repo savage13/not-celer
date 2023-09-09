@@ -26310,6 +26310,15 @@
       "DisplayName": "Upland Zorana Mountainside Cave",
       "hash_id": "0x54ad2731bf27d2dc"
     },
+    "PristineSanctum00": {
+      "pos": [
+        3692.88,
+        278.28,
+        -609.84
+      ],
+      "DisplayName": "Pristine Sanctum",
+      "hash_id": "0x520a9ab0feae84bc"
+    },
     "UplandZoranaMountainside01": {
       "pos": [
         2633.57,

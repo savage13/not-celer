@@ -26312,12 +26312,21 @@
     },
     "PristineSanctum00": {
       "pos": [
-        3692.88,
-        278.28,
-        -609.84
+        3622.33,
+        275,
+        -583.49
       ],
       "DisplayName": "Pristine Sanctum",
-      "hash_id": "0x520a9ab0feae84bc"
+      "hash_id": "0xe33d25b0cc90c57a"
+    },
+    "PristineSanctum01": {
+      "pos": [
+        3708.02,
+        448.5,
+        -608.69
+      ],
+      "DisplayName": "Pristine Sanctum",
+      "hash_id": "0x00dbdc4a244c14f2"
     },
     "UplandZoranaMountainside01": {
       "pos": [

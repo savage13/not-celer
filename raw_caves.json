@@ -2483,19 +2483,34 @@
       "scale" : 0
    },
     {
-        "Location": "Cave_Lanayru_0031",
-        "objid":544323,
+        "objid":252554,
         "map_type":"MainField",
-        "map_name":"Cave__Cave_Lanayru_0031_GroupSet_000",
-        "hash_id":"0x520a9ab0feae84bc",
-        "name":"Cave_Lanayru_0031",
+        "map_name":"I-4",
+        "hash_id":"0xe33d25b0cc90c57a",
+        "name":"LocationArea",
         "scale":0,
         "equip":null,
         "map_static":1,
         "korok_id":null,
         "korok_type":null,
         "drop":null,
-        "pos":[3692.88,278.28,-609.84]
+        "Location":"Zora_Imperial_Palace",
+        "pos":[3622.33,275,-583.49]
+    },
+    {
+        "objid":252555,
+        "map_type":"MainField",
+        "map_name":"I-4",
+        "hash_id":"0x00dbdc4a244c14f2",
+        "name":"LocationArea",
+        "scale":0,
+        "equip":null,
+        "map_static":1,
+        "korok_id":null,
+        "korok_type":null,
+        "drop":null,
+        "Location":"Zora_Imperial_Palace",
+        "pos":[3708.02,448.5,-608.69]
     },
     {
       "Location" : "Cave_Lanayru_0032",

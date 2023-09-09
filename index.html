@@ -973,6 +973,10 @@
               return undefined
           if(!key)
               return undefined;
+          if(key[key.length-1].name == 'Start')
+              return undefined;
+          if(key[key.length-1].name == 'End')
+              key.pop()
           key = key.slice(0,-1).map(k => k.name).join('::')
           if(key in _counters) {
               if(name in _counters[key])

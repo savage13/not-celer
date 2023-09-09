@@ -30385,6 +30385,25 @@
       ],
       "hash_id": "0x96fb9defadcd67c2",
       "note": "Actually a AnchorAction2"
+    },
+    "Cucco": {
+      "pos": [
+        3227.84,
+        324.6,
+        -1785.56
+      ],
+      "hash_id": "0x1c13d67dc6267420",
+      "DisplayName": "The All-Clucking Cucco"
+    },
+    "MattisonsNotebook": {
+      "pos": [
+        3936.1,
+        241.83,
+        -1593.1
+      ],
+      "hash_id": "0x4dd53f6787d02fcd",
+      "DisplayName": "Mattison's Notebook",
+      "note": "TwnObj_UMiiVillage033Book"
     }
   },
   "_icons": {
@@ -30589,7 +30608,8 @@
       "routeSize": [
         20,
         20
-      ]
+      ],
+      "displayString": "${txt} ${meta.korok_type}"
     },
     "Shrine": {
       "iconUrl": "shrine.png",

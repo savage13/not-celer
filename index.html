@@ -593,7 +593,7 @@
       function get_route() {
           return localStorage.getItem("route.txt")
       }
-
+      let NOW = true;
       const route_debounce = debounce(route_update, 1000);
       function route_update(txt) {
           let tmp_data;
@@ -613,6 +613,11 @@
 
       myCodeMirror.on('change', (instance, changeObj) => {
           const txt = instance.getValue();
+          if(NOW) {
+              route_update(txt);
+              NOW = false;
+              return
+          }
           route_debounce(txt);
       });
 
@@ -1245,9 +1250,6 @@
           }
           NAMES = await load_json("names.json");
           myCodeMirror.setValue(txt);
-          data = jsyaml.load(txt)
-          //route();
-          //Object.values(meta.Addison).forEach(v => L.circleMarker(ll(v.pos), { radius: 6, color: '#ff2222'}).bindTooltip(v.DisplayName).addTo(map_el.map))
       }
       main()
       function $div() {
@@ -1289,6 +1291,18 @@
           return data;
       }
 
+      function get_meta_item(kind) {
+          if(!kind)
+              return undefined
+          let m = meta;
+          for(const v of kind) {
+              if(!v.name in m)
+                  break
+              m = m[v.name]
+          }
+          return m;
+      }
+
       let notes_class = "even";
       function get_route_icon(kind, warp) {
           if(!kind)
@@ -1327,9 +1341,11 @@
           const icon = get_route_icon(ret.kind, ret.warp);
           if(!icon || !icon.displayString)
               return ret.txt
-          return template(icon.displayString, { txt: ret.txt, key: ret.key })
+          return template(icon.displayString, {
+              txt: ret.txt, key: ret.key, meta: get_meta_item(ret.kind)
+          })
       }
-      
+
       function route_new_line(part) {
           if(part == undefined || part == null)
               return undefined;

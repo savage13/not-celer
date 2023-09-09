@@ -1,0 +1,24 @@
+{
+    "Yunobo_Death_Mtn": {
+        "pos": [2389.38, 938.94, -2575.37],
+        "DisplayName": "Yunobo",
+        "hash_id": "0xc5bed24bed11b932",
+        "note": "Actually a DestinationAnchor"
+    },
+    "Kima_Goron_City": {
+        "pos": [1705.70, 497.59, -2423.16],
+        "hash_id": "0x96fb9defadcd67c2",
+        "note": "Actually a AnchorAction2"
+    },
+    "Cucco": {
+        "pos": [3227.84, 324.60, -1785.56],
+        "hash_id": "0x1c13d67dc6267420",
+        "DisplayName": "The All-Clucking Cucco"
+    },
+    "MattisonsNotebook": {
+        "pos": [3936.10, 241.83, -1593.10],
+        "hash_id": "0x4dd53f6787d02fcd",
+        "DisplayName": "Mattison's Notebook",
+        "note": "TwnObj_UMiiVillage033Book"
+    }
+}

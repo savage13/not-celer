@@ -137,17 +137,12 @@ frogs = transform("raw_bubbulfrog_cave.json", frog_t)
 molduga = transform('raw_molduga_location.json', frog_t)
 
 npcs = transform('raw_npcs.json', npcs_t)
-npcs['Yunobo_Death_Mtn'] = {
-    'pos': [2389.38, 938.94, -2575.37],
-    'DisplayName': 'Yunobo',
-    'hash_id': '0xc5bed24bed11b932',
-    'note': 'Actually a DestinationAnchor',
-}
-npcs['Kima_Goron_City'] = {
-    'pos': [1705.70, 497.59, -2423.16],
-    'hash_id': '0x96fb9defadcd67c2',
-    'note': 'Actually a AnchorAction2',
-}
+
+extra = json.load(open("raw_npcs_extra.json", "r"))
+for key, value in extra.items():
+    if key in npcs:
+        raise ValueError('key already exists in npcs', key)
+    npcs[key] = value
 
 out = {
     "ROA": {
@@ -274,6 +269,7 @@ out = {
             "iconSize": [19,20],
             "iconAnchor": [9, 10],
             "routeSize": [20,20],
+            "displayString": "${txt} ${meta.korok_type}"
         },
         "Shrine": {
             "iconUrl": "shrine.png",

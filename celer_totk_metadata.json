@@ -298,7 +298,25 @@
       ],
       "Location": "Dungeon103",
       "DisplayName": "Ikatak Shrine",
-      "hash_id": "0xe061922ed3cf8489"
+      "hash_id": "0xe061922ed3cf8489",
+      "Start": {
+        "drop": null,
+        "equip": null,
+        "hash_id": "0x341e05beed44a02f",
+        "korok_id": null,
+        "korok_type": null,
+        "map_static": 1,
+        "map_type": "MainField",
+        "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceShort",
+        "objid": 546058,
+        "pos": [
+          -3943.69,
+          179.25,
+          -1057.02
+        ],
+        "scale": 0,
+        "DungeonNum": "Dungeon103"
+      }
     },
     "Turakawak": {
       "pos": [
@@ -358,7 +376,25 @@
       ],
       "Location": "Dungeon132",
       "DisplayName": "Sisuran Shrine",
-      "hash_id": "0x781ce419afc84d26"
+      "hash_id": "0x781ce419afc84d26",
+      "Start": {
+        "drop": null,
+        "equip": null,
+        "hash_id": "0x24e0ddcf4ef9cfc3",
+        "korok_id": null,
+        "korok_type": null,
+        "map_static": 1,
+        "map_type": "MainField",
+        "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceShort",
+        "objid": 48668,
+        "pos": [
+          -2685.3,
+          347.35,
+          -3354.53
+        ],
+        "scale": 0,
+        "DungeonNum": "Dungeon132"
+      }
     },
     "Runakit": {
       "pos": [
@@ -388,7 +424,32 @@
       ],
       "Location": "Dungeon100",
       "DisplayName": "Usazum Shrine",
-      "hash_id": "0xc231b5782443c6c4"
+      "hash_id": "0xc231b5782443c6c4",
+      "Start": {
+        "drop": {
+          "type": "Table",
+          "value": [
+            "Default"
+          ]
+        },
+        "equip": [
+          "GiantGreave_Iron_L"
+        ],
+        "hash_id": "0xb55cec0424d8dc0a",
+        "korok_id": null,
+        "korok_type": null,
+        "map_static": 1,
+        "map_type": "MainField",
+        "name": "Enemy_Giant_Junior_KeyCrystal",
+        "objid": 540907,
+        "pos": [
+          -2274.74,
+          211.15,
+          723
+        ],
+        "scale": 0,
+        "DungeonNum": "Dungeon100"
+      }
     },
     "Rakakudaj": {
       "pos": [
@@ -398,7 +459,25 @@
       ],
       "Location": "Dungeon079",
       "DisplayName": "Rakakudaj Shrine",
-      "hash_id": "0x105a7c3fea24e754"
+      "hash_id": "0x105a7c3fea24e754",
+      "Start": {
+        "drop": null,
+        "equip": null,
+        "hash_id": "0xe2ce3ada2898c8ea",
+        "korok_id": null,
+        "korok_type": null,
+        "map_static": 1,
+        "map_type": "MainField",
+        "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceLong",
+        "objid": 100663,
+        "pos": [
+          -1900.12,
+          104.67,
+          2341.6
+        ],
+        "scale": 0,
+        "DungeonNum": "Dungeon079"
+      }
     },
     "Turakamik": {
       "pos": [
@@ -618,7 +697,25 @@
       ],
       "Location": "Dungeon131",
       "DisplayName": "Ishokin Shrine",
-      "hash_id": "0xdf2a03501ab8a752"
+      "hash_id": "0xdf2a03501ab8a752",
+      "Start": {
+        "drop": null,
+        "equip": null,
+        "hash_id": "0x5297ed9e384ac331",
+        "korok_id": null,
+        "korok_type": null,
+        "map_static": 1,
+        "map_type": "MainField",
+        "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceMiddle",
+        "objid": 131319,
+        "pos": [
+          -695.63,
+          279.25,
+          3393.81
+        ],
+        "scale": 0,
+        "DungeonNum": "Dungeon131"
+      }
     },
     "Sikukuu": {
       "pos": [
@@ -648,7 +745,25 @@
       ],
       "Location": "Dungeon115",
       "DisplayName": "Pupunke Shrine",
-      "hash_id": "0xdafb369defe167d6"
+      "hash_id": "0xdafb369defe167d6",
+      "Start": {
+        "drop": null,
+        "equip": null,
+        "hash_id": "0xee17328de769487a",
+        "korok_id": null,
+        "korok_type": null,
+        "map_static": 1,
+        "map_type": "MainField",
+        "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceShort",
+        "objid": 138781,
+        "pos": [
+          562.7,
+          265.72,
+          -2164.75
+        ],
+        "scale": 0,
+        "DungeonNum": "Dungeon115"
+      }
     },
     "Sakunbomar": {
       "pos": [
@@ -658,7 +773,25 @@
       ],
       "Location": "Dungeon108",
       "DisplayName": "Sakunbomar Shrine",
-      "hash_id": "0x6fb89ca2484eb39a"
+      "hash_id": "0x6fb89ca2484eb39a",
+      "Start": {
+        "drop": null,
+        "equip": null,
+        "hash_id": "0x16d581548967731e",
+        "korok_id": null,
+        "korok_type": null,
+        "map_static": 1,
+        "map_type": "MainField",
+        "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceShort",
+        "objid": 138838,
+        "pos": [
+          97.27,
+          282.06,
+          -2370.01
+        ],
+        "scale": 0,
+        "DungeonNum": "Dungeon108"
+      }
     },
     "Sepapa": {
       "pos": [
@@ -878,7 +1011,25 @@
       ],
       "Location": "Dungeon089",
       "DisplayName": "Momosik Shrine",
-      "hash_id": "0xabe15a38ae511827"
+      "hash_id": "0xabe15a38ae511827",
+      "Start": {
+        "drop": null,
+        "equip": null,
+        "hash_id": "0x3d98ad0277e96dec",
+        "korok_id": null,
+        "korok_type": null,
+        "map_static": 1,
+        "map_type": "MainField",
+        "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceShort",
+        "objid": 524225,
+        "pos": [
+          2628.81,
+          636.22,
+          -2745.73
+        ],
+        "scale": 0,
+        "DungeonNum": "Dungeon089"
+      }
     },
     "Kisinona": {
       "pos": [
@@ -958,7 +1109,25 @@
       ],
       "Location": "Dungeon134",
       "DisplayName": "Jochi-ihiga Shrine",
-      "hash_id": "0x166fe8014b89ff05"
+      "hash_id": "0x166fe8014b89ff05",
+      "Start": {
+        "drop": null,
+        "equip": null,
+        "hash_id": "0xa2dc3ff2d55172b8",
+        "korok_id": null,
+        "korok_type": null,
+        "map_static": 1,
+        "map_type": "MainField",
+        "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceLong",
+        "objid": 247787,
+        "pos": [
+          3921.66,
+          235.21,
+          -1594.68
+        ],
+        "scale": 0,
+        "DungeonNum": "Dungeon134"
+      }
     },
     "Mogawak": {
       "pos": [
@@ -1138,7 +1307,25 @@
       ],
       "Location": "Dungeon110",
       "DisplayName": "Natak Shrine",
-      "hash_id": "0x8f3cfda1895d20f5"
+      "hash_id": "0x8f3cfda1895d20f5",
+      "Start": {
+        "drop": null,
+        "equip": null,
+        "hash_id": "0x7946a887946aab1d",
+        "korok_id": null,
+        "korok_type": null,
+        "map_static": 1,
+        "map_type": "MainField",
+        "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceMiddle",
+        "objid": 501741,
+        "pos": [
+          3831.55,
+          1271.71,
+          -1585.17
+        ],
+        "scale": 0,
+        "DungeonNum": "Dungeon110"
+      }
     },
     "Gikaku": {
       "pos": [
@@ -1148,7 +1335,25 @@
       ],
       "Location": "Dungeon099",
       "DisplayName": "Gikaku Shrine",
-      "hash_id": "0xb043259b1be4386e"
+      "hash_id": "0xb043259b1be4386e",
+      "Start": {
+        "drop": null,
+        "equip": null,
+        "hash_id": "0xa417f225358a7dea",
+        "korok_id": null,
+        "korok_type": null,
+        "map_static": 1,
+        "map_type": "MainField",
+        "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceLong",
+        "objid": 502165,
+        "pos": [
+          4521.57,
+          1526.69,
+          -2104.29
+        ],
+        "scale": 0,
+        "DungeonNum": "Dungeon099"
+      }
     },
     "Jinodok": {
       "pos": [
@@ -1158,7 +1363,25 @@
       ],
       "Location": "Dungeon145",
       "DisplayName": "Jinodok Shrine",
-      "hash_id": "0x93412b7664c85faa"
+      "hash_id": "0x93412b7664c85faa",
+      "Start": {
+        "drop": null,
+        "equip": null,
+        "hash_id": "0x33986103f9cc5254",
+        "korok_id": null,
+        "korok_type": null,
+        "map_static": 1,
+        "map_type": "MainField",
+        "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceMiddle",
+        "objid": 503012,
+        "pos": [
+          -1345.9,
+          1114.8,
+          1383.8
+        ],
+        "scale": 0,
+        "DungeonNum": "Dungeon145"
+      }
     },
     "Kadaunar": {
       "pos": [
@@ -1178,7 +1401,25 @@
       ],
       "Location": "Dungeon150",
       "DisplayName": "Ukoojisi Shrine",
-      "hash_id": "0x6482c9d4ed36f741"
+      "hash_id": "0x6482c9d4ed36f741",
+      "Start": {
+        "drop": null,
+        "equip": null,
+        "hash_id": "0x22fecbf66908dcc5",
+        "korok_id": null,
+        "korok_type": null,
+        "map_static": 1,
+        "map_type": "MainField",
+        "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceLong",
+        "objid": 504572,
+        "pos": [
+          1700.01,
+          757.98,
+          1841.51
+        ],
+        "scale": 0,
+        "DungeonNum": "Dungeon150"
+      }
     },
     "Yansamin": {
       "pos": [
@@ -1198,7 +1439,25 @@
       ],
       "Location": "Dungeon093",
       "DisplayName": "Kumamayn Shrine",
-      "hash_id": "0x52ee882746038e00"
+      "hash_id": "0x52ee882746038e00",
+      "Start": {
+        "drop": null,
+        "equip": null,
+        "hash_id": "0x82cec88f7cb5d1b6",
+        "korok_id": null,
+        "korok_type": null,
+        "map_static": 1,
+        "map_type": "MainField",
+        "name": "FldObj_ZonauShrine_KeyCrystal_Zonau_BlockMaster",
+        "objid": 505685,
+        "pos": [
+          3051.21,
+          1307.92,
+          2762.53
+        ],
+        "scale": 0,
+        "DungeonNum": "Dungeon093"
+      }
     },
     "Rakashog": {
       "pos": [
@@ -1218,7 +1477,25 @@
       ],
       "Location": "Dungeon151",
       "DisplayName": "Taninoud Shrine",
-      "hash_id": "0x888673135e1c9386"
+      "hash_id": "0x888673135e1c9386",
+      "Start": {
+        "drop": null,
+        "equip": null,
+        "hash_id": "0xb162dc9bcb3999a9",
+        "korok_id": null,
+        "korok_type": null,
+        "map_static": 1,
+        "map_type": "MainField",
+        "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceMiddle",
+        "objid": 506877,
+        "pos": [
+          -1723.41,
+          1050.94,
+          -3528.65
+        ],
+        "scale": 0,
+        "DungeonNum": "Dungeon151"
+      }
     },
     "Mayam": {
       "pos": [
@@ -1228,7 +1505,25 @@
       ],
       "Location": "Dungeon149",
       "DisplayName": "Mayam Shrine",
-      "hash_id": "0x219a29367fab6767"
+      "hash_id": "0x219a29367fab6767",
+      "Start": {
+        "drop": null,
+        "equip": null,
+        "hash_id": "0x6c0c94652d871a5e",
+        "korok_id": null,
+        "korok_type": null,
+        "map_static": 1,
+        "map_type": "MainField",
+        "name": "FldObj_ZonauShrine_KeyCrystal_Zonau_BlockMaster",
+        "objid": 507247,
+        "pos": [
+          436.16,
+          1768.3,
+          -2470.61
+        ],
+        "scale": 0,
+        "DungeonNum": "Dungeon149"
+      }
     },
     "Simosiwak": {
       "pos": [
@@ -1258,7 +1553,25 @@
       ],
       "Location": "Dungeon127",
       "DisplayName": "Josiu Shrine",
-      "hash_id": "0x34c8ba8550c8f555"
+      "hash_id": "0x34c8ba8550c8f555",
+      "Start": {
+        "drop": null,
+        "equip": null,
+        "hash_id": "0xed9545649571fac1",
+        "korok_id": null,
+        "korok_type": null,
+        "map_static": 1,
+        "map_type": "MainField",
+        "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceMiddle",
+        "objid": 508569,
+        "pos": [
+          1827.31,
+          1030.72,
+          1370.25
+        ],
+        "scale": 0,
+        "DungeonNum": "Dungeon127"
+      }
     },
     "Sihajog": {
       "pos": [
@@ -1278,7 +1591,25 @@
       ],
       "Location": "Dungeon066",
       "DisplayName": "Mayanas Shrine",
-      "hash_id": "0x1f3aaefd8926f898"
+      "hash_id": "0x1f3aaefd8926f898",
+      "Start": {
+        "drop": null,
+        "equip": null,
+        "hash_id": "0xf01d7a7a5ac148cb",
+        "korok_id": null,
+        "korok_type": null,
+        "map_static": 1,
+        "map_type": "MainField",
+        "name": "FldObj_ZonauShrine_KeyCrystal",
+        "objid": 509705,
+        "pos": [
+          4828.17,
+          2003.04,
+          786.13
+        ],
+        "scale": 0,
+        "DungeonNum": "Dungeon066"
+      }
     },
     "Ijo-o": {
       "pos": [
@@ -1308,7 +1639,25 @@
       ],
       "Location": "Dungeon117",
       "DisplayName": "Ganos Shrine",
-      "hash_id": "0xedfa77560c33c1d4"
+      "hash_id": "0xedfa77560c33c1d4",
+      "Start": {
+        "drop": null,
+        "equip": null,
+        "hash_id": "0x4771e2e05982f074",
+        "korok_id": null,
+        "korok_type": null,
+        "map_static": 1,
+        "map_type": "MainField",
+        "name": "FldObj_ZonauShrine_KeyCrystal_Zonau_BlockMaster",
+        "objid": 511782,
+        "pos": [
+          -3434.3,
+          1540.95,
+          -660.33
+        ],
+        "scale": 0,
+        "DungeonNum": "Dungeon117"
+      }
     },
     "Jirutagumac": {
       "pos": [
@@ -1428,7 +1777,25 @@
       ],
       "Location": "Dungeon098",
       "DisplayName": "Moshapin Shrine",
-      "hash_id": "0x6f8d8b4a01ae02ba"
+      "hash_id": "0x6f8d8b4a01ae02ba",
+      "Start": {
+        "drop": null,
+        "equip": null,
+        "hash_id": "0xb2d535820b5260c2",
+        "korok_id": null,
+        "korok_type": null,
+        "map_static": 1,
+        "map_type": "MainField",
+        "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceMiddle",
+        "objid": 526184,
+        "pos": [
+          2492.98,
+          241.55,
+          -1855.12
+        ],
+        "scale": 0,
+        "DungeonNum": "Dungeon098"
+      }
     },
     "Isisim": {
       "pos": [
@@ -1458,7 +1825,25 @@
       ],
       "Location": "Dungeon092",
       "DisplayName": "En-oma Shrine",
-      "hash_id": "0xc69e39c9b37ac9c5"
+      "hash_id": "0xc69e39c9b37ac9c5",
+      "Start": {
+        "drop": null,
+        "equip": null,
+        "hash_id": "0x3175136757da2227",
+        "korok_id": null,
+        "korok_type": null,
+        "map_static": 1,
+        "map_type": "MainField",
+        "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceShort",
+        "objid": 527865,
+        "pos": [
+          116.31,
+          17.23,
+          2505.8
+        ],
+        "scale": 0,
+        "DungeonNum": "Dungeon092"
+      }
     },
     "Tadarok": {
       "pos": [
@@ -1528,7 +1913,25 @@
       ],
       "Location": "Dungeon111",
       "DisplayName": "Rutafu-um Shrine",
-      "hash_id": "0xd95ede6ade4dcccd"
+      "hash_id": "0xd95ede6ade4dcccd",
+      "Start": {
+        "drop": null,
+        "equip": null,
+        "hash_id": "0xdef056108a354fc5",
+        "korok_id": null,
+        "korok_type": null,
+        "map_static": 1,
+        "map_type": "MainField",
+        "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceShort",
+        "objid": 538453,
+        "pos": [
+          -2994.74,
+          605.3,
+          -3159.65
+        ],
+        "scale": 0,
+        "DungeonNum": "Dungeon111"
+      }
     },
     "Nouda": {
       "pos": [
@@ -1578,7 +1981,25 @@
       ],
       "Location": "Dungeon112",
       "DisplayName": "O-ogim Shrine",
-      "hash_id": "0x6f6efc06b0eecb67"
+      "hash_id": "0x6f6efc06b0eecb67",
+      "Start": {
+        "drop": null,
+        "equip": null,
+        "hash_id": "0xbd88bd15efcc10b7",
+        "korok_id": null,
+        "korok_type": null,
+        "map_static": 1,
+        "map_type": "MainField",
+        "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceLong",
+        "objid": 227873,
+        "pos": [
+          2678.52,
+          231.65,
+          1375.18
+        ],
+        "scale": 0,
+        "DungeonNum": "Dungeon112"
+      }
     },
     "Tokiy": {
       "pos": [
@@ -1588,7 +2009,25 @@
       ],
       "Location": "Dungeon107",
       "DisplayName": "Tokiy Shrine",
-      "hash_id": "0xf31cc766b9de78e4"
+      "hash_id": "0xf31cc766b9de78e4",
+      "Start": {
+        "drop": null,
+        "equip": null,
+        "hash_id": "0x8647d7ba54f63a27",
+        "korok_id": null,
+        "korok_type": null,
+        "map_static": 1,
+        "map_type": "MainField",
+        "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceMiddle",
+        "objid": 541920,
+        "pos": [
+          2373.22,
+          66.91,
+          2285.88
+        ],
+        "scale": 0,
+        "DungeonNum": "Dungeon107"
+      }
     },
     "Jogou": {
       "pos": [
@@ -1658,7 +2097,25 @@
       ],
       "Location": "Dungeon101",
       "DisplayName": "Joniu Shrine",
-      "hash_id": "0x9addcceb0a82feb1"
+      "hash_id": "0x9addcceb0a82feb1",
+      "Start": {
+        "drop": null,
+        "equip": null,
+        "hash_id": "0x180712a79453b00b",
+        "korok_id": null,
+        "korok_type": null,
+        "map_static": 1,
+        "map_type": "MainField",
+        "name": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceMiddle",
+        "objid": 545117,
+        "pos": [
+          2923.39,
+          257.65,
+          -216.68
+        ],
+        "scale": 0,
+        "DungeonNum": "Dungeon101"
+      }
     },
     "Iun-orok": {
       "pos": [
@@ -41231,7 +41688,22 @@
         20,
         20
       ],
-      "displayString": "${txt} ${meta.korok_type}"
+      "displayString": "${txt} ${meta.korok_type}",
+      "Start": {
+        "iconUrl": "mapicon_korok2.png",
+        "iconSize": [
+          19,
+          20
+        ],
+        "iconAnchor": [
+          9,
+          10
+        ],
+        "routeSize": [
+          20,
+          20
+        ]
+      }
     },
     "Shrine": {
       "iconUrl": "shrine.png",
@@ -41246,7 +41718,22 @@
       "routeSize": [
         32,
         32
-      ]
+      ],
+      "Start": {
+        "iconUrl": "crystal.png",
+        "iconSize": [
+          32,
+          32
+        ],
+        "iconAnchor": [
+          18,
+          18
+        ],
+        "routeSize": [
+          32,
+          32
+        ]
+      }
     },
     "Tower": {
       "iconUrl": "tower.png",

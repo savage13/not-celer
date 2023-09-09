@@ -20,6 +20,8 @@ for r in data:
         "pos": r['pos'], "Location": r["Location"],
         "DisplayName": name, "hash_id": r["hash_id"],
     }
+tmp = json.load(open("raw_crystals.json", "r"))
+crystals = {x['DungeonNum']: x for x in tmp}
 data = json.load(open("raw_shrines.json", "r"))
 for r in data:
     name = locations[r["Location"]]
@@ -31,6 +33,9 @@ for r in data:
         "pos": r['pos'], "Location": r["Location"],
         "DisplayName": name, "hash_id": r["hash_id"],
     }
+    if r['Location'] in crystals:
+        shrines[key]['Start'] = crystals[r['Location']]
+
 for file in ["raw_korok.json"]:
     data = json.load(open(file, "r"))
     for r in data:
@@ -272,13 +277,25 @@ out = {
             "iconSize": [19,20],
             "iconAnchor": [9, 10],
             "routeSize": [20,20],
-            "displayString": "${txt} ${meta.korok_type}"
+            "displayString": "${txt} ${meta.korok_type}",
+            "Start": {
+                "iconUrl": "mapicon_korok2.png",
+                "iconSize": [19,20],
+                "iconAnchor": [9, 10],
+                "routeSize": [20,20],
+            }
         },
         "Shrine": {
             "iconUrl": "shrine.png",
             "iconSize": [32, 32],
             "iconAnchor": [18, 18],
             "routeSize": [32,32],
+            "Start": {
+                "iconUrl": "crystal.png",
+                "iconSize": [32, 32],
+                "iconAnchor": [18, 18],
+                "routeSize": [32,32],
+            }
         },
         "Tower": {
             "iconUrl": "tower.png",

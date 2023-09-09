@@ -655,8 +655,21 @@
           n = (n !== undefined) ? n : kind.length;
           const key = kind.slice(0,n).map(v => v.name).join("::");
           let icon = icons[key];
-          if(!icon)
+          if(!icon) {
+              if(n-2 >= 0) {
+                  // Remove 2nd to last element to check for
+                  //  Shrine::*::Start
+                  //  Korok::*::Start
+                  //  Korok::*::End
+                  //  There is a better solution, but this works
+                  let tmp = [...kind];
+                  tmp.splice(n-2,1)
+                  let key1 = tmp.map(v => v.name).join("::")
+                  if(icons[key1])
+                      return icons[key1]
+              }
               return get_map_icon(kind, n - 1)
+          }
           return icon
       }
 
@@ -1232,8 +1245,7 @@
                   if(opts.iconUrl)
                       icons[name] = await loadIcon(name, opts)
                   for(const [name2, opts2] of Object.entries(meta._icons[name])) {
-                      if(isObject(opts2)) {
-                          //console.log("creating icon", name2, opts2);
+                      if(isObject(opts2) && name2 != "img") {
                           icons[`${name}::${name2}`] = await loadIcon(name2, opts2);
                       }
                   }

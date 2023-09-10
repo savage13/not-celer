@@ -985,6 +985,14 @@
           return vals.reduce((partialSum, a) => partialSum + a, 0);
       }
 
+      function counter_total() {
+          const out = {};
+          for(const [key, value] of Object.entries(_counters)) {
+              out[key] = sum(Object.values(value))
+          }
+          return out;
+      }
+
       function counter_inc(key, name, warp) {
           if(warp)
               return undefined
@@ -1008,7 +1016,6 @@
                   if(korok && korok.korok_type == "Korok Friends")
                       _counters[key][name] += 1;
               }
-
               return sum( Object.values(_counters[key]) );
           }
           if(key !== undefined) {
@@ -1069,7 +1076,7 @@
                           markers.push(... ret.markers)
                           line_color = (ret.line_color) ? ret.line_color : line_color;
                           level_set = (ret.level) ? ret.level : level_set;
-                          FLY_TO.push( ret.to[0] )
+                          FLY_TO.push( ret.to.find(x => x.length) )
                       } else if(kind == "object") {
                           const ret = parse_object(part);
                           elevation.push(... ret.to.map(x => x[1]))
@@ -1077,7 +1084,7 @@
                           markers.push(... ret.markers)
                           line_color = (ret.line_color) ? ret.line_color : line_color;
                           level_set = (ret.level) ? ret.level : level_set;
-                          FLY_TO.push( ret.to[0] )
+                          FLY_TO.push( ret.to.find(x => x.length ) )
                       } else {
                           console.log("unexpected kind", kind);
                           FLY_TO.push( [0,0,0])
@@ -1426,8 +1433,10 @@
           el.classList.add('line_active');
           CURRENT_LINE = id;
           switch_layer(el.dataset.layer);
-          const xyz = el.dataset.xyz.split(",").map(x => parseFloat(x));
-          map_el.map.panTo(ll(xyz), { animate: true } );
+          if(el.dataset.xyz) {
+              const xyz = el.dataset.xyz.split(",").map(x => parseFloat(x));
+              map_el.map.panTo(ll(xyz), { animate: true } );
+          }
           // This hides all segments except for the current segment
           //hide_all_segments()
           //SEGMENTS[el.dataset.segment].group.invoke('addTo', map_el.map);

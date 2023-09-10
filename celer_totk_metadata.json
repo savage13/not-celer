@@ -41829,6 +41829,15 @@
       "hash_id": "0x7e05e2b41b6d89a0",
       "DisplayName": "Purah",
       "note": "AnchorAction6"
+    },
+    "Master_Kohga_Central_Mine": {
+      "pos": [
+        -727.19,
+        -414.31,
+        1857.57
+      ],
+      "hash_id": "0x262589b318566498",
+      "DisplayName": "Master Kohga"
     }
   },
   "TechLab": {

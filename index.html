@@ -296,6 +296,29 @@
           padding: 0.3em;
           border-radius: 0.3em;
       }
+      #progress0 {
+          position: absolute;
+          z-index: 40000;
+          top: 0;
+          left: 50%;
+          transform: translate(-50%,0) scale(0.6);
+          background: rgba(0,0,0,1);
+          color: lightblue;
+          border: 0.5px solid rgba(255,255,255,0.3);
+          border-radius: 0.3em;
+          display: none;
+      }
+      #progress {
+          font-family: sans-serif;
+          padding: 0.3em;
+
+      }
+      #progress div {
+      }
+      #progress div img {
+          width: 30px;
+          height: 30px;
+      }
       .itiny {
           font-style: italic;
           font-size: 0.7em;
@@ -303,6 +326,19 @@
       .line_active {
           background: #f9f0c4;
           color: black;
+      }
+      .table {
+          display: table;
+      }
+      .tr {
+          display: table-row;
+      }
+      .td {
+          display: table-cell;
+          text-align: center;
+          vertical-align: middle;
+          padding-left: 0.2em;
+          padding-right: 0.2em;
       }
     </style>
   </head>
@@ -334,7 +370,27 @@
         <div id="search0">
           <input type="text" placeholder="Search objmap..." id="search">
         </div>
-        <!-- <zelda-map id="map" game="totk"></zelda-map>-->
+        <div id="progress0">
+          <div id="progress" class="table">
+            <div class="tr">
+              <div class="td"><img src="tower.png"></div>
+              <div class="td"><img src="shrine.png"></div>
+              <div class="td"><img src="lightroot.png"></div>
+              <div class="td"><img src="frog.png"></div>
+              <div class="td"><img src="mapicon_korok.png"></div>
+              <div class="td"><img src="sign.png"></div>
+            </div>
+            <div class="tr">
+              <div class="td" id="progress_Tower">0</div>
+              <div class="td" id="progress_Shrine">0</div>
+              <div class="td" id="progress_Lightroot">0</div>
+              <div class="td" id="progress_Bubbulfrog">0</div>
+              <div class="td" id="progress_Korok">0</div>
+              <div class="td" id="progress_Addison">0</div>
+            </div>
+          </div>
+        </div>
+          <!-- <zelda-map id="map" game="totk"></zelda-map>-->
       </div>
     </div>
     <script src="split.min.js"></script>
@@ -1421,6 +1477,7 @@
           }
       }
 
+      let PROGRESS = {};
       let CURRENT_LINE = undefined;
       function set_current_line(id) {
           if(id == undefined) {
@@ -1440,6 +1497,21 @@
           // This hides all segments except for the current segment
           //hide_all_segments()
           //SEGMENTS[el.dataset.segment].group.invoke('addTo', map_el.map);
+          let n = parseInt(id.replace("line_",""))
+          while(n >= 0) {
+              if(PROGRESS[n]) {
+                  update_progress( PROGRESS[n]);
+                  break;
+              }
+              n -= 1;
+          }
+      }
+
+      function update_progress(progress) {
+          for(const key of Object.keys(progress)) {
+              let el = document.getElementById(`progress_${key}`);
+              el.innerText = progress[key];
+          }
       }
 
       function route_new_line(part, xyz, line_layer, segment_name) {
@@ -1458,6 +1530,7 @@
           num.classList.add('segment_line_number');
           num.textContent = `${nlines}`;
           line.appendChild(num);
+          const current_line = nlines;
           nlines += 1
 
           const counter = $div();
@@ -1492,6 +1565,7 @@
               if(count != undefined) {
                   counter.textContent = `${count}`;
                   counter.title = ret.kind.map(v=>v.name).join('::');
+                  PROGRESS[current_line] = counter_total();
               }
               set_route_icon(ret, icon)
               text.textContent = displayString(ret)
@@ -1509,6 +1583,7 @@
           if(count != undefined) {
               counter.textContent = `${count}`;
               counter.title = ret.kind.map(v=>v.name).join('::');
+              PROGRESS[current_line] = counter_total();
           }
           set_route_icon(ret, icon)
           text.textContent = displayString(ret);

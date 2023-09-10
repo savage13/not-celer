@@ -134,6 +134,13 @@ def npcs_t(r, k, state):
         if key is None:
             key = name
     return [name, key, state]
+def chasm_t(r, k, state):
+    print(r['Location'])
+    name = locations[r['Location']]
+    key = name
+    key = key.replace(" ", "").replace("Chasm", "")
+    key = key.replace("'", "")
+    return [name, key, state]
 
 frox = transform('raw_frox_locations.json', frog_t)
 hinox = transform('raw_hinox_locations.json', frog_t)
@@ -143,7 +150,7 @@ gleeoks = transform('raw_gleeoks_location.json', frog_t)
 flux = transform('raw_flux_location.json', frog_t)
 frogs = transform("raw_bubbulfrog_cave.json", frog_t)
 molduga = transform('raw_molduga_location.json', frog_t)
-
+chasms = transform('raw_chasm.json', chasm_t)
 npcs = transform('raw_npcs.json', npcs_t)
 
 extra = json.load(open("raw_npcs_extra.json", "r"))
@@ -170,6 +177,7 @@ out = {
     "Addison": addisons,
     "Lightroot": lightroot,
     "Cave": caves,
+    "Chasm": chasms,
     "Well": wells,
     "Enemy": {
         "Frox": frox,
@@ -320,6 +328,13 @@ out = {
         },
         "Cave": {
             "iconUrl": "cave.png",
+            "canvas": True,
+            "iconSize": [25, 25],
+            "iconAnchor": [12, 12],
+            "routeSize": [24,24],
+        },
+        "Chasm": {
+            "iconUrl": "chasm.png",
             "canvas": True,
             "iconSize": [25, 25],
             "iconAnchor": [12, 12],

@@ -576,24 +576,6 @@
       "scale" : 0
    },
    {
-      "Location" : "Cave_HyruleRidge_0004",
-      "drop" : null,
-      "equip" : null,
-      "hash_id" : "0x930a3bbbdd491160",
-      "korok_id" : null,
-      "korok_type" : null,
-      "map_static" : 1,
-      "map_type" : "MainField",
-      "name" : "LocationArea",
-      "objid" : 56416,
-      "pos" : [
-         -2644.24,
-         247.63,
-         -1126.02
-      ],
-      "scale" : 0
-   },
-   {
       "Location" : "Cave_HyruleRidge_0007",
       "drop" : null,
       "equip" : null,
@@ -842,24 +824,6 @@
          -2939.1,
          68.4,
          3857.83
-      ],
-      "scale" : 0
-   },
-   {
-      "Location" : "Cave_GerudoDesert_0043",
-      "drop" : null,
-      "equip" : null,
-      "hash_id" : "0xb01db1f23f9ec48a",
-      "korok_id" : null,
-      "korok_type" : null,
-      "map_static" : 1,
-      "map_type" : "MainField",
-      "name" : "LocationArea",
-      "objid" : 76012,
-      "pos" : [
-         -2491.19,
-         111.24,
-         3067.74
       ],
       "scale" : 0
    },
@@ -1903,24 +1867,6 @@
          1349.55,
          134.32,
          -296.5
-      ],
-      "scale" : 0
-   },
-   {
-      "Location" : "Cave_Lanayru_0050",
-      "drop" : null,
-      "equip" : null,
-      "hash_id" : "0xaa9870379b2aa770",
-      "korok_id" : null,
-      "korok_type" : null,
-      "map_static" : 1,
-      "map_type" : "MainField",
-      "name" : "LocationArea",
-      "objid" : 185441,
-      "pos" : [
-         1726.92,
-         100.19,
-         -162.05
       ],
       "scale" : 0
    },
@@ -2981,24 +2927,6 @@
       "scale" : 0
    },
    {
-      "Location" : "Cave_Lanayru_0063",
-      "drop" : null,
-      "equip" : null,
-      "hash_id" : "0xd04598fb5664c8f6",
-      "korok_id" : null,
-      "korok_type" : null,
-      "map_static" : 1,
-      "map_type" : "MainField",
-      "name" : "LocationArea",
-      "objid" : 252919,
-      "pos" : [
-         3271.55,
-         84.31,
-         -441.59
-      ],
-      "scale" : 0
-   },
-   {
       "Location" : "Cave_Lanayru_0008",
       "drop" : null,
       "equip" : null,
@@ -3575,24 +3503,6 @@
       "scale" : 0
    },
    {
-      "Location" : "DeepHole_Rito",
-      "drop" : null,
-      "equip" : null,
-      "hash_id" : "0xee78f62065cfd570",
-      "korok_id" : null,
-      "korok_type" : null,
-      "map_static" : 1,
-      "map_type" : "MainField",
-      "name" : "LocationArea",
-      "objid" : 539601,
-      "pos" : [
-         -3571.25,
-         224.04,
-         -1803.08
-      ],
-      "scale" : 0
-   },
-   {
       "Location" : "Cave_Lanayru_0061",
       "drop" : null,
       "equip" : null,
@@ -3607,24 +3517,6 @@
          3240.99,
          181.48,
          -373.52
-      ],
-      "scale" : 0
-   },
-   {
-      "Location" : "DeepHole_HyruleCastle",
-      "drop" : null,
-      "equip" : null,
-      "hash_id" : "0xfbb4ad3cdd4d490a",
-      "korok_id" : null,
-      "korok_type" : null,
-      "map_static" : 1,
-      "map_type" : "MainField",
-      "name" : "LocationArea",
-      "objid" : 549915,
-      "pos" : [
-         -254,
-         -105,
-         -1012.17
       ],
       "scale" : 0
    }

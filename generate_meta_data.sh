@@ -20,4 +20,5 @@
 # curl 'https://radar-totk.zeldamods.org/objs/MainAndMinusField/?q=actor:%20npc%20NOT%20Korok%20NOT%20Addison%20NOT%20MinusFieldGhost' > raw_npcs.json
 # curl 'https://radar-totk.zeldamods.org/objs/MainAndMinusField/?q=FldObj_ZonauShrine_KeyCrystal' > raw_crystals.json
 # python ./get_crystal_shrine.py
+curl 'https://radar-totk.zeldamods.org/objs/MainAndMinusField/?q=Chasm%20Location' > raw_chasm.json
 

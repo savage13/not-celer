@@ -1099,7 +1099,7 @@
 
                   for(let i = 0; i < parts.length; i++) {
                       const part = parts[i];
-                      const div = route_new_line(part, FLY_TO[i], layer);
+                      const div = route_new_line(part, FLY_TO[i], layer, name);
                       if(div)
                           seg.appendChild(div)
                   }
@@ -1408,8 +1408,19 @@
           }
       }
 
+      function hide_all_segments() {
+          for(const [key, segment] of Object.entries(SEGMENTS)) {
+              segment.group.invoke('remove')
+          }
+      }
+
       let CURRENT_LINE = undefined;
       function set_current_line(id) {
+          if(id == undefined) {
+              CURRENT_LINE = undefined;
+              removeElementsByClass('line_active')
+              return;
+          }
           removeElementsByClass('line_active')
           const el = document.getElementById(id);
           el.classList.add('line_active');
@@ -1417,9 +1428,12 @@
           switch_layer(el.dataset.layer);
           const xyz = el.dataset.xyz.split(",").map(x => parseFloat(x));
           map_el.map.panTo(ll(xyz), { animate: true } );
+          // This hides all segments except for the current segment
+          //hide_all_segments()
+          //SEGMENTS[el.dataset.segment].group.invoke('addTo', map_el.map);
       }
 
-      function route_new_line(part, xyz, line_layer) {
+      function route_new_line(part, xyz, line_layer, segment_name) {
           if(part == undefined || part == null)
               return undefined;
           const line = $div();
@@ -1427,6 +1441,7 @@
           line.id = `line_${nlines}`;
           line.dataset.xyz = xyz;
           line.dataset.layer = line_layer;
+          line.dataset.segment = segment_name;
           line.addEventListener('click', (ev) => {
               set_current_line(ev.currentTarget.id);
           });

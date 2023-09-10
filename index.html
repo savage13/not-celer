@@ -308,6 +308,7 @@
         <textarea id="editor"></textarea>
         <div id="messages"></div>
         <div id="theme">
+          <button id="save">Save</button>
           <select id="themes">
             <option value="base16-dark">Dark</option>
             <option value="base16-light">Light</option>
@@ -544,6 +545,23 @@
           const theme = ev.target.value;
           localStorage.setItem('theme', theme);
           myCodeMirror.setOption("theme", theme);
+      });
+
+      document.getElementById('save').addEventListener('click', (ev) => {
+          let txt = myCodeMirror.getValue();
+          const blob = new Blob([txt], { type: 'application/x-yaml' })
+          const a = document.createElement('a')
+          let description = "totk_celer_route";
+          if(data._project && data._project.description) {
+              description = data._project.description;
+          } else if (data._project && data._project.name) {
+              description = data._project.name;
+          }
+          description = description.replaceAll(" ", "_").replaceAll(",","")
+          let when = new Date().toISOString().replace(/.\d+Z$/g, "") // Remove milliseconds
+          a.href = URL.createObjectURL(blob);
+          a.download = `${description}_${when}.yaml`;
+          a.click();
       });
 
       function get_name(name) {

@@ -135,7 +135,6 @@ def npcs_t(r, k, state):
             key = name
     return [name, key, state]
 def chasm_t(r, k, state):
-    print(r['Location'])
     name = locations[r['Location']]
     key = name
     key = key.replace(" ", "").replace("Chasm", "")

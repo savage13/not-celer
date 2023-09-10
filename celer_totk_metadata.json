@@ -41819,6 +41819,16 @@
       "hash_id": "0xedc18d827e8f03cd",
       "DisplayName": "Garini",
       "note": "AnchorAction1"
+    },
+    "Purah_Normal": {
+      "pos": [
+        -208.9,
+        124.75,
+        -80.6
+      ],
+      "hash_id": "0x7e05e2b41b6d89a0",
+      "DisplayName": "Purah",
+      "note": "AnchorAction6"
     }
   },
   "TechLab": {

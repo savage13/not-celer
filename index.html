@@ -276,6 +276,8 @@
           position: absolute;
           bottom: 0;
           right: 0;
+          display: flex;
+          flex-flow: row nowrap;
       }
       #search0 {
           position: absolute;
@@ -379,6 +381,14 @@
               <div class="td"><img src="frog.png"></div>
               <div class="td"><img src="mapicon_korok.png"></div>
               <div class="td"><img src="sign.png"></div>
+              <div class="td"><img src="cave.png"></div>
+              <div class="td"><img src="well.svg"></div>
+              <div class="td"><img src="enemy.png">T</div>
+              <div class="td"><img src="enemy.png">G</div>
+              <div class="td"><img src="enemy.png">H</div>
+              <div class="td"><img src="enemy.png">F</div>
+              <div class="td"><img src="enemy.png">M</div>
+              <div class="td"><img src="enemy.png">C</div>
             </div>
             <div class="tr">
               <div class="td" id="progress_Tower">0</div>
@@ -387,6 +397,14 @@
               <div class="td" id="progress_Bubbulfrog">0</div>
               <div class="td" id="progress_Korok">0</div>
               <div class="td" id="progress_Addison">0</div>
+              <div class="td" id="progress_Cave">0</div>
+              <div class="td" id="progress_Well">0</div>
+              <div class="td" id="progress_Enemy::Talus">0</div>
+              <div class="td" id="progress_Enemy::Gleeok">0</div>
+              <div class="td" id="progress_Enemy::Hinox">0</div>
+              <div class="td" id="progress_Enemy::Frox">0</div>
+              <div class="td" id="progress_Enemy::Molduga">0</div>
+              <div class="td" id="progress_Enemy::FluxConstruct">0</div>
             </div>
           </div>
         </div>
@@ -1495,22 +1513,28 @@
               map_el.map.panTo(ll(xyz), { animate: true } );
           }
           // This hides all segments except for the current segment
-          //hide_all_segments()
-          //SEGMENTS[el.dataset.segment].group.invoke('addTo', map_el.map);
-          let n = parseInt(id.replace("line_",""))
-          while(n >= 0) {
-              if(PROGRESS[n]) {
-                  update_progress( PROGRESS[n]);
-                  break;
+          if(ONLY_SEGMENT) {
+              hide_all_segments()
+              SEGMENTS[el.dataset.segment].group.invoke('addTo', map_el.map);
+          }
+          if(SHOW_PROGRESS) {
+              let n = parseInt(id.replace("line_",""))
+              while(n >= 0) {
+                  if(PROGRESS[n]) {
+                      update_progress( PROGRESS[n]);
+                      break;
+                  }
+                  n -= 1;
               }
-              n -= 1;
           }
       }
 
       function update_progress(progress) {
           for(const key of Object.keys(progress)) {
               let el = document.getElementById(`progress_${key}`);
-              el.innerText = progress[key];
+              if(el) {
+                  el.innerText = progress[key];
+              }
           }
       }
 
@@ -1632,8 +1656,26 @@
           return next;
       }
 
-      window.addEventListener('keydown', (ev) => {
-          //console.log("Key Down", ev.key)
+      let SHOW_PROGRESS = false; // Ctrl-P
+      let ONLY_SEGMENT = false;  // Ctrl-O
+
+      window.addEventListener('keyup', (ev) => {
+          if(ev.ctrlKey && ev.key == "p") {
+              SHOW_PROGRESS = ! SHOW_PROGRESS;
+              const el = document.getElementById("progress0");
+              el.style.display = (SHOW_PROGRESS) ? 'block' : 'none';
+              set_current_line(CURRENT_LINE);
+              return;
+          }
+          if(ev.ctrlKey && ev.key == "o") {
+              ONLY_SEGMENT = ! ONLY_SEGMENT;
+              if(!ONLY_SEGMENT) {
+                  switch_segments(map_el.level);
+              }
+              set_current_line(CURRENT_LINE);
+              return;
+          }
+
           if(CURRENT_LINE === undefined)
               return
           if(ev.key == "ArrowDown" || ev.key == "ArrowUp") {

@@ -23,8 +23,8 @@
     <script src="codemirror/addon/hint/show-hint.js"></script>
     <link rel="stylesheet" href="codemirror/theme/base16-dark.css">
     <link rel="stylesheet" href="codemirror/theme/base16-light.css">
-    <!-- <script src="zmap.js" type="module"></script>-->
-    <!-- https://github.com/nodeca/js-yaml -->
+    <script src="leaflet.geometryutil.js"></script>
+	  <script src="leaflet-arrowheads.js"></script>
     <script src="js-yaml.js"></script>
     <script src="leaflet-canvasicon.js" defer></script>
     <script src="debounce.js"></script>
@@ -1042,6 +1042,13 @@
           return sum;
       }
 
+      const arrowhead_opts = {
+          size: '4px',
+          yawn: 60,
+          frequency: '66px',
+          fill: false,
+      }
+
       function route() {
           let line_color = undefined;
           let last_point = undefined;
@@ -1103,7 +1110,8 @@
                           [last_point[2], last_point[0]],
                           [pts[0][2], pts[0][0]]
                       ];
-                      pl = L.polyline(m, {color: line_color }).bindTooltip('segment connection', {sticky: true});
+                      pl = L.polyline(m, {color: line_color }).bindTooltip('segment connection', {sticky: true})
+                          .arrowheads(arrowhead_opts);
                   }
 
                   // Get Last actual point
@@ -1129,6 +1137,7 @@
                   }
                   const tmp = multi.map(m =>
                       L.polyline(m, { color: line_color } ).bindTooltip(name, { sticky: true })
+                          .arrowheads(arrowhead_opts)
                   )
                   if(pl)
                       tmp.push(pl);

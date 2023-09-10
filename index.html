@@ -140,7 +140,6 @@
           font-family: sans-serif;
           font-size: 0.9em;
           width: 100%;
-          transition: 0.15s linear background, color;
       }
       .segment_line > div {
           padding: 0.2em;
@@ -329,7 +328,6 @@
       .line_active {
           background: #f9f0c4;
           color: black;
-          transition: 0.15s linear background,color;
       }
       .table {
           display: table;
@@ -1662,7 +1660,7 @@
       let SHOW_PROGRESS = false; // Ctrl-P
       let ONLY_SEGMENT = false;  // Ctrl-O
 
-      window.addEventListener('keyup', (ev) => {
+      function key_commands(ev) {
           if(ev.ctrlKey && ev.key == "p") {
               SHOW_PROGRESS = ! SHOW_PROGRESS;
               const el = document.getElementById("progress0");
@@ -1689,21 +1687,19 @@
                   next = get_next_line(-1);
               if(next === undefined)
                   return;
-              //console.log('NEXT', next.id)
-              //next.scrollIntoView(true);
               const xoffset = 0;
               const route = document.getElementById('route')
-              //const seg_data = next.parentElement;
-              //const seg = seg_data.parentElement;
               const yoffset = next.offsetTop - route.offsetTop - 40;
-              //console.log('before', yoffset, route.scrollTop, yoffset - route.scrollTop, route.offsetTop);
+              //console.log(ev.key, next.id, yoffset, route.scrollTop, yoffset - route.scrollTop, route.offsetTop);
               route.scrollTo(xoffset, yoffset)
+              //console.log(ev.key, next.id, route.scrollTop);
               set_current_line(next.id);
               ev.stopPropagation()
               ev.preventDefault()
+              return false;
           }
-      });
-
+      }
+      window.addEventListener('keydown', key_commands);
       </script>
   </body>
 </html>

@@ -140,6 +140,7 @@
           font-family: sans-serif;
           font-size: 0.9em;
           width: 100%;
+          transition: 0.15s linear background, color;
       }
       .segment_line > div {
           padding: 0.2em;
@@ -328,6 +329,7 @@
       .line_active {
           background: #f9f0c4;
           color: black;
+          transition: 0.15s linear background,color;
       }
       .table {
           display: table;
@@ -383,12 +385,12 @@
               <div class="td"><img src="sign.png"></div>
               <div class="td"><img src="cave.png"></div>
               <div class="td"><img src="well.svg"></div>
-              <div class="td"><img src="enemy.png">T</div>
-              <div class="td"><img src="enemy.png">G</div>
-              <div class="td"><img src="enemy.png">H</div>
-              <div class="td"><img src="enemy.png">F</div>
-              <div class="td"><img src="enemy.png">M</div>
-              <div class="td"><img src="enemy.png">C</div>
+              <div class="td"><img src="talus.png"></div>
+              <div class="td"><img src="gleeok.png"></div>
+              <div class="td"><img src="hinox.png"></div>
+              <div class="td"><img src="frox.png"></div>
+              <div class="td"><img src="molduga.png"></div>
+              <div class="td"><img src="flux.png"></div>
             </div>
             <div class="tr">
               <div class="td" id="progress_Tower">0</div>
@@ -1694,6 +1696,7 @@
               //const seg_data = next.parentElement;
               //const seg = seg_data.parentElement;
               const yoffset = next.offsetTop - route.offsetTop - 40;
+              //console.log('before', yoffset, route.scrollTop, yoffset - route.scrollTop, route.offsetTop);
               route.scrollTo(xoffset, yoffset)
               set_current_line(next.id);
               ev.stopPropagation()

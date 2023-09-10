@@ -41944,7 +41944,7 @@
         24
       ],
       "Frox": {
-        "iconUrl": "enemy.png",
+        "iconUrl": "frox.png",
         "iconSize": [
           32,
           32
@@ -41960,7 +41960,7 @@
         "displayString": "${txt} ${key}"
       },
       "Hinox": {
-        "iconUrl": "enemy.png",
+        "iconUrl": "hinox.png",
         "iconSize": [
           32,
           32
@@ -41976,7 +41976,7 @@
         "displayString": "${txt} ${key}"
       },
       "FluxConstruct": {
-        "iconUrl": "enemy.png",
+        "iconUrl": "flux.png",
         "iconSize": [
           32,
           32
@@ -41992,7 +41992,7 @@
         "displayString": "${txt} ${key}"
       },
       "Gleeok": {
-        "iconUrl": "enemy.png",
+        "iconUrl": "gleeok.png",
         "iconSize": [
           32,
           32
@@ -42008,7 +42008,7 @@
         "displayString": "${txt} ${key}"
       },
       "Molduga": {
-        "iconUrl": "enemy.png",
+        "iconUrl": "molduga.png",
         "iconSize": [
           32,
           32
@@ -42024,7 +42024,7 @@
         "displayString": "${txt} ${key}"
       },
       "Talus": {
-        "iconUrl": "enemy.png",
+        "iconUrl": "talus.png",
         "iconSize": [
           32,
           32

@@ -300,6 +300,10 @@
           font-style: italic;
           font-size: 0.7em;
       }
+      .line_active {
+          background: #f9f0c4;
+          color: black;
+      }
     </style>
   </head>
   <body>
@@ -333,7 +337,7 @@
         <!-- <zelda-map id="map" game="totk"></zelda-map>-->
       </div>
     </div>
-    <script src="https://unpkg.com/split.js/dist/split.min.js"></script>
+    <script src="split.min.js"></script>
     <script>
       let sizes = localStorage.getItem('split-sizes')
       if(sizes)
@@ -535,11 +539,6 @@
               },
               theme: theme,
           });
-
-
-      //myCodeMirror.hint.on('shown', () => {
-      //    console.log('show hints shown')
-      //});
 
       document.getElementById('themes').addEventListener('change', (ev) => {
           const theme = ev.target.value;
@@ -1053,6 +1052,7 @@
                   const markers = [];
                   const lines = [];
                   const elevation = [];
+                  let FLY_TO = [];
                   for(const part of parts) {
                       const kind = typeof part;
                       if(kind == "string") {
@@ -1062,6 +1062,7 @@
                           markers.push(... ret.markers)
                           line_color = (ret.line_color) ? ret.line_color : line_color;
                           level_set = (ret.level) ? ret.level : level_set;
+                          FLY_TO.push( ret.to[0] )
                       } else if(kind == "object") {
                           const ret = parse_object(part);
                           elevation.push(... ret.to.map(x => x[1]))
@@ -1069,8 +1070,10 @@
                           markers.push(... ret.markers)
                           line_color = (ret.line_color) ? ret.line_color : line_color;
                           level_set = (ret.level) ? ret.level : level_set;
+                          FLY_TO.push( ret.to[0] )
                       } else {
                           console.log("unexpected kind", kind);
+                          FLY_TO.push( [0,0,0])
                       }
                   }
                   // Determine Layer from mean of Elevation (y-coord or pos[1])
@@ -1086,8 +1089,10 @@
                       layer = level_set;
                   }
                   const seg = route_new_segment(name, layer);
-                  for(const part of parts) {
-                      const div = route_new_line(part);
+
+                  for(let i = 0; i < parts.length; i++) {
+                      const part = parts[i];
+                      const div = route_new_line(part, FLY_TO[i], layer);
                       if(div)
                           seg.appendChild(div)
                   }
@@ -1101,7 +1106,6 @@
                       pl = L.polyline(m, {color: line_color }).bindTooltip('segment connection', {sticky: true});
                   }
 
-                  
                   // Get Last actual point
                   let n = pts.length;
                   last_point = pts[n-1];
@@ -1223,7 +1227,7 @@
       }
 
 
-      
+
       async function load_json(filename) {
           const res = await fetch(filename);
           return await res.json();
@@ -1256,7 +1260,7 @@
       }
 
       let NAMES = {};
-      
+
       async function main() {
           let txt = get_route();
           if(!txt) {
@@ -1388,11 +1392,35 @@
           })
       }
 
-      function route_new_line(part) {
+      function removeElementsByClass(className){
+          const elements = document.getElementsByClassName(className);
+          while(elements.length > 0){
+              elements[0].classList.remove(className);
+          }
+      }
+
+      let CURRENT_LINE = undefined;
+      function set_current_line(id) {
+          removeElementsByClass('line_active')
+          const el = document.getElementById(id);
+          el.classList.add('line_active');
+          CURRENT_LINE = id;
+          switch_layer(el.dataset.layer);
+          const xyz = el.dataset.xyz.split(",").map(x => parseFloat(x));
+          map_el.map.panTo(ll(xyz), { animate: true } );
+      }
+
+      function route_new_line(part, xyz, line_layer) {
           if(part == undefined || part == null)
               return undefined;
           const line = $div();
           line.classList.add('segment_line')
+          line.id = `line_${nlines}`;
+          line.dataset.xyz = xyz;
+          line.dataset.layer = line_layer;
+          line.addEventListener('click', (ev) => {
+              set_current_line(ev.currentTarget.id);
+          });
           const num = $div();
           num.classList.add('segment_line_number');
           num.textContent = `${nlines}`;
@@ -1430,7 +1458,7 @@
               const count = counter_inc(ret.kind, ret.key, ret.warp);
               if(count != undefined) {
                   counter.textContent = `${count}`;
-                  counter.title = ret.kind;
+                  counter.title = ret.kind.map(v=>v.name).join('::');
               }
               set_route_icon(ret, icon)
               text.textContent = displayString(ret)
@@ -1447,7 +1475,7 @@
           const count = counter_inc(ret.kind, ret.key, ret.warp);
           if(count != undefined) {
               counter.textContent = `${count}`;
-              counter.title = ret.kind;
+              counter.title = ret.kind.map(v=>v.name).join('::');
           }
           set_route_icon(ret, icon)
           text.textContent = displayString(ret);
@@ -1464,47 +1492,64 @@
           return line;
       }
 
+      function switch_layer(level) {
+          if(level == map_el.level)
+              return;
+          map_el.map.removeLayer(baseMapLayers[map_el.level])
+          baseMapLayers[level].addTo(map_el.map);
+          map_el.level = level;
+      }
+
       map_el.map.on('baselayerchange', (ev) => {
           switch_segments(ev.name);
           map_el.level = ev.name;
       });
 
-
-      function find_top_element(kids) {
-          let k = 0;
-          for(const v of kids) {
-              let top = v.offsetTop - (route_el.scrollTop + route_el.offsetTop);
-              //console.log(k, v.offsetTop, route_el.scrollTop, route_el.offsetTop, top);
-              if(top >= 0) {
-                  return k;
-              }
-              k += 1;
+      function get_next_line(dir) {
+          if(CURRENT_LINE === undefined)
+              return undefined;
+          //console.log('CURRENT LINE', CURRENT_LINE);
+          let n = parseInt(CURRENT_LINE.split("_")[1]);
+          if(n === undefined) {
+              console.log("could not get line number", CURRENT_LINE);
+              return undefined;
           }
-          return undefined;
+          n += dir;
+          let next_id = `line_${n}`;
+          let next = document.getElementById(next_id);
+          if(!next) {
+              //console.log("could not find next line", next_id);
+              return undefined;
+          }
+          return next;
       }
-      /*
+
       window.addEventListener('keydown', (ev) => {
-          if(ev.key == "ArrowDown") {
-              const kids = Array.from(route_el.children);
-              let k = find_top_element(kids);
-              if(k === undefined)
-                  return
-              k = (k > 0) ? k - 1 : k;
-              console.log('kids', k, kids[k]);
-              const gkids = Array.from(kids[k].children)
-              let i = find_top_element(gkids);
-              if(i === undefined)
-                  return
-              console.log('gkids', i, gkids[i]);
-              i = (i+1 < gkids.length)? i+1 : i;
-              gkids[i].scrollIntoView(true);
+          //console.log("Key Down", ev.key)
+          if(CURRENT_LINE === undefined)
+              return
+          if(ev.key == "ArrowDown" || ev.key == "ArrowUp") {
+              let next;
+              if(ev.key == "ArrowDown")
+                  next = get_next_line(1);
+              else if(ev.key == "ArrowUp")
+                  next = get_next_line(-1);
+              if(next === undefined)
+                  return;
+              //console.log('NEXT', next.id)
+              //next.scrollIntoView(true);
+              const xoffset = 0;
+              const route = document.getElementById('route')
+              //const seg_data = next.parentElement;
+              //const seg = seg_data.parentElement;
+              const yoffset = next.offsetTop - route.offsetTop - 40;
+              route.scrollTo(xoffset, yoffset)
+              set_current_line(next.id);
               ev.stopPropagation()
               ev.preventDefault()
           }
-          if(ev.key == "ArrowUp") {
-          }
       });
-      */
+
       </script>
   </body>
 </html>

@@ -41838,6 +41838,76 @@
       ],
       "hash_id": "0x262589b318566498",
       "DisplayName": "Master Kohga"
+    },
+    "Tulin_Post_Wind_Temple": {
+      "pos": [
+        -3609.53,
+        323.62,
+        -1821.88
+      ],
+      "hash_id": "0xa63f555c8aca9556",
+      "DisplayName": "Tulin",
+      "note": "AnchorAction2"
+    },
+    "Koyin_Starting_Position": {
+      "pos": [
+        631.95,
+        280.62,
+        2047.22
+      ],
+      "hash_id": "0xa4d0b197feb8ffef",
+      "DisplayName": "Koyin",
+      "note": "AnchorAction1"
+    },
+    "Karson_Rito_Rope_Bridge": {
+      "pos": [
+        -295.46,
+        130.89,
+        -141.01
+      ],
+      "hash_id": "0x7b3c41e9583f97b9",
+      "DisplayName": "Karson",
+      "note": "AnchorAction4"
+    },
+    "Domidak": {
+      "pos": [
+        599.5,
+        152.0,
+        -1282.0
+      ],
+      "hash_id": "0x98c5350a70d4b149",
+      "DisplayName": "Domidak",
+      "note": "subchallnpc000"
+    },
+    "Horned_Statue": {
+      "pos": [
+        -233.36,
+        110.21,
+        -157.28
+      ],
+      "hash_id": "0x266f915742756e61",
+      "DisplayName": "Horned Statue",
+      "note": "TwnObj_DemonStatue_A_01"
+    },
+    "Mineru_Head_Starting_Position": {
+      "pos": [
+        1363.9,
+        538.35,
+        3261.21
+      ],
+      "hash_id": "0xbac16d3fb66e9fa3",
+      "DisplayName": "Mineru's Head",
+      "note": "RaumiGolem_Parts_Head"
+    },
+    "Mineru_Head_Ending_Position": {
+      "pos": [
+        868.0,
+        -454.65,
+        2146.06
+      ],
+      "hash_id": "0xd6b603c5be38b576",
+      "DisplayName": "Mineru's Head",
+      "note": "MinusObj_MineruGolemStand_A_06"
     }
   },
   "TechLab": {

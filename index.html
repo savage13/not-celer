@@ -4,14 +4,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-          crossorigin=""/>
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-            crossorigin=""></script>
-    -->
     <link rel="stylesheet" href="leaflet/leaflet.css" />
     <script src="leaflet/leaflet.js"></script>
     <link rel="stylesheet" href="leaflet/L.Control.MousePosition.css" />
@@ -567,15 +559,25 @@
                   const comp = completions;
                   for (var i = 0; i < comp.length; i++) {
                       if (comp[i].indexOf(prefix) != -1) {
-                          const items = comp[i].filter(w => w.startsWith(word));
-                          const data = {list: items,
-                                        from: CodeMirror.Pos(cursor.line, start),
-                                        to: CodeMirror.Pos(cursor.line, end)};
+                          const items = comp[i]
+                                .filter(w => w.startsWith(word))
+                                .filter(x => {
+                                    let tmp = x.replace(/^_/, "")
+                                    return !counter_has(tmp);
+                                });
+                          const data = {
+                              list: items,
+                              from: CodeMirror.Pos(cursor.line, start),
+                              to: CodeMirror.Pos(cursor.line, end)
+                          };
                           const meta_items = items
-                                .map(x => (x[0] == '_') ? x.slice(1) : x)
+                                .map(x => x.replace(/^_/, ""))
                                 .map(x => [x, meta_get(x)])
                                 .filter(x => x[0] && x[1])
-                                .map(m => L.circleMarker(ll(m[1].pos), { color: '#ff2c00', radius: 7}).bindTooltip(m[0]));
+                                .map(m => L.circleMarker(ll(m[1].pos), {
+                                    color: '#ff2c00', radius: 7
+                                }).bindTooltip(m[0]));
+                          COMPS.invoke('remove');
                           COMPS.clearLayers();
                           meta_items.forEach(m => COMPS.addLayer(m));
                           CodeMirror.on(data, 'shown', () => {
@@ -1065,6 +1067,13 @@
               out[key] = sum(Object.values(value))
           }
           return out;
+      }
+
+      function counter_has(key) {
+          const v = key.split("::");
+          const name = v.pop();
+          key = v.join("::");
+          return key in _counters && name in _counters[key];
       }
 
       function counter_inc(key, name, warp) {

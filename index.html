@@ -1307,17 +1307,19 @@
           return items;
       }
       const ALL_MARKERS = {};
-      function show_type(key) {
-          const items = meta_get(key);
+      function show_type(key_base) {
+          const items = meta_get(key_base);
           if(!items)
               return;
-          const group = Object.keys(items).map(key => {
+          const group = Object.keys(items).filter(key => {
+              return ! counter_has(`${key_base}::${key}`)
+          }).map(key => {
               const v = items[key];
               let tooltip = (v.DisplayName != key) ? `${v.DisplayName} ${key}` : key;
               return L.circleMarker(ll(v.pos), { radius: 6, color: '#ff2222'}).bindTooltip(tooltip)
           })
-          ALL_MARKERS[key] = L.layerGroup(group);
-          ALL_MARKERS[key].invoke('addTo', map_el.map);
+          ALL_MARKERS[key_base] = L.layerGroup(group);
+          ALL_MARKERS[key_base].invoke('addTo', map_el.map);
       }
       function hide_type(key) {
           const group = ALL_MARKERS[key];

@@ -79,5 +79,17 @@
         "hash_id": "0xd6b603c5be38b576",
         "DisplayName": "Mineru's Head",
         "note": "MinusObj_MineruGolemStand_A_06"
+    },
+    "Rozel_Ruffian_Infested_Village_Start": {
+        "pos": [2782.11, 188.87, 3271.46],
+        "hash_id": "0x3e0bbbbb0624a296",
+        "DisplayName": "Rozel",
+        "note": "AnchorAction10"
+    },
+    "Rozel_Lurelin_Resort_Project_Start": {
+        "pos": [2858.63, 106.18, 3518.67],
+        "hash_id": "0xf4ba4128b9ab2c23",
+        "DisplayName": "Rozel",
+        "note": "AnchorAction4"
     }
 }

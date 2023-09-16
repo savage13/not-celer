@@ -62,6 +62,18 @@
         "DisplayName": "Domidak",
         "note": "subchallnpc000"
     },
+    "Domidak_Misko_Cave_Treasure_Start": {
+        "pos": [2604.28, 256.19, -1327.55],
+        "hash_id": "0xfee7cd0c512ed7ee",
+        "DisplayName": "Domidak",
+        "note": "AnchorAction4"
+    },
+    "Domidak_Misko_Cave_Treasure_End": {
+        "pos": [2611.00, 254.92, -1316.50],
+        "hash_id": "0xde576dd89ce5ff37",
+        "DisplayName": "Domidak",
+        "note": "AnchorAction1"
+    },
     "Horned_Statue": {
         "pos": [-233.36, 110.21, -157.28],
         "hash_id": "0x266f915742756e61",

@@ -887,6 +887,7 @@
           const marker_states = ['all', 'start', 'end']
           let marker = 'end';
           const to = [];
+          const away = [];
           for(const v of moves) {
               if(v.marker) {
                   let value = v.marker.toLowerCase();
@@ -901,6 +902,10 @@
               let pos = read_xyz(v.to);
               if(v.warp === true && v.away == true) {
               } else if(v.away == true && !v.warp) {
+                  if(to.length)
+                      away.push([to.at(-1), pos])
+                  else
+                      away.push([pos]);
               } else if(v.warp == true && !v.away) {
                   to.push([])
                   to.push(pos);
@@ -908,7 +913,7 @@
                   to.push(pos)
               }
           }
-          return {to, marker }
+          return {to, marker, away }
       }
 
       function parse_object_header(obj, keys) {
@@ -959,6 +964,7 @@
               return [];
           }
           const to = []
+          const away = [];
           const markers = [];
           let marker_icon = undefined;
           let marker_keys = undefined;
@@ -981,12 +987,18 @@
                   const ret = parse_movements(val);
                   to.push(... ret.to);
                   const n = ret.to.length;
-                  if(ret.marker == 'start') {
+                  if(ret.marker == 'start' && n) {
                       markers.push( marker(marker_icon, ret.to[0], marker_keys))
-                  } else if(ret.marker == 'end') {
+                  } else if(ret.marker == 'end' && n) {
                       markers.push( marker(marker_icon, ret.to[n-1], marker_keys))
-                  } else if(ret.marker == 'all') {
+                  } else if(ret.marker == 'all' && n) {
                       markers.push( ... ret.to.map(pt => marker(marker_icon, pt, marker_keys)))
+                  }
+                  if(ret.away.length) {
+                      away.push(...ret.away)
+                      if(marker_icon) {
+                          markers.push( ... ret.away.map(pt => marker(marker_icon, pt.at(-1), marker_keys)))
+                      }
                   }
               } else if (key == "comment") {
               } else if (key == "line-color") {
@@ -1018,7 +1030,7 @@
               }
           }
           //console.log(to);
-          return {to, markers, line_color, level: level_set}
+          return {to, markers, line_color, level: level_set, away}
       }
 
       let SEGMENTS = {};
@@ -1150,6 +1162,7 @@
                   const markers = [];
                   const lines = [];
                   const elevation = [];
+                  const away = []
                   let FLY_TO = [];
                   for(const part of parts) {
                       const kind = typeof part;
@@ -1164,6 +1177,16 @@
                       } else if(kind == "object") {
                           const ret = parse_object(part);
                           elevation.push(... ret.to.map(x => x[1]))
+                          if(ret.away.length) {
+                              for(const aw of ret.away) {
+                                  if(aw.length == 2)
+                                      away.push(aw)
+                                  else if(aw.length == 1)
+                                      away.push([pts.at(-1), aw[0]])
+                                  else
+                                      console.log("Expected length of 1 or 2 for 'away'")
+                              }
+                          }
                           pts.push(... ret.to);
                           markers.push(... ret.markers)
                           line_color = (ret.line_color) ? ret.line_color : line_color;
@@ -1210,17 +1233,17 @@
                   last_point = pts[n-1];
 
                   let multi = [];
-                  let ll = [];
+                  let xll = [];
                   for(const pt of pts) {
                       if(pt.length == 3)
-                          ll.push([pt[2], pt[0]])
+                          xll.push([pt[2], pt[0]])
                       else if(pt.length == 0) {
-                          multi.push(ll);
-                          ll = [];
+                          multi.push(xll);
+                          xll = [];
                       }
                   }
-                  if(ll.length > 0) {
-                      multi.push(ll);
+                  if(xll.length > 0) {
+                      multi.push(xll);
                   }
                   multi = multi.filter(m => m.length);
                   if(line_color === undefined) {
@@ -1232,6 +1255,15 @@
                   )
                   if(pl)
                       tmp.push(pl);
+                  if(away.length) {
+                      const away_pl = away
+                            .map(pts => pts.map(pt => ll(pt)))
+                            .map(pts => L.polyline(pts, { color: 'white' })
+                                 .bindTooltip(name, { sticky: true })
+                                 .arrowheads(arrowhead_opts)
+                                )
+                      tmp.push(...away_pl);
+                  }
                   SEGMENTS[name] = {
                       layer,
                       group: L.layerGroup(tmp),

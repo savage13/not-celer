@@ -3037,24 +3037,23 @@
       2403.14
     ],
     "DisplayName": "GC19",
-    "Start": {
-      "objid": 100687,
-      "map_type": "MainField",
-      "map_name": "D-7",
-      "hash_id": "0xa5ac2e959b3cf697",
-      "name": "KorokCarryProgressKeeper",
-      "scale": 0,
-      "equip": null,
-      "map_static": 1,
-      "korok_id": "GC19",
-      "korok_type": "Korok Friends",
-      "drop": null,
-      "pos": [
-        -1615.44,
-        100.53,
-        2403.14
-      ],
-      "DisplayName": "GC19 Start"
+    "Start":{
+        "objid":100686,
+        "map_type":"MainField",
+        "hash_id":"0x2050d0934a222d96",
+        "name":"KorokCarryPassenger_Pair",
+        "scale":0,
+        "equip":null,
+        "map_static":1,
+        "korok_id":null,
+        "korok_type":null,
+        "drop":null,
+        "pos":[
+            -1708,
+            91.15,
+            2341.18
+        ],
+        "DisplayName": "GC19 Start"
     },
     "End": {
       "objid": 100677,

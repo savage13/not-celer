@@ -41938,6 +41938,16 @@
       "DisplayName": "Rozel",
       "note": "AnchorAction10"
     },
+    "Dalia_Game_Start": {
+      "pos": [
+        -3815.0,
+        148.98,
+        2873.0
+      ],
+      "hash_id": "0x1969cae9a483852f",
+      "DisplayName": "Dalia",
+      "note": "AnchorAction9"
+    },
     "Rozel_Lurelin_Resort_Project_Start": {
       "pos": [
         2858.63,

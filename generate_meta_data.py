@@ -4,7 +4,6 @@ import json
 
 names = json.load(open("names.json", "r"))
 locations = json.load(open("LocationMarker.json","r"))
-data = json.load(open("raw_towers.json", "r"))
 towers = {}
 shrines = {}
 koroks = {}
@@ -13,7 +12,10 @@ addisons = {}
 lightroot = {}
 caves = {}
 wells = {}
+data = json.load(open("raw_towers.json", "r"))
 for r in data:
+    if r['Location'] == "DeepHole_B-6_Tower":
+        continue
     name = locations[r["Location"]]
     key = name.replace(" ", "").replace("SkyviewTower", "")
     towers[key] = {
@@ -73,6 +75,8 @@ for r in data:
 data = json.load(open("raw_wells.json", "r"))
 for r in data:
     name = locations[r["Location"]]
+    if name == "Komo Shoreline Cave":
+        continue
     if name.endswith("Shrine"):
         continue
     key = name.replace(" ", "").replace("Well", "")

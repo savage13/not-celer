@@ -28,16 +28,6 @@
       "DisplayName": "Rospro Pass Skyview Tower",
       "hash_id": "0xc1c2ac34270e19c5"
     },
-    "BiridaLookoutChasm": {
-      "pos": [
-        -3685.63,
-        138.61,
-        1859.87
-      ],
-      "Location": "DeepHole_B-6_Tower",
-      "DisplayName": "Birida Lookout Chasm",
-      "hash_id": "0x4d0237f56a279569"
-    },
     "GerudoHighlands": {
       "pos": [
         -3960.88,
@@ -27527,15 +27517,6 @@
       ],
       "DisplayName": "Haran Lakefront Well",
       "hash_id": "0xdc900960b08af9eb"
-    },
-    "KomoShorelineCave": {
-      "pos": [
-        486.93,
-        113.21,
-        3831.14
-      ],
-      "DisplayName": "Komo Shoreline Cave",
-      "hash_id": "0xa17f34c13fdecb3e"
     },
     "WoodlandStable": {
       "pos": [

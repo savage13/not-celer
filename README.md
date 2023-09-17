@@ -13,5 +13,7 @@ You can find it https://restite.org/not-celer
 ### License
 BSD 2-Clause License
 
+### Why does the code look so bad
+This started as a project to see if the previous celer routes could be parsed within the browser.  It turned into mostly a placeholder / stop-gap for the new version of celer to be finished.  As such I did not want to put too time / effort into something that may disappear.  As such, it will probably turn into a standard that will get out of control ;P
 
 

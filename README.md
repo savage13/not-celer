@@ -1,6 +1,8 @@
 # Not Celer
 Routing tool for Zelda TotK
 
+You can find it https://restite.org/not-celer
+
 ### What is here
 - index.html: primary program where most of the code is constain as inline javascript.
     Be warned, its messy and needs attention
@@ -8,6 +10,8 @@ Routing tool for Zelda TotK
 - server.py: runs a local https webserver with an associated key.pem / server.pem.  Clipboard usage requires https
 - Assorted Image files and javascript libraries
 
-- 
+### License
+BSD 2-Clause License
+
 
 

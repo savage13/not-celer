@@ -1322,6 +1322,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                   for(const v of vals) {
                       items = items[v];
                   }
+                  if(!items)
+                      continue
                   const ul = document.createElement('ul');
                   ul.style.marginTop = 0;
                   ul.style.marginBottom = 0;

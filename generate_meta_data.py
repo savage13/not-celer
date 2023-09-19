@@ -162,6 +162,139 @@ for key, value in extra.items():
         raise ValueError('key already exists in npcs', key)
     npcs[key] = value
 
+mappct = json.load(open('map_pct2.json', 'r'))
+
+G,S,D = 0,0,0
+dispenser = {}
+for item in mappct['recycle box']:
+    t = None
+    if type(item['Trans'][0]) is dict:
+        t = item['Trans'][0]['Trans']
+    elif type(item['Trans'][0]) is list:
+        t = item['Trans'][0]
+    else:
+        raise ValueError('getting position')
+    name = ''
+    if t[1] < 0:
+        name = f'D{D:02d}'
+        D += 1
+    elif t[1] > 1000:
+        name = f'S{S:02d}'
+        S += 1
+    else:
+        name = f'G{G:02d}'
+        G += 1
+    #print(name, t)
+    dispenser[name] = {
+        'pos': t, 
+        'hash_id': item['hash_id'],
+        'DisplayName': 'Device Dispenser'
+    }
+tablets = {}
+S = 0
+for item in mappct['ancient stone tablets']:
+    tablets[f'S{S:02d}'] = {
+        "hash_id": item['hash_id'][0],
+        "pos": item['Trans'][0],
+        "DisplayName": "Ancient Tablet"
+    }
+    S += 1
+tears = {}
+S = 0
+for item in mappct['tears']:
+    tears[f'G{S:02d}'] = {
+        "hash_id": item['hash_id'][0],
+        "pos": item['Trans'][0],
+        "DisplayName": "Dragon Tears"
+    }
+    S += 1
+places = {}
+for item in mappct['places']:
+    key0 = item['ui_name'].replace(" ", "").replace("'","")
+    n = 1
+    key = key0
+    while key in places:
+        key = f"{key0}{n:02d}"
+        n += 1
+
+    places[key] = {
+        "hash_id": item['hash_id'][0],
+        "pos": item['Trans'][0],
+        "DisplayName": item['ui_name']
+    }
+
+shops = {}
+for item in mappct['important shops']:
+    key0 = item['ui_name'].replace(" ", "").replace("-", "")
+    n = 1
+    key = key0
+    while key in shops:
+        key = f"{key0}{n:02d}"
+        n += 1
+
+    shops[key] = {
+        "hash_id": item['hash_id'][0],
+        "pos": item['Trans'][0],
+        "DisplayName": item['ui_name']
+    }
+for item in mappct['shops']:
+    key0 = item['ui_name'].replace(" ", "").replace("-","")
+    n = 1
+    key = key0
+    while key in shops:
+        key = f"{key0}{n:02d}"
+        n += 1
+
+    shops[key] = {
+        "hash_id": item['hash_id'][0],
+        "pos": item['Trans'][0],
+        "DisplayName": item['ui_name']
+    }
+
+fairy = {}
+for item in mappct['fairy']:
+    key0 = item['ui_name'].replace(" ", "")
+    n = 1
+    key = key0
+    while key in fairy:
+        key = f"{key0}{n:02d}"
+        n += 1
+
+    fairy[key] = {
+        "hash_id": item['hash_id'][0],
+        "pos": item['Trans'][0],
+        "DisplayName": item['name']
+    }
+special = {}
+for item in mappct['warps']:
+    name = item['ui_name']
+    if name == "DgnObj_WarpPoint_Zonau_A_06":
+        name = "CentralMineWarpPoint"
+    special[name] = {
+        "hash_id": item['hash_id'][0],
+        "pos": item['Trans'][0],
+        'DisplayName': name
+    }
+
+xlocations = {}
+for item in mappct['spots']:
+    name0 = item['ui_name'].replace(" ", "").replace("'","").replace("-", "")
+    name = name0
+    n = 1
+    while name in xlocations:
+        name = f"{name0}{n:02d}"
+        n += 1
+    print(item['hash_id'], name)
+    if name in xlocations:
+        raise ValueError('aargh')
+    xlocations[name] = {
+        "hash_id": item['hash_id'][0],
+        "pos": item['Trans'][0],
+        "DisplayName": item['ui_name'],
+        'flag': item['flag'],
+    }
+
+    
 out = {
     "ROA": {
         "DisplayName": "Room of Awakening",
@@ -190,14 +323,20 @@ out = {
         "Molduga": molduga,
         "Talus": talus
     },
+    "Location": xlocations,
+    "Fairy": fairy,
+    "Shop": shops,
+    "Place": places,
+    "Special": special,
+    "Tear": tears,
+    "Tablet": tablets,
     "Chest": {},
     "Equipment": {
         "Weapon": {},
         "Bow": {},
         "Shield": {},
     },
-    "Dispenser": {},
-    "Location": {},
+    "Dispenser": dispenser,
     "Memory": {},
     "Material": {},
     "Item": {},

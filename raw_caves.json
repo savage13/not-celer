@@ -3519,5 +3519,20 @@
          -373.52
       ],
       "scale" : 0
-   }
+   },
+    {
+        "objid":251344,
+        "map_type":
+        "MainField",
+        "hash_id":"0x0a49d3b548f08d4e",
+        "name":"LocationMarker",
+        "scale":0,
+        "equip":null,
+        "map_static":0,
+        "korok_id":null,
+        "korok_type":null,
+        "drop":null,
+        "Location":"ZoraZonauTerminal",
+        "pos":[3606.64,103.96,-122.2]
+    }
 ]

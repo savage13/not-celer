@@ -322,7 +322,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           z-index: 40000;
           top: 0;
           left: 50%;
-          transform: translate(-50%,0) scale(0.6);
+          transform: translate(-50%,0) scale(0.75);
           background: rgba(0,0,0,1);
           color: lightblue;
           border: 0.5px solid rgba(255,255,255,0.3);
@@ -332,9 +332,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       #progress {
           font-family: sans-serif;
           padding: 0.3em;
-
       }
       #progress div {
+          cursor: default;
       }
       #progress div img {
           width: 30px;
@@ -408,6 +408,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
               <div class="td"><img src="frox.png"></div>
               <div class="td"><img src="molduga.png"></div>
               <div class="td"><img src="flux.png"></div>
+              <div class="td" id="progress_icon_mappct"><img src="World_Map.png"></div>
             </div>
             <div class="tr">
               <div class="td" id="progress_Tower">0</div>
@@ -424,6 +425,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
               <div class="td" id="progress_Enemy::Frox">0</div>
               <div class="td" id="progress_Enemy::Molduga">0</div>
               <div class="td" id="progress_Enemy::FluxConstruct">0</div>
+              <div class="td" id="progress_mappct">0</div>
             </div>
           </div>
         </div>
@@ -1006,7 +1008,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           }
           const vals = Object.values(obj)[0];
           if(vals === undefined || vals === null)
-              return {to, markers}
+              return {to, markers, away}
           let line_color = undefined;
           let level_set = undefined;
           for(const [key, val] of Object.entries(vals)) {
@@ -1123,6 +1125,15 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           return key in _counters && name in _counters[key];
       }
 
+      function counter_mappct_flag(flag) {
+          if(!flag || !(flag in mappct_flag))
+              return
+          let added = 0
+          for(const item of mappct_flag[flag]) {
+              _counters.mappct[item.hash_id[0]] = 1;
+              added += 1
+          }
+      }
       function counter_inc(key, name, warp) {
           if(warp)
               return undefined
@@ -1138,6 +1149,18 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           }
           key = key.slice(0,-1).map(k => k.name).join('::')
           if(key in _counters) {
+              { // mappct
+                  const tmp = [key,name].join("::")
+                  const m = meta_get(tmp);
+                  if(m && m.mappct) {
+                      counter_mappct_flag(m.mappct.flag)
+                      counter_mappct_flag(m.mappct.flag_alt)
+
+                  } else if(m) {
+                  } else {
+                      console.log("Error finding meta data", tmp)
+                  }
+              }
               if(name in _counters[key])
                   warn(`Duplicate of ${key} ${name}`)
               _counters[key][name] = 1;
@@ -1226,7 +1249,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                           markers.push(... ret.markers)
                           line_color = (ret.line_color) ? ret.line_color : line_color;
                           level_set = (ret.level) ? ret.level : level_set;
-                          FLY_TO.push( ret.to.find(x => x.length ) )
+                          if(ret.to.length)
+                              FLY_TO.push( ret.to.find(x => x.length ) )
+                          else
+                              FLY_TO.push( pts.at(-1) )
                       } else {
                           console.log("unexpected kind", kind);
                           FLY_TO.push( [0,0,0])
@@ -1406,7 +1432,26 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
       let meta = {};
       let icons = {};
+      let mappct_data = {} // data from map_pct2.json
+      let meta_hash = {}; // hash index into meta data
+      let mappct = {}; // key: hash_id; value: map_pct data
+      let mappct_flag = {} // key: flag; value: [ map_pct with that flag ]
 
+      function get_hash_ids(obj) {
+          if(typeof obj != 'object' || obj === null) {
+              return
+          }
+          if(obj.hash_id) {
+              if(obj.hash_id in meta_hash) {
+                  console.log("Duplicate hash in meta_hash", obj.hash_id)
+              }
+              meta_hash[obj.hash_id] = obj
+              return
+          }
+          for(const [key, value] of Object.entries(obj)) {
+              get_hash_ids(value)
+          }
+      }
 
       const loadIcon = (name, opts) => new Promise( resolve => {
           if(opts.canvas) {
@@ -1452,6 +1497,45 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                   }
               }
           }
+
+          get_hash_ids(meta)
+
+          mappct = {}
+          mappct_data = await load_json('map_pct2.json')
+          let total = 0;
+          for(const [key, values] of Object.entries(mappct_data)) {
+              total += values.length;
+              let avails = []
+              let key0 = ""
+              if(key == "towers") {
+                  avails = meta.Tower
+                  key0 = "Tower"
+              }
+              for(const value of values) {
+                  if(meta_hash[value.hash_id[0]]) {
+                      if(value.hash_id[0] in mappct) {
+                          console.log("hash already in mappct ", value.hash_id[0], value)
+                      }
+                      mappct[value.hash_id[0]] = meta_hash[value.hash_id[0]]
+                      mappct[value.hash_id[0]].mappct = value
+                      if(value.flag == undefined)
+                          console.log('flag not defined for', value)
+                      if(!(value.flag in mappct_flag))
+                          mappct_flag[value.flag] = []
+                      mappct_flag[value.flag].push(value)
+                      if(key == "towers") {
+                          value.flag_alt = value.flag
+                              .replace("IsVisitLocation",
+                                       "IsOpenCannon")
+                      }
+                  } else {
+                      console.log("cound not find matching location for ",
+                                  value, value.hash_id[0])
+                  }
+              }
+          }
+          console.log(total, Object.keys(mappct).length)
+
           for(const word of Object.keys(meta)) {
               if(word == "Enemy") {
                   for(const sub of Object.keys(meta[word])) {
@@ -1614,7 +1698,16 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           for(const key of Object.keys(progress)) {
               let el = document.getElementById(`progress_${key}`);
               if(el) {
-                  el.innerText = progress[key];
+                  if(key == 'mappct') {
+                      const pct = (100 * progress[key] / 2492);
+                      el.innerText = pct.toFixed(2);
+                      const title = `map% ${progress[key]} / 2492 = ${pct.toFixed(5)}%`
+                      el.title = title
+                      document.getElementById(`progress_icon_${key}`).title = title;
+                  }
+                  else {
+                      el.innerText = progress[key];
+                  }
               }
           }
       }
@@ -1625,6 +1718,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           const line = $div();
           line.classList.add('segment_line')
           line.id = `line_${nlines}`;
+          if(xyz === undefined) 
+              console.log('new line', nlines, xyz)
           line.dataset.xyz = xyz;
           line.dataset.layer = line_layer;
           line.dataset.segment = segment_name;

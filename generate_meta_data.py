@@ -188,7 +188,8 @@ for item in mappct['recycle box']:
     dispenser[name] = {
         'pos': t, 
         'hash_id': item['hash_id'],
-        'DisplayName': 'Device Dispenser'
+        'DisplayName': 'Device Dispenser',
+        'flag': item['flag']
     }
 tablets = {}
 S = 0
@@ -196,7 +197,8 @@ for item in mappct['ancient stone tablets']:
     tablets[f'S{S:02d}'] = {
         "hash_id": item['hash_id'][0],
         "pos": item['Trans'][0],
-        "DisplayName": "Ancient Tablet"
+        "DisplayName": "Ancient Tablet",
+        'flag': item['flag']
     }
     S += 1
 tears = {}
@@ -205,7 +207,8 @@ for item in mappct['tears']:
     tears[f'G{S:02d}'] = {
         "hash_id": item['hash_id'][0],
         "pos": item['Trans'][0],
-        "DisplayName": "Dragon Tears"
+        "DisplayName": "Dragon Tears",
+        'flag': item['flag']
     }
     S += 1
 places = {}
@@ -220,7 +223,8 @@ for item in mappct['places']:
     places[key] = {
         "hash_id": item['hash_id'][0],
         "pos": item['Trans'][0],
-        "DisplayName": item['ui_name']
+        "DisplayName": item['ui_name'],
+        'flag': item['flag']
     }
 
 shops = {}
@@ -235,7 +239,8 @@ for item in mappct['important shops']:
     shops[key] = {
         "hash_id": item['hash_id'][0],
         "pos": item['Trans'][0],
-        "DisplayName": item['ui_name']
+        "DisplayName": item['ui_name'],
+        'flag': item['flag']
     }
 for item in mappct['shops']:
     key0 = item['ui_name'].replace(" ", "").replace("-","")
@@ -248,7 +253,8 @@ for item in mappct['shops']:
     shops[key] = {
         "hash_id": item['hash_id'][0],
         "pos": item['Trans'][0],
-        "DisplayName": item['ui_name']
+        "DisplayName": item['ui_name'],
+        'flag': item['flag']
     }
 
 fairy = {}
@@ -263,7 +269,8 @@ for item in mappct['fairy']:
     fairy[key] = {
         "hash_id": item['hash_id'][0],
         "pos": item['Trans'][0],
-        "DisplayName": item['name']
+        "DisplayName": item['name'],
+        'flag': item['flag']
     }
 special = {}
 for item in mappct['warps']:
@@ -273,7 +280,8 @@ for item in mappct['warps']:
     special[name] = {
         "hash_id": item['hash_id'][0],
         "pos": item['Trans'][0],
-        'DisplayName': name
+        'DisplayName': name,
+        'flag': item['flag']
     }
 
 xlocations = {}
@@ -294,7 +302,15 @@ for item in mappct['spots']:
         'flag': item['flag'],
     }
 
-    
+temples = {}
+for item in mappct['temples']:
+    name = item['ui_name'].replace(" ", "").replace("'","").replace("-", "")
+    xlocations[name] = {
+        "hash_id": item['hash_id'][0],
+        "pos": item['Trans'][0],
+        "DisplayName": item['ui_name'],
+        'flag': item['flag'],
+    }
 out = {
     "ROA": {
         "DisplayName": "Room of Awakening",
@@ -329,6 +345,7 @@ out = {
     "Place": places,
     "Special": special,
     "Tear": tears,
+    "Temple": temples,
     "Tablet": tablets,
     "Chest": {},
     "Equipment": {

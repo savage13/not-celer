@@ -38512,6 +38512,56 @@
       ],
       "DisplayName": "Abandoned Lanayru Mine",
       "flag": "IsVisitLocation.MinusField_WhiteZora"
+    },
+    "TheMuralsMyth,RisenfromtheSands": {
+      "hash_id": "0x0f683f8c4b7383f3",
+      "pos": [
+        -4518.5537,
+        234.66544,
+        3611.5615
+      ],
+      "DisplayName": "The Mural's Myth, Risen from the Sands",
+      "flag": "IsVisitLocation.LargeDungeonThunder"
+    },
+    "TheGreatWellspringofHyrule": {
+      "hash_id": "0x0b3d48b00c53300c",
+      "pos": [
+        3265.3838,
+        1795.3899,
+        -685.57715
+      ],
+      "DisplayName": "The Great Wellspring of Hyrule",
+      "flag": "IsVisitLocation.LargeDungeonWater"
+    },
+    "TheLegendaryStormwindArk": {
+      "hash_id": "0x33e984ad3eb89902",
+      "pos": [
+        -2859.5,
+        1516.8888,
+        -3005.5
+      ],
+      "DisplayName": "The Legendary Stormwind Ark",
+      "flag": "IsVisitLocation.LargeDungeonWind"
+    },
+    "LostGorondiaRediscovered": {
+      "hash_id": "0x0173bd8213cc8895",
+      "pos": [
+        1457.0,
+        -749.5,
+        -2847.0
+      ],
+      "DisplayName": "Lost Gorondia Rediscovered",
+      "flag": "IsVisitLocation.LargeDungeonFire"
+    },
+    "TheVesselofSpiritsRestingPlace": {
+      "hash_id": "0x0d1a4985bfd281c9",
+      "pos": [
+        1418.6921,
+        -513.5999,
+        3170.3987
+      ],
+      "DisplayName": "The Vessel of Spirit's Resting Place",
+      "flag": "IsVisitLocation.LargeDungeonSoul"
     }
   },
   "Fairy": {
@@ -38522,7 +38572,8 @@
         254.64032,
         -3218.7097
       ],
-      "DisplayName": "MaronSpring"
+      "DisplayName": "MaronSpring",
+      "flag": "HaveTalked.HorseGod001"
     },
     "GreatFairyFountain": {
       "hash_id": "0xa29fad3e26273878",
@@ -38531,7 +38582,8 @@
         106.05299,
         2179.933
       ],
-      "DisplayName": "WeaponCureSpring_DressFairy_00"
+      "DisplayName": "WeaponCureSpring_DressFairy_00",
+      "flag": "Fairy_MapOpen_DressFairy_00"
     },
     "GreatFairyFountain01": {
       "hash_id": "0xac7845ce321e27aa",
@@ -38540,7 +38592,8 @@
         406.81018,
         -2994.8657
       ],
-      "DisplayName": "WeaponCureSpring_DressFairy_01"
+      "DisplayName": "WeaponCureSpring_DressFairy_01",
+      "flag": "Fairy_MapOpen_DressFairy_01"
     },
     "GreatFairyFountain02": {
       "hash_id": "0x0888261216890f51",
@@ -38549,7 +38602,8 @@
         181.50914,
         1231.1328
       ],
-      "DisplayName": "WeaponCureSpring_DressFairy_02"
+      "DisplayName": "WeaponCureSpring_DressFairy_02",
+      "flag": "Fairy_MapOpen_DressFairy_02"
     },
     "GreatFairyFountain03": {
       "hash_id": "0xf2c99beb6c09d1c2",
@@ -38558,7 +38612,8 @@
         186.65872,
         -1386.476
       ],
-      "DisplayName": "WeaponCureSpring"
+      "DisplayName": "WeaponCureSpring",
+      "flag": "Fairy_MapOpen"
     }
   },
   "Shop": {
@@ -38569,7 +38624,8 @@
         2410.9617,
         1651.3439
       ],
-      "DisplayName": "Crystal Refinery"
+      "DisplayName": "Crystal Refinery",
+      "flag": "IsAccessed_BatteryExchangeObj_FirstSkyIsland"
     },
     "CrystalRefinery01": {
       "hash_id": "0x9f14f21df243168d",
@@ -38578,7 +38634,8 @@
         143.64006,
         -191.85449
       ],
-      "DisplayName": "Crystal Refinery"
+      "DisplayName": "Crystal Refinery",
+      "flag": "IsAccessed_BatteryExchangeObj_BaseCamp"
     },
     "ForgeConstruct": {
       "hash_id": "0x52c62f0928a9012d",
@@ -38587,7 +38644,8 @@
         1476.3179,
         1685.6963
       ],
-      "DisplayName": "Forge Construct"
+      "DisplayName": "Forge Construct",
+      "flag": "HaveTalked.Npc_Zonau_Golem_Servant_FirstIsland_21"
     },
     "BargainerStatue": {
       "hash_id": "0x4acb0a76f36cc03c",
@@ -38596,7 +38654,8 @@
         -453.905,
         1956.871
       ],
-      "DisplayName": "Bargainer Statue"
+      "DisplayName": "Bargainer Statue",
+      "flag": "HaveKnownDemonStatue_00"
     },
     "BargainerStatue01": {
       "hash_id": "0xb99173dfb6d93e89",
@@ -38605,7 +38664,8 @@
         -364.95895,
         796.50635
       ],
-      "DisplayName": "Bargainer Statue"
+      "DisplayName": "Bargainer Statue",
+      "flag": "HaveKnownDemonStatue_01"
     },
     "BargainerStatue02": {
       "hash_id": "0x44417788bf2e14ee",
@@ -38614,7 +38674,8 @@
         -161.24677,
         -2690.373
       ],
-      "DisplayName": "Bargainer Statue"
+      "DisplayName": "Bargainer Statue",
+      "flag": "HaveKnownDemonStatue_02"
     },
     "BargainerStatue03": {
       "hash_id": "0x418242da6d94e870",
@@ -38623,7 +38684,8 @@
         -745.75946,
         1333.9298
       ],
-      "DisplayName": "Bargainer Statue"
+      "DisplayName": "Bargainer Statue",
+      "flag": "HaveKnownDemonStatue_03"
     },
     "BargainerStatue04": {
       "hash_id": "0x14ef032ad1beeb84",
@@ -38632,7 +38694,8 @@
         -281.0164,
         2398.976
       ],
-      "DisplayName": "Bargainer Statue"
+      "DisplayName": "Bargainer Statue",
+      "flag": "HaveKnownDemonStatue_04"
     },
     "BargainerStatue05": {
       "hash_id": "0xe4ccc119f427dd2f",
@@ -38641,7 +38704,8 @@
         -306.64987,
         -2604.2031
       ],
-      "DisplayName": "Bargainer Statue"
+      "DisplayName": "Bargainer Statue",
+      "flag": "HaveKnownDemonStatue_05"
     },
     "SmithingConstruct": {
       "hash_id": "0x05935ebfa67dc88b",
@@ -38650,7 +38714,8 @@
         -631.9738,
         3375.7468
       ],
-      "DisplayName": "Smithing Construct"
+      "DisplayName": "Smithing Construct",
+      "flag": "HavePlayedEvent.Npc_Zonau_Golem_Servant_ZonauChallenge_01_D_T"
     },
     "ForgeConstruct01": {
       "hash_id": "0x83e8a248c9351f34",
@@ -38659,7 +38724,8 @@
         -382.39307,
         2960.9932
       ],
-      "DisplayName": "Forge Construct"
+      "DisplayName": "Forge Construct",
+      "flag": "IsActivated_Minus0012_NPCZonauGolem"
     },
     "ForgeConstruct02": {
       "hash_id": "0xbb710b1ef0c4c5a5",
@@ -38668,7 +38734,8 @@
         -370.16,
         2515.127
       ],
-      "DisplayName": "Forge Construct"
+      "DisplayName": "Forge Construct",
+      "flag": "IsActivated_Minus0013_NPCZonauGolem"
     },
     "ForgeConstruct03": {
       "hash_id": "0xec94fe69d8c590e2",
@@ -38677,7 +38744,8 @@
         -644.9224,
         -556.71234
       ],
-      "DisplayName": "Forge Construct"
+      "DisplayName": "Forge Construct",
+      "flag": "IsActivated_Minus0014_NPCZonauGolem"
     },
     "ForgeConstruct04": {
       "hash_id": "0x4cadd049a5e680f7",
@@ -38686,7 +38754,8 @@
         -200.0,
         -1846.7661
       ],
-      "DisplayName": "Forge Construct"
+      "DisplayName": "Forge Construct",
+      "flag": "IsActivated_Minus0015_NPCZonauGolem"
     },
     "ForgeConstruct05": {
       "hash_id": "0x6ca1e8f24ebb6f4e",
@@ -38695,7 +38764,8 @@
         -718.849,
         -2382.5151
       ],
-      "DisplayName": "Forge Construct"
+      "DisplayName": "Forge Construct",
+      "flag": "IsActivated_Minus0016_NPCZonauGolem"
     },
     "ForgeConstruct06": {
       "hash_id": "0x41aa3368063fdaef",
@@ -38704,7 +38774,8 @@
         -470.833,
         -1557.1833
       ],
-      "DisplayName": "Forge Construct"
+      "DisplayName": "Forge Construct",
+      "flag": "IsActivated_Minus0017_NPCZonauGolem"
     },
     "ForgeConstruct07": {
       "hash_id": "0x61dcd5d8603ca650",
@@ -38713,7 +38784,8 @@
         -523.65497,
         1178.6145
       ],
-      "DisplayName": "Forge Construct"
+      "DisplayName": "Forge Construct",
+      "flag": "IsActivated_Minus0018_NPCZonauGolem"
     },
     "ForgeConstruct08": {
       "hash_id": "0xa1bbb62ea0a4df1e",
@@ -38722,7 +38794,8 @@
         -482.5,
         2185.289
       ],
-      "DisplayName": "Forge Construct"
+      "DisplayName": "Forge Construct",
+      "flag": "IsActivated_Minus0019_NPCZonauGolem"
     },
     "ForgeConstruct09": {
       "hash_id": "0x71bc6058fb688f62",
@@ -38731,7 +38804,8 @@
         -347.531,
         3379.3108
       ],
-      "DisplayName": "Forge Construct"
+      "DisplayName": "Forge Construct",
+      "flag": "IsActivated_Minus0020_NPCZonauGolem"
     },
     "ForgeConstruct10": {
       "hash_id": "0x65fdf272fe8200b1",
@@ -38740,7 +38814,8 @@
         -417.5296,
         1935.3607
       ],
-      "DisplayName": "Forge Construct"
+      "DisplayName": "Forge Construct",
+      "flag": "IsActivated_Minus0026_NPCZonauGolem"
     },
     "MiniStable": {
       "hash_id": "0x79054a8e7ac5588d",
@@ -38749,7 +38824,8 @@
         116.157,
         1663.9628
       ],
-      "DisplayName": "Mini Stable"
+      "DisplayName": "Mini Stable",
+      "flag": "IsVisitLocation.HorseStableBranchOffice_Gerudo"
     },
     "Canteen": {
       "hash_id": "0x5804faee0de44443",
@@ -38758,7 +38834,8 @@
         153.72743,
         2857.138
       ],
-      "DisplayName": "Canteen"
+      "DisplayName": "Canteen",
+      "flag": "SageOfGerudo_IsCompleted_Exp"
     },
     "TarreyTownRace": {
       "hash_id": "0x0d38dde890f1a9ee",
@@ -38767,7 +38844,8 @@
         198.19153,
         -1679.4484
       ],
-      "DisplayName": "Tarrey Town Race"
+      "DisplayName": "Tarrey Town Race",
+      "flag": "IsVisitLocation.UMiiVillage_JobField"
     },
     "LurelinWaterRally": {
       "hash_id": "0xba0988b7017a2e08",
@@ -38776,7 +38854,8 @@
         107.3896,
         3689.6025
       ],
-      "DisplayName": "Lurelin Water Rally"
+      "DisplayName": "Lurelin Water Rally",
+      "flag": "Uotori_ResortPlan_IsCompleted_Exp"
     },
     "Restaurant": {
       "hash_id": "0x1a755afbf56ba57a",
@@ -38785,7 +38864,8 @@
         116.79667,
         3409.9814
       ],
-      "DisplayName": "Restaurant"
+      "DisplayName": "Restaurant",
+      "flag": "Revive_Restaurant"
     },
     "MonsterGallery": {
       "hash_id": "0x2df5c0933d0d6038",
@@ -38794,7 +38874,8 @@
         234.093,
         -1653.4294
       ],
-      "DisplayName": "Monster Gallery"
+      "DisplayName": "Monster Gallery",
+      "flag": "MonsterFigures01_IsCompleted_Exp"
     },
     "HatenoPasture": {
       "hash_id": "0x894b5d5f188af315",
@@ -38803,7 +38884,8 @@
         283.28128,
         2094.6372
       ],
-      "DisplayName": "Hateno Pasture"
+      "DisplayName": "Hateno Pasture",
+      "flag": "IsVisitLocation.Hateno"
     },
     "HatenoSchool": {
       "hash_id": "0x17a6046a6c3ca568",
@@ -38812,7 +38894,8 @@
         247.77373,
         1974.6836
       ],
-      "DisplayName": "Hateno School"
+      "DisplayName": "Hateno School",
+      "flag": "IsVisitLocation.Hateno"
     },
     "MiniStable01": {
       "hash_id": "0x6f9d17515845687b",
@@ -38821,7 +38904,8 @@
         124.51065,
         -52.306458
       ],
-      "DisplayName": "Mini Stable"
+      "DisplayName": "Mini Stable",
+      "flag": "BuildingMaterialsTutorial_Give"
     },
     "ZonaiSurveyTeamBase": {
       "hash_id": "0x375c5affa2e3ff24",
@@ -38830,7 +38914,8 @@
         221.84384,
         956.1154
       ],
-      "DisplayName": "Zonai Survey Team Base"
+      "DisplayName": "Zonai Survey Team Base",
+      "flag": "IsVisitLocation.Kakariko"
     },
     "SandSealRentalShop": {
       "hash_id": "0x780daae30c18f615",
@@ -38839,7 +38924,8 @@
         200.0,
         2925.5
       ],
-      "DisplayName": "Sand-Seal Rental Shop"
+      "DisplayName": "Sand-Seal Rental Shop",
+      "flag": "SageOfGerudo_IsCompleted_Exp"
     },
     "SandSealRentalShop01": {
       "hash_id": "0x6088319db90d92db",
@@ -38848,7 +38934,8 @@
         200.0,
         2882.5
       ],
-      "DisplayName": "Sand-Seal Rental Shop"
+      "DisplayName": "Sand-Seal Rental Shop",
+      "flag": "SageOfGerudo_IsCompleted_Exp"
     },
     "SandSealRentalShop02": {
       "hash_id": "0x127a96e26e71036b",
@@ -38857,7 +38944,8 @@
         105.0,
         2325.025
       ],
-      "DisplayName": "Sand-Seal Rental Shop"
+      "DisplayName": "Sand-Seal Rental Shop",
+      "flag": "IsVisitLocation.RentalZarashiShop_GerudoDesert"
     },
     "BreakaPartShop": {
       "hash_id": "0x4fc89edc6d0f0785",
@@ -38866,7 +38954,8 @@
         235.21692,
         -1637.0
       ],
-      "DisplayName": "Break-a-Part Shop"
+      "DisplayName": "Break-a-Part Shop",
+      "flag": "IsVisitLocation.UMiiVillage"
     },
     "BargainerStatue06": {
       "hash_id": "0xaba3dff0d23d6d09",
@@ -38875,7 +38964,8 @@
         126.1843,
         -155.2536
       ],
-      "DisplayName": "Bargainer Statue"
+      "DisplayName": "Bargainer Statue",
+      "flag": "TwnObj_DemonStatue_B_01_GetUp"
     },
     "LuckyTreasureShop": {
       "hash_id": "0xe9b202025f725352",
@@ -38884,7 +38974,8 @@
         135.35611,
         3377.7117
       ],
-      "DisplayName": "Lucky Treasure Shop"
+      "DisplayName": "Lucky Treasure Shop",
+      "flag": "Revive_TreasureShop"
     },
     "Inn": {
       "hash_id": "0x3370bc5ce016cfee",
@@ -38893,7 +38984,8 @@
         200.0,
         2889.0857
       ],
-      "DisplayName": "Inn"
+      "DisplayName": "Inn",
+      "flag": "SageOfGerudo_IsAfter_DungeonBossDead_Exp"
     },
     "Inn01": {
       "hash_id": "0x3370bc5c265dc53e",
@@ -38902,7 +38994,8 @@
         489.24136,
         -2424.0217
       ],
-      "DisplayName": "Inn"
+      "DisplayName": "Inn",
+      "flag": "IsVisitLocation.ShopInn_Goron"
     },
     "Inn02": {
       "hash_id": "0x3370bc5cf0fb779c",
@@ -38911,7 +39004,8 @@
         247.28516,
         2111.2087
       ],
-      "DisplayName": "Inn"
+      "DisplayName": "Inn",
+      "flag": "IsVisitLocation.ShopInn_Hateno"
     },
     "Inn03": {
       "hash_id": "0x3370bc5c05838d5c",
@@ -38920,7 +39014,8 @@
         240.0,
         1021.7721
       ],
-      "DisplayName": "Inn"
+      "DisplayName": "Inn",
+      "flag": "IsVisitLocation.ShopInn_Kakariko"
     },
     "Inn04": {
       "hash_id": "0x3370bc5c63f27f8d",
@@ -38929,7 +39024,8 @@
         259.6259,
         -2171.2236
       ],
-      "DisplayName": "Inn"
+      "DisplayName": "Inn",
+      "flag": "IsVisitLocation.ShopInn_Korok"
     },
     "Inn05": {
       "hash_id": "0x3370bc5c8b6e526c",
@@ -38938,7 +39034,8 @@
         200.0,
         2609.9023
       ],
-      "DisplayName": "Inn"
+      "DisplayName": "Inn",
+      "flag": "IsVisitLocation.ShopInn_Oasis"
     },
     "Inn06": {
       "hash_id": "0x3370bc5ca9d34ac7",
@@ -38947,7 +39044,8 @@
         289.03418,
         -1852.5349
       ],
-      "DisplayName": "Inn"
+      "DisplayName": "Inn",
+      "flag": "IsVisitLocation.ShopInn_Rito"
     },
     "Inn07": {
       "hash_id": "0x353ccee027d157cb",
@@ -38956,7 +39054,8 @@
         234.92679,
         -1596.0153
       ],
-      "DisplayName": "Inn"
+      "DisplayName": "Inn",
+      "flag": "IsVisitLocation.ShopInn_UMiiVillage"
     },
     "Inn08": {
       "hash_id": "0x3370bc5c04514c15",
@@ -38965,7 +39064,8 @@
         134.6549,
         3437.0312
       ],
-      "DisplayName": "Inn"
+      "DisplayName": "Inn",
+      "flag": "Revive_Inn"
     },
     "Inn09": {
       "hash_id": "0x3370bc5c3218db48",
@@ -38974,7 +39074,8 @@
         245.862,
         -508.5319
       ],
-      "DisplayName": "Inn"
+      "DisplayName": "Inn",
+      "flag": "IsVisitLocation.ShopInn_Zora"
     },
     "GeneralStore": {
       "hash_id": "0x379886cd1bb92eda",
@@ -38983,7 +39084,8 @@
         125.37028,
         -76.56111
       ],
-      "DisplayName": "General Store"
+      "DisplayName": "General Store",
+      "flag": "IsVisitLocation.ShopGeneral_BaseCamp"
     },
     "GeneralStore01": {
       "hash_id": "0x3370bc5c32ff25d2",
@@ -38992,7 +39094,8 @@
         199.99184,
         2936.2876
       ],
-      "DisplayName": "General Store"
+      "DisplayName": "General Store",
+      "flag": "SageOfGerudo_IsAfter_DungeonBossDead_Exp"
     },
     "GeneralStore02": {
       "hash_id": "0x3370bc5c468735d8",
@@ -39001,7 +39104,8 @@
         199.98514,
         2903.6155
       ],
-      "DisplayName": "General Store"
+      "DisplayName": "General Store",
+      "flag": "SageOfGerudo_IsAfter_DungeonBossDead_Exp"
     },
     "GeneralStore03": {
       "hash_id": "0x3370bc5c67bb895e",
@@ -39010,7 +39114,8 @@
         200.0,
         2913.248
       ],
-      "DisplayName": "General Store"
+      "DisplayName": "General Store",
+      "flag": "SageOfGerudo_IsAfter_DungeonBossDead_Exp"
     },
     "GeneralStore04": {
       "hash_id": "0x3370bc5cac028347",
@@ -39019,7 +39124,8 @@
         199.9956,
         2878.6328
       ],
-      "DisplayName": "General Store"
+      "DisplayName": "General Store",
+      "flag": "SageOfGerudo_IsAfter_DungeonBossDead_Exp"
     },
     "GeneralStore05": {
       "hash_id": "0x3370bc5cc81a039b",
@@ -39028,7 +39134,8 @@
         199.98108,
         2925.895
       ],
-      "DisplayName": "General Store"
+      "DisplayName": "General Store",
+      "flag": "SageOfGerudo_IsAfter_DungeonBossDead_Exp"
     },
     "GeneralStore06": {
       "hash_id": "0x3370bc5c30305d71",
@@ -39037,7 +39144,8 @@
         490.8189,
         -2463.4885
       ],
-      "DisplayName": "General Store"
+      "DisplayName": "General Store",
+      "flag": "IsVisitLocation.ShopGeneral_Goron"
     },
     "GeneralStore07": {
       "hash_id": "0x3370bc5cdb0ab527",
@@ -39046,7 +39154,8 @@
         238.58984,
         2171.5625
       ],
-      "DisplayName": "General Store"
+      "DisplayName": "General Store",
+      "flag": "IsVisitLocation.ShopGeneral_Hateno"
     },
     "GeneralStore08": {
       "hash_id": "0x3370bc5c79071008",
@@ -39055,7 +39164,8 @@
         235.65366,
         1041.0016
       ],
-      "DisplayName": "General Store"
+      "DisplayName": "General Store",
+      "flag": "IsVisitLocation.ShopGeneral_Kakariko"
     },
     "GeneralStore09": {
       "hash_id": "0x3370bc5cb56079c8",
@@ -39064,7 +39174,8 @@
         235.03549,
         1029.2637
       ],
-      "DisplayName": "General Store"
+      "DisplayName": "General Store",
+      "flag": "IsVisitLocation.ShopGeneral_Kakariko"
     },
     "GeneralStore10": {
       "hash_id": "0x3370bc5ce9eebd35",
@@ -39073,7 +39184,8 @@
         258.35825,
         -2173.9978
       ],
-      "DisplayName": "General Store"
+      "DisplayName": "General Store",
+      "flag": "IsVisitLocation.ShopGeneral_Korok"
     },
     "GeneralStore11": {
       "hash_id": "0x3370bc5c26e45e58",
@@ -39082,7 +39194,8 @@
         200.0,
         2604.25
       ],
-      "DisplayName": "General Store"
+      "DisplayName": "General Store",
+      "flag": "IsVisitLocation.ShopGeneral_Oasis"
     },
     "GeneralStore12": {
       "hash_id": "0x3370bc5caa5e1096",
@@ -39091,7 +39204,8 @@
         200.0,
         2564.526
       ],
-      "DisplayName": "General Store"
+      "DisplayName": "General Store",
+      "flag": "IsVisitLocation.ShopGeneral_Oasis"
     },
     "GeneralStore13": {
       "hash_id": "0x3370bc5cf0712689",
@@ -39100,7 +39214,8 @@
         200.0,
         2535.995
       ],
-      "DisplayName": "General Store"
+      "DisplayName": "General Store",
+      "flag": "IsVisitLocation.ShopGeneral_Oasis"
     },
     "GeneralStore14": {
       "hash_id": "0x3370bc5c731d437f",
@@ -39109,7 +39224,8 @@
         289.87796,
         -1820.456
       ],
-      "DisplayName": "General Store"
+      "DisplayName": "General Store",
+      "flag": "IsVisitLocation.ShopGeneral_Rito"
     },
     "GeneralStore15": {
       "hash_id": "0x980ad31be516b7f7",
@@ -39118,7 +39234,8 @@
         234.07605,
         -1634.1475
       ],
-      "DisplayName": "General Store"
+      "DisplayName": "General Store",
+      "flag": "IsVisitLocation.ShopGeneral_UMiiVillage"
     },
     "GeneralStore16": {
       "hash_id": "0x3370bc5c193338ce",
@@ -39127,7 +39244,8 @@
         106.84866,
         3493.9087
       ],
-      "DisplayName": "General Store"
+      "DisplayName": "General Store",
+      "flag": "WashedAwayBusinessTools_IsCompleted_Exp"
     },
     "GeneralStore17": {
       "hash_id": "0x3370bc5c1f2bfd5c",
@@ -39136,7 +39254,8 @@
         245.462,
         -490.7429
       ],
-      "DisplayName": "General Store"
+      "DisplayName": "General Store",
+      "flag": "IsVisitLocation.ShopGeneral_Zora"
     },
     "ArmorShop": {
       "hash_id": "0xd83372bb595d5a62",
@@ -39145,7 +39264,8 @@
         125.37028,
         -86.80245
       ],
-      "DisplayName": "Armor Shop"
+      "DisplayName": "Armor Shop",
+      "flag": "IsVisitLocation.ShopArmor_BaseCamp"
     },
     "ArmorShop01": {
       "hash_id": "0x3370bc5c4db26b23",
@@ -39154,7 +39274,8 @@
         200.0,
         2552.0
       ],
-      "DisplayName": "Armor Shop"
+      "DisplayName": "Armor Shop",
+      "flag": "SageOfGerudo_IsAfter_DungeonBossDead_Exp"
     },
     "ArmorShop02": {
       "hash_id": "0x3370bc5cde68cb95",
@@ -39163,7 +39284,8 @@
         490.15778,
         -2409.2007
       ],
-      "DisplayName": "Armor Shop"
+      "DisplayName": "Armor Shop",
+      "flag": "IsVisitLocation.ShopArmor_Goron"
     },
     "ArmorShop03": {
       "hash_id": "0x3370bc5ced963f6d",
@@ -39172,7 +39294,8 @@
         238.58984,
         2127.875
       ],
-      "DisplayName": "Armor Shop"
+      "DisplayName": "Armor Shop",
+      "flag": "IsVisitLocation.ShopArmor_Hateno"
     },
     "ArmorShop04": {
       "hash_id": "0x3370bc5c42595a61",
@@ -39181,7 +39304,8 @@
         239.38176,
         981.32355
       ],
-      "DisplayName": "Armor Shop"
+      "DisplayName": "Armor Shop",
+      "flag": "IsVisitLocation.ShopArmor_Kakariko"
     },
     "ArmorShop05": {
       "hash_id": "0x3370bc5c75227459",
@@ -39190,7 +39314,8 @@
         292.21826,
         -1787.2845
       ],
-      "DisplayName": "Armor Shop"
+      "DisplayName": "Armor Shop",
+      "flag": "IsVisitLocation.ShopArmor_Rito"
     },
     "DyeShop": {
       "hash_id": "0x3370bc5c08cac9f4",
@@ -39199,7 +39324,8 @@
         238.58984,
         2152.2605
       ],
-      "DisplayName": "Dye Shop"
+      "DisplayName": "Dye Shop",
+      "flag": "IsVisitLocation.ShopDye_Hateno"
     },
     "JewelryShop": {
       "hash_id": "0x3370bc5cc78b7655",
@@ -39208,7 +39334,8 @@
         200.0,
         2877.07
       ],
-      "DisplayName": "Jewelry Shop"
+      "DisplayName": "Jewelry Shop",
+      "flag": "SageOfGerudo_IsAfter_DungeonBossDead_Exp"
     }
   },
   "Place": {
@@ -39219,7 +39346,8 @@
         123.44666,
         -101.601685
       ],
-      "DisplayName": "Lookout Landing"
+      "DisplayName": "Lookout Landing",
+      "flag": "IsVisitLocation.City_BaseCamp"
     },
     "KorokForest": {
       "hash_id": "0x63802624de8d84d8",
@@ -39228,7 +39356,8 @@
         0.0,
         -2140.0
       ],
-      "DisplayName": "Korok Forest"
+      "DisplayName": "Korok Forest",
+      "flag": "IsVisitLocation.Cokiri"
     },
     "GerudoTown": {
       "hash_id": "0x102ee9e342d7770c",
@@ -39237,7 +39366,8 @@
         138.3,
         2940.523
       ],
-      "DisplayName": "Gerudo Town"
+      "DisplayName": "Gerudo Town",
+      "flag": "IsVisitLocation.Gerudo"
     },
     "GoronCity": {
       "hash_id": "0xc1e972d834436487",
@@ -39246,7 +39376,8 @@
         445.63025,
         -2440.0
       ],
-      "DisplayName": "Goron City"
+      "DisplayName": "Goron City",
+      "flag": "IsVisitLocation.Goron"
     },
     "HatenoVillage": {
       "hash_id": "0xd3dc2c673a44db58",
@@ -39255,7 +39386,8 @@
         337.0344,
         2089.9172
       ],
-      "DisplayName": "Hateno Village"
+      "DisplayName": "Hateno Village",
+      "flag": "IsVisitLocation.Hateno"
     },
     "KakarikoVillage": {
       "hash_id": "0x7e74d031507528c9",
@@ -39264,7 +39396,8 @@
         224.45522,
         988.03906
       ],
-      "DisplayName": "Kakariko Village"
+      "DisplayName": "Kakariko Village",
+      "flag": "IsVisitLocation.Kakariko"
     },
     "RitoVillage": {
       "hash_id": "0xe668b48df1d49939",
@@ -39273,7 +39406,8 @@
         208.672,
         -1799.816
       ],
-      "DisplayName": "Rito Village"
+      "DisplayName": "Rito Village",
+      "flag": "IsVisitLocation.Rito"
     },
     "LurelinVillage": {
       "hash_id": "0xea57fc3ec1a0e9f3",
@@ -39282,7 +39416,8 @@
         142.49794,
         3473.6292
       ],
-      "DisplayName": "Lurelin Village"
+      "DisplayName": "Lurelin Village",
+      "flag": "IsVisitLocation.Taura"
     },
     "TarreyTown": {
       "hash_id": "0x58d92aea168a5ffe",
@@ -39291,7 +39426,8 @@
         233.23712,
         -1611.1797
       ],
-      "DisplayName": "Tarrey Town"
+      "DisplayName": "Tarrey Town",
+      "flag": "IsVisitLocation.UMiiVillage"
     },
     "ZorasDomain": {
       "hash_id": "0x4ab4e198672b7204",
@@ -39300,7 +39436,8 @@
         242.662,
         -545.1057
       ],
-      "DisplayName": "Zora's Domain"
+      "DisplayName": "Zora's Domain",
+      "flag": "IsVisitLocation.WhiteZora"
     },
     "FoothillStable": {
       "hash_id": "0xfc2b98c69c3044f0",
@@ -39309,7 +39446,8 @@
         253.78871,
         -1143.5127
       ],
-      "DisplayName": "Foothill Stable"
+      "DisplayName": "Foothill Stable",
+      "flag": "IsVisitLocation.DeathMountainHatago"
     },
     "DuelingPeaksStable": {
       "hash_id": "0x3370bc5c516c3d44",
@@ -39318,7 +39456,8 @@
         158.98224,
         1924.3735
       ],
-      "DisplayName": "Dueling Peaks Stable"
+      "DisplayName": "Dueling Peaks Stable",
+      "flag": "IsVisitLocation.FaronHatago000"
     },
     "LakesideStable": {
       "hash_id": "0x3370bc5c656849ae",
@@ -39327,7 +39466,8 @@
         210.56248,
         3537.839
       ],
-      "DisplayName": "Lakeside Stable"
+      "DisplayName": "Lakeside Stable",
+      "flag": "IsVisitLocation.FaronHatago001"
     },
     "HighlandStable": {
       "hash_id": "0x3370bc5cceaf9512",
@@ -39336,7 +39476,8 @@
         200.5581,
         3450.8826
       ],
-      "DisplayName": "Highland Stable"
+      "DisplayName": "Highland Stable",
+      "flag": "IsVisitLocation.FaronHatago002"
     },
     "WoodlandStable": {
       "hash_id": "0x3370bc5c0afa23c4",
@@ -39345,7 +39486,8 @@
         171.95836,
         -1135.3392
       ],
-      "DisplayName": "Woodland Stable"
+      "DisplayName": "Woodland Stable",
+      "flag": "IsVisitLocation.ForestHatago"
     },
     "GerudoCanyonStable": {
       "hash_id": "0x3370bc5c425deca0",
@@ -39354,7 +39496,8 @@
         178.58574,
         2225.7651
       ],
-      "DisplayName": "Gerudo Canyon Stable"
+      "DisplayName": "Gerudo Canyon Stable",
+      "flag": "IsVisitLocation.GerudoHatago"
     },
     "OutskirtStable": {
       "hash_id": "0x3370bc5c09351dde",
@@ -39363,7 +39506,8 @@
         181.41899,
         1269.0115
       ],
-      "DisplayName": "Outskirt Stable"
+      "DisplayName": "Outskirt Stable",
+      "flag": "IsVisitLocation.HyruleDepthHatago"
     },
     "NewSerenneStable": {
       "hash_id": "0x503f4de4e77fcfa0",
@@ -39372,7 +39516,8 @@
         188.71301,
         -678.5621
       ],
-      "DisplayName": "New Serenne Stable"
+      "DisplayName": "New Serenne Stable",
+      "flag": "IsVisitLocation.NewHyruleWestHatago"
     },
     "WetlandStable": {
       "hash_id": "0x3370bc5c9d2769a2",
@@ -39381,7 +39526,8 @@
         175.9657,
         173.6723
       ],
-      "DisplayName": "Wetland Stable"
+      "DisplayName": "Wetland Stable",
+      "flag": "IsVisitLocation.NorthHatelHatago"
     },
     "RiversideStable": {
       "hash_id": "0x3370bc5c18bf3706",
@@ -39390,7 +39536,8 @@
         145.31248,
         1095.2969
       ],
-      "DisplayName": "Riverside Stable"
+      "DisplayName": "Riverside Stable",
+      "flag": "IsVisitLocation.RiverSideHatago"
     },
     "TabanthaBridgeStable": {
       "hash_id": "0x3370bc5c0b9fd85b",
@@ -39399,7 +39546,8 @@
         319.16226,
         -547.598
       ],
-      "DisplayName": "Tabantha Bridge Stable"
+      "DisplayName": "Tabantha Bridge Stable",
+      "flag": "IsVisitLocation.TabantaBridgeHatago"
     },
     "SnowfieldStable": {
       "hash_id": "0x3370bc5c4d1bfe93",
@@ -39408,7 +39556,8 @@
         382.02264,
         -2572.1565
       ],
-      "DisplayName": "Snowfield Stable"
+      "DisplayName": "Snowfield Stable",
+      "flag": "IsVisitLocation.TabantaHatago"
     },
     "EastAkkalaStable": {
       "hash_id": "0x3370bc5c30b012e6",
@@ -39417,7 +39566,8 @@
         275.28958,
         -2745.643
       ],
-      "DisplayName": "East Akkala Stable"
+      "DisplayName": "East Akkala Stable",
+      "flag": "IsVisitLocation.TamourHatago"
     },
     "SouthAkkalaStable": {
       "hash_id": "0xdd5e8fa532fac84c",
@@ -39426,7 +39576,8 @@
         338.6398,
         -1691.4481
       ],
-      "DisplayName": "South Akkala Stable"
+      "DisplayName": "South Akkala Stable",
+      "flag": "IsVisitLocation.TamurulHatago_02"
     },
     "HyruleCastle": {
       "hash_id": "0xe6511fd43f0739a1",
@@ -39435,7 +39586,8 @@
         485.46143,
         -1061.9055
       ],
-      "DisplayName": "Hyrule Castle"
+      "DisplayName": "Hyrule Castle",
+      "flag": "IsVisitLocation.LargeDungeonHyruleCastle"
     },
     "YigaClanHideout": {
       "hash_id": "0xdd33e955366b5482",
@@ -39444,7 +39596,8 @@
         436.26855,
         1353.2732
       ],
-      "DisplayName": "Yiga Clan Hideout"
+      "DisplayName": "Yiga Clan Hideout",
+      "flag": "IsVisitLocation.Assassin"
     },
     "SouthernMine": {
       "hash_id": "0x69e2b123cc0b5c17",
@@ -39453,7 +39606,8 @@
         378.49695,
         -1973.8516
       ],
-      "DisplayName": "Southern Mine"
+      "DisplayName": "Southern Mine",
+      "flag": "IsVisitLocation.SouthMine"
     },
     "HudsonConstructionSite": {
       "hash_id": "0x1847d2a312d42b2e",
@@ -39462,7 +39616,8 @@
         219.23093,
         -1611.9355
       ],
-      "DisplayName": "Hudson Construction Site"
+      "DisplayName": "Hudson Construction Site",
+      "flag": "IsVisitLocation.UMiiVillage_JobField"
     },
     "FlightRange": {
       "hash_id": "0xb6498cafd4e8df0d",
@@ -39471,7 +39626,8 @@
         95.322754,
         -2289.992
       ],
-      "DisplayName": "Flight Range"
+      "DisplayName": "Flight Range",
+      "flag": "IsVisitLocation.ValleyVillage"
     },
     "BedrockBistro": {
       "hash_id": "0xfa0826eb7e816fef",
@@ -39480,7 +39636,8 @@
         390.5,
         -1549.0
       ],
-      "DisplayName": "Bedrock Bistro"
+      "DisplayName": "Bedrock Bistro",
+      "flag": "IsVisitLocation.EldinRestaurants"
     },
     "ForgottenTemple": {
       "hash_id": "0xa1cd096646432bbd",
@@ -39489,7 +39646,8 @@
         0.0,
         -2293.1523
       ],
-      "DisplayName": "Forgotten Temple"
+      "DisplayName": "Forgotten Temple",
+      "flag": "IsVisitLocation.KingValley2"
     },
     "YunoboCoHQ": {
       "hash_id": "0x0f67e593ff121fd5",
@@ -39498,7 +39656,8 @@
         517.4956,
         -2832.3718
       ],
-      "DisplayName": "YunoboCo HQ"
+      "DisplayName": "YunoboCo HQ",
+      "flag": "IsVisitLocation.Mine"
     },
     "LuckyCloverGazette": {
       "hash_id": "0xd3a203a547bf9d9e",
@@ -39507,7 +39666,8 @@
         256.60178,
         -1757.5853
       ],
-      "DisplayName": "Lucky Clover Gazette"
+      "DisplayName": "Lucky Clover Gazette",
+      "flag": "IsVisitLocation.NewspaperCompany"
     },
     "KaraKaraBazaar": {
       "hash_id": "0x9dc46d3a1274f13e",
@@ -39516,7 +39676,8 @@
         0.0,
         2556.0
       ],
-      "DisplayName": "Kara Kara Bazaar"
+      "DisplayName": "Kara Kara Bazaar",
+      "flag": "IsVisitLocation.Oasis"
     },
     "LinksHouse": {
       "hash_id": "0x72641fe2639788dc",
@@ -39525,7 +39686,8 @@
         313.44818,
         -1379.9225
       ],
-      "DisplayName": "Link's House"
+      "DisplayName": "Link's House",
+      "flag": "BuildHouse_IsCompleted_Exp"
     }
   },
   "Special": {
@@ -39536,7 +39698,8 @@
         2386.477294921875,
         1752.5604248046875
       ],
-      "DisplayName": "StartPos"
+      "DisplayName": "StartPos",
+      "flag": "(875717912)"
     },
     "CentralMineWarpPoint": {
       "hash_id": "0x71658dd3abecde97",
@@ -39545,7 +39708,8 @@
         -417.7506103515625,
         1940.6053466796875
       ],
-      "DisplayName": "CentralMineWarpPoint"
+      "DisplayName": "CentralMineWarpPoint",
+      "flag": "(875717912) && OpenWarpPoint_BlueprintShrine"
     }
   },
   "Tear": {
@@ -39556,7 +39720,8 @@
         229.67532,
         -966.0866
       ],
-      "DisplayName": "Dragon Tears"
+      "DisplayName": "Dragon Tears",
+      "flag": "IsVisitLocation.DragonTears01"
     },
     "G01": {
       "hash_id": "0x5b3accf32c5acc00",
@@ -39565,7 +39730,8 @@
         425.117,
         -1888.54
       ],
-      "DisplayName": "Dragon Tears"
+      "DisplayName": "Dragon Tears",
+      "flag": "IsVisitLocation.DragonTears02"
     },
     "G02": {
       "hash_id": "0xcf5d63d7721e04d1",
@@ -39574,7 +39740,8 @@
         195.409,
         -737.5934
       ],
-      "DisplayName": "Dragon Tears"
+      "DisplayName": "Dragon Tears",
+      "flag": "IsVisitLocation.DragonTears03"
     },
     "G03": {
       "hash_id": "0x58a4cf7c2564cf21",
@@ -39583,7 +39750,8 @@
         159.063,
         1309.222
       ],
-      "DisplayName": "Dragon Tears"
+      "DisplayName": "Dragon Tears",
+      "flag": "IsVisitLocation.DragonTears04"
     },
     "G04": {
       "hash_id": "0x475b58c50e04b44d",
@@ -39592,7 +39760,8 @@
         524.82,
         1699.6873
       ],
-      "DisplayName": "Dragon Tears"
+      "DisplayName": "Dragon Tears",
+      "flag": "IsVisitLocation.DragonTears05"
     },
     "G05": {
       "hash_id": "0x145635362579e5ea",
@@ -39601,7 +39770,8 @@
         317.02173,
         77.055695
       ],
-      "DisplayName": "Dragon Tears"
+      "DisplayName": "Dragon Tears",
+      "flag": "IsVisitLocation.DragonTears06"
     },
     "G06": {
       "hash_id": "0x687ab5de32bce788",
@@ -39610,7 +39780,8 @@
         110.584,
         3566.4504
       ],
-      "DisplayName": "Dragon Tears"
+      "DisplayName": "Dragon Tears",
+      "flag": "IsVisitLocation.DragonTears07"
     },
     "G07": {
       "hash_id": "0xcdcffa960bc64f3f",
@@ -39619,7 +39790,8 @@
         342.62354,
         -3621.7898
       ],
-      "DisplayName": "Dragon Tears"
+      "DisplayName": "Dragon Tears",
+      "flag": "IsVisitLocation.DragonTears08"
     },
     "G08": {
       "hash_id": "0xc06b9b20c3a9b5fa",
@@ -39628,7 +39800,8 @@
         180.834,
         304.991
       ],
-      "DisplayName": "Dragon Tears"
+      "DisplayName": "Dragon Tears",
+      "flag": "IsVisitLocation.DragonTears09"
     },
     "G09": {
       "hash_id": "0xaacb6b224c5a80eb",
@@ -39637,7 +39810,8 @@
         174.229,
         2682.972
       ],
-      "DisplayName": "Dragon Tears"
+      "DisplayName": "Dragon Tears",
+      "flag": "IsVisitLocation.DragonTears10"
     },
     "G10": {
       "hash_id": "0x66e69c1831b0f37a",
@@ -39646,7 +39820,8 @@
         468.451,
         -2951.69
       ],
-      "DisplayName": "Dragon Tears"
+      "DisplayName": "Dragon Tears",
+      "flag": "IsVisitLocation.DragonTears11"
     },
     "G11": {
       "hash_id": "0x9057397355f9a68c",
@@ -39655,9 +39830,11 @@
         106.50118,
         -2144.0867
       ],
-      "DisplayName": "Dragon Tears"
+      "DisplayName": "Dragon Tears",
+      "flag": "IsVisitLocation.DragonTears12"
     }
   },
+  "Temple": {},
   "Tablet": {
     "S00": {
       "hash_id": "0xfcba8abdb8b892fe",
@@ -39666,7 +39843,8 @@
         1254.5,
         -989.48474
       ],
-      "DisplayName": "Ancient Tablet"
+      "DisplayName": "Ancient Tablet",
+      "flag": "IsShowSheikahCameraTarget.ZonauReliefSearch.Step1.Obj_Zonau_RockRelief_A_03"
     },
     "S01": {
       "hash_id": "0x521ff4c72f315afd",
@@ -39675,7 +39853,8 @@
         907.5,
         -202.91429
       ],
-      "DisplayName": "Ancient Tablet"
+      "DisplayName": "Ancient Tablet",
+      "flag": "IsShowSheikahCameraTarget.ZonauReliefSearch.Step1.Obj_Zonau_RockRelief_A_04"
     },
     "S02": {
       "hash_id": "0x990b43ee92f94724",
@@ -39684,7 +39863,8 @@
         557.5,
         -3203.8
       ],
-      "DisplayName": "Ancient Tablet"
+      "DisplayName": "Ancient Tablet",
+      "flag": "IsShowSheikahCameraTarget.ZonauReliefSearch.Step1.Obj_Zonau_RockRelief_A_05"
     },
     "S03": {
       "hash_id": "0x74ee57b1b9ad67db",
@@ -39693,7 +39873,8 @@
         1016.5,
         -3574.6206
       ],
-      "DisplayName": "Ancient Tablet"
+      "DisplayName": "Ancient Tablet",
+      "flag": "IsShowSheikahCameraTarget.ZonauReliefSearch.Step1.Obj_Zonau_RockRelief_A_06"
     },
     "S04": {
       "hash_id": "0xa7cc29e594731f7e",
@@ -39702,7 +39883,8 @@
         506.5,
         2249.3223
       ],
-      "DisplayName": "Ancient Tablet"
+      "DisplayName": "Ancient Tablet",
+      "flag": "IsShowSheikahCameraTarget.ZonauReliefSearch.Step1.Obj_Zonau_RockRelief_A_07"
     },
     "S05": {
       "hash_id": "0xdd7afc7e9714b5e0",
@@ -39711,7 +39893,8 @@
         1107.847,
         3256.551
       ],
-      "DisplayName": "Ancient Tablet"
+      "DisplayName": "Ancient Tablet",
+      "flag": "IsShowSheikahCameraTarget.ZonauReliefSearch.Step1.Obj_Zonau_RockRelief_A_08"
     },
     "S06": {
       "hash_id": "0xee5f6f206793d436",
@@ -39720,7 +39903,8 @@
         1447.835,
         2731.1282
       ],
-      "DisplayName": "Ancient Tablet"
+      "DisplayName": "Ancient Tablet",
+      "flag": "IsShowSheikahCameraTarget.ZonauReliefSearch.Step1.Obj_Zonau_RockRelief_A_09"
     },
     "S07": {
       "hash_id": "0x43d7945dff1b6d29",
@@ -39729,7 +39913,8 @@
         1307.843,
         2470.808
       ],
-      "DisplayName": "Ancient Tablet"
+      "DisplayName": "Ancient Tablet",
+      "flag": "IsShowSheikahCameraTarget.ZonauReliefSearch.Step1.Obj_Zonau_RockRelief_A_10"
     },
     "S08": {
       "hash_id": "0x19da9cb62a823aeb",
@@ -39738,7 +39923,8 @@
         1701.5275,
         934.7554
       ],
-      "DisplayName": "Ancient Tablet"
+      "DisplayName": "Ancient Tablet",
+      "flag": "IsShowSheikahCameraTarget.ZonauReliefSearch.Step1.Obj_Zonau_RockRelief_A_11"
     },
     "S09": {
       "hash_id": "0xe7a790c6b441ed58",
@@ -39747,7 +39933,8 @@
         1607.83,
         -2991.7605
       ],
-      "DisplayName": "Ancient Tablet"
+      "DisplayName": "Ancient Tablet",
+      "flag": "IsShowSheikahCameraTarget.ZonauReliefSearch.Step1.Obj_Zonau_RockRelief_A_12"
     },
     "S10": {
       "hash_id": "0x9a20833adb21edfd",
@@ -39756,7 +39943,8 @@
         1091.8184,
         1937.0791
       ],
-      "DisplayName": "Ancient Tablet"
+      "DisplayName": "Ancient Tablet",
+      "flag": "IsShowSheikahCameraTarget.ZonauReliefSearch.Step1.Obj_Zonau_RockRelief_A_13"
     },
     "S11": {
       "hash_id": "0x0e5217ff879aae18",
@@ -39765,7 +39953,8 @@
         1466.83,
         -1749.7288
       ],
-      "DisplayName": "Ancient Tablet"
+      "DisplayName": "Ancient Tablet",
+      "flag": "IsShowSheikahCameraTarget.ZonauReliefSearch.Step1.Obj_Zonau_RockRelief_A_14"
     }
   },
   "Chest": {},
@@ -39784,7 +39973,8 @@
       "hash_id": [
         "0x98dd7a36433f4e06"
       ],
-      "DisplayName": "Device Dispenser"
+      "DisplayName": "Device Dispenser",
+      "flag": "RecycleBoxData.11015094637093146118.IsVisit"
     },
     "S01": {
       "pos": [
@@ -39795,7 +39985,8 @@
       "hash_id": [
         "0x9a4200718fda2acc"
       ],
-      "DisplayName": "Device Dispenser"
+      "DisplayName": "Device Dispenser",
+      "flag": "RecycleBoxData.11115447318048549580.IsVisit"
     },
     "G00": {
       "pos": [
@@ -39806,7 +39997,8 @@
       "hash_id": [
         "0xa6f7bb93517b705e"
       ],
-      "DisplayName": "Device Dispenser"
+      "DisplayName": "Device Dispenser",
+      "flag": "RecycleBoxData.12031291170945200222.IsVisit"
     },
     "S02": {
       "pos": [
@@ -39817,7 +40009,8 @@
       "hash_id": [
         "0x1131f581931904d4"
       ],
-      "DisplayName": "Device Dispenser"
+      "DisplayName": "Device Dispenser",
+      "flag": "RecycleBoxData.1239041309371073748.IsVisit"
     },
     "S03": {
       "pos": [
@@ -39828,7 +40021,8 @@
       "hash_id": [
         "0x11fae15152e18cab"
       ],
-      "DisplayName": "Device Dispenser"
+      "DisplayName": "Device Dispenser",
+      "flag": "RecycleBoxData.1295595582221552811.IsVisit"
     },
     "G01": {
       "pos": [
@@ -39839,7 +40033,8 @@
       "hash_id": [
         "0x12d241830b187564"
       ],
-      "DisplayName": "Device Dispenser"
+      "DisplayName": "Device Dispenser",
+      "flag": "RecycleBoxData.1356218468874614116.IsVisit"
     },
     "S04": {
       "pos": [
@@ -39850,7 +40045,8 @@
       "hash_id": [
         "0xd304e633d81ebd35"
       ],
-      "DisplayName": "Device Dispenser"
+      "DisplayName": "Device Dispenser",
+      "flag": "RecycleBoxData.15205531352253250869.IsVisit"
     },
     "S05": {
       "pos": [
@@ -39861,7 +40057,8 @@
       "hash_id": [
         "0xd66f2a598c8acb66"
       ],
-      "DisplayName": "Device Dispenser"
+      "DisplayName": "Device Dispenser",
+      "flag": "RecycleBoxData.15451615410629823334.IsVisit"
     },
     "G02": {
       "pos": [
@@ -39872,7 +40069,8 @@
       "hash_id": [
         "0xd6a8d9355b7d23ea"
       ],
-      "DisplayName": "Device Dispenser"
+      "DisplayName": "Device Dispenser",
+      "flag": "RecycleBoxData.15467851743395390442.IsVisit"
     },
     "S06": {
       "pos": [
@@ -39883,7 +40081,8 @@
       "hash_id": [
         "0xd826c89588d8326a"
       ],
-      "DisplayName": "Device Dispenser"
+      "DisplayName": "Device Dispenser",
+      "flag": "RecycleBoxData.15575356905878991466.IsVisit"
     },
     "G03": {
       "pos": [
@@ -39894,7 +40093,8 @@
       "hash_id": [
         "0xdf050028fa61f710"
       ],
-      "DisplayName": "Device Dispenser"
+      "DisplayName": "Device Dispenser",
+      "flag": "RecycleBoxData.16070251021340899088.IsVisit"
     },
     "S07": {
       "pos": [
@@ -39905,7 +40105,8 @@
       "hash_id": [
         "0xe3615d0b1d98686d"
       ],
-      "DisplayName": "Device Dispenser"
+      "DisplayName": "Device Dispenser",
+      "flag": "RecycleBoxData.16384479221673125997.IsVisit"
     },
     "S08": {
       "pos": [
@@ -39916,7 +40117,8 @@
       "hash_id": [
         "0xf1eefc70f1021796"
       ],
-      "DisplayName": "Device Dispenser"
+      "DisplayName": "Device Dispenser",
+      "flag": "RecycleBoxData.17433148769607751574.IsVisit"
     },
     "G04": {
       "pos": [
@@ -39927,7 +40129,8 @@
       "hash_id": [
         "0xf523af194a6d0f28"
       ],
-      "DisplayName": "Device Dispenser"
+      "DisplayName": "Device Dispenser",
+      "flag": "RecycleBoxData.17664154686634921768.IsVisit"
     },
     "S09": {
       "pos": [
@@ -39938,7 +40141,8 @@
       "hash_id": [
         "0xfb6c127677254c01"
       ],
-      "DisplayName": "Device Dispenser"
+      "DisplayName": "Device Dispenser",
+      "flag": "RecycleBoxData.18116875701019036673.IsVisit"
     },
     "S10": {
       "pos": [
@@ -39949,7 +40153,8 @@
       "hash_id": [
         "0xfc723b05bc77cca8"
       ],
-      "DisplayName": "Device Dispenser"
+      "DisplayName": "Device Dispenser",
+      "flag": "RecycleBoxData.18190666740725697704.IsVisit"
     },
     "G05": {
       "pos": [
@@ -39960,7 +40165,8 @@
       "hash_id": [
         "0xfcba4ea2d464e400"
       ],
-      "DisplayName": "Device Dispenser"
+      "DisplayName": "Device Dispenser",
+      "flag": "RecycleBoxData.18210954504481072128.IsVisit"
     },
     "S11": {
       "pos": [
@@ -39971,7 +40177,8 @@
       "hash_id": [
         "0xfe7ee10dfeb3cce7"
       ],
-      "DisplayName": "Device Dispenser"
+      "DisplayName": "Device Dispenser",
+      "flag": "RecycleBoxData.18338342182923259111.IsVisit"
     },
     "G06": {
       "pos": [
@@ -39982,7 +40189,8 @@
       "hash_id": [
         "0x1b66dc9c92a3880f"
       ],
-      "DisplayName": "Device Dispenser"
+      "DisplayName": "Device Dispenser",
+      "flag": "RecycleBoxData.1974508051681740815.IsVisit"
     },
     "S12": {
       "pos": [
@@ -39993,7 +40201,8 @@
       "hash_id": [
         "0x26d1a80599de4a7c"
       ],
-      "DisplayName": "Device Dispenser"
+      "DisplayName": "Device Dispenser",
+      "flag": "RecycleBoxData.2797201585583573628.IsVisit"
     },
     "S13": {
       "pos": [
@@ -40004,7 +40213,8 @@
       "hash_id": [
         "0x2e496818370dc5b6"
       ],
-      "DisplayName": "Device Dispenser"
+      "DisplayName": "Device Dispenser",
+      "flag": "RecycleBoxData.3335311452256716214.IsVisit"
     },
     "G07": {
       "pos": [
@@ -40015,7 +40225,8 @@
       "hash_id": [
         "0x45cbf2f71151a212"
       ],
-      "DisplayName": "Device Dispenser"
+      "DisplayName": "Device Dispenser",
+      "flag": "RecycleBoxData.5029380551850697234.IsVisit"
     },
     "S14": {
       "pos": [
@@ -40026,7 +40237,8 @@
       "hash_id": [
         "0x4bb99b31b6ac4877"
       ],
-      "DisplayName": "Device Dispenser"
+      "DisplayName": "Device Dispenser",
+      "flag": "RecycleBoxData.5456563061356513399.IsVisit"
     },
     "S15": {
       "pos": [
@@ -40037,7 +40249,8 @@
       "hash_id": [
         "0x4df90d55a411e90d"
       ],
-      "DisplayName": "Device Dispenser"
+      "DisplayName": "Device Dispenser",
+      "flag": "RecycleBoxData.5618536671597422861.IsVisit"
     },
     "G08": {
       "pos": [
@@ -40048,7 +40261,8 @@
       "hash_id": [
         "0x5b3cd1e9715c10f2"
       ],
-      "DisplayName": "Device Dispenser"
+      "DisplayName": "Device Dispenser",
+      "flag": "RecycleBoxData.6574360356613525746.IsVisit"
     },
     "S16": {
       "pos": [
@@ -40059,7 +40273,8 @@
       "hash_id": [
         "0x6cb69c9a01ad612a"
       ],
-      "DisplayName": "Device Dispenser"
+      "DisplayName": "Device Dispenser",
+      "flag": "RecycleBoxData.7833620787124592938.IsVisit"
     },
     "S17": {
       "pos": [
@@ -40070,7 +40285,8 @@
       "hash_id": [
         "0x0121f7444eb1cf37"
       ],
-      "DisplayName": "Device Dispenser"
+      "DisplayName": "Device Dispenser",
+      "flag": "RecycleBoxData.81618141019492151.IsVisit"
     },
     "S18": {
       "pos": [
@@ -40081,7 +40297,8 @@
       "hash_id": [
         "0x82bb769fa9cc7bc0"
       ],
-      "DisplayName": "Device Dispenser"
+      "DisplayName": "Device Dispenser",
+      "flag": "RecycleBoxData.9420253473696152512.IsVisit"
     },
     "D00": {
       "pos": [
@@ -40092,7 +40309,8 @@
       "hash_id": [
         "0x12f5bdcc38ae54ba"
       ],
-      "DisplayName": "Device Dispenser"
+      "DisplayName": "Device Dispenser",
+      "flag": "RecycleBoxData.1366206746798740666.IsVisit"
     },
     "D01": {
       "pos": [
@@ -40103,7 +40321,8 @@
       "hash_id": [
         "0xfa73260397dee5d7"
       ],
-      "DisplayName": "Device Dispenser"
+      "DisplayName": "Device Dispenser",
+      "flag": "RecycleBoxData.18046809928678434263.IsVisit"
     }
   },
   "Memory": {},

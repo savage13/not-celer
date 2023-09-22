@@ -38512,56 +38512,6 @@
       ],
       "DisplayName": "Abandoned Lanayru Mine",
       "flag": "IsVisitLocation.MinusField_WhiteZora"
-    },
-    "TheMuralsMyth,RisenfromtheSands": {
-      "hash_id": "0x0f683f8c4b7383f3",
-      "pos": [
-        -4518.5537,
-        234.66544,
-        3611.5615
-      ],
-      "DisplayName": "The Mural's Myth, Risen from the Sands",
-      "flag": "IsVisitLocation.LargeDungeonThunder"
-    },
-    "TheGreatWellspringofHyrule": {
-      "hash_id": "0x0b3d48b00c53300c",
-      "pos": [
-        3265.3838,
-        1795.3899,
-        -685.57715
-      ],
-      "DisplayName": "The Great Wellspring of Hyrule",
-      "flag": "IsVisitLocation.LargeDungeonWater"
-    },
-    "TheLegendaryStormwindArk": {
-      "hash_id": "0x33e984ad3eb89902",
-      "pos": [
-        -2859.5,
-        1516.8888,
-        -3005.5
-      ],
-      "DisplayName": "The Legendary Stormwind Ark",
-      "flag": "IsVisitLocation.LargeDungeonWind"
-    },
-    "LostGorondiaRediscovered": {
-      "hash_id": "0x0173bd8213cc8895",
-      "pos": [
-        1457.0,
-        -749.5,
-        -2847.0
-      ],
-      "DisplayName": "Lost Gorondia Rediscovered",
-      "flag": "IsVisitLocation.LargeDungeonFire"
-    },
-    "TheVesselofSpiritsRestingPlace": {
-      "hash_id": "0x0d1a4985bfd281c9",
-      "pos": [
-        1418.6921,
-        -513.5999,
-        3170.3987
-      ],
-      "DisplayName": "The Vessel of Spirit's Resting Place",
-      "flag": "IsVisitLocation.LargeDungeonSoul"
     }
   },
   "Fairy": {
@@ -39834,7 +39784,58 @@
       "flag": "IsVisitLocation.DragonTears12"
     }
   },
-  "Temple": {},
+  "Temple": {
+    "TheMuralsMyth,RisenfromtheSands": {
+      "hash_id": "0x0f683f8c4b7383f3",
+      "pos": [
+        -4518.5537,
+        234.66544,
+        3611.5615
+      ],
+      "DisplayName": "The Mural's Myth, Risen from the Sands",
+      "flag": "IsVisitLocation.LargeDungeonThunder"
+    },
+    "TheGreatWellspringofHyrule": {
+      "hash_id": "0x0b3d48b00c53300c",
+      "pos": [
+        3265.3838,
+        1795.3899,
+        -685.57715
+      ],
+      "DisplayName": "The Great Wellspring of Hyrule",
+      "flag": "IsVisitLocation.LargeDungeonWater"
+    },
+    "TheLegendaryStormwindArk": {
+      "hash_id": "0x33e984ad3eb89902",
+      "pos": [
+        -2859.5,
+        1516.8888,
+        -3005.5
+      ],
+      "DisplayName": "The Legendary Stormwind Ark",
+      "flag": "IsVisitLocation.LargeDungeonWind"
+    },
+    "LostGorondiaRediscovered": {
+      "hash_id": "0x0173bd8213cc8895",
+      "pos": [
+        1457.0,
+        -749.5,
+        -2847.0
+      ],
+      "DisplayName": "Lost Gorondia Rediscovered",
+      "flag": "IsVisitLocation.LargeDungeonFire"
+    },
+    "TheVesselofSpiritsRestingPlace": {
+      "hash_id": "0x0d1a4985bfd281c9",
+      "pos": [
+        1418.6921,
+        -513.5999,
+        3170.3987
+      ],
+      "DisplayName": "The Vessel of Spirit's Resting Place",
+      "flag": "IsVisitLocation.LargeDungeonSoul"
+    }
+  },
   "Tablet": {
     "S00": {
       "hash_id": "0xfcba8abdb8b892fe",
@@ -39988,7 +39989,7 @@
       "DisplayName": "Device Dispenser",
       "flag": "RecycleBoxData.11115447318048549580.IsVisit"
     },
-    "G00": {
+    "S02": {
       "pos": [
         1390.920654296875,
         522.4623413085938,
@@ -40000,7 +40001,7 @@
       "DisplayName": "Device Dispenser",
       "flag": "RecycleBoxData.12031291170945200222.IsVisit"
     },
-    "S02": {
+    "S03": {
       "pos": [
         769.092041015625,
         1684.458984375,
@@ -40012,7 +40013,7 @@
       "DisplayName": "Device Dispenser",
       "flag": "RecycleBoxData.1239041309371073748.IsVisit"
     },
-    "S03": {
+    "S04": {
       "pos": [
         -1705.080078125,
         1053.4794921875,
@@ -40024,7 +40025,7 @@
       "DisplayName": "Device Dispenser",
       "flag": "RecycleBoxData.1295595582221552811.IsVisit"
     },
-    "G01": {
+    "S05": {
       "pos": [
         1344.172607421875,
         689.9794921875,
@@ -40036,7 +40037,7 @@
       "DisplayName": "Device Dispenser",
       "flag": "RecycleBoxData.1356218468874614116.IsVisit"
     },
-    "S04": {
+    "S06": {
       "pos": [
         435.44427490234375,
         1547.82080078125,
@@ -40048,7 +40049,7 @@
       "DisplayName": "Device Dispenser",
       "flag": "RecycleBoxData.15205531352253250869.IsVisit"
     },
-    "S05": {
+    "S07": {
       "pos": [
         4675.3134765625,
         1894.4794921875,
@@ -40060,7 +40061,7 @@
       "DisplayName": "Device Dispenser",
       "flag": "RecycleBoxData.15451615410629823334.IsVisit"
     },
-    "G02": {
+    "G00": {
       "pos": [
         -1619.7186279296875,
         107.4786148071289,
@@ -40072,7 +40073,7 @@
       "DisplayName": "Device Dispenser",
       "flag": "RecycleBoxData.15467851743395390442.IsVisit"
     },
-    "S06": {
+    "S08": {
       "pos": [
         3430.200439453125,
         1421.6004638671875,
@@ -40084,7 +40085,7 @@
       "DisplayName": "Device Dispenser",
       "flag": "RecycleBoxData.15575356905878991466.IsVisit"
     },
-    "G03": {
+    "G01": {
       "pos": [
         3807.617919921875,
         195.44741821289062,
@@ -40096,7 +40097,7 @@
       "DisplayName": "Device Dispenser",
       "flag": "RecycleBoxData.16070251021340899088.IsVisit"
     },
-    "S07": {
+    "S09": {
       "pos": [
         443.35638427734375,
         1925.4794921875,
@@ -40108,7 +40109,7 @@
       "DisplayName": "Device Dispenser",
       "flag": "RecycleBoxData.16384479221673125997.IsVisit"
     },
-    "S08": {
+    "S10": {
       "pos": [
         -1212.886962890625,
         1112.4267578125,
@@ -40120,7 +40121,7 @@
       "DisplayName": "Device Dispenser",
       "flag": "RecycleBoxData.17433148769607751574.IsVisit"
     },
-    "G04": {
+    "S11": {
       "pos": [
         -3803.229248046875,
         807.336181640625,
@@ -40132,7 +40133,7 @@
       "DisplayName": "Device Dispenser",
       "flag": "RecycleBoxData.17664154686634921768.IsVisit"
     },
-    "S09": {
+    "S12": {
       "pos": [
         4557.787109375,
         1259.6009521484375,
@@ -40144,7 +40145,7 @@
       "DisplayName": "Device Dispenser",
       "flag": "RecycleBoxData.18116875701019036673.IsVisit"
     },
-    "S10": {
+    "S13": {
       "pos": [
         -3455.3115234375,
         1799.5528564453125,
@@ -40156,7 +40157,7 @@
       "DisplayName": "Device Dispenser",
       "flag": "RecycleBoxData.18190666740725697704.IsVisit"
     },
-    "G05": {
+    "G02": {
       "pos": [
         1838.052978515625,
         260.22393798828125,
@@ -40168,7 +40169,7 @@
       "DisplayName": "Device Dispenser",
       "flag": "RecycleBoxData.18210954504481072128.IsVisit"
     },
-    "S11": {
+    "S14": {
       "pos": [
         1778.3809814453125,
         1022.69384765625,
@@ -40180,7 +40181,7 @@
       "DisplayName": "Device Dispenser",
       "flag": "RecycleBoxData.18338342182923259111.IsVisit"
     },
-    "G06": {
+    "S15": {
       "pos": [
         215.11813354492188,
         859.6864624023438,
@@ -40192,7 +40193,7 @@
       "DisplayName": "Device Dispenser",
       "flag": "RecycleBoxData.1974508051681740815.IsVisit"
     },
-    "S12": {
+    "S16": {
       "pos": [
         -1771.541259765625,
         1253.4794921875,
@@ -40204,7 +40205,7 @@
       "DisplayName": "Device Dispenser",
       "flag": "RecycleBoxData.2797201585583573628.IsVisit"
     },
-    "S13": {
+    "S17": {
       "pos": [
         2851.89404296875,
         1316.6044921875,
@@ -40216,7 +40217,7 @@
       "DisplayName": "Device Dispenser",
       "flag": "RecycleBoxData.3335311452256716214.IsVisit"
     },
-    "G07": {
+    "S18": {
       "pos": [
         1104.4814453125,
         932.9644165039062,
@@ -40228,7 +40229,7 @@
       "DisplayName": "Device Dispenser",
       "flag": "RecycleBoxData.5029380551850697234.IsVisit"
     },
-    "S14": {
+    "S19": {
       "pos": [
         1983.384765625,
         1355.6827392578125,
@@ -40240,7 +40241,7 @@
       "DisplayName": "Device Dispenser",
       "flag": "RecycleBoxData.5456563061356513399.IsVisit"
     },
-    "S15": {
+    "S20": {
       "pos": [
         3755.34326171875,
         1262.4793701171875,
@@ -40252,7 +40253,7 @@
       "DisplayName": "Device Dispenser",
       "flag": "RecycleBoxData.5618536671597422861.IsVisit"
     },
-    "G08": {
+    "S21": {
       "pos": [
         -2370.5458984375,
         716.0794067382812,
@@ -40264,7 +40265,7 @@
       "DisplayName": "Device Dispenser",
       "flag": "RecycleBoxData.6574360356613525746.IsVisit"
     },
-    "S16": {
+    "S22": {
       "pos": [
         2915.6572265625,
         1055.8607177734375,
@@ -40276,7 +40277,7 @@
       "DisplayName": "Device Dispenser",
       "flag": "RecycleBoxData.7833620787124592938.IsVisit"
     },
-    "S17": {
+    "S23": {
       "pos": [
         -3457.10107421875,
         2048.4951171875,
@@ -40288,7 +40289,7 @@
       "DisplayName": "Device Dispenser",
       "flag": "RecycleBoxData.81618141019492151.IsVisit"
     },
-    "S18": {
+    "S24": {
       "pos": [
         4510.5986328125,
         1221.7044677734375,

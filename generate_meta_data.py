@@ -178,7 +178,7 @@ for item in mappct['recycle box']:
     if t[1] < 0:
         name = f'D{D:02d}'
         D += 1
-    elif t[1] > 1000:
+    elif t[1] > 500:
         name = f'S{S:02d}'
         S += 1
     else:
@@ -305,7 +305,7 @@ for item in mappct['spots']:
 temples = {}
 for item in mappct['temples']:
     name = item['ui_name'].replace(" ", "").replace("'","").replace("-", "")
-    xlocations[name] = {
+    temples[name] = {
         "hash_id": item['hash_id'][0],
         "pos": item['Trans'][0],
         "DisplayName": item['ui_name'],

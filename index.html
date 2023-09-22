@@ -1094,6 +1094,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           Tablet: {},
           Special: {},
           Shop: {},
+          Temple: {},
           Location: {},
           'Enemy::Talus': {},
           'Enemy::Gleeok': {},
@@ -1718,9 +1719,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           const line = $div();
           line.classList.add('segment_line')
           line.id = `line_${nlines}`;
-          if(xyz === undefined) 
-              console.log('new line', nlines, xyz)
-          line.dataset.xyz = xyz;
+          if(xyz !== undefined)
+              line.dataset.xyz = xyz;
           line.dataset.layer = line_layer;
           line.dataset.segment = segment_name;
           line.addEventListener('click', (ev) => {

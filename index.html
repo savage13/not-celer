@@ -1236,12 +1236,15 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                   const elevation = [];
                   const away = []
                   let FLY_TO = [];
+                  let markers_by_line = {};
+                  let i = 0;
                   for(const part of parts) {
                       const kind = typeof part;
                       if(kind == "string") {
                           const ret = parse_name(part);
                           elevation.push(... ret.to.map(x => x[1]))
                           pts.push(... ret.to);
+                          markers_by_line[i] = [...ret.markers];
                           markers.push(... ret.markers)
                           line_color = (ret.line_color) ? ret.line_color : line_color;
                           level_set = (ret.level) ? ret.level : level_set;
@@ -1260,6 +1263,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                               }
                           }
                           pts.push(... ret.to);
+                          markers_by_line[i] = [...ret.markers];
                           markers.push(... ret.markers)
                           line_color = (ret.line_color) ? ret.line_color : line_color;
                           level_set = (ret.level) ? ret.level : level_set;
@@ -1271,6 +1275,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                           console.log("unexpected kind", kind);
                           FLY_TO.push( [0,0,0])
                       }
+                      i += 1;
                   }
                   // Determine Layer from mean of Elevation (y-coord or pos[1])
                   const mean_ele = mean(elevation);
@@ -1288,6 +1293,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
                   for(let i = 0; i < parts.length; i++) {
                       const part = parts[i];
+                      markers_by_line[i].forEach(m => m.line_number = nlines);
                       const div = route_new_line(part, FLY_TO[i], layer, name);
                       if(div)
                           seg.appendChild(div)
@@ -1344,6 +1350,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                       group: L.layerGroup(tmp),
                   }
                   markers.forEach(marker => { SEGMENTS[name].group.addLayer(marker); });
+                  markers.forEach(marker => marker.on('click', (ev) => {
+                      if(ev.target.line_number !== undefined)
+                          scroll_to_line(`line_${ev.target.line_number}`);
+                  }))
                   if(SEGMENTS[name].layer == map_el.level) {
                       SEGMENTS[name].group.invoke('addTo', map_el.map);
                   }
@@ -1850,6 +1860,15 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       let ONLY_SEGMENT = false;  // Ctrl-O
       let SHIFT_TITLE = false; // Ctrl-T
 
+      function scroll_to_line(id) {
+          const next = document.getElementById(id);
+          const route = document.getElementById('route')
+          const xoffset = 0;
+          const yoffset = next.offsetTop - route.offsetTop - 40;
+          route.scrollTo(xoffset, yoffset)
+          set_current_line(next.id);
+      }
+
       function key_commands(ev) {
           if(ev.ctrlKey && ev.key == "p") {
               SHOW_PROGRESS = ! SHOW_PROGRESS;
@@ -1890,13 +1909,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                   next = get_next_line(-1);
               if(next === undefined)
                   return;
-              const xoffset = 0;
-              const route = document.getElementById('route')
-              const yoffset = next.offsetTop - route.offsetTop - 40;
-              //console.log(ev.key, next.id, yoffset, route.scrollTop, yoffset - route.scrollTop, route.offsetTop);
-              route.scrollTo(xoffset, yoffset)
-              //console.log(ev.key, next.id, route.scrollTop);
-              set_current_line(next.id);
+              scroll_to_line(next.id)
               ev.stopPropagation()
               ev.preventDefault()
               return false;

@@ -26835,362 +26835,722 @@
     "GerudoSummit": {
       "pos": [
         -4203.36,
-        748.08,
+        -512,
         637.66
       ],
       "DisplayName": "Gerudo Summit Chasm",
       "hash_id": "0x5898184600c704da",
-      "Location": "DeepHole_GerudoSummit"
+      "Location": "DeepHole_GerudoSummit",
+      "Depths": {
+        "pos": [
+          -4203.36,
+          -512,
+          637.66
+        ],
+        "DisplayName": "Gerudo Summit Chasm Depths",
+        "hash_id": "0x5898184600c704da",
+        "Location": "DeepHole_GerudoSummit"
+      }
     },
     "BiridaLookout": {
       "pos": [
         -3685.63,
-        138.61,
+        -512,
         1859.87
       ],
       "DisplayName": "Birida Lookout Chasm",
       "hash_id": "0x4d0237f56a279569",
-      "Location": "DeepHole_B-6_Tower"
+      "Location": "DeepHole_B-6_Tower",
+      "Depths": {
+        "pos": [
+          -3685.63,
+          -512,
+          1859.87
+        ],
+        "DisplayName": "Birida Lookout Chasm Depths",
+        "hash_id": "0x4d0237f56a279569",
+        "Location": "DeepHole_B-6_Tower"
+      }
     },
     "YigaClanHideout": {
       "pos": [
         -3430.18,
-        384.69,
+        -512,
         1333.44
       ],
       "DisplayName": "Yiga Clan Hideout Chasm",
       "hash_id": "0x40749323adcae0e1",
-      "Location": "DeepHole_B-6_AssasisnBoss"
+      "Location": "DeepHole_B-6_AssasisnBoss",
+      "Depths": {
+        "pos": [
+          -3430.18,
+          -512,
+          1333.44
+        ],
+        "DisplayName": "Yiga Clan Hideout Chasm Depths",
+        "hash_id": "0x40749323adcae0e1",
+        "Location": "DeepHole_B-6_AssasisnBoss"
+      }
     },
     "HyruleRidge": {
       "pos": [
         -2644.24,
-        247.63,
+        -512,
         -1126.02
       ],
       "DisplayName": "Hyrule Ridge Chasm",
       "hash_id": "0x930a3bbbdd491160",
-      "Location": "Cave_HyruleRidge_0004"
+      "Location": "Cave_HyruleRidge_0004",
+      "Depths": {
+        "pos": [
+          -2644.24,
+          -512,
+          -1126.02
+        ],
+        "DisplayName": "Hyrule Ridge Chasm Depths",
+        "hash_id": "0x930a3bbbdd491160",
+        "Location": "Cave_HyruleRidge_0004"
+      }
     },
     "EastGerudo": {
       "pos": [
         -2491.19,
-        111.24,
+        -512,
         3067.74
       ],
       "DisplayName": "East Gerudo Chasm",
       "hash_id": "0xb01db1f23f9ec48a",
-      "Location": "Cave_GerudoDesert_0043"
+      "Location": "Cave_GerudoDesert_0043",
+      "Depths": {
+        "pos": [
+          -2491.19,
+          -512,
+          3067.74
+        ],
+        "DisplayName": "East Gerudo Chasm Depths",
+        "hash_id": "0xb01db1f23f9ec48a",
+        "Location": "Cave_GerudoDesert_0043"
+      }
     },
     "GreatPlateauWest": {
       "pos": [
         -1431.69,
-        330.82,
+        -512,
         1992.55
       ],
       "DisplayName": "Great Plateau West Chasm",
       "hash_id": "0xafc2d671ced3eaa8",
-      "Location": "DeepHole_FirstLandWest"
+      "Location": "DeepHole_FirstLandWest",
+      "Depths": {
+        "pos": [
+          -1431.69,
+          -512,
+          1992.55
+        ],
+        "DisplayName": "Great Plateau West Chasm Depths",
+        "hash_id": "0xafc2d671ced3eaa8",
+        "Location": "DeepHole_FirstLandWest"
+      }
     },
     "SouthLomei": {
       "pos": [
         -1794.92,
-        149.36,
+        -512,
         3461.76
       ],
       "DisplayName": "South Lomei Chasm",
       "hash_id": "0x0583562564361ff5",
-      "Location": "DeepHole_GerudoMaze"
+      "Location": "DeepHole_GerudoMaze",
+      "Depths": {
+        "pos": [
+          -1794.92,
+          -512,
+          3461.76
+        ],
+        "DisplayName": "South Lomei Chasm Depths",
+        "hash_id": "0x0583562564361ff5",
+        "Location": "DeepHole_GerudoMaze"
+      }
     },
     "NorthLomei": {
       "pos": [
         -814.48,
-        325.2,
+        -512,
         -3534.7
       ],
       "DisplayName": "North Lomei Chasm",
       "hash_id": "0xea7ae29d0563d4c7",
-      "Location": "DeepHole_TabantaMaze"
+      "Location": "DeepHole_TabantaMaze",
+      "Depths": {
+        "pos": [
+          -814.48,
+          -512,
+          -3534.7
+        ],
+        "DisplayName": "North Lomei Chasm Depths",
+        "hash_id": "0xea7ae29d0563d4c7",
+        "Location": "DeepHole_TabantaMaze"
+      }
     },
     "DrenanHighlands": {
       "pos": [
         -71.04,
-        231.93,
+        -512,
         -2983.78
       ],
       "DisplayName": "Drenan Highlands Chasm",
       "hash_id": "0x1f56d13bb4576d33",
-      "Location": "DeepHole_RirimukuMt"
+      "Location": "DeepHole_RirimukuMt",
+      "Depths": {
+        "pos": [
+          -71.04,
+          -512,
+          -2983.78
+        ],
+        "DisplayName": "Drenan Highlands Chasm Depths",
+        "hash_id": "0x1f56d13bb4576d33",
+        "Location": "DeepHole_RirimukuMt"
+      }
     },
     "ElmaKnolls": {
       "pos": [
         -456.88,
-        274.39,
+        -512,
         -1722.35
       ],
       "DisplayName": "Elma Knolls Chasm",
       "hash_id": "0xa9c253bc7075cf4b",
-      "Location": "DeepHole_ImeruMt"
+      "Location": "DeepHole_ImeruMt",
+      "Depths": {
+        "pos": [
+          -456.88,
+          -512,
+          -1722.35
+        ],
+        "DisplayName": "Elma Knolls Chasm Depths",
+        "hash_id": "0xa9c253bc7075cf4b",
+        "Location": "DeepHole_ImeruMt"
+      }
     },
     "HyruleCastleMoatWest": {
       "pos": [
         -922.61,
-        95.52,
+        -512,
         -666.79
       ],
       "DisplayName": "Hyrule Castle Moat West Chasm",
       "hash_id": "0x3290428c550ef969",
-      "Location": "DeepHole_HyruleCastleWest"
+      "Location": "DeepHole_HyruleCastleWest",
+      "Depths": {
+        "pos": [
+          -922.61,
+          -512,
+          -666.79
+        ],
+        "DisplayName": "Hyrule Castle Moat West Chasm Depths",
+        "hash_id": "0x3290428c550ef969",
+        "Location": "DeepHole_HyruleCastleWest"
+      }
     },
     "HyruleField": {
       "pos": [
         -255.03,
-        103.47,
+        -512,
         299.58
       ],
       "DisplayName": "Hyrule Field Chasm",
       "hash_id": "0xac5d1e40b241e232",
-      "Location": "DeepHole_HyrulePlains"
+      "Location": "DeepHole_HyrulePlains",
+      "Depths": {
+        "pos": [
+          -255.03,
+          -512,
+          299.58
+        ],
+        "DisplayName": "Hyrule Field Chasm Depths",
+        "hash_id": "0xac5d1e40b241e232",
+        "Location": "DeepHole_HyrulePlains"
+      }
     },
     "ForestofTime": {
       "pos": [
         -127.97,
-        73.01,
+        -512,
         1657.81
       ],
       "DisplayName": "Forest of Time Chasm",
       "hash_id": "0xc4b6d0024dad9e75",
-      "Location": "DeepHole_ZifForest"
+      "Location": "DeepHole_ZifForest",
+      "Depths": {
+        "pos": [
+          -127.97,
+          -512,
+          1657.81
+        ],
+        "DisplayName": "Forest of Time Chasm Depths",
+        "hash_id": "0xc4b6d0024dad9e75",
+        "Location": "DeepHole_ZifForest"
+      }
     },
     "GreatPlateauNorth": {
       "pos": [
         -664.93,
-        154.49,
+        -512,
         1509.75
       ],
       "DisplayName": "Great Plateau North Chasm",
       "hash_id": "0x13eda3d49329f667",
-      "Location": "DeepHole_FirstLandNorth"
+      "Location": "DeepHole_FirstLandNorth",
+      "Depths": {
+        "pos": [
+          -664.93,
+          -512,
+          1509.75
+        ],
+        "DisplayName": "Great Plateau North Chasm Depths",
+        "hash_id": "0x13eda3d49329f667",
+        "Location": "DeepHole_FirstLandNorth"
+      }
     },
     "GreatPlateauEast": {
       "pos": [
         -452.5,
-        172.28,
+        -512,
         1992.98
       ],
       "DisplayName": "Great Plateau East Chasm",
       "hash_id": "0x003881ded3408450",
-      "Location": "DeepHole_FirstLandEast"
+      "Location": "DeepHole_FirstLandEast",
+      "Depths": {
+        "pos": [
+          -452.5,
+          -512,
+          1992.98
+        ],
+        "DisplayName": "Great Plateau East Chasm Depths",
+        "hash_id": "0x003881ded3408450",
+        "Location": "DeepHole_FirstLandEast"
+      }
     },
     "LakeHylia": {
       "pos": [
         -332,
-        53.18,
+        -512,
         2598.02
       ],
       "DisplayName": "Lake Hylia Chasm",
       "hash_id": "0xc150833efd18e137",
-      "Location": "DeepHole_HyruleLake"
+      "Location": "DeepHole_HyruleLake",
+      "Depths": {
+        "pos": [
+          -332,
+          -512,
+          2598.02
+        ],
+        "DisplayName": "Lake Hylia Chasm Depths",
+        "hash_id": "0xc150833efd18e137",
+        "Location": "DeepHole_HyruleLake"
+      }
     },
     "GreatPlateauSouth": {
       "pos": [
         -932.83,
-        268.54,
+        -512,
         2317.51
       ],
       "DisplayName": "Great Plateau South Chasm",
       "hash_id": "0x49f31cedc0687a1a",
-      "Location": "DeepHole_FirstLandSouth"
+      "Location": "DeepHole_FirstLandSouth",
+      "Depths": {
+        "pos": [
+          -932.83,
+          -512,
+          2317.51
+        ],
+        "DisplayName": "Great Plateau South Chasm Depths",
+        "hash_id": "0x49f31cedc0687a1a",
+        "Location": "DeepHole_FirstLandSouth"
+      }
     },
     "DekuTree": {
       "pos": [
         418.01,
-        248.69,
+        -512,
         -2193.41
       ],
       "DisplayName": "Deku Tree Chasm",
       "hash_id": "0x86cd751fbfe67c62",
-      "Location": "DeepHole_Cokiri"
+      "Location": "DeepHole_Cokiri",
+      "Depths": {
+        "pos": [
+          418.01,
+          -512,
+          -2193.41
+        ],
+        "DisplayName": "Deku Tree Chasm Depths",
+        "hash_id": "0x86cd751fbfe67c62",
+        "Location": "DeepHole_Cokiri"
+      }
     },
     "HyruleCastleMoatEast": {
       "pos": [
         169.99,
-        56.83,
+        -512,
         -882.16
       ],
       "DisplayName": "Hyrule Castle Moat East Chasm",
       "hash_id": "0xaf7b5415957c3755",
-      "Location": "DeepHole_HyruleCastleEast"
+      "Location": "DeepHole_HyruleCastleEast",
+      "Depths": {
+        "pos": [
+          169.99,
+          -512,
+          -882.16
+        ],
+        "DisplayName": "Hyrule Castle Moat East Chasm Depths",
+        "hash_id": "0xaf7b5415957c3755",
+        "Location": "DeepHole_HyruleCastleEast"
+      }
     },
     "HillsofBaumer": {
       "pos": [
         221.94,
-        102.88,
+        -512,
         2118.77
       ],
       "DisplayName": "Hills of Baumer Chasm",
       "hash_id": "0x991799ce5ad2d8f0",
-      "Location": "DeepHole_SanaePlateau"
+      "Location": "DeepHole_SanaePlateau",
+      "Depths": {
+        "pos": [
+          221.94,
+          -512,
+          2118.77
+        ],
+        "DisplayName": "Hills of Baumer Chasm Depths",
+        "hash_id": "0x991799ce5ad2d8f0",
+        "Location": "DeepHole_SanaePlateau"
+      }
     },
     "MinshiWoods": {
       "pos": [
         1059.43,
-        254.87,
+        -512,
         -1668.1
       ],
       "DisplayName": "Minshi Woods Chasm",
       "hash_id": "0x4277441bade8a3cc",
-      "Location": "DeepHole_KiyanbaTrees"
+      "Location": "DeepHole_KiyanbaTrees",
+      "Depths": {
+        "pos": [
+          1059.43,
+          -512,
+          -1668.1
+        ],
+        "DisplayName": "Minshi Woods Chasm Depths",
+        "hash_id": "0x4277441bade8a3cc",
+        "Location": "DeepHole_KiyanbaTrees"
+      }
     },
     "LanayruWetlands": {
       "pos": [
         1726.92,
-        100.19,
+        -512,
         -162.05
       ],
       "DisplayName": "Lanayru Wetlands Chasm",
       "hash_id": "0xaa9870379b2aa770",
-      "Location": "Cave_Lanayru_0050"
+      "Location": "Cave_Lanayru_0050",
+      "Depths": {
+        "pos": [
+          1726.92,
+          -512,
+          -162.05
+        ],
+        "DisplayName": "Lanayru Wetlands Chasm Depths",
+        "hash_id": "0xaa9870379b2aa770",
+        "Location": "Cave_Lanayru_0050"
+      }
     },
     "EastHill": {
       "pos": [
         1974.49,
-        220.51,
+        -512,
         846.13
       ],
       "DisplayName": "East Hill Chasm",
       "hash_id": "0x50a400c6b72c1ff9",
-      "Location": "DeepHole_Kakariko_EastHill"
+      "Location": "DeepHole_Kakariko_EastHill",
+      "Depths": {
+        "pos": [
+          1974.49,
+          -512,
+          846.13
+        ],
+        "DisplayName": "East Hill Chasm Depths",
+        "hash_id": "0x50a400c6b72c1ff9",
+        "Location": "DeepHole_Kakariko_EastHill"
+      }
     },
     "TobiosHollow": {
       "pos": [
         1305,
-        167.28,
+        -512,
         2396.66
       ],
       "DisplayName": "Tobio's Hollow Chasm",
       "hash_id": "0x51e75d42f5355006",
-      "Location": "DeepHole_Firone"
+      "Location": "DeepHole_Firone",
+      "Depths": {
+        "pos": [
+          1305,
+          -512,
+          2396.66
+        ],
+        "DisplayName": "Tobio's Hollow Chasm Depths",
+        "hash_id": "0x51e75d42f5355006",
+        "Location": "DeepHole_Firone"
+      }
     },
     "DeathMountain": {
       "pos": [
         2534.5,
-        748.5,
+        -512,
         -2602.5
       ],
       "DisplayName": "Death Mountain Chasm",
       "hash_id": "0xfc3ba78c4a0af664",
-      "Location": "DeepHole_DeathMountain"
+      "Location": "DeepHole_DeathMountain",
+      "Depths": {
+        "pos": [
+          2534.5,
+          -512,
+          -2602.5
+        ],
+        "DisplayName": "Death Mountain Chasm Depths",
+        "hash_id": "0xfc3ba78c4a0af664",
+        "Location": "DeepHole_DeathMountain"
+      }
     },
     "MedaMountain": {
       "pos": [
         2513.71,
-        236.29,
+        -512,
         2380.7
       ],
       "DisplayName": "Meda Mountain Chasm",
       "hash_id": "0x72c50a4cf475fcd1",
-      "Location": "DeepHole_HimeidaMt"
+      "Location": "DeepHole_HimeidaMt",
+      "Depths": {
+        "pos": [
+          2513.71,
+          -512,
+          2380.7
+        ],
+        "DisplayName": "Meda Mountain Chasm Depths",
+        "hash_id": "0x72c50a4cf475fcd1",
+        "Location": "DeepHole_HimeidaMt"
+      }
     },
     "SkullLake": {
       "pos": [
         3246.82,
-        61.89,
+        -512,
         -3441.88
       ],
       "DisplayName": "Skull Lake Chasm",
       "hash_id": "0x2d40886474606c6c",
-      "Location": "DeepHole_AkkareSkull"
+      "Location": "DeepHole_AkkareSkull",
+      "Depths": {
+        "pos": [
+          3246.82,
+          -512,
+          -3441.88
+        ],
+        "DisplayName": "Skull Lake Chasm Depths",
+        "hash_id": "0x2d40886474606c6c",
+        "Location": "DeepHole_AkkareSkull"
+      }
     },
     "SouthAkkalaPlains": {
       "pos": [
         3296.86,
-        229.95,
+        -512,
         -1286.69
       ],
       "DisplayName": "South Akkala Plains Chasm",
       "hash_id": "0x41b3b5452647afa0",
-      "Location": "DeepHole_Minakkare"
+      "Location": "DeepHole_Minakkare",
+      "Depths": {
+        "pos": [
+          3296.86,
+          -512,
+          -1286.69
+        ],
+        "DisplayName": "South Akkala Plains Chasm Depths",
+        "hash_id": "0x41b3b5452647afa0",
+        "Location": "DeepHole_Minakkare"
+      }
     },
     "UnderZorasDomain": {
       "pos": [
         3271.55,
-        84.31,
+        -512,
         -441.59
       ],
       "DisplayName": "Chasm Under Zora's Domain",
       "hash_id": "0xd04598fb5664c8f6",
-      "Location": "Cave_Lanayru_0063"
+      "Location": "Cave_Lanayru_0063",
+      "Depths": {
+        "pos": [
+          3271.55,
+          -512,
+          -441.59
+        ],
+        "DisplayName": "Chasm Under Zora's Domain Depths",
+        "hash_id": "0xd04598fb5664c8f6",
+        "Location": "Cave_Lanayru_0063"
+      }
     },
     "NaydraSnowfield": {
       "pos": [
         3604.59,
-        223.14,
+        -512,
         1343.98
       ],
       "DisplayName": "Naydra Snowfield Chasm",
       "hash_id": "0x68b76a05f6c8c8e7",
-      "Location": "DeepHole_YuaSnow"
+      "Location": "DeepHole_YuaSnow",
+      "Depths": {
+        "pos": [
+          3604.59,
+          -512,
+          1343.98
+        ],
+        "DisplayName": "Naydra Snowfield Chasm Depths",
+        "hash_id": "0x68b76a05f6c8c8e7",
+        "Location": "DeepHole_YuaSnow"
+      }
     },
     "LomeiLabyrinth": {
       "pos": [
         4655,
-        131.5,
+        -512,
         -3697.47
       ],
       "DisplayName": "Lomei Labyrinth Chasm",
       "hash_id": "0x1625444f293ded2a",
-      "Location": "DeepHole_LomeiIsland"
+      "Location": "DeepHole_LomeiIsland",
+      "Depths": {
+        "pos": [
+          4655,
+          -512,
+          -3697.47
+        ],
+        "DisplayName": "Lomei Labyrinth Chasm Depths",
+        "hash_id": "0x1625444f293ded2a",
+        "Location": "DeepHole_LomeiIsland"
+      }
     },
     "EastAkkalaPlains": {
       "pos": [
         4029.55,
-        8.82,
+        -512,
         -2180.88
       ],
       "DisplayName": "East Akkala Plains Chasm",
       "hash_id": "0x94533d5bc3477949",
-      "Location": "DeepHole_Higakkare"
+      "Location": "DeepHole_Higakkare",
+      "Depths": {
+        "pos": [
+          4029.55,
+          -512,
+          -2180.88
+        ],
+        "DisplayName": "East Akkala Plains Chasm Depths",
+        "hash_id": "0x94533d5bc3477949",
+        "Location": "DeepHole_Higakkare"
+      }
     },
     "TingelIsland": {
       "pos": [
         4707.78,
-        224.23,
+        -512,
         -1307.87
       ],
       "DisplayName": "Tingel Island Chasm",
       "hash_id": "0x859f4db4320c9137",
-      "Location": "DeepHole_Chikurun"
+      "Location": "DeepHole_Chikurun",
+      "Depths": {
+        "pos": [
+          4707.78,
+          -512,
+          -1307.87
+        ],
+        "DisplayName": "Tingel Island Chasm Depths",
+        "hash_id": "0x859f4db4320c9137",
+        "Location": "DeepHole_Chikurun"
+      }
     },
     "EventideIsland": {
       "pos": [
         4507.12,
-        87.94,
+        -512,
         3459.3
       ],
       "DisplayName": "Eventide Island Chasm",
       "hash_id": "0x9d539d647c59c0cb",
-      "Location": "DeepHole_Saihateno"
+      "Location": "DeepHole_Saihateno",
+      "Depths": {
+        "pos": [
+          4507.12,
+          -512,
+          3459.3
+        ],
+        "DisplayName": "Eventide Island Chasm Depths",
+        "hash_id": "0x9d539d647c59c0cb",
+        "Location": "DeepHole_Saihateno"
+      }
     },
     "RitoVillage": {
       "pos": [
         -3571.25,
-        224.04,
+        -512,
         -1803.08
       ],
       "DisplayName": "Rito Village Chasm",
       "hash_id": "0xee78f62065cfd570",
-      "Location": "DeepHole_Rito"
+      "Location": "DeepHole_Rito",
+      "Depths": {
+        "pos": [
+          -3571.25,
+          -512,
+          -1803.08
+        ],
+        "DisplayName": "Rito Village Chasm Depths",
+        "hash_id": "0xee78f62065cfd570",
+        "Location": "DeepHole_Rito"
+      }
     },
     "HyruleCastle": {
       "pos": [
         -254,
-        -105,
+        -512,
         -1012.17
       ],
       "DisplayName": "Hyrule Castle Chasm",
       "hash_id": "0xfbb4ad3cdd4d490a",
-      "Location": "DeepHole_HyruleCastle"
+      "Location": "DeepHole_HyruleCastle",
+      "Depths": {
+        "pos": [
+          -254,
+          -512,
+          -1012.17
+        ],
+        "DisplayName": "Hyrule Castle Chasm Depths",
+        "hash_id": "0xfbb4ad3cdd4d490a",
+        "Location": "DeepHole_HyruleCastle"
+      }
     }
   },
   "Well": {

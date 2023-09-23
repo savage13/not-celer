@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import json
+import copy
 
 names = json.load(open("names.json", "r"))
 locations = json.load(open("LocationMarker.json","r"))
@@ -154,6 +155,11 @@ flux = transform('raw_flux_location.json', frog_t)
 frogs = transform("raw_bubbulfrog_cave.json", frog_t)
 molduga = transform('raw_molduga_location.json', frog_t)
 chasms = transform('raw_chasm.json', chasm_t)
+for value in chasms.values():
+    value['Depths'] = copy.copy(value)
+    value['Depths']['pos'][1] = -512
+    value['Depths']['DisplayName'] = f"{value['DisplayName']} Depths"
+
 npcs = transform('raw_npcs.json', npcs_t)
 
 extra = json.load(open("raw_npcs_extra.json", "r"))

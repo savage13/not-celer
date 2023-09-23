@@ -402,6 +402,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
               <div class="td"><img src="sign.png"></div>
               <div class="td"><img src="cave.png"></div>
               <div class="td"><img src="well.svg"></div>
+              <div class="td"><img src="chasm.png"></div>
               <div class="td"><img src="talus.png"></div>
               <div class="td"><img src="gleeok.png"></div>
               <div class="td"><img src="hinox.png"></div>
@@ -419,6 +420,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
               <div class="td" id="progress_Addison">0</div>
               <div class="td" id="progress_Cave">0</div>
               <div class="td" id="progress_Well">0</div>
+              <div class="td" id="progress_Chasm">0</div>
               <div class="td" id="progress_Enemy::Talus">0</div>
               <div class="td" id="progress_Enemy::Gleeok">0</div>
               <div class="td" id="progress_Enemy::Hinox">0</div>
@@ -1097,6 +1099,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           Temple: {},
           Location: {},
           Place:{},
+          Chasm: {},
           OldMap: {},
           SagesWill: {},
           YigaSchema: {},
@@ -1449,7 +1452,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           }
           if(obj.hash_id) {
               if(obj.hash_id in meta_hash) {
-                  console.log("Duplicate hash in meta_hash", obj.hash_id)
+                  console.log("Duplicate hash in meta_hash", obj.hash_id, obj.DisplayName)
               }
               meta_hash[obj.hash_id] = obj
               return

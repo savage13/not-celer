@@ -38512,6 +38512,16 @@
       ],
       "DisplayName": "Abandoned Lanayru Mine Far",
       "flag": "IsVisitLocation.MinusField_WhiteZora"
+    },
+    "EmergencyShelter": {
+      "hash_id": "0xd02e649ed5deb358",
+      "pos": [
+        -254.0,
+        112.95,
+        98.0
+      ],
+      "DisplaName": "Emergency Shelter",
+      "Location": "BaseCamp_Shelter"
     }
   },
   "Fairy": {

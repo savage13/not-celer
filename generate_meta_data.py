@@ -312,6 +312,13 @@ for item in mappct['spots']:
         "DisplayName": item['ui_name'],
         'flag': item['flag'],
     }
+xlocations['EmergencyShelter'] = {
+    "hash_id": "0xd02e649ed5deb358",
+    "pos": [-254.00, 112.95, 98.00],
+    "DisplaName": "Emergency Shelter",
+    "Location": "BaseCamp_Shelter"
+}
+
 
 temples = {}
 for item in mappct['temples']:

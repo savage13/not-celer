@@ -133,6 +133,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           table-layout: fixed;
           width: 100%;
       }
+      .segment_title_text_pad {
+          padding-left: 5em;
+      }
+      .segment_title_text {
+      }
       .segment_title {
           font-family: sans-serif;
           background: black;
@@ -1574,7 +1579,12 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           data.classList.add('segment_data');
           const txt = $div();
           txt.textContent = `${nsegments}. ${segment_name}`;
+          txt.classList.add('segment_title_text')
+          if(SHIFT_TITLE) {
+              txt.classList.add('segment_title_text_pad')
+          }
           title.appendChild(txt)
+
           const box = document.createElement('input')
           box.type = 'checkbox';
           box.checked = true;
@@ -1585,12 +1595,15 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                   SEGMENTS[segment_name].group.invoke('remove');
               }
           })
+
           const layer_div = $div();
           layer_div.classList.add('segment_title_layer');
           layer_div.textContent = layer;
+
           title.appendChild(box)
           title.appendChild(layer_div);
           segment.appendChild(title);
+
           route_el.appendChild(segment);
           segment.appendChild(data);
           nsegments += 1;
@@ -1842,6 +1855,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
       let SHOW_PROGRESS = false; // Ctrl-P
       let ONLY_SEGMENT = false;  // Ctrl-O
+      let SHIFT_TITLE = false; // Ctrl-T
 
       function key_commands(ev) {
           if(ev.ctrlKey && ev.key == "p") {
@@ -1858,6 +1872,19 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
               }
               set_current_line(CURRENT_LINE);
               return;
+          }
+          if(ev.ctrlKey && ev.key == "i") {
+              SHIFT_TITLE = ! SHIFT_TITLE;
+              set_current_line(CURRENT_LINE);
+              const ele = document.getElementsByClassName('segment_title_text');
+              for(const el of ele) {
+                  if(SHIFT_TITLE) {
+                      el.classList.add('segment_title_text_pad')
+                  } else {
+                      el.classList.remove('segment_title_text_pad')
+                  }
+              }
+              return
           }
 
           if(CURRENT_LINE === undefined)

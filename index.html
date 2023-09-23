@@ -1168,7 +1168,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                   const m = meta_get(tmp);
                   if(m && m.mappct) {
                       counter_mappct_flag(m.mappct.flag)
-                      counter_mappct_flag(m.mappct.flag_alt)
+                      m.mappct.flag_alt.forEach(alt => counter_mappct_flag(alt))
 
                   } else if(m) {
                   } else {
@@ -1516,15 +1516,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
           mappct = {}
           mappct_data = await load_json('map_pct2.json')
+          flag_alts = await load_json('flag_alt.json')
           let total = 0;
           for(const [key, values] of Object.entries(mappct_data)) {
               total += values.length;
-              let avails = []
-              let key0 = ""
-              if(key == "towers") {
-                  avails = meta.Tower
-                  key0 = "Tower"
-              }
               for(const value of values) {
                   if(meta_hash[value.hash_id[0]]) {
                       if(value.hash_id[0] in mappct) {
@@ -1537,11 +1532,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                       if(!(value.flag in mappct_flag))
                           mappct_flag[value.flag] = []
                       mappct_flag[value.flag].push(value)
-                      if(key == "towers") {
-                          value.flag_alt = value.flag
-                              .replace("IsVisitLocation",
-                                       "IsOpenCannon")
-                      }
+                      value.flag_alt = [];
+                      if(flag_alts[value.flag])
+                          value.flag_alt.push( flag_alts[value.flag] )
                   } else {
                       console.log("cound not find matching location for ",
                                   value, value.hash_id[0])

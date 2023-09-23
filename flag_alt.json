@@ -1,0 +1,21 @@
+{
+    "IsVisitLocation.LargeDungeonThunder": [
+        "SageOfGerudo_IsCompleted_Exp",
+        "SageOfGerudo_IsAfter_DungeonBossDead_Exp"
+    ],
+    "IsVisitLocation.Tower01": [ "IsOpenCannon.Tower01" ],
+    "IsVisitLocation.Tower02": [ "IsOpenCannon.Tower02" ],
+    "IsVisitLocation.Tower03": [ "IsOpenCannon.Tower03" ],
+    "IsVisitLocation.Tower04": [ "IsOpenCannon.Tower04" ],
+    "IsVisitLocation.Tower05": [ "IsOpenCannon.Tower05" ],
+    "IsVisitLocation.Tower06": [ "IsOpenCannon.Tower06" ],
+    "IsVisitLocation.Tower07": [ "IsOpenCannon.Tower07" ],
+    "IsVisitLocation.Tower08": [ "IsOpenCannon.Tower08" ],
+    "IsVisitLocation.Tower09": [ "IsOpenCannon.Tower09" ],
+    "IsVisitLocation.Tower10": [ "IsOpenCannon.Tower10" ],
+    "IsVisitLocation.Tower11": [ "IsOpenCannon.Tower11" ],
+    "IsVisitLocation.Tower12": [ "IsOpenCannon.Tower12" ],
+    "IsVisitLocation.Tower13": [ "IsOpenCannon.Tower13" ],
+    "IsVisitLocation.Tower14": [ "IsOpenCannon.Tower14" ],
+    "IsVisitLocation.Tower15": [ "IsOpenCannon.Tower15" ]
+}

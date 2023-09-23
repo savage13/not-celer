@@ -292,7 +292,7 @@ for item in mappct['spots']:
     while name in xlocations:
         name = f"{name0}{n:02d}"
         n += 1
-    print(item['hash_id'], name)
+    #print(item['hash_id'], name)
     if name in xlocations:
         raise ValueError('aargh')
     xlocations[name] = {

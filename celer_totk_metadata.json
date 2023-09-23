@@ -30583,22 +30583,22 @@
       "DisplayName": "Desert Rift",
       "flag": "IsVisitLocation.GerudoDesertCrack"
     },
-    "CourageIsland": {
+    "CourageIslandNear": {
       "hash_id": "0x48789d0d1201a137",
       "pos": [
         -2265.9956,
         2000.0,
         -728.0
       ],
-      "DisplayName": "Courage Island",
+      "DisplayName": "Courage Island Near",
       "flag": "IsVisitLocation.SkyIsland0001"
     },
-    "CourageIsland01": {
+    "CourageIsland": {
       "hash_id": "0xe6ba717d2b384771",
       "pos": [
-        -2265.9956,
+        -2265.996,
         2000.0,
-        -728.0
+        -745.0
       ],
       "DisplayName": "Courage Island",
       "flag": "IsVisitLocation.SkyIsland0001"
@@ -30613,14 +30613,14 @@
       "DisplayName": "Bravery Island",
       "flag": "IsVisitLocation.SkyIsland0002"
     },
-    "BraveryIsland01": {
+    "BraveryIslandNear": {
       "hash_id": "0xb809a679e1ced1c7",
       "pos": [
-        206.706,
-        2089.65,
-        -1937.0
+        204.55377,
+        2089.6497,
+        -1915.0
       ],
-      "DisplayName": "Bravery Island",
+      "DisplayName": "Bravery Island Near",
       "flag": "IsVisitLocation.SkyIsland0002"
     },
     "ValorIsland": {
@@ -30633,14 +30633,14 @@
       "DisplayName": "Valor Island",
       "flag": "IsVisitLocation.SkyIsland0003"
     },
-    "ValorIsland01": {
+    "ValorIslandNear": {
       "hash_id": "0xfab6bc3e1ca5707a",
       "pos": [
-        4579.1104,
-        2724.0212,
-        919.4617
+        4562.08,
+        1724.021,
+        906.6121
       ],
-      "DisplayName": "Valor Island",
+      "DisplayName": "Valor Island Near",
       "flag": "IsVisitLocation.SkyIsland0003"
     },
     "SkyMine": {
@@ -30673,14 +30673,14 @@
       "DisplayName": "Zonaite Forge Island",
       "flag": "IsVisitLocation.SkyIsland0010"
     },
-    "ZonaiteForgeIsland01": {
+    "ZonaiteForgeIslandNear": {
       "hash_id": "0x92ac666388cea956",
       "pos": [
-        2349.019,
-        10999.989,
-        1869.35
+        2349.044,
+        11000.0,
+        1879.0
       ],
-      "DisplayName": "Zonaite Forge Island",
+      "DisplayName": "Zonaite Forge Island Near",
       "flag": "IsVisitLocation.SkyIsland0010"
     },
     "StarviewIsland": {
@@ -30693,14 +30693,14 @@
       "DisplayName": "Starview Island",
       "flag": "IsVisitLocation.SkyIsland0011"
     },
-    "StarviewIsland01": {
+    "StarviewIslandNear": {
       "hash_id": "0xe9b74b416ddc1675",
       "pos": [
-        -3488.5,
-        2011.7151,
-        317.0
+        -3488.0,
+        2000.0,
+        264.0
       ],
-      "DisplayName": "Starview Island",
+      "DisplayName": "Starview Island Near",
       "flag": "IsVisitLocation.SkyIsland0011"
     },
     "NorthLomeiCastleTopFloor": {
@@ -30783,14 +30783,14 @@
       "DisplayName": "Goflam's Secret Hot Spring",
       "flag": "IsVisitLocation.FlamingoSpa"
     },
-    "GoflamsSecretHotSpring01": {
+    "GoflamsSecretHotSpringNear": {
       "hash_id": "0x6e3cbea6a692ee80",
       "pos": [
-        -3442.3696,
-        0.0,
-        -3545.5022
+        -3418.9233,
+        474.2313,
+        -3539.3965
       ],
-      "DisplayName": "Goflam's Secret Hot Spring",
+      "DisplayName": "Goflam's Secret Hot Spring Near",
       "flag": "IsVisitLocation.FlamingoSpa"
     },
     "FloretSandbar": {
@@ -30873,22 +30873,22 @@
       "DisplayName": "Akkala Parade Ground Ruins",
       "flag": "IsVisitLocation.AkkareGarrison"
     },
-    "AkkalaCitadelRuins": {
+    "AkkalaCitadelRuinsNear": {
       "hash_id": "0x0c55c7fdd55b91b3",
       "pos": [
         3323.8662,
         613.4504,
         -1534.9125
       ],
-      "DisplayName": "Akkala Citadel Ruins",
+      "DisplayName": "Akkala Citadel Ruins Near",
       "flag": "IsVisitLocation.AkkareZhai"
     },
-    "AkkalaCitadelRuins01": {
+    "AkkalaCitadelRuins": {
       "hash_id": "0x4dd8546254aa26ca",
       "pos": [
-        3323.8662,
-        613.4504,
-        -1534.9125
+        3324.2095,
+        608.6224,
+        -1502.8242
       ],
       "DisplayName": "Akkala Citadel Ruins",
       "flag": "IsVisitLocation.AkkareZhai"
@@ -30933,14 +30933,14 @@
       "DisplayName": "Exchange Ruins",
       "flag": "IsVisitLocation.CentralExchange"
     },
-    "ExchangeRuins01": {
+    "ExchangeRuinsNear": {
       "hash_id": "0xbea7ccc96da567e9",
       "pos": [
-        -750.0175,
-        296.3422,
-        859.66016
+        -751.6704,
+        128.32971,
+        821.4497
       ],
-      "DisplayName": "Exchange Ruins",
+      "DisplayName": "Exchange Ruins Near",
       "flag": "IsVisitLocation.CentralExchange"
     },
     "GopongaVillageRuins": {
@@ -30983,22 +30983,22 @@
       "DisplayName": "Luto's Crossing",
       "flag": "IsVisitLocation.DodoraBridge"
     },
-    "EastGerudoRuins": {
+    "EastGerudoRuinsNear": {
       "hash_id": "0x256547d925ece9a0",
       "pos": [
         -2696.0173,
         203.97874,
         2843.4111
       ],
-      "DisplayName": "East Gerudo Ruins",
+      "DisplayName": "East Gerudo Ruins Near",
       "flag": "IsVisitLocation.EastGerudoRuins"
     },
-    "EastGerudoRuins01": {
+    "EastGerudoRuins": {
       "hash_id": "0xcd758d2378902c40",
       "pos": [
-        -2696.0173,
-        203.97874,
-        2843.4111
+        -2693.2366,
+        113.15087,
+        2851.4136
       ],
       "DisplayName": "East Gerudo Ruins",
       "flag": "IsVisitLocation.EastGerudoRuins"
@@ -31093,22 +31093,22 @@
       "DisplayName": "Kolomo Garrison Ruins",
       "flag": "IsVisitLocation.GatakaraGarrison"
     },
-    "StolockBridge": {
+    "StolockBridgeNear": {
       "hash_id": "0x3dc4aef5a1c08b0b",
       "pos": [
         1627.1952,
         559.3783,
         -2478.004
       ],
-      "DisplayName": "Stolock Bridge",
+      "DisplayName": "Stolock Bridge Near",
       "flag": "IsVisitLocation.GoronBridge"
     },
-    "StolockBridge01": {
+    "StolockBridge": {
       "hash_id": "0x885b773e05cb0973",
       "pos": [
-        1627.1952,
-        559.3783,
-        -2478.004
+        1648.506,
+        559.2886,
+        -2437.7305
       ],
       "DisplayName": "Stolock Bridge",
       "flag": "IsVisitLocation.GoronBridge"
@@ -31163,14 +31163,14 @@
       "DisplayName": "Sanctum",
       "flag": "IsVisitLocation.HyruleCastle_Hall_0"
     },
-    "Sanctum01": {
+    "SanctumNear": {
       "hash_id": "0xefcfb4d2cef31ed1",
       "pos": [
-        -254.0,
-        444.781,
-        -1076.9401
+        -253.7012,
+        479.6435,
+        -1100.9507
       ],
-      "DisplayName": "Sanctum",
+      "DisplayName": "Sanctum Near",
       "flag": "IsVisitLocation.HyruleCastle_Hall_0"
     },
     "SecondGatehouse": {
@@ -31183,22 +31183,22 @@
       "DisplayName": "Second Gatehouse",
       "flag": "IsVisitLocation.HyruleCastle_Hall_1"
     },
-    "FirstGatehouse": {
+    "FirstGatehouseNear": {
       "hash_id": "0x7c59c46118a66d8c",
       "pos": [
         -356.233,
         215.101,
         -829.18115
       ],
-      "DisplayName": "First Gatehouse",
+      "DisplayName": "First Gatehouse Near",
       "flag": "IsVisitLocation.HyruleCastle_Hall_2"
     },
-    "FirstGatehouse01": {
+    "FirstGatehouse": {
       "hash_id": "0x81e1d1f362c47c96",
       "pos": [
-        -356.233,
-        215.101,
-        -829.18115
+        -354.25586,
+        215.11101,
+        -818.895
       ],
       "DisplayName": "First Gatehouse",
       "flag": "IsVisitLocation.HyruleCastle_Hall_2"
@@ -31293,32 +31293,32 @@
       "DisplayName": "Docks",
       "flag": "IsVisitLocation.HyruleCastle_Room_7"
     },
-    "Docks01": {
+    "DocksNear": {
       "hash_id": "0xe5a3459837bf2ab9",
       "pos": [
-        -252.18289,
-        126.41304,
-        -1188.027
+        -270.45837,
+        100.83422,
+        -1203.1006
       ],
-      "DisplayName": "Docks",
+      "DisplayName": "Docks Near",
       "flag": "IsVisitLocation.HyruleCastle_Room_7"
     },
-    "PrincessZeldasStudy": {
+    "PrincessZeldasStudyNear": {
       "hash_id": "0x133c60750b0a7bb7",
       "pos": [
         -384.15045,
         419.8883,
         -991.9032
       ],
-      "DisplayName": "Princess Zelda's Study",
+      "DisplayName": "Princess Zelda's Study Near",
       "flag": "IsVisitLocation.HyruleCastle_Room_8"
     },
-    "PrincessZeldasStudy01": {
+    "PrincessZeldasStudy": {
       "hash_id": "0x2b455f2911d42c0d",
       "pos": [
-        -384.15045,
-        419.8883,
-        -991.9032
+        -384.27304,
+        468.14474,
+        -1004.0381
       ],
       "DisplayName": "Princess Zelda's Study",
       "flag": "IsVisitLocation.HyruleCastle_Room_8"
@@ -31343,14 +31343,14 @@
       "DisplayName": "Central Square",
       "flag": "IsVisitLocation.HyruleCentralPlace"
     },
-    "CentralSquare01": {
+    "CentralSquareNear": {
       "hash_id": "0x6b0c84d74f19c139",
       "pos": [
-        -254.25182,
-        130.77347,
-        -416.74133
+        -253.48792,
+        135.19955,
+        -423.12448
       ],
-      "DisplayName": "Central Square",
+      "DisplayName": "Central Square Near",
       "flag": "IsVisitLocation.HyruleCentralPlace"
     },
     "HyruleGarrisonRuins": {
@@ -31443,14 +31443,14 @@
       "DisplayName": "Sage Temple Ruins",
       "flag": "IsVisitLocation.KaturaCastle"
     },
-    "SageTempleRuins01": {
+    "SageTempleRuinsNear": {
       "hash_id": "0x63f715174201a699",
       "pos": [
-        -1352.4236,
-        0.0,
-        216.81708
+        -1357.712,
+        132.63864,
+        201.61075
       ],
-      "DisplayName": "Sage Temple Ruins",
+      "DisplayName": "Sage Temple Ruins Near",
       "flag": "IsVisitLocation.KaturaCastle"
     },
     "KakarikoBridge": {
@@ -31513,14 +31513,14 @@
       "DisplayName": "Little Twin Bridge",
       "flag": "IsVisitLocation.LittleBrotherBridge"
     },
-    "LittleTwinBridge01": {
+    "LittleTwinBridgeNear": {
       "hash_id": "0xf61be1d0893b2554",
       "pos": [
-        1713.9957,
-        115.29159,
-        2147.9443
+        1726.0586,
+        0.0,
+        2125.3914
       ],
-      "DisplayName": "Little Twin Bridge",
+      "DisplayName": "Little Twin Bridge Near",
       "flag": "IsVisitLocation.LittleBrotherBridge"
     },
     "LomeiLabyrinthIsland": {
@@ -31583,14 +31583,14 @@
       "DisplayName": "West Sokkala Bridge",
       "flag": "IsVisitLocation.MinakkareBridgeWest"
     },
-    "WestSokkalaBridge01": {
+    "WestSokkalaBridgeNear": {
       "hash_id": "0x7b35122cce0e03a1",
       "pos": [
         3588.0,
         0.0,
-        -1024.0
+        -1044.0
       ],
-      "DisplayName": "West Sokkala Bridge",
+      "DisplayName": "West Sokkala Bridge Near",
       "flag": "IsVisitLocation.MinakkareBridgeWest"
     },
     "SouthLomeiLabyrinth": {
@@ -31643,22 +31643,22 @@
       "DisplayName": "Helmhead Bridge",
       "flag": "IsVisitLocation.OsanjoBridge"
     },
-    "OutpostRuins": {
+    "OutpostRuinsNear": {
       "hash_id": "0x1669f82a12bfa355",
       "pos": [
         -248.44038,
         0.0,
         1688.3232
       ],
-      "DisplayName": "Outpost Ruins",
+      "DisplayName": "Outpost Ruins Near",
       "flag": "IsVisitLocation.PostTownRuin"
     },
-    "OutpostRuins01": {
+    "OutpostRuins": {
       "hash_id": "0xed4d34d87202fbda",
       "pos": [
-        -248.44038,
-        0.0,
-        1688.3232
+        -259.89075,
+        111.614876,
+        1673.9082
       ],
       "DisplayName": "Outpost Ruins",
       "flag": "IsVisitLocation.PostTownRuin"
@@ -31693,14 +31693,14 @@
       "DisplayName": "Mabe Village Ruins",
       "flag": "IsVisitLocation.RonronCity"
     },
-    "MabeVillageRuins01": {
+    "MabeVillageRuinsNear": {
       "hash_id": "0xf857ae3419f48a7c",
       "pos": [
-        -37.202637,
+        -26.371094,
         0.0,
-        185.71606
+        222.60791
       ],
-      "DisplayName": "Mabe Village Ruins",
+      "DisplayName": "Mabe Village Ruins Near",
       "flag": "IsVisitLocation.RonronCity"
     },
     "NorthLomeiLabyrinth": {
@@ -31763,14 +31763,14 @@
       "DisplayName": "Rauru Settlement Ruins",
       "flag": "IsVisitLocation.ShinyarkiVillage"
     },
-    "RauruSettlementRuins01": {
+    "RauruSettlementRuinsNear": {
       "hash_id": "0xe1125b50ff673e2e",
       "pos": [
-        675.8198,
-        145.6201,
-        -1282.6924
+        689.8762,
+        0.0,
+        -1307.7172
       ],
-      "DisplayName": "Rauru Settlement Ruins",
+      "DisplayName": "Rauru Settlement Ruins Near",
       "flag": "IsVisitLocation.ShinyarkiVillage"
     },
     "StatueoftheEighthHeroine": {
@@ -31783,14 +31783,14 @@
       "DisplayName": "Statue of the Eighth Heroine",
       "flag": "IsVisitLocation.SnowStatue"
     },
-    "StatueoftheEighthHeroine01": {
+    "StatueoftheEighthHeroineNear": {
       "hash_id": "0x5a726b979ec2c9df",
       "pos": [
-        -4362.7446,
-        570.4813,
-        502.0
+        -4365.0,
+        0.0,
+        492.0
       ],
-      "DisplayName": "Statue of the Eighth Heroine",
+      "DisplayName": "Statue of the Eighth Heroine Near",
       "flag": "IsVisitLocation.SnowStatue"
     },
     "SanidinParkRuins": {
@@ -31823,14 +31823,14 @@
       "DisplayName": "Arbiter's Grounds",
       "flag": "IsVisitLocation.SouthGerudoLegacy"
     },
-    "ArbitersGrounds01": {
+    "ArbitersGroundsNear": {
       "hash_id": "0xb148151029e5ad3a",
       "pos": [
-        -4157.439,
-        133.44499,
-        3803.0579
+        -4157.43,
+        0.0,
+        3753.1467
       ],
-      "DisplayName": "Arbiter's Grounds",
+      "DisplayName": "Arbiter's Grounds Near",
       "flag": "IsVisitLocation.SouthGerudoLegacy"
     },
     "AncientColumns": {
@@ -31913,22 +31913,22 @@
       "DisplayName": "Horse God Bridge",
       "flag": "IsVisitLocation.TurasuBridge"
     },
-    "MoorGarrisonRuins": {
+    "MoorGarrisonRuinsNear": {
       "hash_id": "0xc3ac3e246d28a99f",
       "pos": [
         1527.0,
         68.0,
         -218.0
       ],
-      "DisplayName": "Moor Garrison Ruins",
+      "DisplayName": "Moor Garrison Ruins Near",
       "flag": "IsVisitLocation.WetGarrison"
     },
-    "MoorGarrisonRuins01": {
+    "MoorGarrisonRuins": {
       "hash_id": "0xe6c1d7d3157a9df4",
       "pos": [
         1527.0,
         68.0,
-        -218.0
+        -208.0
       ],
       "DisplayName": "Moor Garrison Ruins",
       "flag": "IsVisitLocation.WetGarrison"
@@ -31983,14 +31983,14 @@
       "DisplayName": "Ancient Tree Stump",
       "flag": "IsVisitLocation.BigTree"
     },
-    "AncientTreeStump01": {
+    "AncientTreeStumpNear": {
       "hash_id": "0xb978ee5685e1f43b",
       "pos": [
-        -1111.9902,
-        168.87401,
-        415.22052
+        -1120.1992,
+        0.0,
+        386.68478
       ],
-      "DisplayName": "Ancient Tree Stump",
+      "DisplayName": "Ancient Tree Stump Near",
       "flag": "IsVisitLocation.BigTree"
     },
     "FaronWoods": {
@@ -32113,14 +32113,14 @@
       "DisplayName": "Thundra Plateau",
       "flag": "IsVisitLocation.LightningPlateau"
     },
-    "ThundraPlateau01": {
+    "ThundraPlateauNear": {
       "hash_id": "0x731a1582241681de",
       "pos": [
-        -2265.8643,
-        0.0,
-        -921.8176
+        -2268.5188,
+        232.53212,
+        -955.52637
       ],
-      "DisplayName": "Thundra Plateau",
+      "DisplayName": "Thundra Plateau Near",
       "flag": "IsVisitLocation.LightningPlateau"
     },
     "EldinGreatSkeleton": {
@@ -32163,14 +32163,14 @@
       "DisplayName": "Mipha Court",
       "flag": "IsVisitLocation.Zora_Belvedere"
     },
-    "MiphaCourt01": {
+    "MiphaCourtNear": {
       "hash_id": "0xb4817dfba31e2d36",
       "pos": [
-        3837.922,
-        596.13696,
-        -566.45776
+        3830.8115,
+        590.974,
+        -547.3777
       ],
-      "DisplayName": "Mipha Court",
+      "DisplayName": "Mipha Court Near",
       "flag": "IsVisitLocation.Zora_Belvedere"
     },
     "DeyaLake": {
@@ -32186,9 +32186,9 @@
     "DeyaLake01": {
       "hash_id": "0x7fbc3702841f88b3",
       "pos": [
-        365.77982,
+        496.1175,
         0.0,
-        1882.565
+        2285.5107
       ],
       "DisplayName": "Deya Lake",
       "flag": "IsOpenCannon.Tower13"
@@ -32196,9 +32196,9 @@
     "DeyaLake02": {
       "hash_id": "0xe038c1eaef99870c",
       "pos": [
-        365.77982,
+        455.00003,
         0.0,
-        1882.565
+        1999.5756
       ],
       "DisplayName": "Deya Lake",
       "flag": "IsOpenCannon.Tower13"
@@ -32226,9 +32226,9 @@
     "RalisPond01": {
       "hash_id": "0xdf19731d7b5db44d",
       "pos": [
-        2926.604,
+        2931.0889,
         0.0,
-        -263.8579
+        -231.76123
       ],
       "DisplayName": "Ralis Pond",
       "flag": "IsOpenCannon.Tower07"
@@ -32396,9 +32396,9 @@
     "LakeMekar01": {
       "hash_id": "0x1215f6f351667e3b",
       "pos": [
-        337.236,
+        -224.73596,
         0.0,
-        -2749.984
+        -2056.397
       ],
       "DisplayName": "Lake Mekar",
       "flag": "IsOpenCannon.Tower12"
@@ -32406,9 +32406,9 @@
     "LakeMekar02": {
       "hash_id": "0x248cbc0eed2e79b7",
       "pos": [
-        337.236,
+        277.05142,
         0.0,
-        -2749.984
+        -1632.1807
       ],
       "DisplayName": "Lake Mekar",
       "flag": "IsOpenCannon.Tower12"
@@ -32416,9 +32416,9 @@
     "LakeMekar03": {
       "hash_id": "0x320c403f167a2bb5",
       "pos": [
-        337.236,
+        893.1265,
         0.0,
-        -2749.984
+        -2537.4187
       ],
       "DisplayName": "Lake Mekar",
       "flag": "IsOpenCannon.Tower12"
@@ -32456,9 +32456,9 @@
     "FloriaRiver01": {
       "hash_id": "0xac13f8a0a0f81035",
       "pos": [
-        1277.0026,
+        869.362,
         0.0,
-        3327.131
+        3143.61
       ],
       "DisplayName": "Floria River",
       "flag": "IsOpenCannon.Tower13"
@@ -32476,9 +32476,9 @@
     "LakeIntenoch01": {
       "hash_id": "0x8e06ad80f34796b0",
       "pos": [
-        2598.2202,
+        2420.754,
         0.0,
-        -1719.2148
+        -1421.7026
       ],
       "DisplayName": "Lake Intenoch",
       "flag": "IsOpenCannon.Tower04"
@@ -32486,9 +32486,9 @@
     "LakeIntenoch02": {
       "hash_id": "0x9fe1d974285202e2",
       "pos": [
-        2598.2202,
+        2519.544,
         0.0,
-        -1719.2148
+        -1516.6483
       ],
       "DisplayName": "Lake Intenoch",
       "flag": "IsOpenCannon.Tower04"
@@ -32526,9 +32526,9 @@
     "RutalaRiver01": {
       "hash_id": "0xb979e0da33ba854f",
       "pos": [
-        3206.1938,
+        2518.1003,
         0.0,
-        352.75214
+        198.97699
       ],
       "DisplayName": "Rutala River",
       "flag": "IsOpenCannon.Tower07"
@@ -32556,9 +32556,9 @@
     "CephlaLake01": {
       "hash_id": "0xc698c1669403e306",
       "pos": [
-        2750.7034,
+        2769.9443,
         0.0,
-        -1480.5386
+        -989.49023
       ],
       "DisplayName": "Cephla Lake",
       "flag": "IsOpenCannon.Tower04"
@@ -32566,9 +32566,9 @@
     "CephlaLake02": {
       "hash_id": "0xe1dd3f00adf0b271",
       "pos": [
-        2750.7034,
+        2753.6794,
         0.0,
-        -1480.5386
+        -1274.4198
       ],
       "DisplayName": "Cephla Lake",
       "flag": "IsOpenCannon.Tower04"
@@ -32656,9 +32656,9 @@
     "StrockLake01": {
       "hash_id": "0xe72fd932258a095a",
       "pos": [
-        -3383.4763,
+        -3248.7734,
         0.0,
-        -1233.7885
+        -1436.4025
       ],
       "DisplayName": "Strock Lake",
       "flag": "IsOpenCannon.Tower02"
@@ -32686,9 +32686,9 @@
     "EastAkkalaBeach01": {
       "hash_id": "0x546f85f1e7b6ad5a",
       "pos": [
-        4353.725,
+        4273.578,
         0.0,
-        -2400.4111
+        -2072.3997
       ],
       "DisplayName": "East Akkala Beach",
       "flag": "IsOpenCannon.Tower05"
@@ -32736,9 +32736,9 @@
     "HyruleCastleMoat01": {
       "hash_id": "0x3df7259871b51c84",
       "pos": [
-        -326.03992,
+        -291.41528,
         0.0,
-        -650.64795
+        -1257.6892
       ],
       "DisplayName": "Hyrule Castle Moat",
       "flag": "IsOpenCannon.Tower01"
@@ -32746,9 +32746,9 @@
     "HyruleCastleMoat02": {
       "hash_id": "0x7d2f9152ff34bbb9",
       "pos": [
-        -326.03992,
+        -3.6827393,
         0.0,
-        -650.64795
+        -1228.5322
       ],
       "DisplayName": "Hyrule Castle Moat",
       "flag": "IsOpenCannon.Tower01"
@@ -32756,9 +32756,9 @@
     "HyruleCastleMoat03": {
       "hash_id": "0x92a72825f136d21d",
       "pos": [
-        -326.03992,
+        53.319427,
         0.0,
-        -650.64795
+        -762.68677
       ],
       "DisplayName": "Hyrule Castle Moat",
       "flag": "IsOpenCannon.Tower01"
@@ -32766,9 +32766,9 @@
     "HyruleCastleMoat04": {
       "hash_id": "0xa507b43747c6de3b",
       "pos": [
-        -326.03992,
+        -583.5325,
         0.0,
-        -650.64795
+        -947.4524
       ],
       "DisplayName": "Hyrule Castle Moat",
       "flag": "IsOpenCannon.Tower01"
@@ -32776,9 +32776,9 @@
     "HyruleCastleMoat05": {
       "hash_id": "0xa512a63b9ffea59e",
       "pos": [
-        -326.03992,
+        -475.42493,
         0.0,
-        -650.64795
+        -1171.53
       ],
       "DisplayName": "Hyrule Castle Moat",
       "flag": "IsOpenCannon.Tower01"
@@ -32786,9 +32786,9 @@
     "HyruleCastleMoat06": {
       "hash_id": "0xa8635fa04b9de095",
       "pos": [
-        -326.03992,
+        -532.4271,
         0.0,
-        -650.64795
+        -756.79004
       ],
       "DisplayName": "Hyrule Castle Moat",
       "flag": "IsOpenCannon.Tower01"
@@ -32796,9 +32796,9 @@
     "HyruleCastleMoat07": {
       "hash_id": "0xb9b48cd4a2ab4de0",
       "pos": [
-        -326.03992,
+        51.35385,
         0.0,
-        -650.64795
+        -1028.0417
       ],
       "DisplayName": "Hyrule Castle Moat",
       "flag": "IsOpenCannon.Tower01"
@@ -32846,9 +32846,9 @@
     "ZoraRiver01": {
       "hash_id": "0xc272c8fc332aab74",
       "pos": [
-        2657.7761,
+        2112.2498,
         0.0,
-        -364.3933
+        -163.70892
       ],
       "DisplayName": "Zora River",
       "flag": "IsOpenCannon.Tower07"
@@ -32866,9 +32866,9 @@
     "TeltaLake01": {
       "hash_id": "0xfc1e9440e0ed1814",
       "pos": [
-        1714.2354,
+        1712.8828,
         0.0,
-        764.18555
+        777.0475
       ],
       "DisplayName": "Telta Lake",
       "flag": "IsOpenCannon.Tower06"
@@ -32896,9 +32896,9 @@
     "RegenciaRiver01": {
       "hash_id": "0x1e50e609b8658516",
       "pos": [
-        -1767.8926,
+        -1557.5244,
         0.0,
-        1222.1437
+        921.486
       ],
       "DisplayName": "Regencia River",
       "flag": "IsOpenCannon.Tower08"
@@ -32906,9 +32906,9 @@
     "RegenciaRiver02": {
       "hash_id": "0x31f119b4e20ab635",
       "pos": [
-        -1767.8926,
+        -1657.8899,
         0.0,
-        1222.1437
+        1121.0767
       ],
       "DisplayName": "Regencia River",
       "flag": "IsOpenCannon.Tower08"
@@ -32916,9 +32916,9 @@
     "RegenciaRiver03": {
       "hash_id": "0x546b166947e76245",
       "pos": [
-        -1767.8926,
+        -1293.3462,
         0.0,
-        1222.1437
+        434.82825
       ],
       "DisplayName": "Regencia River",
       "flag": "IsOpenCannon.Tower08"
@@ -32926,9 +32926,9 @@
     "RegenciaRiver04": {
       "hash_id": "0x8671c8b875ba3f9e",
       "pos": [
-        -1767.8926,
+        -1863.418,
         0.0,
-        1222.1437
+        1399.3282
       ],
       "DisplayName": "Regencia River",
       "flag": "IsOpenCannon.Tower08"
@@ -32936,9 +32936,9 @@
     "RegenciaRiver05": {
       "hash_id": "0xb47642da74236d7a",
       "pos": [
-        -1767.8926,
+        -1365.7607,
         0.0,
-        1222.1437
+        681.3458
       ],
       "DisplayName": "Regencia River",
       "flag": "IsOpenCannon.Tower08"
@@ -32946,9 +32946,9 @@
     "RegenciaRiver06": {
       "hash_id": "0xbcade72795f50d04",
       "pos": [
-        -1767.8926,
+        -1455.1233,
         0.0,
-        1222.1437
+        177.52551
       ],
       "DisplayName": "Regencia River",
       "flag": "IsOpenCannon.Tower08"
@@ -32956,9 +32956,9 @@
     "RegenciaRiver07": {
       "hash_id": "0xe5a9df63d809270b",
       "pos": [
-        -1767.8926,
+        -1243.6659,
         0.0,
-        1222.1437
+        -124.34314
       ],
       "DisplayName": "Regencia River",
       "flag": "IsOpenCannon.Tower08"
@@ -32976,9 +32976,9 @@
     "HebraPlunge01": {
       "hash_id": "0xe60a6c17c5ab0b58",
       "pos": [
-        -2866.764,
+        -3072.1836,
         0.0,
-        -2008.3376
+        -2134.8208
       ],
       "DisplayName": "Hebra Plunge",
       "flag": "IsOpenCannon.Tower15"
@@ -33096,9 +33096,9 @@
     "AquameLake01": {
       "hash_id": "0xe7784ef7803e7cab",
       "pos": [
-        -1304.1285,
+        -993.44324,
         0.0,
-        1095.3358
+        1163.1805
       ],
       "DisplayName": "Aquame Lake",
       "flag": "IsOpenCannon.Tower08"
@@ -33136,9 +33136,9 @@
     "LakeHylia01": {
       "hash_id": "0x2d45d73722bb288d",
       "pos": [
-        -255.5434,
+        17.375702,
         0.0,
-        2430.4255
+        2262.132
       ],
       "DisplayName": "Lake Hylia",
       "flag": "IsOpenCannon.Tower13"
@@ -33146,9 +33146,9 @@
     "LakeHylia02": {
       "hash_id": "0x355b6ec40c1523b1",
       "pos": [
-        -255.5434,
+        261.76752,
         0.0,
-        2430.4255
+        2712.565
       ],
       "DisplayName": "Lake Hylia",
       "flag": "IsOpenCannon.Tower13"
@@ -33156,9 +33156,9 @@
     "LakeHylia03": {
       "hash_id": "0x454287ecb1583865",
       "pos": [
-        -255.5434,
+        146.22937,
         0.0,
-        2430.4255
+        2481.1104
       ],
       "DisplayName": "Lake Hylia",
       "flag": "IsOpenCannon.Tower13"
@@ -33166,9 +33166,9 @@
     "LakeHylia04": {
       "hash_id": "0x4d8e8a91e38d46fb",
       "pos": [
-        -255.5434,
+        -431.0963,
         0.0,
-        2430.4255
+        2302.1946
       ],
       "DisplayName": "Lake Hylia",
       "flag": "IsOpenCannon.Tower13"
@@ -33176,9 +33176,9 @@
     "LakeHylia05": {
       "hash_id": "0x62dd6bbe5506d02e",
       "pos": [
-        -255.5434,
+        -312.90015,
         0.0,
-        2430.4255
+        2781.2449
       ],
       "DisplayName": "Lake Hylia",
       "flag": "IsOpenCannon.Tower13"
@@ -33196,9 +33196,9 @@
     "LanayruBay01": {
       "hash_id": "0xeb66cd615922d5a2",
       "pos": [
-        3449.1982,
+        3813.8928,
         0.0,
-        752.7706
+        612.9576
       ],
       "DisplayName": "Lanayru Bay",
       "flag": "IsOpenCannon.Tower07"
@@ -33376,9 +33376,9 @@
     "LakeSiela01": {
       "hash_id": "0x89c32102c964eb34",
       "pos": [
-        2129.8086,
-        0.0,
-        1451.4823
+        1627.2805,
+        1.3447876,
+        1383.4065
       ],
       "DisplayName": "Lake Siela",
       "flag": "IsOpenCannon.Tower06"
@@ -33466,9 +33466,9 @@
     "LakeTotori01": {
       "hash_id": "0x9d8cd3e0d12af5f5",
       "pos": [
-        -3753.8667,
+        -3444.8818,
         0.0,
-        -1745.084
+        -1724.9788
       ],
       "DisplayName": "Lake Totori",
       "flag": "IsOpenCannon.Tower15"
@@ -33476,9 +33476,9 @@
     "LakeTotori02": {
       "hash_id": "0xf8e50fea8ba9ad37",
       "pos": [
-        -3753.8667,
+        -3607.6758,
         0.0,
-        -1745.084
+        -1941.1006
       ],
       "DisplayName": "Lake Totori",
       "flag": "IsOpenCannon.Tower15"
@@ -33516,9 +33516,9 @@
     "HyliaRiver01": {
       "hash_id": "0x524a1ce02fa82151",
       "pos": [
-        783.3584,
+        486.45242,
         0.0,
-        -127.94531
+        1090.9208
       ],
       "DisplayName": "Hylia River",
       "flag": "IsOpenCannon.Tower08"
@@ -33526,9 +33526,9 @@
     "HyliaRiver02": {
       "hash_id": "0x5b718306b74d9e8b",
       "pos": [
-        783.3584,
+        337.73953,
         0.0,
-        -127.94531
+        -656.6373
       ],
       "DisplayName": "Hylia River",
       "flag": "IsOpenCannon.Tower08"
@@ -33536,9 +33536,9 @@
     "HyliaRiver03": {
       "hash_id": "0x8434d1dc23b7a6e4",
       "pos": [
-        783.3584,
+        819.09955,
         0.0,
-        -127.94531
+        412.65115
       ],
       "DisplayName": "Hylia River",
       "flag": "IsOpenCannon.Tower08"
@@ -33546,9 +33546,9 @@
     "HyliaRiver04": {
       "hash_id": "0xe3f12c8b362ceef0",
       "pos": [
-        783.3584,
+        125.79364,
         0.0,
-        -127.94531
+        1755.1829
       ],
       "DisplayName": "Hylia River",
       "flag": "IsOpenCannon.Tower08"
@@ -33646,9 +33646,9 @@
     "TamioRiver01": {
       "hash_id": "0x98473ffd0dc8c6b3",
       "pos": [
-        -2465.394,
+        -2350.7256,
         0.0,
-        200.18527
+        84.72537
       ],
       "DisplayName": "Tamio River",
       "flag": "IsOpenCannon.Tower08"
@@ -33656,9 +33656,9 @@
     "TamioRiver02": {
       "hash_id": "0xb26d2e75e8f692f9",
       "pos": [
-        -2465.394,
+        -2935.318,
         0.0,
-        200.18527
+        546.8506
       ],
       "DisplayName": "Tamio River",
       "flag": "IsOpenCannon.Tower08"
@@ -33716,9 +33716,9 @@
     "OaklesNavel01": {
       "hash_id": "0xf4b553201ffb8af8",
       "pos": [
-        2473.8613,
+        2483.4697,
         0.0,
-        2085.7803
+        2059.794
       ],
       "DisplayName": "Oakle's Navel",
       "flag": "IsOpenCannon.Tower14"
@@ -33756,9 +33756,9 @@
     "LakeKilsie01": {
       "hash_id": "0x472d268122880782",
       "pos": [
-        -3927.746,
+        -3903.2441,
         0.0,
-        -2544.069
+        -2757.8367
       ],
       "DisplayName": "Lake Kilsie",
       "flag": "IsOpenCannon.Tower15"
@@ -33766,9 +33766,9 @@
     "LakeKilsie02": {
       "hash_id": "0xb21964c1475989d3",
       "pos": [
-        -3927.746,
+        -4099.687,
         0.0,
-        -2544.069
+        -2370.2788
       ],
       "DisplayName": "Lake Kilsie",
       "flag": "IsOpenCannon.Tower15"
@@ -33806,9 +33806,9 @@
     "LakeAkkala01": {
       "hash_id": "0xbaedb5b787a5a1e7",
       "pos": [
-        3924.2898,
+        3939.0696,
         0.0,
-        -1496.9026
+        -1757.6511
       ],
       "DisplayName": "Lake Akkala",
       "flag": "IsOpenCannon.Tower05"
@@ -33816,9 +33816,9 @@
     "LakeAkkala02": {
       "hash_id": "0xdfa17ecf2922b5a7",
       "pos": [
-        3924.2898,
+        3709.521,
         0.0,
-        -1496.9026
+        -1286.9932
       ],
       "DisplayName": "Lake Akkala",
       "flag": "IsOpenCannon.Tower05"
@@ -33846,9 +33846,9 @@
     "SquabbleRiver01": {
       "hash_id": "0x39806e1df0b014e0",
       "pos": [
-        496.78476,
+        2397.9749,
         0.0,
-        1533.9364
+        1887.8186
       ],
       "DisplayName": "Squabble River",
       "flag": "IsOpenCannon.Tower11"
@@ -33856,9 +33856,9 @@
     "SquabbleRiver02": {
       "hash_id": "0x40b0232a197b26d0",
       "pos": [
-        496.78476,
+        917.0587,
         0.0,
-        1533.9364
+        1784.0917
       ],
       "DisplayName": "Squabble River",
       "flag": "IsOpenCannon.Tower11"
@@ -33866,9 +33866,9 @@
     "SquabbleRiver03": {
       "hash_id": "0x5684f5e4d0054d60",
       "pos": [
-        496.78476,
+        2129.2234,
         0.0,
-        1533.9364
+        2246.6802
       ],
       "DisplayName": "Squabble River",
       "flag": "IsOpenCannon.Tower11"
@@ -34146,9 +34146,9 @@
     "MinshiWoods01": {
       "hash_id": "0xf6cfc6fc73e232eb",
       "pos": [
-        1015.7352,
+        1081.771,
         0.0,
-        -1770.9055
+        -1503.86
       ],
       "DisplayName": "Minshi Woods",
       "flag": "IsOpenCannon.Tower04"
@@ -34173,14 +34173,14 @@
       "DisplayName": "Midla Woods",
       "flag": "IsOpenCannon.Tower14"
     },
-    "PappettoGrove": {
+    "PappettoGroveSurface": {
       "hash_id": "0x8e1a4ddfdfbca1a7",
       "pos": [
         -339.3401,
         0.0,
         3567.0925
       ],
-      "DisplayName": "Pappetto Grove",
+      "DisplayName": "Pappetto Grove Surface",
       "flag": "IsOpenCannon.Tower13"
     },
     "AppleanForest": {
@@ -34366,9 +34366,9 @@
     "EastDeplianBadlands01": {
       "hash_id": "0x5ad271df0f9efced",
       "pos": [
-        1126.0508,
+        1677.9221,
         0.0,
-        -3673.3691
+        -3670.0684
       ],
       "DisplayName": "East Deplian Badlands",
       "flag": "IsOpenCannon.Tower12"
@@ -34606,9 +34606,9 @@
     "HebraWestSummit01": {
       "hash_id": "0xf91fba46916cc50f",
       "pos": [
-        -4422.7983,
+        -4455.3276,
         0.0,
-        -2722.941
+        -3171.2236
       ],
       "DisplayName": "Hebra West Summit",
       "flag": "IsOpenCannon.Tower15"
@@ -34756,9 +34756,9 @@
     "UplandLindor01": {
       "hash_id": "0x3fc436e0d2bee626",
       "pos": [
-        -2544.851,
+        -2231.495,
         0.0,
-        -1279.4142
+        -1344.8691
       ],
       "DisplayName": "Upland Lindor",
       "flag": "IsOpenCannon.Tower02"
@@ -34926,9 +34926,9 @@
     "SalariHill01": {
       "hash_id": "0xb82c0f5ccd735913",
       "pos": [
-        -1443.9471,
+        -1339.3524,
         0.0,
-        -1343.8732
+        -1522.522
       ],
       "DisplayName": "Salari Hill",
       "flag": "IsOpenCannon.Tower02"
@@ -35096,9 +35096,9 @@
     "MountDrena01": {
       "hash_id": "0x9216776b7a82a452",
       "pos": [
-        -561.4199,
+        -571.42114,
         0.0,
-        -2635.1152
+        -2308.8418
       ],
       "DisplayName": "Mount Drena",
       "flag": "IsOpenCannon.Tower12"
@@ -35106,9 +35106,9 @@
     "MountDrena02": {
       "hash_id": "0xac63498c7ae1e02a",
       "pos": [
-        -561.4199,
+        -355.3164,
         0.0,
-        -2635.1152
+        -2767.049
       ],
       "DisplayName": "Mount Drena",
       "flag": "IsOpenCannon.Tower12"
@@ -35116,9 +35116,9 @@
     "MountDrena03": {
       "hash_id": "0xb1528d506a3bdee0",
       "pos": [
-        -561.4199,
+        -825.6262,
         0.0,
-        -2635.1152
+        -2764.2717
       ],
       "DisplayName": "Mount Drena",
       "flag": "IsOpenCannon.Tower12"
@@ -35126,9 +35126,9 @@
     "MountDrena04": {
       "hash_id": "0xc94f3cefa8672140",
       "pos": [
-        -561.4199,
+        -1247.4896,
         0.0,
-        -2635.1152
+        -3262.8518
       ],
       "DisplayName": "Mount Drena",
       "flag": "IsOpenCannon.Tower12"
@@ -35316,9 +35316,9 @@
     "DuelingPeaks01": {
       "hash_id": "0xf25fe28651a668d6",
       "pos": [
-        1358.1024,
+        1269.3143,
         0.0,
-        1781.7185
+        2038.7462
       ],
       "DisplayName": "Dueling Peaks",
       "flag": "IsOpenCannon.Tower06"
@@ -35436,9 +35436,9 @@
     "BironSnowshelf01": {
       "hash_id": "0x5603a61ef362728c",
       "pos": [
-        -3719.0518,
+        -3929.0078,
         0.0,
-        -2982.0652
+        -3319.0752
       ],
       "DisplayName": "Biron Snowshelf",
       "flag": "IsOpenCannon.Tower15"
@@ -35446,9 +35446,9 @@
     "BironSnowshelf02": {
       "hash_id": "0x9204a59f7a77970f",
       "pos": [
-        -3719.0518,
+        -4052.7617,
         0.0,
-        -2982.0652
+        -3010.6724
       ],
       "DisplayName": "Biron Snowshelf",
       "flag": "IsOpenCannon.Tower15"
@@ -35496,9 +35496,9 @@
     "BrocaIsland01": {
       "hash_id": "0xf916b914a2552a3a",
       "pos": [
-        2701.1992,
-        0.0,
-        -1769.6309
+        2698.522,
+        244.57495,
+        -1762.5836
       ],
       "DisplayName": "Broca Island",
       "flag": "IsOpenCannon.Tower04"
@@ -35526,9 +35526,9 @@
     "WindvaneMeadow01": {
       "hash_id": "0xf51fb7a4955986f8",
       "pos": [
-        -264.64856,
+        -664.16626,
         0.0,
-        605.4452
+        750.4846
       ],
       "DisplayName": "Windvane Meadow",
       "flag": "IsOpenCannon.Tower08"
@@ -35586,9 +35586,9 @@
     "SahasraSlope01": {
       "hash_id": "0x7e86fd9b614b9e75",
       "pos": [
-        1265.7698,
+        1378.1572,
         0.0,
-        772.6583
+        1050.0826
       ],
       "DisplayName": "Sahasra Slope",
       "flag": "IsOpenCannon.Tower06"
@@ -35656,9 +35656,9 @@
     "WestHyrulePlains01": {
       "hash_id": "0x816776b6b1f217cb",
       "pos": [
-        -1605.5342,
+        -1946.5764,
         0.0,
-        -202.0661
+        -117.13403
       ],
       "DisplayName": "West Hyrule Plains",
       "flag": "IsOpenCannon.Tower02"
@@ -35666,9 +35666,9 @@
     "WestHyrulePlains02": {
       "hash_id": "0xbcbcbe45a0b76528",
       "pos": [
-        -1605.5342,
+        -1408.1262,
         0.0,
-        -202.0661
+        -342.21313
       ],
       "DisplayName": "West Hyrule Plains",
       "flag": "IsOpenCannon.Tower02"
@@ -35766,9 +35766,9 @@
     "HebraTundra01": {
       "hash_id": "0xb96e95208b03accd",
       "pos": [
-        -3395.0532,
+        -3310.2375,
         0.0,
-        -3297.968
+        -3077.4602
       ],
       "DisplayName": "Hebra Tundra",
       "flag": "IsOpenCannon.Tower15"
@@ -35826,9 +35826,9 @@
     "MillennioSandbar01": {
       "hash_id": "0x72c977b7cd46aede",
       "pos": [
-        1418.596,
+        1934.1353,
         0.0,
-        44.872864
+        323.28854
       ],
       "DisplayName": "Millennio Sandbar",
       "flag": "IsOpenCannon.Tower06"
@@ -35836,9 +35836,9 @@
     "MillennioSandbar02": {
       "hash_id": "0xbc62400b794ac6f5",
       "pos": [
-        1418.596,
+        1311.4379,
         0.0,
-        44.872864
+        535.17914
       ],
       "DisplayName": "Millennio Sandbar",
       "flag": "IsOpenCannon.Tower06"
@@ -35996,9 +35996,9 @@
     "TanagarCanyon01": {
       "hash_id": "0x0da879f690fe2548",
       "pos": [
-        -2918.1792,
+        -2292.558,
         0.0,
-        -1180.6229
+        -1583.5935
       ],
       "DisplayName": "Tanagar Canyon",
       "flag": "IsOpenCannon.Tower02"
@@ -36006,9 +36006,9 @@
     "TanagarCanyon02": {
       "hash_id": "0x101111e7c37bcd15",
       "pos": [
-        -2918.1792,
+        -3112.0698,
         0.0,
-        -1180.6229
+        -485.27704
       ],
       "DisplayName": "Tanagar Canyon",
       "flag": "IsOpenCannon.Tower02"
@@ -36016,9 +36016,9 @@
     "TanagarCanyon03": {
       "hash_id": "0x44c2407e02934885",
       "pos": [
-        -2918.1792,
+        -3485.0183,
         0.0,
-        -1180.6229
+        -179.34375
       ],
       "DisplayName": "Tanagar Canyon",
       "flag": "IsOpenCannon.Tower02"
@@ -36026,9 +36026,9 @@
     "TanagarCanyon04": {
       "hash_id": "0xfad701c9a82de9d3",
       "pos": [
-        -2918.1792,
+        -3939.646,
         0.0,
-        -1180.6229
+        -186.95837
       ],
       "DisplayName": "Tanagar Canyon",
       "flag": "IsOpenCannon.Tower02"
@@ -36066,9 +36066,9 @@
     "RisokaSnowfield01": {
       "hash_id": "0xcad59fd73e2140b5",
       "pos": [
-        -4556.4023,
+        -4528.1577,
         0.0,
-        1090.7507
+        743.46313
       ],
       "DisplayName": "Risoka Snowfield",
       "flag": "IsOpenCannon.Tower10"
@@ -36206,9 +36206,9 @@
     "SalariPlain01": {
       "hash_id": "0x994791eb4df19ca3",
       "pos": [
-        -1669.7483,
+        -1253.685,
         0.0,
-        -1736.6343
+        -1761.2681
       ],
       "DisplayName": "Salari Plain",
       "flag": "IsOpenCannon.Tower02"
@@ -36228,7 +36228,7 @@
       "pos": [
         4186.461,
         0.0,
-        -807.6626
+        -787.93896
       ],
       "DisplayName": "Ulria Grotto",
       "flag": "IsOpenCannon.Tower07"
@@ -36306,9 +36306,9 @@
     "RowanPlain01": {
       "hash_id": "0x9ce21fb7d3c9199d",
       "pos": [
-        -1218.6693,
+        -1108.8816,
         0.0,
-        -2025.6387
+        -2267.2368
       ],
       "DisplayName": "Rowan Plain",
       "flag": "IsOpenCannon.Tower02"
@@ -36356,9 +36356,9 @@
     "LudfosBog01": {
       "hash_id": "0xccf9c04c2b0def55",
       "pos": [
-        -2131.8093,
+        -1917.1543,
         0.0,
-        -675.50903
+        -397.7965
       ],
       "DisplayName": "Ludfo's Bog",
       "flag": "IsOpenCannon.Tower02"
@@ -36386,9 +36386,9 @@
     "AkkalaWilds01": {
       "hash_id": "0x74dd16188d20eb7b",
       "pos": [
-        3743.5774,
+        3485.7751,
         0.0,
-        -3348.9634
+        -3632.7236
       ],
       "DisplayName": "Akkala Wilds",
       "flag": "IsOpenCannon.Tower05"
@@ -36406,9 +36406,9 @@
     "OseiraPlains01": {
       "hash_id": "0x6c3cd1ee038bf54d",
       "pos": [
-        -882.0316,
+        -779.3098,
         0.0,
-        3141.2383
+        3564.308
       ],
       "DisplayName": "Oseira Plains",
       "flag": "IsOpenCannon.Tower13"
@@ -36506,9 +36506,9 @@
     "NorthHyrulePlain01": {
       "hash_id": "0x675921182eb5f058",
       "pos": [
-        -1313.6733,
+        -1169.2703,
         0.0,
-        -824.82446
+        -1132.8716
       ],
       "DisplayName": "North Hyrule Plain",
       "flag": "IsOpenCannon.Tower02"
@@ -36556,9 +36556,9 @@
     "RayneHighlands01": {
       "hash_id": "0x9f6a93d43b43d7e5",
       "pos": [
-        -3805.8892,
+        -3892.5278,
         0.0,
-        -481.11682
+        -721.7849
       ],
       "DisplayName": "Rayne Highlands",
       "flag": "IsOpenCannon.Tower02"
@@ -36586,9 +36586,9 @@
     "ClarnetCoast01": {
       "hash_id": "0x52deea9881e47c65",
       "pos": [
-        2585.3809,
+        2211.6318,
         0.0,
-        3897.38
+        3886.7456
       ],
       "DisplayName": "Clarnet Coast",
       "flag": "IsOpenCannon.Tower11"
@@ -36643,22 +36643,22 @@
       "DisplayName": "Illumeni Plateau",
       "flag": "IsOpenCannon.Tower02"
     },
-    "NorthTabanthaSnowfield": {
+    "NorthTabanthaSnowfieldNearest": {
       "hash_id": "0x03f0ec8c4d272355",
       "pos": [
         -1792.1804,
         0.0,
         -3689.4814
       ],
-      "DisplayName": "North Tabantha Snowfield",
+      "DisplayName": "North Tabantha Snowfield Nearest",
       "flag": "IsOpenCannon.Tower03"
     },
-    "NorthTabanthaSnowfield01": {
+    "NorthTabanthaSnowfield": {
       "hash_id": "0x087206960d4a9d97",
       "pos": [
-        -1792.1804,
+        -1701.8301,
         0.0,
-        -3689.4814
+        -3290.757
       ],
       "DisplayName": "North Tabantha Snowfield",
       "flag": "IsOpenCannon.Tower03"
@@ -36676,9 +36676,9 @@
     "SouthTabanthaSnowfield01": {
       "hash_id": "0x1a25e6db98921077",
       "pos": [
-        -1763.6138,
+        -1961.8896,
         0.0,
-        -2933.2104
+        -2288.7075
       ],
       "DisplayName": "South Tabantha Snowfield",
       "flag": "IsOpenCannon.Tower03"
@@ -36686,9 +36686,9 @@
     "SouthTabanthaSnowfield02": {
       "hash_id": "0x8d00d666d8ba6078",
       "pos": [
-        -1763.6138,
+        -1529.0984,
         0.0,
-        -2933.2104
+        -2652.5518
       ],
       "DisplayName": "South Tabantha Snowfield",
       "flag": "IsOpenCannon.Tower03"
@@ -36696,9 +36696,9 @@
     "SouthTabanthaSnowfield03": {
       "hash_id": "0x9f87a422a42bbe49",
       "pos": [
-        -1763.6138,
+        -1849.0591,
         0.0,
-        -2933.2104
+        -2494.106
       ],
       "DisplayName": "South Tabantha Snowfield",
       "flag": "IsOpenCannon.Tower03"
@@ -36726,9 +36726,9 @@
     "NimaPlain01": {
       "hash_id": "0xa4716194af852bd6",
       "pos": [
-        -1608.4292,
+        -1877.3933,
         0.0,
-        445.0
+        711.0603
       ],
       "DisplayName": "Nima Plain",
       "flag": "IsOpenCannon.Tower08"
@@ -36936,9 +36936,9 @@
     "PikidaStonegrove01": {
       "hash_id": "0x543ab6e7039e5487",
       "pos": [
-        -2198.2195,
+        -2285.8445,
         0.0,
-        -2901.4897
+        -3161.549
       ],
       "DisplayName": "Pikida Stonegrove",
       "flag": "IsOpenCannon.Tower03"
@@ -37073,22 +37073,22 @@
       "DisplayName": "Secret Spring of Revival",
       "flag": "IsVisitLocation.MinusField_StartPoint"
     },
-    "WellspringofWisdom": {
+    "WellspringofWisdomNear": {
       "hash_id": "0x20baf81d4ed330b4",
       "pos": [
         3836.8357,
         -414.015,
         1272.762
       ],
-      "DisplayName": "Wellspring of Wisdom",
+      "DisplayName": "Wellspring of Wisdom Near",
       "flag": "IsVisitLocation.MinusField_WiseFountain"
     },
-    "WellspringofWisdom01": {
+    "WellspringofWisdom": {
       "hash_id": "0x84ea2842dab03858",
       "pos": [
-        3836.8357,
-        -414.015,
-        1272.762
+        3859.9116,
+        -711.1708,
+        1283.1376
       ],
       "DisplayName": "Wellspring of Wisdom",
       "flag": "IsVisitLocation.MinusField_WiseFountain"
@@ -37113,32 +37113,32 @@
       "DisplayName": "Ancient Underground Fortress",
       "flag": "IsVisitLocation.MinusField_AkkareZhai"
     },
-    "AncientUndergroundFortress01": {
+    "AncientUndergroundFortressNear": {
       "hash_id": "0x828963510028f674",
       "pos": [
-        3310.2847,
-        -372.74426,
-        -1523.05
+        3306.675,
+        -404.4297,
+        -1565.5931
       ],
-      "DisplayName": "Ancient Underground Fortress",
+      "DisplayName": "Ancient Underground Fortress Near",
       "flag": "IsVisitLocation.MinusField_AkkareZhai"
     },
-    "FloatingColiseum": {
+    "FloatingColiseumNear": {
       "hash_id": "0x6d39aca859243f3a",
       "pos": [
         -1151.502,
         -271.18765,
         1204.95
       ],
-      "DisplayName": "Floating Coliseum",
+      "DisplayName": "Floating Coliseum Near",
       "flag": "IsVisitLocation.MinusField_AncientColosseum"
     },
-    "FloatingColiseum01": {
+    "FloatingColiseum": {
       "hash_id": "0x7d86f39deb9bbccc",
       "pos": [
-        -1151.502,
-        -271.18765,
-        1204.95
+        -1151.8556,
+        -275.52063,
+        1239.0526
       ],
       "DisplayName": "Floating Coliseum",
       "flag": "IsVisitLocation.MinusField_AncientColosseum"
@@ -37153,14 +37153,14 @@
       "DisplayName": "Gleeok Den",
       "flag": "IsVisitLocation.MinusField_BlindForest"
     },
-    "GleeokDen01": {
+    "GleeokDenNear": {
       "hash_id": "0xae5dad2a6cd86705",
       "pos": [
-        330.9718,
-        -352.61475,
-        -3111.2417
+        328.125,
+        -356.8595,
+        -3079.5579
       ],
-      "DisplayName": "Gleeok Den",
+      "DisplayName": "Gleeok Den Near",
       "flag": "IsVisitLocation.MinusField_BlindForest"
     },
     "LoneIslandColiseum": {
@@ -37173,14 +37173,14 @@
       "DisplayName": "Lone Island Coliseum",
       "flag": "IsVisitLocation.MinusField_Cohorint"
     },
-    "LoneIslandColiseum01": {
+    "LoneIslandColiseumNear": {
       "hash_id": "0x421df4fb44c6b605",
       "pos": [
-        4563.0615,
-        -243.30322,
-        3603.5818
+        4562.702,
+        -248.72385,
+        3565.6814
       ],
-      "DisplayName": "Lone Island Coliseum",
+      "DisplayName": "Lone Island Coliseum Near",
       "flag": "IsVisitLocation.MinusField_Cohorint"
     },
     "CresiaPitMine": {
@@ -37233,42 +37233,42 @@
       "DisplayName": "Forest Coliseum",
       "flag": "IsVisitLocation.MinusField_ForestColosseum"
     },
-    "CrenelCanyonMine": {
+    "CrenelCanyonMineNear": {
       "hash_id": "0x51618b29cb194c93",
       "pos": [
         1154.0752,
         -417.17737,
         -381.12607
       ],
-      "DisplayName": "Crenel Canyon Mine",
+      "DisplayName": "Crenel Canyon Mine Near",
       "flag": "IsVisitLocation.MinusField_GashamahiMt"
     },
-    "CrenelCanyonMine01": {
+    "CrenelCanyonMine": {
       "hash_id": "0xbfe24593314a97a9",
       "pos": [
-        1154.0752,
-        -417.17737,
-        -381.12607
+        1165.1945,
+        -427.99353,
+        -414.82364
       ],
       "DisplayName": "Crenel Canyon Mine",
       "flag": "IsVisitLocation.MinusField_GashamahiMt"
     },
-    "GerudoCanyonMine": {
+    "GerudoCanyonMineNear": {
       "hash_id": "0x18c94b44ae3afd5e",
       "pos": [
         -4175.1567,
         -957.9181,
         738.78564
       ],
-      "DisplayName": "Gerudo Canyon Mine",
+      "DisplayName": "Gerudo Canyon Mine Near",
       "flag": "IsVisitLocation.MinusField_GerudoSummit"
     },
-    "GerudoCanyonMine01": {
+    "GerudoCanyonMine": {
       "hash_id": "0x92d7aeef1d011d37",
       "pos": [
-        -4175.1567,
-        -957.9181,
-        738.78564
+        -4174.1826,
+        -963.5939,
+        710.39246
       ],
       "DisplayName": "Gerudo Canyon Mine",
       "flag": "IsVisitLocation.MinusField_GerudoSummit"
@@ -37313,14 +37313,14 @@
       "DisplayName": "Tuft Canyon Mine",
       "flag": "IsVisitLocation.MinusField_GobyMt"
     },
-    "TuftCanyonMine01": {
+    "TuftCanyonMineNear": {
       "hash_id": "0x7f4a8865f6e75d53",
       "pos": [
-        2557.084,
-        -410.255,
-        3611.381
+        2557.2832,
+        -410.18396,
+        3637.8545
       ],
-      "DisplayName": "Tuft Canyon Mine",
+      "DisplayName": "Tuft Canyon Mine Near",
       "flag": "IsVisitLocation.MinusField_GobyMt"
     },
     "SecludedColiseum": {
@@ -37333,32 +37333,32 @@
       "DisplayName": "Secluded Coliseum",
       "flag": "IsVisitLocation.MinusField_HatenoGate"
     },
-    "SecludedColiseum01": {
+    "SecludedColiseumNear": {
       "hash_id": "0xdca0aefb53c85f71",
       "pos": [
-        2242.2722,
-        -239.9028,
-        1877.8699
+        2242.474,
+        -250.72836,
+        1838.0494
       ],
-      "DisplayName": "Secluded Coliseum",
+      "DisplayName": "Secluded Coliseum Near",
       "flag": "IsVisitLocation.MinusField_HatenoGate"
     },
-    "CuhoCanyonMine": {
+    "CuhoCanyonMineNear": {
       "hash_id": "0x978641c26d177070",
       "pos": [
         -3810.8833,
         -471.9934,
         -1407.2789
       ],
-      "DisplayName": "Cuho Canyon Mine",
+      "DisplayName": "Cuho Canyon Mine Near",
       "flag": "IsVisitLocation.MinusField_HawkMt"
     },
-    "CuhoCanyonMine01": {
+    "CuhoCanyonMine": {
       "hash_id": "0xa8d11b0c735dafb5",
       "pos": [
-        -3810.8833,
-        -471.9934,
-        -1407.2789
+        -3790.792,
+        -506.02563,
+        -1364.3389
       ],
       "DisplayName": "Cuho Canyon Mine",
       "flag": "IsVisitLocation.MinusField_HawkMt"
@@ -37373,14 +37373,14 @@
       "DisplayName": "Hebra Canyon Mine",
       "flag": "IsVisitLocation.MinusField_HeburaPeak"
     },
-    "HebraCanyonMine01": {
+    "HebraCanyonMineNear": {
       "hash_id": "0xc889d06dc10bab54",
       "pos": [
-        -2766.5667,
-        -769.5468,
-        -2897.8662
+        -2740.86,
+        -861.93665,
+        -2861.4324
       ],
-      "DisplayName": "Hebra Canyon Mine",
+      "DisplayName": "Hebra Canyon Mine Near",
       "flag": "IsVisitLocation.MinusField_HeburaPeak"
     },
     "MedaCanyonMine": {
@@ -37393,22 +37393,22 @@
       "DisplayName": "Meda Canyon Mine",
       "flag": "IsVisitLocation.MinusField_HimeidaMt"
     },
-    "HyliaCanyonMine": {
+    "HyliaCanyonMineNear": {
       "hash_id": "0x22150942fe72c2d9",
       "pos": [
         -1293.4381,
         -499.16565,
         2193.8374
       ],
-      "DisplayName": "Hylia Canyon Mine",
+      "DisplayName": "Hylia Canyon Mine Near",
       "flag": "IsVisitLocation.MinusField_HyliaMt"
     },
-    "HyliaCanyonMine01": {
+    "HyliaCanyonMine": {
       "hash_id": "0xa5c202dcccb042fa",
       "pos": [
-        -1293.4381,
-        -499.16565,
-        2193.8374
+        -1290.349,
+        -505.50027,
+        2229.2004
       ],
       "DisplayName": "Hylia Canyon Mine",
       "flag": "IsVisitLocation.MinusField_HyliaMt"
@@ -37433,22 +37433,22 @@
       "DisplayName": "Faloraa Canyon Mine",
       "flag": "IsVisitLocation.MinusField_KapporeMt"
     },
-    "CorvashCanyonMine": {
+    "CorvashCanyonMineNear": {
       "hash_id": "0x062b2de7b65d2b2b",
       "pos": [
         -3322.1846,
         -670.29517,
         -2359.2644
       ],
-      "DisplayName": "Corvash Canyon Mine",
+      "DisplayName": "Corvash Canyon Mine Near",
       "flag": "IsVisitLocation.MinusField_KasuraMt"
     },
-    "CorvashCanyonMine01": {
+    "CorvashCanyonMine": {
       "hash_id": "0xae028a74f7979424",
       "pos": [
-        -3322.1846,
-        -670.29517,
-        -2359.2644
+        -3336.834,
+        -675.9513,
+        -2329.3296
       ],
       "DisplayName": "Corvash Canyon Mine",
       "flag": "IsVisitLocation.MinusField_KasuraMt"
@@ -37473,14 +37473,14 @@
       "DisplayName": "Lindor Canyon Mine",
       "flag": "IsVisitLocation.MinusField_KikinosaMt"
     },
-    "LindorCanyonMine01": {
+    "LindorCanyonMineNear": {
       "hash_id": "0xced9bb19e216f347",
       "pos": [
-        -2006.3743,
-        -605.51086,
-        -1326.7168
+        -2010.6904,
+        -599.6418,
+        -1372.7405
       ],
-      "DisplayName": "Lindor Canyon Mine",
+      "DisplayName": "Lindor Canyon Mine Near",
       "flag": "IsVisitLocation.MinusField_KikinosaMt"
     },
     "CanyonofAwakeningMine": {
@@ -37503,14 +37503,14 @@
       "DisplayName": "Daphnes Canyon Mine",
       "flag": "IsVisitLocation.MinusField_KinshoiMt"
     },
-    "DaphnesCanyonMine01": {
+    "DaphnesCanyonMineNear": {
       "hash_id": "0x958d7ceb3f73f72b",
       "pos": [
-        -1065.3785,
-        -376.39215,
-        573.93225
+        -1063.8962,
+        -385.8512,
+        599.7541
       ],
-      "DisplayName": "Daphnes Canyon Mine",
+      "DisplayName": "Daphnes Canyon Mine Near",
       "flag": "IsVisitLocation.MinusField_KinshoiMt"
     },
     "RhoamCanyonMine": {
@@ -37523,22 +37523,22 @@
       "DisplayName": "Rhoam Canyon Mine",
       "flag": "IsVisitLocation.MinusField_KutiffMt"
     },
-    "LanayruCanyonMine": {
+    "LanayruCanyonMineNear": {
       "hash_id": "0x11969aa7b55585ea",
       "pos": [
-        4003.338,
-        -637.6533,
-        1379.1693
+        3964.3599,
+        -430.0982,
+        1360.3782
       ],
-      "DisplayName": "Lanayru Canyon Mine",
+      "DisplayName": "Lanayru Canyon Mine Near",
       "flag": "IsVisitLocation.MinusField_LiveMountain"
     },
-    "LanayruCanyonMine01": {
+    "LanayruCanyonMine": {
       "hash_id": "0x8169d975f05328b6",
       "pos": [
-        4003.338,
-        -637.6533,
-        1379.1693
+        3964.3599,
+        -430.0982,
+        1360.3782
       ],
       "DisplayName": "Lanayru Canyon Mine",
       "flag": "IsVisitLocation.MinusField_LiveMountain"
@@ -37553,14 +37553,14 @@
       "DisplayName": "Scorching Coliseum",
       "flag": "IsVisitLocation.MinusField_LizardLake"
     },
-    "ScorchingColiseum01": {
+    "ScorchingColiseumNear": {
       "hash_id": "0x65aeacd39945ae34",
       "pos": [
-        2142.926,
-        -609.0412,
-        -3173.7725
+        2143.0564,
+        -628.6443,
+        -3146.45
       ],
-      "DisplayName": "Scorching Coliseum",
+      "DisplayName": "Scorching Coliseum Near",
       "flag": "IsVisitLocation.MinusField_LizardLake"
     },
     "LomeiDepthsLabyrinth": {
@@ -37603,14 +37603,14 @@
       "DisplayName": "Rist Mine",
       "flag": "IsVisitLocation.MinusField_MacusePeninsula"
     },
-    "RistMine01": {
+    "RistMineNear": {
       "hash_id": "0xd66d823c03dda4c6",
       "pos": [
-        4579.9395,
+        4589.8853,
         -181.29901,
-        -2143.2786
+        -2077.7085
       ],
-      "DisplayName": "Rist Mine",
+      "DisplayName": "Rist Mine Near",
       "flag": "IsVisitLocation.MinusField_MacusePeninsula"
     },
     "PloymusCanyonMine": {
@@ -37713,14 +37713,14 @@
       "DisplayName": "Desert Coliseum",
       "flag": "IsVisitLocation.MinusField_SouthGerudoLegacy"
     },
-    "DesertColiseum01": {
+    "DesertColiseumNear": {
       "hash_id": "0xc76601051462d069",
       "pos": [
-        -4314.001,
-        -256.15167,
-        3802.0674
+        -4313.4224,
+        -257.53314,
+        3849.5664
       ],
-      "DisplayName": "Desert Coliseum",
+      "DisplayName": "Desert Coliseum Near",
       "flag": "IsVisitLocation.MinusField_SouthGerudoLegacy"
     },
     "TaranCanyonMine": {
@@ -37733,22 +37733,22 @@
       "DisplayName": "Taran Canyon Mine",
       "flag": "IsVisitLocation.MinusField_TerumeMt"
     },
-    "DuelingCanyonsMine": {
+    "DuelingCanyonsMineNear": {
       "hash_id": "0x37ac62598362c416",
       "pos": [
         1294.5271,
         -580.1859,
         1850.0632
       ],
-      "DisplayName": "Dueling Canyons Mine",
+      "DisplayName": "Dueling Canyons Mine Near",
       "flag": "IsVisitLocation.MinusField_TwinsMountain"
     },
-    "DuelingCanyonsMine01": {
+    "DuelingCanyonsMine": {
       "hash_id": "0x90526fd71a8b819a",
       "pos": [
-        1294.5271,
-        -580.1859,
-        1850.0632
+        1291.7009,
+        -657.24817,
+        1824.4067
       ],
       "DisplayName": "Dueling Canyons Mine",
       "flag": "IsVisitLocation.MinusField_TwinsMountain"
@@ -37803,22 +37803,22 @@
       "DisplayName": "Right-Leg Depot",
       "flag": "IsVisitLocation.ZonauSatelliteShrine_RightLeg"
     },
-    "GoflamsLavafalls": {
+    "GoflamsLavafallsNear": {
       "hash_id": "0x1f988c60775a9196",
       "pos": [
         -3398.8882,
         -704.6223,
         -3612.0
       ],
-      "DisplayName": "Goflam's Lavafalls",
+      "DisplayName": "Goflam's Lavafalls Near",
       "flag": "IsVisitLocation.MinusField_FlamingoSpa"
     },
-    "GoflamsLavafalls01": {
+    "GoflamsLavafalls": {
       "hash_id": "0x24c039b0cb6dfda5",
       "pos": [
-        -3398.8882,
-        -704.6223,
-        -3612.0
+        -3399.8542,
+        -706.0044,
+        -3575.0
       ],
       "DisplayName": "Goflam's Lavafalls",
       "flag": "IsVisitLocation.MinusField_FlamingoSpa"
@@ -37833,14 +37833,14 @@
       "DisplayName": "Meda Lavafalls",
       "flag": "IsVisitLocation.MinusField_HimeidaSpa"
     },
-    "MedaLavafalls01": {
+    "MedaLavafallsNear": {
       "hash_id": "0xd63e86067490a8f2",
       "pos": [
-        2253.0,
-        -450.0,
-        2366.0
+        2234.0,
+        -450.51,
+        2340.0
       ],
-      "DisplayName": "Meda Lavafalls",
+      "DisplayName": "Meda Lavafalls Near",
       "flag": "IsVisitLocation.MinusField_HimeidaSpa"
     },
     "SherfinsLavafalls": {
@@ -37953,7 +37953,7 @@
       "DisplayName": "Midla Grove",
       "flag": "IsVisitLocation.MinusField_MiddleTrees"
     },
-    "PappettoGrove01": {
+    "PappettoGrove": {
       "hash_id": "0x71f4f038cfe50801",
       "pos": [
         -343.4563,
@@ -38013,22 +38013,22 @@
       "DisplayName": "Grove of Time",
       "flag": "IsVisitLocation.MinusField_ZifForest"
     },
-    "PlainsBargainerStatue": {
+    "PlainsBargainerStatueNear": {
       "hash_id": "0x2a5bca535a7b0df7",
       "pos": [
         455.98837,
         -351.11115,
         830.9155
       ],
-      "DisplayName": "Plains Bargainer Statue",
+      "DisplayName": "Plains Bargainer Statue Near",
       "flag": "IsVisitLocation.MinusField_AncientTimeShrine"
     },
-    "PlainsBargainerStatue01": {
+    "PlainsBargainerStatue": {
       "hash_id": "0x3b60c1d8a98ca507",
       "pos": [
-        455.98837,
-        -351.11115,
-        830.9155
+        457.06128,
+        -338.70328,
+        807.1681
       ],
       "DisplayName": "Plains Bargainer Statue",
       "flag": "IsVisitLocation.MinusField_AncientTimeShrine"
@@ -38043,52 +38043,52 @@
       "DisplayName": "Great Abandoned Central Mine",
       "flag": "IsVisitLocation.MinusField_BluePrintShrine"
     },
-    "GreatAbandonedCentralMine01": {
+    "GreatAbandonedCentralMineFarthest": {
       "hash_id": "0xc09241fd803b37b3",
       "pos": [
-        -730.7637,
-        -299.08865,
-        1861.1469
+        -856.54443,
+        -329.76785,
+        1715.0
       ],
-      "DisplayName": "Great Abandoned Central Mine",
+      "DisplayName": "Great Abandoned Central Mine Farthest",
       "flag": "IsVisitLocation.MinusField_BluePrintShrine"
     },
-    "GreatAbandonedCentralMine02": {
+    "GreatAbandonedCentralMineFar": {
       "hash_id": "0xd43368c2b167c0a9",
       "pos": [
-        -730.7637,
-        -299.08865,
-        1861.1469
+        -734.5423,
+        -320.653,
+        1701.1278
       ],
-      "DisplayName": "Great Abandoned Central Mine",
+      "DisplayName": "Great Abandoned Central Mine Far",
       "flag": "IsVisitLocation.MinusField_BluePrintShrine"
     },
-    "GreatAbandonedCentralMine03": {
+    "GreatAbandonedCentralMineNear": {
       "hash_id": "0xf603241924c61bb8",
       "pos": [
-        -730.7637,
-        -299.08865,
-        1861.1469
+        -732.69824,
+        -353.51144,
+        1829.0629
       ],
-      "DisplayName": "Great Abandoned Central Mine",
+      "DisplayName": "Great Abandoned Central Mine Near",
       "flag": "IsVisitLocation.MinusField_BluePrintShrine"
     },
-    "AkkalaHouseofBones": {
+    "AkkalaHouseofBonesNear": {
       "hash_id": "0xcc0ecc663f24fa96",
       "pos": [
         3253.873,
         -214.27295,
         -3493.0627
       ],
-      "DisplayName": "Akkala House of Bones",
+      "DisplayName": "Akkala House of Bones Near",
       "flag": "IsVisitLocation.MinusField_DokuroPond"
     },
-    "AkkalaHouseofBones01": {
+    "AkkalaHouseofBones": {
       "hash_id": "0xdb40a73e6f414c0f",
       "pos": [
-        3253.873,
+        3253.963,
         -214.27295,
-        -3493.0627
+        -3458.825
       ],
       "DisplayName": "Akkala House of Bones",
       "flag": "IsVisitLocation.MinusField_DokuroPond"
@@ -38103,34 +38103,34 @@
       "DisplayName": "Abandoned Gerudo Mine",
       "flag": "IsVisitLocation.MinusField_Gerudo"
     },
-    "AbandonedGerudoMine01": {
+    "AbandonedGerudoMineFar": {
       "hash_id": "0x2c05346e2052b476",
       "pos": [
-        -3815.9082,
-        -277.0645,
-        2889.5166
+        -3807.3325,
+        -283.52515,
+        2786.23
       ],
-      "DisplayName": "Abandoned Gerudo Mine",
+      "DisplayName": "Abandoned Gerudo Mine Far",
       "flag": "IsVisitLocation.MinusField_Gerudo"
     },
-    "AbandonedGerudoMine02": {
+    "AbandonedGerudoMineFarthest": {
       "hash_id": "0xc5d1f4465285d246",
       "pos": [
-        -3815.9082,
-        -277.0645,
-        2889.5166
+        -3834.433,
+        -386.52332,
+        2719.5264
       ],
-      "DisplayName": "Abandoned Gerudo Mine",
+      "DisplayName": "Abandoned Gerudo Mine Farthest",
       "flag": "IsVisitLocation.MinusField_Gerudo"
     },
-    "AbandonedGerudoMine03": {
+    "AbandonedGerudoMineNear": {
       "hash_id": "0xf95631b9234abf9e",
       "pos": [
-        -3815.9082,
-        -277.0645,
-        2889.5166
+        -3806.952,
+        -276.52063,
+        2885.2441
       ],
-      "DisplayName": "Abandoned Gerudo Mine",
+      "DisplayName": "Abandoned Gerudo Mine Near",
       "flag": "IsVisitLocation.MinusField_Gerudo"
     },
     "GerudoDarkSkeleton": {
@@ -38153,74 +38153,74 @@
       "DisplayName": "Abandoned Eldin Mine",
       "flag": "IsVisitLocation.MinusField_Goron"
     },
-    "AbandonedEldinMine01": {
+    "AbandonedEldinMineFar": {
       "hash_id": "0x84e26769b36c69e3",
       "pos": [
-        1649.1343,
-        -643.67694,
-        -2363.8667
+        1642.1858,
+        -634.6726,
+        -2295.2893
       ],
-      "DisplayName": "Abandoned Eldin Mine",
+      "DisplayName": "Abandoned Eldin Mine Far",
       "flag": "IsVisitLocation.MinusField_Goron"
     },
-    "AbandonedEldinMine02": {
+    "AbandonedEldinMineNear": {
       "hash_id": "0xd0d8745c1c53ec4b",
       "pos": [
-        1649.1343,
-        -643.67694,
-        -2363.8667
+        1637.4623,
+        -637.45624,
+        -2345.8723
       ],
-      "DisplayName": "Abandoned Eldin Mine",
+      "DisplayName": "Abandoned Eldin Mine Near",
       "flag": "IsVisitLocation.MinusField_Goron"
     },
-    "AbandonedEldinMine03": {
+    "AbandonedEldinMineFarthest": {
       "hash_id": "0xdbbfbf313b522fa5",
       "pos": [
-        1649.1343,
-        -643.67694,
-        -2363.8667
+        1684.5889,
+        -646.07007,
+        -2052.2373
       ],
-      "DisplayName": "Abandoned Eldin Mine",
+      "DisplayName": "Abandoned Eldin Mine Farthest",
       "flag": "IsVisitLocation.MinusField_Goron"
     },
-    "AbandonedHatenoMine": {
+    "AbandonedHatenoMineNear": {
       "hash_id": "0x288a906bed3a243d",
       "pos": [
         3548.3176,
         -379.6405,
         2228.4568
       ],
-      "DisplayName": "Abandoned Hateno Mine",
+      "DisplayName": "Abandoned Hateno Mine Near",
       "flag": "IsVisitLocation.MinusField_Hateno"
     },
-    "AbandonedHatenoMine01": {
+    "AbandonedHatenoMine": {
       "hash_id": "0xcb943c4956ca1dcb",
       "pos": [
-        3548.3176,
-        -379.6405,
-        2228.4568
+        3548.6086,
+        -371.72385,
+        2237.1902
       ],
       "DisplayName": "Abandoned Hateno Mine",
       "flag": "IsVisitLocation.MinusField_Hateno"
     },
-    "AbandonedHatenoMine02": {
+    "AbandonedHatenoMineFar": {
       "hash_id": "0xe47f7a532eca53e4",
       "pos": [
-        3548.3176,
-        -379.6405,
-        2228.4568
+        3581.1826,
+        -390.97845,
+        2387.5012
       ],
-      "DisplayName": "Abandoned Hateno Mine",
+      "DisplayName": "Abandoned Hateno Mine Far",
       "flag": "IsVisitLocation.MinusField_Hateno"
     },
-    "AbandonedHatenoMine03": {
+    "AbandonedHatenoMineFarthest": {
       "hash_id": "0xf894ea0405a5e85a",
       "pos": [
-        3548.3176,
-        -379.6405,
-        2228.4568
+        3555.0254,
+        -351.6941,
+        2509.5125
       ],
-      "DisplayName": "Abandoned Hateno Mine",
+      "DisplayName": "Abandoned Hateno Mine Farthest",
       "flag": "IsVisitLocation.MinusField_Hateno"
     },
     "HebraDarkSkeleton": {
@@ -38233,44 +38233,44 @@
       "DisplayName": "Hebra Dark Skeleton",
       "flag": "IsVisitLocation.MinusField_HeburaFossil"
     },
-    "AbandonedKakarikoMine": {
+    "AbandonedKakarikoMineFar": {
       "hash_id": "0x1601d57e964fe5d0",
       "pos": [
         1818.7472,
         -460.92764,
         1299.0657
       ],
-      "DisplayName": "Abandoned Kakariko Mine",
+      "DisplayName": "Abandoned Kakariko Mine Far",
       "flag": "IsVisitLocation.MinusField_Kakariko"
     },
-    "AbandonedKakarikoMine01": {
+    "AbandonedKakarikoMine": {
       "hash_id": "0x59896df1707a81f8",
       "pos": [
-        1818.7472,
-        -460.92764,
-        1299.0657
+        1823.9197,
+        -416.60977,
+        1197.8562
       ],
       "DisplayName": "Abandoned Kakariko Mine",
       "flag": "IsVisitLocation.MinusField_Kakariko"
     },
-    "AbandonedKakarikoMine02": {
+    "AbandonedKakarikoMineNear": {
       "hash_id": "0x9a2c31cc816f6c8c",
       "pos": [
-        1818.7472,
-        -460.92764,
-        1299.0657
+        1828.0233,
+        -416.83322,
+        1229.9459
       ],
-      "DisplayName": "Abandoned Kakariko Mine",
+      "DisplayName": "Abandoned Kakariko Mine Near",
       "flag": "IsVisitLocation.MinusField_Kakariko"
     },
-    "AbandonedKakarikoMine03": {
+    "AbandonedKakarikoMineFarthest": {
       "hash_id": "0x9e77c70c8cb88391",
       "pos": [
-        1818.7472,
-        -460.92764,
-        1299.0657
+        1816.765,
+        -455.5078,
+        1406.1343
       ],
-      "DisplayName": "Abandoned Kakariko Mine",
+      "DisplayName": "Abandoned Kakariko Mine Farthest",
       "flag": "IsVisitLocation.MinusField_Kakariko"
     },
     "CliffBargainerStatue": {
@@ -38283,52 +38283,52 @@
       "DisplayName": "Cliff Bargainer Statue",
       "flag": "IsVisitLocation.MinusField_KingValley"
     },
-    "CliffBargainerStatue01": {
+    "CliffBargainerStatueNear": {
       "hash_id": "0xce90947d6b06f2ee",
       "pos": [
-        -1034.0446,
-        -132.37889,
-        -2679.1396
+        -1026.3228,
+        -266.87436,
+        -2660.6597
       ],
-      "DisplayName": "Cliff Bargainer Statue",
+      "DisplayName": "Cliff Bargainer Statue Near",
       "flag": "IsVisitLocation.MinusField_KingValley"
     },
-    "AbandonedKaraKaraMine": {
+    "AbandonedKaraKaraMineFar": {
       "hash_id": "0x500a9569d581164e",
       "pos": [
         -3171.493,
         -369.97595,
         2311.0361
       ],
-      "DisplayName": "Abandoned Kara Kara Mine",
+      "DisplayName": "Abandoned Kara Kara Mine Far",
       "flag": "IsVisitLocation.MinusField_Oasis"
     },
-    "AbandonedKaraKaraMine01": {
+    "AbandonedKaraKaraMineNear": {
       "hash_id": "0x730e956124511d83",
       "pos": [
-        -3171.493,
-        -369.97595,
-        2311.0361
+        -3218.258,
+        -317.1995,
+        2426.706
       ],
-      "DisplayName": "Abandoned Kara Kara Mine",
+      "DisplayName": "Abandoned Kara Kara Mine Near",
       "flag": "IsVisitLocation.MinusField_Oasis"
     },
-    "AbandonedKaraKaraMine02": {
+    "AbandonedKaraKaraMineFarthest": {
       "hash_id": "0xd8f2e9df7b147f06",
       "pos": [
-        -3171.493,
-        -369.97595,
-        2311.0361
+        -3094.2095,
+        -338.89807,
+        1987.8835
       ],
-      "DisplayName": "Abandoned Kara Kara Mine",
+      "DisplayName": "Abandoned Kara Kara Mine Farthest",
       "flag": "IsVisitLocation.MinusField_Oasis"
     },
-    "AbandonedKaraKaraMine03": {
+    "AbandonedKaraKaraMine": {
       "hash_id": "0xf1291b244f913a2c",
       "pos": [
-        -3171.493,
-        -369.97595,
-        2311.0361
+        -3226.562,
+        -292.873,
+        2462.621
       ],
       "DisplayName": "Abandoned Kara Kara Mine",
       "flag": "IsVisitLocation.MinusField_Oasis"
@@ -38363,154 +38363,154 @@
       "DisplayName": "Abandoned Hebra Mine",
       "flag": "IsVisitLocation.MinusField_Rito"
     },
-    "AbandonedHebraMine01": {
+    "AbandonedHebraMineFarthest": {
       "hash_id": "0xb7c21fab35e0e697",
       "pos": [
-        -3457.4038,
-        -210.16122,
-        -1862.2012
+        -3467.7947,
+        -275.7707,
+        -2167.8032
       ],
-      "DisplayName": "Abandoned Hebra Mine",
+      "DisplayName": "Abandoned Hebra Mine Farthest",
       "flag": "IsVisitLocation.MinusField_Rito"
     },
-    "AbandonedHebraMine02": {
+    "AbandonedHebraMineFar": {
       "hash_id": "0xeaa415c9f490e4e8",
       "pos": [
-        -3457.4038,
-        -210.16122,
-        -1862.2012
+        -3479.3184,
+        -291.91956,
+        -2079.5723
       ],
-      "DisplayName": "Abandoned Hebra Mine",
+      "DisplayName": "Abandoned Hebra Mine Far",
       "flag": "IsVisitLocation.MinusField_Rito"
     },
-    "AbandonedHebraMine03": {
+    "AbandonedHebraMineNear": {
       "hash_id": "0xee6044bcbbc0bfe0",
       "pos": [
-        -3457.4038,
-        -210.16122,
-        -1862.2012
+        -3460.7478,
+        -211.61789,
+        -1852.8569
       ],
-      "DisplayName": "Abandoned Hebra Mine",
+      "DisplayName": "Abandoned Hebra Mine Near",
       "flag": "IsVisitLocation.MinusField_Rito"
     },
-    "AbandonedLurelinMine": {
+    "AbandonedLurelinMineFarthest": {
       "hash_id": "0x496d68a2a6571d98",
       "pos": [
         2966.978,
         -200.0,
         3605.9216
       ],
-      "DisplayName": "Abandoned Lurelin Mine",
+      "DisplayName": "Abandoned Lurelin Mine Farthest",
       "flag": "IsVisitLocation.MinusField_Taura"
     },
-    "AbandonedLurelinMine01": {
+    "AbandonedLurelinMineFar": {
       "hash_id": "0xa3b235809b417b83",
       "pos": [
-        2966.978,
-        -200.0,
-        3605.9216
+        2964.5413,
+        -247.9813,
+        3479.959
       ],
-      "DisplayName": "Abandoned Lurelin Mine",
+      "DisplayName": "Abandoned Lurelin Mine Far",
       "flag": "IsVisitLocation.MinusField_Taura"
     },
-    "AbandonedLurelinMine02": {
+    "AbandonedLurelinMine": {
       "hash_id": "0xcc4da3988b111013",
       "pos": [
-        2966.978,
-        -200.0,
-        3605.9216
+        2899.822,
+        -239.45563,
+        3388.3206
       ],
       "DisplayName": "Abandoned Lurelin Mine",
       "flag": "IsVisitLocation.MinusField_Taura"
     },
-    "AbandonedLurelinMine03": {
+    "AbandonedLurelinMineNear": {
       "hash_id": "0xeacf4ff18a9dcaa2",
       "pos": [
-        2966.978,
-        -200.0,
-        3605.9216
+        2902.3687,
+        -244.23036,
+        3422.9097
       ],
-      "DisplayName": "Abandoned Lurelin Mine",
+      "DisplayName": "Abandoned Lurelin Mine Near",
       "flag": "IsVisitLocation.MinusField_Taura"
     },
-    "AbandonedTarreyMine": {
+    "AbandonedTarreyMineFarthest": {
       "hash_id": "0x005e8f41b0b7b603",
       "pos": [
         3968.7969,
         -200.0,
         -1715.3091
       ],
-      "DisplayName": "Abandoned Tarrey Mine",
+      "DisplayName": "Abandoned Tarrey Mine Farthest",
       "flag": "IsVisitLocation.MinusField_UMiiVillage"
     },
-    "AbandonedTarreyMine01": {
+    "AbandonedTarreyMineFar": {
       "hash_id": "0x3219d7e15be69b4a",
       "pos": [
-        3968.7969,
+        3966.2861,
         -200.0,
-        -1715.3091
+        -1722.29
       ],
-      "DisplayName": "Abandoned Tarrey Mine",
+      "DisplayName": "Abandoned Tarrey Mine Far",
       "flag": "IsVisitLocation.MinusField_UMiiVillage"
     },
-    "AbandonedTarreyMine02": {
+    "AbandonedTarreyMine": {
       "hash_id": "0x8db8758c0fe56071",
       "pos": [
-        3968.7969,
-        -200.0,
-        -1715.3091
+        3966.72,
+        -448.0093,
+        -1618.9353
       ],
       "DisplayName": "Abandoned Tarrey Mine",
       "flag": "IsVisitLocation.MinusField_UMiiVillage"
     },
-    "AbandonedTarreyMine03": {
+    "AbandonedTarreyMineNear": {
       "hash_id": "0xd8b5640a3436ae95",
       "pos": [
-        3968.7969,
-        -200.0,
-        -1715.3091
+        3967.4404,
+        -448.59497,
+        -1627.7559
       ],
-      "DisplayName": "Abandoned Tarrey Mine",
+      "DisplayName": "Abandoned Tarrey Mine Near",
       "flag": "IsVisitLocation.MinusField_UMiiVillage"
     },
-    "AbandonedLanayruMine": {
+    "AbandonedLanayruMineFarthest": {
       "hash_id": "0x89db9ec9b6a9cb2e",
       "pos": [
         3170.4575,
         -571.2809,
         -935.9246
       ],
-      "DisplayName": "Abandoned Lanayru Mine",
+      "DisplayName": "Abandoned Lanayru Mine Farthest",
       "flag": "IsVisitLocation.MinusField_WhiteZora"
     },
-    "AbandonedLanayruMine01": {
+    "AbandonedLanayruMineNear": {
       "hash_id": "0xaa4463cfbce02ccc",
       "pos": [
-        3170.4575,
-        -571.2809,
-        -935.9246
+        3302.3877,
+        -373.07755,
+        -611.3874
       ],
-      "DisplayName": "Abandoned Lanayru Mine",
+      "DisplayName": "Abandoned Lanayru Mine Near",
       "flag": "IsVisitLocation.MinusField_WhiteZora"
     },
-    "AbandonedLanayruMine02": {
+    "AbandonedLanayruMine": {
       "hash_id": "0xaefe6e78cd6c899a",
       "pos": [
-        3170.4575,
-        -571.2809,
-        -935.9246
+        3295.016,
+        -488.61835,
+        -577.84125
       ],
       "DisplayName": "Abandoned Lanayru Mine",
       "flag": "IsVisitLocation.MinusField_WhiteZora"
     },
-    "AbandonedLanayruMine03": {
+    "AbandonedLanayruMineFar": {
       "hash_id": "0xd15729a27a7fee66",
       "pos": [
-        3170.4575,
-        -571.2809,
-        -935.9246
+        3293.8198,
+        -373.07755,
+        -719.36035
       ],
-      "DisplayName": "Abandoned Lanayru Mine",
+      "DisplayName": "Abandoned Lanayru Mine Far",
       "flag": "IsVisitLocation.MinusField_WhiteZora"
     }
   },
@@ -38598,11 +38598,11 @@
       "flag": "HaveTalked.Npc_Zonau_Golem_Servant_FirstIsland_21"
     },
     "BargainerStatue": {
-      "hash_id": "0x4acb0a76f36cc03c",
+      "hash_id": "0xd381c7ce2d8f5828",
       "pos": [
-        -756.47,
-        -453.905,
-        1956.871
+        -775.9063,
+        -452.46182,
+        1899.2446
       ],
       "DisplayName": "Bargainer Statue",
       "flag": "HaveKnownDemonStatue_00"
@@ -38698,11 +38698,11 @@
       "flag": "IsActivated_Minus0014_NPCZonauGolem"
     },
     "ForgeConstruct04": {
-      "hash_id": "0x4cadd049a5e680f7",
+      "hash_id": "0xf8451c89b2337401",
       "pos": [
-        -3423.9075,
-        -200.0,
-        -1846.7661
+        -3463.4036,
+        -311.52194,
+        -1917.1039
       ],
       "DisplayName": "Forge Construct",
       "flag": "IsActivated_Minus0015_NPCZonauGolem"
@@ -39310,11 +39310,11 @@
       "flag": "IsVisitLocation.Cokiri"
     },
     "GerudoTown": {
-      "hash_id": "0x102ee9e342d7770c",
+      "hash_id": "0x69e2b123ca73cfcc",
       "pos": [
-        -3858.9604,
-        138.3,
-        2940.523
+        -3844.5,
+        149.16891,
+        2926.1965
       ],
       "DisplayName": "Gerudo Town",
       "flag": "IsVisitLocation.Gerudo"
@@ -39400,11 +39400,11 @@
       "flag": "IsVisitLocation.DeathMountainHatago"
     },
     "DuelingPeaksStable": {
-      "hash_id": "0x3370bc5c516c3d44",
+      "hash_id": "0x57cc50eed0f1d8d2",
       "pos": [
-        1756.5005,
-        158.98224,
-        1924.3735
+        1760.7805,
+        131.28427,
+        1925.3597
       ],
       "DisplayName": "Dueling Peaks Stable",
       "flag": "IsVisitLocation.FaronHatago000"
@@ -39460,11 +39460,11 @@
       "flag": "IsVisitLocation.HyruleDepthHatago"
     },
     "NewSerenneStable": {
-      "hash_id": "0x503f4de4e77fcfa0",
+      "hash_id": "0x654fe23b54a4a389",
       "pos": [
-        -1293.8403,
-        188.71301,
-        -678.5621
+        -1361.0,
+        191.5,
+        -724.0
       ],
       "DisplayName": "New Serenne Stable",
       "flag": "IsVisitLocation.NewHyruleWestHatago"
@@ -39641,24 +39641,24 @@
     }
   },
   "Special": {
-    "StartPos": {
+    "StartPos Sky": {
       "hash_id": "0x7c04e1887ec4fbfe",
       "pos": [
         369.54052734375,
         2386.477294921875,
         1752.5604248046875
       ],
-      "DisplayName": "StartPos",
+      "DisplayName": "StartPos Sky",
       "flag": "(875717912)"
     },
-    "CentralMineWarpPoint": {
-      "hash_id": "0x71658dd3abecde97",
+    "StartPos Depths": {
+      "hash_id": "0xc9feb712f8e96a79",
       "pos": [
-        -821.8203735351562,
-        -417.7506103515625,
-        1940.6053466796875
+        -821.8097534179688,
+        -417.6648864746094,
+        1940.6123046875
       ],
-      "DisplayName": "CentralMineWarpPoint",
+      "DisplayName": "StartPos Depths",
       "flag": "(875717912) && OpenWarpPoint_BlueprintShrine"
     }
   },
@@ -39786,51 +39786,51 @@
   },
   "Temple": {
     "TheMuralsMyth,RisenfromtheSands": {
-      "hash_id": "0x0f683f8c4b7383f3",
+      "hash_id": "0xeced362e8dbb109e",
       "pos": [
         -4518.5537,
-        234.66544,
+        51.665443,
         3611.5615
       ],
       "DisplayName": "The Mural's Myth, Risen from the Sands",
       "flag": "IsVisitLocation.LargeDungeonThunder"
     },
     "TheGreatWellspringofHyrule": {
-      "hash_id": "0x0b3d48b00c53300c",
+      "hash_id": "0x7f43e8cce8e2bb29",
       "pos": [
-        3265.3838,
-        1795.3899,
-        -685.57715
+        3357.436,
+        1738.3676,
+        -771.62897
       ],
       "DisplayName": "The Great Wellspring of Hyrule",
       "flag": "IsVisitLocation.LargeDungeonWater"
     },
     "TheLegendaryStormwindArk": {
-      "hash_id": "0x33e984ad3eb89902",
+      "hash_id": "0xee51919128fd1da6",
       "pos": [
         -2859.5,
-        1516.8888,
+        1495.4341,
         -3005.5
       ],
       "DisplayName": "The Legendary Stormwind Ark",
       "flag": "IsVisitLocation.LargeDungeonWind"
     },
     "LostGorondiaRediscovered": {
-      "hash_id": "0x0173bd8213cc8895",
+      "hash_id": "0xc34f654ff388119d",
       "pos": [
-        1457.0,
-        -749.5,
-        -2847.0
+        1271.5,
+        -778.0,
+        -2817.5
       ],
       "DisplayName": "Lost Gorondia Rediscovered",
       "flag": "IsVisitLocation.LargeDungeonFire"
     },
     "TheVesselofSpiritsRestingPlace": {
-      "hash_id": "0x0d1a4985bfd281c9",
+      "hash_id": "0x86a857fa8c9361a1",
       "pos": [
-        1418.6921,
-        -513.5999,
-        3170.3987
+        1397.658,
+        -647.5,
+        3228.1897
       ],
       "DisplayName": "The Vessel of Spirit's Resting Place",
       "flag": "IsVisitLocation.LargeDungeonSoul"
@@ -51984,6 +51984,7 @@
         -2423.16
       ],
       "hash_id": "0x96fb9defadcd67c2",
+      "DisplayName": "Kima",
       "note": "Actually a AnchorAction2"
     },
     "Cucco": {

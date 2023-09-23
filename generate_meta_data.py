@@ -314,7 +314,7 @@ for item in mappct['spots']:
     }
 xlocations['EmergencyShelter'] = {
     "hash_id": "0xd02e649ed5deb358",
-    "pos": [-254.00, 112.95, 98.00],
+    "pos": [-254.00, 112.95, -98.00],
     "DisplaName": "Emergency Shelter",
     "Location": "BaseCamp_Shelter"
 }

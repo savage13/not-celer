@@ -1,0 +1,230 @@
+[
+   {
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x41b91c5aeed832f4",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_name" : "E-4",
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "Npc_BaseCamp_Assistant",
+      "objid" : 113590,
+      "pos" : [
+         -238.97,
+         132.32,
+         -147.92
+      ],
+       "Id": "Josha",
+      "scale" : 0
+   },
+   {
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xcd6f95b9d4cf6bf7",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_name" : "B-3",
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "Npc_Zonau_Golem_Servant_Minus0025",
+      "objid" : 305665,
+      "pos" : [
+         -3480.97,
+         -311.71,
+         -1884.26
+      ],
+       "Id": "HebraMine",
+      "scale" : 0
+   },
+   {
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x02be9728f7dbfbef",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_name" : "B-7",
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "Npc_Zonau_Golem_Servant_Minus0002",
+      "objid" : 319936,
+      "pos" : [
+         -3830.18,
+         -382.36,
+         2911.47
+      ],
+       "Id": "GerudoMine",
+      "scale" : 0
+   },
+   {
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x79c12359dc33a43b",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_name" : "B-7",
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "Npc_Zonau_Golem_Servant_Minus0022",
+      "objid" : 320024,
+      "pos" : [
+         -3848.86,
+         -382.57,
+         2945.48
+      ],
+       "Id": "GerudoMine",
+      "scale" : 0
+   },
+   {
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x6e8b8b779585133b",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_name" : "B-7",
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "Npc_Zonau_Golem_Servant_Minus0003",
+      "objid" : 320070,
+      "pos" : [
+         -3207.99,
+         -370.17,
+         2472.19
+      ],
+       "Id": "KaraKaraMine",
+      "scale" : 0
+   },
+   {
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xff512360e4d483fd",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_name" : "E-6",
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "Npc_Zonau_Golem_Servant_Minus0021",
+      "objid" : 392256,
+      "pos" : [
+         -812.74,
+         -417.83,
+         1956.28
+      ],
+       "Id": "CentralMine",
+      "scale" : 0
+   },
+   {
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x549249cd3b45eaa0",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_name" : "G-2",
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "Npc_Zonau_Golem_Servant_Minus0006",
+      "objid" : 426177,
+      "pos" : [
+         1639.75,
+         -718.8,
+         -2395.51
+      ],
+       "Id": "EldinMine",
+      "scale" : 0
+   },
+   {
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x6d7fc79fed360a5b",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_name" : "G-6",
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "Npc_Zonau_Golem_Servant_Minus0008",
+      "objid" : 437319,
+      "pos" : [
+         1795.7,
+         -523.91,
+         1229.32
+      ],
+       "Id": "KakarikoMine",
+      "scale" : 0
+   },
+   {
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0x52ac5f4240fb40c1",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_name" : "H-8",
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "Npc_Zonau_Golem_Servant_Minus0010",
+      "objid" : 464358,
+      "pos" : [
+         2945.76,
+         -348.38,
+         3339.68
+      ],
+       "Id": "LurelinMine",
+       "scale" : 0
+   },
+   {
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xcddf6a9eee69c07f",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_name" : "I-3",
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "Npc_Zonau_Golem_Servant_Minus0007",
+      "objid" : 472736,
+      "pos" : [
+         3987.67,
+         -471.05,
+         -1580.83
+      ],
+       "Id": "TarreyMine",
+       "scale" : 0
+   },
+   {
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xff85c7e22c47432d",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_name" : "I-4",
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "Npc_Zonau_Golem_Servant_Minus0024",
+      "objid" : 476045,
+      "pos" : [
+         3256.12,
+         -645.15,
+         -594.22
+      ],
+       "Id": "LanayruMine",
+       "scale" : 0
+   },
+   {
+      "drop" : null,
+      "equip" : null,
+      "hash_id" : "0xb09285f90ca0c4c8",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_name" : "I-7",
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "Npc_Zonau_Golem_Servant_Minus0009",
+      "objid" : 485015,
+      "pos" : [
+         3561.93,
+         -482.69,
+         2207.73
+      ],
+       "Id": "HatenoMine",
+       "scale" : 0
+   }
+]

@@ -162,6 +162,17 @@ for key, value in extra.items():
         raise ValueError('key already exists in npcs', key)
     npcs[key] = value
 
+oldmaps = transform("raw_old_map.json", frog_t)
+sageswill = transform("raw_sage_will.json", frog_t)
+
+def yiga_t(r, k, state):
+    name = names[r['drop']['value'][0]]
+    key = name.replace("-","").replace(" ","")
+    return [name, key, state]
+
+yiga = transform("raw_yiga_schematics.json", yiga_t)
+stones = transform("raw_schema_stones.json", frog_t)
+
 mappct = json.load(open('map_pct2.json', 'r'))
 
 G,S,D = 0,0,0
@@ -347,6 +358,10 @@ out = {
     "Tear": tears,
     "Temple": temples,
     "Tablet": tablets,
+    "OldMap": oldmaps,
+    "SagesWill": sageswill,
+    "YigaSchema": yiga,
+    "SchemaStone": stones,
     "Chest": {},
     "Equipment": {
         "Weapon": {},

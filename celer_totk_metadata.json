@@ -39958,6 +39958,887 @@
       "flag": "IsShowSheikahCameraTarget.ZonauReliefSearch.Step1.Obj_Zonau_RockRelief_A_14"
     }
   },
+  "OldMap": {
+    "ThunderheadIsles": {
+      "pos": [
+        952.39,
+        862.2,
+        3113.04
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x20e7de2bdd6eceb0"
+    },
+    "ThunderheadIsles_01": {
+      "pos": [
+        1126.41,
+        862.67,
+        3273.63
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x96327b802200920d"
+    },
+    "Hebra": {
+      "pos": [
+        -3475.8,
+        1035.9,
+        -3513.55
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0xb2e06042bf692266"
+    },
+    "WellspringIsland": {
+      "pos": [
+        3692.78,
+        1350.65,
+        -593.25
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x5708fd36f1717bf4"
+    },
+    "WellspringIsland_01": {
+      "pos": [
+        3200.16,
+        1522.58,
+        -598.47
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x4648fb7558eec955"
+    },
+    "Akkala": {
+      "pos": [
+        3664.83,
+        1094.38,
+        -1795
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x347464a81128bcf5"
+    },
+    "Akkala_01": {
+      "pos": [
+        4269.17,
+        889.46,
+        -3107.88
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0xe0a0e4b1b69b4982"
+    },
+    "SouthHyrule": {
+      "pos": [
+        -1232.51,
+        1093.91,
+        1399.99
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x6f61458029792876"
+    },
+    "SouthHyrule_01": {
+      "pos": [
+        -1456.58,
+        1325.98,
+        1584.35
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0xfec585115a64aa1b"
+    },
+    "SouthHyrule_02": {
+      "pos": [
+        -815.71,
+        1020.34,
+        1590.62
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0xcd6def9684553723"
+    },
+    "SouthHyrule_03": {
+      "pos": [
+        -1347.79,
+        907.24,
+        1542
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0xb42a3eabc6905e25"
+    },
+    "Eldin": {
+      "pos": [
+        1810.73,
+        1309.84,
+        -1013.62
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x1df1279fa14c0ec8"
+    },
+    "Akkala_02": {
+      "pos": [
+        3294.51,
+        900.13,
+        -3434.16
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0xeee2b548c4552848"
+    },
+    "Necluda": {
+      "pos": [
+        1651.63,
+        679.41,
+        2190.7
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x860128b8e8227653"
+    },
+    "Necluda_01": {
+      "pos": [
+        2159.54,
+        1368.36,
+        2592.08
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x70c59ea8b1a24bc3"
+    },
+    "Necluda_02": {
+      "pos": [
+        2644.91,
+        1581.15,
+        1414.08
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0xfda4d301d2e71c73"
+    },
+    "SouthHyrule_04": {
+      "pos": [
+        -1956.29,
+        1272.59,
+        1809.8
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x6bcd7f75b1cb1b37"
+    },
+    "Hebra_01": {
+      "pos": [
+        -1648.57,
+        1070.24,
+        -3513.13
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x19a51d52fa5ef058"
+    },
+    "Eldin_01": {
+      "pos": [
+        435.19,
+        2349.23,
+        -2195.6
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x256c59cb569ebb79"
+    },
+    "Necluda_03": {
+      "pos": [
+        1765.79,
+        1007.66,
+        1310.74
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x789355799c1be745"
+    },
+    "Necluda_04": {
+      "pos": [
+        1851.51,
+        1044.21,
+        979
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x4efc84157f74bfd2"
+    },
+    "Necluda_05": {
+      "pos": [
+        1662.94,
+        506.26,
+        352.65
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0xb8f532b5bc119a2a"
+    },
+    "ValorIsland": {
+      "pos": [
+        4752.22,
+        2022.34,
+        777.56
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0xfef5898f0a59d92f"
+    },
+    "ValorIsland_01": {
+      "pos": [
+        4659.19,
+        1873.97,
+        869.84
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x6adc2d641806a1ce"
+    },
+    "Hebra_02": {
+      "pos": [
+        -3860.64,
+        853.33,
+        -2922.98
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x00119a905170f71d"
+    },
+    "Hebra_03": {
+      "pos": [
+        -3830.44,
+        650.1,
+        -2715.02
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x65d0983382f07477"
+    },
+    "Tabantha": {
+      "pos": [
+        -3437.53,
+        1296.21,
+        -1431.37
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x9e5ccbf97bff1c5d"
+    },
+    "Tabantha_01": {
+      "pos": [
+        -3961.84,
+        1813.72,
+        -608.13
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x9d94857b5d16091a"
+    },
+    "Tabantha_02": {
+      "pos": [
+        -3634.97,
+        1776.16,
+        -466.73
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x35bea5a89326a61e"
+    },
+    "WellspringIsland_02": {
+      "pos": [
+        3167.95,
+        1041.18,
+        -459.37
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x587415e7dacaeb2f"
+    },
+    "Tabantha_03": {
+      "pos": [
+        -3376.84,
+        2390.17,
+        20.58
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x670030f4113dd003"
+    }
+  },
+  "SagesWill": {
+    "Eldin": {
+      "pos": [
+        1764.17,
+        933.06,
+        -2266.85
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0xec4e0f5470bf9966"
+    },
+    "ThunderheadIsles": {
+      "pos": [
+        967.9,
+        952.26,
+        3306.12
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0xe5b43e117bc9ab49"
+    },
+    "ThunderheadIsles_01": {
+      "pos": [
+        1309.22,
+        564.73,
+        3209.53
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x7bd64ac25cb9db77"
+    },
+    "WellspringIsland": {
+      "pos": [
+        3379.45,
+        1395.97,
+        -633.13
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x6a008bda6563a12d"
+    },
+    "Hebra": {
+      "pos": [
+        -4470.41,
+        1359.11,
+        -2170.81
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0xf780f78786f1d2a0"
+    },
+    "Gerudo": {
+      "pos": [
+        -4447.59,
+        1525.34,
+        2732.09
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0xac4e4eaf6407fa20"
+    },
+    "Eventide": {
+      "pos": [
+        4652.54,
+        1171.18,
+        3829.07
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x9592e71ee6dcfee7"
+    },
+    "Akkala": {
+      "pos": [
+        3810.99,
+        1250.06,
+        -1581.71
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x89191f3dcfc6077d"
+    },
+    "SouthHyrule": {
+      "pos": [
+        -954.14,
+        1111.9,
+        1735.55
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0xc66bccf9067079d5"
+    },
+    "Eldin_01": {
+      "pos": [
+        1781.15,
+        1331.58,
+        -981.56
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x8cfa12597ab18f52"
+    },
+    "SouthHyrule_01": {
+      "pos": [
+        -1959.23,
+        1245.79,
+        1813.13
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0xc6755fd547b2220c"
+    },
+    "Faron": {
+      "pos": [
+        2552.26,
+        1000.13,
+        3601.44
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x2a3350a404da8513"
+    },
+    "Tabantha": {
+      "pos": [
+        -2297.41,
+        1000.13,
+        411.74
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x6882417160977dca"
+    },
+    "Faron_01": {
+      "pos": [
+        -332.64,
+        1000.13,
+        2591.48
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x1b11c0de5ee0af53"
+    },
+    "Necluda": {
+      "pos": [
+        1933.78,
+        1066.83,
+        1064.56
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0xd5313194bf5cdd08"
+    },
+    "Hebra_01": {
+      "pos": [
+        -3075.43,
+        753.51,
+        -2151.92
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x1812d5dd4ef8e713"
+    },
+    "Tabantha_01": {
+      "pos": [
+        -3781.09,
+        1343.48,
+        -1572.89
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0xd23ea2eeae3538c4"
+    },
+    "Lanayru": {
+      "pos": [
+        2910.59,
+        1035.44,
+        -525
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x750a5d848b97c180"
+    },
+    "Lanayru_01": {
+      "pos": [
+        2993.42,
+        1000.13,
+        251.78
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0x1b8bf90dba5bd03d"
+    },
+    "Tabantha_02": {
+      "pos": [
+        -3456.83,
+        2044.56,
+        263.47
+      ],
+      "DisplayName": "Treasure Chest",
+      "hash_id": "0xb201aaf76eaeb3d2"
+    }
+  },
+  "YigaSchema": {
+    "SmokeRocket": {
+      "pos": [
+        -4457.43,
+        -756.27,
+        993.51
+      ],
+      "DisplayName": "Smoke Rocket",
+      "hash_id": "0x2bacf34ed4e27d05"
+    },
+    "RaidingPlane": {
+      "pos": [
+        -4547.34,
+        -384.24,
+        2170.89
+      ],
+      "DisplayName": "Raiding Plane",
+      "hash_id": "0x3542c1c798496037"
+    },
+    "Excavator": {
+      "pos": [
+        -3709.5,
+        -677.22,
+        -3099.58
+      ],
+      "DisplayName": "Excavator",
+      "hash_id": "0xf0992eb7665b0e16"
+    },
+    "AllPurposeRaft": {
+      "pos": [
+        -3380.38,
+        -513.66,
+        -665.86
+      ],
+      "DisplayName": "All-Purpose Raft",
+      "hash_id": "0xeea193289f757391"
+    },
+    "InstantScaffold": {
+      "pos": [
+        -3404.43,
+        -376.95,
+        222.32
+      ],
+      "DisplayName": "Instant Scaffold",
+      "hash_id": "0x07ea42283cf8c7ec"
+    },
+    "Fanboat": {
+      "pos": [
+        -3075.11,
+        -808.09,
+        1580.84
+      ],
+      "DisplayName": "Fanboat",
+      "hash_id": "0xba49477be8690722"
+    },
+    "VerticalEscape": {
+      "pos": [
+        -3262.13,
+        -389.36,
+        3779.93
+      ],
+      "DisplayName": "Vertical Escape",
+      "hash_id": "0xf75b00cf25a40377"
+    },
+    "Floodlights": {
+      "pos": [
+        -2864.42,
+        -826.41,
+        -2918.62
+      ],
+      "DisplayName": "Floodlights",
+      "hash_id": "0x22a86381e0a27341"
+    },
+    "FlamethrowerBalloon": {
+      "pos": [
+        -2822.39,
+        -460.38,
+        -901.3
+      ],
+      "DisplayName": "Flamethrower Balloon",
+      "hash_id": "0x43a3364e6b4609c8"
+    },
+    "ShockTrap": {
+      "pos": [
+        -2694.24,
+        -362.31,
+        2881.98
+      ],
+      "DisplayName": "Shock Trap",
+      "hash_id": "0xc79f14e37a11d405"
+    },
+    "BeamTurret": {
+      "pos": [
+        -2410.01,
+        -288.73,
+        3484.71
+      ],
+      "DisplayName": "Beam Turret",
+      "hash_id": "0xa696c7ee8c95fe60"
+    },
+    "WhirlingBasher": {
+      "pos": [
+        -1751.35,
+        -574.25,
+        -3106.32
+      ],
+      "DisplayName": "Whirling Basher",
+      "hash_id": "0x995ceadb865c6172"
+    },
+    "SprinklerSystem": {
+      "pos": [
+        -1903.18,
+        -576.69,
+        -2095.2
+      ],
+      "DisplayName": "Sprinkler System",
+      "hash_id": "0x38280ddb49ed5feb"
+    },
+    "CargoCarrier": {
+      "pos": [
+        -1332.32,
+        -492.42,
+        -1497.64
+      ],
+      "DisplayName": "Cargo Carrier",
+      "hash_id": "0x72cbbe9efc528454"
+    },
+    "BombBouquet": {
+      "pos": [
+        -1621.53,
+        -377.36,
+        -246.6
+      ],
+      "DisplayName": "Bomb Bouquet",
+      "hash_id": "0x65a460e73d34ba05"
+    },
+    "ThreeWheeler": {
+      "pos": [
+        -1856.01,
+        -421.6,
+        736.47
+      ],
+      "DisplayName": "Three Wheeler",
+      "hash_id": "0x50c7fd9fece52f83"
+    },
+    "Monocycle": {
+      "pos": [
+        -1224.91,
+        -374.76,
+        2611
+      ],
+      "DisplayName": "Monocycle",
+      "hash_id": "0x88772d1b13030cdf"
+    },
+    "FishingTrawler": {
+      "pos": [
+        -398.13,
+        -517.78,
+        -1776.06
+      ],
+      "DisplayName": "Fishing Trawler",
+      "hash_id": "0xbca281503a7d2d09"
+    },
+    "ChargedCharger": {
+      "pos": [
+        621.53,
+        -434.68,
+        -3698.66
+      ],
+      "DisplayName": "Charged Charger",
+      "hash_id": "0x9cfd89351e407239"
+    },
+    "AerialCannon": {
+      "pos": [
+        131.04,
+        -528.81,
+        -2868.27
+      ],
+      "DisplayName": "Aerial Cannon",
+      "hash_id": "0xb01b14f566966b02"
+    },
+    "BeamSpinner": {
+      "pos": [
+        247.24,
+        -381,
+        2171.4
+      ],
+      "DisplayName": "Beam Spinner",
+      "hash_id": "0xa7d09d4c1442d3f4"
+    },
+    "WaterFreezer": {
+      "pos": [
+        417.51,
+        -393.23,
+        3672.59
+      ],
+      "DisplayName": "Water Freezer",
+      "hash_id": "0x4f86afb0fae130d4"
+    },
+    "Rainmaker": {
+      "pos": [
+        1539.27,
+        -333.76,
+        -691.91
+      ],
+      "DisplayName": "Rainmaker",
+      "hash_id": "0x66cef15de39a9879"
+    },
+    "InstantKitchen": {
+      "pos": [
+        1168.49,
+        -303.21,
+        -599.64
+      ],
+      "DisplayName": "Instant Kitchen",
+      "hash_id": "0x6d1010cfa4ea9920"
+    },
+    "BigRig": {
+      "pos": [
+        2667.09,
+        -486.28,
+        -1577.82
+      ],
+      "DisplayName": "Big Rig",
+      "hash_id": "0xc88b59ad7f503150"
+    },
+    "SuperSpring": {
+      "pos": [
+        2542.47,
+        -370.62,
+        545.1
+      ],
+      "DisplayName": "Super Spring",
+      "hash_id": "0x7b366dc12514565f"
+    },
+    "ScatterTrap": {
+      "pos": [
+        2077.77,
+        -358.69,
+        1626.48
+      ],
+      "DisplayName": "Scatter Trap",
+      "hash_id": "0x07a6b26411b5ec14"
+    },
+    "LiftoffGlider": {
+      "pos": [
+        2963.28,
+        -402.16,
+        2571.79
+      ],
+      "DisplayName": "Liftoff Glider",
+      "hash_id": "0x654f95b0e0285eab"
+    },
+    "AssaultCart": {
+      "pos": [
+        3274.77,
+        -555.17,
+        -3697.09
+      ],
+      "DisplayName": "Assault Cart",
+      "hash_id": "0x5871d57aa402574e"
+    },
+    "Wagon": {
+      "pos": [
+        3605.84,
+        -372.6,
+        -2281.19
+      ],
+      "DisplayName": "Wagon",
+      "hash_id": "0xf36edbd7f5401fad"
+    },
+    "Icebreaker": {
+      "pos": [
+        3618.49,
+        -349.8,
+        570.47
+      ],
+      "DisplayName": "Icebreaker",
+      "hash_id": "0x697f835b04a75685"
+    },
+    "Tank": {
+      "pos": [
+        3261.97,
+        -552.26,
+        1446.42
+      ],
+      "DisplayName": "Tank",
+      "hash_id": "0x0e68d3ec8e03dd42"
+    },
+    "HeadlightRaft": {
+      "pos": [
+        4111.82,
+        -505.51,
+        -3215.62
+      ],
+      "DisplayName": "Headlight Raft",
+      "hash_id": "0x79bd2de04dfda7a7"
+    },
+    "TripleCannon": {
+      "pos": [
+        4412.89,
+        -603.62,
+        -637.94
+      ],
+      "DisplayName": "Triple Cannon",
+      "hash_id": "0x2c45d1b83b583fa8"
+    }
+  },
+  "SchemaStone": {
+    "Josha": {
+      "pos": [
+        -238.97,
+        132.32,
+        -147.92
+      ],
+      "DisplayName": "Josha",
+      "hash_id": "0x41b91c5aeed832f4"
+    },
+    "HebraMine": {
+      "pos": [
+        -3480.97,
+        -311.71,
+        -1884.26
+      ],
+      "DisplayName": "Steward Construct",
+      "hash_id": "0xcd6f95b9d4cf6bf7"
+    },
+    "GerudoMine": {
+      "pos": [
+        -3830.18,
+        -382.36,
+        2911.47
+      ],
+      "DisplayName": "Steward Construct",
+      "hash_id": "0x02be9728f7dbfbef"
+    },
+    "GerudoMine_01": {
+      "pos": [
+        -3848.86,
+        -382.57,
+        2945.48
+      ],
+      "DisplayName": "Steward Construct",
+      "hash_id": "0x79c12359dc33a43b"
+    },
+    "KaraKaraMine": {
+      "pos": [
+        -3207.99,
+        -370.17,
+        2472.19
+      ],
+      "DisplayName": "Steward Construct",
+      "hash_id": "0x6e8b8b779585133b"
+    },
+    "CentralMine": {
+      "pos": [
+        -812.74,
+        -417.83,
+        1956.28
+      ],
+      "DisplayName": "Steward Construct",
+      "hash_id": "0xff512360e4d483fd"
+    },
+    "EldinMine": {
+      "pos": [
+        1639.75,
+        -718.8,
+        -2395.51
+      ],
+      "DisplayName": "Steward Construct",
+      "hash_id": "0x549249cd3b45eaa0"
+    },
+    "KakarikoMine": {
+      "pos": [
+        1795.7,
+        -523.91,
+        1229.32
+      ],
+      "DisplayName": "Steward Construct",
+      "hash_id": "0x6d7fc79fed360a5b"
+    },
+    "LurelinMine": {
+      "pos": [
+        2945.76,
+        -348.38,
+        3339.68
+      ],
+      "DisplayName": "Steward Construct",
+      "hash_id": "0x52ac5f4240fb40c1"
+    },
+    "TarreyMine": {
+      "pos": [
+        3987.67,
+        -471.05,
+        -1580.83
+      ],
+      "DisplayName": "Steward Construct",
+      "hash_id": "0xcddf6a9eee69c07f"
+    },
+    "LanayruMine": {
+      "pos": [
+        3256.12,
+        -645.15,
+        -594.22
+      ],
+      "DisplayName": "Steward Construct",
+      "hash_id": "0xff85c7e22c47432d"
+    },
+    "HatenoMine": {
+      "pos": [
+        3561.93,
+        -482.69,
+        2207.73
+      ],
+      "DisplayName": "Steward Construct",
+      "hash_id": "0xb09285f90ca0c4c8"
+    }
+  },
   "Chest": {},
   "Equipment": {
     "Weapon": {},

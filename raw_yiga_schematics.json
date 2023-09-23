@@ -1,0 +1,750 @@
+[
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_26"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x2bacf34ed4e27d05",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 291604,
+      "pos" : [
+         -4457.43,
+         -756.27,
+         993.51
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_22"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x3542c1c798496037",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 294190,
+      "pos" : [
+         -4547.34,
+         -384.24,
+         2170.89
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_31"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xf0992eb7665b0e16",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 299450,
+      "pos" : [
+         -3709.5,
+         -677.22,
+         -3099.58
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_30"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xeea193289f757391",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 308847,
+      "pos" : [
+         -3380.38,
+         -513.66,
+         -665.86
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_20"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x07ea42283cf8c7ec",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 312452,
+      "pos" : [
+         -3404.43,
+         -376.95,
+         222.32
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_03"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xba49477be8690722",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 316244,
+      "pos" : [
+         -3075.11,
+         -808.09,
+         1580.84
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_06"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xf75b00cf25a40377",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 323170,
+      "pos" : [
+         -3262.13,
+         -389.36,
+         3779.93
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_19"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x22a86381e0a27341",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 328043,
+      "pos" : [
+         -2864.42,
+         -826.41,
+         -2918.62
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_01"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x43a3364e6b4609c8",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 334474,
+      "pos" : [
+         -2822.39,
+         -460.38,
+         -901.3
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_11"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xc79f14e37a11d405",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 343884,
+      "pos" : [
+         -2694.24,
+         -362.31,
+         2881.98
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_05"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xa696c7ee8c95fe60",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 346620,
+      "pos" : [
+         -2410.01,
+         -288.73,
+         3484.71
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_29"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x995ceadb865c6172",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 349432,
+      "pos" : [
+         -1751.35,
+         -574.25,
+         -3106.32
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_16"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x38280ddb49ed5feb",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 353059,
+      "pos" : [
+         -1903.18,
+         -576.69,
+         -2095.2
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_07"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x72cbbe9efc528454",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 356714,
+      "pos" : [
+         -1332.32,
+         -492.42,
+         -1497.64
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_23"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x65a460e73d34ba05",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 360181,
+      "pos" : [
+         -1621.53,
+         -377.36,
+         -246.6
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_02"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x50c7fd9fece52f83",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 363675,
+      "pos" : [
+         -1856.01,
+         -421.6,
+         736.47
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_21"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x88772d1b13030cdf",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 370418,
+      "pos" : [
+         -1224.91,
+         -374.76,
+         2611
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_12"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xbca281503a7d2d09",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 379646,
+      "pos" : [
+         -398.13,
+         -517.78,
+         -1776.06
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_27"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x9cfd89351e407239",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 399984,
+      "pos" : [
+         621.53,
+         -434.68,
+         -3698.66
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_18"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xb01b14f566966b02",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 403278,
+      "pos" : [
+         131.04,
+         -528.81,
+         -2868.27
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_33"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xa7d09d4c1442d3f4",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 420519,
+      "pos" : [
+         247.24,
+         -381,
+         2171.4
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_09"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x4f86afb0fae130d4",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 423592,
+      "pos" : [
+         417.51,
+         -393.23,
+         3672.59
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_28"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x66cef15de39a9879",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 431608,
+      "pos" : [
+         1539.27,
+         -333.76,
+         -691.91
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_14"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x6d1010cfa4ea9920",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 431685,
+      "pos" : [
+         1168.49,
+         -303.21,
+         -599.64
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_08"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xc88b59ad7f503150",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 448299,
+      "pos" : [
+         2667.09,
+         -486.28,
+         -1577.82
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_15"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x7b366dc12514565f",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 454190,
+      "pos" : [
+         2542.47,
+         -370.62,
+         545.1
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_25"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x07a6b26411b5ec14",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 457741,
+      "pos" : [
+         2077.77,
+         -358.69,
+         1626.48
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_10"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x654f95b0e0285eab",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 461345,
+      "pos" : [
+         2963.28,
+         -402.16,
+         2571.79
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_32"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x5871d57aa402574e",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 467161,
+      "pos" : [
+         3274.77,
+         -555.17,
+         -3697.09
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_13"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xf36edbd7f5401fad",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 469979,
+      "pos" : [
+         3605.84,
+         -372.6,
+         -2281.19
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_17"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x697f835b04a75685",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 479013,
+      "pos" : [
+         3618.49,
+         -349.8,
+         570.47
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_00"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x0e68d3ec8e03dd42",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 482175,
+      "pos" : [
+         3261.97,
+         -552.26,
+         1446.42
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_04"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x79bd2de04dfda7a7",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 487769,
+      "pos" : [
+         4111.82,
+         -505.51,
+         -3215.62
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_AutoBuilderDraftAssassin_24"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x2c45d1b83b583fa8",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Assassin",
+      "objid" : 493323,
+      "pos" : [
+         4412.89,
+         -603.62,
+         -637.94
+      ],
+      "scale" : 0
+   }
+]

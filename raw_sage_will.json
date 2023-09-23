@@ -1,0 +1,462 @@
+[
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_SageWill"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xec4e0f5470bf9966",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 497321,
+      "pos" : [
+         1764.17,
+         933.06,
+         -2266.85
+      ],
+       "Id": "Eldin",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_SageWill"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xe5b43e117bc9ab49",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 498221,
+      "pos" : [
+         967.9,
+         952.26,
+         3306.12
+      ],
+       "Id": "ThunderheadIsles",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_SageWill"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x7bd64ac25cb9db77",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 499314,
+      "pos" : [
+         1309.22,
+         564.73,
+         3209.53
+      ],
+       "Id": "ThunderheadIsles",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_SageWill"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x6a008bda6563a12d",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron_Zonau_Zonau_BlockMaster",
+      "objid" : 500810,
+      "pos" : [
+         3379.45,
+         1395.97,
+         -633.13
+      ],
+       "Id": "WellspringIsland",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_SageWill"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xf780f78786f1d2a0",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Enemy_Zonau",
+      "objid" : 500994,
+      "pos" : [
+         -4470.41,
+         1359.11,
+         -2170.81
+      ],
+       "Id": "Hebra",
+       "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_SageWill"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xac4e4eaf6407fa20",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Enemy_Zonau",
+      "objid" : 501151,
+      "pos" : [
+         -4447.59,
+         1525.34,
+         2732.09
+      ],
+       "Id": "Gerudo",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_SageWill"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x9592e71ee6dcfee7",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Enemy_Zonau",
+      "objid" : 501363,
+      "pos" : [
+         4652.54,
+         1171.18,
+         3829.07
+      ],
+       "Id": "Eventide",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_SageWill"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x89191f3dcfc6077d",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 501443,
+      "pos" : [
+         3810.99,
+         1250.06,
+         -1581.71
+      ],
+       "Id": "Akkala",
+       "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_SageWill"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xc66bccf9067079d5",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 502548,
+      "pos" : [
+         -954.14,
+         1111.9,
+         1735.55
+      ],
+       "Id": "SouthHyrule",
+       "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_SageWill"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x8cfa12597ab18f52",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 503409,
+      "pos" : [
+         1781.15,
+         1331.58,
+         -981.56
+      ],
+       "Id": "Eldin",
+       "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_SageWill"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xc6755fd547b2220c",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 506319,
+      "pos" : [
+         -1959.23,
+         1245.79,
+         1813.13
+      ],
+       "Id": "SouthHyrule",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_SageWill"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x2a3350a404da8513",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron_Zonau_Zonau_BlockMaster",
+      "objid" : 506451,
+      "pos" : [
+         2552.26,
+         1000.13,
+         3601.44
+      ],
+       "Id": "Faron",
+       "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_SageWill"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x6882417160977dca",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron_Zonau_Zonau_BlockMaster",
+      "objid" : 507996,
+      "pos" : [
+         -2297.41,
+         1000.13,
+         411.74
+      ],
+       "Id": "Tabantha",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_SageWill"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x1b11c0de5ee0af53",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron_Zonau_Zonau_BlockMaster",
+      "objid" : 508068,
+      "pos" : [
+         -332.64,
+         1000.13,
+         2591.48
+      ],
+       "Id": "Faron",
+       "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_SageWill"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xd5313194bf5cdd08",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron_Zonau",
+      "objid" : 508542,
+      "pos" : [
+         1933.78,
+         1066.83,
+         1064.56
+      ],
+       "Id": "Necluda",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_SageWill"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x1812d5dd4ef8e713",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 510232,
+      "pos" : [
+         -3075.43,
+         753.51,
+         -2151.92
+      ],
+       "Id": "Hebra",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_SageWill"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xd23ea2eeae3538c4",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 510775,
+      "pos" : [
+         -3781.09,
+         1343.48,
+         -1572.89
+      ],
+       "Id": "Tabantha",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_SageWill"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x750a5d848b97c180",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 512057,
+      "pos" : [
+         2910.59,
+         1035.44,
+         -525
+      ],
+       "Id": "Lanayru",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_SageWill"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x1b8bf90dba5bd03d",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron_Zonau_Zonau_BlockMaster",
+      "objid" : 512244,
+      "pos" : [
+         2993.42,
+         1000.13,
+         251.78
+      ],
+       "Id": "Lanayru",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_SageWill"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xb201aaf76eaeb3d2",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 512545,
+      "pos" : [
+         -3456.83,
+         2044.56,
+         263.47
+      ],
+       "Id": "Tabantha",
+      "scale" : 0
+   }
+]

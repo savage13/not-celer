@@ -20,5 +20,8 @@
 # curl 'https://radar-totk.zeldamods.org/objs/MainAndMinusField/?q=actor:%20npc%20NOT%20Korok%20NOT%20Addison%20NOT%20MinusFieldGhost' > raw_npcs.json
 # curl 'https://radar-totk.zeldamods.org/objs/MainAndMinusField/?q=FldObj_ZonauShrine_KeyCrystal' > raw_crystals.json
 # python ./get_crystal_shrine.py
-curl 'https://radar-totk.zeldamods.org/objs/MainAndMinusField/?q=Chasm%20Location' > raw_chasm.json
-
+# curl 'https://radar-totk.zeldamods.org/objs/MainAndMinusField/?q=Chasm%20Location' > raw_chasm.json
+#curl 'https://radar-totk.zeldamods.org/objs/MainAndMinusField/?q=Old%20Map' > raw_old_map.json
+#curl 'https://radar-totk.zeldamods.org/objs/MainAndMinusField/?q=%22Sage%27s+Will%22' > raw_sage_will.json
+#curl 'https://radar-totk.zeldamods.org/objs/MainAndMinusField/?q=Obj_AutoBuilderDraftAssassin' > raw_yiga_schematics.json
+#curl 'https://radar-totk.zeldamods.org/objs/MainAndMinusField/?q=Josha%20OR%20(Servant_Minus00*%20NOT%20Forge%20NOT%20Minus0005%20NOT%20Minus0004%20NOT%20Minus0001)&withMapNames=false&limit=2000' > raw_schema_stones.json

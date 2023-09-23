@@ -1,0 +1,715 @@
+[
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_14"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x20e7de2bdd6eceb0",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 497694,
+      "pos" : [
+         952.39,
+         862.2,
+         3113.04
+      ],
+       "Id": "ThunderheadIsles",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_12"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x96327b802200920d",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron_Zonau_Zonau_BlockMaster",
+      "objid" : 499087,
+      "pos" : [
+         1126.41,
+         862.67,
+         3273.63
+      ],
+       "Id": "ThunderheadIsles",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_28"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xb2e06042bf692266",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron_Zonau_Zonau_BlockMaster",
+      "objid" : 500306,
+      "pos" : [
+         -3475.8,
+         1035.9,
+         -3513.55
+      ],
+       "Id": "Hebra",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_08"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x5708fd36f1717bf4",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 500447,
+      "pos" : [
+         3692.78,
+         1350.65,
+         -593.25
+      ],
+       "Id": "WellspringIsland",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_06"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x4648fb7558eec955",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 500515,
+      "pos" : [
+         3200.16,
+         1522.58,
+         -598.47
+      ],
+       "Id": "WellspringIsland",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_10"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x347464a81128bcf5",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron_Zonau_Zonau_BlockMaster",
+      "objid" : 501808,
+      "pos" : [
+         3664.83,
+         1094.38,
+         -1795
+      ],
+       "Id": "Akkala",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_11"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xe0a0e4b1b69b4982",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 501861,
+      "pos" : [
+         4269.17,
+         889.46,
+         -3107.88
+      ],
+       "Id": "Akkala",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_01"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x6f61458029792876",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron_Zonau",
+      "objid" : 503016,
+      "pos" : [
+         -1232.51,
+         1093.91,
+         1399.99
+      ],
+       "Id": "SouthHyrule",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_02"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xfec585115a64aa1b",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron_Zonau",
+      "objid" : 503052,
+      "pos" : [
+         -1456.58,
+         1325.98,
+         1584.35
+      ],
+       "Id": "SouthHyrule",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_19"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xcd6def9684553723",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron_Zonau",
+      "objid" : 503090,
+      "pos" : [
+         -815.71,
+         1020.34,
+         1590.62
+      ],
+       "Id": "SouthHyrule",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_00"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xb42a3eabc6905e25",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron_Zonau_Zonau_BlockMaster",
+      "objid" : 503124,
+      "pos" : [
+         -1347.79,
+         907.24,
+         1542
+      ],
+       "Id": "SouthHyrule",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_25"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x1df1279fa14c0ec8",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron_Zonau",
+      "objid" : 503784,
+      "pos" : [
+         1810.73,
+         1309.84,
+         -1013.62
+      ],
+       "Id": "Eldin",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_09"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xeee2b548c4552848",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron_Zonau_Zonau_BlockMaster",
+      "objid" : 503942,
+      "pos" : [
+         3294.51,
+         900.13,
+         -3434.16
+      ],
+       "Id": "Akkala",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_13"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x860128b8e8227653",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron_Zonau",
+      "objid" : 504603,
+      "pos" : [
+         1651.63,
+         679.41,
+         2190.7
+      ],
+       "Id": "Necluda",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_26"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x70c59ea8b1a24bc3",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 504935,
+      "pos" : [
+         2159.54,
+         1368.36,
+         2592.08
+      ],
+       "Id": "Necluda",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_27"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xfda4d301d2e71c73",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron_Zonau",
+      "objid" : 505367,
+      "pos" : [
+         2644.91,
+         1581.15,
+         1414.08
+      ],
+       "Id": "Necluda",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_24"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x6bcd7f75b1cb1b37",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 506006,
+      "pos" : [
+         -1956.29,
+         1272.59,
+         1809.8
+      ],
+       "Id": "SouthHyrule",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_22"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x19a51d52fa5ef058",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron_Zonau",
+      "objid" : 506880,
+      "pos" : [
+         -1648.57,
+         1070.24,
+         -3513.13
+      ],
+       "Id": "Hebra",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_18"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x256c59cb569ebb79",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 507369,
+      "pos" : [
+         435.19,
+         2349.23,
+         -2195.6
+      ],
+       "Id": "Eldin",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_05"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x789355799c1be745",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron_Zonau",
+      "objid" : 508601,
+      "pos" : [
+         1765.79,
+         1007.66,
+         1310.74
+      ],
+       "Id": "Necluda",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_04"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x4efc84157f74bfd2",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron_Zonau",
+      "objid" : 508642,
+      "pos" : [
+         1851.51,
+         1044.21,
+         979
+      ],
+       "Id": "Necluda",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_03"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xb8f532b5bc119a2a",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 508711,
+      "pos" : [
+         1662.94,
+         506.26,
+         352.65
+      ],
+       "Id": "Necluda",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_23"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xfef5898f0a59d92f",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron_Zonau",
+      "objid" : 509708,
+      "pos" : [
+         4752.22,
+         2022.34,
+         777.56
+      ],
+       "Id": "ValorIsland",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_21"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x6adc2d641806a1ce",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron_Zonau",
+      "objid" : 509744,
+      "pos" : [
+         4659.19,
+         1873.97,
+         869.84
+      ],
+       "Id": "ValorIsland",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_29"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x00119a905170f71d",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 510118,
+      "pos" : [
+         -3860.64,
+         853.33,
+         -2922.98
+      ],
+       "Id": "Hebra",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_30"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x65d0983382f07477",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron_Zonau_Zonau_BlockMaster",
+      "objid" : 510476,
+      "pos" : [
+         -3830.44,
+         650.1,
+         -2715.02
+      ],
+       "Id": "Hebra",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_16"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x9e5ccbf97bff1c5d",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron_Zonau",
+      "objid" : 510868,
+      "pos" : [
+         -3437.53,
+         1296.21,
+         -1431.37
+      ],
+       "Id": "Tabantha",
+       "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_17"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x9d94857b5d16091a",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 511242,
+      "pos" : [
+         -3961.84,
+         1813.72,
+         -608.13
+      ],
+       "Id": "Tabantha",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_15"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x35bea5a89326a61e",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron_Zonau",
+      "objid" : 511796,
+      "pos" : [
+         -3634.97,
+         1776.16,
+         -466.73
+      ],
+       "Id": "Tabantha",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_07"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x587415e7dacaeb2f",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 512023,
+      "pos" : [
+         3167.95,
+         1041.18,
+         -459.37
+      ],
+       "Id": "WellspringIsland",
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Obj_TreasureMap_20"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x670030f4113dd003",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 512294,
+      "pos" : [
+         -3376.84,
+         2390.17,
+         20.58
+      ],
+       "Id": "Tabantha",
+      "scale" : 0
+   }
+]

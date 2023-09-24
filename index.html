@@ -1004,6 +1004,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           const markers = [];
           let marker_icon = undefined;
           let marker_keys = undefined;
+          let hide_icon_on_map = false;
           keys = keys[0]
           if(keys[0] == "_") {
               const ret = parse_object_header(obj, keys);
@@ -1048,6 +1049,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                   else
                       warn(`Unknown level: ${val} [${AREAS}]`)
               } else if (key == "hide-icon-on-map") {
+                  hide_icon_on_map = val;
               } else if (key == "notes") {
               } else if (key == "icon") {
               } else if (key == "gale") {
@@ -1064,6 +1066,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
               } else {
                   console.log("unexpected object key", key, vals);
               }
+          }
+          if(hide_icon_on_map) {
+              to.length = 0
+              markers.length = 0
           }
           //console.log(to);
           return {to, markers, line_color, level: level_set, away}

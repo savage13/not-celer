@@ -369,12 +369,14 @@ out = {
     "Place": places,
     "Special": special,
     "Tear": tears,
+
     "Temple": temples,
     "Tablet": tablets,
     "OldMap": oldmaps,
     "SagesWill": sageswill,
     "YigaSchema": yiga,
     "SchemaStone": stones,
+
     "Chest": {},
     "Equipment": {
         "Weapon": {},
@@ -394,6 +396,36 @@ out = {
         }
     },
     "_icons": {
+        "OldMap": {
+            "iconUrl": "oldmap.png",
+            "iconSize": [32,32],
+            "iconAnchor": [16,16],
+            "routeSize": [32,32],
+        },
+        "YigaSchema": {
+            "iconUrl": "yigaschema.png",
+            "iconSize": [32,32],
+            "iconAnchor": [16,16],
+            "routeSize": [32,32],
+        },
+        "SchemaStone": {
+            "iconUrl": "schemastone.png",
+            "iconSize": [32,32],
+            "iconAnchor": [16,16],
+            "routeSize": [32,32],
+        },
+        "SagesWill": {
+            "iconUrl": "sageswill.png",
+            "iconSize": [24,24],
+            "iconAnchor": [12,12],
+            "routeSize": [24,24],
+        },
+        "Tablet": {
+            "iconUrl": "tablet.png",
+            "iconSize": [32,32],
+            "iconAnchor": [16,16],
+            "routeSize": [32,32],
+        },
         "Npc": {
             "iconUrl": "npc.png",
             "iconSize": [32,32],

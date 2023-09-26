@@ -325,14 +325,23 @@ xlocations['EmergencyShelter'] = {
     "Location": "BaseCamp_Shelter"
 }
 
+temps = {'0xeced362e8dbb109e': 'Lightning Temple',
+         '0x7f43e8cce8e2bb29': 'Water Temple',
+         '0xee51919128fd1da6': 'Wind Temple',
+         '0xc34f654ff388119d': 'Fire Temple',
+         '0x86a857fa8c9361a1': 'Spirit Temple',
+         }
 
 temples = {}
 for item in mappct['temples']:
+    
     name = item['ui_name'].replace(" ", "").replace("'","").replace("-", "")
+    name = temps[ item['hash_id'][0] ].replace(" Temple", "")
     temples[name] = {
         "hash_id": item['hash_id'][0],
         "pos": item['Trans'][0],
-        "DisplayName": item['ui_name'],
+        'DisplayName': temps[ item['hash_id'][0] ],
+        "AltDisplayName": item['ui_name'],
         'flag': item['flag'],
     }
 out = {

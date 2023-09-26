@@ -40155,54 +40155,59 @@
     }
   },
   "Temple": {
-    "TheMuralsMyth,RisenfromtheSands": {
+    "Lightning": {
       "hash_id": "0xeced362e8dbb109e",
       "pos": [
         -4518.5537,
         51.665443,
         3611.5615
       ],
-      "DisplayName": "The Mural's Myth, Risen from the Sands",
+      "DisplayName": "Lightning Temple",
+      "AltDisplayName": "The Mural's Myth, Risen from the Sands",
       "flag": "IsVisitLocation.LargeDungeonThunder"
     },
-    "TheGreatWellspringofHyrule": {
+    "Water": {
       "hash_id": "0x7f43e8cce8e2bb29",
       "pos": [
         3357.436,
         1738.3676,
         -771.62897
       ],
-      "DisplayName": "The Great Wellspring of Hyrule",
+      "DisplayName": "Water Temple",
+      "AltDisplayName": "The Great Wellspring of Hyrule",
       "flag": "IsVisitLocation.LargeDungeonWater"
     },
-    "TheLegendaryStormwindArk": {
+    "Wind": {
       "hash_id": "0xee51919128fd1da6",
       "pos": [
         -2859.5,
         1495.4341,
         -3005.5
       ],
-      "DisplayName": "The Legendary Stormwind Ark",
+      "DisplayName": "Wind Temple",
+      "AltDisplayName": "The Legendary Stormwind Ark",
       "flag": "IsVisitLocation.LargeDungeonWind"
     },
-    "LostGorondiaRediscovered": {
+    "Fire": {
       "hash_id": "0xc34f654ff388119d",
       "pos": [
         1271.5,
         -778.0,
         -2817.5
       ],
-      "DisplayName": "Lost Gorondia Rediscovered",
+      "DisplayName": "Fire Temple",
+      "AltDisplayName": "Lost Gorondia Rediscovered",
       "flag": "IsVisitLocation.LargeDungeonFire"
     },
-    "TheVesselofSpiritsRestingPlace": {
+    "Spirit": {
       "hash_id": "0x86a857fa8c9361a1",
       "pos": [
         1397.658,
         -647.5,
         3228.1897
       ],
-      "DisplayName": "The Vessel of Spirit's Resting Place",
+      "DisplayName": "Spirit Temple",
+      "AltDisplayName": "The Vessel of Spirit's Resting Place",
       "flag": "IsVisitLocation.LargeDungeonSoul"
     }
   },

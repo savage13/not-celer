@@ -334,8 +334,6 @@ temps = {'0xeced362e8dbb109e': 'Lightning Temple',
 
 temples = {}
 for item in mappct['temples']:
-    
-    name = item['ui_name'].replace(" ", "").replace("'","").replace("-", "")
     name = temps[ item['hash_id'][0] ].replace(" Temple", "")
     temples[name] = {
         "hash_id": item['hash_id'][0],

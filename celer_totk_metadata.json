@@ -41123,16 +41123,16 @@
       "DisplayName": "Steward Construct",
       "hash_id": "0xcd6f95b9d4cf6bf7"
     },
-    "GerudoMine": {
+    "ShrineOfResurrection": {
       "pos": [
-        -3830.18,
-        -382.36,
-        2911.47
+        -1120.88,
+        207.27,
+        1901.36
       ],
       "DisplayName": "Steward Construct",
-      "hash_id": "0x02be9728f7dbfbef"
+      "hash_id": "0xb6748bd6f29f48f1"
     },
-    "GerudoMine_01": {
+    "GerudoMine": {
       "pos": [
         -3848.86,
         -382.57,

@@ -156,7 +156,7 @@ frogs = transform("raw_bubbulfrog_cave.json", frog_t)
 molduga = transform('raw_molduga_location.json', frog_t)
 chasms = transform('raw_chasm.json', chasm_t)
 for value in chasms.values():
-    value['Depths'] = copy.copy(value)
+    value['Depths'] = copy.deepcopy(value)
     value['Depths']['pos'][1] = -512
     value['Depths']['DisplayName'] = f"{value['DisplayName']} Depths"
 

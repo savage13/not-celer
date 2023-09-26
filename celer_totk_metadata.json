@@ -26835,7 +26835,7 @@
     "GerudoSummit": {
       "pos": [
         -4203.36,
-        -512,
+        748.08,
         637.66
       ],
       "DisplayName": "Gerudo Summit Chasm",
@@ -26855,7 +26855,7 @@
     "BiridaLookout": {
       "pos": [
         -3685.63,
-        -512,
+        138.61,
         1859.87
       ],
       "DisplayName": "Birida Lookout Chasm",
@@ -26875,7 +26875,7 @@
     "YigaClanHideout": {
       "pos": [
         -3430.18,
-        -512,
+        384.69,
         1333.44
       ],
       "DisplayName": "Yiga Clan Hideout Chasm",
@@ -26895,7 +26895,7 @@
     "HyruleRidge": {
       "pos": [
         -2644.24,
-        -512,
+        247.63,
         -1126.02
       ],
       "DisplayName": "Hyrule Ridge Chasm",
@@ -26915,7 +26915,7 @@
     "EastGerudo": {
       "pos": [
         -2491.19,
-        -512,
+        111.24,
         3067.74
       ],
       "DisplayName": "East Gerudo Chasm",
@@ -26935,7 +26935,7 @@
     "GreatPlateauWest": {
       "pos": [
         -1431.69,
-        -512,
+        330.82,
         1992.55
       ],
       "DisplayName": "Great Plateau West Chasm",
@@ -26955,7 +26955,7 @@
     "SouthLomei": {
       "pos": [
         -1794.92,
-        -512,
+        149.36,
         3461.76
       ],
       "DisplayName": "South Lomei Chasm",
@@ -26975,7 +26975,7 @@
     "NorthLomei": {
       "pos": [
         -814.48,
-        -512,
+        325.2,
         -3534.7
       ],
       "DisplayName": "North Lomei Chasm",
@@ -26995,7 +26995,7 @@
     "DrenanHighlands": {
       "pos": [
         -71.04,
-        -512,
+        231.93,
         -2983.78
       ],
       "DisplayName": "Drenan Highlands Chasm",
@@ -27015,7 +27015,7 @@
     "ElmaKnolls": {
       "pos": [
         -456.88,
-        -512,
+        274.39,
         -1722.35
       ],
       "DisplayName": "Elma Knolls Chasm",
@@ -27035,7 +27035,7 @@
     "HyruleCastleMoatWest": {
       "pos": [
         -922.61,
-        -512,
+        95.52,
         -666.79
       ],
       "DisplayName": "Hyrule Castle Moat West Chasm",
@@ -27055,7 +27055,7 @@
     "HyruleField": {
       "pos": [
         -255.03,
-        -512,
+        103.47,
         299.58
       ],
       "DisplayName": "Hyrule Field Chasm",
@@ -27075,7 +27075,7 @@
     "ForestofTime": {
       "pos": [
         -127.97,
-        -512,
+        73.01,
         1657.81
       ],
       "DisplayName": "Forest of Time Chasm",
@@ -27095,7 +27095,7 @@
     "GreatPlateauNorth": {
       "pos": [
         -664.93,
-        -512,
+        154.49,
         1509.75
       ],
       "DisplayName": "Great Plateau North Chasm",
@@ -27115,7 +27115,7 @@
     "GreatPlateauEast": {
       "pos": [
         -452.5,
-        -512,
+        172.28,
         1992.98
       ],
       "DisplayName": "Great Plateau East Chasm",
@@ -27135,7 +27135,7 @@
     "LakeHylia": {
       "pos": [
         -332,
-        -512,
+        53.18,
         2598.02
       ],
       "DisplayName": "Lake Hylia Chasm",
@@ -27155,7 +27155,7 @@
     "GreatPlateauSouth": {
       "pos": [
         -932.83,
-        -512,
+        268.54,
         2317.51
       ],
       "DisplayName": "Great Plateau South Chasm",
@@ -27175,7 +27175,7 @@
     "DekuTree": {
       "pos": [
         418.01,
-        -512,
+        248.69,
         -2193.41
       ],
       "DisplayName": "Deku Tree Chasm",
@@ -27195,7 +27195,7 @@
     "HyruleCastleMoatEast": {
       "pos": [
         169.99,
-        -512,
+        56.83,
         -882.16
       ],
       "DisplayName": "Hyrule Castle Moat East Chasm",
@@ -27215,7 +27215,7 @@
     "HillsofBaumer": {
       "pos": [
         221.94,
-        -512,
+        102.88,
         2118.77
       ],
       "DisplayName": "Hills of Baumer Chasm",
@@ -27235,7 +27235,7 @@
     "MinshiWoods": {
       "pos": [
         1059.43,
-        -512,
+        254.87,
         -1668.1
       ],
       "DisplayName": "Minshi Woods Chasm",
@@ -27255,7 +27255,7 @@
     "LanayruWetlands": {
       "pos": [
         1726.92,
-        -512,
+        100.19,
         -162.05
       ],
       "DisplayName": "Lanayru Wetlands Chasm",
@@ -27275,7 +27275,7 @@
     "EastHill": {
       "pos": [
         1974.49,
-        -512,
+        220.51,
         846.13
       ],
       "DisplayName": "East Hill Chasm",
@@ -27295,7 +27295,7 @@
     "TobiosHollow": {
       "pos": [
         1305,
-        -512,
+        167.28,
         2396.66
       ],
       "DisplayName": "Tobio's Hollow Chasm",
@@ -27315,7 +27315,7 @@
     "DeathMountain": {
       "pos": [
         2534.5,
-        -512,
+        748.5,
         -2602.5
       ],
       "DisplayName": "Death Mountain Chasm",
@@ -27335,7 +27335,7 @@
     "MedaMountain": {
       "pos": [
         2513.71,
-        -512,
+        236.29,
         2380.7
       ],
       "DisplayName": "Meda Mountain Chasm",
@@ -27355,7 +27355,7 @@
     "SkullLake": {
       "pos": [
         3246.82,
-        -512,
+        61.89,
         -3441.88
       ],
       "DisplayName": "Skull Lake Chasm",
@@ -27375,7 +27375,7 @@
     "SouthAkkalaPlains": {
       "pos": [
         3296.86,
-        -512,
+        229.95,
         -1286.69
       ],
       "DisplayName": "South Akkala Plains Chasm",
@@ -27395,7 +27395,7 @@
     "UnderZorasDomain": {
       "pos": [
         3271.55,
-        -512,
+        84.31,
         -441.59
       ],
       "DisplayName": "Chasm Under Zora's Domain",
@@ -27415,7 +27415,7 @@
     "NaydraSnowfield": {
       "pos": [
         3604.59,
-        -512,
+        223.14,
         1343.98
       ],
       "DisplayName": "Naydra Snowfield Chasm",
@@ -27435,7 +27435,7 @@
     "LomeiLabyrinth": {
       "pos": [
         4655,
-        -512,
+        131.5,
         -3697.47
       ],
       "DisplayName": "Lomei Labyrinth Chasm",
@@ -27455,7 +27455,7 @@
     "EastAkkalaPlains": {
       "pos": [
         4029.55,
-        -512,
+        8.82,
         -2180.88
       ],
       "DisplayName": "East Akkala Plains Chasm",
@@ -27475,7 +27475,7 @@
     "TingelIsland": {
       "pos": [
         4707.78,
-        -512,
+        224.23,
         -1307.87
       ],
       "DisplayName": "Tingel Island Chasm",
@@ -27495,7 +27495,7 @@
     "EventideIsland": {
       "pos": [
         4507.12,
-        -512,
+        87.94,
         3459.3
       ],
       "DisplayName": "Eventide Island Chasm",
@@ -27515,7 +27515,7 @@
     "RitoVillage": {
       "pos": [
         -3571.25,
-        -512,
+        224.04,
         -1803.08
       ],
       "DisplayName": "Rito Village Chasm",
@@ -27535,7 +27535,7 @@
     "HyruleCastle": {
       "pos": [
         -254,
-        -512,
+        -105,
         -1012.17
       ],
       "DisplayName": "Hyrule Castle Chasm",
@@ -53471,8 +53471,8 @@
         24
       ],
       "iconAnchor": [
-        16,
-        16
+        12,
+        12
       ],
       "routeSize": [
         24,

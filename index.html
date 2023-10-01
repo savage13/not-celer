@@ -1145,13 +1145,23 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           return key in _counters && name in _counters[key];
       }
 
-      function counter_mappct_flag(flag) {
+      function counter_mappct_flag(flag, set_in_counters = true) {
           if(!flag || !(flag in mappct_flag))
               return
-          let added = 0
           for(const item of mappct_flag[flag]) {
               _counters.mappct[item.hash_id[0]] = 1;
-              added += 1
+              if(set_in_counters && meta_hash[item.hash_id[0]].__key) {
+                  let key = meta_hash[item.hash_id[0]].__key;
+                  const name = key.at(-1)
+                  key = key.slice(0,-1)
+                  if(key in _counters) {
+                      if(name in _counters[key])
+                          warn(`Duplicated of ${key} ${name} from map pct`)
+                      _counters[key][name] = 1;
+                  } else {
+                      console.log(`Error finding ${key} in counters`)
+                  }
+              }
           }
       }
       function counter_inc(key, name, warp) {
@@ -1173,7 +1183,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                   const tmp = [key,name].join("::")
                   const m = meta_get(tmp);
                   if(m && m.mappct) {
-                      counter_mappct_flag(m.mappct.flag)
+                      counter_mappct_flag(m.mappct.flag, false)
                       m.mappct.flag_alt.forEach(alt => counter_mappct_flag(alt))
 
                   } else if(m) {
@@ -1369,7 +1379,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           {
               const missing = document.getElementById('missing_data');
               missing.innerHTML = "";
-
+              const free_items = ["SageOfGerudo_IsCompleted_Exp",
+                                  "SageOfGerudo_IsAfter_DungeonBossDead_Exp"]
               for(const key of Object.keys(_counters).sort()) {
                   const det = document.createElement('details');
                   const sum = document.createElement('summary');
@@ -1388,8 +1399,15 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                   for(const item of Object.keys(items).sort()) {
                       if(item in _counters[key])
                           continue
+                      let free = ""
+                      if(items[item].flag) {
+                          if(free_items.includes(items[item].flag))
+                              free = " (via Lightning Temple)"
+                          if(items[item].flag.startsWith("IsOpenCannon."))
+                              free = " (via Tower)"
+                      }
                       const name = document.createElement('li')
-                      name.textContent = item;
+                      name.textContent = item + free;
                       ul.appendChild(name);
                   }
                   const xsum = $div();
@@ -1467,7 +1485,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       let mappct = {}; // key: hash_id; value: map_pct data
       let mappct_flag = {} // key: flag; value: [ map_pct with that flag ]
 
-      function get_hash_ids(obj) {
+      function get_hash_ids(obj, key0) {
           if(typeof obj != 'object' || obj === null) {
               return
           }
@@ -1476,10 +1494,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                   console.log("Duplicate hash in meta_hash", obj.hash_id, obj.DisplayName)
               }
               meta_hash[obj.hash_id] = obj
+              meta_hash[obj.hash_id].__key = [...key0]
               return
           }
-          for(const [key, value] of Object.entries(obj)) {
-              get_hash_ids(value)
+          for(const [key1, value] of Object.entries(obj)) {
+              key = [ ... key0]
+              key.push(key1)
+              get_hash_ids(value, key)
           }
       }
 
@@ -1528,7 +1549,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
               }
           }
 
-          get_hash_ids(meta)
+          get_hash_ids(meta, [])
 
           mappct = {}
           mappct_data = await load_json('map_pct2.json')
@@ -1550,7 +1571,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                       mappct_flag[value.flag].push(value)
                       value.flag_alt = [];
                       if(flag_alts[value.flag])
-                          value.flag_alt.push( flag_alts[value.flag] )
+                          value.flag_alt.push( ... flag_alts[value.flag] )
                   } else {
                       console.log("cound not find matching location for ",
                                   value, value.hash_id[0])

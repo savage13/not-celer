@@ -37,26 +37,24 @@
        "Id": "HebraMine",
       "scale" : 0
    },
-   {
-      "drop" : null,
-      "equip" : null,
-      "hash_id" : "0x02be9728f7dbfbef",
-      "korok_id" : null,
-      "korok_type" : null,
-      "map_name" : "B-7",
-      "map_static" : 1,
-      "map_type" : "MinusField",
-      "name" : "Npc_Zonau_Golem_Servant_Minus0002",
-      "objid" : 319936,
-      "pos" : [
-         -3830.18,
-         -382.36,
-         2911.47
-      ],
-       "Id": "GerudoMine",
-      "scale" : 0
-   },
-   {
+    {"objid":528216,
+     "map_type":"MainField",
+     "hash_id":"0xb6748bd6f29f48f1",
+     "name":"Npc_Zonau_Golem_Servant_MainField0001",
+     "scale":0,
+     "equip":null,
+     "map_static":1,
+     "korok_id":null,
+     "korok_type":null,
+     "drop":null,
+     "pos":[
+         -1120.88,
+         207.27,
+         1901.36
+     ],
+     "Id": "ShrineOfResurrection"
+    },
+    {
       "drop" : null,
       "equip" : null,
       "hash_id" : "0x79c12359dc33a43b",

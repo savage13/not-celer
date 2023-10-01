@@ -46870,20 +46870,18 @@
       "hash_id": [
         "0xa6f7bb93517b705e"
       ],
-      "Trans": [
-        {
-          "Contents": [
-            "SpObj_LiftGeneratorWing_Capsule_A_01",
-            "SpObj_Cart_Capsule_A_01",
-            "SpObj_WindGenerator_Capsule_A_01",
-            "SpObj_ControlStick_Capsule_A_01"
-          ],
-          "Trans": [
-            1390.920654296875,
-            522.4623413085938,
-            3239.024169921875
-          ]
-        }
+      "Contents": [
+          "SpObj_LiftGeneratorWing_Capsule_A_01",
+          "SpObj_Cart_Capsule_A_01",
+          "SpObj_WindGenerator_Capsule_A_01",
+          "SpObj_ControlStick_Capsule_A_01"
+      ],
+        "Trans":[
+            [
+                1390.920654296875,
+                522.4623413085938,
+                3239.024169921875
+            ]
       ],
       "layer": "Sky"
     },
@@ -46897,20 +46895,18 @@
       "hash_id": [
         "0x1131f581931904d4"
       ],
-      "Trans": [
-        {
-          "Contents": [
+        "Contents": [
             "SpObj_FlameThrower_Capsule_A_01",
             "SpObj_LiftGeneratorWing_Capsule_A_01",
             "SpObj_WindGenerator_Capsule_A_01",
             "SpObj_CookSet_Capsule_A_01"
           ],
-          "Trans": [
+        "Trans": [
+            [
             769.092041015625,
             1684.458984375,
             1259.5401611328125
           ]
-        }
       ],
       "layer": "Sky"
     },
@@ -46924,21 +46920,19 @@
       "hash_id": [
         "0x11fae15152e18cab"
       ],
-      "Trans": [
-        {
-          "Contents": [
+        "Contents": [
             "SpObj_LiftGeneratorWing_Capsule_A_01",
             "SpObj_SlipBoard_Capsule_A_01",
             "SpObj_WindGenerator_Capsule_A_01",
             "SpObj_Cart_Capsule_A_01",
             "SpObj_FlashLight_Capsule_A_01"
           ],
-          "Trans": [
+        "Trans": [
+            [
             -1705.080078125,
             1053.4794921875,
             -3371.393798828125
           ]
-        }
       ],
       "layer": "Sky"
     },
@@ -46952,21 +46946,19 @@
       "hash_id": [
         "0x12d241830b187564"
       ],
-      "Trans": [
-        {
-          "Contents": [
+        "Contents": [
             "SpObj_GolemHead_Capsule_A_01",
             "SpObj_Cart_Capsule_A_01",
             "SpObj_BalloonEnvelope_Capsule_A_01",
             "SpObj_TiltingDoll_Capsule_A_01",
             "SpObj_LiftableWaterPump_Capsule_A_01"
           ],
-          "Trans": [
+        "Trans": [
+            [
             1344.172607421875,
             689.9794921875,
             2151.279541015625
           ]
-        }
       ],
       "layer": "Sky"
     },
@@ -46980,19 +46972,17 @@
       "hash_id": [
         "0xd304e633d81ebd35"
       ],
-      "Trans": [
-        {
-          "Contents": [
+        "Contents": [
             "SpObj_FlameThrower_Capsule_A_01",
             "SpObj_WindGenerator_Capsule_A_01",
             "SpObj_CookSet_Capsule_A_01"
           ],
-          "Trans": [
+        "Trans": [
+            [
             435.44427490234375,
             1547.82080078125,
             1686.1851806640625
           ]
-        }
       ],
       "layer": "Sky"
     },
@@ -47006,20 +46996,18 @@
       "hash_id": [
         "0xd66f2a598c8acb66"
       ],
-      "Trans": [
-        {
-          "Contents": [
+        "Contents": [
             "SpObj_SnowMachine_Capsule_A_01",
             "SpObj_LiftGeneratorWing_Capsule_A_01",
             "SpObj_EnergyBank_Capsule_A_01",
             "SpObj_LightMirror_Capsule_A_01"
           ],
-          "Trans": [
+        "Trans": [
+            [
             4675.3134765625,
             1894.4794921875,
             1029.6307373046875
           ]
-        }
       ],
       "layer": "Sky"
     },
@@ -47033,21 +47021,19 @@
       "hash_id": [
         "0xd6a8d9355b7d23ea"
       ],
-      "Trans": [
-        {
-          "Contents": [
+        "Contents": [
             "SpObj_Pile_Capsule_A_01",
             "SpObj_FastWheel_Capsule_B_01",
             "SpObj_SpringPiston_Capsule_A_01",
             "SpObj_CookSet_Capsule_A_01",
             "SpObj_EnergyBank_Capsule_A_01"
           ],
-          "Trans": [
+        "Trans": [
+            [
             -1619.7186279296875,
             107.4786148071289,
             1888.9764404296875
           ]
-        }
       ],
       "layer": "Surface"
     },
@@ -47061,21 +47047,19 @@
       "hash_id": [
         "0xd826c89588d8326a"
       ],
-      "Trans": [
-        {
-          "Contents": [
+        "Contents": [
             "SpObj_WindGenerator_Capsule_A_01",
             "SpObj_FloatingStone_Capsule_A_01",
             "SpObj_LiftGeneratorWing_Capsule_A_01",
             "SpObj_EnergyBank_Capsule_A_01",
             "SpObj_TiltingDoll_Capsule_A_01"
           ],
-          "Trans": [
+        "Trans": [
+            [
             3430.200439453125,
             1421.6004638671875,
             -636.958740234375
           ]
-        }
       ],
       "layer": "Sky"
     },
@@ -47089,9 +47073,7 @@
       "hash_id": [
         "0xdf050028fa61f710"
       ],
-      "Trans": [
-        {
-          "Contents": [
+        "Contents": [
             "SpObj_WindGenerator_Capsule_A_01",
             "SpObj_FastWheel_Capsule_A_01",
             "SpObj_BalloonEnvelope_Capsule_A_01",
@@ -47099,12 +47081,12 @@
             "SpObj_Rocket_Capsule_A_01",
             "SpObj_ControlStick_Capsule_A_01"
           ],
-          "Trans": [
+        "Trans": [
+            [
             3807.617919921875,
             195.44741821289062,
             -1561.541259765625
           ]
-        }
       ],
       "layer": "Surface"
     },
@@ -47118,20 +47100,18 @@
       "hash_id": [
         "0xe3615d0b1d98686d"
       ],
-      "Trans": [
-        {
-          "Contents": [
+        "Contents": [
             "SpObj_ElectricBoxGenerator_Capsule_A_01",
             "SpObj_FlashLight_Capsule_A_01",
             "SpObj_ControlStick_Capsule_A_01",
             "SpObj_Chaser_Capsule_A_01"
           ],
-          "Trans": [
+        "Trans": [
+            [
             443.35638427734375,
             1925.4794921875,
             -2821.7724609375
           ]
-        }
       ],
       "layer": "Sky"
     },
@@ -47145,20 +47125,18 @@
       "hash_id": [
         "0xf1eefc70f1021796"
       ],
-      "Trans": [
-        {
           "Contents": [
             "SpObj_TimerBomb_Capsule_A_01",
             "SpObj_FastWheel_Capsule_A_01",
             "SpObj_FlashLight_Capsule_A_01",
             "SpObj_Rocket_Capsule_A_01"
           ],
-          "Trans": [
+        "Trans": [
+            [
             -1212.886962890625,
             1112.4267578125,
             1585.2501220703125
           ]
-        }
       ],
       "layer": "Sky"
     },
@@ -47172,20 +47150,17 @@
       "hash_id": [
         "0xf523af194a6d0f28"
       ],
-      "Trans": [
-        {
           "Contents": [
             "SpObj_Rocket_Capsule_A_01",
             "SpObj_FlameThrower_Capsule_A_01",
             "SpObj_CookSet_Capsule_A_01",
             "SpObj_TimerBomb_Capsule_A_01"
           ],
-          "Trans": [
+          "Trans": [[
             -3803.229248046875,
             807.336181640625,
             -2766.939697265625
           ]
-        }
       ],
       "layer": "Sky"
     },
@@ -47199,20 +47174,17 @@
       "hash_id": [
         "0xfb6c127677254c01"
       ],
-      "Trans": [
-        {
           "Contents": [
             "SpObj_FloatingStone_Capsule_A_01",
             "SpObj_TimerBomb_Capsule_A_01",
             "SpObj_Chaser_Capsule_A_01",
             "SpObj_LiftableWaterPump_Capsule_A_01"
           ],
-          "Trans": [
+          "Trans": [[
             4557.787109375,
             1259.6009521484375,
             -2076.31298828125
           ]
-        }
       ],
       "layer": "Sky"
     },
@@ -47226,20 +47198,17 @@
       "hash_id": [
         "0xfc723b05bc77cca8"
       ],
-      "Trans": [
-        {
           "Contents": [
             "SpObj_LiftGeneratorWing_Capsule_A_01",
             "SpObj_SnowMachine_Capsule_A_01",
             "SpObj_FastWheel_Capsule_A_01",
             "SpObj_LightMirror_Capsule_A_01"
           ],
-          "Trans": [
+          "Trans": [ [
             -3455.3115234375,
             1799.5528564453125,
             -393.5799560546875
           ]
-        }
       ],
       "layer": "Sky"
     },
@@ -47253,20 +47222,17 @@
       "hash_id": [
         "0xfcba4ea2d464e400"
       ],
-      "Trans": [
-        {
           "Contents": [
             "SpObj_BalloonEnvelope_Capsule_A_01",
             "SpObj_WindGenerator_Capsule_A_01",
             "SpObj_FastWheel_Capsule_B_01",
             "SpObj_TiltingDoll_Capsule_A_01"
           ],
-          "Trans": [
+          "Trans": [[
             1838.052978515625,
             260.22393798828125,
             1093.6290283203125
           ]
-        }
       ],
       "layer": "Surface"
     },
@@ -47280,20 +47246,17 @@
       "hash_id": [
         "0xfe7ee10dfeb3cce7"
       ],
-      "Trans": [
-        {
           "Contents": [
             "SpObj_Cannon_Capsule_A_01",
             "SpObj_LiftGeneratorWing_Capsule_A_01",
             "SpObj_SpringPiston_Capsule_A_01",
             "SpObj_TimerBomb_Capsule_A_01"
           ],
-          "Trans": [
+          "Trans": [[
             1778.3809814453125,
             1022.69384765625,
             1096.4464111328125
           ]
-        }
       ],
       "layer": "Sky"
     },
@@ -47307,20 +47270,17 @@
       "hash_id": [
         "0x1b66dc9c92a3880f"
       ],
-      "Trans": [
-        {
           "Contents": [
             "SpObj_FlashLight_Capsule_A_01",
             "SpObj_FlameThrower_Capsule_A_01",
             "SpObj_EnergyBank_Capsule_A_01",
             "SpObj_GolemHead_Capsule_A_01"
           ],
-          "Trans": [
+          "Trans": [[
             215.11813354492188,
             859.6864624023438,
             -1981.921875
           ]
-        }
       ],
       "layer": "Sky"
     },
@@ -47334,8 +47294,6 @@
       "hash_id": [
         "0x26d1a80599de4a7c"
       ],
-      "Trans": [
-        {
           "Contents": [
             "SpObj_Beamos_Capsule_A_01",
             "SpObj_SlipBoard_Capsule_A_01",
@@ -47343,12 +47301,11 @@
             "SpObj_ControlStick_Capsule_A_01",
             "SpObj_Pile_Capsule_A_01"
           ],
-          "Trans": [
+          "Trans": [[
             -1771.541259765625,
             1253.4794921875,
             2019.2620849609375
           ]
-        }
       ],
       "layer": "Sky"
     },
@@ -47362,20 +47319,17 @@
       "hash_id": [
         "0x2e496818370dc5b6"
       ],
-      "Trans": [
-        {
           "Contents": [
             "SpObj_ControlStick_Capsule_A_01",
             "SpObj_FastWheel_Capsule_A_01",
             "SpObj_Cannon_Capsule_A_01",
             "SpObj_FlashLight_Capsule_A_01"
           ],
-          "Trans": [
+          "Trans": [[
             2851.89404296875,
             1316.6044921875,
             2958.556884765625
           ]
-        }
       ],
       "layer": "Sky"
     },
@@ -47389,20 +47343,17 @@
       "hash_id": [
         "0x45cbf2f71151a212"
       ],
-      "Trans": [
-        {
           "Contents": [
             "SpObj_ElectricBoxGenerator_Capsule_A_01",
             "SpObj_WindGenerator_Capsule_A_01",
             "SpObj_CookSet_Capsule_A_01",
             "SpObj_EnergyBank_Capsule_A_01"
           ],
-          "Trans": [
+          "Trans": [[
             1104.4814453125,
             932.9644165039062,
             3331.83642578125
           ]
-        }
       ],
       "layer": "Sky"
     },
@@ -47416,20 +47367,17 @@
       "hash_id": [
         "0x4bb99b31b6ac4877"
       ],
-      "Trans": [
-        {
           "Contents": [
             "SpObj_FastWheel_Capsule_B_01",
             "SpObj_LiftableWaterPump_Capsule_A_01",
             "SpObj_EnergyBank_Capsule_A_01",
             "SpObj_WindGenerator_Capsule_A_01"
           ],
-          "Trans": [
+          "Trans": [[
             1983.384765625,
             1355.6827392578125,
             -1221.953857421875
           ]
-        }
       ],
       "layer": "Sky"
     },
@@ -47443,8 +47391,6 @@
       "hash_id": [
         "0x4df90d55a411e90d"
       ],
-      "Trans": [
-        {
           "Contents": [
             "SpObj_Chaser_Capsule_A_01",
             "SpObj_Pile_Capsule_A_01",
@@ -47452,12 +47398,11 @@
             "SpObj_Cannon_Capsule_A_01",
             "SpObj_GolemHead_Capsule_A_01"
           ],
-          "Trans": [
+          "Trans": [[
             3755.34326171875,
             1262.4793701171875,
             -1542.743896484375
           ]
-        }
       ],
       "layer": "Sky"
     },
@@ -47471,20 +47416,17 @@
       "hash_id": [
         "0x5b3cd1e9715c10f2"
       ],
-      "Trans": [
-        {
           "Contents": [
             "SpObj_BalloonEnvelope_Capsule_A_01",
             "SpObj_WindGenerator_Capsule_A_01",
             "SpObj_CookSet_Capsule_A_01",
             "SpObj_TimerBomb_Capsule_A_01"
           ],
-          "Trans": [
+          "Trans": [[
             -2370.5458984375,
             716.0794067382812,
             -781.6613159179688
           ]
-        }
       ],
       "layer": "Sky"
     },
@@ -47498,20 +47440,17 @@
       "hash_id": [
         "0x6cb69c9a01ad612a"
       ],
-      "Trans": [
-        {
           "Contents": [
             "SpObj_Cart_Capsule_A_01",
             "SpObj_LiftGeneratorWing_Capsule_A_01",
             "SpObj_WindGenerator_Capsule_A_01",
             "SpObj_Beamos_Capsule_A_01"
           ],
-          "Trans": [
+          "Trans": [[
             2915.6572265625,
             1055.8607177734375,
             -502.27838134765625
           ]
-        }
       ],
       "layer": "Sky"
     },
@@ -47525,8 +47464,6 @@
       "hash_id": [
         "0x0121f7444eb1cf37"
       ],
-      "Trans": [
-        {
           "Contents": [
             "SpObj_Pile_Capsule_A_01",
             "SpObj_ElectricBoxGenerator_Capsule_A_01",
@@ -47534,12 +47471,11 @@
             "SpObj_TiltingDoll_Capsule_A_01",
             "SpObj_SnowMachine_Capsule_A_01"
           ],
-          "Trans": [
+          "Trans": [[
             -3457.10107421875,
             2048.4951171875,
             373.6962585449219
           ]
-        }
       ],
       "layer": "Sky"
     },
@@ -47553,20 +47489,17 @@
       "hash_id": [
         "0x82bb769fa9cc7bc0"
       ],
-      "Trans": [
-        {
           "Contents": [
             "SpObj_SpringPiston_Capsule_A_01",
             "SpObj_LiftableWaterPump_Capsule_A_01",
             "SpObj_Beamos_Capsule_A_01",
             "SpObj_ControlStick_Capsule_A_01"
           ],
-          "Trans": [
+          "Trans": [[
             4510.5986328125,
             1221.7044677734375,
             805.6314086914062
           ]
-        }
       ],
       "layer": "Sky"
     },

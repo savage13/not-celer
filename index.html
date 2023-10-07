@@ -1145,18 +1145,16 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           return key in _counters && name in _counters[key];
       }
 
-      function counter_mappct_flag(flag, set_in_counters = true) {
+      function counter_mappct_flag(flag) {
           if(!flag || !(flag in mappct_flag))
               return
           for(const item of mappct_flag[flag]) {
               _counters.mappct[item.hash_id[0]] = 1;
-              if(set_in_counters && meta_hash[item.hash_id[0]].__key) {
+              if(meta_hash[item.hash_id[0]].__key) {
                   let key = meta_hash[item.hash_id[0]].__key;
                   const name = key.at(-1)
                   key = key.slice(0,-1)
                   if(key in _counters) {
-                      if(name in _counters[key])
-                          warn(`Duplicated of ${key} ${name} from map pct`)
                       _counters[key][name] = 1;
                   } else {
                       console.log(`Error finding ${key} in counters`)
@@ -1179,19 +1177,20 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           }
           key = key.slice(0,-1).map(k => k.name).join('::')
           if(key in _counters) {
+              let has_mappct = false
               { // mappct
                   const tmp = [key,name].join("::")
                   const m = meta_get(tmp);
                   if(m && m.mappct) {
-                      counter_mappct_flag(m.mappct.flag, false)
+                      counter_mappct_flag(m.mappct.flag)
                       m.mappct.flag_alt.forEach(alt => counter_mappct_flag(alt))
-
+                      has_mappct = true
                   } else if(m) {
                   } else {
                       console.log("Error finding meta data", tmp)
                   }
               }
-              if(name in _counters[key])
+              if(name in _counters[key] && !has_mappct)
                   warn(`Duplicate of ${key} ${name}`)
               _counters[key][name] = 1;
               if(key == 'Korok') {

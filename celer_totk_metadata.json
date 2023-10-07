@@ -53994,6 +53994,81 @@
         32,
         32
       ]
+    },
+    "Place": {
+      "iconUrl": "location.png",
+      "iconSize": [
+        32,
+        32
+      ],
+      "iconAnchor": [
+        16,
+        16
+      ],
+      "routeSize": [
+        32,
+        32
+      ]
+    },
+    "Shop": {
+      "iconUrl": "mapicon_shop_yorozu.svg",
+      "iconSize": [
+        32,
+        32
+      ],
+      "iconAnchor": [
+        16,
+        16
+      ],
+      "routeSize": [
+        32,
+        32
+      ]
+    },
+    "Fairy": {
+      "iconUrl": "fairy.png",
+      "iconSize": [
+        32,
+        32
+      ],
+      "iconAnchor": [
+        16,
+        16
+      ],
+      "routeSize": [
+        32,
+        32
+      ]
+    },
+    "Tear": {
+      "iconUrl": "tear.png",
+      "iconSize": [
+        32,
+        32
+      ],
+      "iconAnchor": [
+        16,
+        16
+      ],
+      "routeSize": [
+        32,
+        32
+      ]
+    },
+    "Temple": {
+      "iconUrl": "temple.png",
+      "iconSize": [
+        32,
+        32
+      ],
+      "iconAnchor": [
+        16,
+        16
+      ],
+      "routeSize": [
+        32,
+        32
+      ]
     }
   }
 }

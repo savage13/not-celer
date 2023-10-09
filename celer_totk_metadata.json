@@ -54697,7 +54697,7 @@
       ]
     },
     "MainQuest": {
-      "iconUrl": "location.png",
+      "iconUrl": "MainQuest.png",
       "iconSize": [
         32,
         32
@@ -54712,7 +54712,7 @@
       ]
     },
     "SideAdv": {
-      "iconUrl": "location.png",
+      "iconUrl": "SideAdv.png",
       "iconSize": [
         32,
         32
@@ -54727,7 +54727,7 @@
       ]
     },
     "SideQuest": {
-      "iconUrl": "location.png",
+      "iconUrl": "SideQuest.png",
       "iconSize": [
         32,
         32
@@ -54742,7 +54742,7 @@
       ]
     },
     "KeyItem": {
-      "iconUrl": "location.png",
+      "iconUrl": "star.png",
       "iconSize": [
         32,
         32

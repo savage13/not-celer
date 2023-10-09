@@ -609,7 +609,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                           const meta_items = items
                                 .map(x => x.replace(/^_/, ""))
                                 .map(x => [x, meta_get(x)])
-                                .filter(x => x[0] && x[1])
+                                .filter(x => {
+                                    return x[0] && x[1] && x[1].pos
+                                })
                                 .map(m => L.circleMarker(ll(m[1].pos), {
                                     color: '#ff2c00', radius: 7
                                 }).bindTooltip(m[0]));
@@ -1116,6 +1118,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           YigaSchema: {},
           SchemaStone: {},
           TechLab: {},
+          SideAdv: {},
+          MainQuest: {},
+          SideQuest: {},
+          KeyItem: {},
           'Enemy::Talus': {},
           'Enemy::Gleeok': {},
           'Enemy::Hinox': {},

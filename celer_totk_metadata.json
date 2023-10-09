@@ -28077,6 +28077,1141 @@
       "hash_id": "0x685223d0f33bedcf"
     }
   },
+  "SideAdv": {
+    "HatenoVillageResearchLab": {
+      "hash_id": "0xSideAdv00",
+      "DisplayName": "Hateno Village Research Lab",
+      "notes": "Let Robbie install the sensor at Hateno Tech Lab"
+    },
+    "FillingouttheCompendium": {
+      "hash_id": "0xSideAdv01",
+      "DisplayName": "Filling out the Compendium",
+      "notes": "Look at Robbie's Compendium pictures"
+    },
+    "PresentingTheTravelMedallion": {
+      "hash_id": "0xSideAdv02",
+      "DisplayName": "Presenting: The Travel Medallion!",
+      "notes": "Get all 3 Travel Medallions from Robbie"
+    },
+    "PresentingHerosPathMode": {
+      "hash_id": "0xSideAdv03",
+      "DisplayName": "Presenting: Hero's Path Mode!",
+      "notes": "15 Shrines then talk to Robbie"
+    },
+    "PresentingSensor+": {
+      "hash_id": "0xSideAdv04",
+      "DisplayName": "Presenting: Sensor +!",
+      "notes": "5 Monster Pictures then talk to Robbie"
+    },
+    "MattisonsIndependence": {
+      "hash_id": "0xSideAdv05",
+      "DisplayName": "Mattison's Independence",
+      "notes": "Talk to Mattison and do what she says over and over untill she leaves"
+    },
+    "ALettertoKoyin": {
+      "hash_id": "0xSideAdv06",
+      "DisplayName": "A Letter to Koyin",
+      "notes": "Get the bottle in the lake, then go inside the farm"
+    },
+    "ANewSignatureFood": {
+      "hash_id": "0xSideAdv07",
+      "DisplayName": "A New Signature Food",
+      "notes": "Give Reede some cheese"
+    },
+    "ReedesSecret": {
+      "hash_id": "0xSideAdv08",
+      "DisplayName": "Reede's Secret",
+      "notes": "Ascend into the shed"
+    },
+    "CecesSecret": {
+      "hash_id": "0xSideAdv09",
+      "DisplayName": "Cece's Secret",
+      "notes": "Watch her eat vegetables in the windmill"
+    },
+    "TeamCeceorTeamReede": {
+      "hash_id": "0xSideAdv10",
+      "DisplayName": "Team Cece or Team Reede?",
+      "notes": "Give out 8 shrooms to non shroom wearing citizens"
+    },
+    "TheMayoralElection": {
+      "hash_id": "0xSideAdv11",
+      "DisplayName": "The Mayoral Election",
+      "notes": "Do the 3 immediately above this"
+    },
+    "RuffianInfestedVillage": {
+      "hash_id": "0xSideAdv12",
+      "DisplayName": "Ruffian-Infested Village",
+      "notes": "Kill everything in Lurelin"
+    },
+    "LurelinVillageRestorationProject": {
+      "hash_id": "0xSideAdv13",
+      "DisplayName": "Lurelin Village Restoration Project",
+      "notes": "20 Hylian Rice, 15 Normal Logs, then go around fixing buildings",
+      "mappct": {
+        "flag_alt": [
+          "Revive_Restaurant",
+          "Revive_Inn",
+          "Revive_TreasureShop"
+        ]
+      }
+    },
+    "PotentialPrincessSightings": {
+      "hash_id": "0xSideAdv14",
+      "DisplayName": "Potential Princess Sightings!",
+      "notes": "Finish Penns adventures at every stable"
+    },
+    "TheBeckoningWoman": {
+      "hash_id": "0xSideAdv15",
+      "DisplayName": "The Beckoning Woman",
+      "notes": "Penn at Outskirt Stable"
+    },
+    "GourmetsGoneMissing": {
+      "hash_id": "0xSideAdv16",
+      "DisplayName": "Gourmets Gone Missing",
+      "notes": "Penn at Riverside Stable"
+    },
+    "TheBeastandthePrincess": {
+      "hash_id": "0xSideAdv17",
+      "DisplayName": "The Beast and the Princess",
+      "notes": "Penn at New Serenne Stable"
+    },
+    "ZeldasGoldenHorse": {
+      "hash_id": "0xSideAdv18",
+      "DisplayName": "Zelda's Golden Horse",
+      "notes": "Penn at Snowfield Stable"
+    },
+    "WhiteGoatsGoneMissing": {
+      "hash_id": "0xSideAdv19",
+      "DisplayName": "White Goats Gone Missing",
+      "notes": "Penn at Tabantha Bridge Stable"
+    },
+    "ForOurPrincess": {
+      "hash_id": "0xSideAdv20",
+      "DisplayName": "For Our Princess!",
+      "notes": "Penn at Foothill Stable"
+    },
+    "TheAllCluckingCucco": {
+      "hash_id": "0xSideAdv21",
+      "DisplayName": "The All-Clucking Cucco",
+      "notes": "Penn at South Akkala Stable"
+    },
+    "TheMissingFarmTools": {
+      "hash_id": "0xSideAdv22",
+      "DisplayName": "The Missing Farm Tools",
+      "notes": "Penn at Wetland Stable"
+    },
+    "PrincessZeldaKidnapped": {
+      "hash_id": "0xSideAdv23",
+      "DisplayName": "Princess Zelda Kidnapped?!",
+      "notes": "Penn at Dueling Peaks Stable"
+    },
+    "AnEerieVoice": {
+      "hash_id": "0xSideAdv24",
+      "DisplayName": "An Eerie Voice",
+      "notes": "Penn at Highland Stable"
+    },
+    "TheBlockedWell": {
+      "hash_id": "0xSideAdv25",
+      "DisplayName": "The Blocked Well",
+      "notes": "Penn at Gerudo Canyon Stable"
+    },
+    "TheFlutePlayersPlan": {
+      "hash_id": "0xSideAdv26",
+      "DisplayName": "The Flute Player's Plan",
+      "notes": "10 Fireflies to Pyper and then guide Haite to him"
+    },
+    "HoneyBeeMine": {
+      "hash_id": "0xSideAdv27",
+      "DisplayName": "Honey, Bee Mine",
+      "notes": "3 Honey to Beetz"
+    },
+    "TheHornistsDramaticEscape": {
+      "hash_id": "0xSideAdv28",
+      "DisplayName": "The Hornist's Dramatic Escape",
+      "notes": "Get Eustus out of the crater a bit after Tabantha Great Bridge"
+    },
+    "SerenadetoaGreatFairy": {
+      "hash_id": "0xSideAdv29",
+      "DisplayName": "Serenade to a Great Fairy",
+      "notes": "Penn at Woodland Stable"
+    },
+    "SerenadetoKaysa": {
+      "hash_id": "0xSideAdv30",
+      "DisplayName": "Serenade to Kaysa",
+      "notes": "After Flute Player's Plan and first fairy go to Outskirt Stable"
+    },
+    "SerenadetoCotera": {
+      "hash_id": "0xSideAdv31",
+      "DisplayName": "Serenade to Cotera",
+      "notes": "After Honey, Bee Mine and first fairy go to Dueling Peaks Stable"
+    },
+    "SerenadetoMija": {
+      "hash_id": "0xSideAdv32",
+      "DisplayName": "Serenade to Mija",
+      "notes": "After Hornist's Escape and first fairy go to Snowfield Stable"
+    },
+    "BringPeacetoHyruleField": {
+      "hash_id": "0xSideAdv33",
+      "DisplayName": "Bring Peace to Hyrule Field!",
+      "notes": "Kill enemies at Hyrule Garrison Ruins"
+    },
+    "BringPeacetoNecluda": {
+      "hash_id": "0xSideAdv34",
+      "DisplayName": "Bring Peace to Necluda!",
+      "notes": "Kill enemies at Fort Hateno after Hyrule Field"
+    },
+    "BringPeacetoEldin": {
+      "hash_id": "0xSideAdv35",
+      "DisplayName": "Bring Peace to Eldin!",
+      "notes": "Kill enemies at Lake Darman Monster Den"
+    },
+    "BringPeacetoAkkala": {
+      "hash_id": "0xSideAdv36",
+      "DisplayName": "Bring Peace to Akkala!",
+      "notes": "Kill enemies at Akkala Span after Eldin"
+    },
+    "BringPeacetoFaron": {
+      "hash_id": "0xSideAdv37",
+      "DisplayName": "Bring Peace to Faron!",
+      "notes": "Kill enemies on ship at Menoat River"
+    },
+    "BringPeacetoHebra": {
+      "hash_id": "0xSideAdv38",
+      "DisplayName": "Bring Peace to Hebra!",
+      "notes": "Kill enemies at South Tabantha Snowfield after Faron"
+    },
+    "HestusConcerns": {
+      "hash_id": "0xSideAdv39",
+      "DisplayName": "Hestu's Concerns",
+      "notes": "Kill the trees scaring Hestu and give him a korok seed"
+    },
+    "TheHuntforBubbulGems": {
+      "hash_id": "0xSideAdv40",
+      "DisplayName": "The Hunt for Bubbul Gems!",
+      "notes": "Give Koltin a Bubbul Gem near Woodland Stable"
+    },
+    "TheSearchforKoltin": {
+      "hash_id": "0xSideAdv41",
+      "DisplayName": "The Search for Koltin",
+      "notes": "Find Koltin somewhere"
+    },
+    "AMonsterousCollectionI": {
+      "hash_id": "0xSideAdv42",
+      "DisplayName": "A Monsterous Collection I",
+      "notes": "Bokoblin picture for Kilton"
+    },
+    "AMonsterousCollectionII": {
+      "hash_id": "0xSideAdv43",
+      "DisplayName": "A Monsterous Collection II",
+      "notes": "Horriblin picture for Kilton"
+    },
+    "AMonsterousCollectionIII": {
+      "hash_id": "0xSideAdv44",
+      "DisplayName": "A Monsterous Collection III",
+      "notes": "Battle Talus picture for Kilton"
+    },
+    "AMonsterousCollectionIV": {
+      "hash_id": "0xSideAdv45",
+      "DisplayName": "A Monsterous Collection IV",
+      "notes": "Frox picture for Kilton"
+    },
+    "AMonsterousCollectionV": {
+      "hash_id": "0xSideAdv46",
+      "DisplayName": "A Monsterous Collection V",
+      "notes": "King Gleeok picture for Kilton"
+    },
+    "InvestigatetheThyphloRuins": {
+      "hash_id": "0xSideAdv47",
+      "DisplayName": "Investigate the Thyphlo Ruins",
+      "notes": "Talk to guy near tent infront of tower, then do next 4 adventures"
+    },
+    "TheOwlProtectedbyDragons": {
+      "hash_id": "0xSideAdv48",
+      "DisplayName": "The Owl Protected by Dragons",
+      "notes": "Use Tulin at owl statue 0364 3055 0175"
+    },
+    "TheCorridorbetweenTwoDragons": {
+      "hash_id": "0xSideAdv49",
+      "DisplayName": "The Corridor between Two Dragons",
+      "notes": "Use Yunobo inbetween dragons 0203 3122 0174"
+    },
+    "TheSixDragons": {
+      "hash_id": "0xSideAdv50",
+      "DisplayName": "The Six Dragons",
+      "notes": "Use Sidon spinattack at 6 dragons 0185 3181 0174"
+    },
+    "TheLongDragon": {
+      "hash_id": "0xSideAdv51",
+      "DisplayName": "The Long Dragon",
+      "notes": "Use Riju at 0451 3084 0175"
+    },
+    "LegendoftheGreatSkyIsland": {
+      "hash_id": "0xSideAdv52",
+      "DisplayName": "Legend of the Great Sky Island",
+      "notes": "Do contstruct minigame at the top of Temple of Time "
+    },
+    "MessagesfromanAncientEra": {
+      "hash_id": "0xSideAdv53",
+      "DisplayName": "Messages from an Ancient Era",
+      "notes": "Take pictures of stone tablets on all the Star Islands"
+    },
+    "ADealWiththeStatue": {
+      "hash_id": "0xSideAdv54",
+      "DisplayName": "A Deal With the Statue",
+      "notes": "Give and take back container at Horned Statue below Lookout Landing"
+    },
+    "WhoGoesThere": {
+      "hash_id": "0xSideAdv55",
+      "DisplayName": "Who Goes There?",
+      "notes": "Tell Jerrin about the Horned Statue"
+    },
+    "ACallfromtheDepths": {
+      "hash_id": "0xSideAdv56",
+      "DisplayName": "A Call from the Depths",
+      "notes": "Drain the Great Plateau entrance, talk to poe statue,talk to goddess statue in Temple of Time ruins,throw eyes into each of the four chasms,bring the eyes to the big poe statue"
+    },
+    "InfiltratingtheYigaClan": {
+      "hash_id": "0xSideAdv57",
+      "DisplayName": "Infiltrating the Yiga Clan",
+      "notes": "Get the 3 Yiga Pieces (GP, Akkala, aldor foothills) and go to Hideout"
+    },
+    "TheYigaClanExam": {
+      "hash_id": "0xSideAdv58",
+      "DisplayName": "The Yiga Clan Exam",
+      "notes": "Complete the Yiga Training in the Yiga Hideout"
+    },
+    "MasterKohgaoftheYigaClan": {
+      "hash_id": "0xSideAdv59",
+      "DisplayName": "Master Kohga of the Yiga Clan",
+      "notes": "Defeat Kohga at the Hebra Mine"
+    }
+  },
+  "MainQuest": {
+    "DestroyGanondorf": {
+      "DisplayName": "Destroy Ganondorf",
+      "hash_id": "0xMainQuest00"
+    },
+    "FindPrincessZelda": {
+      "DisplayName": "Find Princess Zelda",
+      "hash_id": "0xMainQuest01"
+    },
+    "TheClosedDoor": {
+      "DisplayName": "The Closed Door",
+      "hash_id": "0xMainQuest02"
+    },
+    "TotheKingdomofHyrule": {
+      "DisplayName": "To the Kingdom of Hyrule",
+      "hash_id": "0xMainQuest03"
+    },
+    "RegionalPhenomena": {
+      "DisplayName": "Regional Phenomena",
+      "hash_id": "0xMainQuest04"
+    },
+    "FindtheFifthSage": {
+      "DisplayName": "Find the Fifth Sage",
+      "hash_id": "0xMainQuest05"
+    },
+    "CrisisatHyruleCastle": {
+      "DisplayName": "Crisis at Hyrule Castle",
+      "hash_id": "0xMainQuest06"
+    },
+    "TrailoftheMasterSword": {
+      "DisplayName": "Trail of the Master Sword",
+      "hash_id": "0xMainQuest07"
+    },
+    "RecoveringtheHerosSword": {
+      "DisplayName": "Recovering the Hero's Sword",
+      "hash_id": "0xMainQuest08"
+    },
+    "TulinofRitoVillage": {
+      "DisplayName": "Tulin of Rito Village",
+      "hash_id": "0xMainQuest09"
+    },
+    "YunoboofGoronCity": {
+      "DisplayName": "Yunobo of Goron City",
+      "hash_id": "0xMainQuest10"
+    },
+    "TheSludgeCoveredStatue": {
+      "DisplayName": "The Sludge-Covered Statue",
+      "hash_id": "0xMainQuest11"
+    },
+    "TheBrokenSlate": {
+      "DisplayName": "The Broken Slate",
+      "hash_id": "0xMainQuest12"
+    },
+    "RestoringtheZoraArmor": {
+      "DisplayName": "Restoring the Zora Armor",
+      "hash_id": "0xMainQuest13"
+    },
+    "CluestotheSky": {
+      "DisplayName": "Clues to the Sky",
+      "hash_id": "0xMainQuest14"
+    },
+    "SidonoftheZora": {
+      "DisplayName": "Sidon of the Zora",
+      "hash_id": "0xMainQuest15"
+    },
+    "RijuofGerudoTown": {
+      "DisplayName": "Riju of Gerudo Town",
+      "hash_id": "0xMainQuest16"
+    },
+    "SecretoftheRingRuins": {
+      "DisplayName": "Secret of the Ring Ruins",
+      "hash_id": "0xMainQuest17"
+    },
+    "GuidancefromAgesPast": {
+      "DisplayName": "Guidance from Ages Past",
+      "hash_id": "0xMainQuest18"
+    },
+    "CameraWorkintheDepths": {
+      "DisplayName": "Camera Work in the Depths",
+      "hash_id": "0xMainQuest19"
+    },
+    "AMysteryintheDepths": {
+      "DisplayName": "A Mystery in the Depths",
+      "hash_id": "0xMainQuest20"
+    },
+    "ImpaandtheGeoglyphs": {
+      "DisplayName": "Impa and the Geoglyphs",
+      "hash_id": "0xMainQuest21"
+    },
+    "TheDragonsTears": {
+      "DisplayName": "The Dragon's Tears",
+      "hash_id": "0xMainQuest22"
+    }
+  },
+  "SideQuest": {
+    "SpottingSpot": {
+      "DisplayName": "Spotting Spot",
+      "hash_id": "0xSideQuest000"
+    },
+    "VillageAttackedbyPirates": {
+      "DisplayName": "Village Attacked by Pirates",
+      "hash_id": "0xSideQuest001"
+    },
+    "TodaysMenu": {
+      "DisplayName": "Today's Menu",
+      "hash_id": "0xSideQuest002"
+    },
+    "TheIncompleteStable": {
+      "DisplayName": "The Incomplete Stable",
+      "hash_id": "0xSideQuest003"
+    },
+    "WANTEDStoneTalus": {
+      "DisplayName": "WANTED: Stone Talus",
+      "hash_id": "0xSideQuest004"
+    },
+    "WANTEDMolduga": {
+      "DisplayName": "WANTED: Molduga",
+      "hash_id": "0xSideQuest005"
+    },
+    "WANTEDHinox": {
+      "DisplayName": "WANTED: Hinox",
+      "hash_id": "0xSideQuest006"
+    },
+    "UnknownSkyGiant": {
+      "DisplayName": "Unknown Sky Giant",
+      "hash_id": "0xSideQuest007"
+    },
+    "UnknownThreeHeadedMonster": {
+      "DisplayName": "Unknown Three-Headed Monster",
+      "hash_id": "0xSideQuest008"
+    },
+    "UnknownHugeSilhouette": {
+      "DisplayName": "Unknown Huge Silhouette",
+      "hash_id": "0xSideQuest009"
+    },
+    "TheHorseGuardsRequest": {
+      "DisplayName": "The Horse Guard's Request",
+      "hash_id": "0xSideQuest010"
+    },
+    "APictureforOutskirtStable": {
+      "DisplayName": "A Picture for Outskirt Stable",
+      "hash_id": "0xSideQuest011"
+    },
+    "FeatheredFugitives": {
+      "DisplayName": "Feathered Fugitives",
+      "hash_id": "0xSideQuest012"
+    },
+    "APictureforRiversideStable": {
+      "DisplayName": "A Picture for Riverside Stable",
+      "hash_id": "0xSideQuest013"
+    },
+    "HorseDrawnDreams": {
+      "DisplayName": "Horse-Drawn Dreams",
+      "hash_id": "0xSideQuest014"
+    },
+    "APictureforNewSerenneStable": {
+      "DisplayName": "A Picture for New Serenne Stable",
+      "hash_id": "0xSideQuest015"
+    },
+    "GenlisHomeCooking": {
+      "DisplayName": "Genli's Home Cooking",
+      "hash_id": "0xSideQuest016"
+    },
+    "TreasureoftheSecretSprings": {
+      "DisplayName": "Treasure of the Secret Springs",
+      "hash_id": "0xSideQuest017"
+    },
+    "MollitheFletchersQuest": {
+      "DisplayName": "Molli the Fletcher's Quest",
+      "hash_id": "0xSideQuest018"
+    },
+    "LegacyoftheRito": {
+      "DisplayName": "Legacy of the Rito",
+      "hash_id": "0xSideQuest019"
+    },
+    "FishforFletching": {
+      "DisplayName": "Fish for Fletching",
+      "hash_id": "0xSideQuest020"
+    },
+    "TheRitoRopeBridge": {
+      "DisplayName": "The Rito Rope Bridge",
+      "hash_id": "0xSideQuest021"
+    },
+    "APictureforTabanthaBridgeStable": {
+      "DisplayName": "A Picture for Tabantha Bridge Stable",
+      "hash_id": "0xSideQuest022"
+    },
+    "APictureforSnowfieldStable": {
+      "DisplayName": "A Picture for Snowfield Stable",
+      "hash_id": "0xSideQuest023"
+    },
+    "CrossingtheColdPool": {
+      "DisplayName": "Crossing the Cold Pool",
+      "hash_id": "0xSideQuest024"
+    },
+    "OpentheDoor": {
+      "DisplayName": "Open the Door",
+      "hash_id": "0xSideQuest025"
+    },
+    "SupplyEyeingFliers": {
+      "DisplayName": "Supply-Eyeing Fliers",
+      "hash_id": "0xSideQuest026"
+    },
+    "TheBlockedCave": {
+      "DisplayName": "The Blocked Cave",
+      "hash_id": "0xSideQuest027"
+    },
+    "TheDuchessWhoDissapeared": {
+      "DisplayName": "The Duchess Who Dissapeared",
+      "hash_id": "0xSideQuest028"
+    },
+    "KanelisFlightTraining": {
+      "DisplayName": "Kaneli's Flight Training",
+      "hash_id": "0xSideQuest029"
+    },
+    "CaveMushroomsThatGlow": {
+      "DisplayName": "Cave Mushrooms That Glow",
+      "hash_id": "0xSideQuest030"
+    },
+    "TheCapturedTent": {
+      "DisplayName": "The Captured Tent",
+      "hash_id": "0xSideQuest031"
+    },
+    "WhoFindstheHaven": {
+      "DisplayName": "Who Finds the Haven?",
+      "hash_id": "0xSideQuest032"
+    },
+    "WhirlySwirlyThings": {
+      "DisplayName": "Whirly Swirly Things",
+      "hash_id": "0xSideQuest033"
+    },
+    "TheSecretRoom": {
+      "DisplayName": "The Secret Room",
+      "hash_id": "0xSideQuest034"
+    },
+    "WaltonsTreasureHunt": {
+      "DisplayName": "Walton's Treasure Hunt",
+      "hash_id": "0xSideQuest035"
+    },
+    "AmberDealer": {
+      "DisplayName": "Amber Dealer",
+      "hash_id": "0xSideQuest036"
+    },
+    "TheAncientCityGorondia": {
+      "DisplayName": "The Ancient City Gorondia?",
+      "hash_id": "0xSideQuest038"
+    },
+    "SouloftheGorons": {
+      "DisplayName": "Soul of the Gorons",
+      "hash_id": "0xSideQuest039"
+    },
+    "MoonGazingGorons": {
+      "DisplayName": "Moon-Gazing Gorons",
+      "hash_id": "0xSideQuest040"
+    },
+    "TheHiddenTeasureatLizardLakes": {
+      "DisplayName": "The Hidden Teasure at Lizard Lakes",
+      "hash_id": "0xSideQuest041"
+    },
+    "SimmerstoneSprings": {
+      "DisplayName": "Simmerstone Springs",
+      "hash_id": "0xSideQuest042"
+    },
+    "CashInonRipenedFlint": {
+      "DisplayName": "Cash In on Ripened Flint",
+      "hash_id": "0xSideQuest043"
+    },
+    "MeatforMeat": {
+      "DisplayName": "Meat for Meat",
+      "hash_id": "0xSideQuest044"
+    },
+    "RockRoastorDust": {
+      "DisplayName": "Rock Roast or Dust",
+      "hash_id": "0xSideQuest045"
+    },
+    "MineCartLandOpenforBusiness": {
+      "DisplayName": "Mine-Cart Land: Open for Business!",
+      "hash_id": "0xSideQuest046"
+    },
+    "MineCartLandQuickshotCourse": {
+      "DisplayName": "Mine-Cart Land: Quickshot Course",
+      "hash_id": "0xSideQuest047"
+    },
+    "MineCartLandDeathMountain": {
+      "DisplayName": "Mine-Cart Land: Death Mountain",
+      "hash_id": "0xSideQuest048"
+    },
+    "APictureforWoodlandStable": {
+      "DisplayName": "A Picture for Woodland Stable",
+      "hash_id": "0xSideQuest049"
+    },
+    "APictureforFoothillStable": {
+      "DisplayName": "A Picture for Foothill Stable",
+      "hash_id": "0xSideQuest050"
+    },
+    "FellintoaWell": {
+      "DisplayName": "Fell into a Well!",
+      "hash_id": "0xSideQuest051"
+    },
+    "TheAbandonedLaborer": {
+      "DisplayName": "The Abandoned Laborer",
+      "hash_id": "0xSideQuest052"
+    },
+    "TheTreasureHunters": {
+      "DisplayName": "The Treasure Hunters",
+      "hash_id": "0xSideQuest053"
+    },
+    "MiskosCaveofChests": {
+      "DisplayName": "Misko's Cave of Chests",
+      "hash_id": "0xSideQuest054"
+    },
+    "MiskosTreasureTheFierceDiety": {
+      "DisplayName": "Misko's Treasure: The Fierce Diety",
+      "hash_id": "0xSideQuest055"
+    },
+    "MiskosTreasureTwinsManuscript": {
+      "DisplayName": "Misko's Treasure: Twins Manuscript",
+      "hash_id": "0xSideQuest056"
+    },
+    "MiskosTreasurePirateManuscript": {
+      "DisplayName": "Misko's Treasure: Pirate Manuscript",
+      "hash_id": "0xSideQuest057"
+    },
+    "MiskosTreasureHeroinesManuscript": {
+      "DisplayName": "Misko's Treasure: Heroines Manuscript",
+      "hash_id": "0xSideQuest058"
+    },
+    "MiskosTreasureofAwakeningI": {
+      "DisplayName": "Misko's Treasure of Awakening I",
+      "hash_id": "0xSideQuest059"
+    },
+    "MiskosTreasureofAwakeningII": {
+      "DisplayName": "Misko's Treasure of Awakening II",
+      "hash_id": "0xSideQuest060"
+    },
+    "MiskosTreasureofAwakeningIII": {
+      "DisplayName": "Misko's Treasure of Awakening III",
+      "hash_id": "0xSideQuest061"
+    },
+    "TheTarreyTownRaceIsOn": {
+      "DisplayName": "The Tarrey Town Race Is On!",
+      "hash_id": "0xSideQuest062"
+    },
+    "SecretsWithin": {
+      "DisplayName": "Secrets Within",
+      "hash_id": "0xSideQuest063"
+    },
+    "MastertheVehiclePrototype": {
+      "DisplayName": "Master the Vehicle Prototype",
+      "hash_id": "0xSideQuest064"
+    },
+    "HomeonArrange": {
+      "DisplayName": "Home on Arrange",
+      "hash_id": "0xSideQuest065"
+    },
+    "StrongestintheWorld": {
+      "DisplayName": "Strongest in the World",
+      "hash_id": "0xSideQuest066"
+    },
+    "TheGatheringPirates": {
+      "DisplayName": "The Gathering Pirates",
+      "hash_id": "0xSideQuest067"
+    },
+    "APicureforEastAkkalaStable": {
+      "DisplayName": "A Picure for East Akkala Stable",
+      "hash_id": "0xSideQuest068"
+    },
+    "EldinsColossalFossil": {
+      "DisplayName": "Eldin's Colossal Fossil",
+      "hash_id": "0xSideQuest069"
+    },
+    "HebrasColossalFossil": {
+      "DisplayName": "Hebra's Colossal Fossil",
+      "hash_id": "0xSideQuest070"
+    },
+    "GerudosColossalFossil": {
+      "DisplayName": "Gerudo's Colossal Fossil",
+      "hash_id": "0xSideQuest071"
+    },
+    "OneHitWonder": {
+      "DisplayName": "One-Hit Wonder!",
+      "hash_id": "0xSideQuest072"
+    },
+    "APictureforSouthAkkalaStable": {
+      "DisplayName": "A Picture for South Akkala Stable",
+      "hash_id": "0xSideQuest073"
+    },
+    "TrueTreasure": {
+      "DisplayName": "True Treasure",
+      "hash_id": "0xSideQuest074"
+    },
+    "SecretTreasureundertheGreatFish": {
+      "DisplayName": "Secret Treasure under the Great Fish",
+      "hash_id": "0xSideQuest075"
+    },
+    "TheNeverEndingLecture": {
+      "DisplayName": "The Never-Ending Lecture",
+      "hash_id": "0xSideQuest076"
+    },
+    "TheMoonlitPrincess": {
+      "DisplayName": "The Moonlit Princess",
+      "hash_id": "0xSideQuest077"
+    },
+    "TheFortatJaAbuRidge": {
+      "DisplayName": "The Fort at Ja'Abu Ridge",
+      "hash_id": "0xSideQuest078"
+    },
+    "GloryoftheZora": {
+      "DisplayName": "Glory of the Zora",
+      "hash_id": "0xSideQuest079"
+    },
+    "ACrabulousDeal": {
+      "DisplayName": "A Crabulous Deal",
+      "hash_id": "0xSideQuest080"
+    },
+    "AWifeWaftedAway": {
+      "DisplayName": "A Wife Wafted Away",
+      "hash_id": "0xSideQuest081"
+    },
+    "ATokenofFriendship": {
+      "DisplayName": "A Token of Friendship",
+      "hash_id": "0xSideQuest082"
+    },
+    "APictureforWetlandStable": {
+      "DisplayName": "A Picture for Wetland Stable",
+      "hash_id": "0xSideQuest083"
+    },
+    "AnUninvitedGuest": {
+      "DisplayName": "An Uninvited Guest",
+      "hash_id": "0xSideQuest084"
+    },
+    "TheBlueStone": {
+      "DisplayName": "The Blue Stone",
+      "hash_id": "0xSideQuest085"
+    },
+    "TheUltimateDish": {
+      "DisplayName": "The Ultimate Dish?",
+      "hash_id": "0xSideQuest086"
+    },
+    "MiredinMuck": {
+      "DisplayName": "Mired in Muck",
+      "hash_id": "0xSideQuest087"
+    },
+    "OutoftheInn": {
+      "DisplayName": "Out of the Inn",
+      "hash_id": "0xSideQuest088"
+    },
+    "FollowtheCuccos": {
+      "DisplayName": "Follow the Cuccos",
+      "hash_id": "0xSideQuest089"
+    },
+    "ATripthroughhistory": {
+      "DisplayName": "A Trip through history",
+      "hash_id": "0xSideQuest090"
+    },
+    "CodgersQuarrel": {
+      "DisplayName": "Codgers' Quarrel",
+      "hash_id": "0xSideQuest091"
+    },
+    "GloomBorneIllness": {
+      "DisplayName": "Gloom-Borne Illness",
+      "hash_id": "0xSideQuest092"
+    },
+    "ANewChampionsTunic": {
+      "DisplayName": "A New Champion's Tunic",
+      "hash_id": "0xSideQuest093"
+    },
+    "TeachMeaLessonI": {
+      "DisplayName": "Teach Me a Lesson I",
+      "hash_id": "0xSideQuest094"
+    },
+    "TeachMeaLessonII": {
+      "DisplayName": "Teach Me a Lesson II",
+      "hash_id": "0xSideQuest095"
+    },
+    "DantzsPriceCows": {
+      "DisplayName": "Dantz's Price Cows",
+      "hash_id": "0xSideQuest096"
+    },
+    "HomegrowninHateno": {
+      "DisplayName": "Homegrown in Hateno",
+      "hash_id": "0xSideQuest097"
+    },
+    "PhotographingaChuchu": {
+      "DisplayName": "Photographing a Chuchu",
+      "hash_id": "0xSideQuest098"
+    },
+    "UmasGarden": {
+      "DisplayName": "Uma's Garden",
+      "hash_id": "0xSideQuest099"
+    },
+    "MannysBeloved": {
+      "DisplayName": "Manny's Beloved",
+      "hash_id": "0xSideQuest100"
+    },
+    "LurelinResortProject": {
+      "DisplayName": "Lurelin Resort Project",
+      "hash_id": "0xSideQuest101"
+    },
+    "DadsBlueShirt": {
+      "DisplayName": "Dad's Blue Shirt",
+      "hash_id": "0xSideQuest102"
+    },
+    "AWaytoTradeWashedAway": {
+      "DisplayName": "A Way to Trade, Washed Away",
+      "hash_id": "0xSideQuest103"
+    },
+    "RattledRalera": {
+      "DisplayName": "Rattled Ralera",
+      "hash_id": "0xSideQuest104"
+    },
+    "APictureforDuelingPeaksStable": {
+      "DisplayName": "A Picture for Dueling Peaks Stable",
+      "hash_id": "0xSideQuest105"
+    },
+    "ABottleCryforHelp": {
+      "DisplayName": "A Bottle Cry for Help",
+      "hash_id": "0xSideQuest106"
+    },
+    "SeekingthePirateHideout": {
+      "DisplayName": "Seeking the Pirate Hideout",
+      "hash_id": "0xSideQuest107"
+    },
+    "OustingtheGiants": {
+      "DisplayName": "Ousting the Giants",
+      "hash_id": "0xSideQuest108"
+    },
+    "APictureforLakesideStable": {
+      "DisplayName": "A Picture for Lakeside Stable",
+      "hash_id": "0xSideQuest109"
+    },
+    "APictureforHighlandStable": {
+      "DisplayName": "A Picture for Highland Stable",
+      "hash_id": "0xSideQuest110"
+    },
+    "TheHeroinesSecret": {
+      "DisplayName": "The Heroines' Secret",
+      "hash_id": "0xSideQuest111"
+    },
+    "TreasureoftheGerudoDesert": {
+      "DisplayName": "Treasure of the Gerudo Desert",
+      "hash_id": "0xSideQuest112"
+    },
+    "PrideoftheGerudo": {
+      "DisplayName": "Pride of the Gerudo",
+      "hash_id": "0xSideQuest113"
+    },
+    "DaliasGame": {
+      "DisplayName": "Dalia's Game",
+      "hash_id": "0xSideQuest114"
+    },
+    "TheMysteriousEighth": {
+      "DisplayName": "The Mysterious Eighth",
+      "hash_id": "0xSideQuest115"
+    },
+    "TheMissingOwner": {
+      "DisplayName": "The Missing Owner",
+      "hash_id": "0xSideQuest116"
+    },
+    "TotheRuins": {
+      "DisplayName": "To the Ruins!",
+      "hash_id": "0xSideQuest117"
+    },
+    "DecoratewithPassion": {
+      "DisplayName": "Decorate with Passion",
+      "hash_id": "0xSideQuest118"
+    },
+    "LostintheDunes": {
+      "DisplayName": "Lost in the Dunes",
+      "hash_id": "0xSideQuest119"
+    },
+    "APicturefortheClosedStableI": {
+      "DisplayName": "A Picture for the Closed Stable I",
+      "hash_id": "0xSideQuest120"
+    },
+    "APicturefortheClosedStableII": {
+      "DisplayName": "A Picture for the Closed Stable II",
+      "hash_id": "0xSideQuest121"
+    },
+    "PiaffePackedAway": {
+      "DisplayName": "Piaffe, Packed Away",
+      "hash_id": "0xSideQuest122"
+    },
+    "GleeokGuts": {
+      "DisplayName": "Gleeok Guts",
+      "hash_id": "0xSideQuest123"
+    },
+    "DisasterinGerudoCanyon": {
+      "DisplayName": "Disaster in Gerudo Canyon",
+      "hash_id": "0xSideQuest124"
+    },
+    "TheGreatTumbleweedPurge": {
+      "DisplayName": "The Great Tumbleweed Purge",
+      "hash_id": "0xSideQuest125"
+    },
+    "HeatEnduranceContest": {
+      "DisplayName": "Heat-Endurance Contest!",
+      "hash_id": "0xSideQuest126"
+    },
+    "ColdEnduranceContest": {
+      "DisplayName": "Cold-Endurance Contest!",
+      "hash_id": "0xSideQuest127"
+    },
+    "TheIcelessIcehouse": {
+      "DisplayName": "The Iceless Icehouse",
+      "hash_id": "0xSideQuest128"
+    },
+    "WhereAretheWells": {
+      "DisplayName": "Where Are the Wells?",
+      "hash_id": "0xSideQuest129"
+    },
+    "AncientBladesBelow": {
+      "DisplayName": "Ancient Blades Below",
+      "hash_id": "0xSideQuest130"
+    },
+    "TheNorthLomeiProphecy": {
+      "DisplayName": "The North Lomei Prophecy",
+      "hash_id": "0xSideQuest131"
+    },
+    "TheLomeiLabyrinthIslandProphecy": {
+      "DisplayName": "The Lomei Labyrinth Island Prophecy",
+      "hash_id": "0xSideQuest132"
+    },
+    "TheSouthLomeiProhecy": {
+      "DisplayName": "The South Lomei Prohecy",
+      "hash_id": "0xSideQuest133"
+    },
+    "GoddessStatueofWisdom": {
+      "DisplayName": "Goddess Statue of Wisdom",
+      "hash_id": "0xSideQuest134"
+    },
+    "GoddessStatueofPower": {
+      "DisplayName": "Goddess Statue of Power",
+      "hash_id": "0xSideQuest135"
+    },
+    "GoddessStatueofCourage": {
+      "DisplayName": "Goddess Statue of Courage",
+      "hash_id": "0xSideQuest136"
+    },
+    "TheMotherGoddessStatue": {
+      "DisplayName": "The Mother Goddess Statue",
+      "hash_id": "0xSideQuest137"
+    },
+    "TheShrineExplorer": {
+      "DisplayName": "The Shrine Explorer",
+      "hash_id": "0xSideQuest138"
+    }
+  },
+  "KeyItem": {
+    "Ultrahand": {
+      "DisplayName": "Ultrahand",
+      "hash_id": "0xKeyItem00"
+    },
+    "Fuse": {
+      "DisplayName": "Fuse",
+      "hash_id": "0xKeyItem01"
+    },
+    "Ascend": {
+      "DisplayName": "Ascend",
+      "hash_id": "0xKeyItem02"
+    },
+    "Recall": {
+      "DisplayName": "Recall",
+      "hash_id": "0xKeyItem03"
+    },
+    "Autobuild": {
+      "DisplayName": "Autobuild",
+      "hash_id": "0xKeyItem04"
+    },
+    "SolemnVowofTulinSageofWind": {
+      "DisplayName": "(Solemn) Vow of Tulin, Sage of Wind",
+      "hash_id": "0xKeyItem05"
+    },
+    "SolemnVowofYunoboSageofFire": {
+      "DisplayName": "(Solemn) Vow of Yunobo, Sage of Fire",
+      "hash_id": "0xKeyItem06"
+    },
+    "SolemnVowofSidonSageofWater": {
+      "DisplayName": "(Solemn) Vow of Sidon, Sage of Water",
+      "hash_id": "0xKeyItem07"
+    },
+    "SolemnVowofRijuSageofLightning": {
+      "DisplayName": "(Solemn) Vow of Riju, Sage of Lightning",
+      "hash_id": "0xKeyItem08"
+    },
+    "SolemnVowofMineruSageofSpirit": {
+      "DisplayName": "(Solemn) Vow of Mineru, Sage of Spirit",
+      "hash_id": "0xKeyItem09"
+    },
+    "PurahPad": {
+      "DisplayName": "Purah Pad",
+      "hash_id": "0xKeyItem10"
+    },
+    "Camera": {
+      "DisplayName": "Camera",
+      "hash_id": "0xKeyItem11"
+    },
+    "EnergyCell": {
+      "DisplayName": "Energy Cell",
+      "hash_id": "0xKeyItem12"
+    },
+    "Paraglider": {
+      "DisplayName": "Paraglider",
+      "hash_id": "0xKeyItem13"
+    },
+    "TravelMedallion": {
+      "DisplayName": "Travel Medallion",
+      "hash_id": "0xKeyItem14"
+    },
+    "EarthwakeManual": {
+      "DisplayName": "Earthwake Manual",
+      "hash_id": "0xKeyItem15"
+    },
+    "KorokSeed": {
+      "DisplayName": "Korok Seed",
+      "hash_id": "0xKeyItem16"
+    },
+    "Poe": {
+      "DisplayName": "Poe",
+      "hash_id": "0xKeyItem17"
+    },
+    "CrystallizedCharge": {
+      "DisplayName": "Crystallized Charge",
+      "hash_id": "0xKeyItem18"
+    },
+    "SchemaStone": {
+      "DisplayName": "Schema Stone",
+      "hash_id": "0xKeyItem19"
+    },
+    "YigaSchematic": {
+      "DisplayName": "Yiga Schematic",
+      "hash_id": "0xKeyItem20"
+    },
+    "OldMap": {
+      "DisplayName": "Old Map",
+      "hash_id": "0xKeyItem21"
+    },
+    "PonyPointsCard": {
+      "DisplayName": "Pony Points Card",
+      "hash_id": "0xKeyItem22"
+    },
+    "SleepoverTicket": {
+      "DisplayName": "Sleepover Ticket",
+      "hash_id": "0xKeyItem23"
+    },
+    "AllsWell": {
+      "DisplayName": "All's Well",
+      "hash_id": "0xKeyItem24"
+    },
+    "DispellingDarknessMedal": {
+      "DisplayName": "Dispelling Darkness Medal",
+      "hash_id": "0xKeyItem25"
+    },
+    "HestusGift": {
+      "DisplayName": "Hestu's Gift",
+      "hash_id": "0xKeyItem26"
+    },
+    "StoneTalusMonsterMedal": {
+      "DisplayName": "Stone Talus Monster Medal",
+      "hash_id": "0xKeyItem27"
+    },
+    "HinoxMonsterMedal": {
+      "DisplayName": "Hinox Monster Medal",
+      "hash_id": "0xKeyItem28"
+    },
+    "MoldugaMonsterMedal": {
+      "DisplayName": "Molduga Monster Medal",
+      "hash_id": "0xKeyItem29"
+    },
+    "GleeokMonsterMedal": {
+      "DisplayName": "Gleeok Monster Medal",
+      "hash_id": "0xKeyItem30"
+    },
+    "FroxMonsterMedal": {
+      "DisplayName": "Frox Monster Medal",
+      "hash_id": "0xKeyItem31"
+    },
+    "FluxConstructMonsterMedal": {
+      "DisplayName": "Flux Construct Monster Medal",
+      "hash_id": "0xKeyItem32"
+    },
+    "TowingHarness": {
+      "DisplayName": "Towing Harness",
+      "hash_id": "0xKeyItem33"
+    },
+    "TravelersBridle": {
+      "DisplayName": "Traveler's Bridle",
+      "hash_id": "0xKeyItem34"
+    },
+    "KnightsBridle": {
+      "DisplayName": "Knight's Bridle",
+      "hash_id": "0xKeyItem35"
+    },
+    "RoyalBridle": {
+      "DisplayName": "Royal Bridle",
+      "hash_id": "0xKeyItem36"
+    },
+    "ExtravagantBridle": {
+      "DisplayName": "Extravagant Bridle",
+      "hash_id": "0xKeyItem37"
+    },
+    "MonsterBridle": {
+      "DisplayName": "Monster Bridle",
+      "hash_id": "0xKeyItem38"
+    },
+    "TravelersSaddle": {
+      "DisplayName": "Traveler's Saddle",
+      "hash_id": "0xKeyItem39"
+    },
+    "KnightsSaddle": {
+      "DisplayName": "Knight's Saddle",
+      "hash_id": "0xKeyItem40"
+    },
+    "RoyalSaddle": {
+      "DisplayName": "Royal Saddle",
+      "hash_id": "0xKeyItem41"
+    },
+    "ExtravagantSaddle": {
+      "DisplayName": "Extravagant Saddle",
+      "hash_id": "0xKeyItem42"
+    },
+    "MonsterSaddle": {
+      "DisplayName": "Monster Saddle",
+      "hash_id": "0xKeyItem43"
+    }
+  },
   "Enemy": {
     "Frox": {
       "DH04": {
@@ -53548,6 +54683,66 @@
     },
     "Memory": {
       "iconUrl": "memory.png",
+      "iconSize": [
+        32,
+        32
+      ],
+      "iconAnchor": [
+        16,
+        16
+      ],
+      "routeSize": [
+        32,
+        32
+      ]
+    },
+    "MainQuest": {
+      "iconUrl": "location.png",
+      "iconSize": [
+        32,
+        32
+      ],
+      "iconAnchor": [
+        16,
+        16
+      ],
+      "routeSize": [
+        32,
+        32
+      ]
+    },
+    "SideAdv": {
+      "iconUrl": "location.png",
+      "iconSize": [
+        32,
+        32
+      ],
+      "iconAnchor": [
+        16,
+        16
+      ],
+      "routeSize": [
+        32,
+        32
+      ]
+    },
+    "SideQuest": {
+      "iconUrl": "location.png",
+      "iconSize": [
+        32,
+        32
+      ],
+      "iconAnchor": [
+        16,
+        16
+      ],
+      "routeSize": [
+        32,
+        32
+      ]
+    },
+    "KeyItem": {
+      "iconUrl": "location.png",
       "iconSize": [
         32,
         32

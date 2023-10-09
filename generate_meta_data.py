@@ -342,6 +342,51 @@ for item in mappct['temples']:
         "AltDisplayName": item['ui_name'],
         'flag': item['flag'],
     }
+
+quests = json.load(open("pancakes_list.json","r"))
+
+side_adv = {}
+i = 0
+for item in quests['Side Adventures']:
+    name = item['name']
+    key = name.replace(" ", "").replace("!", "").replace("?", "").replace("-","").replace("'","").replace(":","").replace(",","")
+    side_adv[key] = {
+        "hash_id": f"0xSideAdv{i:02d}",
+        "DisplayName": name,
+        "notes": item['notes']
+    }
+    if key == "LurelinVillageRestorationProject":
+        side_adv[key]['mappct'] = {
+            'flag_alt': ['Revive_Restaurant', "Revive_Inn", "Revive_TreasureShop"]
+        }
+    i += 1
+main_quest = {}
+
+for i, item in enumerate(quests["Main Quests"]):
+    name = item['name']
+    key = name.replace(" ", "").replace("!", "").replace("?", "").replace("-","").replace("'","").replace(":","").replace(",","")
+    main_quest[key] = {
+        "DisplayName": name,
+        "hash_id": f"0xMainQuest{i:02d}",
+    }
+
+side_quest = {}
+for i, item in enumerate(quests["Side Quests"]):
+    name = item['name']
+    key = name.replace(" ", "").replace("!", "").replace("?", "").replace("-","").replace("'","").replace(":","").replace(",","")
+    side_quest[key] = {
+        "DisplayName": name,
+        "hash_id": f"0xSideQuest{i:03d}",
+    }
+key_items = {}
+for i, item in enumerate(quests["Key Items"]):
+    name = item['name']
+    key = name.replace(" ", "").replace("!", "").replace("?", "").replace("-","").replace("'","").replace(":","").replace(",","").replace(")","").replace("(","")
+    key_items[key] = {
+        "DisplayName": name,
+        "hash_id": f"0xKeyItem{i:02d}",
+    }
+
 out = {
     "ROA": {
         "DisplayName": "Room of Awakening",
@@ -362,6 +407,10 @@ out = {
     "Cave": caves,
     "Chasm": chasms,
     "Well": wells,
+    "SideAdv": side_adv,
+    "MainQuest": main_quest,
+    "SideQuest": side_quest,
+    "KeyItem": key_items,
     "Enemy": {
         "Frox": frox,
         "Hinox": hinox,
@@ -455,6 +504,30 @@ out = {
         },
         "Memory": {
             "iconUrl": "memory.png",
+            "iconSize": [32,32],
+            "iconAnchor": [16,16],
+            "routeSize": [32,32],
+        },
+        "MainQuest": {
+            "iconUrl": "location.png",
+            "iconSize": [32,32],
+            "iconAnchor": [16,16],
+            "routeSize": [32,32],
+        },
+        "SideAdv": {
+            "iconUrl": "location.png",
+            "iconSize": [32,32],
+            "iconAnchor": [16,16],
+            "routeSize": [32,32],
+        },
+        "SideQuest": {
+            "iconUrl": "location.png",
+            "iconSize": [32,32],
+            "iconAnchor": [16,16],
+            "routeSize": [32,32],
+        },
+        "KeyItem": {
+            "iconUrl": "location.png",
             "iconSize": [32,32],
             "iconAnchor": [16,16],
             "routeSize": [32,32],
@@ -675,5 +748,3 @@ out = {
 }
 with open("celer_totk_metadata.json", "w") as f:
     json.dump(out, f, indent = 2)
-#for v in sorted(shrines.keys()):
-#    print(v)

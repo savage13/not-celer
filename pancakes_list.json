@@ -1,0 +1,1363 @@
+{
+   "Character Profiles" : [
+      {
+         "name" : "Zelda"
+      },
+      {
+         "name" : "Purah"
+      },
+      {
+         "name" : "Robbie"
+      },
+      {
+         "name" : "Josha"
+      },
+      {
+         "name" : "Impa"
+      },
+      {
+         "name" : "Paya"
+      },
+      {
+         "name" : "Tulin"
+      },
+      {
+         "name" : "Teba"
+      },
+      {
+         "name" : "Sidon"
+      },
+      {
+         "name" : "Yona"
+      },
+      {
+         "name" : "Dorephan"
+      },
+      {
+         "name" : "Yunobo"
+      },
+      {
+         "name" : "Riju"
+      },
+      {
+         "name" : "Buliara"
+      },
+      {
+         "name" : "Rhondson and Hudson"
+      },
+      {
+         "name" : "Tauro"
+      },
+      {
+         "name" : "Hestu"
+      },
+      {
+         "name" : "Deku Tree"
+      },
+      {
+         "name" : "Rauru"
+      },
+      {
+         "name" : "Mineru"
+      },
+      {
+         "name" : "Master Kohga"
+      },
+      {
+         "name" : "Demon King Ganondorf"
+      }
+   ],
+   "Fabrics" : [
+      {
+         "name" : "Ordinary Fabric",
+         "notes" : "Standard"
+      },
+      {
+         "name" : "Nostalgic Fabric ",
+         "notes" : "Top of Temple of Time ruins"
+      },
+      {
+         "name" : "Royal Hyrulean Fabric",
+         "notes" : "Where Hylian Shield was in botw"
+      },
+      {
+         "name" : "Goron Fabric",
+         "notes" : "Mine-Cart Land: Death Mountain"
+      },
+      {
+         "name" : "Zora Fabric",
+         "notes" : "The Blue Stone"
+      },
+      {
+         "name" : "Gerudo Fabric",
+         "notes" : "Southern Oasis Training"
+      },
+      {
+         "name" : "Sheikah Fabric",
+         "notes" : "Buy clothes in Kakariko"
+      },
+      {
+         "name" : "Zonai Fabric",
+         "notes" : "Legend of the Great Sky Island"
+      },
+      {
+         "name" : "Korok Fabric",
+         "notes" : "The Secret Room"
+      },
+      {
+         "name" : "Hudson Construction Fabric ",
+         "notes" : "Home on Arrange"
+      },
+      {
+         "name" : "Lucky Clover Gazette Fabric",
+         "notes" : "Two Lucky Clover Gazette Side Adventures"
+      },
+      {
+         "name" : "Lurelin Village Fabric",
+         "notes" : "Rattled Ralera"
+      },
+      {
+         "name" : "Horse-God Fabric ",
+         "notes" : "5 Pony Points"
+      },
+      {
+         "name" : "Monster-Control-Crew Fabric ",
+         "notes" : "Bring Peace to all regions"
+      },
+      {
+         "name" : "Zonai Survey Team Fabric",
+         "notes" : "Messages from an Ancient Era"
+      },
+      {
+         "name" : "Cece Fabric ",
+         "notes" : "Sayge gives this first time you talk"
+      },
+      {
+         "name" : "Addison's Fabric",
+         "notes" : "Reward for All Addison Signs"
+      },
+      {
+         "name" : "Robbie's Fabric",
+         "notes" : "Reward for All Compendium Pictures"
+      },
+      {
+         "name" : "Koltin's Fabric",
+         "notes" : "Reward for All Bubbulfrogs"
+      },
+      {
+         "name" : "Yiga Fabric",
+         "notes" : "Yiga Training"
+      },
+      {
+         "name" : "Horse Fabric ",
+         "notes" : "Show Sayge a picture of a Horse"
+      },
+      {
+         "name" : "Cucco Fabric ",
+         "notes" : "Show Sayge a picture of a Cucco"
+      },
+      {
+         "name" : "Eldin-Ostrich Fabric ",
+         "notes" : "Show Sayge a picture of an Eldin-Ostrich"
+      },
+      {
+         "name" : "Grizzlemaw-Bear Fabric",
+         "notes" : "Show Sayge a picture of a Grizzlemaw-Bear"
+      },
+      {
+         "name" : "Chuchu Fabric ",
+         "notes" : "Show Sayge a picture of a Chuchu"
+      },
+      {
+         "name" : "Aerocuda Fabric ",
+         "notes" : "Show Sayge a picture of an Aerocuda"
+      },
+      {
+         "name" : "Stalnox Fabric ",
+         "notes" : "Show Sayge a picture of a Stalnox"
+      },
+      {
+         "name" : "Lynel Fabric ",
+         "notes" : "Show Sayge a picture of a Lynel"
+      },
+      {
+         "name" : "Gleeok Fabric",
+         "notes" : "Show Sayge a picture of a Gleeok"
+      }
+   ],
+   "Key Items" : [
+      {
+         "name" : "Ultrahand",
+         "notes" : "From Great Sky Island Shrine"
+      },
+      {
+         "name" : "Fuse",
+         "notes" : "From Great Sky Island Shrine"
+      },
+      {
+         "name" : "Ascend",
+         "notes" : "From Great Sky Island Shrine"
+      },
+      {
+         "name" : "Recall",
+         "notes" : "From Great Sky Island Shrine"
+      },
+      {
+         "name" : "Autobuild",
+         "notes" : "From the Depths underneath Great Plateau"
+      },
+      {
+         "name" : "(Solemn) Vow of Tulin, Sage of Wind",
+         "notes" : "From Rito Main Quest"
+      },
+      {
+         "name" : "(Solemn) Vow of Yunobo, Sage of Fire",
+         "notes" : "From Goron Main quest"
+      },
+      {
+         "name" : "(Solemn) Vow of Sidon, Sage of Water",
+         "notes" : "From Zora Main Quest"
+      },
+      {
+         "name" : "(Solemn) Vow of Riju, Sage of Lightning",
+         "notes" : "From Gerudo Main Quest"
+      },
+      {
+         "name" : "(Solemn) Vow of Mineru, Sage of Spirit",
+         "notes" : "From Ring Ruins Main Quest"
+      },
+      {
+         "name" : "Purah Pad",
+         "notes" : "From Great Sky Island Construct"
+      },
+      {
+         "name" : "Camera",
+         "notes" : "From Robbie in Depths"
+      },
+      {
+         "name" : "Energy Cell",
+         "notes" : "From Great Sky Island Construct"
+      },
+      {
+         "name" : "Paraglider",
+         "notes" : "From Purah"
+      },
+      {
+         "name" : "Travel Medallion",
+         "notes" : "From Robbie in Hateno Tech Lab"
+      },
+      {
+         "name" : "Earthwake Manual",
+         "notes" : "From Yiga Blademaster Training"
+      },
+      {
+         "name" : "Korok Seed",
+         "notes" : "From Koroks"
+      },
+      {
+         "name" : "Poe",
+         "notes" : "From Poes"
+      },
+      {
+         "name" : "Crystallized Charge",
+         "notes" : "Many sources"
+      },
+      {
+         "name" : "Schema Stone",
+         "notes" : "From Constructs in the Depths"
+      },
+      {
+         "name" : "Yiga Schematic",
+         "notes" : "From Yiga Hideouts in the Depths"
+      },
+      {
+         "name" : "Old Map",
+         "notes" : "From Chests in the Sky"
+      },
+      {
+         "name" : "Pony Points Card",
+         "notes" : "From Stables"
+      },
+      {
+         "name" : "Sleepover Ticket",
+         "notes" : "Many Sources"
+      },
+      {
+         "name" : "All's Well",
+         "notes" : "Reward for finding all Wells"
+      },
+      {
+         "name" : "Dispelling Darkness Medal",
+         "notes" : "Reward for finding all Lightroots"
+      },
+      {
+         "name" : "Hestu's Gift",
+         "notes" : "Reward for finding all Koroks"
+      },
+      {
+         "name" : "Stone Talus Monster Medal",
+         "notes" : "Reward for killing all Talus"
+      },
+      {
+         "name" : "Hinox Monster Medal",
+         "notes" : "Reward for killing all Hinox"
+      },
+      {
+         "name" : "Molduga Monster Medal",
+         "notes" : "Reward for killing all Molduga"
+      },
+      {
+         "name" : "Gleeok Monster Medal",
+         "notes" : "Reward for killing all Gleeok"
+      },
+      {
+         "name" : "Frox Monster Medal",
+         "notes" : "Reward for killing all Frox"
+      },
+      {
+         "name" : "Flux Construct Monster Medal",
+         "notes" : "Reward for killing all Flux Construct"
+      },
+      {
+         "name" : "Towing Harness",
+         "notes" : "Reward for 3 Pony Points"
+      },
+      {
+         "name" : "Traveler's Bridle",
+         "notes" : "Reward for ? Pony Points"
+      },
+      {
+         "name" : "Knight's Bridle",
+         "notes" : "Reward for ? Pony Points"
+      },
+      {
+         "name" : "Royal Bridle",
+         "notes" : "Reward for Zelda's Golden Horse"
+      },
+      {
+         "name" : "Extravagant Bridle",
+         "notes" : "Reward for ? Pony Points"
+      },
+      {
+         "name" : "Monster Bridle",
+         "notes" : "Reward for A Monsterous Collection V"
+      },
+      {
+         "name" : "Traveler's Saddle",
+         "notes" : "Reward for ? Pony Points"
+      },
+      {
+         "name" : "Knight's Saddle",
+         "notes" : "Reward for ? Pony Points"
+      },
+      {
+         "name" : "Royal Saddle",
+         "notes" : "Reward for Zelda's Golden Horse"
+      },
+      {
+         "name" : "Extravagant Saddle",
+         "notes" : "Reward for ? Pony Points"
+      },
+      {
+         "name" : "Monster Saddle",
+         "notes" : "Reward for A Monsterous Collection V"
+      }
+   ],
+   "Main Quests" : [
+      {
+         "name" : "Destroy Ganondorf"
+      },
+      {
+         "name" : "Find Princess Zelda"
+      },
+      {
+         "name" : "The Closed Door"
+      },
+      {
+         "name" : "To the Kingdom of Hyrule"
+      },
+      {
+         "name" : "Regional Phenomena"
+      },
+      {
+         "name" : "Find the Fifth Sage"
+      },
+      {
+         "name" : "Crisis at Hyrule Castle"
+      },
+      {
+         "name" : "Trail of the Master Sword"
+      },
+      {
+         "name" : "Recovering the Hero's Sword"
+      },
+      {
+         "name" : "Tulin of Rito Village"
+      },
+      {
+         "name" : "Yunobo of Goron City"
+      },
+      {
+         "name" : "The Sludge-Covered Statue"
+      },
+      {
+         "name" : "The Broken Slate"
+      },
+      {
+         "name" : "Restoring the Zora Armor"
+      },
+      {
+         "name" : "Clues to the Sky"
+      },
+      {
+         "name" : "Sidon of the Zora"
+      },
+      {
+         "name" : "Riju of Gerudo Town"
+      },
+      {
+         "name" : "Secret of the Ring Ruins"
+      },
+      {
+         "name" : "Guidance from Ages Past"
+      },
+      {
+         "name" : "Camera Work in the Depths"
+      },
+      {
+         "name" : "A Mystery in the Depths"
+      },
+      {
+         "name" : "Impa and the Geoglyphs"
+      },
+      {
+         "name" : "The Dragon's Tears"
+      }
+   ],
+   "Shrine Quests" : [
+      {
+         "name" : "The Satori Mountain Crystal",
+         "notes" : "Crystal around Hinox neck in cave"
+      },
+      {
+         "name" : "The White Bird's Guidance",
+         "notes" : "Shrine in cave west of Rito Village"
+      },
+      {
+         "name" : "The Gisa Crater Crystal",
+         "notes" : "Crystal in Gisa Crate cave hole"
+      },
+      {
+         "name" : "The North Hebra Mountains Crystal",
+         "notes" : "Crystal on Frost Talus back"
+      },
+      {
+         "name" : "The Northwest Hebra Cave Crystal",
+         "notes" : "Crystal in cold lake"
+      },
+      {
+         "name" : "A Pretty Stone and Five Golden Apples",
+         "notes" : "Give 5 golden apples to korok"
+      },
+      {
+         "name" : "None Shall Pass?",
+         "notes" : "Crystal on Talus back, quest from korok"
+      },
+      {
+         "name" : "Maca's Special Place",
+         "notes" : "Drop down to shrine from the sky, quest from korok"
+      },
+      {
+         "name" : "The Death Caldera Crystal",
+         "notes" : "Crystal on Igneo Talus back"
+      },
+      {
+         "name" : "The Lake Intenoch Cave Crystal",
+         "notes" : "Crystal needs to go across lava"
+      },
+      {
+         "name" : "Rock for Sale",
+         "notes" : "Buy crystal in tarrey town"
+      },
+      {
+         "name" : "Dyeing to Find It",
+         "notes" : "Cast a shadow correctly near Rabia Plain"
+      },
+      {
+         "name" : "The High Spring and the Light Rings",
+         "notes" : "Shieldsurf through rings, starting in the sky above lanayru. Quest given at the spring on top"
+      },
+      {
+         "name" : "The Lanayru Road Crystal",
+         "notes" : "Get the crystal across the Lanayru Promenade"
+      },
+      {
+         "name" : "The Ralis Channel Crystal",
+         "notes" : "Get the crystal across the channel"
+      },
+      {
+         "name" : "Keys Born of Water",
+         "notes" : "Fit 3 different sized ice sheets into the keyholes"
+      },
+      {
+         "name" : "The Oakle's Navel Cave Crystal",
+         "notes" : "Take the crystal through the cave"
+      },
+      {
+         "name" : "Ride the Giant Horse",
+         "notes" : "Bring a giant horse to get the crystal"
+      },
+      {
+         "name" : "The Lake Hylia Crystal",
+         "notes" : "Crystal is in the sky, throw it into the whirlpool"
+      },
+      {
+         "name" : "Legend of the Soaring Spear",
+         "notes" : "Attach wings to a spear and throw it through the hole"
+      },
+      {
+         "name" : "The Gerudo Canyon Crystal",
+         "notes" : "Bring the crystal through the canyon"
+      },
+      {
+         "name" : "The North Hyrule Sky Crystal",
+         "notes" : "Get the crystal to the shrine"
+      },
+      {
+         "name" : "The South Hyrule Sky Crystal",
+         "notes" : "Get the crystal to the shrine"
+      },
+      {
+         "name" : "The Tabantha Sky Crystal",
+         "notes" : "Get the crystal to the shrine"
+      },
+      {
+         "name" : "The East Hebra Sky Crystal",
+         "notes" : "Get the crystal to the shrine"
+      },
+      {
+         "name" : "The Sky Mine Crystal",
+         "notes" : "Get the crystal to the shrine"
+      },
+      {
+         "name" : "The Sokkala Sky Crystal",
+         "notes" : "Get the crystal to the shrine"
+      },
+      {
+         "name" : "The South Lanayru Sky Crystal",
+         "notes" : "Get the crystal to the shrine"
+      },
+      {
+         "name" : "The North Necluda Sky Crystal",
+         "notes" : "Get the crystal to the shrine"
+      },
+      {
+         "name" : "The West Necluda Sky Crystal",
+         "notes" : "Get the crystal to the shrine"
+      },
+      {
+         "name" : "The Necluda Sky Crystal",
+         "notes" : "Get the crystal to the shrine"
+      }
+   ],
+   "Side Adventures" : [
+      {
+         "name" : "Hateno Village Research Lab",
+         "notes" : "Let Robbie install the sensor at Hateno Tech Lab"
+      },
+      {
+         "name" : "Filling out the Compendium",
+         "notes" : "Look at Robbie's Compendium pictures"
+      },
+      {
+         "name" : "Presenting: The Travel Medallion!",
+         "notes" : "Get all 3 Travel Medallions from Robbie"
+      },
+      {
+         "name" : "Presenting: Hero's Path Mode!",
+         "notes" : "15 Shrines then talk to Robbie"
+      },
+      {
+         "name" : "Presenting: Sensor +!",
+         "notes" : "5 Monster Pictures then talk to Robbie"
+      },
+      {
+         "name" : "Mattison's Independence",
+         "notes" : "Talk to Mattison and do what she says over and over untill she leaves"
+      },
+      {
+         "name" : "A Letter to Koyin",
+         "notes" : "Get the bottle in the lake, then go inside the farm"
+      },
+      {
+         "name" : "A New Signature Food",
+         "notes" : "Give Reede some cheese"
+      },
+      {
+         "name" : "Reede's Secret",
+         "notes" : "Ascend into the shed"
+      },
+      {
+         "name" : "Cece's Secret",
+         "notes" : "Watch her eat vegetables in the windmill"
+      },
+      {
+         "name" : "Team Cece or Team Reede?",
+         "notes" : "Give out 8 shrooms to non shroom wearing citizens"
+      },
+      {
+         "name" : "The Mayoral Election",
+         "notes" : "Do the 3 immediately above this"
+      },
+      {
+         "name" : "Ruffian-Infested Village",
+         "notes" : "Kill everything in Lurelin"
+      },
+      {
+         "name" : "Lurelin Village Restoration Project",
+         "notes" : "20 Hylian Rice, 15 Normal Logs, then go around fixing buildings"
+      },
+      {
+         "name" : "Potential Princess Sightings!",
+         "notes" : "Finish Penns adventures at every stable"
+      },
+      {
+         "name" : "The Beckoning Woman",
+         "notes" : "Penn at Outskirt Stable"
+      },
+      {
+         "name" : "Gourmets Gone Missing",
+         "notes" : "Penn at Riverside Stable"
+      },
+      {
+         "name" : "The Beast and the Princess",
+         "notes" : "Penn at New Serenne Stable"
+      },
+      {
+         "name" : "Zelda's Golden Horse",
+         "notes" : "Penn at Snowfield Stable"
+      },
+      {
+         "name" : "White Goats Gone Missing",
+         "notes" : "Penn at Tabantha Bridge Stable"
+      },
+      {
+         "name" : "For Our Princess!",
+         "notes" : "Penn at Foothill Stable"
+      },
+      {
+         "name" : "The All-Clucking Cucco",
+         "notes" : "Penn at South Akkala Stable"
+      },
+      {
+         "name" : "The Missing Farm Tools",
+         "notes" : "Penn at Wetland Stable"
+      },
+      {
+         "name" : "Princess Zelda Kidnapped?!",
+         "notes" : "Penn at Dueling Peaks Stable"
+      },
+      {
+         "name" : "An Eerie Voice",
+         "notes" : "Penn at Highland Stable"
+      },
+      {
+         "name" : "The Blocked Well",
+         "notes" : "Penn at Gerudo Canyon Stable"
+      },
+      {
+         "name" : "The Flute Player's Plan",
+         "notes" : "10 Fireflies to Pyper and then guide Haite to him"
+      },
+      {
+         "name" : "Honey, Bee Mine",
+         "notes" : "3 Honey to Beetz"
+      },
+      {
+         "name" : "The Hornist's Dramatic Escape",
+         "notes" : "Get Eustus out of the crater a bit after Tabantha Great Bridge"
+      },
+      {
+         "name" : "Serenade to a Great Fairy",
+         "notes" : "Penn at Woodland Stable"
+      },
+      {
+         "name" : "Serenade to Kaysa",
+         "notes" : "After Flute Player's Plan and first fairy go to Outskirt Stable"
+      },
+      {
+         "name" : "Serenade to Cotera",
+         "notes" : "After Honey, Bee Mine and first fairy go to Dueling Peaks Stable"
+      },
+      {
+         "name" : "Serenade to Mija",
+         "notes" : "After Hornist's Escape and first fairy go to Snowfield Stable"
+      },
+      {
+         "name" : "Bring Peace to Hyrule Field!",
+         "notes" : "Kill enemies at Hyrule Garrison Ruins"
+      },
+      {
+         "name" : "Bring Peace to Necluda!",
+         "notes" : "Kill enemies at Fort Hateno after Hyrule Field"
+      },
+      {
+         "name" : "Bring Peace to Eldin!",
+         "notes" : "Kill enemies at Lake Darman Monster Den"
+      },
+      {
+         "name" : "Bring Peace to Akkala!",
+         "notes" : "Kill enemies at Akkala Span after Eldin"
+      },
+      {
+         "name" : "Bring Peace to Faron!",
+         "notes" : "Kill enemies on ship at Menoat River"
+      },
+      {
+         "name" : "Bring Peace to Hebra!",
+         "notes" : "Kill enemies at South Tabantha Snowfield after Faron"
+      },
+      {
+         "name" : "Hestu's Concerns",
+         "notes" : "Kill the trees scaring Hestu and give him a korok seed"
+      },
+      {
+         "name" : "The Hunt for Bubbul Gems!",
+         "notes" : "Give Koltin a Bubbul Gem near Woodland Stable"
+      },
+      {
+         "name" : "The Search for Koltin",
+         "notes" : "Find Koltin somewhere"
+      },
+      {
+         "name" : "A Monsterous Collection I",
+         "notes" : "Bokoblin picture for Kilton"
+      },
+      {
+         "name" : "A Monsterous Collection II",
+         "notes" : "Horriblin picture for Kilton"
+      },
+      {
+         "name" : "A Monsterous Collection III",
+         "notes" : "Battle Talus picture for Kilton"
+      },
+      {
+         "name" : "A Monsterous Collection IV",
+         "notes" : "Frox picture for Kilton"
+      },
+      {
+         "name" : "A Monsterous Collection V",
+         "notes" : "King Gleeok picture for Kilton"
+      },
+      {
+         "name" : "Investigate the Thyphlo Ruins",
+         "notes" : "Talk to guy near tent infront of tower, then do next 4 adventures"
+      },
+      {
+         "name" : "The Owl Protected by Dragons",
+         "notes" : "Use Tulin at owl statue 0364 3055 0175"
+      },
+      {
+         "name" : "The Corridor between Two Dragons",
+         "notes" : "Use Yunobo inbetween dragons 0203 3122 0174"
+      },
+      {
+         "name" : "The Six Dragons",
+         "notes" : "Use Sidon spinattack at 6 dragons 0185 3181 0174"
+      },
+      {
+         "name" : "The Long Dragon",
+         "notes" : "Use Riju at 0451 3084 0175"
+      },
+      {
+         "name" : "Legend of the Great Sky Island",
+         "notes" : "Do contstruct minigame at the top of Temple of Time "
+      },
+      {
+         "name" : "Messages from an Ancient Era",
+         "notes" : "Take pictures of stone tablets on all the Star Islands"
+      },
+      {
+         "name" : "A Deal With the Statue",
+         "notes" : "Give and take back container at Horned Statue below Lookout Landing"
+      },
+      {
+         "name" : "Who Goes There?",
+         "notes" : "Tell Jerrin about the Horned Statue"
+      },
+      {
+         "name" : "A Call from the Depths",
+         "notes" : "Drain the Great Plateau entrance, talk to poe statue,talk to goddess statue in Temple of Time ruins,throw eyes into each of the four chasms,bring the eyes to the big poe statue"
+      },
+      {
+         "name" : "Infiltrating the Yiga Clan",
+         "notes" : "Get the 3 Yiga Pieces (GP, Akkala, aldor foothills) and go to Hideout"
+      },
+      {
+         "name" : "The Yiga Clan Exam",
+         "notes" : "Complete the Yiga Training in the Yiga Hideout"
+      },
+      {
+         "name" : "Master Kohga of the Yiga Clan",
+         "notes" : "Defeat Kohga at the Hebra Mine"
+      }
+   ],
+   "Side Quests" : [
+      {
+         "name" : "Spotting Spot",
+         "notes" : "Find the spotted horse for old guy at Lookout Landing"
+      },
+      {
+         "name" : "Village Attacked by Pirates",
+         "notes" : "Tell Garini (Lookout Landing) that Lurelin is safe"
+      },
+      {
+         "name" : "Today's Menu",
+         "notes" : "Give Burmano (Lookout Landing) an apple"
+      },
+      {
+         "name" : "The Incomplete Stable",
+         "notes" : "Fix the Mini Stable roof at Lookout Landing"
+      },
+      {
+         "name" : "WANTED: Stone Talus",
+         "notes" : "Hunt Talus at North Akkala Foothill"
+      },
+      {
+         "name" : "WANTED: Molduga",
+         "notes" : "Hunt Molduga at East Barrens"
+      },
+      {
+         "name" : "WANTED: Hinox",
+         "notes" : "Hunt Hinox at Trilby Plain"
+      },
+      {
+         "name" : "Unknown Sky Giant",
+         "notes" : "Hunt Flux Construct at West Hebra Sky Archipelago"
+      },
+      {
+         "name" : "Unknown Three-Headed Monster",
+         "notes" : "Hunt Gleeok at Bridge of Hylia"
+      },
+      {
+         "name" : "Unknown Huge Silhouette",
+         "notes" : "Hunt Frox in the Depths"
+      },
+      {
+         "name" : "The Horse Guard's Request",
+         "notes" : "Show Toffa (Outskirt Stable) a Stalhorse and a non-horse "
+      },
+      {
+         "name" : "A Picture for Outskirt Stable",
+         "notes" : "Picture of a Cherry-Blossom Tree"
+      },
+      {
+         "name" : "Feathered Fugitives",
+         "notes" : "Collect five cuccos for Teli at Riverside Stable"
+      },
+      {
+         "name" : "A Picture for Riverside Stable",
+         "notes" : "Picture of a Great Goddess Statue"
+      },
+      {
+         "name" : "Horse-Drawn Dreams",
+         "notes" : "Fix Zumi's wagon (New Serenne Stable) and give a horse"
+      },
+      {
+         "name" : "A Picture for New Serenne Stable",
+         "notes" : "Picture of a Geoglyph"
+      },
+      {
+         "name" : "Genli's Home Cooking",
+         "notes" : "Staminoka Bass for Genli (Rito Village)"
+      },
+      {
+         "name" : "Treasure of the Secret Springs",
+         "notes" : "Get Vah Medoh Divine Helm inside a cave (Tulin Quest)"
+      },
+      {
+         "name" : "Molli the Fletcher's Quest",
+         "notes" : "Give Molli (Rito Village) an Ice Fruit or Ice Chuchu Jelly"
+      },
+      {
+         "name" : "Legacy of the Rito",
+         "notes" : "Give Teba (Rito Village) 5 Wood, 3 Diamond, Swallow Bow"
+      },
+      {
+         "name" : "Fish for Fletching",
+         "notes" : "Give Bedoli (Rito Village) 3 Glowing Cave Fish"
+      },
+      {
+         "name" : "The Rito Rope Bridge",
+         "notes" : "Talk to Gesane (Lucky Clover Gazette), get Karson (Lookout Landing)Give Karson ? wood to fix the bridge"
+      },
+      {
+         "name" : "A Picture for Tabantha Bridge Stable",
+         "notes" : "Picture of a Sunrise at Ancient Columns"
+      },
+      {
+         "name" : "A Picture for Snowfield Stable",
+         "notes" : "Picture of Biron Snowshelf taken from Talonto Peak"
+      },
+      {
+         "name" : "Crossing the Cold Pool",
+         "notes" : "Give Verla (Hebra Mountains) 10 chillshrooms"
+      },
+      {
+         "name" : "Open the Door",
+         "notes" : "Kill the monsters outside the Lodge near Tabantha Village Ruins"
+      },
+      {
+         "name" : "Supply-Eyeing Fliers",
+         "notes" : "Defeat Aerocudas north of Tabantha Village Ruins"
+      },
+      {
+         "name" : "The Blocked Cave",
+         "notes" : "Clear a cave in Hebra Mountains"
+      },
+      {
+         "name" : "The Duchess Who Dissapeared",
+         "notes" : "Find Selmie inside East Biron Snowshelf Cave, then go to Lodge"
+      },
+      {
+         "name" : "Kaneli's Flight Training",
+         "notes" : "Complete Kaneli's Flight Training (Flight Range)"
+      },
+      {
+         "name" : "Cave Mushrooms That Glow",
+         "notes" : "Give Nat (Tabantha Frontier) 10 brightcaps"
+      },
+      {
+         "name" : "The Captured Tent",
+         "notes" : "Kill the monsters in Mount Drena Foothill Cave for Nat (Snowfield Stable)"
+      },
+      {
+         "name" : "Who Finds the Haven?",
+         "notes" : "Find the Mushrooms in Sturnida Springs Cave for Nat (Snowfield Stable)"
+      },
+      {
+         "name" : "Whirly Swirly Things",
+         "notes" : "Take a picture of a whirlpool and a sinkhole and show to Kula (Korok Forest)"
+      },
+      {
+         "name" : "The Secret Room",
+         "notes" : "Ascend inside the Deku Tree and give Oaki ? Princess and ? Nightshade"
+      },
+      {
+         "name" : "Walton's Treasure Hunt",
+         "notes" : "Find the Forest Dweller's Spear, Sword and Shield for Walton"
+      },
+      {
+         "name" : "Amber Dealer",
+         "notes" : "Give Ramella 10 amber (Goron City)"
+      },
+      {
+         "name" : "The Ancient City Gorondia!",
+         "notes" : "Give Dugby (Goron City) a minecart ride"
+      },
+      {
+         "name" : "The Ancient City Gorondia?",
+         "notes" : "Give Dugby (Goron City) another minecart ride"
+      },
+      {
+         "name" : "Soul of the Gorons",
+         "notes" : "Give Fugo (Goron City) 5 Flint, 3 Diamond, Cobble Crusher"
+      },
+      {
+         "name" : "Moon-Gazing Gorons",
+         "notes" : "Picture at noon inside Lake Ferona Cave for Tray (Goron City)"
+      },
+      {
+         "name" : "The Hidden Teasure at Lizard Lakes",
+         "notes" : "Vah Rudania Divine Helm inside Lizard's Burrow (Bludo Quest)"
+      },
+      {
+         "name" : "Simmerstone Springs",
+         "notes" : "Open the blocked entrances inside Gorko Tunnel for Kima (Goron City)"
+      },
+      {
+         "name" : "Cash In on Ripened Flint",
+         "notes" : "Give Gomo (Bedrock Bistro) flint untill he says some of it was ripened"
+      },
+      {
+         "name" : "Meat for Meat",
+         "notes" : "Give a Rock Roast to Mezer (Bedrock Bistro)"
+      },
+      {
+         "name" : "Rock Roast or Dust",
+         "notes" : "Give a Rock Roast to Cooke (Bedrock Bistro)"
+      },
+      {
+         "name" : "Mine-Cart Land: Open for Business!",
+         "notes" : "Minigame in Southern Mine (Bayge)"
+      },
+      {
+         "name" : "Mine-Cart Land: Quickshot Course",
+         "notes" : "Minigame in Southern Mine (Heehl)"
+      },
+      {
+         "name" : "Mine-Cart Land: Death Mountain",
+         "notes" : "Minigame on Death Mountain (Kabetta, talk to him in southern mine first)"
+      },
+      {
+         "name" : "A Picture for Woodland Stable",
+         "notes" : "Picture of Goron in Goron Hot Springs"
+      },
+      {
+         "name" : "A Picture for Foothill Stable",
+         "notes" : "Picture of Daruk sculpture"
+      },
+      {
+         "name" : "Fell into a Well!",
+         "notes" : "Help Dillie (Rebonae Bridge Well) out of the well"
+      },
+      {
+         "name" : "The Abandoned Laborer",
+         "notes" : "Help Mota out of Death Mountain West Tunnel"
+      },
+      {
+         "name" : "The Treasure Hunters",
+         "notes" : "Grab the chest in front of Domidak and Prissen (Rauru Hillside)"
+      },
+      {
+         "name" : "Misko's Cave of Chests",
+         "notes" : "Find the Ember Trousers in Cephla Lake Cave"
+      },
+      {
+         "name" : "Misko's Treasure: The Fierce Diety",
+         "notes" : "Have all 3 pieces of Fierce Deity Armour equipped inside Cephla Lake Cave"
+      },
+      {
+         "name" : "Misko's Treasure: Twins Manuscript",
+         "notes" : "Get Tingle piece inside Dueling Peaks South Cave (solution for puzzle is static)"
+      },
+      {
+         "name" : "Misko's Treasure: Pirate Manuscript",
+         "notes" : "Get Tingle piece inside Cape Cales Cliffbase Cave (whistle to open)"
+      },
+      {
+         "name" : "Misko's Treasure: Heroines Manuscript",
+         "notes" : "Get Tingle piece inside Statue of the Eighth Heroine Cave"
+      },
+      {
+         "name" : "Misko's Treasure of Awakening I",
+         "notes" : ""
+      },
+      {
+         "name" : "Misko's Treasure of Awakening II",
+         "notes" : ""
+      },
+      {
+         "name" : "Misko's Treasure of Awakening III",
+         "notes" : ""
+      },
+      {
+         "name" : "The Tarrey Town Race Is On!",
+         "notes" : ""
+      },
+      {
+         "name" : "Secrets Within",
+         "notes" : ""
+      },
+      {
+         "name" : "Master the Vehicle Prototype",
+         "notes" : ""
+      },
+      {
+         "name" : "Home on Arrange",
+         "notes" : ""
+      },
+      {
+         "name" : "Strongest in the World",
+         "notes" : ""
+      },
+      {
+         "name" : "The Gathering Pirates",
+         "notes" : ""
+      },
+      {
+         "name" : "A Picure for East Akkala Stable",
+         "notes" : ""
+      },
+      {
+         "name" : "Eldin's Colossal Fossil",
+         "notes" : ""
+      },
+      {
+         "name" : "Hebra's Colossal Fossil",
+         "notes" : ""
+      },
+      {
+         "name" : "Gerudo's Colossal Fossil",
+         "notes" : ""
+      },
+      {
+         "name" : "One-Hit Wonder!",
+         "notes" : ""
+      },
+      {
+         "name" : "A Picture for South Akkala Stable",
+         "notes" : ""
+      },
+      {
+         "name" : "True Treasure",
+         "notes" : ""
+      },
+      {
+         "name" : "Secret Treasure under the Great Fish",
+         "notes" : ""
+      },
+      {
+         "name" : "The Never-Ending Lecture",
+         "notes" : ""
+      },
+      {
+         "name" : "The Moonlit Princess",
+         "notes" : ""
+      },
+      {
+         "name" : "The Fort at Ja'Abu Ridge",
+         "notes" : ""
+      },
+      {
+         "name" : "Glory of the Zora",
+         "notes" : ""
+      },
+      {
+         "name" : "A Crabulous Deal",
+         "notes" : ""
+      },
+      {
+         "name" : "A Wife Wafted Away",
+         "notes" : ""
+      },
+      {
+         "name" : "A Token of Friendship",
+         "notes" : ""
+      },
+      {
+         "name" : "A Picture for Wetland Stable",
+         "notes" : ""
+      },
+      {
+         "name" : "An Uninvited Guest",
+         "notes" : ""
+      },
+      {
+         "name" : "The Blue Stone",
+         "notes" : ""
+      },
+      {
+         "name" : "The Ultimate Dish?",
+         "notes" : ""
+      },
+      {
+         "name" : "Mired in Muck",
+         "notes" : ""
+      },
+      {
+         "name" : "Out of the Inn",
+         "notes" : ""
+      },
+      {
+         "name" : "Follow the Cuccos",
+         "notes" : ""
+      },
+      {
+         "name" : "A Trip through history",
+         "notes" : ""
+      },
+      {
+         "name" : "Codgers' Quarrel",
+         "notes" : ""
+      },
+      {
+         "name" : "Gloom-Borne Illness",
+         "notes" : ""
+      },
+      {
+         "name" : "A New Champion's Tunic",
+         "notes" : ""
+      },
+      {
+         "name" : "Teach Me a Lesson I",
+         "notes" : ""
+      },
+      {
+         "name" : "Teach Me a Lesson II",
+         "notes" : ""
+      },
+      {
+         "name" : "Dantz's Price Cows",
+         "notes" : ""
+      },
+      {
+         "name" : "Homegrown in Hateno",
+         "notes" : ""
+      },
+      {
+         "name" : "Photographing a Chuchu",
+         "notes" : ""
+      },
+      {
+         "name" : "Uma's Garden",
+         "notes" : ""
+      },
+      {
+         "name" : "Manny's Beloved",
+         "notes" : ""
+      },
+      {
+         "name" : "Lurelin Resort Project",
+         "notes" : ""
+      },
+      {
+         "name" : "Dad's Blue Shirt",
+         "notes" : ""
+      },
+      {
+         "name" : "A Way to Trade, Washed Away",
+         "notes" : ""
+      },
+      {
+         "name" : "Rattled Ralera",
+         "notes" : ""
+      },
+      {
+         "name" : "A Picture for Dueling Peaks Stable",
+         "notes" : ""
+      },
+      {
+         "name" : "A Bottle Cry for Help",
+         "notes" : ""
+      },
+      {
+         "name" : "Seeking the Pirate Hideout",
+         "notes" : ""
+      },
+      {
+         "name" : "Ousting the Giants",
+         "notes" : ""
+      },
+      {
+         "name" : "A Picture for Lakeside Stable",
+         "notes" : ""
+      },
+      {
+         "name" : "A Picture for Highland Stable",
+         "notes" : ""
+      },
+      {
+         "name" : "The Heroines' Secret",
+         "notes" : ""
+      },
+      {
+         "name" : "Treasure of the Gerudo Desert",
+         "notes" : ""
+      },
+      {
+         "name" : "Pride of the Gerudo",
+         "notes" : ""
+      },
+      {
+         "name" : "Dalia's Game",
+         "notes" : ""
+      },
+      {
+         "name" : "The Mysterious Eighth",
+         "notes" : ""
+      },
+      {
+         "name" : "The Missing Owner",
+         "notes" : ""
+      },
+      {
+         "name" : "To the Ruins!",
+         "notes" : ""
+      },
+      {
+         "name" : "Decorate with Passion",
+         "notes" : ""
+      },
+      {
+         "name" : "Lost in the Dunes",
+         "notes" : ""
+      },
+      {
+         "name" : "A Picture for the Closed Stable I",
+         "notes" : ""
+      },
+      {
+         "name" : "A Picture for the Closed Stable II",
+         "notes" : ""
+      },
+      {
+         "name" : "Piaffe, Packed Away",
+         "notes" : ""
+      },
+      {
+         "name" : "Gleeok Guts",
+         "notes" : ""
+      },
+      {
+         "name" : "Disaster in Gerudo Canyon",
+         "notes" : ""
+      },
+      {
+         "name" : "The Great Tumbleweed Purge",
+         "notes" : ""
+      },
+      {
+         "name" : "Heat-Endurance Contest!",
+         "notes" : ""
+      },
+      {
+         "name" : "Cold-Endurance Contest!",
+         "notes" : ""
+      },
+      {
+         "name" : "The Iceless Icehouse",
+         "notes" : ""
+      },
+      {
+         "name" : "Where Are the Wells?",
+         "notes" : ""
+      },
+      {
+         "name" : "Ancient Blades Below",
+         "notes" : ""
+      },
+      {
+         "name" : "The North Lomei Prophecy",
+         "notes" : ""
+      },
+      {
+         "name" : "The Lomei Labyrinth Island Prophecy",
+         "notes" : ""
+      },
+      {
+         "name" : "The South Lomei Prohecy",
+         "notes" : ""
+      },
+      {
+         "name" : "Goddess Statue of Wisdom",
+         "notes" : ""
+      },
+      {
+         "name" : "Goddess Statue of Power",
+         "notes" : ""
+      },
+      {
+         "name" : "Goddess Statue of Courage",
+         "notes" : ""
+      },
+      {
+         "name" : "The Mother Goddess Statue",
+         "notes" : ""
+      },
+      {
+         "name" : "The Shrine Explorer",
+         "notes" : ""
+      }
+   ]
+}

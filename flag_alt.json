@@ -17,5 +17,51 @@
     "IsVisitLocation.Tower12": [ "IsOpenCannon.Tower12" ],
     "IsVisitLocation.Tower13": [ "IsOpenCannon.Tower13" ],
     "IsVisitLocation.Tower14": [ "IsOpenCannon.Tower14" ],
-    "IsVisitLocation.Tower15": [ "IsOpenCannon.Tower15" ]
+    "IsVisitLocation.Tower15": [ "IsOpenCannon.Tower15" ],
+    "IsVisitLocation.City_BaseCamp": [
+        "IsVisitLocation.ShopGeneral_BaseCamp",
+        "IsVisitLocation.ShopArmor_BaseCamp"
+    ],
+    "IsVisitLocation.Cokiri": [
+        "IsVisitLocation.ShopInn_Korok",
+        "IsVisitLocation.ShopGeneral_Korok"
+    ],
+    "IsVisitLocation.Hateno": [
+        "IsVisitLocation.ShopInn_Hateno",
+        "IsVisitLocation.ShopGeneral_Hateno",
+        "IsVisitLocation.ShopArmor_Hateno",
+        "IsVisitLocation.ShopDye_Hateno",
+        "tested"
+    ],
+    "IsVisitLocation.Rito": [
+        "IsVisitLocation.ShopInn_Rito",
+        "IsVisitLocation.ShopGeneral_Rito",
+        "IsVisitLocation.ShopArmor_Rito"
+    ],
+    "IsVisitLocation.Kakariko": [
+        "IsVisitLocation.ShopInn_Kakariko",
+        "IsVisitLocation.ShopGeneral_Kakariko",
+        "IsVisitLocation.ShopArmor_Kakariko",
+        "tested"
+    ],
+    "IsVisitLocation.Goron": [
+        "IsVisitLocation.ShopInn_Goron",
+        "IsVisitLocation.ShopGeneral_Goron",
+        "IsVisitLocation.ShopArmor_Goron"
+    ],
+    "IsVisitLocation.WhiteZora": [
+        "IsVisitLocation.ShopInn_Zora",
+        "IsVisitLocation.ShopGeneral_Zora",
+        "tested"
+    ],
+    "IsVisitLocation.UMiiVillage": [
+        "IsVisitLocation.ShopInn_UMiiVillage",
+        "IsVisitLocation.ShopGeneral_UMiiVillage",
+        "tested"
+    ],
+    "IsVisitLocation.Oasis": [
+        "IsVisitLocation.ShopInn_Oasis",
+        "IsVisitLocation.ShopGeneral_Oasis",
+        "tested"
+    ]
 }

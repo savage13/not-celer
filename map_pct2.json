@@ -11926,7 +11926,7 @@
     {
       "flag": "IsVisitLocation.LostForest",
       "name": "LostForest",
-      "ui_name": "Lurker in the Lost Woods",
+      "ui_name": "Lost Woods",
       "InstanceID": [
         "7629855486717950798"
       ],

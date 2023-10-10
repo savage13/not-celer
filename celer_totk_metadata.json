@@ -32048,14 +32048,14 @@
       "DisplayName": "Temple of Time Ruins",
       "flag": "IsVisitLocation.TimesShrine"
     },
-    "LurkerintheLostWoods": {
+    "LostWoods": {
       "hash_id": "0x69e2b123f5637b4e",
       "pos": [
         723.0,
         243.5,
         -1918.5
       ],
-      "DisplayName": "Lurker in the Lost Woods",
+      "DisplayName": "Lost Woods",
       "flag": "IsVisitLocation.LostForest"
     },
     "WellspringIsland": {

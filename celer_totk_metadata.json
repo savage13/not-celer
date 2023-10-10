@@ -31778,14 +31778,14 @@
       "DisplayName": "Great Sky Island",
       "flag": "IsVisitLocation.BeginningIsland"
     },
-    "GuardianoftheRisingIslandChain": {
+    "RisingIslandChain": {
       "hash_id": "0x4930a314aa269383",
       "pos": [
         -3156.0,
         2000.0,
         -3215.0
       ],
-      "DisplayName": "Guardian of the Rising Island Chain",
+      "DisplayName": "Rising Island Chain",
       "flag": "IsVisitLocation.Rito_SkyHighIsland"
     },
     "EldinSkyArchipelago": {

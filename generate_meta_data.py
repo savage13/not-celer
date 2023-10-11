@@ -382,6 +382,10 @@ for i, item in enumerate(quests["Side Quests"]):
         side_quest[key]['mappct'] = {
             'flag_alt': ['WashedAwayBusinessTools_IsCompleted_Exp']
         }
+    if key == "TheIncompleteStable":
+        side_quest[key]['mappct'] = {
+            'flag_alt': ['BuildingMaterialsTutorial_Give']
+        }
 
     
 key_items = {}

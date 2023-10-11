@@ -28495,7 +28495,12 @@
     },
     "TheIncompleteStable": {
       "DisplayName": "The Incomplete Stable",
-      "hash_id": "0xSideQuest003"
+      "hash_id": "0xSideQuest003",
+      "mappct": {
+        "flag_alt": [
+          "BuildingMaterialsTutorial_Give"
+        ]
+      }
     },
     "WANTEDStoneTalus": {
       "DisplayName": "WANTED: Stone Talus",

@@ -392,6 +392,10 @@ for i, item in enumerate(quests["Side Quests"]):
         side_quest[key]['mappct'] = {
             'flag_alt': ['BuildingMaterialsTutorial_Give']
         }
+    if key == "LurelinResortProject":
+        side_quest[key]['mappct'] = {
+            'flag_alt': ['Uotori_ResortPlan_IsCompleted_Exp']
+        }
 
     
 key_items = {}

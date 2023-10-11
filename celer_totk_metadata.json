@@ -28893,7 +28893,12 @@
     },
     "LurelinResortProject": {
       "DisplayName": "Lurelin Resort Project",
-      "hash_id": "0xSideQuest101"
+      "hash_id": "0xSideQuest101",
+      "mappct": {
+        "flag_alt": [
+          "Uotori_ResortPlan_IsCompleted_Exp"
+        ]
+      }
     },
     "DadsBlueShirt": {
       "DisplayName": "Dad's Blue Shirt",

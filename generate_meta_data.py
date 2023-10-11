@@ -378,6 +378,12 @@ for i, item in enumerate(quests["Side Quests"]):
         "DisplayName": name,
         "hash_id": f"0xSideQuest{i:03d}",
     }
+    if key == "AWaytoTradeWashedAway":
+        side_quest[key]['mappct'] = {
+            'flag_alt': ['WashedAwayBusinessTools_IsCompleted_Exp']
+        }
+
+    
 key_items = {}
 for i, item in enumerate(quests["Key Items"]):
     name = item['name']

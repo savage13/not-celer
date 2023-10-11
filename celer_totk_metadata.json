@@ -28891,7 +28891,12 @@
     },
     "AWaytoTradeWashedAway": {
       "DisplayName": "A Way to Trade, Washed Away",
-      "hash_id": "0xSideQuest103"
+      "hash_id": "0xSideQuest103",
+      "mappct": {
+        "flag_alt": [
+          "WashedAwayBusinessTools_IsCompleted_Exp"
+        ]
+      }
     },
     "RattledRalera": {
       "DisplayName": "Rattled Ralera",

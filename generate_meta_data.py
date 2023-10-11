@@ -359,6 +359,12 @@ for item in quests['Side Adventures']:
         side_adv[key]['mappct'] = {
             'flag_alt': ['Revive_Restaurant', "Revive_Inn", "Revive_TreasureShop"]
         }
+    if key == "AMonsterousCollectionI":
+        side_adv[key]['mappct'] = {
+            'flag_alt': ['MonsterFigures01_IsCompleted_Exp']
+        }
+
+
     i += 1
 main_quest = {}
 

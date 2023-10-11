@@ -28298,7 +28298,12 @@
     "AMonsterousCollectionI": {
       "hash_id": "0xSideAdv42",
       "DisplayName": "A Monsterous Collection I",
-      "notes": "Bokoblin picture for Kilton"
+      "notes": "Bokoblin picture for Kilton",
+      "mappct": {
+        "flag_alt": [
+          "MonsterFigures01_IsCompleted_Exp"
+        ]
+      }
     },
     "AMonsterousCollectionII": {
       "hash_id": "0xSideAdv43",

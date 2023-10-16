@@ -1169,6 +1169,52 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
               }
           }
       }
+
+      let POUCH = {};
+      let POUCH_LOGIC = {};
+      function pouch_logic(key, name) {
+          const full = [key,name].join("::")
+          const logic = POUCH_LOGIC[full];
+          if(logic === undefined)
+              return undefined;
+          if(logic.action == "add")
+              _counters[key][name] += logic.value
+          if(logic.action == "pouch_add") {
+              POUCH[[key,name].join("::")] = { key, name, full }
+              _counters[key][name] = 1;
+          }
+          if(logic.action == "pouch_get") {
+              if(key in _counters)
+                  _counters[key][name] = 1;
+              for(const key_name of logic.items) {
+                  let item = POUCH[key_name];
+                  if(!item)
+                      continue
+                  _counters[item.key][item.name] = 1
+                  if(logic.mappct !== false) {
+                      counter_inc_mappct(item.key, item.name)
+                  }
+                  delete POUCH[key_name]
+              }
+          }
+          if(logic.mappct !== false)
+              counter_inc_mappct(key, name)
+          if(key in _counters)
+              return { count: sum( Object.values(_counters[key]) ) }
+          return { }
+      }
+
+      function counter_inc_mappct(key, name) {
+          const tmp = [key,name].join("::")
+          const m = meta_get(tmp);
+          if(m === undefined || m.mappct === undefined)
+              return false
+
+          counter_mappct_flag(m.mappct.flag)
+          m.mappct.flag_alt.forEach(alt => counter_mappct_flag(alt))
+          return true
+      }
+
       function counter_inc(key, name, warp) {
           if(warp)
               return undefined
@@ -1183,20 +1229,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
               }
           }
           key = key.slice(0,-1).map(k => k.name).join('::')
+
+          let ret = pouch_logic(key, name);
+          if(ret !== undefined)
+              return ret;
+
           if(key in _counters) {
-              let has_mappct = false
-              { // mappct
-                  const tmp = [key,name].join("::")
-                  const m = meta_get(tmp);
-                  if(m && m.mappct) {
-                      counter_mappct_flag(m.mappct.flag)
-                      m.mappct.flag_alt.forEach(alt => counter_mappct_flag(alt))
-                      has_mappct = true
-                  } else if(m) {
-                  } else {
-                      console.log("Error finding meta data", tmp)
-                  }
-              }
+              let has_mappct = counter_inc_mappct(key, name);
               if(name in _counters[key] && !has_mappct)
                   warn(`Duplicate of ${key} ${name}`)
               _counters[key][name] = 1;
@@ -1205,10 +1244,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                   if(korok && korok.korok_type == "Korok Friends")
                       _counters[key][name] += 1;
               }
-              return sum( Object.values(_counters[key]) );
-          }
-          if(key !== undefined) {
-              //console.log('unknown counter', key, name);
+              return { count: sum( Object.values(_counters[key]) ) };
           }
           return undefined;
       }
@@ -1541,7 +1577,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
               const res = await fetch('main.celer');
               txt = await res.text();
           }
-
+          POUCH_LOGIC = await load_json('pouch_logic.json')
           meta = await load_json('celer_totk_metadata.json')
           if(meta._icons) {
               for(const [name, opts] of Object.entries(meta._icons)) {
@@ -1593,6 +1629,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
               for(const [key,value] of Object.entries(values)) {
                   if(key in flag_alts) {
                       console.log(`setting alt flag for ${cat} :: ${key}`)
+                      if(!value.mappct)
+                          value.mappct = {}
                       value.mappct.flag_alt = [... flag_alts[key]]
                   }
               }
@@ -1832,8 +1870,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
               const ret = parse_name_to_line(part);
               const count = counter_inc(ret.kind, ret.key, ret.warp);
               if(count != undefined) {
-                  counter.textContent = `${count}`;
-                  counter.title = ret.kind.map(v=>v.name).join('::');
+                  if(count.count) {
+                      counter.textContent = `${count.count}`;
+                      counter.title = ret.kind.map(v=>v.name).join('::');
+                  }
                   PROGRESS[current_line] = counter_total();
               }
               set_route_icon(ret, icon)
@@ -1850,8 +1890,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           const ret = parse_name_to_line(name);
           const count = counter_inc(ret.kind, ret.key, ret.warp);
           if(count != undefined) {
-              counter.textContent = `${count}`;
-              counter.title = ret.kind.map(v=>v.name).join('::');
+              if(count.count) {
+                  counter.textContent = `${count.count}`;
+                  counter.title = ret.kind.map(v=>v.name).join('::');
+              }
               PROGRESS[current_line] = counter_total();
           }
           set_route_icon(ret, icon)

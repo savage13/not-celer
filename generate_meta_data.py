@@ -355,14 +355,6 @@ for item in quests['Side Adventures']:
         "DisplayName": name,
         "notes": item['notes']
     }
-    if key == "LurelinVillageRestorationProject":
-        side_adv[key]['mappct'] = {
-            'flag_alt': ['Revive_Restaurant', "Revive_Inn", "Revive_TreasureShop"]
-        }
-    if key == "AMonsterousCollectionI":
-        side_adv[key]['mappct'] = {
-            'flag_alt': ['MonsterFigures01_IsCompleted_Exp']
-        }
 
 
     i += 1
@@ -384,18 +376,6 @@ for i, item in enumerate(quests["Side Quests"]):
         "DisplayName": name,
         "hash_id": f"0xSideQuest{i:03d}",
     }
-    if key == "AWaytoTradeWashedAway":
-        side_quest[key]['mappct'] = {
-            'flag_alt': ['WashedAwayBusinessTools_IsCompleted_Exp']
-        }
-    if key == "TheIncompleteStable":
-        side_quest[key]['mappct'] = {
-            'flag_alt': ['BuildingMaterialsTutorial_Give']
-        }
-    if key == "LurelinResortProject":
-        side_quest[key]['mappct'] = {
-            'flag_alt': ['Uotori_ResortPlan_IsCompleted_Exp']
-        }
 
     
 key_items = {}

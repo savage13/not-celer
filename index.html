@@ -1586,6 +1586,18 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           }
           console.log(total, Object.keys(mappct).length)
 
+          // Set alt flags for everything based on name
+          for(const [cat, values] of Object.entries(meta)) {
+              if(cat == '_icons')
+                  continue
+              for(const [key,value] of Object.entries(values)) {
+                  if(key in flag_alts) {
+                      console.log(`setting alt flag for ${cat} :: ${key}`)
+                      value.mappct.flag_alt = [... flag_alts[key]]
+                  }
+              }
+          }
+
           for(const word of Object.keys(meta)) {
               if(word == "Enemy") {
                   for(const sub of Object.keys(meta[word])) {

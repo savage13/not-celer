@@ -28146,14 +28146,7 @@
     "LurelinVillageRestorationProject": {
       "hash_id": "0xSideAdv13",
       "DisplayName": "Lurelin Village Restoration Project",
-      "notes": "20 Hylian Rice, 15 Normal Logs, then go around fixing buildings",
-      "mappct": {
-        "flag_alt": [
-          "Revive_Restaurant",
-          "Revive_Inn",
-          "Revive_TreasureShop"
-        ]
-      }
+      "notes": "20 Hylian Rice, 15 Normal Logs, then go around fixing buildings"
     },
     "PotentialPrincessSightings": {
       "hash_id": "0xSideAdv14",
@@ -28298,12 +28291,7 @@
     "AMonsterousCollectionI": {
       "hash_id": "0xSideAdv42",
       "DisplayName": "A Monsterous Collection I",
-      "notes": "Bokoblin picture for Kilton",
-      "mappct": {
-        "flag_alt": [
-          "MonsterFigures01_IsCompleted_Exp"
-        ]
-      }
+      "notes": "Bokoblin picture for Kilton"
     },
     "AMonsterousCollectionII": {
       "hash_id": "0xSideAdv43",
@@ -28500,12 +28488,7 @@
     },
     "TheIncompleteStable": {
       "DisplayName": "The Incomplete Stable",
-      "hash_id": "0xSideQuest003",
-      "mappct": {
-        "flag_alt": [
-          "BuildingMaterialsTutorial_Give"
-        ]
-      }
+      "hash_id": "0xSideQuest003"
     },
     "WANTEDStoneTalus": {
       "DisplayName": "WANTED: Stone Talus",
@@ -28893,12 +28876,7 @@
     },
     "LurelinResortProject": {
       "DisplayName": "Lurelin Resort Project",
-      "hash_id": "0xSideQuest101",
-      "mappct": {
-        "flag_alt": [
-          "Uotori_ResortPlan_IsCompleted_Exp"
-        ]
-      }
+      "hash_id": "0xSideQuest101"
     },
     "DadsBlueShirt": {
       "DisplayName": "Dad's Blue Shirt",
@@ -28906,12 +28884,7 @@
     },
     "AWaytoTradeWashedAway": {
       "DisplayName": "A Way to Trade, Washed Away",
-      "hash_id": "0xSideQuest103",
-      "mappct": {
-        "flag_alt": [
-          "WashedAwayBusinessTools_IsCompleted_Exp"
-        ]
-      }
+      "hash_id": "0xSideQuest103"
     },
     "RattledRalera": {
       "DisplayName": "Rattled Ralera",
@@ -41174,7 +41147,7 @@
         1752.5604248046875
       ],
       "DisplayName": "StartPos Sky",
-      "flag": "(875717912)"
+      "flag": "IsGet.Obj_Warp"
     },
     "StartPos Depths": {
       "hash_id": "0xc9feb712f8e96a79",
@@ -41184,7 +41157,7 @@
         1940.6123046875
       ],
       "DisplayName": "StartPos Depths",
-      "flag": "(875717912) && OpenWarpPoint_BlueprintShrine"
+      "flag": "IsGet.Obj_Warp && OpenWarpPoint_BlueprintShrine"
     }
   },
   "Tear": {

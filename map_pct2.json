@@ -9281,7 +9281,9 @@
       "layer": "Surface"
     },
     {
-      "flag": "IsVisitLocation.ZoraZonauTerminal && IsVisitLocationArea_CaveEntrance.741356389245422926",
+     "flag_100": "IsVisitLocation.ZoraZonauTerminal && IsVisitLocationArea_CaveEntrance.741356389245422926",
+     "flag_110": "IsVisitLocation.ZoraZonauTerminal && IsVisitLocationArea_CaveEntrance.7287606388063823728",
+     "flag": "IsVisitLocation.ZoraZonauTerminal && IsVisitLocationArea_CaveEntrance.7287606388063823728",
       "name": "ZoraZonauTerminal",
       "ui_name": "Ancient Zora Waterworks",
       "InstanceID": [
@@ -27050,7 +27052,7 @@
   ],
   "warps": [
     {
-      "flag": "(875717912)",
+      "flag": "IsGet.Obj_Warp",
       "name": "StartPos",
       "ui_name": "StartPos Sky",
       "InstanceID": [
@@ -27069,7 +27071,7 @@
       "layer": "Sky"
     },
     {
-      "flag": "(875717912) && OpenWarpPoint_BlueprintShrine",
+      "flag": "IsGet.Obj_Warp && OpenWarpPoint_BlueprintShrine",
       "name": "StartPos",
       "ui_name": "StartPos Depths",
       "InstanceID": [
@@ -27090,7 +27092,7 @@
   ],
   "labs": [
     {
-      "flag": "IsVisitLocation.HatenoLab",
+      "flag": "IsVisitLocation.HatenoLabo",
       "name": "HatenoLabo",
       "ui_name": "Hateno Ancient Tech Lab",
       "InstanceID": [

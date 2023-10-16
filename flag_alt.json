@@ -63,5 +63,21 @@
         "IsVisitLocation.ShopInn_Oasis",
         "IsVisitLocation.ShopGeneral_Oasis",
         "tested"
+    ],
+    "LurelinVillageRestorationProject": [
+        "Revive_Restaurant", "Revive_Inn", "Revive_TreasureShop"
+    ],
+    "AMonsterousCollectionI": [
+        "MonsterFigures01_IsCompleted_Exp"
+    ],
+    "AWaytoTradeWashedAway": [
+        "WashedAwayBusinessTools_IsCompleted_Exp"
+    ],
+    "TheIncompleteStable": [
+        "BuildingMaterialsTutorial_Give"
+    ],
+    "LurelinResortProject": [
+        "Uotori_ResortPlan_IsCompleted_Exp"
     ]
+
 }

@@ -78,6 +78,13 @@
     ],
     "LurelinResortProject": [
         "Uotori_ResortPlan_IsCompleted_Exp"
+    ],
+    "SerenadetoaGreatFairy": [
+        "HaveTalked.HorseGod001",
+        "Fairy_MapOpen_DressFairy_00",
+        "Fairy_MapOpen_DressFairy_01",
+        "Fairy_MapOpen_DressFairy_02",
+        "Fairy_MapOpen"
     ]
 
 }

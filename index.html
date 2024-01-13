@@ -1066,7 +1066,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                   }
                   to.push( val )
               } else {
-                  console.log("unexpected object key", key, vals);
+                  console.log("unexpected object key", key, vals, obj);
               }
           }
           if(hide_icon_on_map) {
@@ -1153,6 +1153,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       }
 
       function counter_mappct_flag(flag) {
+          const dups = ["Korok", "Shrine"]
           if(!flag || !(flag in mappct_flag))
               return
           for(const item of mappct_flag[flag]) {
@@ -1160,8 +1161,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
               if(meta_hash[item.hash_id[0]].__key) {
                   let key = meta_hash[item.hash_id[0]].__key;
                   const name = key.at(-1)
-                  key = key.slice(0,-1)
+                  key = key.slice(0,-1).toString()
                   if(key in _counters) {
+                      if( dups.includes(key) &&
+                          (name in _counters[key]) &&
+                          _counters[key][name] > 0) {
+                          warn(`Duplicate of ${key} ${name}`)
+                      }
                       _counters[key][name] = 1;
                   } else {
                       console.log(`Error finding ${key} in counters`)

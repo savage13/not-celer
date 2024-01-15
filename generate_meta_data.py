@@ -372,6 +372,9 @@ side_quest = {}
 for i, item in enumerate(quests["Side Quests"]):
     name = item['name']
     key = name.replace(" ", "").replace("!", "").replace("?", "").replace("-","").replace("'","").replace(":","").replace(",","")
+    if name.startswith("The Ancient City Gorondia"):
+        key = name.replace(" ", "").replace("-","").replace("'","").replace(":","").replace(",","")
+        print("stupid",key)
     side_quest[key] = {
         "DisplayName": name,
         "hash_id": f"0xSideQuest{i:03d}",

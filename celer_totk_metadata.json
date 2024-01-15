@@ -28622,7 +28622,11 @@
       "DisplayName": "Amber Dealer",
       "hash_id": "0xSideQuest036"
     },
-    "TheAncientCityGorondia": {
+    "TheAncientCityGorondia!": {
+      "DisplayName": "The Ancient City Gorondia!",
+      "hash_id": "0xSideQuest037"
+    },
+    "TheAncientCityGorondia?": {
       "DisplayName": "The Ancient City Gorondia?",
       "hash_id": "0xSideQuest038"
     },

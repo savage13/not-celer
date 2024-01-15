@@ -29209,6 +29209,242 @@
       "hash_id": "0xKeyItem43"
     }
   },
+  "GoddessStatue": {
+    "00": {
+      "pos": [
+        -3610.42,
+        286.45,
+        -1805.15
+      ],
+      "DisplayName": "Goddess Statue",
+      "hash_id": "0x509711781766dae1"
+    },
+    "01": {
+      "pos": [
+        -3873.08,
+        139.27,
+        2971.81
+      ],
+      "DisplayName": "Goddess Statue",
+      "hash_id": "0xf9d494fb70e95971"
+    },
+    "02": {
+      "pos": [
+        -241.75,
+        114.7,
+        -85.85
+      ],
+      "DisplayName": "Goddess Statue",
+      "hash_id": "0xa3c411437da28e48"
+    },
+    "03": {
+      "pos": [
+        -823.26,
+        225.44,
+        2031.48
+      ],
+      "DisplayName": "Temple of Time Statue",
+      "hash_id": "0x8288958876fabf6b"
+    },
+    "04": {
+      "pos": [
+        -820.77,
+        225.46,
+        2029.74
+      ],
+      "DisplayName": "Goddess Statue",
+      "hash_id": "0x4eb9f0ba8daf6a69"
+    },
+    "05": {
+      "pos": [
+        -820.19,
+        225.46,
+        2032.36
+      ],
+      "DisplayName": "Goddess Statue",
+      "hash_id": "0x4eb9f0ba8a382eab"
+    },
+    "06": {
+      "pos": [
+        -822.3,
+        225.46,
+        2034.32
+      ],
+      "DisplayName": "Goddess Statue",
+      "hash_id": "0x4eb9f0ba4f506769"
+    },
+    "07": {
+      "pos": [
+        -825.32,
+        225.46,
+        2033.71
+      ],
+      "DisplayName": "Goddess Statue",
+      "hash_id": "0x4eb9f0bac9d26742"
+    },
+    "08": {
+      "pos": [
+        -826.46,
+        225.46,
+        2031.16
+      ],
+      "DisplayName": "Goddess Statue",
+      "hash_id": "0x4eb9f0ba135df9c3"
+    },
+    "09": {
+      "pos": [
+        -824.98,
+        225.46,
+        2028.9
+      ],
+      "DisplayName": "Goddess Statue",
+      "hash_id": "0x4eb9f0ba15fa3718"
+    },
+    "10": {
+      "pos": [
+        415.74,
+        258.73,
+        -2179.85
+      ],
+      "DisplayName": "Goddess Statue",
+      "hash_id": "0x50971178f4d992fd"
+    },
+    "11": {
+      "pos": [
+        874.84,
+        125.34,
+        2359
+      ],
+      "DisplayName": "Goddess Statue",
+      "hash_id": "0x3793956cdd1d8812"
+    },
+    "12": {
+      "pos": [
+        874.84,
+        125.34,
+        2359
+      ],
+      "DisplayName": "Spring of Courage Statue",
+      "hash_id": "0x482a61ade850ecb7"
+    },
+    "13": {
+      "pos": [
+        1722.25,
+        499.17,
+        -2456.24
+      ],
+      "DisplayName": "Goddess Statue",
+      "hash_id": "0x509711786eb4c78f"
+    },
+    "14": {
+      "pos": [
+        1840.12,
+        218.54,
+        997.89
+      ],
+      "DisplayName": "Goddess Statue",
+      "hash_id": "0x5097117849ccbedc"
+    },
+    "15": {
+      "pos": [
+        2923.36,
+        106.25,
+        3444.56
+      ],
+      "DisplayName": "Goddess Statue",
+      "hash_id": "0x50971178d7737bc4"
+    },
+    "16": {
+      "pos": [
+        3760.55,
+        111.16,
+        -2679.37
+      ],
+      "DisplayName": "Goddess Statue",
+      "hash_id": "0x3793956c92b4f35f"
+    },
+    "17": {
+      "pos": [
+        3760.55,
+        111.16,
+        -2679.37
+      ],
+      "DisplayName": "Spring of Power Statue",
+      "hash_id": "0x11dfe284c41613ab"
+    },
+    "18": {
+      "pos": [
+        3966.27,
+        233.84,
+        -1611.22
+      ],
+      "DisplayName": "Goddess Statue",
+      "hash_id": "0x509711781b4c7d3a"
+    },
+    "19": {
+      "pos": [
+        3316.89,
+        256.04,
+        -503.94
+      ],
+      "DisplayName": "Goddess Statue",
+      "hash_id": "0x5097117862586cc7"
+    },
+    "20": {
+      "pos": [
+        3910.78,
+        574.69,
+        1328.3
+      ],
+      "DisplayName": "Goddess Statue",
+      "hash_id": "0x3793956c6a170ccc"
+    },
+    "21": {
+      "pos": [
+        3910.78,
+        574.69,
+        1328.3
+      ],
+      "DisplayName": "Spring of Wisdom Statue",
+      "hash_id": "0xba5e6f62529d5136"
+    },
+    "22": {
+      "pos": [
+        3439.16,
+        236.02,
+        2098.46
+      ],
+      "DisplayName": "Goddess Statue",
+      "hash_id": "0x5097117853a0f7ae"
+    },
+    "23": {
+      "pos": [
+        4262.73,
+        210.86,
+        -2811.07
+      ],
+      "DisplayName": "Goddess Statue",
+      "hash_id": "0xef734bd8a53993ed"
+    },
+    "24": {
+      "pos": [
+        1335.5,
+        535.35,
+        3311.9
+      ],
+      "DisplayName": "Goddess Statue",
+      "hash_id": "0x1870a4f138d0ba2b"
+    },
+    "25": {
+      "pos": [
+        453.51,
+        1571.88,
+        770.44
+      ],
+      "DisplayName": "Great Goddess Statue",
+      "hash_id": "0x27edeb2972d69618"
+    }
+  },
   "Enemy": {
     "Frox": {
       "DH04": {

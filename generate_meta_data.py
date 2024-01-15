@@ -105,6 +105,12 @@ def transform(file, func):
 def frox_t(r, k, state):
     name = f"{k:02d}"
     return [name, name, state]
+def goddess_t(r, k, state):
+    name = "Goddess Statue"
+    key = f"{k:02d}"
+    if names.get(r['name']):
+        name = names.get(r['name'])
+    return [name, key, state]
 def frog_t(r, k, state):
     name = names[r['name']]
     if r.get('Id'):
@@ -155,6 +161,7 @@ flux = transform('raw_flux_location.json', frog_t)
 frogs = transform("raw_bubbulfrog_cave.json", frog_t)
 molduga = transform('raw_molduga_location.json', frog_t)
 chasms = transform('raw_chasm.json', chasm_t)
+goddess = transform('raw_goddess_statue.json', goddess_t)
 for value in chasms.values():
     value['Depths'] = copy.deepcopy(value)
     value['Depths']['pos'][1] = -512
@@ -374,7 +381,6 @@ for i, item in enumerate(quests["Side Quests"]):
     key = name.replace(" ", "").replace("!", "").replace("?", "").replace("-","").replace("'","").replace(":","").replace(",","")
     if name.startswith("The Ancient City Gorondia"):
         key = name.replace(" ", "").replace("-","").replace("'","").replace(":","").replace(",","")
-        print("stupid",key)
     side_quest[key] = {
         "DisplayName": name,
         "hash_id": f"0xSideQuest{i:03d}",
@@ -414,6 +420,7 @@ out = {
     "MainQuest": main_quest,
     "SideQuest": side_quest,
     "KeyItem": key_items,
+    "GoddessStatue": goddess,
     "Enemy": {
         "Frox": frox,
         "Hinox": hinox,

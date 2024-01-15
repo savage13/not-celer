@@ -25,3 +25,4 @@
 #curl 'https://radar-totk.zeldamods.org/objs/MainAndMinusField/?q=%22Sage%27s+Will%22' > raw_sage_will.json
 #curl 'https://radar-totk.zeldamods.org/objs/MainAndMinusField/?q=Obj_AutoBuilderDraftAssassin' > raw_yiga_schematics.json
 #curl 'https://radar-totk.zeldamods.org/objs/MainAndMinusField/?q=Josha%20OR%20(Servant_Minus00*%20NOT%20Forge%20NOT%20Minus0005%20NOT%20Minus0004%20NOT%20Minus0001)&withMapNames=false&limit=2000' > raw_schema_stones.json
+#curl 'https://radar-totk.zeldamods.org/objs/MainAndMinusField/?q=actor:%20GoddesStatue' > raw_goddess_statue.json

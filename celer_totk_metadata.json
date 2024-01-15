@@ -42582,7 +42582,773 @@
       "hash_id": "0xb09285f90ca0c4c8"
     }
   },
-  "Chest": {},
+  "Chest": {
+    "RoyalGuardUniform": {
+      "pos": [
+        -410.69,
+        181.38,
+        -853.11
+      ],
+      "DisplayName": "Royal Guard Uniform",
+      "hash_id": "0x8454518bd3470907"
+    },
+    "YigaMask": {
+      "pos": [
+        -781.55,
+        193.51,
+        2258.61
+      ],
+      "DisplayName": "Yiga Mask",
+      "hash_id": "0xf52ee4865692f2d9"
+    },
+    "ChargedShirt": {
+      "pos": [
+        1005.67,
+        119.2,
+        2539.38
+      ],
+      "DisplayName": "Charged Shirt",
+      "hash_id": "0x39dc37678ea4b6f9"
+    },
+    "ChargedTrousers": {
+      "pos": [
+        951.13,
+        118.2,
+        2705.68
+      ],
+      "DisplayName": "Charged Trousers",
+      "hash_id": "0x93165487fa1b22ef"
+    },
+    "ChargedHeaddress": {
+      "pos": [
+        985.23,
+        117.7,
+        2828.97
+      ],
+      "DisplayName": "Charged Headdress",
+      "hash_id": "0x89a9228b580d7c21"
+    },
+    "EmberTrousers": {
+      "pos": [
+        2578.4,
+        240.65,
+        -1430.5
+      ],
+      "DisplayName": "Ember Trousers",
+      "hash_id": "0xb35e4d017b8a90e4"
+    },
+    "IslandLobsterShirt": {
+      "pos": [
+        2924.5,
+        101.19,
+        3528.89
+      ],
+      "DisplayName": "Island Lobster Shirt",
+      "hash_id": "0xc9d1df932cb0c2e2"
+    },
+    "ZoraHelm": {
+      "pos": [
+        4094.22,
+        692.07,
+        -529.48
+      ],
+      "DisplayName": "Zora Helm",
+      "hash_id": "0x91bdfd85160ee294"
+    },
+    "WellWornHairBand": {
+      "pos": [
+        3305.35,
+        218.06,
+        2293.49
+      ],
+      "DisplayName": "Well-Worn Hair Band",
+      "hash_id": "0x3252067bab1f44f7"
+    },
+    "YigaArmor": {
+      "pos": [
+        4511.87,
+        353.01,
+        -3166.6
+      ],
+      "DisplayName": "Yiga Armor",
+      "hash_id": "0x46cbec72b4280774"
+    },
+    "ZonaiteShinGuards": {
+      "pos": [
+        4468.06,
+        1519.37,
+        -2025.77
+      ],
+      "DisplayName": "Zonaite Shin Guards",
+      "hash_id": "0xaae5763558f67927"
+    },
+    "ZonaiteWaistguard": {
+      "pos": [
+        2374.19,
+        1594.56,
+        1774.47
+      ],
+      "DisplayName": "Zonaite Waistguard",
+      "hash_id": "0xaa2d9e12d9c7c3f8"
+    },
+    "ZonaiteHelm": {
+      "pos": [
+        -3593.3,
+        1836.96,
+        -942.66
+      ],
+      "DisplayName": "Zonaite Helm",
+      "hash_id": "0xa09ce7fbf2edf7a3"
+    },
+    "ArchaicLegwear": {
+      "pos": [
+        361.13,
+        2334.3,
+        1631.99
+      ],
+      "DisplayName": "Archaic Legwear",
+      "hash_id": "0x956517992164cc8d"
+    },
+    "ArchaicTunic": {
+      "pos": [
+        238.5,
+        1469.56,
+        1558.29
+      ],
+      "DisplayName": "Archaic Tunic",
+      "hash_id": "0xf2cc9ff7c843788d"
+    },
+    "ArchaicWarmGreaves": {
+      "pos": [
+        768.12,
+        1693.4,
+        1338.25
+      ],
+      "DisplayName": "Archaic Warm Greaves",
+      "hash_id": "0x0692a3eac758d5df"
+    },
+    "AncientHerosAspect": {
+      "pos": [
+        453.51,
+        1573.47,
+        765.25
+      ],
+      "DisplayName": "Ancient Hero's Aspect",
+      "hash_id": "0xe7f1efba33463dc5"
+    },
+    "FierceDeityMask": {
+      "pos": [
+        3430.07,
+        -20.26,
+        -3297.83
+      ],
+      "DisplayName": "Fierce Deity Mask",
+      "hash_id": "0x0176edc5e4208fb0"
+    },
+    "FierceDeityArmor": {
+      "pos": [
+        3301.2,
+        501.39,
+        -1492.1
+      ],
+      "DisplayName": "Fierce Deity Armor",
+      "hash_id": "0xcf5ab20fae43cd26"
+    },
+    "SoldiersHelm": {
+      "pos": [
+        -232.08,
+        66.42,
+        -467.66
+      ],
+      "DisplayName": "Soldier's Helm",
+      "hash_id": "0xd312387337031721"
+    },
+    "SoldiersArmor": {
+      "pos": [
+        -267.6,
+        69.87,
+        -637.02
+      ],
+      "DisplayName": "Soldier's Armor",
+      "hash_id": "0x8ef4d973315ce0ce"
+    },
+    "SoldiersGreaves": {
+      "pos": [
+        -306.4,
+        99.27,
+        -280.93
+      ],
+      "DisplayName": "Soldier's Greaves",
+      "hash_id": "0xd838760edd1198f9"
+    },
+    "FierceDeityBoots": {
+      "pos": [
+        -1108.18,
+        140.9,
+        546.13
+      ],
+      "DisplayName": "Fierce Deity Boots",
+      "hash_id": "0xb1553f14bf2e04ca"
+    },
+    "RubberArmor": {
+      "pos": [
+        -69.78,
+        101.05,
+        1117.33
+      ],
+      "DisplayName": "Rubber Armor",
+      "hash_id": "0x22dbed3a2f5cf220"
+    },
+    "TrousersofAwakening": {
+      "pos": [
+        -1156.73,
+        140.47,
+        1264.05
+      ],
+      "DisplayName": "Trousers of Awakening",
+      "hash_id": "0xd8ce41b7f2b3f166"
+    },
+    "EmberShirt": {
+      "pos": [
+        1382.41,
+        399.97,
+        -2225.35
+      ],
+      "DisplayName": "Ember Shirt",
+      "hash_id": "0xe29ff2bf39e4300d"
+    },
+    "VahRudaniaDivineHelm": {
+      "pos": [
+        2283.21,
+        512.5,
+        -2990.99
+      ],
+      "DisplayName": "Vah Rudania Divine Helm",
+      "hash_id": "0x40ec36ea9ea82842"
+    },
+    "EmberHeaddress": {
+      "pos": [
+        1576.64,
+        487.74,
+        -2756.92
+      ],
+      "DisplayName": "Ember Headdress",
+      "hash_id": "0x2175d8d6ad3e9dd7"
+    },
+    "RubberHelm": {
+      "pos": [
+        1593.11,
+        81.74,
+        2945.73
+      ],
+      "DisplayName": "Rubber Helm",
+      "hash_id": "0x1bee8b175b67936a"
+    },
+    "PhantomHelmet": {
+      "pos": [
+        297.52,
+        156.62,
+        3776.58
+      ],
+      "DisplayName": "Phantom Helmet",
+      "hash_id": "0x4c428abdb477d26b"
+    },
+    "PhantomGreaves": {
+      "pos": [
+        -2522.79,
+        74.8,
+        3738.85
+      ],
+      "DisplayName": "Phantom Greaves",
+      "hash_id": "0x916b701d323afe0f"
+    },
+    "VahNaborisDivineHelm": {
+      "pos": [
+        -4673.2,
+        105.76,
+        2091.71
+      ],
+      "DisplayName": "Vah Naboris Divine Helm",
+      "hash_id": "0xfda4630289c3d98e"
+    },
+    "TinglesHood": {
+      "pos": [
+        -4449.19,
+        562.6,
+        640.47
+      ],
+      "DisplayName": "Tingle's Hood",
+      "hash_id": "0x91e067ae51bd7f2e"
+    },
+    "TinglesShirt": {
+      "pos": [
+        1215.86,
+        378.96,
+        2053.35
+      ],
+      "DisplayName": "Tingle's Shirt",
+      "hash_id": "0x70aeffa7d6938e85"
+    },
+    "FrostbiteHeaddress": {
+      "pos": [
+        -3881.77,
+        98.97,
+        -2887.96
+      ],
+      "DisplayName": "Frostbite Headdress",
+      "hash_id": "0xcd8a8fcd1670d3cf"
+    },
+    "FrostbiteTrousers": {
+      "pos": [
+        -2904.85,
+        507.68,
+        -2571.12
+      ],
+      "DisplayName": "Frostbite Trousers",
+      "hash_id": "0x00fe5c925a55dbfe"
+    },
+    "FrostbiteShirt": {
+      "pos": [
+        -3043.44,
+        292.57,
+        -1528.74
+      ],
+      "DisplayName": "Frostbite Shirt",
+      "hash_id": "0xcdc19d19ab84da62"
+    },
+    "VahMedohDivineHelm": {
+      "pos": [
+        -3960.8,
+        245.61,
+        -3268.18
+      ],
+      "DisplayName": "Vah Medoh Divine Helm",
+      "hash_id": "0x7efb47d20a752a79"
+    },
+    "YigaTights": {
+      "pos": [
+        -665.05,
+        270.13,
+        -2108.23
+      ],
+      "DisplayName": "Yiga Tights",
+      "hash_id": "0xef9f400d42f54713"
+    },
+    "ClimbingGear": {
+      "pos": [
+        -1214.24,
+        174.85,
+        -773.97
+      ],
+      "DisplayName": "Climbing Gear",
+      "hash_id": "0x85026de3b7751cff"
+    },
+    "PhantomArmor": {
+      "pos": [
+        -2967.62,
+        140.78,
+        980.88
+      ],
+      "DisplayName": "Phantom Armor",
+      "hash_id": "0xe09f067d5e1ebe80"
+    },
+    "MaskofAwakening": {
+      "pos": [
+        -2268.05,
+        187.82,
+        -841.44
+      ],
+      "DisplayName": "Mask of Awakening",
+      "hash_id": "0xa0917d1cb603208f"
+    },
+    "BarbarianHelm": {
+      "pos": [
+        2542.92,
+        82.11,
+        1542.86
+      ],
+      "DisplayName": "Barbarian Helm",
+      "hash_id": "0xe7d7102be3414d27"
+    },
+    "BarbarianLegWraps": {
+      "pos": [
+        4050.23,
+        262.01,
+        1874.81
+      ],
+      "DisplayName": "Barbarian Leg Wraps",
+      "hash_id": "0xc6b3b332f3200193"
+    },
+    "TinglesTights": {
+      "pos": [
+        3512.63,
+        110.08,
+        3264.11
+      ],
+      "DisplayName": "Tingle's Tights",
+      "hash_id": "0xf9e38777a802cf6a"
+    },
+    "ClimbingBoots": {
+      "pos": [
+        2849.71,
+        294.08,
+        -542.59
+      ],
+      "DisplayName": "Climbing Boots",
+      "hash_id": "0xa891b810c76f41bf"
+    },
+    "RubberTights": {
+      "pos": [
+        4276.48,
+        84.3,
+        378.05
+      ],
+      "DisplayName": "Rubber Tights",
+      "hash_id": "0xa8bbf85d3fc807d9"
+    },
+    "BarbarianArmor": {
+      "pos": [
+        632.05,
+        133.11,
+        -819.64
+      ],
+      "DisplayName": "Barbarian Armor",
+      "hash_id": "0x1581dd1ac8500603"
+    },
+    "ClimbersBandanna": {
+      "pos": [
+        3712.38,
+        416.02,
+        -494.84
+      ],
+      "DisplayName": "Climber's Bandanna",
+      "hash_id": "0xc6efdd186a1563a4"
+    },
+    "VahRutaDivineHelm": {
+      "pos": [
+        3336.88,
+        125,
+        -545.68
+      ],
+      "DisplayName": "Vah Ruta Divine Helm",
+      "hash_id": "0xe73ddd136e1d48f6"
+    },
+    "TunicofAwakening": {
+      "pos": [
+        -3535.25,
+        348.06,
+        -410.16
+      ],
+      "DisplayName": "Tunic of Awakening",
+      "hash_id": "0xc2d10cf79f12a7c2"
+    },
+    "ZoraGreaves": {
+      "pos": [
+        3585.24,
+        2.5,
+        -246.84
+      ],
+      "DisplayName": "Zora Greaves",
+      "hash_id": "0x41694fb915775880"
+    },
+    "RoyalGuardBoots": {
+      "pos": [
+        -174.51,
+        320.46,
+        -1122.64
+      ],
+      "DisplayName": "Royal Guard Boots",
+      "hash_id": "0x6cc5e62a11caa9ec"
+    },
+    "RoyalGuardCap": {
+      "pos": [
+        -331.86,
+        406.46,
+        -1005.72
+      ],
+      "DisplayName": "Royal Guard Cap",
+      "hash_id": "0xdad9d9b4b8384f79"
+    },
+    "ChampionsLeathers": {
+      "pos": [
+        -254,
+        456.03,
+        -1091.87
+      ],
+      "DisplayName": "Champion's Leathers",
+      "hash_id": "0x33b0e505a8192793"
+    },
+    "CapofTime": {
+      "pos": [
+        -4079.21,
+        -344.94,
+        -2801
+      ],
+      "DisplayName": "Cap of Time",
+      "hash_id": "0x73ea5c9bbce249a5"
+    },
+    "TrousersofTime": {
+      "pos": [
+        -4180.42,
+        -1016.29,
+        698.37
+      ],
+      "DisplayName": "Trousers of Time",
+      "hash_id": "0xdbe4a4518b61b91c"
+    },
+    "TunicoftheWild": {
+      "pos": [
+        -4879.21,
+        -353.16,
+        3719.52
+      ],
+      "DisplayName": "Tunic of the Wild",
+      "hash_id": "0x5edd98fda58e0e87"
+    },
+    "SheiksMask": {
+      "pos": [
+        -4310.56,
+        -374.21,
+        3782.04
+      ],
+      "DisplayName": "Sheik's Mask",
+      "hash_id": "0x81c3a29d459678d3"
+    },
+    "CapoftheWild": {
+      "pos": [
+        -3955.03,
+        -752.66,
+        -3724.56
+      ],
+      "DisplayName": "Cap of the Wild",
+      "hash_id": "0x0f5981ce25c25c0f"
+    },
+    "TrousersoftheHero": {
+      "pos": [
+        -3353.29,
+        -707.18,
+        -2312.86
+      ],
+      "DisplayName": "Trousers of the Hero",
+      "hash_id": "0x2dd7105b640b19a8"
+    },
+    "TunicoftheWind": {
+      "pos": [
+        -3788.98,
+        -576.76,
+        -1344.09
+      ],
+      "DisplayName": "Tunic of the Wind",
+      "hash_id": "0x05a817167c5706d6"
+    },
+    "MinersMask": {
+      "pos": [
+        -3231.46,
+        -370.13,
+        2476.91
+      ],
+      "DisplayName": "Miner's Mask",
+      "hash_id": "0xff82085f73101a0d"
+    },
+    "TunicofTime": {
+      "pos": [
+        -2001.29,
+        -609.78,
+        -1309.06
+      ],
+      "DisplayName": "Tunic of Time",
+      "hash_id": "0x72a540735a7cb49b"
+    },
+    "MinersTop": {
+      "pos": [
+        -1077.17,
+        -408.56,
+        557.2
+      ],
+      "DisplayName": "Miner's Top",
+      "hash_id": "0x70a83e72a48d2e8f"
+    },
+    "MajorasMask": {
+      "pos": [
+        -1151.85,
+        -393.54,
+        1263.46
+      ],
+      "DisplayName": "Majora's Mask",
+      "hash_id": "0xafdf7542119046f9"
+    },
+    "MinersTrousers": {
+      "pos": [
+        -1287.48,
+        -602.15,
+        2249.98
+      ],
+      "DisplayName": "Miner's Trousers",
+      "hash_id": "0x2082fcfc19c326eb"
+    },
+    "EvilSpiritMask": {
+      "pos": [
+        -1795,
+        -422.72,
+        3462.5
+      ],
+      "DisplayName": "Evil Spirit Mask",
+      "hash_id": "0xdce1f52e887b4b07"
+    },
+    "EvilSpiritGreaves": {
+      "pos": [
+        -814.75,
+        -581.97,
+        -3534.4
+      ],
+      "DisplayName": "Evil Spirit Greaves",
+      "hash_id": "0xadfef62172c92875"
+    },
+    "KorokMask": {
+      "pos": [
+        -147.62,
+        -516.04,
+        -2380.11
+      ],
+      "DisplayName": "Korok Mask",
+      "hash_id": "0x7166179494a79b22"
+    },
+    "CapofTwilight": {
+      "pos": [
+        263.65,
+        -517.71,
+        -3123.77
+      ],
+      "DisplayName": "Cap of Twilight",
+      "hash_id": "0xff54e0498c42a238"
+    },
+    "TrousersoftheWild": {
+      "pos": [
+        1674.83,
+        -455.94,
+        -3722.9
+      ],
+      "DisplayName": "Trousers of the Wild",
+      "hash_id": "0x0811dd0b46e2e6f9"
+    },
+    "TunicoftheSky": {
+      "pos": [
+        1021.02,
+        -437.75,
+        -1407.87
+      ],
+      "DisplayName": "Tunic of the Sky",
+      "hash_id": "0x180ca128acf26b97"
+    },
+    "TrousersoftheSky": {
+      "pos": [
+        1164.56,
+        -474.8,
+        -425.65
+      ],
+      "DisplayName": "Trousers of the Sky",
+      "hash_id": "0x4ec602114f9dd67e"
+    },
+    "TunicoftheHero": {
+      "pos": [
+        1284.55,
+        -679.02,
+        1812.71
+      ],
+      "DisplayName": "Tunic of the Hero",
+      "hash_id": "0x593ebb2510e663c3"
+    },
+    "ZantsHelmet": {
+      "pos": [
+        2143.55,
+        -732.87,
+        -3183.37
+      ],
+      "DisplayName": "Zant's Helmet",
+      "hash_id": "0x44c3e84547b53533"
+    },
+    "RaviosHood": {
+      "pos": [
+        2243.1,
+        -361.98,
+        1901.15
+      ],
+      "DisplayName": "Ravio's Hood",
+      "hash_id": "0x36790523c2e7cb7a"
+    },
+    "CapoftheHero": {
+      "pos": [
+        2519.54,
+        -520.95,
+        3602.3
+      ],
+      "DisplayName": "Cap of the Hero",
+      "hash_id": "0xa38a7f1bef0845f6"
+    },
+    "TrousersofTwilight": {
+      "pos": [
+        3319.5,
+        -750.93,
+        -1507
+      ],
+      "DisplayName": "Trousers of Twilight",
+      "hash_id": "0xce107f8a617da1b3"
+    },
+    "CapoftheSky": {
+      "pos": [
+        3821.58,
+        -526.68,
+        1985.38
+      ],
+      "DisplayName": "Cap of the Sky",
+      "hash_id": "0x60cee6ae4fbb7943"
+    },
+    "TrousersoftheWind": {
+      "pos": [
+        3794.24,
+        -340.39,
+        3613.24
+      ],
+      "DisplayName": "Trousers of the Wind",
+      "hash_id": "0xf8a4ecf37b644e25"
+    },
+    "EvilSpiritArmor": {
+      "pos": [
+        4654.9,
+        -345.66,
+        -3697
+      ],
+      "DisplayName": "Evil Spirit Armor",
+      "hash_id": "0x664534c03337d49d"
+    },
+    "TunicofTwilight": {
+      "pos": [
+        4516.29,
+        -348.74,
+        -2170.07
+      ],
+      "DisplayName": "Tunic of Twilight",
+      "hash_id": "0x935c52deeb74078f"
+    },
+    "CapoftheWind": {
+      "pos": [
+        4655.29,
+        -617.26,
+        -620.71
+      ],
+      "DisplayName": "Cap of the Wind",
+      "hash_id": "0x7128123977b546eb"
+    },
+    "MidnasHelmet": {
+      "pos": [
+        4562.77,
+        -366.31,
+        3619.85
+      ],
+      "DisplayName": "Midna's Helmet",
+      "hash_id": "0x3119a8d2bd1d7ad8"
+    }
+  },
   "Equipment": {
     "Weapon": {},
     "Bow": {},

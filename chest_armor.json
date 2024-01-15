@@ -1,0 +1,1872 @@
+[
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_179_Upper"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x8454518bd3470907",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone",
+      "objid" : 109236,
+      "pos" : [
+         -410.69,
+         181.38,
+         -853.11
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_1300_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xf52ee4865692f2d9",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone",
+      "objid" : 128334,
+      "pos" : [
+         -781.55,
+         193.51,
+         2258.61
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_1066_Upper"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x39dc37678ea4b6f9",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau_NoDelete",
+      "objid" : 162058,
+      "pos" : [
+         1005.67,
+         119.2,
+         2539.38
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_1066_Lower"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x93165487fa1b22ef",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau_NoDelete",
+      "objid" : 162096,
+      "pos" : [
+         951.13,
+         118.2,
+         2705.68
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_1066_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x89a9228b580d7c21",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau_NoDelete",
+      "objid" : 162100,
+      "pos" : [
+         985.23,
+         117.7,
+         2828.97
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_1061_Lower"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xb35e4d017b8a90e4",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron",
+      "objid" : 214214,
+      "pos" : [
+         2578.4,
+         240.65,
+         -1430.5
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_175_Upper"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xc9d1df932cb0c2e2",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron",
+      "objid" : 236554,
+      "pos" : [
+         2924.5,
+         101.19,
+         3528.89
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_006_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x91bdfd85160ee294",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone",
+      "objid" : 253025,
+      "pos" : [
+         4094.22,
+         692.07,
+         -529.48
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_1151_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x3252067bab1f44f7",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone",
+      "objid" : 263020,
+      "pos" : [
+         3305.35,
+         218.06,
+         2293.49
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_1300_Upper"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x46cbec72b4280774",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone",
+      "objid" : 270196,
+      "pos" : [
+         4511.87,
+         353.01,
+         -3166.6
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_1091_Lower"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xaae5763558f67927",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 501953,
+      "pos" : [
+         4468.06,
+         1519.37,
+         -2025.77
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_1091_Upper"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xaa2d9e12d9c7c3f8",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 505204,
+      "pos" : [
+         2374.19,
+         1594.56,
+         1774.47
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_1091_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xa09ce7fbf2edf7a3",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 511872,
+      "pos" : [
+         -3593.3,
+         1836.96,
+         -942.66
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_1043_Lower"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x956517992164cc8d",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 513677,
+      "pos" : [
+         361.13,
+         2334.3,
+         1631.99
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_1043_Upper"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xf2cc9ff7c843788d",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 516241,
+      "pos" : [
+         238.5,
+         1469.56,
+         1558.29
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_1044_Lower"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x0692a3eac758d5df",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 516823,
+      "pos" : [
+         768.12,
+         1693.4,
+         1338.25
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_1036_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xe7f1efba33463dc5",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 520440,
+      "pos" : [
+         453.51,
+         1573.47,
+         765.25
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_225_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x0176edc5e4208fb0",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron",
+      "objid" : 522380,
+      "pos" : [
+         3430.07,
+         -20.26,
+         -3297.83
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_225_Upper"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xcf5ab20fae43cd26",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron",
+      "objid" : 522645,
+      "pos" : [
+         3301.2,
+         501.39,
+         -1492.1
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_020_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xd312387337031721",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron",
+      "objid" : 523446,
+      "pos" : [
+         -232.08,
+         66.42,
+         -467.66
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_020_Upper"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x8ef4d973315ce0ce",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron",
+      "objid" : 523448,
+      "pos" : [
+         -267.6,
+         69.87,
+         -637.02
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_020_Lower"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xd838760edd1198f9",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron",
+      "objid" : 523455,
+      "pos" : [
+         -306.4,
+         99.27,
+         -280.93
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_225_Lower"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xb1553f14bf2e04ca",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron",
+      "objid" : 523707,
+      "pos" : [
+         -1108.18,
+         140.9,
+         546.13
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_046_Upper"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x22dbed3a2f5cf220",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron",
+      "objid" : 523890,
+      "pos" : [
+         -69.78,
+         101.05,
+         1117.33
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_1096_Lower"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xd8ce41b7f2b3f166",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron",
+      "objid" : 524008,
+      "pos" : [
+         -1156.73,
+         140.47,
+         1264.05
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_1061_Upper"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xe29ff2bf39e4300d",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone",
+      "objid" : 525422,
+      "pos" : [
+         1382.41,
+         399.97,
+         -2225.35
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_183_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x40ec36ea9ea82842",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone",
+      "objid" : 525988,
+      "pos" : [
+         2283.21,
+         512.5,
+         -2990.99
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_1061_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x2175d8d6ad3e9dd7",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron",
+      "objid" : 526466,
+      "pos" : [
+         1576.64,
+         487.74,
+         -2756.92
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_046_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x1bee8b175b67936a",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone",
+      "objid" : 527530,
+      "pos" : [
+         1593.11,
+         81.74,
+         2945.73
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_171_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x4c428abdb477d26b",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron",
+      "objid" : 528029,
+      "pos" : [
+         297.52,
+         156.62,
+         3776.58
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_171_Lower"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x916b701d323afe0f",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron",
+      "objid" : 532412,
+      "pos" : [
+         -2522.79,
+         74.8,
+         3738.85
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_184_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xfda4630289c3d98e",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone",
+      "objid" : 533228,
+      "pos" : [
+         -4673.2,
+         105.76,
+         2091.71
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_174_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x91e067ae51bd7f2e",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone",
+      "objid" : 534333,
+      "pos" : [
+         -4449.19,
+         562.6,
+         640.47
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_174_Upper"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x70aeffa7d6938e85",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron",
+      "objid" : 537411,
+      "pos" : [
+         1215.86,
+         378.96,
+         2053.35
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_1071_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xcd8a8fcd1670d3cf",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone",
+      "objid" : 537713,
+      "pos" : [
+         -3881.77,
+         98.97,
+         -2887.96
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_1071_Lower"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x00fe5c925a55dbfe",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone",
+      "objid" : 537823,
+      "pos" : [
+         -2904.85,
+         507.68,
+         -2571.12
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_1071_Upper"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xcdc19d19ab84da62",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone",
+      "objid" : 538504,
+      "pos" : [
+         -3043.44,
+         292.57,
+         -1528.74
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_182_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x7efb47d20a752a79",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone",
+      "objid" : 539516,
+      "pos" : [
+         -3960.8,
+         245.61,
+         -3268.18
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_1300_Lower"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xef9f400d42f54713",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone",
+      "objid" : 539915,
+      "pos" : [
+         -665.05,
+         270.13,
+         -2108.23
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_014_Upper"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x85026de3b7751cff",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron",
+      "objid" : 540247,
+      "pos" : [
+         -1214.24,
+         174.85,
+         -773.97
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_171_Upper"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xe09f067d5e1ebe80",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron",
+      "objid" : 540491,
+      "pos" : [
+         -2967.62,
+         140.78,
+         980.88
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_1096_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xa0917d1cb603208f",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron",
+      "objid" : 540970,
+      "pos" : [
+         -2268.05,
+         187.82,
+         -841.44
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_048_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xe7d7102be3414d27",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron",
+      "objid" : 542645,
+      "pos" : [
+         2542.92,
+         82.11,
+         1542.86
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_048_Lower"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xc6b3b332f3200193",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron",
+      "objid" : 543007,
+      "pos" : [
+         4050.23,
+         262.01,
+         1874.81
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_174_Lower"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xf9e38777a802cf6a",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron",
+      "objid" : 543420,
+      "pos" : [
+         3512.63,
+         110.08,
+         3264.11
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_014_Lower"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xa891b810c76f41bf",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone",
+      "objid" : 544395,
+      "pos" : [
+         2849.71,
+         294.08,
+         -542.59
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_046_Lower"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xa8bbf85d3fc807d9",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron",
+      "objid" : 544723,
+      "pos" : [
+         4276.48,
+         84.3,
+         378.05
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_048_Upper"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x1581dd1ac8500603",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron",
+      "objid" : 545414,
+      "pos" : [
+         632.05,
+         133.11,
+         -819.64
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_014_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xc6efdd186a1563a4",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone",
+      "objid" : 545571,
+      "pos" : [
+         3712.38,
+         416.02,
+         -494.84
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_181_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xe73ddd136e1d48f6",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone",
+      "objid" : 545961,
+      "pos" : [
+         3336.88,
+         125,
+         -545.68
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_1096_Upper"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xc2d10cf79f12a7c2",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron",
+      "objid" : 546168,
+      "pos" : [
+         -3535.25,
+         348.06,
+         -410.16
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_006_Lower"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x41694fb915775880",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone",
+      "objid" : 547027,
+      "pos" : [
+         3585.24,
+         2.5,
+         -246.84
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_179_Lower"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x6cc5e62a11caa9ec",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone",
+      "objid" : 550559,
+      "pos" : [
+         -174.51,
+         320.46,
+         -1122.64
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_179_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xdad9d9b4b8384f79",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Stone",
+      "objid" : 550560,
+      "pos" : [
+         -331.86,
+         406.46,
+         -1005.72
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_1106_Upper"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x33b0e505a8192793",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MainField",
+      "name" : "TBox_Field_Iron",
+      "objid" : 550836,
+      "pos" : [
+         -254,
+         456.03,
+         -1091.87
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_200_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x73ea5c9bbce249a5",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 283888,
+      "pos" : [
+         -4079.21,
+         -344.94,
+         -2801
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_200_Lower"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xdbe4a4518b61b91c",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 287084,
+      "pos" : [
+         -4180.42,
+         -1016.29,
+         698.37
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_005_Upper"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x5edd98fda58e0e87",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 295482,
+      "pos" : [
+         -4879.21,
+         -353.16,
+         3719.52
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_220_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x81c3a29d459678d3",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Miasma",
+      "objid" : 296738,
+      "pos" : [
+         -4310.56,
+         -374.21,
+         3782.04
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_005_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x0f5981ce25c25c0f",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 298089,
+      "pos" : [
+         -3955.03,
+         -752.66,
+         -3724.56
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_230_Lower"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x2dd7105b640b19a8",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 300846,
+      "pos" : [
+         -3353.29,
+         -707.18,
+         -2312.86
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_205_Upper"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x05a817167c5706d6",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 304028,
+      "pos" : [
+         -3788.98,
+         -576.76,
+         -1344.09
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_1051_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xff82085f73101a0d",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 318089,
+      "pos" : [
+         -3231.46,
+         -370.13,
+         2476.91
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_200_Upper"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x72a540735a7cb49b",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 354942,
+      "pos" : [
+         -2001.29,
+         -609.78,
+         -1309.06
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_1051_Upper"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x70a83e72a48d2e8f",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 361819,
+      "pos" : [
+         -1077.17,
+         -408.56,
+         557.2
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_172_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xafdf7542119046f9",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Miasma",
+      "objid" : 366684,
+      "pos" : [
+         -1151.85,
+         -393.54,
+         1263.46
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_1051_Lower"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x2082fcfc19c326eb",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 368072,
+      "pos" : [
+         -1287.48,
+         -602.15,
+         2249.98
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_180_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xdce1f52e887b4b07",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 373624,
+      "pos" : [
+         -1795,
+         -422.72,
+         3462.5
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_180_Lower"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xadfef62172c92875",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 374988,
+      "pos" : [
+         -814.75,
+         -581.97,
+         -3534.4
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_176_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x7166179494a79b22",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Miasma",
+      "objid" : 376931,
+      "pos" : [
+         -147.62,
+         -516.04,
+         -2380.11
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_210_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xff54e0498c42a238",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Miasma",
+      "objid" : 399972,
+      "pos" : [
+         263.65,
+         -517.71,
+         -3123.77
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_005_Lower"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x0811dd0b46e2e6f9",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 423945,
+      "pos" : [
+         1674.83,
+         -455.94,
+         -3722.9
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_215_Upper"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x180ca128acf26b97",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 427913,
+      "pos" : [
+         1021.02,
+         -437.75,
+         -1407.87
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_215_Lower"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x4ec602114f9dd67e",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 429625,
+      "pos" : [
+         1164.56,
+         -474.8,
+         -425.65
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_230_Upper"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x593ebb2510e663c3",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 435399,
+      "pos" : [
+         1284.55,
+         -679.02,
+         1812.71
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_178_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x44c3e84547b53533",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Miasma",
+      "objid" : 445297,
+      "pos" : [
+         2143.55,
+         -732.87,
+         -3183.37
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_177_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x36790523c2e7cb7a",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Miasma",
+      "objid" : 457605,
+      "pos" : [
+         2243.1,
+         -361.98,
+         1901.15
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_230_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xa38a7f1bef0845f6",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 462808,
+      "pos" : [
+         2519.54,
+         -520.95,
+         3602.3
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_210_Lower"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xce107f8a617da1b3",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 471103,
+      "pos" : [
+         3319.5,
+         -750.93,
+         -1507
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_215_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x60cee6ae4fbb7943",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 483612,
+      "pos" : [
+         3821.58,
+         -526.68,
+         1985.38
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_205_Lower"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0xf8a4ecf37b644e25",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 485902,
+      "pos" : [
+         3794.24,
+         -340.39,
+         3613.24
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_180_Upper"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x664534c03337d49d",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 487797,
+      "pos" : [
+         4654.9,
+         -345.66,
+         -3697
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_210_Upper"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x935c52deeb74078f",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 488684,
+      "pos" : [
+         4516.29,
+         -348.74,
+         -2170.07
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_205_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x7128123977b546eb",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 0,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Stone_Zonau",
+      "objid" : 492146,
+      "pos" : [
+         4655.29,
+         -617.26,
+         -620.71
+      ],
+      "scale" : 0
+   },
+   {
+      "drop" : {
+         "type" : "Actor",
+         "value" : [
+            "Armor_173_Head"
+         ]
+      },
+      "equip" : null,
+      "hash_id" : "0x3119a8d2bd1d7ad8",
+      "korok_id" : null,
+      "korok_type" : null,
+      "map_static" : 1,
+      "map_type" : "MinusField",
+      "name" : "TBox_Field_Enemy_Miasma",
+      "objid" : 497082,
+      "pos" : [
+         4562.77,
+         -366.31,
+         3619.85
+      ],
+      "scale" : 0
+   }
+]

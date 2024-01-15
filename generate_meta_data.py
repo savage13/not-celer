@@ -111,6 +111,11 @@ def goddess_t(r, k, state):
     if names.get(r['name']):
         name = names.get(r['name'])
     return [name, key, state]
+def chest_t(r, k, state):
+    name = names[ r['drop']['value'][0] ]
+    key = name.replace(" ", "").replace("'","").replace("-","")
+    print(key)
+    return [name, key, state]
 def frog_t(r, k, state):
     name = names[r['name']]
     if r.get('Id'):
@@ -162,6 +167,7 @@ frogs = transform("raw_bubbulfrog_cave.json", frog_t)
 molduga = transform('raw_molduga_location.json', frog_t)
 chasms = transform('raw_chasm.json', chasm_t)
 goddess = transform('raw_goddess_statue.json', goddess_t)
+chests = transform('chest_armor.json', chest_t)
 for value in chasms.values():
     value['Depths'] = copy.deepcopy(value)
     value['Depths']['pos'][1] = -512
@@ -443,7 +449,7 @@ out = {
     "YigaSchema": yiga,
     "SchemaStone": stones,
 
-    "Chest": {},
+    "Chest": chests,
     "Equipment": {
         "Weapon": {},
         "Bow": {},

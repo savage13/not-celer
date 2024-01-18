@@ -752,7 +752,7 @@ _route:
           description = description.replaceAll(" ", "_").replaceAll(",","")
           let when = new Date().toISOString().replace(/.\d+Z$/g, "") // Remove milliseconds
           a.href = URL.createObjectURL(blob);
-          a.download = `${description}_splits_${when}.txt`;
+          a.download = `${description}_splits_${when}.msf`;
           a.click();
       });
 
@@ -1542,7 +1542,7 @@ _route:
           // Convert splits to ron
           {
               let nsplits = SPLITS.splits.length
-              let ron = ["version 2 ","("]
+              let ron = ["version 2","("]
               for(const [key,val] of Object.entries(SPLITS)) {
                   if(typeof val == 'string') {
                       ron.push(`   ${key}: ${val},`)

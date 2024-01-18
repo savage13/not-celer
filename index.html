@@ -1385,8 +1385,9 @@ _route:
       }
       function add_split_maybe(part) {
           if((part.startsWith('_Shrine') || part.startsWith('_Tower')) && part.split("::").length == 2) {
-              const v = part.split("::")
+              let v = part.split("::")
               v[0] = v[0].replace("_","")
+              v = v.map(vi => vi.replaceAll("'", "\\'"))
               add_split(v.join(" "), part)
           }
       }

@@ -366,15 +366,78 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           padding-left: 0.2em;
           padding-right: 0.2em;
       }
+      #settings {
+          font-family: Helvetica, Arial, sans-serif;
+          position: absolute;
+          height: 200px;
+          width: 400px;
+          left: 0;
+          right: 0;
+          top: 50px;
+          margin-left: auto;
+          margin-right: auto;
+          background: black;
+          color: white;
+          border: 1px solid lime;
+          border-radius: 0.3em;
+          padding: 0.2em;
+          overflow: scroll;
+          display: none;
+          z-index: 3000;
+      }
     </style>
   </head>
   <body>
+    <div id="settings">
+      <h3>Documentation / Settings</h3>
+      <h4>Key Commands</h4>
+      <ul>
+        <li>Ctrl-g - Toggle Doc / Settings</li>
+        <li>Ctrl-p - Toggle Progress</li>
+        <li>Ctrl-o - Toggle Show only current segment</li>
+        <li>Ctrl-i - Toggle Shift Title</li>
+        <li>Ctrl-j - Toggle Search objmap window</li>
+
+      </ul>
+      <h4>Builtin Items</h4>
+      <p>
+      Types that are defined can be found in the Missing Items list at the bottom of the route.
+      You can add these items into your route.  If the item exists in your route, it will be removed
+      from this list.
+      <p>
+      While writing your route you can TAB complete on the built in items. For example, type <tt>_Korok::</tt> then press TAB and
+      those values will appear on the map along with a drop down list of the same items.
+      Move your mouse over the marker you want to discover the item's name.
+
+      <h4>Basic Document</h4>
+      <pre>
+---
+_config:
+_project:
+  authors:
+    - Author Name
+  description: Route Description
+  name: Route Name
+  url: ""
+  version: 1.0.0
+_route:
+  - Great Sky Island:
+- _Warp::ROA:
+       level: Sky
+       line-color: rgb(255,128,128)
+    - _Special::StartPos Sky
+    - _Chest<Archaic Legwear>:
+        coord: [361.13, 2334.30, -1631.99]
+    - _Location::TempleofTime
+      </pre>
+    </div>
     <div id="app" class="split">
       <div id="wrap">
         <textarea id="editor"></textarea>
         <div id="messages"></div>
         <div id="theme">
           <button id="save">Save</button>
+          <button id="splits">Splits</button>
           <select id="themes">
             <option value="base16-dark">Dark</option>
             <option value="base16-light">Light</option>
@@ -674,6 +737,22 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           let when = new Date().toISOString().replace(/.\d+Z$/g, "") // Remove milliseconds
           a.href = URL.createObjectURL(blob);
           a.download = `${description}_${when}.yaml`;
+          a.click();
+      });
+      document.getElementById('splits').addEventListener('click', (ev) => {
+          let txt = SPLITS_RON;
+          const blob = new Blob([txt], { type: 'text/plain' })
+          const a = document.createElement('a')
+          let description = "totk_celer_route";
+          if(data._project && data._project.description) {
+              description = data._project.description;
+          } else if (data._project && data._project.name) {
+              description = data._project.name;
+          }
+          description = description.replaceAll(" ", "_").replaceAll(",","")
+          let when = new Date().toISOString().replace(/.\d+Z$/g, "") // Remove milliseconds
+          a.href = URL.createObjectURL(blob);
+          a.download = `${description}_splits_${when}.txt`;
           a.click();
       });
 
@@ -1102,6 +1181,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           Tower: {},
           Bubbulfrog: {},
           Cave: {},
+          Chest: {},
+          GoddessStatue: {},
           Well: {},
           Dispenser: {},
           Fairy: {},
@@ -1288,7 +1369,38 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           fill: false,
       }
 
+      let SPLITS = {}
+      let SPLITS_RON = ""
+      function reset_splits() {
+          SPLITS = {
+              game_title:` "Legend of Zelda: Tears of the Kingdom"`,
+              category: `"${data._project.name}"`,
+              offset: "Time(0)",
+              pb: "None",
+              splits: [],
+              pb_times: [],
+              gold_times: [],
+              sum_times: []
+          }
+      }
+      function add_split_maybe(part) {
+          if((part.startsWith('_Shrine') || part.startsWith('_Tower')) && part.split("::").length == 2) {
+              const v = part.split("::")
+              v[0] = v[0].replace("_","")
+              add_split(v.join(" "), part)
+          }
+      }
+
+      function add_split(name, _key) {
+          SPLITS.splits.push(`"${name}"`)
+          SPLITS.pb_times.push("None"),
+          SPLITS.gold_times.push("None"),
+          SPLITS.sum_times.push("(1, None)")
+      }
+
       function route() {
+          reset_splits()
+          add_split("Start",'Start')
           let line_color = undefined;
           let last_point = undefined;
           for(const segment of data._route) {
@@ -1305,6 +1417,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                   for(const part of parts) {
                       const kind = typeof part;
                       if(kind == "string") {
+                          add_split_maybe(part)
                           const ret = parse_name(part);
                           elevation.push(... ret.to.map(x => x[1]))
                           pts.push(... ret.to);
@@ -1314,6 +1427,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                           level_set = (ret.level) ? ret.level : level_set;
                           FLY_TO.push( ret.to.find(x => x.length) )
                       } else if(kind == "object") {
+                          add_split_maybe(Object.keys(part).at(0))
                           const ret = parse_object(part);
                           elevation.push(... ret.to.map(x => x[1]))
                           if(ret.away.length) {
@@ -1423,6 +1537,25 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                   }
                   //MARKERS.push(...markers);
               }
+          }
+          // Convert splits to ron
+          {
+              let nsplits = SPLITS.splits.length
+              let ron = ["version 2 ","("]
+              for(const [key,val] of Object.entries(SPLITS)) {
+                  if(typeof val == 'string') {
+                      ron.push(`   ${key}: ${val},`)
+                  } else {
+                      ron.push(`   ${key}: [`)
+                      for(const v of val) {
+                          ron.push(`        ${v},`)
+                      }
+                      ron.push(`   ],`)
+                  }
+              }
+              ron.push(")")
+              SPLITS_RON = ron.join("\n")
+
           }
           {
               const missing = document.getElementById('missing_data');
@@ -1951,7 +2084,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
       let SHOW_PROGRESS = false; // Ctrl-P
       let ONLY_SEGMENT = false;  // Ctrl-O
-      let SHIFT_TITLE = false; // Ctrl-T
+      let SHIFT_TITLE = false; // Ctrl-i
+      let SETTINGS = false; // Ctrl-G
+      let SEARCH = true; // Ctrl-J
 
       function scroll_to_line(id) {
           const next = document.getElementById(id);
@@ -1978,6 +2113,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
               set_current_line(CURRENT_LINE);
               return;
           }
+          if(ev.ctrlKey && ev.key == "j") {
+              SEARCH = ! SEARCH;
+              const set = document.getElementById('search0')
+              set.style.display = (SEARCH) ? 'block' : 'none'
+              ev.stopPropagation()
+              ev.preventDefault()
+
+          }
           if(ev.ctrlKey && ev.key == "i") {
               SHIFT_TITLE = ! SHIFT_TITLE;
               set_current_line(CURRENT_LINE);
@@ -1991,7 +2134,16 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
               }
               return
           }
+          if(ev.ctrlKey && ev.key == "g") {
+              SETTINGS = ! SETTINGS
+              const set = document.getElementById('settings')
+              set.style.display = (SETTINGS) ? 'block' : 'none'
+              ev.stopPropagation()
+              ev.preventDefault()
 
+              return false;
+          }
+          
           if(CURRENT_LINE === undefined)
               return
           if(ev.key == "ArrowDown" || ev.key == "ArrowUp") {

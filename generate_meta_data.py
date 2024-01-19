@@ -114,7 +114,7 @@ def goddess_t(r, k, state):
 def chest_t(r, k, state):
     name = names[ r['drop']['value'][0] ]
     key = name.replace(" ", "").replace("'","").replace("-","")
-    print(key)
+    #print(key)
     return [name, key, state]
 def frog_t(r, k, state):
     name = names[r['name']]
@@ -711,6 +711,18 @@ out = {
             "iconSize": [28, 28],
             "iconAnchor": [16, 16],
             "routeSize": [24,24],
+        },
+        "Special": {
+            "iconUrl": "special.png",
+            "iconSize": [32, 32],
+            "iconAnchor": [16, 16],
+            "routeSize": [32,32],
+        },
+        "GoddessStatue": {
+            "iconUrl": "stamina04.png",
+            "iconSize": [32, 32],
+            "iconAnchor": [16, 16],
+            "routeSize": [32,32],
         },
         "SOR": {
             "iconUrl": "special.png",

@@ -643,31 +643,31 @@ out = {
                 "iconSize": [28,28],
                 "iconAnchor": [14, 14],
                 "routeSize": [26,26],
-            }
+            },
             "6": {
                 "iconUrl": "leaf.png",
                 "iconSize": [28,28],
                 "iconAnchor": [14, 14],
                 "routeSize": [26,26],
-            }
+            },
             "7": {
                 "iconUrl": "leaf.png",
                 "iconSize": [28,28],
                 "iconAnchor": [14, 14],
                 "routeSize": [26,26],
-            }
+            },
             "8": {
                 "iconUrl": "leaf.png",
                 "iconSize": [28,28],
                 "iconAnchor": [14, 14],
                 "routeSize": [26,26],
-            }
+            },
             "9": {
                 "iconUrl": "leaf.png",
                 "iconSize": [28,28],
                 "iconAnchor": [14, 14],
                 "routeSize": [26,26],
-            }
+            },
             "10": {
                 "iconUrl": "leaf.png",
                 "iconSize": [28,28],

@@ -15,11 +15,15 @@
     <script src="codemirror/addon/hint/show-hint.js"></script>
     <link rel="stylesheet" href="codemirror/theme/base16-dark.css">
     <link rel="stylesheet" href="codemirror/theme/base16-light.css">
+    <link rel="stylesheet" href="foldgutter.css" />
     <script src="leaflet.geometryutil.js"></script>
 	  <script src="leaflet-arrowheads.js"></script>
     <script src="js-yaml.js"></script>
     <script src="leaflet-canvasicon.js" defer></script>
     <script src="debounce.js"></script>
+    <script src="foldcode.js"></script>
+    <script src="foldgutter.js"></script>
+    <script src="indent-fold.js"></script>
     <!--
 BSD 2-Clause License
 
@@ -704,6 +708,8 @@ _route:
           document.getElementById('editor'), {
               lineNumbers: true,
               mode: 'yaml',
+              foldGutter: true,
+              gutters: ["CodeMirror-linenumbers", "CodeMirror-foldgutter"],
               extraKeys: {"Tab": "autocomplete"},
               hintOptions: {
                   hint: synonyms,

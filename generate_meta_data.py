@@ -39,15 +39,14 @@ for r in data:
     if r['Location'] in crystals:
         shrines[key]['Start'] = crystals[r['Location']]
 
-for file in ["raw_korok.json"]:
+for file in ["raw_korok_with_trails.json"]:
     data = json.load(open(file, "r"))
-    for r in data:
-        name = r['korok_id']
-        koroks[name] = {
-            "pos": r['pos'], "korok_type": r['korok_type'],
-            "DisplayName": name, "hash_id": r["hash_id"],
-        }
+    for k,v in data.items():
+        v['DisplayName'] = v['korok_id']
+        koroks[k] = v
+
 for k,v in json.load(open("raw_korok3.json", "r")).items():
+    v['DisplayName'] = v['korok_id']
     koroks[k] = v
 
 data = json.load(open("raw_addison.json", "r"))
@@ -611,6 +610,66 @@ out = {
             "displayString": "${txt} ${meta.korok_type}",
             "Start": {
                 "iconUrl": "korok_backpack.png",
+                "iconSize": [28,28],
+                "iconAnchor": [14, 14],
+                "routeSize": [26,26],
+            },
+            "1": {
+                "iconUrl": "leaf.png",
+                "iconSize": [28,28],
+                "iconAnchor": [14, 14],
+                "routeSize": [26,26],
+            },
+            "2": {
+                "iconUrl": "leaf.png",
+                "iconSize": [28,28],
+                "iconAnchor": [14, 14],
+                "routeSize": [26,26],
+            },
+            "3": {
+                "iconUrl": "leaf.png",
+                "iconSize": [28,28],
+                "iconAnchor": [14, 14],
+                "routeSize": [26,26],
+            },
+            "4": {
+                "iconUrl": "leaf.png",
+                "iconSize": [28,28],
+                "iconAnchor": [14, 14],
+                "routeSize": [26,26],
+            },
+            "5": {
+                "iconUrl": "leaf.png",
+                "iconSize": [28,28],
+                "iconAnchor": [14, 14],
+                "routeSize": [26,26],
+            }
+            "6": {
+                "iconUrl": "leaf.png",
+                "iconSize": [28,28],
+                "iconAnchor": [14, 14],
+                "routeSize": [26,26],
+            }
+            "7": {
+                "iconUrl": "leaf.png",
+                "iconSize": [28,28],
+                "iconAnchor": [14, 14],
+                "routeSize": [26,26],
+            }
+            "8": {
+                "iconUrl": "leaf.png",
+                "iconSize": [28,28],
+                "iconAnchor": [14, 14],
+                "routeSize": [26,26],
+            }
+            "9": {
+                "iconUrl": "leaf.png",
+                "iconSize": [28,28],
+                "iconAnchor": [14, 14],
+                "routeSize": [26,26],
+            }
+            "10": {
+                "iconUrl": "leaf.png",
                 "iconSize": [28,28],
                 "iconAnchor": [14, 14],
                 "routeSize": [26,26],

@@ -927,6 +927,10 @@ _route:
               }
               kind.push({ name: val, sub })
           }
+          if(Array.isArray(m)) { // This is currently for Korok Trails only
+              m = m.at(-1)
+              kind.pop()
+          }
           if(!m) {
               warn(`Error finding metadata for ${name_orig}`);
               m = {}
@@ -986,6 +990,15 @@ _route:
           if(!m) {
               warn(`Error finding metadata for ${name_orig}`);
               m = {}
+          }
+          if(Array.isArray(m)) {
+              let to = m.map(v => v.pos)
+              let markers = m.slice(0, m.length-1)
+                  .map((v,i) => marker([{name: "Korok"},{name: `${i+1}`}],v.pos, v.DisplayName))
+              let last = m.at(-1)
+              markers.push( marker([{name: "Korok"}], last.pos, last.korok_id))
+              return {markers, to }
+
           }
           if(!m.pos && !pos) {
               //warn(`Metadata for ${name_orig} lacks a pos field or location not set`)
@@ -1768,7 +1781,7 @@ _route:
                   continue
               for(const [key,value] of Object.entries(values)) {
                   if(key in flag_alts) {
-                      console.log(`setting alt flag for ${cat} :: ${key}`)
+                      //console.log(`setting alt flag for ${cat} :: ${key}`)
                       if(!value.mappct)
                           value.mappct = {}
                       value.mappct.flag_alt = [... flag_alts[key]]
@@ -1785,6 +1798,21 @@ _route:
               const dc = (word == "Enemy") ? "::" : "";
               completions.push([`_${word}::`, ... Object.keys(meta[word]).sort().map(s => `_${word}::${s}${dc}`)]);
           }
+          for(const word of Object.keys(meta.Korok)) {
+              const k = meta.Korok[word]
+              if(10 in k) {
+                  meta.Korok[word].Trail = []
+                  for(let i = 1; i <= 10; i++)
+                      meta.Korok[word].Trail.push(meta.Korok[word][i])
+                  meta.Korok[word].Trail.push(meta.Korok[word])
+              } else if('5' in k) {
+                  meta.Korok[word].Trail = []
+                  for(let i = 1; i <= 5; i++)
+                      meta.Korok[word].Trail.push(meta.Korok[word][i])
+                  meta.Korok[word].Trail.push(meta.Korok[word])
+              }
+          }
+          
           NAMES = await load_json("names.json");
           myCodeMirror.setValue(txt);
       }

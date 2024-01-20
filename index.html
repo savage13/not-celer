@@ -401,6 +401,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <li>Ctrl-o - Toggle Show only current segment</li>
         <li>Ctrl-i - Toggle Shift Title</li>
         <li>Ctrl-j - Toggle Search objmap window</li>
+        <li>Ctrl-f - Fold all editor text</li>
+        <li>Ctrl-u - Unfold all editor text</li>
 
       </ul>
       <h4>Builtin Items</h4>
@@ -710,7 +712,11 @@ _route:
               mode: 'yaml',
               foldGutter: true,
               gutters: ["CodeMirror-linenumbers", "CodeMirror-foldgutter"],
-              extraKeys: {"Tab": "autocomplete"},
+              extraKeys: {
+                  "Tab": "autocomplete",
+                  "Ctrl-F": cm => cm.execCommand("foldAll"),
+                  "Ctrl-U": cm => cm.execCommand("unfoldAll"),
+              },
               hintOptions: {
                   hint: synonyms,
                   shown: function()  {

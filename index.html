@@ -927,9 +927,12 @@ _route:
               }
               kind.push({ name: val, sub })
           }
-          if(Array.isArray(m)) { // This is currently for Korok Trails only
-              m = m.at(-1)
+          if(Array.isArray(m)) {
+              // This is currently for Korok Trails only
+              // Remove the last component, roll things back
               kind.pop()
+              m = m.at(-1)
+              ele = kind.at(-1).name
           }
           if(!m) {
               warn(`Error finding metadata for ${name_orig}`);
@@ -1007,10 +1010,17 @@ _route:
           }
           if(m.pos && !pos)
               pos = m.pos;
+          let xname = v.at(-1)
+          if(xname == "Start") {
+              xname = v.slice(-2).join(" ")
+          }
+          if(xname == "End") {
+              xname = v.at(-2)
+          }
           const to = (warp) ? [[], pos]: [pos];
-          const markers = [ marker(kind, pos, v[v.length-1], warp)]
+          const markers = [ marker(kind, pos, xname, warp)]
 
-          return {to, markers, icon: kind, keys: v[v.length-1] }
+          return {to, markers, icon: kind, keys: xname }
       }
 
       function parse_movements(moves) {

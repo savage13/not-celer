@@ -114,7 +114,7 @@ def goddess_t(r, k, state):
         '12': 'Courage',
         '13': 'GoronCity',
         '14': 'Kakariko',
-        '15': 'Lureline',
+        '15': 'Lurelin',
         '17': 'Power',
         '18': 'TarreyTown',
         '19': 'ZorasDomain',

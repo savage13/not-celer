@@ -47940,7 +47940,7 @@
     }
   },
   "GoddessStatue": {
-    "00": {
+    "RitoVillage": {
       "pos": [
         -3610.42,
         286.45,
@@ -47949,7 +47949,7 @@
       "DisplayName": "Goddess Statue",
       "hash_id": "0x509711781766dae1"
     },
-    "01": {
+    "GerudoTown": {
       "pos": [
         -3873.08,
         139.27,
@@ -47958,7 +47958,7 @@
       "DisplayName": "Goddess Statue",
       "hash_id": "0xf9d494fb70e95971"
     },
-    "02": {
+    "LookoutLanding": {
       "pos": [
         -241.75,
         114.7,
@@ -47967,7 +47967,7 @@
       "DisplayName": "Goddess Statue",
       "hash_id": "0xa3c411437da28e48"
     },
-    "03": {
+    "Plateau": {
       "pos": [
         -823.26,
         225.44,
@@ -48030,7 +48030,7 @@
       "DisplayName": "Goddess Statue",
       "hash_id": "0x4eb9f0ba15fa3718"
     },
-    "10": {
+    "KorokForest": {
       "pos": [
         415.74,
         258.73,
@@ -48048,7 +48048,7 @@
       "DisplayName": "Goddess Statue",
       "hash_id": "0x3793956cdd1d8812"
     },
-    "12": {
+    "Courage": {
       "pos": [
         874.84,
         125.34,
@@ -48057,7 +48057,7 @@
       "DisplayName": "Spring of Courage Statue",
       "hash_id": "0x482a61ade850ecb7"
     },
-    "13": {
+    "GoronCity": {
       "pos": [
         1722.25,
         499.17,
@@ -48066,7 +48066,7 @@
       "DisplayName": "Goddess Statue",
       "hash_id": "0x509711786eb4c78f"
     },
-    "14": {
+    "Kakariko": {
       "pos": [
         1840.12,
         218.54,
@@ -48075,7 +48075,7 @@
       "DisplayName": "Goddess Statue",
       "hash_id": "0x5097117849ccbedc"
     },
-    "15": {
+    "Lureline": {
       "pos": [
         2923.36,
         106.25,
@@ -48093,7 +48093,7 @@
       "DisplayName": "Goddess Statue",
       "hash_id": "0x3793956c92b4f35f"
     },
-    "17": {
+    "Power": {
       "pos": [
         3760.55,
         111.16,
@@ -48102,7 +48102,7 @@
       "DisplayName": "Spring of Power Statue",
       "hash_id": "0x11dfe284c41613ab"
     },
-    "18": {
+    "TarreyTown": {
       "pos": [
         3966.27,
         233.84,
@@ -48111,7 +48111,7 @@
       "DisplayName": "Goddess Statue",
       "hash_id": "0x509711781b4c7d3a"
     },
-    "19": {
+    "ZorasDomain": {
       "pos": [
         3316.89,
         256.04,
@@ -48129,7 +48129,7 @@
       "DisplayName": "Goddess Statue",
       "hash_id": "0x3793956c6a170ccc"
     },
-    "21": {
+    "Wisdom": {
       "pos": [
         3910.78,
         574.69,
@@ -48138,7 +48138,7 @@
       "DisplayName": "Spring of Wisdom Statue",
       "hash_id": "0xba5e6f62529d5136"
     },
-    "22": {
+    "HatenoVillage": {
       "pos": [
         3439.16,
         236.02,
@@ -48147,7 +48147,7 @@
       "DisplayName": "Goddess Statue",
       "hash_id": "0x5097117853a0f7ae"
     },
-    "23": {
+    "EastAkkala": {
       "pos": [
         4262.73,
         210.86,
@@ -48156,7 +48156,7 @@
       "DisplayName": "Goddess Statue",
       "hash_id": "0xef734bd8a53993ed"
     },
-    "24": {
+    "DragonHead": {
       "pos": [
         1335.5,
         535.35,
@@ -48165,7 +48165,7 @@
       "DisplayName": "Goddess Statue",
       "hash_id": "0x1870a4f138d0ba2b"
     },
-    "25": {
+    "TempleofTime": {
       "pos": [
         453.51,
         1571.88,

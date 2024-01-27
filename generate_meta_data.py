@@ -105,8 +105,29 @@ def frox_t(r, k, state):
     name = f"{k:02d}"
     return [name, name, state]
 def goddess_t(r, k, state):
+    specific_names = {
+        '00': 'RitoVillage',
+        '01': 'GerudoTown',
+        '02': 'LookoutLanding',
+        '03': 'Plateau',
+        '10': 'KorokForest',
+        '12': 'Courage',
+        '13': 'GoronCity',
+        '14': 'Kakariko',
+        '15': 'Lureline',
+        '17': 'Power',
+        '18': 'TarreyTown',
+        '19': 'ZorasDomain',
+        '21': 'Wisdom',
+        '22': 'HatenoVillage',
+        '23': 'EastAkkala',
+        '24': 'DragonHead',
+        '25': 'TempleofTime',
+    }
     name = "Goddess Statue"
     key = f"{k:02d}"
+    if key in specific_names:
+        key = specific_names[key]
     if names.get(r['name']):
         name = names.get(r['name'])
     return [name, key, state]

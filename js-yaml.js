@@ -2471,9 +2471,10 @@
         type,
         flowIndent,
         blockIndent;
-
+    let line_start = state.line
+    let line_end = state.line
     if (state.listener !== null) {
-      state.listener('open', state);
+        state.listener('open', state);
     }
 
     state.tag    = null;
@@ -2630,9 +2631,10 @@
         }
       }
     }
-
     if (state.listener !== null) {
-      state.listener('close', state);
+        state.line_end = state.line
+        state.line_start = line_start
+        state.listener('close', state);
     }
     return state.tag !== null ||  state.anchor !== null || hasContent;
   }

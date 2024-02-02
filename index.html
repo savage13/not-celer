@@ -483,6 +483,7 @@ _route:
               <div class="td"><img src="frox.png"></div>
               <div class="td"><img src="molduga.png"></div>
               <div class="td"><img src="flux.png"></div>
+              <div class="td"><img src="ponypoint.png"></div>
               <div class="td" id="progress_icon_mappct"><img src="World_Map.png"></div>
             </div>
             <div class="tr">
@@ -501,6 +502,7 @@ _route:
               <div class="td" id="progress_Enemy::Frox">0</div>
               <div class="td" id="progress_Enemy::Molduga">0</div>
               <div class="td" id="progress_Enemy::FluxConstruct">0</div>
+              <div class="td" id="progress_PonyPoint">0</div>
               <div class="td" id="progress_mappct">0</div>
             </div>
           </div>
@@ -623,7 +625,7 @@ _route:
       function warn(msg) {
           msg_el.style.display = 'block';
           msg_el.innerHTML += `<div>${msg}</div>`
-          console.log(msg);
+          console.error(msg);
       }
 
       function switch_segments(layer) {
@@ -812,7 +814,19 @@ _route:
       function set_route(txt) {
           localStorage.setItem("route.txt", txt)
       }
-      function get_route() {
+      async function get_route() {
+          // api.github.com/gists/4a7a1736945936ec60eb0ef772ba350e
+          //   files: first or with yaml ending
+          //
+          // raw.githubusercontent.com/savage13/sacio/master/License
+          //
+          let url = new URL(window.location)
+          let file = url.searchParams.get('f')
+          if(file !== undefined && file !== null) {
+              const res = await fetch('https://' + file, { })
+              const txt = await res.text()
+              return txt
+          }
           return localStorage.getItem("route.txt")
       }
       let NOW = true;
@@ -1096,8 +1110,8 @@ _route:
                      }
           //console.log("Parse name", keys, pos);
           const ret = parse_name(keys, pos);
-          if(ret.to.length == 0)
-              warn(`No coord: or movement::to: found for ${JSON.stringify(obj)}`)
+          //if(ret.to.length == 0)
+          //    warn(`No coord: or movement::to: found for ${JSON.stringify(obj)}`)
           if(has_movement) {
               ret.markers = [];
               ret.to = [];
@@ -1238,6 +1252,7 @@ _route:
           MainQuest: {},
           SideQuest: {},
           KeyItem: {},
+          PonyPoint: {},
           'Enemy::Talus': {},
           'Enemy::Gleeok': {},
           'Enemy::Hinox': {},
@@ -1338,6 +1353,8 @@ _route:
       }
 
       function counter_inc(key, name, warp) {
+          const ignore_dups = {'GoddessStatue': true, 'PonyPoint': true }
+          const multiple = { 'PonyPoint': 60 }
           if(warp)
               return undefined
           if(!key)
@@ -1358,9 +1375,16 @@ _route:
 
           if(key in _counters) {
               let has_mappct = counter_inc_mappct(key, name);
-              if(name in _counters[key] && !has_mappct)
+              if(name in _counters[key] && !has_mappct && !ignore_dups[key])
                   warn(`Duplicate of ${key} ${name}`)
-              _counters[key][name] = 1;
+              if(multiple[key]) {
+                  if(!(name in _counters[key])) {
+                      _counters[key][name] = 0
+                  }
+                  _counters[key][name] += 1
+              } else {
+                  _counters[key][name] = 1
+              }
               if(key == 'Korok') {
                   const korok = meta[key][name];
                   if(korok && korok.korok_type == "Korok Friends")
@@ -1746,7 +1770,7 @@ _route:
       let NAMES = {};
 
       async function main() {
-          let txt = get_route();
+          let txt = await get_route();
           if(!txt) {
               warn("Populating with basic initial route")
               const res = await fetch('main.celer');

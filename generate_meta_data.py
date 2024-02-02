@@ -433,6 +433,32 @@ out = {
         "pos": [ -1061.88, 247.67, 1829.55],
         "hash_id": '0x89f2b2ddfdd48294',
     },
+    "PonyPoint": {
+        "Sleep": {
+            "DisplayName": "Pony Point: Sleep",
+            "hash_id": "PonyPointSleep",
+        },
+        "Registration": {
+            "DisplayName": "Pony Point: Registration",
+            "hash_id": "PonyPointRegistration",
+        },
+        "FirstVisit": {
+            "DisplayName": "Pony Point: First Visit",
+            "hash_id": "PonyPointFirstVisit",
+        },
+        "RegisterHorse": {
+            "DisplayName": "Pony Point: Register Horse",
+            "hash_id": "PonyPointRegisterHorse",
+        },
+        "Quest": {
+            "DisplayName": "Pony Point: Quest",
+            "hash_id": "PonyPointQuest",
+        },
+        "Picture": {
+            "DisplayName": "Pony Point: Picture",
+            "hash_id": "PonyPointPicture",
+        }
+   },
     "Tower": towers,
     "Shrine": shrines,
     "Korok": koroks,
@@ -488,6 +514,12 @@ out = {
         }
     },
     "_icons": {
+        "PonyPoint": {
+            "iconUrl": "ponypoint.png",
+            "iconSize": [32,32],
+            "iconAnchor": [16,16],
+            "routeSize": [32,32],
+        },
         "OldMap": {
             "iconUrl": "oldmap.png",
             "iconSize": [32,32],

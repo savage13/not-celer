@@ -562,6 +562,20 @@ out = {
             "iconAnchor": [16,16],
             "routeSize": [32,32],
             "displayString": "${key} ${txt}",
+            "- Bomb Flower": {
+                "iconUrl": "BombFlower.png",
+                "iconSize": [32,32],
+                "iconAnchor": [16,16],
+                "routeSize": [32,32],
+                "displayString": "${key} ${txt}",
+            },
+            "- Squirrel": {
+                "iconUrl": "Squirrel.png",
+                "iconSize": [32,32],
+                "iconAnchor": [16,16],
+                "routeSize": [32,32],
+                "displayString": "${key} ${txt}",
+            }
         },
         "Dispenser": {
             "iconUrl": "dispenser.png",

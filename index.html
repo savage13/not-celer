@@ -819,13 +819,39 @@ _route:
           //   files: first or with yaml ending
           //
           // raw.githubusercontent.com/savage13/sacio/master/License
+          // github
+          //   https://api.github.com/repos/
+          //   https://api.github.com/repos/$username/$repo/contents/filepath
           //
+          // gist
+          //   https://api.github.com/gists/
+          //   https://api.github.com/gists/$UID
+          //     -> json.firstFile.content
+          //
+          // codeberg.org
+          // https://codeberg.org/api/v1/repos/$username/$repo/raw/filepath
+          // https://codeberg.org/api/v1/repos/31JSON/totk-100-glitchless/raw/totk-glitchless-hundo-notceler.txt
           let url = new URL(window.location)
-          let file = url.searchParams.get('f')
-          if(file !== undefined && file !== null) {
-              const res = await fetch('https://' + file, { })
-              const txt = await res.text()
-              return txt
+          const providers = {
+              gist: "https://api.github.com/gists/",
+              github: "https://api.github.com/repos/",
+              codeberg: "https://codeberg.org/api/v1/repos/",
+          }
+          for(const key of Object.keys(providers)) {
+              let file = url.searchParams.get(key)
+              if(file !== undefined && file !== null) {
+
+                  const prefix = providers[key]
+                  const res = await fetch(prefix + file)
+                  let txt = ""
+                  if(key == "gist") {
+                      const out = await res.json()
+                      txt = Object.values(out.files)[0].content
+                  } else {
+                      txt = await res.text()
+                  }
+                  return txt
+              }
           }
           return localStorage.getItem("route.txt")
       }
@@ -889,6 +915,11 @@ _route:
           if(n <= 0 || kind == undefined)
               return undefined;
           n = (n !== undefined) ? n : kind.length;
+          if(kind.length && kind[0].sub && kind[0].sub.startsWith("- Bomb Flower")) {
+              if(Math.random() * 100 > 98)
+                  return icons["Item::- Squirrel"]
+              return icons["Item::- Bomb Flower"]
+          }
           const key = kind.slice(0,n).map(v => v.name).join("::");
           let icon = icons[key];
           if(!icon) {
@@ -1140,7 +1171,6 @@ _route:
               const ret = parse_object_header(obj, keys);
               to.push(...ret.to);
               markers.push(...ret.markers);
-              //console.log(ret);
               marker_icon = ret.icon;
               marker_keys = ret.keys;
           }
@@ -1929,6 +1959,12 @@ _route:
           if(warp)
               return meta._icons.Warp;
           let icon = meta._icons;
+
+          if(kind.length && kind[0].sub && kind[0].sub.startsWith("- Bomb Flower")) {
+              if(Math.random() * 100 > 98)
+                  return icon['Item']['- Squirrel']
+              return icon['Item']['- Bomb Flower']
+          }
           for(let i = 0; i < kind.length; i++) {
               const v = kind[i];
               if(!(v.name in icon)) {

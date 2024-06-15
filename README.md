@@ -10,6 +10,14 @@ You can find it https://restite.org/not-celer
 - server.py: runs a local https webserver with an associated key.pem / server.pem.  Clipboard usage requires https
 - Assorted Image files and javascript libraries
 
+#### Support for loading routes from external resources
+- Github Gist
+  - `https://restite.org/notceler-totk/?gist=${gist_id}`
+- Github Repo
+  - `https://restite.org/notceler-totk/?github=${user}/${repo}/${branch}/${filepath}`
+- Codeberg
+  - `https://restite.org/notceler-totk/?codeberg=${user}${repo}/raw/{$filepath}` 
+
 ### License
 BSD 2-Clause License
 

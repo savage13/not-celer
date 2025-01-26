@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="foldgutter.css" />
     <script src="leaflet.geometryutil.js"></script>
 	  <script src="leaflet-arrowheads.js"></script>
-    <script src="js-yaml.js"></script>
+    <script src="js-yaml.mjs"></script>
     <script src="leaflet-canvasicon.js" defer></script>
     <script src="debounce.js"></script>
     <script src="foldcode.js"></script>
@@ -179,6 +179,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           display: table-cell;
           width:3em;
           vertical-align: top;
+          cursor: pointer;
       }
       .segment_line_counter {
           border: 0px solid gray;
@@ -798,11 +799,12 @@ _route:
               hail.reset()
           }
       })
+      /*
       input("Timer websocket", "address_id", settings,
             "Speedrun timer websocket address, Hail is localhost:3578 and Livesplit is localhost:16834/livesplit",
             (ev) => {
-          
       })
+            */
       
       L.control.textbox({ position: 'topright', html: settings }).addTo(map);
 
@@ -814,6 +816,7 @@ _route:
               this.cur_seg = undefined
               this.on_func = { }
               this.once_func = { }
+              this.ws = undefined
               this.init(address)
           }
           init(address) {
@@ -821,7 +824,13 @@ _route:
               if(address == undefined || address.trim() == "") {
                   address = "localhost:3578"
               }
+              if(this.ws) {
+                  console.log("close ws")
+                  this.ws.close()
+              }
+              //console.log("init", address)
               this.ws = new WebSocket(`ws://${address}`)
+              //console.log("init", this.ws)
               const self = this
               this.ws.onopen = () => {
                   console.log('ws opened on browser')
@@ -831,6 +840,7 @@ _route:
               }
               this.ws.onclose = () => {
                   console.log('ws closed on browser')
+                  self.ws = undefined
                   self.set_status("error")
               }
               this.ws.onmessage = (message) => {
@@ -919,7 +929,10 @@ _route:
               this.cur_seg = n
               this._segment.textContent = this.cur_seg
           }
-          send(data) { this.ws.send(JSON.stringify(data)) }
+          send(data) {
+              if(this.ws && this.ws.readyState == 1)
+                  this.ws.send(JSON.stringify(data))
+          }
           status() {
               this.send({Data: "CurrentSeg"})
               this.send({Data: "IsRunning"})
@@ -927,7 +940,10 @@ _route:
           run() { this.send({Data: "Run"}) }
           reset() { this.send({Change: "Reset"}) }
           pause() { this.send({Change: "Pause"}) }
-          close() { this.ws.close() }
+          close() {
+              if(this.ws && this.ws.readyState == 1)
+                  this.ws.close()
+          }
           reconnect(address) {
               this.close()
               this.init(address)
@@ -977,8 +993,9 @@ _route:
       const hail = new Hail()
       const _status = document.getElementById("split_status")
       _status.addEventListener("click", (ev) => {
-          const address = document.getElementById("address_id").value.trim()
-          hail.reconnect(address)
+          //const address = document.getElementById("address_id").value.trim()
+          console.log("reconnect")
+          hail.reconnect()
       })
 
       let data = undefined;
@@ -1174,6 +1191,34 @@ _route:
       document.getElementById('search').addEventListener('input', (ev) => {
           search_debounce(ev.target.value)
       });
+
+      function listener(event, state) {
+          yaml_level += (event == "open") ? +1 : -1;
+          if(event == "open")
+              return
+          if(yaml_level > 4 || yaml_level == 3)
+              return
+          if(!state.result)
+              return
+
+          // Add line number to objects
+          // Store line numbers for string to be popped later
+          const meta = { line_start: state.line_start, line_end: state.line_end, level: yaml_level }
+          //console.log("state.result", state.result, yaml_level)
+          if(typeof state.result == 'object')
+              state.result._doc = meta
+
+          else if (typeof state.result == 'string') {
+              if(!src_map[state.result])
+                  src_map[state.result] = []
+              //console.log("Add to src_map", state.result, meta)
+              src_map[state.result].push( meta )
+          }
+      }
+
+      let yaml_level = 0
+      let src_map = {}
+      
       function set_route(txt) {
           localStorage.setItem("route.txt", txt)
       }
@@ -1232,9 +1277,13 @@ _route:
       let NOW = true;
       const route_debounce = debounce(route_update, 1000);
       function route_update(txt) {
+          yaml_level = 0
+          src_map = {}
           let tmp_data;
           try {
-              tmp_data = jsyaml.load(txt); // Convert yaml to json
+              tmp_data = jsyaml.load(txt,{
+                  listener: listener
+              }); // Convert yaml to json
               xclear();   // Clears map and route
               data = tmp_data; // Save parsed data to global data variable, eeek!
               set_route(txt); // Saves route text to localStorage
@@ -1529,7 +1578,7 @@ _route:
           return str.charAt(0).toUpperCase() + str.slice(1);
       }
       function parse_object(obj) {
-          let keys = Object.keys(obj);
+          let keys = Object.keys(obj).filter(v => v != '_doc');
           if(keys.length != 1) {
               console.log("Keys > 1");
               return [];
@@ -1889,6 +1938,8 @@ _route:
           for(const segment of data._route) {
               let level_set = undefined;
               for(const [name, parts] of Object.entries(segment)) {
+                  if(name == "_doc")
+                      continue
                   const pts = [];
                   const markers = [];
                   const lines = [];
@@ -1898,9 +1949,17 @@ _route:
                   let SPLIT_LINES = []
                   let markers_by_line = {};
                   let i = 0;
+
+                  let docs = []
                   for(const part of parts) {
                       const kind = typeof part;
+                      let _doc = {}
                       if(kind == "string") {
+                          if(part in src_map) {
+                              _doc = src_map[part].shift()
+                          } else {
+                              console.log("unknown line in src_map", part)
+                          }
                           SPLIT_LINES.push( add_split_maybe(part, {}) )
                           const ret = parse_name(part);
                           elevation.push(... ret.to.map(x => x[1]))
@@ -1911,6 +1970,7 @@ _route:
                           level_set = (ret.level) ? ret.level : level_set;
                           FLY_TO.push( ret.to.find(x => x.length) )
                       } else if(kind == "object") {
+                          _doc = part._doc
                           const _part_name = Object.keys(part).at(0)
                           SPLIT_LINES.push( add_split_maybe(_part_name, part[_part_name]) )
                           const ret = parse_object(part);
@@ -1938,6 +1998,7 @@ _route:
                           console.log("unexpected kind", kind);
                           FLY_TO.push( [0,0,0])
                       }
+                      docs.push(_doc)
                       i += 1;
                   }
                   // Determine Layer from mean of Elevation (y-coord or pos[1])
@@ -1957,7 +2018,7 @@ _route:
                   for(let i = 0; i < parts.length; i++) {
                       const part = parts[i];
                       markers_by_line[i].forEach(m => m.line_number = nlines);
-                      const div = route_new_line(part, FLY_TO[i], layer, name, SPLIT_LINES[i]);
+                      const div = route_new_line(part, FLY_TO[i], layer, name, SPLIT_LINES[i], docs[i]);
                       if(div)
                           seg.appendChild(div)
                   }
@@ -2173,7 +2234,7 @@ _route:
           }
           if(obj.hash_id) {
               if(obj.hash_id in meta_hash) {
-                  console.log("Duplicate hash in meta_hash", obj.hash_id, obj.DisplayName)
+                  //console.log("Duplicate hash in meta_hash", obj.hash_id, obj.DisplayName)
               }
               meta_hash[obj.hash_id] = obj
               meta_hash[obj.hash_id].__key = [...key0]
@@ -2508,7 +2569,7 @@ _route:
           }
       }
 
-      function route_new_line(part, xyz, line_layer, segment_name, split_here) {
+      function route_new_line(part, xyz, line_layer, segment_name, split_here, _doc) {
           if(part == undefined || part == null)
               return undefined;
           //console.log(part, split_here, nlines)
@@ -2532,6 +2593,14 @@ _route:
           });
           const num = $div();
           num.classList.add('segment_line_number');
+          num.title = `editor to line ${_doc.line_start + 1}`
+          num.addEventListener('click', (ev) => {
+              const line = _doc.line_start + 1
+              const top = myCodeMirror.charCoords({line, ch: 0}, "local").top;
+              const middle = myCodeMirror.getScrollerElement().offsetHeight / 2
+              myCodeMirror.scrollTo(null, top - middle - 5)
+              myCodeMirror.setCursor({line, ch:0})
+          })
           num.textContent = `${nlines}`;
           if(split_here) {
               num.textContent += "⏱"

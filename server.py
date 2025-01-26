@@ -11,11 +11,17 @@ import http.server
 import ssl
 
 server_address = ('localhost', 8000)
-httpd = http.server.HTTPServer(server_address, http.server.SimpleHTTPRequestHandler)
-httpd.socket = ssl.wrap_socket(httpd.socket,
-                               server_side=True,
-                               certfile="server.pem",
-                               keyfile="key.pem",
-                               ssl_version=ssl.PROTOCOL_TLS)
+httpd = http.server.HTTPServer(server_address,
+                               http.server.SimpleHTTPRequestHandler)
+if False:
+    httpd.socket = ssl.wrap_socket(httpd.socket,
+                                   server_side=True,
+                                   certfile="server.pem",
+                                   keyfile="key.pem",
+                                   ssl_version=ssl.PROTOCOL_TLS)
+else:
+    context = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
+    context.load_cert_chain(certfile='server.pem', keyfile="key.pem")
+    httpd.socket = context.wrap_socket(httpd.socket, server_side = True)
 print("https://localhost:8000")
 httpd.serve_forever()

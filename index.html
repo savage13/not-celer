@@ -389,6 +389,98 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           display: none;
           z-index: 3000;
       }
+
+
+      .leaflet-control-command-interior
+{
+    background-image: url(images/command.png);
+    width: 46px;
+    height: 46px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 3px;
+    padding-bottom:10px;
+
+    line-height: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.65);
+    cursor: pointer;
+    background-color: #FFFFFF;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+      .leaflet-control-command-icon {
+          font-size: 40pt;
+          color: darkgray;
+      }
+
+.leaflet-control-command-content
+{
+    display: none;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.65);
+    padding: 0.5em;
+    position: absolute;
+    top:0;
+    right:0;
+    width: 160px;
+    overflow: scroll;
+}
+.leaflet-control-command-content button {
+    font-size: 1em;
+    min-width: 10em;
+}
+.leaflet-control-command-content input[type=text] {
+    width: 10em;
+}
+
+.leaflet-control-command-interior:hover  .leaflet-control-command-content
+{
+    font-size: 1em;
+    display: flex;
+}
+.leaflet-control-command-interior:hover  .leaflet-control-command-icon
+{
+    display: none;
+}
+
+#split_status {
+    border-radius: 50px;
+    width: 18px;
+    height: 18px;
+}
+
+.status_error {
+    border: 3px solid darkred;
+    background: red;
+}
+
+.status_unknown {
+    border: 3px solid darkgray;
+    background: lightgray;
+}
+.status_connected {
+    border: 3px solid darkblue;
+    background: lightblue;
+}
+.status_stop {
+    border: 3px solid darkred;
+    background: pink;
+}
+.status_run {
+    border: 3px solid darkgreen;
+    background: lightgreen;
+}
+.status_pause {
+    border: 3px solid yellow;
+    background: lightyellow;
+}
+
     </style>
   </head>
   <body>
@@ -490,6 +582,7 @@ _route:
               <div class="td"><img src="flux.png"></div>
               <div class="td"><img src="ponypoint.png"></div>
               <div class="td" id="progress_icon_mappct"><img src="World_Map.png"></div>
+              <div class="td"><div id="split_status" class="status_unknown" title="Click to reconnect"></div></div>
             </div>
             <div class="tr">
               <div class="td" id="progress_Tower">0</div>
@@ -509,6 +602,7 @@ _route:
               <div class="td" id="progress_Enemy::FluxConstruct">0</div>
               <div class="td" id="progress_PonyPoint">0</div>
               <div class="td" id="progress_mappct">0</div>
+              <div class="td" id="split_segment"></div>
             </div>
           </div>
         </div>
@@ -552,6 +646,13 @@ _route:
     </script>
 
     <script type="text/javascript" defer>
+      let SHOW_PROGRESS = false; // Ctrl-P
+      let ONLY_SEGMENT = false;  // Ctrl-O
+      let SHIFT_TITLE = false; // Ctrl-i
+      let SETTINGS = false; // Ctrl-G
+      let SEARCH = true; // Ctrl-J
+      let REPORT_SPLITS = true;
+      
       const game = "totk";
 
       const map_options = {
@@ -616,12 +717,269 @@ _route:
           L.control.layers(baseMapLayers).addTo(map_el.map);
       }
 
-      L.control.mousePosition({
-          lngFirst: true,
-          position: 'bottomright',
-          latFormatter: (x => (-x).toFixed(2)),
-          lngFormatter: (x => (x).toFixed(2)),
-      }).addTo(map_el.map);
+      L.Control.textbox = L.Control.extend({
+          options: {
+              position: 'topright',
+          },
+          onAdd: function(map) {
+              var controlDiv = L.DomUtil.create('div', 'leaflet-control-command');
+              const controlUI = L.DomUtil.create('div', 'leaflet-control-command-interior', controlDiv);
+              const content = L.DomUtil.create('div', 'leaflet-control-command-content', controlUI)
+              content.appendChild(this.options.html)
+              controlUI.title = 'Map Commands';
+              const icon = L.DomUtil.create('div', 'leaflet-control-command-icon', controlUI)
+              icon.innerHTML = '&#9881;'
+              return controlDiv;
+          },
+          onRemove: function(map) {
+          }
+      })
+
+      function checkbox(label, id, checked, parent, onchange) {
+          const progress_div = $div()
+          parent.appendChild(progress_div)
+          const progress = $input()
+          progress.type = "checkbox"
+          progress.id = id
+          progress.checked = checked
+          progress.addEventListener('change', onchange)
+          progress_div.appendChild(progress)
+          const progress_label = document.createElement('label')
+          progress_label.textContent = label
+          progress_label.htmlFor = id
+          progress_div.appendChild(progress_label)
+          return progress
+      }
+      function button(text, parent, title, onclick) {
+          const div = $div()
+          const b1 = $button()
+          b1.textContent = text
+          b1.title = title
+          div.appendChild(b1)
+          parent.appendChild(div)
+          b1.addEventListener('click', onclick)
+      }
+      function input(placeholder, id, parent, title, onchange) {
+          const div = $div()
+          const inp = $input()
+          inp.type = "text"
+          inp.id = id
+          inp.title = title
+          inp.placeholder = placeholder
+          inp.addEventListener('change', onchange)
+          div.appendChild(inp)
+          parent.appendChild(div)
+          return div
+      }
+      function single(func) {
+          return (ev) => {
+              func();
+              ev.stopPropagation()
+              ev.preventDefault()
+          }
+      }
+
+      L.control.textbox = function(opts) { return new L.Control.textbox(opts);}
+      const settings = $div()
+      settings.style.width = "100%"
+
+      checkbox("Report Splits", "splits_id", REPORT_SPLITS, settings, single(toggle_report_splits))
+      checkbox("Show progress", "progress_id", SHOW_PROGRESS, settings, single(toggle_show_progress))
+      checkbox("Show current segment", "current_id", ONLY_SEGMENT, settings, single(toggle_only_segment))
+      checkbox("Shift title", "title_id", SHIFT_TITLE, settings, single(toggle_shift_title))
+      checkbox("Show search", "search_id", SEARCH, settings, single(toggle_search))
+      button("Fold editor text", settings, "Fold up all editor text", (ev) => { myCodeMirror.execCommand("foldAll")})
+      button("Unfold editor text", settings, "Unfold all editor text", (ev) => { myCodeMirror.execCommand("unfoldAll")})
+      button("Sync Split", settings, "Transfer speedrun timer split to not-celer", (ev) => {
+          sync_with_hail()
+      })
+      button("Reset Splits", settings, "Reset speedrun timer", (ev) => {
+          if(confirm("Are you sure you want to reset current run?")) {
+              hail.reset()
+          }
+      })
+      input("Timer websocket", "address_id", settings,
+            "Speedrun timer websocket address, Hail is localhost:3578 and Livesplit is localhost:16834/livesplit",
+            (ev) => {
+          
+      })
+      
+      L.control.textbox({ position: 'topright', html: settings }).addTo(map);
+
+      class Hail {
+          constructor(address) {
+              this._status = document.getElementById("split_status")
+              this._segment = document.getElementById("split_segment")
+              this.run_data = {}
+              this.cur_seg = undefined
+              this.on_func = { }
+              this.once_func = { }
+              this.init(address)
+          }
+          init(address) {
+              // Default Hail Speed run timer on localhost
+              if(address == undefined || address.trim() == "") {
+                  address = "localhost:3578"
+              }
+              this.ws = new WebSocket(`ws://${address}`)
+              const self = this
+              this.ws.onopen = () => {
+                  console.log('ws opened on browser')
+                  self.set_status("connected")
+                  self.run()
+                  self.status()
+              }
+              this.ws.onclose = () => {
+                  console.log('ws closed on browser')
+                  self.set_status("error")
+              }
+              this.ws.onmessage = (message) => {
+                  let event = undefined
+                  const data = JSON.parse(message.data)
+                  //console.log("MSG", data)
+                  if(data.Data) {
+                      const d = data.Data
+                      //console.log("MSG (d)", d)
+                      event = Object.keys(d)[0]
+                      if(d.Run) {
+                          self.run_data = d.Run
+                      } else if(d.CurrentSeg !== undefined) {
+                          self.set_segment( d.CurrentSeg )
+                      } else if(d.IsRunning !== undefined) {
+                          if(d.IsRunning)
+                              self.set_status("run")
+                          else
+                              self.set_status("stop")
+                      }
+                  } else if(data.Change) {
+                      const c = data.Change
+                      //console.log("MSG (change)", c)
+                      event = Object.keys(c)[0]
+                      if(c.FinishSeg) {
+                          self.set_status("run")
+                      } else if(c == "Reset") {
+                          self.set_status("stop")
+                          self.set_segment(0);
+                      } else if(c.ChangeSeg) {
+                      } else if(c.StartSeg) {
+                          if(c.StartSeg.segment === null){
+                              self.set_status("stop")
+                          } else {
+                              self.set_status("run")
+                              self.set_segment(c.StartSeg.segment);
+                          }
+                      }
+                  }
+                  if(event) {
+                      if(self.once_func[event]) {
+                          self.once_func[event](data)
+                          delete self.once_func[event]
+                      }
+                      if(self.on_func[event]) {
+                          self.on_func[key](data)
+                      }
+                  }
+              }
+              this.ws.onerror = (message) => {
+                  console.log('error', message.data)
+              }
+          }
+          check_splits() {
+              this.once_func.Run = (data) => {
+                  console.log("check splits", data)
+                  const els = document.getElementsByClassName("segment_line");
+                  let count = 0;
+                  for(const el of els) {
+                      if(el.dataset.split) {
+                          count += 1
+                      }
+                  }
+                  const timer_count = data.Data.Run.segment_names.length
+                  if(count != timer_count) {
+                      alert(`Timer splits (${timer_count}) do not match Route (${count})`)
+                  }
+              }
+              this.run()
+          }
+          set_status(s) {
+              //console.log("MSG set status", s)
+              this._status.classList.remove(...this._status.classList)
+              this._status.classList.add(`status_${s}`)
+              const titles = {
+                  run: "Running ...",
+                  unknown: "Click to reconnect",
+                  stop: "Stopped",
+                  connected: "Connected",
+                  pause: "Paused",
+                  error: "Click to connect",
+              }
+              this._status.title = titles[s]
+          }
+          set_segment(n) {
+              this.cur_seg = n
+              this._segment.textContent = this.cur_seg
+          }
+          send(data) { this.ws.send(JSON.stringify(data)) }
+          status() {
+              this.send({Data: "CurrentSeg"})
+              this.send({Data: "IsRunning"})
+          }
+          run() { this.send({Data: "Run"}) }
+          reset() { this.send({Change: "Reset"}) }
+          pause() { this.send({Change: "Pause"}) }
+          close() { this.ws.close() }
+          reconnect(address) {
+              this.close()
+              this.init(address)
+          }
+          split() {
+              if(REPORT_SPLITS) {
+                  this.send({Change: "Split"})
+              }
+          }
+          unsplit() {
+              if(REPORT_SPLITS) {
+                  this.send({Change: "Unsplit"})
+              }
+          }
+          on_current_segment(func, once=true) {
+              if(once)
+                  this.once_func.CurrentSeg = func
+              else
+                  this.on_func.CurrentSeg = func
+              console.log("SEND for Current Segment")
+              this.send({Data: "CurrentSeg"})
+          }
+      }
+
+      function sync_with_hail() {
+          hail.on_current_segment( (data) => {
+              const segment_id = data.Data.CurrentSeg
+              console.log("CURRENT SEGMENT", segment_id)
+              const els = document.getElementsByClassName("segment_line");
+              let count = 0
+              let element_id = undefined
+              for(const el of els) {
+                  if(el.dataset.split) {
+                      if(count == segment_id) {
+                          element_id = el.id
+                          break
+                      }
+                      count += 1
+                  }
+              }
+              if(element_id) {
+                  scroll_to_line(element_id)
+              }
+          })
+      }
+
+      const hail = new Hail()
+      const _status = document.getElementById("split_status")
+      _status.addEventListener("click", (ev) => {
+          const address = document.getElementById("address_id").value.trim()
+          hail.reconnect(address)
+      })
 
       let data = undefined;
 
@@ -836,6 +1194,17 @@ _route:
           // codeberg.org
           // https://codeberg.org/api/v1/repos/$username/$repo/raw/filepath
           // https://codeberg.org/api/v1/repos/31JSON/totk-100-glitchless/raw/totk-glitchless-hundo-notceler.txt
+          /*
+- Github Gist
+  - `https://restite.org/notceler-totk/?gist=${gist_id}`
+  - `https://restite.org/notceler-totk/?gist=4a7a1736945936ec60eb0ef772ba350e`
+- Github Repo
+  - `https://restite.org/notceler-totk/?github=${user}/${repo}/${branch}/${filepath}`
+  - `https://restite.org/notceler-totk/?github=31JSON/totk-hundo-glitchless/main/totk-glitchless-hundo-notceler.txt`
+- Codeberg
+  - `https://restite.org/notceler-totk/?codeberg=${user}${repo}/raw/{$filepath}` 
+  - `https://restite.org/notceler-totk/?codeberg=31JSON/totk-100-glitchless/raw/totk-glitchless-hundo-notceler.txt`
+           */
           let url = new URL(window.location)
           const providers = {
               gist: "https://api.github.com/gists/",
@@ -1477,13 +1846,26 @@ _route:
               sum_times: []
           }
       }
-      function add_split_maybe(part) {
-          if((part.startsWith('_Shrine') || part.startsWith('_Tower')) && part.split("::").length == 2) {
+
+      let SPLIT_TYPES = ["Shrine", "Tower"]
+      function is_split_type(part) {
+          for(const t of SPLIT_TYPES) {
+              if(part.startsWith("_" + t))
+                  return true
+          }
+          return false
+      }
+
+      function add_split_maybe(part, obj, force = false) {
+          const is_user_split = (obj && obj['split-type'] !== undefined)
+          if(is_user_split || force || (is_split_type(part) && part.split("::").length == 2)) {
               let v = part.split("::")
               v[0] = v[0].replace("_","")
               v = v.map(vi => vi.replaceAll("'", "\\'"))
               add_split(v.join(" "), part)
+              return true
           }
+          return false
       }
 
       function add_split(name, _key) {
@@ -1495,9 +1877,15 @@ _route:
 
       function route() {
           reset_splits()
-          add_split("Start",'Start')
+
+          if(data._project && data._project.split) {
+              SPLIT_TYPES = data._project.split
+          }
+          
+          //add_split("Start",'Start') // Not sure if we need this here
           let line_color = undefined;
           let last_point = undefined;
+          let last_line = undefined
           for(const segment of data._route) {
               let level_set = undefined;
               for(const [name, parts] of Object.entries(segment)) {
@@ -1507,12 +1895,13 @@ _route:
                   const elevation = [];
                   const away = []
                   let FLY_TO = [];
+                  let SPLIT_LINES = []
                   let markers_by_line = {};
                   let i = 0;
                   for(const part of parts) {
                       const kind = typeof part;
                       if(kind == "string") {
-                          add_split_maybe(part)
+                          SPLIT_LINES.push( add_split_maybe(part, {}) )
                           const ret = parse_name(part);
                           elevation.push(... ret.to.map(x => x[1]))
                           pts.push(... ret.to);
@@ -1522,7 +1911,8 @@ _route:
                           level_set = (ret.level) ? ret.level : level_set;
                           FLY_TO.push( ret.to.find(x => x.length) )
                       } else if(kind == "object") {
-                          add_split_maybe(Object.keys(part).at(0))
+                          const _part_name = Object.keys(part).at(0)
+                          SPLIT_LINES.push( add_split_maybe(_part_name, part[_part_name]) )
                           const ret = parse_object(part);
                           elevation.push(... ret.to.map(x => x[1]))
                           if(ret.away.length) {
@@ -1567,10 +1957,11 @@ _route:
                   for(let i = 0; i < parts.length; i++) {
                       const part = parts[i];
                       markers_by_line[i].forEach(m => m.line_number = nlines);
-                      const div = route_new_line(part, FLY_TO[i], layer, name);
+                      const div = route_new_line(part, FLY_TO[i], layer, name, SPLIT_LINES[i]);
                       if(div)
                           seg.appendChild(div)
                   }
+                  last_line = parts.at(-1)
 
                   let pl = undefined;
                   if(last_point && last_point.length > 0 && pts.length > 0 && pts[0].length > 0) {
@@ -1633,9 +2024,24 @@ _route:
                   //MARKERS.push(...markers);
               }
           }
+          // Add Last Split
+          {
+              if(typeof last_line == "string") {
+                  add_split_maybe(last_line, {}, true)
+              } else if(typeof last_line == "object") {
+                  const _part_name = Object.keys(last_line).at(0)
+                  add_split_maybe(_part_name, last_line[_part_name], true)
+
+              }
+          }
+          {
+              const last = document.getElementById(`line_${nlines-1}`)
+              last.dataset.split = true
+          }
           // Convert splits to ron
           {
               let nsplits = SPLITS.splits.length
+              console.log("Splits", nsplits)
               let ron = ["version 2","("]
               for(const [key,val] of Object.entries(SPLITS)) {
                   if(typeof val == 'string') {
@@ -1854,7 +2260,7 @@ _route:
                   }
               }
           }
-          console.log(total, Object.keys(mappct).length)
+          //console.log(total, Object.keys(mappct).length)
 
           // Set alt flags for everything based on name
           for(const [cat, values] of Object.entries(meta)) {
@@ -1896,10 +2302,17 @@ _route:
           
           NAMES = await load_json("names.json");
           myCodeMirror.setValue(txt);
+          hail.check_splits()
       }
       main()
       function $div() {
           return document.createElement('div')
+      }
+      function $input() {
+          return document.createElement('input')
+      }
+      function $button() {
+          return document.createElement('button')
       }
 
       const route_el = document.getElementById('route');
@@ -2031,6 +2444,26 @@ _route:
               removeElementsByClass('line_active')
               return;
           }
+          const previous_line = CURRENT_LINE
+          //console.log("SET LINE", CURRENT_LINE, id)
+          if(CURRENT_LINE !== undefined) {
+              let num0  = CURRENT_LINE.split("_")[1]
+              let num1  = id.split("_")[1]
+              let move = num1 - num0
+              if(move == 1) { // Forward by 1
+                  const el = document.getElementById(CURRENT_LINE)
+                  if(el.dataset.split || num0 == 1) {
+                      //console.log("SPLIT", el)
+                      hail.split()
+                  }
+              } else if(move == -1) { // Backward by 1
+                  const el = document.getElementById(id)
+                  if(el.dataset.split) {
+                      //console.log("UNSPLIT", el)
+                      hail.unsplit()
+                  }
+              }
+          }
           removeElementsByClass('line_active')
           const el = document.getElementById(id);
           el.classList.add('line_active');
@@ -2075,9 +2508,10 @@ _route:
           }
       }
 
-      function route_new_line(part, xyz, line_layer, segment_name) {
+      function route_new_line(part, xyz, line_layer, segment_name, split_here) {
           if(part == undefined || part == null)
               return undefined;
+          //console.log(part, split_here, nlines)
           const line = $div();
           line.classList.add('segment_line')
           line.id = `line_${nlines}`;
@@ -2085,12 +2519,23 @@ _route:
               line.dataset.xyz = xyz;
           line.dataset.layer = line_layer;
           line.dataset.segment = segment_name;
+
+          // Basic Split Identifier
+          const line_name = (typeof part == 'object') ? Object.keys(part)[0] : part
+
+          if(split_here || nlines == 1) {
+              line.dataset.split = true
+          }
+
           line.addEventListener('click', (ev) => {
               set_current_line(ev.currentTarget.id);
           });
           const num = $div();
           num.classList.add('segment_line_number');
           num.textContent = `${nlines}`;
+          if(split_here) {
+              num.textContent += "⏱"
+          }
           line.appendChild(num);
           const current_line = nlines;
           nlines += 1
@@ -2198,13 +2643,8 @@ _route:
           return next;
       }
 
-      let SHOW_PROGRESS = false; // Ctrl-P
-      let ONLY_SEGMENT = false;  // Ctrl-O
-      let SHIFT_TITLE = false; // Ctrl-i
-      let SETTINGS = false; // Ctrl-G
-      let SEARCH = true; // Ctrl-J
-
       function scroll_to_line(id) {
+          //console.log("SCROLL", id)
           const next = document.getElementById(id);
           const route = document.getElementById('route')
           const xoffset = 0;
@@ -2213,42 +2653,71 @@ _route:
           set_current_line(next.id);
       }
 
+      function toggle_search() {
+          SEARCH = ! SEARCH;
+          const set = document.getElementById('search0')
+          set.style.display = (SEARCH) ? 'block' : 'none'
+      }
+      function toggle_only_segment() {
+          ONLY_SEGMENT = ! ONLY_SEGMENT;
+          if(!ONLY_SEGMENT) {
+              switch_segments(map_el.level);
+          }
+          set_current_line(CURRENT_LINE);
+          return;
+      }
+      function toggle_report_splits() {
+          REPORT_SPLITS = ! REPORT_SPLITS
+          const el = document.getElementById('split_status')
+          el.style.display = (REPORT_SPLITS) ? "flex" : "none"
+      }
+      function toggle_show_progress() {
+          SHOW_PROGRESS = ! SHOW_PROGRESS;
+          const el = document.getElementById("progress0");
+          el.style.display = (SHOW_PROGRESS) ? 'block' : 'none';
+          set_current_line(CURRENT_LINE);
+      }
+      function toggle_shift_title() {
+          SHIFT_TITLE = ! SHIFT_TITLE;
+          set_current_line(CURRENT_LINE);
+          const ele = document.getElementsByClassName('segment_title_text');
+          for(const el of ele) {
+              if(SHIFT_TITLE) {
+                  el.classList.add('segment_title_text_pad')
+              } else {
+                  el.classList.remove('segment_title_text_pad')
+              }
+          }
+      }
+
+      function is_last_line(dir) {
+          if(CURRENT_LINE == undefined)
+              return false
+          let n = parseInt(CURRENT_LINE.split("_")[1])
+          if(n === undefined)
+              return false
+          if(dir < 0)
+              return false
+          n += dir
+          let next_id = `line_${n}`
+          const next = document.getElementById(next_id)
+          if(!next)
+              return true
+          return false
+      }
+
       function key_commands(ev) {
           if(ev.ctrlKey && ev.key == "p") {
-              SHOW_PROGRESS = ! SHOW_PROGRESS;
-              const el = document.getElementById("progress0");
-              el.style.display = (SHOW_PROGRESS) ? 'block' : 'none';
-              set_current_line(CURRENT_LINE);
-              return;
+              return toggle_show_progress()
           }
           if(ev.ctrlKey && ev.key == "o") {
-              ONLY_SEGMENT = ! ONLY_SEGMENT;
-              if(!ONLY_SEGMENT) {
-                  switch_segments(map_el.level);
-              }
-              set_current_line(CURRENT_LINE);
-              return;
+              return toggle_only_segment()
           }
           if(ev.ctrlKey && ev.key == "j") {
-              SEARCH = ! SEARCH;
-              const set = document.getElementById('search0')
-              set.style.display = (SEARCH) ? 'block' : 'none'
-              ev.stopPropagation()
-              ev.preventDefault()
-
+              return toggle_search()
           }
           if(ev.ctrlKey && ev.key == "i") {
-              SHIFT_TITLE = ! SHIFT_TITLE;
-              set_current_line(CURRENT_LINE);
-              const ele = document.getElementsByClassName('segment_title_text');
-              for(const el of ele) {
-                  if(SHIFT_TITLE) {
-                      el.classList.add('segment_title_text_pad')
-                  } else {
-                      el.classList.remove('segment_title_text_pad')
-                  }
-              }
-              return
+              return toggle_shift_title()
           }
           if(ev.ctrlKey && ev.key == "g") {
               SETTINGS = ! SETTINGS
@@ -2259,17 +2728,18 @@ _route:
 
               return false;
           }
-          
           if(CURRENT_LINE === undefined)
               return
           if(ev.key == "ArrowDown" || ev.key == "ArrowUp") {
-              let next;
-              if(ev.key == "ArrowDown")
-                  next = get_next_line(1);
-              else if(ev.key == "ArrowUp")
-                  next = get_next_line(-1);
-              if(next === undefined)
+              let dir = (ev.key == "ArrowDown") ? 1 : -1
+              let next = get_next_line(dir);
+              if(next === undefined) {
+                  if(is_last_line(dir)) {
+                      console.log("SPLIT last line")
+                      hail.split()
+                  }
                   return;
+              }
               scroll_to_line(next.id)
               ev.stopPropagation()
               ev.preventDefault()

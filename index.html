@@ -549,7 +549,8 @@ _route:
         <div id="messages"></div>
         <div id="theme">
           <button id="save">Save</button>
-          <button id="splits">Splits</button>
+          <button id="splits" title="Save Hail/Mist Splits">Splits</button>
+          <button id="splits_lss_button" title="Save Livesplit Splits">Splits (LSS)</button>
           <select id="themes">
             <option value="base16-dark">Dark</option>
             <option value="base16-light">Light</option>
@@ -3082,5 +3083,27 @@ _route:
       }
       window.addEventListener('keydown', key_commands);
       </script>
+    <script type="module">
+      import { lss_splits } from './lss.js'
+      console.log('splits_lss', lss_splits)
+      document.getElementById('splits_lss_button').addEventListener('click', (ev) => {
+          const txt = lss_splits(SPLITS.game_title, SPLITS.category, SPLITS.splits)
+          const blob = new Blob([txt], { type: 'application/lss' })
+          const a = document.createElement('a')
+          let description = "totk_celer_route";
+          if(data._project && data._project.description) {
+              description = data._project.description;
+          } else if (data._project && data._project.name) {
+              description = data._project.name;
+          }
+          description = description.replaceAll(" ", "_").replaceAll(",","")
+          let when = new Date().toISOString().replace(/.\d+Z$/g, "") // Remove milliseconds
+          a.href = URL.createObjectURL(blob);
+          a.download = `${description}_splits_${when}.lss`;
+          a.click();
+
+      })
+
+    </script>
   </body>
 </html>

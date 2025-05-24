@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>not-celer documentation</title>
+    <style>
+      body {
+          font-family: sans-serif;
+      }
+      pre {
+          padding: 0;
+          margin: 0.5em;
+          margin-left: 1em;
+          font-size: 0.95em;
+      }
+      p {
+          margin: 0;
+      }
+      details {
+          padding-left: 1em;
+      }
+      summary {
+          padding-left: -1em;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <h2>not-celer Documentation</h2>
+    <div>
+      <ul>
+        <li><a href="#start">Getting Started</a>
+        <li><a href="#movement">Movements</a>
+        <li><a href="#warp">Warp</a>
+        <li><a href="#remote">Loading Remote Routes</a>
+        <li><a href="#splits">Splits</a>
+        <li><a href="#split">Hail / Livesplit</a>
+        <li><a href="#presets">Presets</a>
+      </ul>
+    </div>
+    <div>
+      <a name="#start">
+        <h3>Getting Started</h3>
+        Here is a basic route template to get started
+      <pre><code class="language-yaml">
+---
+_config:
+_project:
+  authors:
+    - Author Name
+  description: Route Description
+  name: Route Name
+  url: ""
+  version: 1.0.0
+_route:
+  - Great Sky Island:
+    - _Warp::ROA:
+       level: Sky
+       line-color: rgb(255,128,128)
+    - _Special::StartPos Sky
+    - _Chest:
+        coord: [361.13, 2334.30, -1631.99]
+    - _Location::TempleofTime
+        </code>
+        </pre>
+
+ 
+    </div>
+    <div>
+      <a name="#movement">
+        <h3>Movements</h3>
+        <pre><code class="language-yaml">- _Material&lt;Spicy Peppers&gt;
+    comment: nom! nom! nom!
+    movements:
+      - marker: ${marker_state}
+      - to: [-964.50, 238.84, 1953.28]
+      - to: [-964.15, 238.61, 1953.45]
+      - to: [-964.52, 238.68, 1953.66]
+      - to: [-965.66, 238.75, 1956.51]
+      - to: [-965.30, 238.52, 1956.67]
+      - to: [-965.68, 238.59, 1956.89]
+</code>
+        </pre>
+        <tt>${marker_state}</tt> can be start, end, none or all.  Default value is end.  You can also leave it out
+
+        <a name="warp"/>
+        <h3>Warp</h3>
+        Warping can be accomplished using a prefix of <tt>_Warp::</tt>
+        <pre><code class="language-yaml">_Warp::Shrine::Kyononis</code></pre> or in the <tt>movements</tt> section
+        <pre><code class="language-yaml">- Dungeon Boss:
+    comment: Comment text
+    split-type: UserDefined
+    movements:
+      - to: [-3664.125,-1772.8125]
+        warp: true
+          </code>
+        </pre>
+        <a name="links" />
+        <h3> Links </h3>
+        Links can appear in the title text, comments or notes by using
+        <pre><code>
+       .link([Link Text] https://google.com)
+        </code></pre>
+        <a name="remote"/>
+        <h3>Loading remote routes</h3>
+        <ul>
+          <li> github - <tt>https://restite.org/notceler-totk/?github=${username}/${repo}/contents/${filepath}</tt>
+            <br>
+          </li>
+          <li> codeberg - <tt>https://restite.org/notceler-totk/?codeberg=${user}/${repo}/raw/${filename}</tt>
+            <br>
+            <tt><a href="https://restite.org/notceler-totk/?codeberg=Bouncesw/totk-100-v100/raw/totk-100-v100-route">https://restite.org/notceler-totk/?codeberg=Bouncesw/totk-100-v100/raw/totk-100-v100-route</a></tt>
+          </li>
+          <li>
+            gist - <tt>https://restite.org/notceler-totk/?gist=${gist-id}</tt>
+            </li>
+        </ul>
+
+        <a name="splits"/>
+        <h3>Splits</h3>
+        Output of splits is available through the button at the bottom of the editor
+        <ul>
+          <li>Splits</li>
+          <ul>
+            <li>Hail / Mist timer format
+          </ul>
+          <li>Splits (LSS)</li>
+          <ul>
+            <li>Livesplit format
+          </ul>
+        </ul>
+        Splits are output on _Shrine and _Tower, by default.  You can change where you want splits output by using a comma separated list in the "split" value within "_project", e.g.
+        <pre>
+---
+_config:
+_project:
+  authors:
+    - Author Name
+  description: Route Description
+  name: Route Name
+  url: ""
+  version: 1.0.0
+  split: Tower, Shrine, Lightroot, Korok
+</pre>
+        Most anything that starts with a "_" in the route document can be split on.  You can also specify a specific line to split using the "split-type: User-Defined", e.g.
+        <pre>
+- Dungeon Boss:
+   split-type: UserDefined
+        </pre>
+        
+        <a name="split"/>
+        <h3>Hail / Livesplit</h3>
+
+        Not Celer (TotK) tries to connect to both Hail and Livesplit on initialization (page load).
+        <ul>
+          <li>Hail: <tt>ws://localhost:3578</tt>
+          <li>Livesplit: <tt>ws://localhost:16834/livesplit</tt> (Livesplit is off by default as I cannot test it)
+        </ul>
+        <p>
+          The <tt>Split</tt> event, or when the timer is advanced in Hail / Livesplit, when you move past the current line in the route.  A line that acts as a split will have a litte stop watch by the line number.
+        </p>
+        <br>
+        <p>
+          Shrines and Towers are defaulted to be splits.  If you want a line to be a split, use:
+          <pre>    - _Discover&lt;Shrine of Resurrection&gt;:
+       split-type: UserDefined
+          </pre>
+        <p>
+          
+        If Hail/Livesplit is active and listening, it should connect, otherwise messages will be shown in the developer console window. If you want a specific port or address, we can make this an option.
+        <p>
+          There is a status indicator on the right side of the Progress window with the color meaning
+          <ul>
+            <li><span style="color:lightblue;font-weight:bold;">Light Blue</span> - Connected
+            <li><span style="color:pink;font-weight:bold;">Pink</span> - Stopped
+            <li><span style="color:green;font-weight:bold;">Green</span> - Running, Timer Active
+            <li><span style="color:#d8d800;font-weight:bold;">Yellow</span> - Running, Timer Paused
+            <li><span style="color:red;font-weight:bold;">Red</span>- Error
+            <li><span style="color:gray;font-weight:bold;">Gray</span> - Unknown
+          </ul>
+
+          <a name="presets"/>
+          <h3>Presets</h3>
+          <div>
+        These are here to describe the available preset values and
+        details for individual presets, i.e. icon or name.
+        You can copy the key at the top `- _Enemy::Frox::DH04` into the document to
+        get add this preset to the route with the coordinate and correct icon.  You can also
+        add your own notes and comments, if desired, to this preset or leave it
+
+          </div>
+          <div id="preset_list"></div>
+    </div>
+    <script type="module">
+      async function load_json(filename) {
+          const res = await fetch(filename)
+          return res.json()
+      }
+      function preset_text(obj, key) {
+          const lines = []
+          lines.push(`- ${key}:`)
+          lines.push(`   - text: ${obj.DisplayName}`)
+          lines.push(`   - coord: [${obj.pos[0]}, ${obj.pos[1]}, ${obj.pos[2]}]`)
+          if(obj.Location)
+              lines.push(`   - note: Location ${obj.Location}`)
+          if(obj.note)
+              lines.push(`   - note: ${obj.note}`)
+          if(obj.hash_id)
+              lines.push(`   - note: hash_id ${obj.hash_id}`)
+          if(obj.korok_id)
+              lines.push(`   - note: korok id ${obj.korok_id} ${obj.korok_type}`)
+          return lines.join("\n")
+      }
+      function preset(obj, key) {
+          let tmp = Object.keys(obj).filter(k => !["pos","DisplayName","hash_id", "Location", "flag", "note"].includes(k))
+          //if(tmp.length && !obj.korok_id)
+          //    console.log(tmp, obj)
+          const pre = document.createElement('pre')
+          const code = document.createElement('code')
+          pre.appendChild(code)
+          code.textContent = preset_text(obj, key)
+          code.classList.add('language-yaml')
+          return pre
+      }
+
+      function show_presets(obj, prefix) {
+          if(typeof obj != 'object')
+              return []
+          if(obj.DisplayName && obj.pos) {
+              return [preset(obj, prefix)]
+          } else {
+              let out = []
+              for(const [key, val] of Object.entries(obj)) {
+                  const det = document.createElement('details')
+                  const sum = document.createElement('summary')
+                  sum.textContent = key
+                  det.appendChild(sum)
+                  let tmp = show_presets(val, `${prefix}::${key}`)
+                  for(const t of tmp)
+                      det.appendChild( t )
+                  if(tmp.length)
+                      out.push(det)
+              }
+              return out
+          }
+      }
+      async function main() {
+          const pre = await load_json("celer_totk_metadata.json")
+          console.log(pre)
+          for(const key of Object.keys(pre).sort()) {
+              const val = pre[key]
+              console.log(key)
+              const det = document.createElement('details')
+              const sum = document.createElement('summary')
+              sum.textContent = key
+              det.appendChild(sum)
+              let tmp = show_presets(val, '_' + key)
+              for(const t of tmp)
+                  det.appendChild( t )
+              if(tmp.length)
+                  preset_list.appendChild(det)
+          }
+      }
+
+      main()
+    </script>
+  </body>
+</html>

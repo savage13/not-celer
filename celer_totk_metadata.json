@@ -43,6 +43,38 @@
       "hash_id": "PonyPointPicture"
     }
   },
+  "Poe": {
+    "Normal": {
+      "DisplayName": "Poe x1",
+      "hash_id": "PoeNormal",
+      "count": 1,
+      "x1": {
+        "DisplayName": "Poe x1",
+        "hash_id": "PoeNormal",
+        "count": 1
+      },
+      "x2": {
+        "DisplayName": "Poe x2",
+        "hash_id": "PoeNormal",
+        "count": 2
+      },
+      "x3": {
+        "DisplayName": "Poe x3",
+        "hash_id": "PoeNormal",
+        "count": 3
+      }
+    },
+    "Large": {
+      "DisplayName": "Large Poe",
+      "hash_id": "PoeLarge",
+      "count": 5
+    },
+    "Grand": {
+      "DisplayName": "Grand Poe",
+      "hash_id": "PoeGrand",
+      "count": 20
+    }
+  },
   "Tower": {
     "RosproPass": {
       "pos": [
@@ -74682,6 +74714,56 @@
           32
         ],
         "displayString": "${txt} ${key}"
+      }
+    },
+    "Poe": {
+      "Normal": {
+        "iconUrl": "poe.png",
+        "iconSize": [
+          32,
+          32
+        ],
+        "iconAnchor": [
+          16,
+          16
+        ],
+        "routeSize": [
+          22,
+          22
+        ],
+        "displayString": "Poe"
+      },
+      "Large": {
+        "iconUrl": "poe_large.png",
+        "iconSize": [
+          32,
+          32
+        ],
+        "iconAnchor": [
+          16,
+          16
+        ],
+        "routeSize": [
+          22,
+          22
+        ],
+        "displayString": "Poe x5"
+      },
+      "Grand": {
+        "iconUrl": "poe_grand.png",
+        "iconSize": [
+          32,
+          32
+        ],
+        "iconAnchor": [
+          16,
+          16
+        ],
+        "routeSize": [
+          22,
+          22
+        ],
+        "displayString": "Poe x20"
       }
     },
     "Korok": {

@@ -390,7 +390,15 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           display: none;
           z-index: 3000;
       }
-
+      .link {
+          color: lightskyblue;
+      }
+      .line_active .link {
+          color: #6699FF;
+      }
+      .segment_line_notes .link {
+          color: black;
+      }
 
       .leaflet-control-command-interior
 {
@@ -582,6 +590,7 @@ _route:
               <div class="td"><img src="molduga.png"></div>
               <div class="td"><img src="flux.png"></div>
               <div class="td"><img src="ponypoint.png"></div>
+              <div class="td"><img src="poe_large.png"></div>
               <div class="td" id="progress_icon_mappct"><img src="World_Map.png"></div>
               <div class="td"><div id="split_status" class="status_unknown" title="Click to reconnect"></div></div>
             </div>
@@ -602,6 +611,7 @@ _route:
               <div class="td" id="progress_Enemy::Molduga">0</div>
               <div class="td" id="progress_Enemy::FluxConstruct">0</div>
               <div class="td" id="progress_PonyPoint">0</div>
+              <div class="td" id="progress_Poe">0</div>
               <div class="td" id="progress_mappct">0</div>
               <div class="td" id="split_segment"></div>
             </div>
@@ -645,8 +655,67 @@ _route:
 
       });
     </script>
+    <script>
+      let exports = {};
+    </script>
+    <script src="./simple_text_parser.js"></script>
+    <script>
+      let parser = undefined
 
-    <script type="text/javascript" defer>
+      function init_parser() {
+          parser = new Parser()
+          parser.addRule(/\.link\(\[([^\]]+)\]([^\)]+)\)/g, function(tag, g1, g2) {
+              g1 = g1.replace("<", "&lt;").replace(">", "&gt;")
+              return { type: "tag", text: `<a class="link" target="_blank" href="${g2}">${g1}</a>`, value: "hello" }
+          })
+          parser.addRule(/</g, function(tag) { return "&lt;" })
+          parser.addRule(/>/g, function(tag) { return "&gt;" })
+          //parser.addRule(/\.dir\(([^)]+)\)/g, function(tag, g1) {
+          //    return { type: "tag", text: html`<span class="dir">${g1}</span>`, value: "dir" }
+          //})
+          parser.addRule(/\(\?=\)/g, function(tag) { return "" })
+          parser.addRule(/\(==\)/g, function(tag) { return "" })
+          parser.addRule(/\(!=\)/g, function(tag) { return "" })
+          parser.addRule(/\(^=\)/g, function(tag) { return "" })
+          parser.addRule(/\n/g, function(tag) {
+              return { type: "tag", text: "<br/>", value: "newline"}
+          })
+          //parser.addRule(/.!!\(([^)]+)\)/g, function(tag, g1) {
+          //    return { type: "tag", text: html`<span class="exclaim">${g1}</span>`, value: "dir" }
+          //})
+          //parser.addRule(/.boss\(([^)]+)\)/g, function(tag, g1) {
+          //    return { type: "tag", text: html`<span class="boss">${g1}</span>`, value: "dir" }
+          //})
+          //parser.addRule(/.loc\(([^)]+)\)/g, function(tag, g1) {
+          //    return { type: "tag", text: html`<span class="loc">${g1}</span>`, value: "dir" }
+          //})
+          //parser.addRule(/.enemy\(([^)]+)\)/g, function(tag, g1) {
+          //    return { type: "tag", text: html`<span class="enemy">${g1}</span>`, value: "dir" }
+          //})
+          //parser.addRule(/.rune\(([^)]+)\)/g, function(tag, g1) {
+          //    return { type: "tag", text: html`<span class="rune">${g1}</span>`, value: "dir" }
+          //})
+          //parser.addRule(/.gale\(([^)]*)\)/g, function(tag, g1) { return "Gale" })
+          //parser.addRule(/.fury\(([^)]*)\)/g, function(tag, g1) { return "Fury" })
+      }
+      function formatter(txt) {
+          if(!parser) {
+              init_parser()
+          }
+          if(txt == "")
+              return txt
+          let tree = parser.toTree(txt)
+          let out = ``
+          for(const t of tree) {
+              out = `${out}${t.text}`
+          }
+          return out
+      }
+      
+    </script>
+    <script defer>
+
+
       let SHOW_PROGRESS = false; // Ctrl-P
       let ONLY_SEGMENT = false;  // Ctrl-O
       let SHIFT_TITLE = false; // Ctrl-i
@@ -799,6 +868,10 @@ _route:
               hail.reset()
           }
       })
+      let link = $div()
+      link.innerHTML = `<a href="doc.html" target="_blank">Documentation</a>`
+      settings.appendChild(document.createElement("br"))
+      settings.appendChild(link)
       /*
       input("Timer websocket", "address_id", settings,
             "Speedrun timer websocket address, Hail is localhost:3578 and Livesplit is localhost:16834/livesplit",
@@ -807,7 +880,169 @@ _route:
             */
       
       L.control.textbox({ position: 'topright', html: settings }).addTo(map);
-
+      class Livesplit {
+          // https://github.com/livesplit/livesplit?tab=readme-ov-file#the-livesplit-server
+          // ipconfig, use gateway address
+          // access site from browser on windows, run livesplit on windows
+          constructor(address) {
+              this._status = document.getElementById("split_status")
+              this._segment = document.getElementById("split_segment")
+              this.run_data = {}
+              this.cur_seg = undefined
+              this.on_func = { }
+              this.once_func = { }
+              this.ws = undefined
+              this.init(address)
+          }
+          init(address) {
+              // Default Hail Speed run timer on localhost
+              if(address == undefined || address.trim() == "") {
+                  address = "localhost:16834/livesplit"
+              }
+              if(this.ws) {
+                  console.log("close ws")
+                  this.ws.close()
+              }
+              //console.log("init", address)
+              this.ws = new WebSocket(`ws://${address}`)
+              //console.log("init", this.ws)
+              const self = this
+              this.ws.onopen = () => {
+                  console.log('ws opened on browser')
+                  self.set_status("connected")
+                  self.run()
+                  self.status()
+              }
+              this.ws.onclose = () => {
+                  console.log('ws closed on browser')
+                  self.ws = undefined
+                  self.set_status("error")
+              }
+              this.ws.onmessage = (message) => {
+                  return
+                  let event = undefined
+                  const data = JSON.parse(message.data)
+                  //console.log("MSG", data)
+                  if(data.Data) {
+                      const d = data.Data
+                      //console.log("MSG (d)", d)
+                      event = Object.keys(d)[0]
+                      if(d.Run) {
+                          self.run_data = d.Run
+                      } else if(d.CurrentSeg !== undefined) {
+                          self.set_segment( d.CurrentSeg )
+                      } else if(d.IsRunning !== undefined) {
+                          if(d.IsRunning)
+                              self.set_status("run")
+                          else
+                              self.set_status("stop")
+                      }
+                  } else if(data.Change) {
+                      const c = data.Change
+                      //console.log("MSG (change)", c)
+                      event = Object.keys(c)[0]
+                      if(c.FinishSeg) {
+                          self.set_status("run")
+                      } else if(c == "Reset") {
+                          self.set_status("stop")
+                          self.set_segment(0);
+                      } else if(c.ChangeSeg) {
+                      } else if(c.StartSeg) {
+                          if(c.StartSeg.segment === null){
+                              self.set_status("stop")
+                          } else {
+                              self.set_status("run")
+                              self.set_segment(c.StartSeg.segment);
+                          }
+                      }
+                  }
+                  if(event) {
+                      if(self.once_func[event]) {
+                          self.once_func[event](data)
+                          delete self.once_func[event]
+                      }
+                      if(self.on_func[event]) {
+                          self.on_func[key](data)
+                      }
+                  }
+              }
+              this.ws.onerror = (message) => {
+                  console.log('error', message.data)
+              }
+          }
+          check_splits() {
+              this.once_func.Run = (data) => {
+                  console.log("check splits", data)
+                  const els = document.getElementsByClassName("segment_line");
+                  let count = 0;
+                  for(const el of els) {
+                      if(el.dataset.split) {
+                          count += 1
+                      }
+                  }
+                  const timer_count = data.Data.Run.segment_names.length
+                  if(count != timer_count) {
+                      alert(`Timer splits (${timer_count}) do not match Route (${count})`)
+                  }
+              }
+              this.run()
+          }
+          set_status(s) {
+              //console.log("MSG set status", s)
+              this._status.classList.remove(...this._status.classList)
+              this._status.classList.add(`status_${s}`)
+              const titles = {
+                  run: "Running ...",
+                  unknown: "Click to reconnect",
+                  stop: "Stopped",
+                  connected: "Connected",
+                  pause: "Paused",
+                  error: "Click to connect",
+              }
+              this._status.title = titles[s]
+          }
+          set_segment(n) {
+              this.cur_seg = n
+              this._segment.textContent = this.cur_seg
+          }
+          send(data) {
+              if(this.ws && this.ws.readyState == 1)
+                  this.ws.send(data + "\n")
+          }
+          status() {
+              this.send({Data: "CurrentSeg"})
+              this.send({Data: "IsRunning"})
+          }
+          run() { this.send({Data: "Run"}) }
+          reset() { this.send("reset") }
+          pause() { this.send("pause") }
+          close() {
+              if(this.ws && this.ws.readyState == 1)
+                  this.ws.close()
+          }
+          reconnect(address) {
+              this.close()
+              this.init(address)
+          }
+          split() {
+              if(REPORT_SPLITS) {
+                  this.send("split")
+              }
+          }
+          unsplit() {
+              if(REPORT_SPLITS) {
+                  this.send("unsplit")
+              }
+          }
+          on_current_segment(func, once=true) {
+              if(once)
+                  this.once_func.CurrentSeg = func
+              else
+                  this.on_func.CurrentSeg = func
+              console.log("SEND for Current Segment")
+              this.send({Data: "CurrentSeg"})
+          }
+      }
       class Hail {
           constructor(address) {
               this._status = document.getElementById("split_status")
@@ -971,7 +1206,7 @@ _route:
       function sync_with_hail() {
           hail.on_current_segment( (data) => {
               const segment_id = data.Data.CurrentSeg
-              console.log("CURRENT SEGMENT", segment_id)
+              //console.log("CURRENT SEGMENT", segment_id)
               const els = document.getElementsByClassName("segment_line");
               let count = 0
               let element_id = undefined
@@ -1706,6 +1941,7 @@ _route:
           SideQuest: {},
           KeyItem: {},
           PonyPoint: {},
+          Poe: {},
           'Enemy::Talus': {},
           'Enemy::Gleeok': {},
           'Enemy::Hinox': {},
@@ -1806,12 +2042,15 @@ _route:
       }
 
       function counter_inc(key, name, warp) {
-          const ignore_dups = {'GoddessStatue': true, 'PonyPoint': true }
-          const multiple = { 'PonyPoint': 60 }
+          const ignore_dups = {'GoddessStatue': true, 'PonyPoint': true, 'Poe': true }
+          const multiple = { PonyPoint: true, Poe: { Large: 5, Grand: 20 } }
+
           if(warp)
               return undefined
           if(!key)
               return undefined;
+          if(key.length == 0)
+              return undefined
           if(key[key.length-1].name == 'Start')
               return undefined;
           if(key[key.length-1].name == 'End') {
@@ -1820,6 +2059,7 @@ _route:
                   name = key[key.length-1].name
               }
           }
+          let orig_key = key
           key = key.slice(0,-1).map(k => k.name).join('::')
 
           let ret = pouch_logic(key, name);
@@ -1834,7 +2074,16 @@ _route:
                   if(!(name in _counters[key])) {
                       _counters[key][name] = 0
                   }
-                  _counters[key][name] += 1
+                  let sub = undefined
+                  if(orig_key.at(-1).sub) {
+                      sub = parseInt(orig_key.at(-1).sub.replace("x",""))
+                  }
+                  if(sub)
+                      _counters[key][name] += sub
+                  else if(multiple[key][name])
+                      _counters[key][name] += multiple[key][name]
+                  else
+                      _counters[key][name] += 1
               } else {
                   _counters[key][name] = 1
               }
@@ -1911,6 +2160,8 @@ _route:
               let v = part.split("::")
               v[0] = v[0].replace("_","")
               v = v.map(vi => vi.replaceAll("'", "\\'"))
+              if(is_user_split && obj['split-type'] == "Start")
+                  return true
               add_split(v.join(" "), part)
               return true
           }
@@ -2088,10 +2339,10 @@ _route:
           // Add Last Split
           {
               if(typeof last_line == "string") {
-                  add_split_maybe(last_line, {}, true)
+                  //add_split_maybe(last_line, {}, true)
               } else if(typeof last_line == "object") {
                   const _part_name = Object.keys(last_line).at(0)
-                  add_split_maybe(_part_name, last_line[_part_name], true)
+                  //add_split_maybe(_part_name, last_line[_part_name], true)
 
               }
           }
@@ -2477,10 +2728,11 @@ _route:
 
       function displayString(ret) {
           const icon = get_route_icon(ret.kind, ret.warp);
+          let txt = formatter(ret.txt)
           if(!icon || !icon.displayString)
-              return ret.txt
+              return txt
           return template(icon.displayString, {
-              txt: ret.txt, key: ret.key, meta: get_meta_item(ret.kind)
+              txt: txt, key: ret.key, meta: get_meta_item(ret.kind)
           })
       }
 
@@ -2506,14 +2758,14 @@ _route:
               return;
           }
           const previous_line = CURRENT_LINE
-          //console.log("SET LINE", CURRENT_LINE, id)
+          console.log("SET LINE", CURRENT_LINE, id)
           if(CURRENT_LINE !== undefined) {
               let num0  = CURRENT_LINE.split("_")[1]
               let num1  = id.split("_")[1]
               let move = num1 - num0
               if(move == 1) { // Forward by 1
                   const el = document.getElementById(CURRENT_LINE)
-                  if(el.dataset.split || num0 == 1) {
+                  if(el.dataset.split) {
                       //console.log("SPLIT", el)
                       hail.split()
                   }
@@ -2583,8 +2835,15 @@ _route:
 
           // Basic Split Identifier
           const line_name = (typeof part == 'object') ? Object.keys(part)[0] : part
+          let obj = {}
+          if(typeof part == "object") {
+              const k = Object.keys(part).filter(v => v != '_doc')
+              obj = part[k]
+          } else {
+              obj = { text: part }
+          }
 
-          if(split_here || nlines == 1) {
+          if(split_here) {
               line.dataset.split = true
           }
 
@@ -2603,7 +2862,10 @@ _route:
           })
           num.textContent = `${nlines}`;
           if(split_here) {
-              num.textContent += "⏱"
+              if(obj['split-type'] == "Start")
+                  num.textContent += "🟢"
+              else
+                  num.textContent += "⏱"
           }
           line.appendChild(num);
           const current_line = nlines;
@@ -2646,10 +2908,10 @@ _route:
                   PROGRESS[current_line] = counter_total();
               }
               set_route_icon(ret, icon)
-              text.textContent = displayString(ret)
+              text.innerHTML = displayString(ret)
 
               if(ret.comment)
-                  comment.textContent = ret.comment;
+                  comment.innerHTML = formatter(ret.comment);
               return line;
           }
           const name = Object.keys(part)[0]
@@ -2666,16 +2928,16 @@ _route:
               PROGRESS[current_line] = counter_total();
           }
           set_route_icon(ret, icon)
-          text.textContent = displayString(ret);
+          text.innerHTML = displayString(ret);
           if(vals.notes) {
-              notes.textContent = vals.notes;
+              notes.innerHTML = formatter(vals.notes);
               notes.classList.add(notes_class);
               notes_class = (notes_class == "even") ? "odd" : "even";
           }
           if(ret.comment)
-              comment.textContent = ret.comment;
+              comment.innerHTML = formatter(ret.comment);
           else if(vals.comment)
-              comment.textContent = vals.comment;
+              comment.innerHTML = formatter(vals.comment);
 
           return line;
       }
@@ -2804,8 +3066,11 @@ _route:
               let next = get_next_line(dir);
               if(next === undefined) {
                   if(is_last_line(dir)) {
-                      console.log("SPLIT last line")
-                      hail.split()
+                      const el = document.getElementById(CURRENT_LINE)
+                      if(el.dataset.split == "true") {
+                          console.log("SPLIT", el)
+                          hail.split()
+                      }
                   }
                   return;
               }

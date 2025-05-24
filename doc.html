@@ -131,7 +131,7 @@ _route:
             <li>Livesplit format
           </ul>
         </ul>
-        Splits are output on _Shrine and _Tower, by default.  You can change where you want splits output by using a comma separated list in the "split" value within "_project", e.g.
+        Splits are output on _Shrine and _Tower, by default.  You can change where you want splits output by using a comma separated list enclosed in [ ] in the "split" value within "_project", e.g.
         <pre>
 ---
 _config:
@@ -142,7 +142,7 @@ _project:
   name: Route Name
   url: ""
   version: 1.0.0
-  split: Tower, Shrine, Lightroot, Korok
+  split: [ Tower, Shrine, Lightroot, Korok ]
 </pre>
         Most anything that starts with a "_" in the route document can be split on.  You can also specify a specific line to split using the "split-type: User-Defined", e.g.
         <pre>

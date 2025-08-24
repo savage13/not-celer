@@ -859,6 +859,41 @@ _route:
       checkbox("Show current segment", "current_id", ONLY_SEGMENT, settings, single(toggle_only_segment))
       checkbox("Shift title", "title_id", SHIFT_TITLE, settings, single(toggle_shift_title))
       checkbox("Show search", "search_id", SEARCH, settings, single(toggle_search))
+      const el = document.createElement('div')
+      el.textContent = "Progress bar update"
+      el.style.fontWeight = "bold"
+      settings.appendChild(el)
+
+      const div0 = document.createElement('div')
+      const radio0 = document.createElement('input')
+      radio0.type = "radio"
+      radio0.value = "Update on line"
+      radio0.id = "update_on_line"
+      radio0.name = "progress_update"
+      radio0.checked = false
+      div0.appendChild(radio0)
+      const label0 = document.createElement('label')
+      label0.textContent = "Update on line"
+      label0.htmlFor = "update_on_line"
+      div0.appendChild(label0)
+      settings.appendChild(div0)
+      const div1 = document.createElement('div')
+      const radio1 = document.createElement('input')
+      radio1.type = "radio"
+      radio1.value = "Update after line"
+      radio1.id = "update_after_line"
+      radio1.name = "progress_update"
+      radio1.checked = true
+      div1.appendChild(radio1)
+      const label1 = document.createElement('label')
+      label1.textContent = "Update after line"
+      label1.htmlFor = "update_after_line"
+      div1.appendChild(label1)
+      settings.appendChild(div1)
+
+      el.style.marginTop = "0.8em"
+      div1.style.marginBottom = "0.8em"
+
       button("Fold editor text", settings, "Fold up all editor text", (ev) => { myCodeMirror.execCommand("foldAll")})
       button("Unfold editor text", settings, "Unfold all editor text", (ev) => { myCodeMirror.execCommand("unfoldAll")})
       button("Sync Split", settings, "Transfer speedrun timer split to not-celer", (ev) => {
@@ -2759,7 +2794,6 @@ _route:
               return;
           }
           const previous_line = CURRENT_LINE
-          console.log("SET LINE", CURRENT_LINE, id)
           if(CURRENT_LINE !== undefined) {
               let num0  = CURRENT_LINE.split("_")[1]
               let num1  = id.split("_")[1]
@@ -2794,6 +2828,10 @@ _route:
           }
           if(SHOW_PROGRESS) {
               let n = parseInt(id.replace("line_",""))
+              const progress_update_when = document.querySelector('input[name="progress_update"]:checked').value
+              if(progress_update_when == "Update after line") {
+                  n -= 1
+              }
               while(n >= 0) {
                   if(PROGRESS[n]) {
                       update_progress( PROGRESS[n]);

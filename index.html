@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="leaflet/L.Control.MousePosition.css" />
     <script src="leaflet/L.Control.MousePosition.js"></script>
     <link rel="stylesheet" href="codemirror/addon/hint/show-hint.css">
+    <link rel="stylesheet" href="leaflet/leaflet.contextmenu.css">
+    <script src="leaflet/leaflet.contextmenu.js"></script>
     <script src="codemirror/lib/codemirror.js"></script>
     <link rel="stylesheet" href="codemirror/lib/codemirror.css">
     <script src="codemirror/mode/yaml/yaml.js"></script>
@@ -914,7 +916,7 @@ _route:
             (ev) => {
       })
             */
-      
+
       L.control.textbox({ position: 'topright', html: settings }).addTo(map);
       class Livesplit {
           // https://github.com/livesplit/livesplit?tab=readme-ov-file#the-livesplit-server
@@ -1637,8 +1639,23 @@ _route:
       function marker(kind, pt, name, warp = false) {
           let icon = get_map_icon(kind);
           if(icon)
-              return L.marker(ll(pt), { icon: icon }).bindTooltip(name);
-          return L.circleMarker(ll(pt)).bindTooltip(name);
+              return L.marker(ll(pt), {
+                  icon: icon,
+                  contextmenu: true,
+                  contextmenuItems: [{
+                      text: 'Go to Line',
+                      index: 0,
+                      callback: (ev) => {
+                          const num = ev.relatedTarget.line_number
+                          const ed_num = ev.relatedTarget.editor_line_number
+                          if(num !== undefined) {
+                              scroll_to_line(`line_${num}`)
+                              scroll_editor_to_line(ed_num)
+                          }
+                      }
+                  }]
+              }).bindTooltip(name);
+          return L.circleMarker(ll(pt), {contextmenu: true}).bindTooltip(name);
       }
 
       function parse_name_to_line(name) {
@@ -2305,6 +2322,7 @@ _route:
                   for(let i = 0; i < parts.length; i++) {
                       const part = parts[i];
                       markers_by_line[i].forEach(m => m.line_number = nlines);
+                      markers_by_line[i].forEach(m => m.editor_line_number = docs[i].line_start + 1)
                       const div = route_new_line(part, FLY_TO[i], layer, name, SPLIT_LINES[i], docs[i]);
                       if(div)
                           seg.appendChild(div)
@@ -2893,11 +2911,12 @@ _route:
           num.classList.add('segment_line_number');
           num.title = `editor to line ${_doc.line_start + 1}`
           num.addEventListener('click', (ev) => {
-              const line = _doc.line_start + 1
-              const top = myCodeMirror.charCoords({line, ch: 0}, "local").top;
-              const middle = myCodeMirror.getScrollerElement().offsetHeight / 2
-              myCodeMirror.scrollTo(null, top - middle - 5)
-              myCodeMirror.setCursor({line, ch:0})
+              scroll_editor_to_line(_doc.line_start + 1)
+              //const line = _doc.line_start + 1
+              //const top = myCodeMirror.charCoords({line, ch: 0}, "local").top;
+              //const middle = myCodeMirror.getScrollerElement().offsetHeight / 2
+              //myCodeMirror.scrollTo(null, top - middle - 5)
+              //myCodeMirror.setCursor({line, ch:0})
           })
           num.textContent = `${nlines}`;
           if(split_here) {
@@ -2993,6 +3012,13 @@ _route:
           switch_segments(ev.name);
           map_el.level = ev.name;
       });
+
+      function scroll_editor_to_line(line) {
+          const top = myCodeMirror.charCoords({line, ch: 0}, "local").top;
+          const middle = myCodeMirror.getScrollerElement().offsetHeight / 2
+          myCodeMirror.scrollTo(null, top - middle - 5)
+          myCodeMirror.setCursor({line, ch:0})
+      }
 
       function get_next_line(dir) {
           if(CURRENT_LINE === undefined)
@@ -3101,6 +3127,9 @@ _route:
           if(CURRENT_LINE === undefined)
               return
           if(ev.key == "ArrowDown" || ev.key == "ArrowUp") {
+              if(document.querySelector('.CodeMirror').classList.contains('CodeMirror-focused')) {
+                  return false
+              }
               let dir = (ev.key == "ArrowDown") ? 1 : -1
               let next = get_next_line(dir);
               if(next === undefined) {

@@ -64953,6 +64953,80 @@
       "hash_id": "0x2654ecd8eb8a27a7"
     }
   },
+  "CherryBlossom": {
+    "Hebra": {
+      "pos": [
+        -4049.53,
+        303.93,
+        -1689.97
+      ],
+      "DisplayName": "Hebra",
+      "hash_id": "0x0cdfb160a82a4ae8"
+    },
+    "Satori": {
+      "pos": [
+        -2299.47,
+        455.44,
+        341.21
+      ],
+      "DisplayName": "Satori",
+      "hash_id": "0x7f369070288b41bf"
+    },
+    "Gerudo": {
+      "pos": [
+        -2314.76,
+        355.96,
+        2157.58
+      ],
+      "DisplayName": "Gerudo",
+      "hash_id": "0x460198a4eddaba8e"
+    },
+    "CentralHyrule": {
+      "pos": [
+        317.36,
+        128.2,
+        -541.93
+      ],
+      "DisplayName": "CentralHyrule",
+      "hash_id": "0x4090ea194d66d519"
+    },
+    "Faron": {
+      "pos": [
+        798.82,
+        164.04,
+        3502.3
+      ],
+      "DisplayName": "Faron",
+      "hash_id": "0x2b77345cbc9621ca"
+    },
+    "Eldin": {
+      "pos": [
+        1239.42,
+        525.04,
+        -2957.39
+      ],
+      "DisplayName": "Eldin",
+      "hash_id": "0x755b560899bb959d"
+    },
+    "Lanayru": {
+      "pos": [
+        2530.88,
+        248.58,
+        5.44
+      ],
+      "DisplayName": "Lanayru",
+      "hash_id": "0x1dede8e7672f97ae"
+    },
+    "Necluda": {
+      "pos": [
+        3357.82,
+        386.26,
+        2479.17
+      ],
+      "DisplayName": "Necluda",
+      "hash_id": "0xcb031d9222a75198"
+    }
+  },
   "Equipment": {
     "Weapon": {},
     "Bow": {},
@@ -77979,6 +78053,22 @@
         28,
         28
       ]
+    },
+    "CherryBlossom": {
+      "iconUrl": "CherryBlossom.png",
+      "iconSize": [
+        24,
+        24
+      ],
+      "iconAnchor": [
+        16,
+        16
+      ],
+      "routeSize": [
+        24,
+        24
+      ],
+      "displayString": "Cherry Tree ${txt}"
     },
     "Material": {
       "iconUrl": "material.png",

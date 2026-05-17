@@ -15,6 +15,7 @@ boko_boss = {}
 locked_chests = {}
 zora_monuments = {}
 lightroot = {}
+trees = {}
 caves = {}
 wells = {}
 data = json.load(open("raw_towers.json", "r"))
@@ -52,6 +53,20 @@ for file in ["raw_korok_with_trails.json"]:
 for k,v in json.load(open("raw_korok3.json", "r")).items():
     v['DisplayName'] = v['korok_id']
     koroks[k] = v
+
+data = json.load(open("raw_cherry_trees.json","r"))
+for r in data:
+    name = {
+        "0x0cdfb160a82a4ae8": "Hebra",
+        "0x460198a4eddaba8e": "Gerudo",
+        "0xcb031d9222a75198": "Necluda",
+        "0x7f369070288b41bf": "Satori",
+        "0x2b77345cbc9621ca": "Faron",
+        "0x1dede8e7672f97ae": "Lanayru",
+        "0x4090ea194d66d519": "CentralHyrule",
+        "0x755b560899bb959d": "Eldin"
+    }[r['hash_id']]
+    trees[name] =  {"pos": r['pos'], "DisplayName": name, "hash_id": r['hash_id'], }
 
 data = json.load(open("raw_zora_stone_monuments.json","r"))
 z = 0
@@ -566,10 +581,10 @@ out = {
     "SagesWill": sageswill,
     "YigaSchema": yiga,
     "SchemaStone": stones,
-
     "Chest": chests,
     "LockedChest": locked_chests,
     "ZoraMonument": zora_monuments,
+    "CherryBlossom": trees,
     "Equipment": {
         "Weapon": {},
         "Bow": {},
@@ -928,6 +943,13 @@ out = {
             "iconSize": [26, 26],
             "iconAnchor": [16, 16],
             "routeSize": [28,28],
+        },
+        "CherryBlossom": {
+            "iconUrl": "CherryBlossom.png",
+            "iconSize": [24, 24],
+            "iconAnchor": [16, 16],
+            "routeSize": [24,24],
+            "displayString": "Cherry Tree ${txt}",
         },
         "Material": {
             "iconUrl": "material.png",

@@ -26,3 +26,7 @@
 #curl 'https://radar-totk.zeldamods.org/objs/MainAndMinusField/?q=Obj_AutoBuilderDraftAssassin' > raw_yiga_schematics.json
 #curl 'https://radar-totk.zeldamods.org/objs/MainAndMinusField/?q=Josha%20OR%20(Servant_Minus00*%20NOT%20Forge%20NOT%20Minus0005%20NOT%20Minus0004%20NOT%20Minus0001)&withMapNames=false&limit=2000' > raw_schema_stones.json
 #curl 'https://radar-totk.zeldamods.org/objs/MainAndMinusField/?q=actor:%20GoddesStatue' > raw_goddess_statue.json
+#curl 'https://radar-totk.zeldamods.org/objs/MainAndMinusField/?q=actor:%20Enemy_Lynel' > raw_lynel.json
+#curl 'https://radar-totk.zeldamods.org/objs/MainAndMinusField/?q=actor:%20Enemy_Bokoblin_Boss' > raw_boss_bokoblin.json
+curl 'https://radar-totk.zeldamods.org/objs/MainAndMinusField/?q=actor:%20TBox_Field_Enemy' > raw_locked_chests.json
+curl 'https://radar-totk.zeldamods.org/objs/MainAndMinusField/?q=actor:%20FldObj_RockZoraRelief_A_M' > raw_zora_stone_monuments.json

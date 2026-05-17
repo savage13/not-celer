@@ -32,6 +32,7 @@
     <div>
       <ul>
         <li><a href="#start">Getting Started</a>
+        <li><a href="#progress">Progress Bar</a>
         <li><a href="#movement">Movements</a>
         <li><a href="#warp">Warp</a>
         <li><a href="#remote">Loading Remote Routes</a>
@@ -68,6 +69,60 @@ _route:
 
  
     </div>
+    <div>
+      <a name="#progress">
+        <h3>Progress Bar</h3>
+        <p style="margin-bottom: 0.5em">
+          The progress bar is draggable, resizable, and customizeable (as of 2026-05-15). If you encounter issues with this, please let me know. :)
+
+        <p style="margin-bottom: 0.5em">
+          <b>Position:</b> Clicking and dragging on the progress bar will allow repositioning it. This position is saved
+          from session to session (in the same way your route is saved)
+        <p style="margin-bottom: 0.5em">
+          <b>Size:</b> Dragging the edges of the progress bar will resize the progress bar with the items
+          respositioning themselves.  This should allow for a single line (default), multiple lines, or
+          a vertical progress bar. The size of the progress bar is also saved from session to session.
+        <p style="margin-bottom: 0.5em">
+          <b>Default</b> The default, original, progress bar is, made to match the loading screen in totk, is:
+          <pre code="language-yaml">
+_project:
+  name: Route name
+  progress: [ "Tower", "Shrine", "Lightroot", "Korok", "Bubbulfrog", "Addison",
+              "Cave", "Well", "Chasm",
+              "Enemy::Talus", "Enemy::Gleeok", "Enemy::Hinox",
+              "Enemy::Frox", "Enemy::Molduga", "Enemy::FluxConstruct",
+              "PonyPoint", "Poe", "mappct", "split_segment"
+             ]
+          </pre>
+          <p>
+          Available progress bar items are below. They can be in any order you like.
+          <ul>
+          <li>Tower
+          <li>Shrine
+          <li>Lightroot
+          <li>Korok
+          <li>Bubbulfrog
+          <li>Addison
+          <li>Cave
+          <li>Well
+          <li>Chasm
+          <li>Enemy::Talus
+          <li>Enemy::Gleeok
+          <li>Enemy::Hinox
+          <li>Enemy::Frox
+          <li>Enemy::Molduga
+          <li>Enemy::FluxConstruct
+          <li>PonyPoint
+          <li>Poe
+          <li>mappct
+          <li>Enemy::BokoBoss
+          <li>LockedChest
+          <li>ZoraMonument
+          <li>Enemy::Lynel
+          <li>split_segment
+          </ul>
+    </div>
+
     <div>
       <a name="#movement">
         <h3>Movements</h3>

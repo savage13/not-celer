@@ -10,6 +10,10 @@ shrines = {}
 koroks = {}
 frogs = {}
 addisons = {}
+lynel = {}
+boko_boss = {}
+locked_chests = {}
+zora_monuments = {}
 lightroot = {}
 caves = {}
 wells = {}
@@ -48,6 +52,54 @@ for file in ["raw_korok_with_trails.json"]:
 for k,v in json.load(open("raw_korok3.json", "r")).items():
     v['DisplayName'] = v['korok_id']
     koroks[k] = v
+
+data = json.load(open("raw_zora_stone_monuments.json","r"))
+z = 0
+for r in data:
+    name = f"Z{z:02d}"
+    z += 1
+    zora_monuments[name] = {"pos": r['pos'], "DisplayName": name, "hash_id": r['hash_id'], }
+data = json.load(open("raw_locked_chests.json","r"))
+g = 0
+d = 0
+s = 0
+for r in data:
+    if r['pos'][1] < -100:
+        name = f"D{d:02d}"
+        d += 1
+    elif r['pos'][1] > 800:
+        name = f"S{d:02d}"
+        s += 1
+    else:
+        name = f"G{g:02d}"
+        g += 1
+    locked_chests[name] = {"pos": r['pos'], "DisplayName": name, "hash_id": r['hash_id'], }
+
+data = json.load(open("raw_lynel.json", "r"))
+g = 0
+d = 0
+for r in data:
+    if r['pos'][1] < -100:
+        name = f"D{d:02d}"
+        d += 1
+    else:
+        name = f"G{g:02d}"
+        g += 1
+    lynel[name] = {"pos": r['pos'], "DisplayName": name, "hash_id": r['hash_id'], }
+
+
+data = json.load(open("raw_boss_bokoblin.json", "r"))
+g = 0
+d = 0
+for r in data:
+    if r['pos'][1] < -100:
+        name = f"D{d:02d}"
+        d += 1
+    else:
+        name = f"G{g:02d}"
+        g += 1
+    boko_boss[name] = {"pos": r['pos'], "DisplayName": name, "hash_id": r['hash_id'], }
+
 
 data = json.load(open("raw_addison.json", "r"))
 k = 0
@@ -497,7 +549,9 @@ out = {
         "FluxConstruct": flux,
         "Gleeok": gleeoks,
         "Molduga": molduga,
-        "Talus": talus
+        "Talus": talus,
+        "Lynel": lynel,
+        "BokoBoss": boko_boss,
     },
     "Location": xlocations,
     "Fairy": fairy,
@@ -514,6 +568,8 @@ out = {
     "SchemaStone": stones,
 
     "Chest": chests,
+    "LockedChest": locked_chests,
+    "ZoraMonument": zora_monuments,
     "Equipment": {
         "Weapon": {},
         "Bow": {},
@@ -685,6 +741,20 @@ out = {
                 "routeSize": [32,32],
                 "displayString": "${txt} ${key}",
             },
+            "Lynel": {
+                "iconUrl": "Lynel.png",
+                "iconSize": [32,32],
+                "iconAnchor": [16,16],
+                "routeSize": [28,28],
+                "displayString": "Lynel ${key}",
+            },
+            "BokoBoss": {
+                "iconUrl": "BokoBoss.png",
+                "iconSize": [32,32],
+                "iconAnchor": [16,16],
+                "routeSize": [32,32],
+                "displayString": "Boss ${key}",
+            },
         },
         "Poe": {
             "Normal": {
@@ -846,6 +916,18 @@ out = {
             "iconSize": [32, 32],
             "iconAnchor": [16, 16],
             "routeSize": [32,32],
+        },
+        "LockedChest": {
+            "iconUrl": "LockedChest.png",
+            "iconSize": [32, 32],
+            "iconAnchor": [16, 16],
+            "routeSize": [28,28],
+        },
+        "ZoraMonument": {
+            "iconUrl": "ZoraMonument.png",
+            "iconSize": [26, 26],
+            "iconAnchor": [16, 16],
+            "routeSize": [28,28],
         },
         "Material": {
             "iconUrl": "material.png",

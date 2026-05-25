@@ -2334,9 +2334,6 @@ _route:
               } else {
                   bel.id = `progress_${type}`
                   let total = _counter_items_total(type)
-                  if(type == "Korok") {
-                      total = 1000
-                  }
                   bel.innerHTML = `0<div style="font-size: 50%; color: #888;">${total}</div>`
               }
               //console.log('create ', type, bel)
@@ -3036,6 +3033,7 @@ _route:
           if(key == "mappct") return 2492
           if(key == "Poe") return 1701
           if(key == "PonyPoint") return 40
+          if(key == "Korok") return 1000
           if(key == "split_segment") { return "" }
           let items = _counter_items(key)
           return Object.keys(items).length

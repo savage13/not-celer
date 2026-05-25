@@ -761,14 +761,12 @@ out = {
                 "iconSize": [32,32],
                 "iconAnchor": [16,16],
                 "routeSize": [28,28],
-                "displayString": "Lynel ${key}",
             },
             "BokoBoss": {
                 "iconUrl": "BokoBoss.png",
                 "iconSize": [32,32],
                 "iconAnchor": [16,16],
                 "routeSize": [32,32],
-                "displayString": "Boss ${key}",
             },
         },
         "Poe": {
@@ -949,7 +947,6 @@ out = {
             "iconSize": [24, 24],
             "iconAnchor": [16, 16],
             "routeSize": [24,24],
-            "displayString": "Cherry Tree ${txt}",
         },
         "Material": {
             "iconUrl": "material.png",

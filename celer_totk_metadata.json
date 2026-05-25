@@ -77618,8 +77618,7 @@
         "routeSize": [
           28,
           28
-        ],
-        "displayString": "Lynel ${key}"
+        ]
       },
       "BokoBoss": {
         "iconUrl": "BokoBoss.png",
@@ -77634,8 +77633,7 @@
         "routeSize": [
           32,
           32
-        ],
-        "displayString": "Boss ${key}"
+        ]
       }
     },
     "Poe": {
@@ -78067,8 +78065,7 @@
       "routeSize": [
         24,
         24
-      ],
-      "displayString": "Cherry Tree ${txt}"
+      ]
     },
     "Material": {
       "iconUrl": "material.png",

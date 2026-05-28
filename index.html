@@ -1610,6 +1610,7 @@ _route:
               data = tmp_data; // Save parsed data to global data variable, eeek!
               set_route(txt); // Saves route text to localStorage
               route(); // Draws map and route
+              scroll_to_line_after_update()
           } catch(e) {
               msg_clear();
               console.log(e);
@@ -2665,8 +2666,23 @@ _route:
               return ! counter_has(`${key_base}::${key}`)
           }).map(key => {
               const v = items[key];
+              const obj = v
               let tooltip = (v.DisplayName != key) ? `${v.DisplayName} ${key}` : key;
-              return L.circleMarker(ll(v.pos), { radius: 6, color: '#ff2222'}).bindTooltip(tooltip)
+              let marker = L.circleMarker(ll(v.pos), { radius: 6, color: '#ff2222'}).bindTooltip(
+                  `<div>${tooltip}</div><div style="font-size:0.9em;">Insert item after current</div>`)
+              const generator = (pre1, pre2) => {
+                  const p = obj.pos
+                  const name = '_' + obj.__key.join("::")
+                  let lines = [
+                      pre1 + `- ${name}`
+                      //pre2 + `coord: [${p[0]}, ${p[1]}, ${p[2]}]`,
+                  ]
+                  return lines.join("\n") + "\n"
+              }
+              marker.on('click', (ev) => {
+                  add_object_to_route(ev, generator)
+              })
+              return marker
           })
           ALL_MARKERS[key_base] = L.layerGroup(group);
           ALL_MARKERS[key_base].invoke('addTo', map_el.map);
@@ -2678,7 +2694,62 @@ _route:
           group.invoke('remove')
       }
 
+function indent_size(s) {
+    return s.split('').findIndex(v => v != " ")
+}
 
+function add_object_to_route(ev, yaml_generator) {
+    // Determine current route entry
+    const linenum = current_line_id() // line_$n
+    //console.log('linenum', linenum)
+    if(!linenum) {
+        warn('No route item selected')
+        return
+    }
+    const linenum_n = parseInt(linenum.split("_")[1])
+    const route_line = document.getElementById(linenum)
+    if(!route_line) {
+        return
+    }
+    //console.log('route_line', route_line)
+    let line_num = route_line.dataset.line_start
+    if(line_num == undefined || line_num < 0) {
+        return
+    }
+    //console.log('line_num',line_num)
+    // Insert at start of current line
+    //let start = editor.state.doc.line(line_num)
+    let start = line_num - 1
+    let n = line_num - 1
+    let max_lines = myCodeMirror.lineCount()
+    let line = myCodeMirror.doc.getLine(n)
+    let start_indent = indent_size(line)
+    //console.log(n, start_indent, line)
+    let indent = start_indent + 1
+    while(indent > start_indent && n < max_lines) {
+        n += 1
+        line = myCodeMirror.doc.getLine(n)
+        indent = indent_size(line)
+        //console.log(n, indent, start_indent, line)
+    }
+    //console.log('start, end', start, n)
+    let pre = " ".repeat(start_indent)
+    let pre2 = " ".repeat(start_indent * 2)
+    let insert_text = yaml_generator(pre, pre2)
+    //console.log(insert_text)
+    //let start = myCodeMirror
+    //line_num = line_num - 1
+    set_current_line_after_update(`line_${linenum_n + 1}`)
+    myCodeMirror.doc.replaceRange(insert_text, { line: n, ch: 0 })
+
+    //let out = get_state_lines(line_num, 1)
+    //console.log(out)
+    //if(out.meta === undefined) {
+    //    console.log("meta undefined")
+    //    return
+    //}
+
+}
 
       async function load_json(filename) {
           const res = await fetch(filename);
@@ -2966,6 +3037,24 @@ _route:
 
       let PROGRESS = {};
       let CURRENT_LINE = undefined;
+      let PENDING_LINE = undefined;
+      function set_current_line_after_update(line) {
+          PENDING_LINE = line
+      }
+      function scroll_to_line_after_update() {
+          let n = PENDING_LINE
+          PENDING_LINE = undefined
+          if(!n) {
+              return
+          }
+          scroll_to_line(n)
+      }
+      function get_current_line() {
+          return CURRENT_LINE
+      }
+      function current_line_id() {
+          return get_current_line()
+      }
       function set_current_line(id) {
           if(id == undefined) {
               CURRENT_LINE = undefined;
@@ -3079,7 +3168,7 @@ _route:
               line.dataset.xyz = xyz;
           line.dataset.layer = line_layer;
           line.dataset.segment = segment_name;
-
+          line.dataset.line_start = _doc.line_start + 1
           // Basic Split Identifier
           const line_name = (typeof part == 'object') ? Object.keys(part)[0] : part
           let obj = {}

@@ -2669,7 +2669,7 @@ _route:
               const obj = v
               let tooltip = (v.DisplayName != key) ? `${v.DisplayName} ${key}` : key;
               let marker = L.circleMarker(ll(v.pos), { radius: 6, color: '#ff2222'}).bindTooltip(
-                  `<div>${tooltip}</div><div style="font-size:0.9em;">Insert item after current</div>`)
+                  `<div>${key_base} ${tooltip}</div><div style="font-size:0.9em;">Insert item after current</div>`)
               const generator = (pre1, pre2) => {
                   const p = obj.pos
                   const name = '_' + obj.__key.join("::")

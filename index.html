@@ -913,18 +913,20 @@ _route:
       checkbox("Show current segment", "current_id", ONLY_SEGMENT, settings, single(toggle_only_segment))
       checkbox("Shift title", "title_id", SHIFT_TITLE, settings, single(toggle_shift_title))
       checkbox("Show search", "search_id", SEARCH, settings, single(toggle_search))
+
       const el = document.createElement('div')
       el.textContent = "Progress bar update"
       el.style.fontWeight = "bold"
       settings.appendChild(el)
 
+      const progress_update = localStorage.getItem('progress_update') || "update_after_line"
       const div0 = document.createElement('div')
       const radio0 = document.createElement('input')
       radio0.type = "radio"
       radio0.value = "Update on line"
       radio0.id = "update_on_line"
       radio0.name = "progress_update"
-      radio0.checked = false
+      radio0.checked = progress_update == "update_on_line"
       div0.appendChild(radio0)
       const label0 = document.createElement('label')
       label0.textContent = "Update on line"
@@ -937,16 +939,69 @@ _route:
       radio1.value = "Update after line"
       radio1.id = "update_after_line"
       radio1.name = "progress_update"
-      radio1.checked = true
+      radio1.checked = progress_update == "update_after_line"
       div1.appendChild(radio1)
       const label1 = document.createElement('label')
       label1.textContent = "Update after line"
       label1.htmlFor = "update_after_line"
       div1.appendChild(label1)
       settings.appendChild(div1)
+      const store_progress_update = (ev) => {
+          let value = document.querySelector('input[name="progress_update"]:checked').id
+          localStorage.setItem("progress_update", value)
+      }
+      radio0.addEventListener('change', store_progress_update)
+      radio1.addEventListener('change', store_progress_update)
 
       el.style.marginTop = "0.8em"
       div1.style.marginBottom = "0.8em"
+
+      {
+          const map_item_click = localStorage.getItem('map_item_click') || "add_to_route"
+          const el2 = document.createElement('div')
+          el2.textContent = "Map item click behavior"
+          el2.style.fontWeight = "bold"
+
+          let div1 = document.createElement('div')
+          let radio1 = document.createElement('input')
+          radio1.type = "radio"
+          radio1.value = "Add to route"
+          radio1.checked = map_item_click == "add_to_route"
+          radio1.id = "add_to_route"
+          radio1.name = "map_item_click"
+          div1.appendChild(radio1)
+          const label1 = document.createElement('label')
+          label1.textContent = "Add to route"
+          label1.htmlFor = "add_to_route"
+          div1.appendChild(label1)
+
+          let div2 = document.createElement('div')
+          let radio2 = document.createElement('input')
+          radio2.type = "radio"
+          radio2.value = "Copy location"
+          radio2.checked = map_item_click == "copy_location"
+          radio2.id = "copy_location"
+          radio2.name = "map_item_click"
+          div2.appendChild(radio2)
+
+          const label2 = document.createElement('label')
+          label2.textContent = "Copy location"
+          label2.htmlFor = "copy_location"
+          div2.appendChild(label2)
+
+          settings.appendChild(el2)
+          settings.appendChild(div1)
+          settings.appendChild(div2)
+          el2.style.marginTop = "0.8em"
+          div2.style.marginBottom = "0.8em"
+          const store_map_item_click = (ev) => {
+              let value = document.querySelector('input[name="map_item_click"]:checked').id
+              localStorage.setItem("map_item_click", value)
+          }
+          radio1.addEventListener('change', store_map_item_click)
+          radio2.addEventListener('change', store_map_item_click)
+
+      }
 
       button("Fold editor text", settings, "Fold up all editor text", (ev) => { myCodeMirror.execCommand("foldAll")})
       button("Unfold editor text", settings, "Unfold all editor text", (ev) => { myCodeMirror.execCommand("unfoldAll")})
@@ -1498,6 +1553,13 @@ _route:
           }
           OBJMAP_MARKERS.invoke('remove')
           OBJMAP_MARKERS.clearLayers();
+
+          let click_behavior = document.querySelector('input[name="map_item_click"]:checked').value
+          const click_copy_loc = document.getElementById("copy_location").value
+          const click_add_item = document.getElementById("add_to_route").value
+          let click_text = Object.fromEntries([[click_copy_loc, "Copy position"], [click_add_item, "Insert item after current"]])
+          let text = click_text[click_behavior]
+
           for(const obj of objs) {
               const name = get_name(obj.name);
               const generator = (pre1, pre2) => {
@@ -1512,10 +1574,15 @@ _route:
               const m = L.circleMarker(
                   [obj.pos[2],obj.pos[0]],
                   {radius: 6, color: '#ff2222'})
-                    .bindTooltip(`<div>${name}</div><div class="itiny">Insert item after current</div>`)
+                    .bindTooltip(`<div>${name}</div><div style="font-size:0.9em;">${text}</div>`)
                     .addTo(map_el.map)
                     .on('click', (ev) => {
-                        add_object_to_route(ev, generator)
+                        if(click_behavior == click_copy_loc) {
+                            const pos = `[${obj.pos[0]}, ${obj.pos[1]}, ${-obj.pos[2]}]`;
+                            navigator.clipboard.writeText(pos);
+                        } else {
+                            add_object_to_route(ev, generator)
+                        }
 
                     });
               OBJMAP_MARKERS.addLayer(m);
@@ -2308,7 +2375,6 @@ _route:
       }
       let PROGRESS_TYPES = PROGRESS_TYPES_DEFAULT
       function set_progress_bar_items() {
-          console.log('set_progress_bar_items')
           let pbar = document.getElementById('progress')
           pbar.replaceChildren()
           //let top = document.createElement('div')
@@ -2546,6 +2612,10 @@ _route:
                                 )
                       tmp.push(...away_pl);
                   }
+                  if(name in SEGMENTS) {
+                      warn(`Multiple segments named: '${name}'`)
+                  }
+
                   SEGMENTS[name] = {
                       layer,
                       group: L.layerGroup(tmp),
@@ -2578,7 +2648,6 @@ _route:
           // Convert splits to ron
           {
               let nsplits = SPLITS.splits.length
-              console.log("Splits", nsplits)
               let ron = ["version 2","("]
               for(const [key,val] of Object.entries(SPLITS)) {
                   if(typeof val == 'string') {
@@ -2673,6 +2742,12 @@ _route:
           const items = meta_get(key_base);
           if(!items)
               return;
+          let click_behavior = document.querySelector('input[name="map_item_click"]:checked').value
+          const click_copy_loc = document.getElementById("copy_location").value
+          const click_add_item = document.getElementById("add_to_route").value
+          let click_text = Object.fromEntries([[click_copy_loc, "Copy position"], [click_add_item, "Insert item after current"]])
+          let text = click_text[click_behavior]
+
           const group = Object.keys(items).filter(key => {
               return ! counter_has(`${key_base}::${key}`)
           }).map(key => {
@@ -2680,18 +2755,20 @@ _route:
               const obj = v
               let tooltip = (v.DisplayName != key) ? `${v.DisplayName} ${key}` : key;
               let marker = L.circleMarker(ll(v.pos), { radius: 6, color: '#ff2222'}).bindTooltip(
-                  `<div>${key_base} ${tooltip}</div><div style="font-size:0.9em;">Insert item after current</div>`)
+                  `<div>${key_base} ${tooltip}</div><div style="font-size:0.9em;">${text}</div>`)
               const generator = (pre1, pre2) => {
                   const p = obj.pos
                   const name = '_' + obj.__key.join("::")
-                  let lines = [
-                      pre1 + `- ${name}`
-                      //pre2 + `coord: [${p[0]}, ${p[1]}, ${p[2]}]`,
-                  ]
+                  let lines = [ pre1 + `- ${name}` ]
                   return lines.join("\n") + "\n"
               }
               marker.on('click', (ev) => {
-                  add_object_to_route(ev, generator)
+                  if(click_behavior == click_copy_loc) {
+                      const pos = `[${obj.pos[0]}, ${obj.pos[1]}, ${-obj.pos[2]}]`;
+                      navigator.clipboard.writeText(pos);
+                  } else {
+                      add_object_to_route(ev, generator)
+                  }
               })
               return marker
           })
@@ -2703,6 +2780,7 @@ _route:
           if(!group)
               return
           group.invoke('remove')
+          delete ALL_MARKERS[key]
       }
 
 function indent_size(s) {

@@ -3419,8 +3419,10 @@ function add_object_to_route(ev, yaml_generator) {
       function switch_layer(level) {
           if(level == map_el.level)
               return;
-          baseMapLayers[level].addTo(map_el.map);
+          // This sets map_el.level tp level (in baselayerchange)
+          //   remove needs to come before addTo()
           map_el.map.removeLayer(baseMapLayers[map_el.level])
+          baseMapLayers[level].addTo(map_el.map);
           map_el.level = level;
       }
       map_el.map.on('baselayerchange', (ev) => {

@@ -1534,15 +1534,26 @@ _route:
           return NAMES[name] || name
       }
       const search_debounce = debounce(search, 250)
-      const OBJMAP_MARKERS = L.layerGroup();
+      const OBJMAP_MARKERS = { Sky: L.layerGroup(), Surface: L.layerGroup(), Depths: L.layerGroup() }
       const TOTK_URL = "https://radar-totk.zeldamods.org/objs/MainAndMinusField/?q=";
       // =seeds&withMapNames=false&limit=2000
+      function clear_objmap_markers() {
+          let layers = Object.values(OBJMAP_MARKERS)
+          layers.forEach(v => v.invoke('remove'))
+          layers.forEach(v => v.clearLayers())
+      }
+      function switch_layer_objmap_markers() {
+          let layers = Object.values(OBJMAP_MARKERS)
+          layers.forEach(v => v.invoke('remove'))
+          let current_layer = map_el.level
+          OBJMAP_MARKERS[current_layer].invoke('addTo', map_el.map)
+      }
       async function search(value) {
           if(value.trim() == ""){
-              OBJMAP_MARKERS.invoke('remove')
-              OBJMAP_MARKERS.clearLayers();
+              clear_objmap_markers()
+              return
           }
-          const url = `${TOTK_URL}${value}&withMapNames=false&limit=2000`;
+          const url = `${TOTK_URL}${value}&withMapNames=false&limit=20000`;
           let objs;
           try {
               const res = await fetch(url);
@@ -1551,9 +1562,7 @@ _route:
               warn(e);
               return;
           }
-          OBJMAP_MARKERS.invoke('remove')
-          OBJMAP_MARKERS.clearLayers();
-
+          clear_objmap_markers()
           let click_behavior = document.querySelector('input[name="map_item_click"]:checked').value
           const click_copy_loc = document.getElementById("copy_location").value
           const click_add_item = document.getElementById("add_to_route").value
@@ -1570,12 +1579,11 @@ _route:
                   ]
                   return lines.join("\n") + "\n"
               }
-
+              let layer = getObjectLayer(obj)
               const m = L.circleMarker(
                   [obj.pos[2],obj.pos[0]],
                   {radius: 6, color: '#ff2222'})
                     .bindTooltip(`<div>${name}</div><div style="font-size:0.9em;">${text}</div>`)
-                    .addTo(map_el.map)
                     .on('click', (ev) => {
                         if(click_behavior == click_copy_loc) {
                             const pos = `[${obj.pos[0]}, ${obj.pos[1]}, ${-obj.pos[2]}]`;
@@ -1585,9 +1593,24 @@ _route:
                         }
 
                     });
-              OBJMAP_MARKERS.addLayer(m);
+              OBJMAP_MARKERS[layer].addLayer(m);
           }
+          switch_layer_objmap_markers()
       }
+
+      function getObjectLayer(obj) {
+          // Return names of layers that match the levels/layers of the basemaps
+          if(obj.fieldarea) {
+              if(obj.fieldarea.startsWith("Sky"))
+                  return "Sky"
+              if(obj.fieldarea.startsWith("Surface"))
+                  return "Surface"
+              if(obj.fieldarea.startsWith("Depths") || obj.fieldarea.startsWith("Cave"))
+                  return "Depths"
+          }
+          return "Surface"
+      }
+
       document.getElementById('search').addEventListener('input', (ev) => {
           search_debounce(ev.target.value)
       });
@@ -2737,7 +2760,9 @@ _route:
           }
           return items;
       }
-      const ALL_MARKERS = {};
+
+      const ALL_MARKERS = {Sky: {}, Surface: {}, Depths: {}};
+
       function show_type(key_base) {
           const items = meta_get(key_base);
           if(!items)
@@ -2748,9 +2773,15 @@ _route:
           let click_text = Object.fromEntries([[click_copy_loc, "Copy position"], [click_add_item, "Insert item after current"]])
           let text = click_text[click_behavior]
 
-          const group = Object.keys(items).filter(key => {
-              return ! counter_has(`${key_base}::${key}`)
-          }).map(key => {
+          for(const key of Object.keys(ALL_MARKERS)) {
+              ALL_MARKERS[key][key_base] = L.layerGroup()
+          }
+
+          for(const key of Object.keys(items)) {
+              if( counter_has(`${key_base}::${key}`)) {
+                  console.log("counter missing", `${key_base}::${key}`)
+                  continue
+              }
               const v = items[key];
               const obj = v
               let tooltip = (v.DisplayName != key) ? `${v.DisplayName} ${key}` : key;
@@ -2770,17 +2801,35 @@ _route:
                       add_object_to_route(ev, generator)
                   }
               })
-              return marker
-          })
-          ALL_MARKERS[key_base] = L.layerGroup(group);
-          ALL_MARKERS[key_base].invoke('addTo', map_el.map);
+              let elev = obj.pos[1]
+              let layer = "Surface"
+              if(elev < -15) { layer = "Depths" }
+              if(elev > 800) { layer = "Sky" }
+              ALL_MARKERS[layer][key_base].addLayer(marker)
+          }
+          //ALL_MARKERS[key_base] = L.layerGroup(group);
+          const current_layer = map_el.level
+          ALL_MARKERS[current_layer][key_base].invoke('addTo', map_el.map);
+      }
+      function switch_layer_missing_items() {
+          for(const level of Object.values(ALL_MARKERS)) {
+              for(const group of Object.values(level)) {
+                  group.invoke('remove')
+              }
+          }
+          const current_layer = map_el.level
+          for(const group of Object.values(ALL_MARKERS[current_layer])) {
+              group.invoke('addTo', map_el.map);
+          }
       }
       function hide_type(key) {
-          const group = ALL_MARKERS[key];
-          if(!group)
-              return
-          group.invoke('remove')
-          delete ALL_MARKERS[key]
+          for(const level of Object.values(ALL_MARKERS)) {
+              const group = level[key];
+              if(!group)
+                  continue
+              group.invoke('remove')
+              delete level[key]
+          }
       }
 
 function indent_size(s) {
@@ -3236,7 +3285,7 @@ function add_object_to_route(ev, yaml_generator) {
                   }
                   else {
                       el.innerHTML = progress[key] + `<div style="font-size: 50%; color: #888;">${total}</div>`;
-                      if(progress[key] >= total) {
+                      if(progress[key] >= total && progress[key] < total+10) {
                           el.classList.add("complete")
                       } else {
                           el.classList.remove("complete")
@@ -3371,14 +3420,15 @@ function add_object_to_route(ev, yaml_generator) {
       function switch_layer(level) {
           if(level == map_el.level)
               return;
-          map_el.map.removeLayer(baseMapLayers[map_el.level])
           baseMapLayers[level].addTo(map_el.map);
+          map_el.map.removeLayer(baseMapLayers[map_el.level])
           map_el.level = level;
       }
-
       map_el.map.on('baselayerchange', (ev) => {
           switch_segments(ev.name);
           map_el.level = ev.name;
+          switch_layer_objmap_markers()
+          switch_layer_missing_items()
       });
 
       function scroll_editor_to_line(line) {

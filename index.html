@@ -1591,7 +1591,6 @@ _route:
                         } else {
                             add_object_to_route(ev, generator)
                         }
-
                     });
               OBJMAP_MARKERS[layer].addLayer(m);
           }
@@ -1603,9 +1602,9 @@ _route:
           if(obj.fieldarea) {
               if(obj.fieldarea.startsWith("Sky"))
                   return "Sky"
-              if(obj.fieldarea.startsWith("Surface"))
+              if(obj.fieldarea.startsWith("Surface") || obj.fieldarea.startsWith("Cave"))
                   return "Surface"
-              if(obj.fieldarea.startsWith("Depths") || obj.fieldarea.startsWith("Cave"))
+              if(obj.fieldarea.startsWith("Depths"))
                   return "Depths"
           }
           return "Surface"

@@ -83,7 +83,7 @@ for r in data:
         name = f"D{d:02d}"
         d += 1
     elif r['pos'][1] > 800:
-        name = f"S{d:02d}"
+        name = f"S{s:02d}"
         s += 1
     else:
         name = f"G{g:02d}"

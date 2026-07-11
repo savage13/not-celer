@@ -1117,7 +1117,7 @@ _route:
           }
           check_splits() {
               this.once_func.Run = (data) => {
-                  console.log("check splits", data)
+                  //console.log("check splits", data)
                   const els = document.getElementsByClassName("segment_line");
                   let count = 0;
                   for(const el of els) {
@@ -1278,7 +1278,6 @@ _route:
           }
           check_splits() {
               this.once_func.Run = (data) => {
-                  //return
                   console.log("check splits", data)
                   const els = document.getElementsByClassName("segment_line");
                   let count = 0;
@@ -1287,7 +1286,7 @@ _route:
                           count += 1
                       }
                   }
-                  const timer_count = data.Data.Run.segment_names.length
+                  const timer_count = data.Data.response.Run.segment_names.length
                   if(count != timer_count) {
                       alert(`Timer splits (${timer_count}) do not match Route (${count})`)
                   }

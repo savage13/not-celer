@@ -1227,15 +1227,17 @@ _route:
                   let event = undefined
                   const data = JSON.parse(message.data)
                   //console.log("MSG", data)
-                  if(data.Data) {
-                      const d = data.Data
+                  if(data.Data && data.Data.response) {
+                      const d = data.Data.response
                       //console.log("MSG (d)", d)
                       event = Object.keys(d)[0]
+                      //console.log('Response', d)
                       if(d.Run) {
                           self.run_data = d.Run
                       } else if(d.CurrentSeg !== undefined) {
                           self.set_segment( d.CurrentSeg )
                       } else if(d.IsRunning !== undefined) {
+                          //console.log("IsRunning", d.IsRunning)
                           if(d.IsRunning)
                               self.set_status("run")
                           else
@@ -1276,6 +1278,7 @@ _route:
           }
           check_splits() {
               this.once_func.Run = (data) => {
+                  //return
                   console.log("check splits", data)
                   const els = document.getElementsByClassName("segment_line");
                   let count = 0;
@@ -1310,14 +1313,21 @@ _route:
               this._segment.textContent = this.cur_seg
           }
           send(data) {
-              if(this.ws && this.ws.readyState == 1)
+              if(this.ws && this.ws.readyState == 1) {
                   this.ws.send(JSON.stringify(data))
+              } else {
+                  console.log("Hail not ready",this.ws, this.ws?.readyState)
+              }
+          }
+          request(kind) {
+              const method = "Real"
+              this.send({Data: {request: kind, method }})
           }
           status() {
-              this.send({Data: "CurrentSeg"})
-              this.send({Data: "IsRunning"})
+              this.request("CurrentSeg")
+              this.request("IsRunning")
           }
-          run() { this.send({Data: "Run"}) }
+          run() { this.request("Run") }
           reset() { this.send({Change: "Reset"}) }
           pause() { this.send({Change: "Pause"}) }
           close() {
@@ -1344,7 +1354,7 @@ _route:
               else
                   this.on_func.CurrentSeg = func
               console.log("SEND for Current Segment")
-              this.send({Data: "CurrentSeg"})
+              this.request("CurrentSeg")
           }
       }
 
@@ -2397,6 +2407,7 @@ _route:
       }
       let PROGRESS_TYPES = PROGRESS_TYPES_DEFAULT
       function set_progress_bar_items() {
+          let status = document.getElementById("split_status")
           let pbar = document.getElementById('progress')
           pbar.replaceChildren()
           //let top = document.createElement('div')
@@ -2412,11 +2423,7 @@ _route:
               let tel = document.createElement('div')
               tel.classList.add("td")
               if(type == "split_segment") {
-                  let tim = document.createElement('div')
-                  tim.id = 'split_status'
-                  tim.classList.add('status_unknown')
-                  tim.title = "Click to reconnect"
-                  tel.appendChild(tim)
+                  tel.appendChild(status)
               } else {
                   let tim = document.createElement('img')
                   tim.src = PROGRESS_TYPES_IMG[type]

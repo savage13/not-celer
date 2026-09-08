@@ -3290,7 +3290,7 @@ function add_object_to_route(ev, yaml_generator) {
                   }
                   else {
                       el.innerHTML = progress[key] + `<div style="font-size: 50%; color: #888;">${total}</div>`;
-                      if(progress[key] >= total && progress[key] < total+10) {
+                      if(progress[key] >= total) { // && progress[key] < total+10) {
                           el.classList.add("complete")
                       } else {
                           el.classList.remove("complete")
